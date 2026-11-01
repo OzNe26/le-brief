@@ -49,7 +49,8 @@ def slug(t):
 def fetch_logo(src, favicon=""):
     """Récupère un logo et l'enregistre dans logos/. Ordre : logo défini à la main, Wikipédia, radio-browser, favicon du site."""
     cands = []
-    if src.get("logo"): cands.append(src["logo"])
+    lg = src.get("logo")
+    if lg: cands.extend(lg if isinstance(lg, list) else [lg])
     for w in src.get("wiki", []):
         lang, title = w.split(":", 1)
         try:
