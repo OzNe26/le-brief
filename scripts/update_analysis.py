@@ -11,16 +11,16 @@ ROOT = __file__.rsplit("/scripts/", 1)[0]
 UA = {"User-Agent": "Mozilla/5.0 (compatible; LeBriefBot/1.0; +https://ozne26.github.io/le-brief/)"}
 
 ASSETS = [
-    {"id": "BTC", "name": "Bitcoin", "type": "crypto", "pair": "BTCUSDT", "cg": "bitcoin", "kw": ["bitcoin", "btc"]},
-    {"id": "ETH", "name": "Ethereum", "type": "crypto", "pair": "ETHUSDT", "cg": "ethereum", "kw": ["ethereum", "ether ", " eth"]},
-    {"id": "SOL", "name": "Solana", "type": "crypto", "pair": "SOLUSDT", "cg": "solana", "kw": ["solana", " sol "]},
-    {"id": "XRP", "name": "XRP", "type": "crypto", "pair": "XRPUSDT", "cg": "ripple", "kw": ["xrp", "ripple"]},
-    {"id": "BNB", "name": "BNB", "type": "crypto", "pair": "BNBUSDT", "cg": "binancecoin", "kw": ["bnb", "binance"]},
-    {"id": "NVDA", "name": "Nvidia", "type": "action", "yahoo": "NVDA", "stooq": "nvda.us", "kw": ["nvidia", "nvda"]},
-    {"id": "AAPL", "name": "Apple", "type": "action", "yahoo": "AAPL", "stooq": "aapl.us", "kw": ["apple", "aapl", "iphone"]},
-    {"id": "TSLA", "name": "Tesla", "type": "action", "yahoo": "TSLA", "stooq": "tsla.us", "kw": ["tesla", "tsla", "musk"]},
-    {"id": "MSFT", "name": "Microsoft", "type": "action", "yahoo": "MSFT", "stooq": "msft.us", "kw": ["microsoft", "msft"]},
-    {"id": "AMZN", "name": "Amazon", "type": "action", "yahoo": "AMZN", "stooq": "amzn.us", "kw": ["amazon", "amzn", "aws"]},
+    {"id": "BTC", "name": "Bitcoin", "type": "crypto", "pair": "BTCUSDT", "cg": "bitcoin", "logo": ["https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC.svg"], "kw": ["bitcoin", "btc"]},
+    {"id": "ETH", "name": "Ethereum", "type": "crypto", "pair": "ETHUSDT", "cg": "ethereum", "logo": ["https://s3-symbol-logo.tradingview.com/crypto/XTVCETH.svg"], "kw": ["ethereum", "ether ", " eth"]},
+    {"id": "SOL", "name": "Solana", "type": "crypto", "pair": "SOLUSDT", "cg": "solana", "logo": ["https://s3-symbol-logo.tradingview.com/crypto/XTVCSOL.svg"], "kw": ["solana", " sol "]},
+    {"id": "XRP", "name": "XRP", "type": "crypto", "pair": "XRPUSDT", "cg": "ripple", "logo": ["https://s3-symbol-logo.tradingview.com/crypto/XTVCXRP.svg"], "kw": ["xrp", "ripple"]},
+    {"id": "BNB", "name": "BNB", "type": "crypto", "pair": "BNBUSDT", "cg": "binancecoin", "logo": ["https://s3-symbol-logo.tradingview.com/crypto/XTVCBNB.svg"], "kw": ["bnb", "binance"]},
+    {"id": "NVDA", "name": "Nvidia", "type": "action", "yahoo": "NVDA", "logo": ["https://s3-symbol-logo.tradingview.com/nvidia.svg"], "domain": "nvidia.com", "stooq": "nvda.us", "kw": ["nvidia", "nvda"]},
+    {"id": "AAPL", "name": "Apple", "type": "action", "yahoo": "AAPL", "logo": ["https://s3-symbol-logo.tradingview.com/apple.svg"], "domain": "apple.com", "stooq": "aapl.us", "kw": ["apple", "aapl", "iphone"]},
+    {"id": "TSLA", "name": "Tesla", "type": "action", "yahoo": "TSLA", "logo": ["https://s3-symbol-logo.tradingview.com/tesla.svg"], "domain": "tesla.com", "stooq": "tsla.us", "kw": ["tesla", "tsla", "musk"]},
+    {"id": "MSFT", "name": "Microsoft", "type": "action", "yahoo": "MSFT", "logo": ["https://s3-symbol-logo.tradingview.com/microsoft.svg"], "domain": "microsoft.com", "stooq": "msft.us", "kw": ["microsoft", "msft"]},
+    {"id": "AMZN", "name": "Amazon", "type": "action", "yahoo": "AMZN", "logo": ["https://s3-symbol-logo.tradingview.com/amazon.svg"], "domain": "amazon.com", "stooq": "amzn.us", "kw": ["amazon", "amzn", "aws"]},
 ]
 
 def get(url, headers=None, data=None, timeout=25):
@@ -126,6 +126,38 @@ def rule_text(a, x, news):
     if news: t.append(f"Côté actu : « {news[0]['titre']} » ({news[0]['source']}).")
     return " ".join(t)
 
+
+def img_kind(data):
+    if data[:8] == b"\x89PNG\r\n\x1a\n": return "png"
+    if data[:3] == b"\xff\xd8\xff": return "jpg"
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP": return "webp"
+    if b"<svg" in data[:800].lower(): return "svg"
+    return None
+
+def fetch_logo(a):
+    cands = list(a.get("logo", []))
+    if a["type"] == "crypto":
+        try:
+            j = json.loads(get(f"https://api.coingecko.com/api/v3/coins/{a['cg']}?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false"))
+            if j.get("image", {}).get("large"): cands.append(j["image"]["large"])
+        except Exception:
+            pass
+    if a.get("domain"): cands.append(f"https://www.google.com/s2/favicons?domain={a['domain']}&sz=128")
+    os.makedirs(f"{ROOT}/logos/assets", exist_ok=True)
+    for u in cands:
+        try:
+            data = get(u)
+            k = img_kind(data)
+            if not k or len(data) < 200: continue
+            path = f"logos/assets/{a['id'].lower()}.{k}"
+            for old in os.listdir(f"{ROOT}/logos/assets"):
+                if old.startswith(a["id"].lower() + ".") and f"logos/assets/{old}" != path: os.remove(f"{ROOT}/logos/assets/{old}")
+            open(f"{ROOT}/{path}", "wb").write(data)
+            return path
+        except Exception:
+            continue
+    return ""
+
 # ---------------- Actus liées ----------------
 def related_news(a):
     try:
@@ -183,7 +215,7 @@ def main():
             closes, highs, lows, src = crypto_closes(a) if a["type"] == "crypto" else stock_closes(a)
             x = analyse(a, closes, highs, lows)
             news = related_news(a)
-            out["assets"].append({"id": a["id"], "name": a["name"], "type": a["type"], "source": src, "data": x, "news": news,
+            out["assets"].append({"id": a["id"], "name": a["name"], "type": a["type"], "source": src, "data": x, "news": news, "logo": fetch_logo(a),
                                   "text": rule_text(a, x, news)})
         except Exception as e:
             out["errors"].append(f"{a['id']} : {str(e)[:160]}")
