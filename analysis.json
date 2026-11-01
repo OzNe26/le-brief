@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T22:19:58+00:00",
+ "updatedAt": "2026-11-01T22:20:47+00:00",
  "assets": [
   {
    "id": "BTC",
@@ -7,18 +7,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 77712.27,
+    "price": 77685.21,
     "ch": {
-     "1j": 0.16788683769770607,
-     "7j": -3.046407238857052,
-     "30j": -8.052413917459711,
-     "1an": 14.885221618073619
+     "1j": 0.13300762212689055,
+     "7j": -3.0801672129269875,
+     "30j": -8.084430762153517,
+     "1an": 14.845217715253845
     },
-    "sma20": 80904.307,
-    "sma50": 81968.9438,
-    "sma200": 73193.59795,
-    "rsi": 36.17456912473104,
-    "vol": 27.708227674699316,
+    "sma20": 80902.954,
+    "sma50": 81968.4026,
+    "sma200": 73193.46265,
+    "rsi": 36.02935392042568,
+    "vol": 27.701639653194377,
     "support": 76325.98,
     "resistance": 84898.0,
     "hi52": 87395.67,
@@ -59,7 +59,7 @@
      77991.89,
      77368.77,
      77582.02,
-     77712.27
+     77685.21
     ]
    },
    "news": [
@@ -88,7 +88,7 @@
      "ts": "2026-11-01T18:50:38+00:00"
     }
    ],
-   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,0 % et sur 30 jours -8,1 %. À surveiller : le support autour de 76 326 $ et la résistance vers 84 898 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Chute du bitcoin : pourquoi la crypto baisse aujourd'hui » (CryptoTicker.io)."
+   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,1 % et sur 30 jours -8,1 %. À surveiller : le support autour de 76 326 $ et la résistance vers 84 898 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Chute du bitcoin : pourquoi la crypto baisse aujourd'hui » (CryptoTicker.io)."
   },
   {
    "id": "ETH",
@@ -96,18 +96,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 2257.06,
+    "price": 2254.62,
     "ch": {
-     "1j": 0.062066091520884825,
-     "7j": -3.1250670638275913,
-     "30j": -15.421252421690868,
-     "1an": 15.284346875606536
+     "1j": -0.04610623941551095,
+     "7j": -3.22979393700078,
+     "30j": -15.512686474879999,
+     "1an": 15.159718462371409
     },
-    "sma20": 2372.034,
-    "sma50": 2516.8632000000002,
-    "sma200": 2158.9056,
-    "rsi": 31.915646454897683,
-    "vol": 35.6790255575764,
+    "sma20": 2371.912,
+    "sma50": 2516.8144,
+    "sma200": 2158.8934,
+    "rsi": 31.607554670459365,
+    "vol": 35.658067035830285,
     "support": 2174.08,
     "resistance": 2538.52,
     "hi52": 2807.34,
@@ -148,7 +148,7 @@
      2253.13,
      2245.54,
      2255.66,
-     2257.06
+     2254.62
     ]
    },
    "news": [
@@ -177,7 +177,7 @@
      "ts": "2026-11-01T13:00:00+00:00"
     }
    ],
-   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,1 % et sur 30 jours -15,4 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 539 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : Les investisseurs désertent les ETF Ethereum en octobre » (Cointribune)."
+   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,2 % et sur 30 jours -15,5 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 539 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : Les investisseurs désertent les ETF Ethereum en octobre » (Cointribune)."
   },
   {
    "id": "SOL",
@@ -185,18 +185,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 93.59,
+    "price": 93.36,
     "ch": {
-     "1j": -2.0410299351057204,
-     "7j": -7.702169625246547,
-     "30j": -21.120943952802364,
-     "1an": 13.04505375045295
+     "1j": -2.2817667992463986,
+     "7j": -7.928994082840246,
+     "30j": -21.314791403286982,
+     "1an": 12.767242420582182
     },
-    "sma20": 102.16749999999999,
-    "sma50": 109.0108,
-    "sma200": 88.89625,
-    "rsi": 27.79273949875011,
-    "vol": 41.52814070531043,
+    "sma20": 102.15599999999999,
+    "sma50": 109.0062,
+    "sma200": 88.8951,
+    "rsi": 27.52625888316871,
+    "vol": 41.62823833935943,
     "support": 92.34,
     "resistance": 109.2,
     "hi52": 124.95,
@@ -238,7 +238,7 @@
      95.64,
      96.38,
      95.54,
-     93.59
+     93.36
     ]
    },
    "news": [
@@ -261,7 +261,7 @@
      "ts": "2026-11-01T08:54:00+00:00"
     }
    ],
-   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,7 % et sur 30 jours -21,1 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (28) : zone de survente, rebond technique possible. Côté actu : « Cours Solana : la crypto SOL se stabilise près de 95,27 $ sous la résistance » (Actu Crypto .info)."
+   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,9 % et sur 30 jours -21,3 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (28) : zone de survente, rebond technique possible. Côté actu : « Cours Solana : la crypto SOL se stabilise près de 95,27 $ sous la résistance » (Actu Crypto .info)."
   },
   {
    "id": "XRP",
@@ -269,18 +269,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 1.2462,
+    "price": 1.2446,
     "ch": {
-     "1j": -0.45530793194344943,
-     "7j": -3.8574294090418126,
-     "30j": -16.063851283087494,
-     "1an": -10.55124892334195
+     "1j": -0.5831136672258208,
+     "7j": -3.980867150131162,
+     "30j": -16.171617161716167,
+     "1an": -10.666092449038189
     },
-    "sma20": 1.30549,
-    "sma50": 1.390968,
-    "sma200": 1.2767135,
-    "rsi": 36.41616292110476,
-    "vol": 43.73112065721884,
+    "sma20": 1.30541,
+    "sma50": 1.3909360000000002,
+    "sma200": 1.2767055,
+    "rsi": 36.23420441228981,
+    "vol": 43.728787646571746,
     "support": 1.2002,
     "resistance": 1.3992,
     "hi52": 1.6999,
@@ -321,7 +321,7 @@
      1.2377,
      1.2567,
      1.2519,
-     1.2462
+     1.2446
     ]
    },
    "news": [
@@ -338,7 +338,7 @@
      "ts": "2026-11-01T08:54:00+00:00"
     }
    ],
-   "text": "La tendance technique est plutôt négative : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -3,9 % et sur 30 jours -16,1 %. À surveiller : le support autour de 1,2002 $ et la résistance vers 1,3992 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Cours XRP : la crypto Ripple rebondit, mais le seuil de 1,26 $ bloque encore » (Actu Crypto .info)."
+   "text": "La tendance technique est plutôt négative : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -4,0 % et sur 30 jours -16,2 %. À surveiller : le support autour de 1,2002 $ et la résistance vers 1,3992 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Cours XRP : la crypto Ripple rebondit, mais le seuil de 1,26 $ bloque encore » (Actu Crypto .info)."
   },
   {
    "id": "BNB",
@@ -346,18 +346,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 705.78,
+    "price": 705.25,
     "ch": {
-     "1j": 0.25996164500319274,
-     "7j": -4.455184177395132,
-     "30j": -8.131467621217059,
-     "1an": 14.798308392973336
+     "1j": 0.1846722068328699,
+     "7j": -4.526932813494167,
+     "30j": -8.200455580865606,
+     "1an": 14.712101496421614
     },
-    "sma20": 729.7435,
-    "sma50": 748.6738,
-    "sma200": 655.5969,
-    "rsi": 39.404782559575914,
-    "vol": 40.05169389724316,
+    "sma20": 729.717,
+    "sma50": 748.6632000000001,
+    "sma200": 655.59425,
+    "rsi": 39.17529580846714,
+    "vol": 40.04014471705534,
     "support": 680.0,
     "resistance": 762.2,
     "hi52": 809.99,
@@ -398,7 +398,7 @@
      698.46,
      704.42,
      703.95,
-     705.78
+     705.25
     ]
    },
    "news": [
@@ -427,7 +427,7 @@
      "ts": "2026-11-01T17:57:00+00:00"
     }
    ],
-   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -4,5 % et sur 30 jours -8,1 %. À surveiller : le support autour de 680,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : +4 milliards $ quittent Binance après l’ouverture des retraits… crise de confiance ? » (Cointribune)."
+   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -4,5 % et sur 30 jours -8,2 %. À surveiller : le support autour de 680,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : +4 milliards $ quittent Binance après l’ouverture des retraits… crise de confiance ? » (Cointribune)."
   },
   {
    "id": "NVDA",
@@ -792,7 +792,7 @@
  ],
  "errors": [],
  "method": "règles",
- "ai": "Expecting value: line 1 column 1 (char 0)",
+ "ai": "réponse non JSON : OK\r\n",
  "mood": {
   "haussier": 3,
   "baissier": 1,
