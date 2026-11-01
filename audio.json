@@ -1,0 +1,542 @@
+{
+ "updatedAt": "2026-11-01T21:43:16+00:00",
+ "radios": [
+  {
+   "label": "franceinfo",
+   "cat": "Info",
+   "name": "franceinfo",
+   "url": "https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.m3u8?id=radiofrance",
+   "logo": "https://www.radiofrance.fr/s3/cruiser-production/2022/06/52e277e9-95f8-44c4-8fda-6dfabc337b12/1200x680_franceinfo-logo-rs.jpg",
+   "homepage": "https://www.radiofrance.fr/franceinfo",
+   "codec": "UNKNOWN",
+   "bitrate": 0,
+   "uuid": "0e9765da-71c6-41b5-b358-dddab24e302b"
+  },
+  {
+   "label": "France Inter",
+   "cat": "Info",
+   "name": "France Inter",
+   "url": "https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8?id=radiofrance",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/1200px-France_Inter_logo_2021.svg.png",
+   "homepage": "https://www.radiofrance.fr/franceinter",
+   "codec": "UNKNOWN",
+   "bitrate": 0,
+   "uuid": "33960c43-0464-44b4-abfa-73591ebf647f"
+  },
+  {
+   "label": "BFM Business",
+   "cat": "Éco & marchés",
+   "name": "BFM Business",
+   "url": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
+   "logo": "",
+   "homepage": "https://bfmbusiness.bfmtv.com/mediaplayer/live-audio/",
+   "codec": "MP3",
+   "bitrate": 256,
+   "uuid": "3a83c34b-ca9d-48c8-916e-9563216ddcdf"
+  },
+  {
+   "label": "RMC",
+   "cat": "Info & sport",
+   "name": "RMC FR",
+   "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+   "logo": "https://i1.wp.com/www.mediasportif.fr/wp-content/uploads/2014/05/Radio-RMC.jpg",
+   "homepage": "https://rmc.bfmtv.com/",
+   "codec": "MP3",
+   "bitrate": 128,
+   "uuid": "7a3a3989-8f26-44f7-9ae5-fa91e5cf4f9d"
+  },
+  {
+   "label": "Radio Classique",
+   "cat": "Éco & musique",
+   "name": "Radio Classique",
+   "url": "https://str0.creacast.com/classique1",
+   "logo": "",
+   "homepage": "https://www.radioclassique.fr/",
+   "codec": "MP3",
+   "bitrate": 128,
+   "uuid": "d1aa02d7-e611-4208-b38b-da21bc236cd8"
+  },
+  {
+   "label": "France Culture",
+   "cat": "Culture",
+   "name": "France Culture",
+   "url": "https://stream.radiofrance.fr/franceculture/franceculture_hifi.m3u8?id=radiofrance",
+   "logo": "https://www.radiofrance.fr/dist/favicons/logo-120.png",
+   "homepage": "https://www.radiofrance.fr/franceculture",
+   "codec": "UNKNOWN",
+   "bitrate": 0,
+   "uuid": "698ca170-093f-45aa-a7bb-4c809d04183d"
+  },
+  {
+   "label": "Bloomberg Radio",
+   "cat": "Marchés US",
+   "name": "Bloomberg 99.1/105.7 HD2",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBBRDCAAC.aac",
+   "logo": "https://www.bloombergradio.com/content/plugins/bloomberg-favicon/dist/img/amber-120x120.png",
+   "homepage": "https://www.bloombergradio.com/",
+   "codec": "AAC+",
+   "bitrate": 32,
+   "uuid": "2992ab47-a3d5-4ab2-9881-bf7657fa1c03"
+  },
+  {
+   "label": "FIP",
+   "cat": "Musique",
+   "name": "FIP Pop",
+   "url": "https://icecast.radiofrance.fr/fippop-hifi.aac",
+   "logo": "https://www.fip.fr/dist/favicons/logo-120.png",
+   "homepage": "https://www.fip.fr/pop/webradio",
+   "codec": "AAC",
+   "bitrate": 192,
+   "uuid": "76b129aa-45cc-46cf-b6b2-1fde08a2c8f9"
+  },
+  {
+   "label": "Mouv'",
+   "cat": "Musique",
+   "name": "Le Mouv'",
+   "url": "https://stream.radiofrance.fr/mouv/mouv.m3u8",
+   "logo": "https://www.radiofrance.fr/external/favicons/mouv/favicon.png",
+   "homepage": "https://www.radiofrance.fr/mouv",
+   "codec": "AAC",
+   "bitrate": 107,
+   "uuid": "cb072d4b-4860-41da-95e7-7de6d856079e"
+  },
+  {
+   "label": "NRJ",
+   "cat": "Musique",
+   "name": "Nrj Hits",
+   "url": "https://streaming.nrjaudio.fm/ou7xugf3s5gi?origine=playernrj&aw_0_req.userConsentV2=&aw_0_1st.station=NRJ-Hits",
+   "logo": "https://img.nrj.fr/8loJFyDgG_Gm_fgnk1fhkYIewhI=/medias%2F2021%2F06%2Flogo-nrj_60db2627d4729.svg",
+   "homepage": "https://www.nrj.fr/webradios/mur-des-radios/nrj-hits",
+   "codec": "AAC+",
+   "bitrate": 128,
+   "uuid": "36eba167-5c51-4421-98f0-d2cda24be928"
+  }
+ ],
+ "podcasts": [
+  {
+   "name": "La Martingale",
+   "author": "Orso Media",
+   "cat": "Finances perso",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5f/f7/ad/5ff7ad4f-8218-c9c9-c5d0-d15b05c9757d/mza_4765272428608991403.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/la-martingale/id1457342478?uo=4",
+   "feed": "https://feeds.audiomeans.fr/feed/647b907b-5a2f-4a11-94cb-591d604cb1b9.xml",
+   "query": "La Martingale Matthieu Stefani",
+   "episodes": [
+    {
+     "title": "#341 - Si Jancovici a raison, où mettre son argent ? - Virginie Wauquiez (Carbon4 Finance)",
+     "date": "2026-10-29T04:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/912e6121-83cf-430f-b7e2-ccab59366b14.mp3?_=1793029884&ps=647b907b-5a2f-4a11-94cb-591d604cb1b9",
+     "duration": "01:05:41",
+     "desc": "Virginie Wauquiez dirige Carbon4 Finance, cofondé par Jean-Marc Jancovici. Son métier : décortiquer les rapports des entreprises pour dire aux banques, assureurs et fonds de pension lesquelles survivront aux transitions climatiques et énergétiques, et lesquell…"
+    },
+    {
+     "title": "#340 - Anthropic à 2 000 milliards : opportunité du siècle ou bulle IA ? - Martin Pavanello",
+     "date": "2026-10-22T03:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/41d3d2d7-3ab8-4653-af42-08bbb2261806.mp3?_=1792488220&ps=647b907b-5a2f-4a11-94cb-591d604cb1b9",
+     "duration": "01:06:55",
+     "desc": "Anthropic s’apprête à entrer en bourse, pour ce qui pourrait être la plus grosse introduction de l’histoire. Mais derrière ces milliers de milliards de dollars, qui touche vraiment l’argent de l’IA ? Les labos, les fabricants de puces, les fournisseurs d’élect…"
+    },
+    {
+     "title": "#339 - Polymarket : tout savoir sur l’appli de paris interdite en France - Nicolas Vaiman",
+     "date": "2026-10-15T03:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/374f761e-b2e1-4bee-984c-eb3d4608bce9.mp3?_=1791966338&ps=647b907b-5a2f-4a11-94cb-591d604cb1b9",
+     "duration": "01:04:33",
+     "desc": "Et si les paris en ligne révélaient ce que les sondages et les médias ne voient pas encore ? De la victoire de Trump aux opérations militaires, les marchés de prédiction brassent des millions et font émerger des signaux parfois troublants. Plongée dans les cou…"
+    },
+    {
+     "title": "#338 - 12% avec l’immo : arnaque ou opportunité ? - Hugo Berthe",
+     "date": "2026-10-08T03:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/48a09d3f-b1e2-4c76-bbad-93ac2ca8b295.mp3?_=1791357544&ps=647b907b-5a2f-4a11-94cb-591d604cb1b9",
+     "duration": "59:33",
+     "desc": "Investir dans l’immobilier dès 1 €, avec des rendements annoncés pouvant atteindre 12 % brut par an : la promesse du crowdfunding immobilier a de quoi séduire. Mais derrière ces belles promesses, se dissimule un risque bel et bien présent (et inhérent à un tel…"
+    },
+    {
+     "title": "#337 - Les erreurs que font 90% des gens avec leurs cryptos - Julien Vallet",
+     "date": "2026-10-01T03:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/58be4185-f938-4c03-af2c-78234779c3c4.mp3?_=1790607365&ps=647b907b-5a2f-4a11-94cb-591d604cb1b9",
+     "duration": "01:06:59",
+     "desc": "Vous payez sans doute bien trop cher vos cryptos. Entre 1 et 1,5 % de frais sur la plupart des plateformes, plus le spread, ce coût caché que presque personne ne regarde. Côté news, avec MiCA, le Far West de la crypto est terminé. Binance ne peut plus exercer …"
+    },
+    {
+     "title": "#6 - L'opération légendaire qui a sauvé Burger King de la faillite - Hors-série avec Fundora",
+     "date": "2026-09-28T03:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/d52c0ba2-b086-4aa0-a95c-369f23670d15.mp3?_=1790333410&ps=647b907b-5a2f-4a11-94cb-591d604cb1b9",
+     "duration": "38:11",
+     "desc": "Dans cette nouvelle série en partenariat avec Fundora , on décortique tous les aspects du Private Equity en prenant des exemples concrets de la pop culture. En 2010, Burger King est en perte de vitesse, distancé par McDonald's. Un fonds brésilien, 3G Capital, …"
+    }
+   ]
+  },
+  {
+   "name": "Génération Do It Yourself",
+   "author": "Matthieu Stefani | Collision Productions",
+   "cat": "Business",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/c3/2b/6ec32b79-2560-40a5-3f5a-3fe7e677fa70/mza_7744718912297422250.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/g%C3%A9n%C3%A9ration-do-it-yourself/id1209142994?uo=4",
+   "feed": "https://feeds.audiomeans.fr/feed/b4a5ee3a-9230-4f9f-988d-2ae156a2d5a9.xml",
+   "query": "Génération Do It Yourself",
+   "episodes": [
+    {
+     "title": "#575 - David Foenkinos - Écrivain - S’en foutre, la définition du bonheur",
+     "date": "2026-11-01T03:30:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/639f7109-6569-4de3-ad90-dfae06b04775.mp3?_=1793376701",
+     "duration": "02:23:20",
+     "desc": "Notre nouveau film « Europe : il va falloir arrêter de subir 🇪🇺 » est dispo sur YouTube : https://taap.it/rewrosY Je suis drôle. C’est le titre du dernier livre de David Foenkinos. Ce n’est pas une autobiographie, et pourtant le titre lui va parfaitement. En d…"
+    },
+    {
+     "title": "[EXTRAIT] David Foenkinos - La Délicatesse : de 4 000 exemplaires à 1,5 million",
+     "date": "2026-11-01T03:25:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/468cf0d8-ca7a-417c-a76e-b6a00ffcc12a.mp3?_=1793370213",
+     "duration": "05:12",
+     "desc": "Notre nouveau film « Europe : il va falloir arrêter de subir 🇪🇺 » est dispo sur YouTube : https://taap.it/rewrosY Pour écouter l'épisode en entier, tapez \"#575 - David Foenkinos - Écrivain - Écrire sans ambition, réussir sans méthode\" Hébergé par Audiomeans. V…"
+    },
+    {
+     "title": "[HORS-SÉRIE] Dans les coulisses de notre film sur l'Europe \"Il va falloir arrêter de subir\"",
+     "date": "2026-10-28T03:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/c719b435-ac79-485d-876c-a0ef45326e36.mp3?_=1792759207",
+     "duration": "50:01",
+     "desc": "Notre nouveau film « Europe : il va falloir arrêter de subir 🇪🇺 » est dispo sur YouTube : https://taap.it/rewrosY Notre nouveau film \"Europe : il va falloir arrêter de subir\" : https://taap.it/rewrosY —————————————— « Les États-Unis innovent, la Chine produit,…"
+    },
+    {
+     "title": "#574 - Neil Zeghidour - Gradium - Le clavier est mort",
+     "date": "2026-10-25T03:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/13fbbc14-7f86-463c-b5e7-78588628885b.mp3?_=1792681335",
+     "duration": "02:28:50",
+     "desc": "Notre nouveau film « Europe : il va falloir arrêter de subir 🇪🇺 » est dispo sur YouTube : https://taap.it/rewrosY Lorsqu’il travaillait chez Google, Neil Zeghidour a inventé l’équivalent des LLM pour l’audio. La famille de modèles qu’on retrouve aujourd’hui de…"
+    },
+    {
+     "title": "[EXTRAIT] Neil Zeghidour - LA chose à faire pour rendre plus efficaces vos IA",
+     "date": "2026-10-25T02:55:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/84da9236-a47c-4995-bc1b-0dcd301c2d73.mp3?_=1792681221",
+     "duration": "14:13",
+     "desc": "Notre nouveau film « Europe : il va falloir arrêter de subir 🇪🇺 » est dispo sur YouTube : https://taap.it/rewrosY Pour écouter l'épisode en entier, tapez \"#574 - Neil Zeghidour - Gradium - Le clavier est mort\" sur votre plateforme d'écoute. Hébergé par Audiome…"
+    },
+    {
+     "title": "#573 - Jules Veyrat - Stoïk - L’apocalypse des cyberattaques est là",
+     "date": "2026-10-18T02:00:00+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/65284afe-dfc5-4efc-8d3e-c237213d7639.mp3?_=1792155475",
+     "duration": "02:46:28",
+     "desc": "Notre nouveau film « Europe : il va falloir arrêter de subir 🇪🇺 » est dispo sur YouTube : https://taap.it/rewrosY En septembre 2026, Stoïk a géré 200 cyberattaques en un mois, soit 7 par jour, week-ends compris. Depuis le début de l'année, la fréquence d'attaq…"
+    }
+   ]
+  },
+  {
+   "name": "Good Morning Business",
+   "author": "BFM Business",
+   "cat": "Éco & marchés",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f3/cd/62/f3cd629d-608a-a119-9ad3-ce0fe8eec22f/mza_11233104990739447590.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/good-morning-business/id82335643?uo=4",
+   "feed": "https://feeds.simplecast.com/GwKPZCN1",
+   "query": "Good Morning Business BFM",
+   "episodes": [
+    {
+     "title": "Le Pitch : Alba Service, des étudiants pour fleurir les tombes - 30/10",
+     "date": "2026-10-30T08:18:51+00:00",
+     "audio": "https://altice.simplecastaudio.com/509f71a2-0993-4658-9ef0-c38814e60e9e/episodes/ec6bda43-78dd-486b-aa24-6d728244ed35/audio/128/default.mp3?aid=rss_feed&awCollectionId=509f71a2-0993-4658-9ef0-c38814e60e9e&awEpisodeId=ec6bda43-78dd-486b-aa24-6d728244ed35&category=Business%2CNews&episode_published_at=2026-10-30T08%3A18%3A51&episode_title=Le+Pitch+%3A+Alba+Service%2C+des+%C3%A9tudiants+pour+fleurir+les+tombes+-+30%2F10&feed=GwKPZCN1&network=291091218710&podcast_title=Good+Morning+Business",
+     "duration": "00:04:46",
+     "desc": "Marine Corbasson, cofondatrice d'Alba Service, était l'invitée de Sandra Gondoin dans Good Morning Business, ce vendredi 30 octobre. Elles sont revenues sur Alba Service, une entreprise d'étudiants qui s'occupe de fleurir et nettoyer les tombes partout en Fran…"
+    },
+    {
+     "title": "L'intégrale de Good Morning Business du vendredi 30 octobre",
+     "date": "2026-10-30T08:16:06+00:00",
+     "audio": "https://altice.simplecastaudio.com/509f71a2-0993-4658-9ef0-c38814e60e9e/episodes/9ee8c7ca-f1a7-4312-94cf-f7f015216454/audio/128/default.mp3?aid=rss_feed&awCollectionId=509f71a2-0993-4658-9ef0-c38814e60e9e&awEpisodeId=9ee8c7ca-f1a7-4312-94cf-f7f015216454&category=Business%2CNews&episode_published_at=2026-10-30T08%3A16%3A06&episode_title=L%27int%C3%A9grale+de+Good+Morning+Business+du+vendredi+30+octobre&feed=GwKPZCN1&network=291091218710&podcast_title=Good+Morning+Business",
+     "duration": "01:36:24",
+     "desc": "Retrouvez l'intégrale de l'émission Good Morning Business du vendredi 30 octobre, présentée par Sandra Gandoin sur BFM Business."
+    },
+    {
+     "title": "Culture IA : Des gouttes... pour remplacer les lunettes - 30/10",
+     "date": "2026-10-30T07:51:25+00:00",
+     "audio": "https://altice.simplecastaudio.com/509f71a2-0993-4658-9ef0-c38814e60e9e/episodes/3c0e09be-d8d0-4dc6-aae7-a701e804b5bc/audio/128/default.mp3?aid=rss_feed&awCollectionId=509f71a2-0993-4658-9ef0-c38814e60e9e&awEpisodeId=3c0e09be-d8d0-4dc6-aae7-a701e804b5bc&category=Business%2CNews&episode_published_at=2026-10-30T07%3A51%3A25&episode_title=Culture+IA+%3A+Des+gouttes...+pour+remplacer+les+lunettes+-+30%2F10&feed=GwKPZCN1&network=291091218710&podcast_title=Good+Morning+Business",
+     "duration": "00:03:47",
+     "desc": ""
+    },
+    {
+     "title": "French Tech : Wormsensing, solution de maintenance prédictive - 30/10",
+     "date": "2026-10-30T07:37:55+00:00",
+     "audio": "https://altice.simplecastaudio.com/509f71a2-0993-4658-9ef0-c38814e60e9e/episodes/06dac184-6407-47d7-a46c-7280216d84b5/audio/128/default.mp3?aid=rss_feed&awCollectionId=509f71a2-0993-4658-9ef0-c38814e60e9e&awEpisodeId=06dac184-6407-47d7-a46c-7280216d84b5&category=Business%2CNews&episode_published_at=2026-10-30T07%3A37%3A55&episode_title=French+Tech+%3A+Wormsensing%2C+solution+de+maintenance+pr%C3%A9dictive+-+30%2F10&feed=GwKPZCN1&network=291091218710&podcast_title=Good+Morning+Business",
+     "duration": "00:06:38",
+     "desc": ""
+    },
+    {
+     "title": "La tribune éco : Christine Lagarde, un départ très politique - 30/10",
+     "date": "2026-10-30T07:27:26+00:00",
+     "audio": "https://altice.simplecastaudio.com/509f71a2-0993-4658-9ef0-c38814e60e9e/episodes/fd4d25ff-3bb5-4c42-9264-570f8e9b0a82/audio/128/default.mp3?aid=rss_feed&awCollectionId=509f71a2-0993-4658-9ef0-c38814e60e9e&awEpisodeId=fd4d25ff-3bb5-4c42-9264-570f8e9b0a82&category=Business%2CNews&episode_published_at=2026-10-30T07%3A27%3A26&episode_title=La+tribune+%C3%A9co+%3A+Christine+Lagarde%2C+un+d%C3%A9part+tr%C3%A8s+politique+-+30%2F10&feed=GwKPZCN1&network=291091218710&podcast_title=Good+Morning+Business",
+     "duration": "00:03:21",
+     "desc": "Ce vendredi 30 octobre, retrouvez le replay de la tribune éco sur BFM Business"
+    },
+    {
+     "title": "Anthony Morlet-Lavidalie (Rexecode) : Croissance française, le PIB a reculé de 0,1% au T3 - 30/10",
+     "date": "2026-10-30T07:06:37+00:00",
+     "audio": "https://altice.simplecastaudio.com/509f71a2-0993-4658-9ef0-c38814e60e9e/episodes/b3917338-1166-473e-ac12-ffd0c1063626/audio/128/default.mp3?aid=rss_feed&awCollectionId=509f71a2-0993-4658-9ef0-c38814e60e9e&awEpisodeId=b3917338-1166-473e-ac12-ffd0c1063626&category=Business%2CNews&episode_published_at=2026-10-30T07%3A06%3A37&episode_title=Anthony+Morlet-Lavidalie+%28Rexecode%29+%3A+Croissance+fran%C3%A7aise%2C+le+PIB+a+recul%C3%A9+de+0%2C1%25+au+T3+-+30%2F10&feed=GwKPZCN1&network=291091218710&podcast_title=Good+Morning+Business",
+     "duration": "00:09:06",
+     "desc": "Anthony Morlet-Lavidalie, économiste chez Rexecode, était l'invité de Sandra Gandoin dans Good Morning Business, ce vendredi 30 octobre. Il aborde le recul du PIB au T3, l'incertitude politique et fiscale qui pèse sur l'économie et le taux de chômage qui augme…"
+    }
+   ]
+  },
+  {
+   "name": "Cryptoast - Bitcoin et Cryptomonnaies",
+   "author": "Cryptoast",
+   "cat": "Crypto",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/37/d1/57/37d15779-96d9-b298-d049-9e3fa3d5f811/mza_16456892789877801135.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/cryptoast-bitcoin-et-cryptomonnaies/id1511692988?uo=4",
+   "feed": "https://anchor.fm/s/1f189c68/podcast/rss",
+   "query": "Cryptoast podcast",
+   "episodes": [
+    {
+     "title": "« Notre système monétaire ne peut pas survivre » - Avec Yorick de Mombynes",
+     "date": "2026-10-25T15:32:00+00:00",
+     "audio": "https://anchor.fm/s/1f189c68/podcast/play/128038093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-25%2F434929460-44100-2-3020d991bc5b6.mp3",
+     "duration": "00:58:50",
+     "desc": "Notre système monétaire est-il condamné à s&#39;effondrer sous le poids de la dette et de la perte de valeur de notre argent ? Dans cet échange, Yorick de Mombynes décortique l&#39;impasse des monnaies traditionnelles et explique pourquoi Bitcoin pourrait bien…"
+    },
+    {
+     "title": "« On a retrouvé 266 000 € sur un vieux téléphone » - Frais cachés, régulation, MiCA : la vérité sur les exchanges avec Julien Vallet de Finst",
+     "date": "2026-10-10T18:50:59+00:00",
+     "audio": "https://anchor.fm/s/1f189c68/podcast/play/127262545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-10%2F433882161-44100-2-dc78087d8d60a.mp3",
+     "duration": "01:19:12",
+     "desc": "Dans cet épisode, Julien Vallet, cofondateur de Finst et ancien de DEGIRO, revient sur les coulisses du courtage crypto, entre régulation, anecdotes folles et réalités du marché. Découvrez son parcours pour convaincre ses anciens patrons d&#39;investir dans so…"
+    },
+    {
+     "title": "Échanges crypto / stablecoins bientôt taxés ? Lobbying, DeFi, USA... Avec Faustine Fleuret de Morpho",
+     "date": "2026-10-04T12:15:00+00:00",
+     "audio": "https://anchor.fm/s/1f189c68/podcast/play/126756868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F433252456-44100-2-fbeee7bfa32d.mp3",
+     "duration": "01:18:20",
+     "desc": "Dans cet épisode, Faustine Fleuret, directrice des affaires publiques chez Morpho, décrypte les menaces fiscales sur les stablecoins, le bras de fer entre banques et DeFi, ainsi que l&#39;évolution de la régulation entre l&#39;Europe et les États-Unis. Compren…"
+    },
+    {
+     "title": "Il quitte la Fondation Ethereum après 6 ans, pourquoi ? Avec Barnabé Monnot",
+     "date": "2026-08-21T14:20:26+00:00",
+     "audio": "https://anchor.fm/s/1f189c68/podcast/play/124538455/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-21%2F430273601-44100-2-94ded8781d1c8.mp3",
+     "duration": "00:54:40",
+     "desc": "Dans cet épisode, nous recevons Barnabé Monnot pour une plongée dans les coulisses de la Fondation Ethereum après plus de 6 ans passés là bas. Découvrez les raisons de son départ, les détails de la restructuration majeure du protocole et sa vision pour l&#39;a…"
+    },
+    {
+     "title": "Hyperliquid, marché crypto au plus bas - Quelles stratégies mettre en place ? Avec Pasheur",
+     "date": "2026-08-07T09:15:00+00:00",
+     "audio": "https://anchor.fm/s/1f189c68/podcast/play/123855191/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-6%2F429335565-44100-2-e5bafd7d8851c.mp3",
+     "duration": "01:05:31",
+     "desc": "Dans cette interview de Pasheur on explore l&#39;évolution d&#39;Hyperliquid depuis notre échange de l&#39;année dernière. Nous discutons des récentes mises à jour du protocole, notamment l&#39;intégration d&#39;actifs traditionnels. On aborde également les pe…"
+    },
+    {
+     "title": "Pourquoi Stripe a racheté Privy ? « Le paiement crypto va devenir invisible » Avec Henri Stern",
+     "date": "2026-07-25T12:19:00+00:00",
+     "audio": "https://anchor.fm/s/1f189c68/podcast/play/123212078/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F428470754-44100-2-e092e1a93122a.mp3",
+     "duration": "00:35:05",
+     "desc": "Plongez dans les coulisses du rachat stratégique de Privy par le géant Stripe. Henri Stern, fondateur de Privy, nous dévoile comment son infrastructure simplifie radicalement l&#39;accès aux cryptomonnaies en rendant les portefeuilles (wallets) invisibles pour…"
+    }
+   ]
+  },
+  {
+   "name": "Bankless",
+   "author": "Bankless",
+   "cat": "Crypto",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/7d/89/b1/7d89b1bf-d4dc-c8aa-894c-d2bc002c42be/mza_5764066019463168929.png/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/bankless/id1499409058?uo=4",
+   "feed": "https://feeds.flightcast.com/p83fuj0y0u58o82l41xei7zo.xml",
+   "query": "Bankless",
+   "episodes": [
+    {
+     "title": "$VVV Community Call | October",
+     "date": "2026-11-01T11:30:00+00:00",
+     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M66FKWXE3Z2K1GGE49M7EHAF.mp3",
+     "duration": "3814",
+     "desc": "Venice’s Head of Strategy, Jon joins David for the October $VVV community call to unpack Venice crossing 5M users and 1T daily tokens, $1M+ in monthly $VVV burns, the DeepSeek-powered growth surge, accelerating AI video demand, the new $VVV ETP, private AI in …"
+    },
+    {
+     "title": "Inside the $6 Billion Binance Hack | Ari Redbord",
+     "date": "2026-10-30T18:30:00+00:00",
+     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M6700KZFRW5P4QCYWYM1PFXZ.mp3",
+     "duration": "1859",
+     "desc": "Binance was hit by a $6 billion hack. What happens when the stolen crypto starts moving? TRM Labs' Ari Redbord joins David Hoffman to unpack the frantic first hours of the response, how stablecoin issuers froze billions, and the clues pointing investigators to…"
+    },
+    {
+     "title": "ROLLUP: Bitcoin to $57K? | Wall Street Bets on Hyperliquid | The Tokenization War | Zcash Drama",
+     "date": "2026-10-30T10:30:00+00:00",
+     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M654S1EP38WF5QQG9HBB56QC.mp3",
+     "duration": "4250",
+     "desc": "Bitcoin to $57K or a new bull market? Ryan and David unpack the wildly conflicting price predictions, Hyperliquid’s Wall Street breakthrough, the fight over tokenized stocks, Robinhood Chain’s revenue collapse, and Zcash’s governance controversy. --- 📣NEAR HAC…"
+    },
+    {
+     "title": "Wall Street, Regulation, and the Future of Money | J. Christopher Giancarlo",
+     "date": "2026-10-27T11:00:00+00:00",
+     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M5YACEJGQTGWMRJ2ZKHR6GVR.mp3",
+     "duration": "3627",
+     "desc": "Is crypto building a freer financial system, or giving Wall Street and Washington new ways to control it? Former CFTC Chairman Chris Giancarlo returns to Bankless to unpack crypto's political battles, why he believes Wall Street will move onto digital rails by…"
+    },
+    {
+     "title": "What Is Bitcoin Telling Us? | Michael Howell, Macro Analyst",
+     "date": "2026-10-26T10:30:00+00:00",
+     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M5VT71ZDRYW689Q6SBDV5X7F.mp3",
+     "duration": "4676",
+     "desc": "Could Bitcoin be signaling the next liquidity recovery before the rest of the market sees it? Global liquidity expert Michael Howell returns to Bankless to revisit his 2027 outlook, explain why Bitcoin's $70K level matters, and examine whether the next market …"
+    },
+    {
+     "title": "Black October! What Is Happening to the Internet? | Hari Mulackal & Odysseas Lamtzidis",
+     "date": "2026-10-24T13:27:32+00:00",
+     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M5P7Q9QV3ZXDWN2RETHHT3K5.mp3",
+     "duration": "2671",
+     "desc": "📣SPOTIFY PREMIUM RSS FEED | USE CODE: SPOTIFY24 https://bankless.cc/spotify-premium --- Is AI turning the entire internet into a dark forest? Security experts Hari Mulackal and Odysseas Lamtzidis join David Hoffman to unpack Black October, why AI-powered hacki…"
+    }
+   ]
+  },
+  {
+   "name": "L'Heure du Monde",
+   "author": "Le Monde",
+   "cat": "Actu",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/b4/9f/09b49f13-4c73-2e89-5bdd-117a5a787623/mza_10769402460129893157.jpeg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/lheure-du-monde/id1704984604?uo=4",
+   "feed": "https://feeds.acast.com/public/shows/68db9d2509b1c365e44318ca",
+   "query": "L'Heure du Monde",
+   "episodes": [
+    {
+     "title": "Un prix Albert Londres pour saluer les reportages de Bruno Meyerfeld sur les peuples autochtones d’Amazonie [REDIFF]",
+     "date": "2026-11-01T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/68db9d2509b1c365e44318ca/e/6ae4c4b5e57912cf6fb1e068/media.mp3",
+     "duration": "25:36",
+     "desc": "On appelle ça un « glotocide ». La disparition délibérée de langues du fait de décisions politiques ou économiques. Une tragédie qui touche le Brésil, l’un des dix pays les plus riches de la planète en matière de langues : 150 à 180 dialectes indigènes y sont …"
+    },
+    {
+     "title": "Présidentielle 2027 : une campagne sous le signe de la colère",
+     "date": "2026-10-31T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/68db9d2509b1c365e44318ca/e/6ae4792e61856eee59ab8d2c/media.mp3",
+     "duration": "37:50",
+     "desc": "A six mois du scrutin présidentiel, la défiance envers les responsables politiques atteint son paroxysme . Après des semaines de mobilisation, la colère exprimée par les lycéens a agrégé celle de centaines de milliers de Français, un peu partout sur le territo…"
+    },
+    {
+     "title": "Cinq ans de la loi de bioéthique : faut-il aller plus loin ?",
+     "date": "2026-10-30T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/68db9d2509b1c365e44318ca/e/6ae229424288e950ed26b0b0/media.mp3",
+     "duration": "24:03",
+     "desc": "« C’est une très bonne nouvelle, très attendue. » C’est par ces mots qu’Olivier Véran, ministre de la santé, annonçait déposer le décret autorisant la procréation médicalement assistée (PMA) aux couples de femmes et aux femmes seules, sur France Inter, le 29 s…"
+    },
+    {
+     "title": "Baisse de la natalité : comment les politiques comptent-ils y répondre ?",
+     "date": "2026-10-29T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/68db9d2509b1c365e44318ca/e/6ae2087d305baddee1539371/media.mp3",
+     "duration": "14:07",
+     "desc": "Plus d’un an avant l’échéance électorale, le premier ministre, Sébastien Lecornu, fait du « défi démographique » , « pratiquement un sujet de campagne présidentielle ». Ces dernières années, la natalité en France n’est plus synonyme de fierté pour les responsa…"
+    },
+    {
+     "title": "Baisse de la natalité : quel est le poids de l’infertilité ?",
+     "date": "2026-10-28T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/68db9d2509b1c365e44318ca/e/6ae0dbf5664593f806061fb7/media.mp3",
+     "duration": "15:23",
+     "desc": "Est-on lentement en train de devenir infertiles ? Les chiffres ne sont pas rassurants : les Français, comme d’autres populations dans le monde, éprouvent de plus en plus de difficultés à concevoir des enfants sans assistance médicale. En France, un couple sur …"
+    },
+    {
+     "title": "La société française maltraite-t-elle ses parents ?",
+     "date": "2026-10-27T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/68db9d2509b1c365e44318ca/e/6adf84a2b50147298bbbe67e/media.mp3",
+     "duration": "20:18",
+     "desc": "Les Français sont « les champions d’Europe du pessimisme parental ». C’est le constat d’une étude sociologique internationale , de l’International Social Survey programme, et du sociologue Romain Delès. A titre d’exemples : en 2012, 41 % des parents français e…"
+    }
+   ]
+  },
+  {
+   "name": "Code source",
+   "author": "Le Parisien",
+   "cat": "Actu",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2d/bd/be/2dbdbe02-b943-39f8-adbc-d20aaf3f4e4f/mza_1309018953031858526.jpeg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/code-source/id1460276302?uo=4",
+   "feed": "https://feeds.acast.com/public/shows/9f905938-baf3-4214-bd26-65999b4899d7",
+   "query": "Code source Le Parisien",
+   "episodes": [
+    {
+     "title": "Elections en Israël : pourquoi l'avenir politique du pays reste flou",
+     "date": "2026-10-30T15:28:47+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6ae4b62f35c2a1389906b29c/media.mp3",
+     "duration": "20:34",
+     "desc": "En Israël, aucune majorité ne s’est clairement dégagée après les élections législatives du mardi 27 octobre. La coalition sortante, menée par Benyamin Netanyahou et constituée avec l’aide des partis ultranationalistes et ultra orthodoxes, arrive en tête Mais r…"
+    },
+    {
+     "title": "La tour Triangle à Paris, 18 ans de controverses",
+     "date": "2026-10-29T15:40:28+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6ae3654c89a6d7b980e7bf0a/media.mp3",
+     "duration": "16:57",
+     "desc": "Le projet de construire la tour Triangle, haute de 180 mètres, est lancé en 2008, sous l’égide de Bertrand Delanoë (PS), alors maire de Paris. Depuis l’annonce, cette pyramide de verre, située porte de Versailles (XVe), reçoit de nombreuses critiques : certain…"
+    },
+    {
+     "title": "Emmanuel Macron : un président en fin de course, des crises en cascade",
+     "date": "2026-10-28T17:27:54+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6ae22efcfe77ef1306c3820e/media.mp3",
+     "duration": "25:02",
+     "desc": "Plus que six mois à tenir… Alors qu’Emmanuel Macron a souvent répété qu’il serait président jusqu’au « dernier quart d’heure » de son mandat, le chef de l&#39;État se heurte à une multiplication de crises : la contestation lycéenne de la fin du mois de septemb…"
+    },
+    {
+     "title": "Racisme, effroi des habitants, profil du tireur... Le point sur l'attentat de Trappes",
+     "date": "2026-10-27T17:08:15+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6ae0ce3c45bba6296fffc09c/media.mp3",
+     "duration": "25:54",
+     "desc": "Vendredi 23 octobre, un attentat raciste a eu lieu dans les communes de Trappes et de La Verrière (Yvelines). Un homme a ouvert le feu sur des passants… Un jeune homme de 26 ans a été tué, cinq autres personnes ont été blessées dont une fillette de 12 ans. Tro…"
+    },
+    {
+     "title": "Midterms 2026 : le risque de basculement pour Trump et les Républicains",
+     "date": "2026-10-26T17:04:43+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6adf78e9f9c657e7521140fa/media.mp3",
+     "duration": "23:21",
+     "desc": "Le 3 novembre prochain, les élections de mi-mandat se tiendront aux Etats-Unis. Les sondages penchent pour une percée démocrate, face à laquelle les Républicains semblent impuissants. Donald Trump s’invite donc dans la campagne et multiplie les apparitions dan…"
+    },
+    {
+     "title": "HORS-SERIE INSTITUT CURIE - Franck Bourdeaut, de pédiatre à chercheur en cancers pédiatriques – Partie 1",
+     "date": "2026-10-25T15:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6ada222f756e873a4355cbe4/media.mp3",
+     "duration": "21:02",
+     "desc": "« Je suis d&#39;abord pédiatre, et je suis arrivé à être chercheur. Ce n’était pas prévu » Dans ce nouvel épisode de Têtes chercheuses, Zoé Varier rencontre Franck Bourdeaut dans son bureau, au 5ème étage du service de pédiatrie de l&#39;Institut Curie. Pédiat…"
+    }
+   ]
+  },
+  {
+   "name": "Investir Comels - Podcasts investir au féminin dans l'immobilier !",
+   "author": "Investir Comels",
+   "cat": "Immo",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d0/f5/9a/d0f59afd-ebc6-6c6a-f3a4-e9c7b3cf3bcc/mza_171634278226860342.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/investir-comels-podcasts-investir-au-f%C3%A9minin-dans-limmobilier/id1628828608?uo=4",
+   "feed": "https://anchor.fm/s/9def3ed4/podcast/rss",
+   "query": "Investir immobilier podcast",
+   "episodes": [
+    {
+     "title": "Interview #20 - Elise : Tout savoir sur le revenue management avec J'affiche Complet",
+     "date": "2026-06-21T05:00:00+00:00",
+     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/121550977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F8c70a876-f051-52a2-3038-86ddfc58262f.m4a",
+     "duration": "00:56:28",
+     "desc": "Nouvel épisode avec Elise Ripoche, dirigeante de la société J&#39;affiche Complet depuis 7 ans. Elise nous dévoile comment elle est passée d&#39;une mise en location saisonnière de 2 chambres chez l&#39;habitant à la construction d&#39;une entreprise de 22 sal…"
+    },
+    {
+     "title": "Interview #19 - Anthony : Comment construire une vie de liberté ?",
+     "date": "2026-03-01T06:00:00+00:00",
+     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/115753656/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-19%2Fdb955b93-a9aa-044f-4bf4-fd8369de6bff.m4a",
+     "duration": "01:09:04",
+     "desc": "Nouvel épisode avec Tony @une_vie_de_liberté, entrepreneur aux multiples casquettes. Tony nous explique comment l&#39;entrepreneuriat a changé sa vie ... Nous découvrons également dans ce podcast comment le cash flow actuel de Tony lui permet aujourd&#39;hui d…"
+    },
+    {
+     "title": "Podcast #11 - Chef d'entreprise : Préparer sa retraite n'est pas une option",
+     "date": "2026-02-15T06:00:00+00:00",
+     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/115311649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F37c8df2a-47c1-3653-1162-e804d8d14409.m4a",
+     "duration": "00:32:00",
+     "desc": "Bienvenue dans le nouvel épisode TALKSHOW où nous répondons aux questions des auditrices ! Un nouveau format plus intimiste avec Corinne et Mélanie où vous pourrez adresser toutes vos questions. Elles prendront le temps de les décortiquer afin de vous apporter…"
+    },
+    {
+     "title": "Interview #18 - Marjorie : L’argent au féminin : oser se libérer",
+     "date": "2025-10-19T05:00:00+00:00",
+     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/109818030/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-17%2F9491f5a7-b774-1a4f-4324-f88917fef03f.m4a",
+     "duration": "00:47:27",
+     "desc": "Aujourd’hui dans le Podcast Investir Comels, nous accueillons Marjorie Llombart, carrière et business coach pour les femmes et spécialiste de la relation à l’argent. Partie de 0, Marjorie a bâti une entreprise à succès et accompagne aujourd’hui des centaines d…"
+    },
+    {
+     "title": "Interview #17 - Sandra : Sandra : une multi-investisseuse marchand de biens !",
+     "date": "2025-07-27T07:15:00+00:00",
+     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/105641589/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-17%2F6001add1-4884-ccd9-e945-77d7e98235a5.m4a",
+     "duration": "00:49:07",
+     "desc": "Aujourd'hui sur le Podcast, nous recevons Sandra, investisseuse, marchand de biens et experte en transaction immobilière. Sandra a démarré sa vie par une expérience de vie en Espagne qui devait durer 9 mois et qui a finalement duré 7 ans ! Elle nous partage so…"
+    },
+    {
+     "title": "Interview #16 - William - Construire un empire cadré carré : c'est possible !",
+     "date": "2025-07-13T07:15:00+00:00",
+     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/105339607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-10%2F9b5f50b4-d0b5-9b33-cf56-f590ad1eeb33.m4a",
+     "duration": "00:55:02",
+     "desc": "Une interview cadrée carrée avec William Costa qui nous dévoile son surnom auprès de ses équipes &quot;monsieur cadré carré&quot;. William nous explique son parcours et sa capacité à se fixer des objectifs ambitieux : être champion, gagner des compétitions, co…"
+    }
+   ]
+  }
+ ],
+ "errors": []
+}
