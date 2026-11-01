@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T21:45:33+00:00",
+ "updatedAt": "2026-11-01T21:46:20+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -38,12 +38,12 @@
    "label": "RMC",
    "cat": "Info & sport",
    "name": "RMC",
-   "url": "https://hls-rmc.nextradiotv.com/no_ssai/128k/media.m3u8",
-   "logo": "https://yt3.ggpht.com/-56JILsUfbls/AAAAAAAAAAI/AAAAAAAAAAA/47vJXr02s6k/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
-   "homepage": "https://rmc.bfmtv.com/",
-   "codec": "UNKNOWN",
+   "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+   "logo": "",
+   "homepage": "",
+   "codec": "",
    "bitrate": 0,
-   "uuid": "da5f481e-f7d6-49b3-b213-514027740d39"
+   "uuid": ""
   },
   {
    "label": "Radio Classique",
