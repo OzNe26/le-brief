@@ -56,11 +56,6 @@
       "cat": "Sport"
     },
     {
-      "name": "RMC Sport",
-      "url": "https://rmcsport.bfmtv.com/rss/info/flux-rss/flux-toutes-les-actualites/",
-      "cat": "Sport"
-    },
-    {
       "name": "Le Monde Culture",
       "url": "https://www.lemonde.fr/culture/rss_full.xml",
       "cat": "Culture"
@@ -74,6 +69,11 @@
       "name": "Google Actualités",
       "url": "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
       "cat": "France"
+    },
+    {
+      "name": "Google Actualités Sport",
+      "url": "https://news.google.com/rss/search?q=football+OR+rugby+OR+tennis+OR+Ligue+1+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr",
+      "cat": "Sport"
     }
   ],
   "crypto": [
@@ -111,14 +111,14 @@
     },
     {
       "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=crypto+OR+bitcoin+OR+ethereum+when:1d&hl=fr&gl=FR&ceid=FR:fr"
+      "url": "https://news.google.com/rss/search?q=bitcoin+OR+ethereum+OR+crypto+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "name": "Google Actualités",
+      "url": "https://news.google.com/rss/search?q=crypto+r%C3%A9gulation+OR+ETF+bitcoin+OR+stablecoin+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
     }
   ],
   "actions": [
-    {
-      "name": "Les Echos Marchés",
-      "url": "https://syndication.lesechos.fr/rss/rss_finance-marches.xml"
-    },
     {
       "name": "BFM Bourse",
       "url": "https://www.tradingsat.com/rssbourse.xml"
@@ -126,18 +126,6 @@
     {
       "name": "Investing.com FR",
       "url": "https://fr.investing.com/rss/news.rss"
-    },
-    {
-      "name": "Zonebourse",
-      "url": "https://www.zonebourse.com/rss/"
-    },
-    {
-      "name": "Boursorama",
-      "url": "https://www.boursorama.com/rss/actualites/"
-    },
-    {
-      "name": "Capital",
-      "url": "https://www.capital.fr/rss"
     },
     {
       "name": "CNBC Markets",
@@ -148,12 +136,20 @@
       "url": "https://feeds.marketwatch.com/marketwatch/topstories/"
     },
     {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/rssindex"
+      "name": "Google Actualités",
+      "url": "https://news.google.com/rss/search?q=Bourse+de+Paris+OR+CAC+40+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=bourse+OR+CAC+40+OR+Wall+Street+OR+action+when:1d&hl=fr&gl=FR&ceid=FR:fr"
+      "url": "https://news.google.com/rss/search?q=Wall+Street+OR+Nasdaq+OR+S%26P+500+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "name": "Google Actualités",
+      "url": "https://news.google.com/rss/search?q=r%C3%A9sultats+trimestriels+OR+action+bondit+OR+action+chute+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "name": "Google Actualités",
+      "url": "https://news.google.com/rss/search?q=BCE+OR+Fed+taux+OR+inflation+march%C3%A9s+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
     }
   ],
   "immo": [
@@ -162,24 +158,20 @@
       "url": "https://www.mysweetimmo.com/feed/"
     },
     {
-      "name": "Journal de l'Agence",
-      "url": "https://www.journaldelagence.com/feed"
-    },
-    {
-      "name": "Les Echos Immobilier",
-      "url": "https://syndication.lesechos.fr/rss/rss_patrimoine-immobilier.xml"
-    },
-    {
-      "name": "Moneyvox",
-      "url": "https://www.moneyvox.fr/rss/actu.php"
-    },
-    {
-      "name": "Batiactu",
-      "url": "https://www.batiactu.com/rss/index.php"
+      "name": "Google Actualités",
+      "url": "https://news.google.com/rss/search?q=immobilier+prix+OR+ventes+immobili%C3%A8res+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=immobilier+OR+crédit+immobilier+OR+SCPI+OR+taux+immobilier+when:1d&hl=fr&gl=FR&ceid=FR:fr"
+      "url": "https://news.google.com/rss/search?q=cr%C3%A9dit+immobilier+OR+taux+immobilier+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "name": "Google Actualités",
+      "url": "https://news.google.com/rss/search?q=SCPI+OR+investissement+locatif+OR+LMNP+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "name": "Google Actualités",
+      "url": "https://news.google.com/rss/search?q=notaires+immobilier+OR+march%C3%A9+immobilier+OR+loyers+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
     }
   ]
 }
