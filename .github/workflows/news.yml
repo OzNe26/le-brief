@@ -2,7 +2,7 @@ name: Fil d'actus en direct
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # toutes les 15 minutes (GitHub peut décaler de quelques minutes)
+    - cron: "*/15 * * * *"   # relance de sécurité ; chaque lancement actualise lui-même toutes les 5 min
   workflow_dispatch:
   push:
     paths:
@@ -20,19 +20,28 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Lire les flux
-        run: python3 scripts/update_news.py
-      - name: Enregistrer
+      - name: Actualiser toutes les 5 minutes (le robot reste actif ~50 min)
         run: |
-          if [ -z "$(git status --porcelain -- news_live.json)" ]; then echo "Rien de nouveau"; exit 0; fi
+          # Le planificateur de GitHub décale ou saute souvent les lancements :
+          # chaque lancement actualise donc lui-même le fil 10 fois, toutes les 5 minutes.
+          # Un nouveau lancement remplace le précédent (concurrency), donc jamais de trou.
           git config user.name "le-brief-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news_live.json
-          git commit -q -m "Fil en direct $(date -u +%H:%M) UTC"
-          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
+          for n in $(seq 1 10); do
+            git pull --rebase -q origin main || true
+            python3 scripts/update_news.py || echo "Échec lecture des flux"
+            if [ -n "$(git status --porcelain -- news_live.json)" ]; then
+              git add news_live.json
+              git commit -q -m "Fil en direct $(date -u +%H:%M) UTC"
+              for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
+            else
+              echo "Rien de nouveau"
+            fi
+            [ "$n" -lt 10 ] && sleep 300
+          done
