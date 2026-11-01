@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Génère audio.json : radios en direct (via radio-browser.info) + derniers épisodes de podcasts (via iTunes + flux RSS).
 Uniquement la bibliothèque standard de Python. Lancé par .github/workflows/audio.yml."""
-import json, re, sys, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import json, os, re, sys, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -26,6 +26,54 @@ def rb(path):
         except Exception as e:
             last = e
     raise last
+
+
+def get_raw(url, timeout=25):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read(), (r.headers.get("Content-Type") or "").lower()
+
+def img_ext(data, ctype):
+    if data[:8] == b"\x89PNG\r\n\x1a\n": return "png"
+    if data[:3] == b"\xff\xd8\xff": return "jpg"
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP": return "webp"
+    if data[:6] in (b"GIF87a", b"GIF89a"): return "gif"
+    if b"<svg" in data[:600].lower(): return "svg"
+    if data[:4] == b"\x00\x00\x01\x00": return "ico"
+    return None
+
+def slug(t):
+    t = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+    return t or "radio"
+
+def fetch_logo(src, favicon=""):
+    """Récupère un logo et l'enregistre dans logos/. Ordre : logo défini à la main, Wikipédia, radio-browser, favicon du site."""
+    cands = []
+    if src.get("logo"): cands.append(src["logo"])
+    for w in src.get("wiki", []):
+        lang, title = w.split(":", 1)
+        try:
+            j = get_json(f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/" + urllib.parse.quote(title.replace(" ", "_")))
+            img = (j.get("thumbnail") or {}).get("source") or (j.get("originalimage") or {}).get("source")
+            if img: cands.append(img); break
+        except Exception:
+            pass
+    if favicon: cands.append(favicon)
+    if src.get("domain"): cands.append(f"https://www.google.com/s2/favicons?domain={src['domain']}&sz=128")
+    os.makedirs(f"{ROOT}/logos", exist_ok=True)
+    for u in cands:
+        try:
+            data, ctype = get_raw(u)
+            ext = img_ext(data, ctype)
+            if not ext or len(data) < 300: continue
+            name = f"logos/{slug(src['label'])}.{ext}"
+            for old in os.listdir(f"{ROOT}/logos"):
+                if old.startswith(slug(src['label']) + ".") and f"logos/{old}" != name: os.remove(f"{ROOT}/logos/{old}")
+            open(f"{ROOT}/{name}", "wb").write(data)
+            return name, u
+        except Exception:
+            continue
+    return "", ""
 
 def find_radio(src):
     if src.get("url"):  # flux connu et fiable, défini à la main
@@ -104,7 +152,10 @@ def main():
     for s in sources["radios"]:
         try:
             r = find_radio(s)
-            if r: out["radios"].append(r)
+            if r:
+                path, origin = fetch_logo(s, r.get("logo", ""))
+                r["logo"], r["logoSource"] = path or r.get("logo", ""), origin
+                out["radios"].append(r)
             else: out["errors"].append(f"radio introuvable en https : {s['label']}")
         except Exception as e:
             out["errors"].append(f"radio {s['label']} : {e}")

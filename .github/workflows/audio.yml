@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/audio_sources.json"
       - "scripts/update_audio.py"
+      - ".github/workflows/audio.yml"
 
 permissions:
   contents: write
@@ -29,11 +30,11 @@ jobs:
         run: python3 scripts/update_audio.py
       - name: Enregistrer si changement
         run: |
-          if git diff --quiet -- audio.json && git ls-files --error-unmatch audio.json >/dev/null 2>&1; then
+          if [ -z "$(git status --porcelain -- audio.json logos)" ]; then
             echo "Rien de nouveau"; exit 0
           fi
           git config user.name "le-brief-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio.json
+          git add audio.json logos
           git commit -m "MAJ audio (radios + podcasts)"
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
