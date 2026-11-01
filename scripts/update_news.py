@@ -11,7 +11,7 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; LeBriefBot/1.0; +https://ozne26.gi
 NOW = datetime.now(timezone.utc)
 MAX_AGE = timedelta(hours=36)
 PER_TAB = 90
-PER_SOURCE = 25
+PER_SOURCE = 18
 NS = {"media": "http://search.yahoo.com/mrss/", "atom": "http://www.w3.org/2005/Atom",
       "content": "http://purl.org/rss/1.0/modules/content/", "dc": "http://purl.org/dc/elements/1.1/"}
 
@@ -83,6 +83,9 @@ def norm(t):
 
 def main():
     sources = json.load(open(f"{ROOT}/scripts/news_sources.json", encoding="utf-8"))
+    filters = sources.pop("_filters", {})
+    block = {b.lower() for b in filters.get("blocklist", [])}
+    kws = filters.get("keywords", {})
     report = {}
     jobs = [(tab, s) for tab, lst in sources.items() for s in lst]
     def run(job):
@@ -100,7 +103,12 @@ def main():
             if t != tab: continue
             report.setdefault(tab, []).append(f"{s['name']}: {len(its)}" + (f" ERREUR {err}" if err else ""))
             out["sources"].setdefault(tab, []).append({"name": s["name"], "count": len(its), "ok": not err})
-            items.extend(its)
+            for it in its:
+                if it["source"].lower() in block: continue
+                if not s.get("trusted") and tab in kws:
+                    txt = (it["titre"] + " " + it["resume"]).lower()
+                    if not any(k in txt for k in kws[tab]): continue
+                items.append(it)
         items.sort(key=lambda x: x["ts"], reverse=True)
         kept, per = [], {}
         for it in items:
