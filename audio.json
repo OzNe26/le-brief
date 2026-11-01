@@ -1,27 +1,27 @@
 {
- "updatedAt": "2026-11-01T21:43:16+00:00",
+ "updatedAt": "2026-11-01T21:45:33+00:00",
  "radios": [
   {
    "label": "franceinfo",
    "cat": "Info",
    "name": "franceinfo",
-   "url": "https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.m3u8?id=radiofrance",
-   "logo": "https://www.radiofrance.fr/s3/cruiser-production/2022/06/52e277e9-95f8-44c4-8fda-6dfabc337b12/1200x680_franceinfo-logo-rs.jpg",
-   "homepage": "https://www.radiofrance.fr/franceinfo",
-   "codec": "UNKNOWN",
+   "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+   "logo": "",
+   "homepage": "",
+   "codec": "",
    "bitrate": 0,
-   "uuid": "0e9765da-71c6-41b5-b358-dddab24e302b"
+   "uuid": ""
   },
   {
    "label": "France Inter",
    "cat": "Info",
    "name": "France Inter",
-   "url": "https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8?id=radiofrance",
-   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/1200px-France_Inter_logo_2021.svg.png",
-   "homepage": "https://www.radiofrance.fr/franceinter",
-   "codec": "UNKNOWN",
+   "url": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+   "logo": "",
+   "homepage": "",
+   "codec": "",
    "bitrate": 0,
-   "uuid": "33960c43-0464-44b4-abfa-73591ebf647f"
+   "uuid": ""
   },
   {
    "label": "BFM Business",
@@ -37,13 +37,13 @@
   {
    "label": "RMC",
    "cat": "Info & sport",
-   "name": "RMC FR",
-   "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
-   "logo": "https://i1.wp.com/www.mediasportif.fr/wp-content/uploads/2014/05/Radio-RMC.jpg",
+   "name": "RMC",
+   "url": "https://hls-rmc.nextradiotv.com/no_ssai/128k/media.m3u8",
+   "logo": "https://yt3.ggpht.com/-56JILsUfbls/AAAAAAAAAAI/AAAAAAAAAAA/47vJXr02s6k/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
    "homepage": "https://rmc.bfmtv.com/",
-   "codec": "MP3",
-   "bitrate": 128,
-   "uuid": "7a3a3989-8f26-44f7-9ae5-fa91e5cf4f9d"
+   "codec": "UNKNOWN",
+   "bitrate": 0,
+   "uuid": "da5f481e-f7d6-49b3-b213-514027740d39"
   },
   {
    "label": "Radio Classique",
@@ -60,45 +60,45 @@
    "label": "France Culture",
    "cat": "Culture",
    "name": "France Culture",
-   "url": "https://stream.radiofrance.fr/franceculture/franceculture_hifi.m3u8?id=radiofrance",
-   "logo": "https://www.radiofrance.fr/dist/favicons/logo-120.png",
-   "homepage": "https://www.radiofrance.fr/franceculture",
-   "codec": "UNKNOWN",
+   "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
+   "logo": "",
+   "homepage": "",
+   "codec": "",
    "bitrate": 0,
-   "uuid": "698ca170-093f-45aa-a7bb-4c809d04183d"
+   "uuid": ""
   },
   {
    "label": "Bloomberg Radio",
    "cat": "Marchés US",
-   "name": "Bloomberg 99.1/105.7 HD2",
-   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBBRDCAAC.aac",
-   "logo": "https://www.bloombergradio.com/content/plugins/bloomberg-favicon/dist/img/amber-120x120.png",
-   "homepage": "https://www.bloombergradio.com/",
-   "codec": "AAC+",
-   "bitrate": 32,
-   "uuid": "2992ab47-a3d5-4ab2-9881-bf7657fa1c03"
+   "name": "Bloomberg Radio",
+   "url": "https://tunein.cdnstream1.com/3521_96.mp3",
+   "logo": "https://cdn-profiles.tunein.com/s165740/images/logod.jpg",
+   "homepage": "https://bloomberg.com/",
+   "codec": "MP3",
+   "bitrate": 96,
+   "uuid": "bed6056a-86b8-4f7f-92b7-e11f3c72d5e7"
   },
   {
    "label": "FIP",
    "cat": "Musique",
-   "name": "FIP Pop",
-   "url": "https://icecast.radiofrance.fr/fippop-hifi.aac",
-   "logo": "https://www.fip.fr/dist/favicons/logo-120.png",
-   "homepage": "https://www.fip.fr/pop/webradio",
-   "codec": "AAC",
-   "bitrate": 192,
-   "uuid": "76b129aa-45cc-46cf-b6b2-1fde08a2c8f9"
+   "name": "FIP",
+   "url": "https://icecast.radiofrance.fr/fip-hifi.aac",
+   "logo": "",
+   "homepage": "",
+   "codec": "",
+   "bitrate": 0,
+   "uuid": ""
   },
   {
    "label": "Mouv'",
    "cat": "Musique",
-   "name": "Le Mouv'",
-   "url": "https://stream.radiofrance.fr/mouv/mouv.m3u8",
-   "logo": "https://www.radiofrance.fr/external/favicons/mouv/favicon.png",
-   "homepage": "https://www.radiofrance.fr/mouv",
-   "codec": "AAC",
-   "bitrate": 107,
-   "uuid": "cb072d4b-4860-41da-95e7-7de6d856079e"
+   "name": "Mouv'",
+   "url": "https://icecast.radiofrance.fr/mouv-hifi.aac",
+   "logo": "",
+   "homepage": "",
+   "codec": "",
+   "bitrate": 0,
+   "uuid": ""
   },
   {
    "label": "NRJ",
@@ -485,55 +485,108 @@
    ]
   },
   {
-   "name": "Investir Comels - Podcasts investir au féminin dans l'immobilier !",
-   "author": "Investir Comels",
+   "name": "IM'MORAL - Podcast Investissement Immobilier Locatif - par Bevouac",
+   "author": "Bevouac - Investissement locatif",
    "cat": "Immo",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d0/f5/9a/d0f59afd-ebc6-6c6a-f3a4-e9c7b3cf3bcc/mza_171634278226860342.jpg/600x600bb.jpg",
-   "apple": "https://podcasts.apple.com/fr/podcast/investir-comels-podcasts-investir-au-f%C3%A9minin-dans-limmobilier/id1628828608?uo=4",
-   "feed": "https://anchor.fm/s/9def3ed4/podcast/rss",
-   "query": "Investir immobilier podcast",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/14/97/ca/1497ca37-a428-7435-7a9a-bd49453d4da5/mza_8720746807295477950.jpeg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/immoral-podcast-investissement-immobilier-locatif-par/id1620502511?uo=4",
+   "feed": "https://feed.ausha.co/mXgkGU15kL46",
+   "query": "investissement locatif immobilier",
    "episodes": [
     {
-     "title": "Interview #20 - Elise : Tout savoir sur le revenue management avec J'affiche Complet",
-     "date": "2026-06-21T05:00:00+00:00",
-     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/121550977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F8c70a876-f051-52a2-3038-86ddfc58262f.m4a",
-     "duration": "00:56:28",
-     "desc": "Nouvel épisode avec Elise Ripoche, dirigeante de la société J&#39;affiche Complet depuis 7 ans. Elise nous dévoile comment elle est passée d&#39;une mise en location saisonnière de 2 chambres chez l&#39;habitant à la construction d&#39;une entreprise de 22 sal…"
+     "title": "Investissement locatif : choisir son projet et passer à l’action - avec Laetitia de Boyer",
+     "date": "2026-10-30T17:34:04+00:00",
+     "audio": "https://audio.ausha.co/BGxg3Sva2GJm.mp3?t=1793381523",
+     "duration": "09:46",
+     "desc": "Dans cet épisode d’IM’MORAL, Henri des Rieux, Président de Bevouac, échange avec Laetitia de Boyer, Conseillère investissement. Comment choisir une ville adaptée à son budget et à ses objectifs ? Pourquoi s’intéresser aux petites surfaces ? Comment anticiper l…"
     },
     {
-     "title": "Interview #19 - Anthony : Comment construire une vie de liberté ?",
-     "date": "2026-03-01T06:00:00+00:00",
-     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/115753656/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-19%2Fdb955b93-a9aa-044f-4bf4-fd8369de6bff.m4a",
-     "duration": "01:09:04",
-     "desc": "Nouvel épisode avec Tony @une_vie_de_liberté, entrepreneur aux multiples casquettes. Tony nous explique comment l&#39;entrepreneuriat a changé sa vie ... Nous découvrons également dans ce podcast comment le cash flow actuel de Tony lui permet aujourd&#39;hui d…"
+     "title": "#21 10 000 € de travaux prévus, 22 000 € à l'arrivée... - Vincent Kyre, Renovely",
+     "date": "2026-10-15T14:45:11+00:00",
+     "audio": "https://audio.ausha.co/y82PJS0MG2XA.mp3?t=1792074617",
+     "duration": "05:18",
+     "desc": "Prévoir 10 000 € de travaux… et en payer 22 000. Dans cet épisode d'IM'MORAL, Vincent Kyre, responsable travaux chez Renovely depuis 2019, raconte l'histoire d'un investisseur qui a acheté un T2 à Asnières sans faire visiter le bien par un œil travaux. Électri…"
     },
     {
-     "title": "Podcast #11 - Chef d'entreprise : Préparer sa retraite n'est pas une option",
-     "date": "2026-02-15T06:00:00+00:00",
-     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/115311649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-10%2F37c8df2a-47c1-3653-1162-e804d8d14409.m4a",
-     "duration": "00:32:00",
-     "desc": "Bienvenue dans le nouvel épisode TALKSHOW où nous répondons aux questions des auditrices ! Un nouveau format plus intimiste avec Corinne et Mélanie où vous pourrez adresser toutes vos questions. Elles prendront le temps de les décortiquer afin de vous apporter…"
+     "title": "\"On ne devient pas rentier avec l'immobilier, on devient rentier avec le travail !\" - Martin Menez, CEO de Bevouac.",
+     "date": "2025-01-28T16:44:16+00:00",
+     "audio": "https://audio.ausha.co/bPeqNHZ9L84O.mp3?t=1738076762",
+     "duration": "1:08:19",
+     "desc": "🎙️ Dans ce nouvel épisode de notre podcast, nous recevons Martin, CEO de Bevouac et investisseur chevronné ! 🚀 Il rejoint Nicolas pour un échange passionnant autour de l’investissement et de l’entrepreneuriat. Dans cet épisode : Actualités immo'. Investissemen…"
     },
     {
-     "title": "Interview #18 - Marjorie : L’argent au féminin : oser se libérer",
-     "date": "2025-10-19T05:00:00+00:00",
-     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/109818030/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-17%2F9491f5a7-b774-1a4f-4324-f88917fef03f.m4a",
-     "duration": "00:47:27",
-     "desc": "Aujourd’hui dans le Podcast Investir Comels, nous accueillons Marjorie Llombart, carrière et business coach pour les femmes et spécialiste de la relation à l’argent. Partie de 0, Marjorie a bâti une entreprise à succès et accompagne aujourd’hui des centaines d…"
+     "title": "On a failli acheter un appart dans un immeuble qui menaçait de s’effondrer ! - Lucille, Coordinatrice de projets immobiliers",
+     "date": "2024-12-03T16:00:00+00:00",
+     "audio": "https://audio.ausha.co/omPwqS9K3rP9.mp3?t=1733238713",
+     "duration": "53:46",
+     "desc": "Découvrez dans ce nouvel épisode comment Lucille, notre Coordinatrice de projets immobiliers, a sauvé un investisseur d’une situation risquée grâce à son expertise. Avec près de 300 investisseurs accompagnés , elle revient sur son rôle essentiel dans la sécuri…"
     },
     {
-     "title": "Interview #17 - Sandra : Sandra : une multi-investisseuse marchand de biens !",
-     "date": "2025-07-27T07:15:00+00:00",
-     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/105641589/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-17%2F6001add1-4884-ccd9-e945-77d7e98235a5.m4a",
-     "duration": "00:49:07",
-     "desc": "Aujourd'hui sur le Podcast, nous recevons Sandra, investisseuse, marchand de biens et experte en transaction immobilière. Sandra a démarré sa vie par une expérience de vie en Espagne qui devait durer 9 mois et qui a finalement duré 7 ans ! Elle nous partage so…"
+     "title": "Perdre 50 000 € par manque de connaissance en immobilier - Alexandre, Responsable investissement.",
+     "date": "2024-11-19T16:00:00+00:00",
+     "audio": "https://audio.ausha.co/BGxg3S9p0MZk.mp3?t=1732024050",
+     "duration": "49:37",
+     "desc": "Dans ce nouvel épisode de notre podcast, nous accueillons Alexandre, responsable en investissement et chasseur chez Bevouac, mais surtout investisseur chevronné aux projets variés : achat de résidence principale, locations Airbnb, immeuble de rapport, et même …"
     },
     {
-     "title": "Interview #16 - William - Construire un empire cadré carré : c'est possible !",
-     "date": "2025-07-13T07:15:00+00:00",
-     "audio": "https://anchor.fm/s/9def3ed4/podcast/play/105339607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-10%2F9b5f50b4-d0b5-9b33-cf56-f590ad1eeb33.m4a",
-     "duration": "00:55:02",
-     "desc": "Une interview cadrée carrée avec William Costa qui nous dévoile son surnom auprès de ses équipes &quot;monsieur cadré carré&quot;. William nous explique son parcours et sa capacité à se fixer des objectifs ambitieux : être champion, gagner des compétitions, co…"
+     "title": "Premier investissement : quand tout dérape... 👀 - Thibault, Matchmaker et investisseur immobilier",
+     "date": "2024-11-05T16:00:00+00:00",
+     "audio": "https://audio.ausha.co/y0a0dCEOXG49.mp3?t=1730819849",
+     "duration": "1:00:19",
+     "desc": "Premier investissement : quand tout dérape... 👀 Aujourd’hui, Nicolas Bayart 🦌 , accueille Thibault LION 🦁 , notre expert en matchmaking immobilier, qui veille à ce que chaque projet réponde précisément aux attentes des clients. Dès le premier contact, Thibault…"
+    }
+   ]
+  },
+  {
+   "name": "La Story",
+   "author": "Les Echos",
+   "cat": "Éco & marchés",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/17/d2/2b/17d22b7f-f543-0247-5b69-2413a9428706/mza_17392971206644611221.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/la-story/id1460685072?uo=4",
+   "feed": "https://feeds.acast.com/public/shows/07b210dd-7af5-5b41-b04d-e4eb2a19e708",
+   "query": "Les Echos podcast économie",
+   "episodes": [
+    {
+     "title": "[BONUS] - Les mots éco. Présidentielle 2027 : c’est quoi le pouvoir d’achat ?",
+     "date": "2026-10-31T08:50:00+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/la-story/e/6ae4c0edf6b38070e221067b/media.mp3",
+     "duration": "10:11",
+     "desc": "Ce samedi encore, les Français manifestent contre la « vie chère ». Dans ce bonus de « La Story », le podcast d’actualité des « Echos », Clara Grouzis et Guillaume de Calignon expliquent pourquoi on parle de pouvoir d’achat et ce que cela recouvre. Vous vous i…"
+    },
+    {
+     "title": "Comment le Club Med veut attirer un nouveau public sans renoncer à son ADN",
+     "date": "2026-10-30T15:50:00+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/la-story/e/6ae4ae05a5296e1b325048a1/media.mp3",
+     "duration": "22:36",
+     "desc": "Stéphane Maquaire a été nommé PDG à l’été 2025 pour écrire une nouvelle page du Club Med. Dans « La Story », le podcast d’actualité des « Echos », Pierrick Fay et Corinne Scemama racontent les ambitions du patron pour l’entreprise. Vous vous informez beaucoup……"
+    },
+    {
+     "title": "Dans les coulisses du label B Corp (2/2) : comment la certification a été \"un accélérateur\" pour Ecotone",
+     "date": "2026-10-29T15:52:00+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/la-story/e/6ae35b9c9fd2fa3c16bc0d4e/media.mp3",
+     "duration": "17:41",
+     "desc": "Le label B Corp est né aux Etats-Unis il y a vingt ans. Cette certification écologique et sociale a renforcé ses critères cette année. Dans cet épisode en deux parties de « La Story », le podcast d’actualité des « Echos », Clara Grouzis et ses invités décrypte…"
+    },
+    {
+     "title": "Dans les coulisses du label B Corp (1/2) : On veut \"faire la preuve qu’on peut changer la structure de l’économie”",
+     "date": "2026-10-29T15:49:00+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/la-story/e/6ae35c9db4ef3baecfaa5a8b/media.mp3",
+     "duration": "21:49",
+     "desc": "Le label B Corp est né aux Etats-Unis il y a vingt ans. Cette certification écologique et sociale a renforcé ses critères cette année. Dans cet épisode en deux parties de « La Story », le podcast d’actualité des « Echos », Clara Grouzis et ses invités décrypte…"
+    },
+    {
+     "title": "Canada : pourquoi la guerre commerciale de Donald Trump freine les volontés d’indépendance",
+     "date": "2026-10-28T15:50:00+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/la-story/e/6ae2053fe57912cf6ff04b29/media.mp3",
+     "duration": "21:32",
+     "desc": "Les électeurs de la province de l’Alberta ont rejeté le processus d’indépendance à 75 %. Dans « La Story », le podcast d’actualité des « Echos », Pierrick Fay et Timothé Boudet, correspondant des Echos au Canada, expliquent pourquoi au Canada les aspirations à…"
+    },
+    {
+     "title": "Comment la France est devenue le maillon faible de l'Europe",
+     "date": "2026-10-27T15:50:00+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/la-story/e/6ae0b3fb664593f806f19a40/media.mp3",
+     "duration": "27:27",
+     "desc": "Les taux d’intérêt de la dette française se sont envolés la semaine dernière, témoignant de l’inquiétude des investisseurs. Dans « La Story », le podcast d’actualité des « Echos », Pierrick Fay invite Samy Chaar, responsable de l’investissement chez Lombard Od…"
     }
    ]
   }
