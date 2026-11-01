@@ -173,6 +173,7 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .aerr.ok{color:var(--up)}
 .linkbtn{all:unset;cursor:pointer;color:var(--muted);font-size:13px;text-align:center;text-decoration:underline}
 #asub{text-align:center}
+.av.guest{background:var(--panel2)!important;font-size:14px}
 .av.letter{display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#111}
 .side{display:none}
 .tape{margin:-8px 0 22px;border:1px solid var(--line);border-radius:12px;overflow:hidden;min-height:46px;background:var(--panel)}
@@ -234,6 +235,45 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .live{display:inline-block;background:#ff4d4d;color:#fff;font-size:10px;font-weight:700;padding:1px 6px;border-radius:4px;margin-right:6px;letter-spacing:.04em}
 body.playing .wrap{padding-bottom:110px}
 @media (max-width:640px){ #plvol,#plback,#plfwd{display:none} .player{bottom:8px;padding:8px 10px} }
+
+/* ===== Téléphone ===== */
+@media (max-width:640px){
+  .wrap{padding:14px 14px 70px}
+  header{flex-wrap:nowrap;align-items:center;gap:10px;padding-bottom:12px}
+  .brand{min-width:0}
+  .brand h1{font-size:25px;white-space:nowrap}
+  .brand p{display:none}
+  .hright{flex-direction:row;align-items:center;gap:0;flex:none}
+  .hright .status{display:none}
+  .acct{padding:4px 10px 4px 4px;font-size:13px;gap:6px}
+  .acct .av{width:28px;height:28px}
+  .acct .nm{max-width:86px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  nav{position:sticky;top:0;z-index:30;flex-wrap:nowrap;overflow-x:auto;gap:6px;margin:0 -14px 14px;padding:10px 14px;background:rgba(13,15,18,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);scrollbar-width:none;scroll-snap-type:x proximity}
+  nav::-webkit-scrollbar{display:none}
+  nav button{flex:none;padding:8px 13px;font-size:14px;scroll-snap-align:start}
+  nav button .sw{width:8px;height:8px}
+  .tape{margin:0 0 14px}
+  .updated{font-size:11px}
+  .brief{padding:16px}
+  .brief p{font-size:15.5px}
+  .kpis{grid-template-columns:1fr 1fr;gap:8px}
+  .kpi{padding:11px 12px}
+  .kpi .v{font-size:17px}
+  .toolbar h3{font-size:20px}
+  .card{padding:14px;gap:11px}
+  .card h4{font-size:15.5px;padding-right:58px}
+  .niche{padding:14px;margin-left:-4px;margin-right:-4px}
+  .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:-14px;padding-right:14px}
+  .chips::-webkit-scrollbar{display:none}
+  .chips button{flex:none}
+  .mbox{padding:18px}
+  .modal{align-items:flex-end;padding:0}
+  .mbox.auth{max-width:none;border-radius:18px 18px 0 0;padding-bottom:calc(18px + env(safe-area-inset-bottom))}
+  .menu{right:0;min-width:210px}
+  .profile{padding:14px}
+  .profile h2{font-size:20px}
+  input,select,textarea{font-size:16px!important} /* évite le zoom automatique de l'iPhone */
+}
 </style>
 </head>
 <body>
@@ -245,7 +285,7 @@ body.playing .wrap{padding-bottom:110px}
       <h1><img src="img/logo.svg" alt="" class="brandlogo">Le Brief <span>Invest</span></h1>
       <p>L'actu générale, crypto, bourse et immo au même endroit. Mise à jour plusieurs fois par jour.</p>
     </div>
-    <div class="hright"><div class="status" id="status"><span class="dot"></span>Chargement…</div><div class="acctwrap"><button class="acct" id="acct" type="button"><span class="av" id="acctav"></span><span class="nm" id="acctnm">Se connecter</span></button><div class="menu" id="menu" hidden></div></div></div>
+    <div class="hright"><div class="status" id="status"><span class="dot"></span>Chargement…</div><div class="acctwrap"><button class="acct" id="acct" type="button"><span class="av" id="acctav"></span><span class="nm" id="acctnm">Connexion</span></button><div class="menu" id="menu" hidden></div></div></div>
   </header>
 
   <nav role="tablist">
@@ -499,7 +539,7 @@ async function checkRecovery(){
 function renderAcct(){
   const nm=document.getElementById("acctnm"), av=document.getElementById("acctav");
   if(state.user){ const p=state.pseudo||"Mon compte"; nm.textContent=p; av.className="av letter"; av.style.background=colorFor(p); av.textContent=p.charAt(0).toUpperCase(); }
-  else { nm.textContent="Se connecter"; av.className="av"; av.style.background=""; av.textContent=""; }
+  else { nm.textContent="Connexion"; av.className="av letter guest"; av.style.background=""; av.textContent="👤"; }
 }
 function renderMenu(){
   const m=document.getElementById("menu");
@@ -527,6 +567,7 @@ function setTab(t){
   document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
   if(location.hash!=="#"+t && !/access_token|error_description/.test(location.hash)) history.replaceState(null,"","#"+t);
   if(t==="communaute") loadCommu();
+  const ab=document.querySelector(`nav button[data-tab="${t}"]`); if(ab&&ab.scrollIntoView&&window.innerWidth<=640) try{ab.scrollIntoView({inline:"center",block:"nearest",behavior:"smooth"})}catch(e){}
   render();
 }
 document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>setTab(b.dataset.tab)));
