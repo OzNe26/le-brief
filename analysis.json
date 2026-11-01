@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T22:21:44+00:00",
+ "updatedAt": "2026-11-01T22:30:13+00:00",
  "assets": [
   {
    "id": "BTC",
@@ -7,18 +7,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 77679.62,
+    "price": 77691.86,
     "ch": {
-     "1j": 0.12580234440917604,
-     "7j": -3.0871412800020592,
-     "30j": -8.091044737092135,
-     "1an": 14.836953790022388
+     "1j": 0.14157919579820266,
+     "7j": -3.071870693061318,
+     "30j": -8.076562616654126,
+     "1an": 14.855048681763483
     },
-    "sma20": 80902.6745,
-    "sma50": 81968.2908,
-    "sma200": 73193.4347,
-    "rsi": 35.999273267694704,
-    "vol": 27.700342427699493,
+    "sma20": 80903.2865,
+    "sma50": 81968.5356,
+    "sma200": 73193.4959,
+    "rsi": 36.06510179010104,
+    "vol": 27.703211291682273,
     "support": 76325.98,
     "resistance": 84898.0,
     "hi52": 87395.67,
@@ -59,7 +59,7 @@
      77991.89,
      77368.77,
      77582.02,
-     77679.62
+     77691.86
     ]
    },
    "news": [
@@ -88,6 +88,7 @@
      "ts": "2026-11-01T18:50:38+00:00"
     }
    ],
+   "logo": "logos/assets/btc.svg",
    "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,1 % et sur 30 jours -8,1 %. À surveiller : le support autour de 76 326 $ et la résistance vers 84 898 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Chute du bitcoin : pourquoi la crypto baisse aujourd'hui » (CryptoTicker.io)."
   },
   {
@@ -96,18 +97,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 2253.71,
+    "price": 2255.61,
     "ch": {
-     "1j": -0.08644919890408165,
-     "7j": -3.268851910192405,
-     "30j": -15.546786879962827,
-     "1an": 15.113238193500944
+     "1j": -0.0022166461257300263,
+     "7j": -3.1873022958362363,
+     "30j": -15.47558823198768,
+     "1an": 15.210284908725026
     },
-    "sma20": 2371.8665,
-    "sma50": 2516.7961999999998,
-    "sma200": 2158.8888500000003,
-    "rsi": 31.538748434542484,
-    "vol": 35.65123064910781,
+    "sma20": 2371.9615000000003,
+    "sma50": 2516.8342000000002,
+    "sma200": 2158.89835,
+    "rsi": 31.682751588208646,
+    "vol": 35.66610976886523,
     "support": 2174.08,
     "resistance": 2538.52,
     "hi52": 2807.34,
@@ -148,7 +149,7 @@
      2253.13,
      2245.54,
      2255.66,
-     2253.71
+     2255.61
     ]
    },
    "news": [
@@ -177,7 +178,8 @@
      "ts": "2026-11-01T13:00:00+00:00"
     }
    ],
-   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,3 % et sur 30 jours -15,5 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 539 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : Les investisseurs désertent les ETF Ethereum en octobre » (Cointribune)."
+   "logo": "logos/assets/eth.svg",
+   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,2 % et sur 30 jours -15,5 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 539 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : Les investisseurs désertent les ETF Ethereum en octobre » (Cointribune)."
   },
   {
    "id": "SOL",
@@ -185,18 +187,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 93.42,
+    "price": 93.56,
     "ch": {
-     "1j": -2.2189658781662125,
-     "7j": -7.8698224852071,
-     "30j": -21.264222503160557,
-     "1an": 12.839714941418045
+     "1j": -2.072430395645808,
+     "7j": -7.731755424063125,
+     "30j": -21.146228402865574,
+     "1an": 13.008817490035018
     },
-    "sma20": 102.159,
-    "sma50": 109.0074,
-    "sma200": 88.89540000000001,
-    "rsi": 27.595281673450486,
-    "vol": 41.600474279602054,
+    "sma20": 102.166,
+    "sma50": 109.0102,
+    "sma200": 88.8961,
+    "rsi": 27.757688923022684,
+    "vol": 41.54022542174122,
     "support": 92.34,
     "resistance": 109.2,
     "hi52": 124.95,
@@ -238,7 +240,7 @@
      95.64,
      96.38,
      95.54,
-     93.42
+     93.56
     ]
    },
    "news": [
@@ -261,7 +263,8 @@
      "ts": "2026-11-01T08:54:00+00:00"
     }
    ],
-   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,9 % et sur 30 jours -21,3 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (28) : zone de survente, rebond technique possible. Côté actu : « Cours Solana : la crypto SOL se stabilise près de 95,27 $ sous la résistance » (Actu Crypto .info)."
+   "logo": "logos/assets/sol.svg",
+   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,7 % et sur 30 jours -21,1 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (28) : zone de survente, rebond technique possible. Côté actu : « Cours Solana : la crypto SOL se stabilise près de 95,27 $ sous la résistance » (Actu Crypto .info)."
   },
   {
    "id": "XRP",
@@ -269,18 +272,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 1.2446,
+    "price": 1.2445,
     "ch": {
-     "1j": -0.5831136672258208,
-     "7j": -3.980867150131162,
-     "30j": -16.171617161716167,
-     "1an": -10.666092449038189
+     "1j": -0.5911015256809704,
+     "7j": -3.9885820089492374,
+     "30j": -16.178352529130457,
+     "1an": -10.6732701693942
     },
-    "sma20": 1.30541,
-    "sma50": 1.3909360000000002,
-    "sma200": 1.2767055,
-    "rsi": 36.23420441228981,
-    "vol": 43.728787646571746,
+    "sma20": 1.305405,
+    "sma50": 1.3909340000000001,
+    "sma200": 1.276705,
+    "rsi": 36.22289236196922,
+    "vol": 43.72878923134427,
     "support": 1.2002,
     "resistance": 1.3992,
     "hi52": 1.6999,
@@ -321,7 +324,7 @@
      1.2377,
      1.2567,
      1.2519,
-     1.2446
+     1.2445
     ]
    },
    "news": [
@@ -338,6 +341,7 @@
      "ts": "2026-11-01T08:54:00+00:00"
     }
    ],
+   "logo": "logos/assets/xrp.svg",
    "text": "La tendance technique est plutôt négative : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -4,0 % et sur 30 jours -16,2 %. À surveiller : le support autour de 1,2002 $ et la résistance vers 1,3992 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Cours XRP : la crypto Ripple rebondit, mais le seuil de 1,26 $ bloque encore » (Actu Crypto .info)."
   },
   {
@@ -427,6 +431,7 @@
      "ts": "2026-11-01T17:57:00+00:00"
     }
    ],
+   "logo": "logos/assets/bnb.svg",
    "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -4,5 % et sur 30 jours -8,2 %. À surveiller : le support autour de 680,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : +4 milliards $ quittent Binance après l’ouverture des retraits… crise de confiance ? » (Cointribune)."
   },
   {
@@ -504,6 +509,7 @@
      "ts": "2026-10-31T23:16:00+00:00"
     }
    ],
+   "logo": "logos/assets/nvda.svg",
    "text": "Le signal technique est mitigé : Nvidia évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,8 % et sur 30 jours -7,9 %. À surveiller : le support autour de 200,92 $ et la résistance vers 243,37 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « L’action Nvidia risque de chuter à 194 dollars alors que la vague de ventes liée à l’IA fait perdre 836 milliards de dollars » (The Market Periodical)."
   },
   {
@@ -575,6 +581,7 @@
      "ts": "2026-11-01T15:00:00+00:00"
     }
    ],
+   "logo": "logos/assets/aapl.svg",
    "text": "La tendance technique est plutôt positive : Apple évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +0,2 % et sur 30 jours +2,5 %. À surveiller : le support autour de 330,62 $ et la résistance vers 351,73 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Apple’s new earnings era begins at a critical time for Big Tech » (MarketWatch)."
   },
   {
@@ -652,6 +659,7 @@
      "ts": "2026-11-01T10:54:04+00:00"
     }
    ],
+   "logo": "logos/assets/tsla.svg",
    "text": "La tendance technique est plutôt positive : Tesla évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +3,5 % et sur 30 jours +9,8 %. À surveiller : le support autour de 349,33 $ et la résistance vers 410,85 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « La fortune nette d’Elon Musk recule alors que l’action de SpaceX baisse sur fond d’inquiétudes liées à la bulle de l’IA » (Benzinga France)."
   },
   {
@@ -716,6 +724,7 @@
     ]
    },
    "news": [],
+   "logo": "logos/assets/msft.svg",
    "text": "La tendance technique est plutôt positive : Microsoft évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -2,1 % et sur 30 jours +5,7 %. À surveiller : le support autour de 514,35 $ et la résistance vers 551,15 $ (plus bas et plus haut des 20 dernières séances)."
   },
   {
@@ -787,6 +796,7 @@
      "ts": "2026-11-01T20:18:23+00:00"
     }
    ],
+   "logo": "logos/assets/amzn.svg",
    "text": "Le signal technique est mitigé : Amazon évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -8,4 % et sur 30 jours -5,3 %. À surveiller : le support autour de 229,36 $ et la résistance vers 265,34 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Cinq essais, des recrues performantes et une victoire avec bonus : les Amazones du FCG font le plein à Lyon » (Le Dauphiné Libéré)."
   }
  ],
