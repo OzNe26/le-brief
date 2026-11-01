@@ -4,7 +4,7 @@ Cours : Binance (miroir public data-api.binance.vision) pour la crypto, Yahoo Fi
 Indicateurs calculés ici (moyennes mobiles, RSI, volatilité, supports/résistances), verdict par règles,
 texte rédigé par règles. Si GitHub Models est disponible (jeton GITHUB_TOKEN), une IA reformule le texte.
 Bibliothèque standard uniquement. Ce n'est pas un conseil en investissement."""
-import csv, io, json, math, os, re, statistics, time, urllib.request
+import csv, io, json, math, os, re, statistics, time, urllib.error, urllib.request
 from datetime import datetime, timezone
 
 ROOT = __file__.rsplit("/scripts/", 1)[0]
@@ -157,10 +157,19 @@ def ai_rewrite(items):
     body = json.dumps({"model": "openai/gpt-4o-mini", "temperature": 0.3, "response_format": {"type": "json_object"},
                        "messages": [{"role": "user", "content": prompt}]}).encode()
     try:
-        r = json.loads(get("https://models.github.ai/inference/chat/completions", data=body, timeout=90,
-                           headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json", "Accept": "application/json"}))
-        txt = r["choices"][0]["message"]["content"]
-        return json.loads(txt), "ok"
+        raw = get("https://models.github.ai/inference/chat/completions", data=body, timeout=90,
+                  headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json", "Accept": "application/json"})
+        try:
+            r = json.loads(raw)
+        except Exception:
+            return None, "réponse non JSON : " + raw[:160].decode("utf-8", "replace")
+        txt = r["choices"][0]["message"]["content"] or ""
+        m = re.search(r"\{.*\}", txt, re.S)
+        return json.loads(m.group(0) if m else txt), "ok"
+    except urllib.error.HTTPError as e:
+        try: detail = e.read().decode("utf-8", "replace")[:200]
+        except Exception: detail = ""
+        return None, f"HTTP {e.code} {detail}"
     except Exception as e:
         return None, str(e)[:160]
 
