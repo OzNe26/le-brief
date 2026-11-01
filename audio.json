@@ -1,115 +1,125 @@
 {
- "updatedAt": "2026-11-01T21:46:20+00:00",
+ "updatedAt": "2026-11-01T21:50:02+00:00",
  "radios": [
   {
    "label": "franceinfo",
    "cat": "Info",
    "name": "franceinfo",
    "url": "https://icecast.radiofrance.fr/franceinfo-hifi.aac",
-   "logo": "",
+   "logo": "logos/franceinfo.png",
    "homepage": "",
    "codec": "",
    "bitrate": 0,
-   "uuid": ""
+   "uuid": "",
+   "logoSource": "https://www.google.com/s2/favicons?domain=francetvinfo.fr&sz=128"
   },
   {
    "label": "France Inter",
    "cat": "Info",
    "name": "France Inter",
    "url": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
-   "logo": "",
+   "logo": "logos/france-inter.png",
    "homepage": "",
    "codec": "",
    "bitrate": 0,
-   "uuid": ""
+   "uuid": "",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/langfr-330px-France_Inter_logo_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "label": "BFM Business",
    "cat": "Éco & marchés",
    "name": "BFM Business",
    "url": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
-   "logo": "",
+   "logo": "logos/bfm-business.jpg",
    "homepage": "https://bfmbusiness.bfmtv.com/mediaplayer/live-audio/",
    "codec": "MP3",
    "bitrate": 256,
-   "uuid": "3a83c34b-ca9d-48c8-916e-9563216ddcdf"
+   "uuid": "3a83c34b-ca9d-48c8-916e-9563216ddcdf",
+   "logoSource": "https://www.google.com/s2/favicons?domain=bfmtv.com&sz=128"
   },
   {
    "label": "RMC",
    "cat": "Info & sport",
    "name": "RMC",
    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
-   "logo": "",
+   "logo": "logos/rmc.png",
    "homepage": "",
    "codec": "",
    "bitrate": 0,
-   "uuid": ""
+   "uuid": "",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/RMC_2025.svg/langfr-330px-RMC_2025.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "label": "Radio Classique",
    "cat": "Éco & musique",
    "name": "Radio Classique",
    "url": "https://str0.creacast.com/classique1",
-   "logo": "",
+   "logo": "logos/radio-classique.png",
    "homepage": "https://www.radioclassique.fr/",
    "codec": "MP3",
    "bitrate": 128,
-   "uuid": "d1aa02d7-e611-4208-b38b-da21bc236cd8"
+   "uuid": "d1aa02d7-e611-4208-b38b-da21bc236cd8",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Logo_Radio_Classique.svg/langfr-330px-Logo_Radio_Classique.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "label": "France Culture",
    "cat": "Culture",
    "name": "France Culture",
    "url": "https://icecast.radiofrance.fr/franceculture-hifi.aac",
-   "logo": "",
+   "logo": "logos/france-culture.png",
    "homepage": "",
    "codec": "",
    "bitrate": 0,
-   "uuid": ""
+   "uuid": "",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/France_Culture_logo_2021.svg/langfr-330px-France_Culture_logo_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "label": "Bloomberg Radio",
    "cat": "Marchés US",
    "name": "Bloomberg Radio",
    "url": "https://tunein.cdnstream1.com/3521_96.mp3",
-   "logo": "https://cdn-profiles.tunein.com/s165740/images/logod.jpg",
+   "logo": "logos/bloomberg-radio.jpg",
    "homepage": "https://bloomberg.com/",
    "codec": "MP3",
    "bitrate": 96,
-   "uuid": "bed6056a-86b8-4f7f-92b7-e11f3c72d5e7"
+   "uuid": "bed6056a-86b8-4f7f-92b7-e11f3c72d5e7",
+   "logoSource": "https://cdn-profiles.tunein.com/s165740/images/logod.jpg"
   },
   {
    "label": "FIP",
    "cat": "Musique",
    "name": "FIP",
    "url": "https://icecast.radiofrance.fr/fip-hifi.aac",
-   "logo": "",
+   "logo": "logos/fip.png",
    "homepage": "",
    "codec": "",
    "bitrate": 0,
-   "uuid": ""
+   "uuid": "",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/FIP_logo_2021.svg/langfr-330px-FIP_logo_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "label": "Mouv'",
    "cat": "Musique",
    "name": "Mouv'",
    "url": "https://icecast.radiofrance.fr/mouv-hifi.aac",
-   "logo": "",
+   "logo": "logos/mouv.png",
    "homepage": "",
    "codec": "",
    "bitrate": 0,
-   "uuid": ""
+   "uuid": "",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/fr/thumb/f/ff/Logo_de_Mouv%27_2021.svg/langfr-330px-Logo_de_Mouv%27_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "label": "NRJ",
    "cat": "Musique",
    "name": "Nrj Hits",
    "url": "https://streaming.nrjaudio.fm/ou7xugf3s5gi?origine=playernrj&aw_0_req.userConsentV2=&aw_0_1st.station=NRJ-Hits",
-   "logo": "https://img.nrj.fr/8loJFyDgG_Gm_fgnk1fhkYIewhI=/medias%2F2021%2F06%2Flogo-nrj_60db2627d4729.svg",
+   "logo": "logos/nrj.png",
    "homepage": "https://www.nrj.fr/webradios/mur-des-radios/nrj-hits",
    "codec": "AAC+",
    "bitrate": 128,
-   "uuid": "36eba167-5c51-4421-98f0-d2cda24be928"
+   "uuid": "36eba167-5c51-4421-98f0-d2cda24be928",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/fr/thumb/c/ca/Nrj2014.png/330px-Nrj2014.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
  ],
  "podcasts": [
