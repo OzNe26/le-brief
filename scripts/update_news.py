@@ -9,9 +9,9 @@ ROOT = __file__.rsplit("/scripts/", 1)[0]
 UA = {"User-Agent": "Mozilla/5.0 (compatible; LeBriefBot/1.0; +https://ozne26.github.io/le-brief/)",
       "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"}
 NOW = datetime.now(timezone.utc)
-MAX_AGE = timedelta(hours=36)
-PER_TAB = 90
-PER_SOURCE = 18
+MAX_AGE = timedelta(hours=24)   # on garde toute la journée (24 h glissantes)
+PER_TAB = 400
+PER_SOURCE = 60
 NS = {"media": "http://search.yahoo.com/mrss/", "atom": "http://www.w3.org/2005/Atom",
       "content": "http://purl.org/rss/1.0/modules/content/", "dc": "http://purl.org/dc/elements/1.1/"}
 
@@ -97,6 +97,12 @@ def main():
     with ThreadPoolExecutor(max_workers=12) as ex:
         results = list(ex.map(run, jobs))
     out = {"updatedAt": NOW.isoformat(timespec="seconds"), "tabs": {}, "sources": {}}
+    # Les flux RSS ne gardent que leurs derniers articles : on reprend le fil précédent
+    # pour ne pas perdre les infos du matin quand on lit le soir.
+    try:
+        prev = json.load(open(f"{ROOT}/news_live.json", encoding="utf-8")).get("tabs", {})
+    except Exception:
+        prev = {}
     for tab in sources:
         items, seen = [], set()
         for t, s, its, err in results:
@@ -109,6 +115,13 @@ def main():
                     txt = (it["titre"] + " " + it["resume"]).lower()
                     if not any(k in txt for k in kws[tab]): continue
                 items.append(it)
+        for it in prev.get(tab, []):
+            try: d = datetime.fromisoformat(it["ts"])
+            except Exception: continue
+            if NOW - d > MAX_AGE or it.get("source", "").lower() in block: continue
+            it["_old"] = True
+            items.append(it)
+        items.sort(key=lambda x: x.get("_old", False))  # à titre égal, la version fraîche passe devant
         items.sort(key=lambda x: x["ts"], reverse=True)
         kept, per = [], {}
         for it in items:
@@ -116,6 +129,7 @@ def main():
             if k in seen: continue
             if per.get(it["source"], 0) >= PER_SOURCE: continue
             seen.add(k); per[it["source"]] = per.get(it["source"], 0) + 1
+            it.pop("_old", None)
             kept.append(it)
             if len(kept) >= PER_TAB: break
         out["tabs"][tab] = kept

@@ -41,6 +41,10 @@ header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-be
 nav{display:flex;gap:6px;margin:22px 0 26px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
 nav button{all:unset;cursor:pointer;flex:none;white-space:nowrap;padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font-weight:600;font-size:14px;display:flex;align-items:center;gap:7px;transition:.2s}
 nav button:hover{border-color:#3a414c}
+.tgroup{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin:14px 0 2px;padding-bottom:6px;border-bottom:1px dashed var(--line)}
+.tgroup:first-child{margin-top:0}
+.tgroup{scroll-margin-top:70px}
+.jump{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 0 12px;font-size:12.5px}.jump>span{color:var(--dim);margin-right:2px}.jump button{all:unset;cursor:pointer;padding:5px 10px;border-radius:999px;border:1px dashed var(--line);color:var(--ink)}.jump button:hover{border-color:#3a414c}.jump b{color:var(--dim);font-weight:500;margin-left:3px}
 nav button .sw{width:10px;height:10px;border-radius:3px}
 nav button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .updated{font-size:12px;color:var(--dim);font-family:"JetBrains Mono",monospace;margin-bottom:10px}
@@ -962,10 +966,11 @@ function _render(){
     ${d&&d.resume?`<section class="brief"><h2>L'essentiel ${TABS[state.tab].label} <small style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0;text-transform:none;color:var(--dim);font-weight:400"> · ${esc(fmtDate(d.updatedAt))}</small></h2><p>${esc(d.resume)}</p></section>`:""}
     ${kpis&&fresh?`<div class="kpis">${kpis}</div>`:""}
     <div class="toolbar"><h3><span class="livedot"></span>En direct</h3><input class="search" id="q" type="search" placeholder="Filtrer (ex : Binance, taux…)" value="${esc(state.q)}"></div>
-    <div class="livemeta">${state.live?`${liveF.length} infos · mis à jour ${ago(state.live.updatedAt)} · actualisé automatiquement`:"Chargement du fil…"}</div>
+    <div class="livemeta">${state.live?`${liveF.length} infos sur les dernières 24 h · mis à jour ${ago(state.live.updatedAt)} · actualisé automatiquement`:"Chargement du fil…"}</div>
     ${state.livePending?`<button class="newpill" id="newpill">🔄 Nouvelles infos disponibles · afficher</button>`:""}
     ${chips}
-    <div class="list">${shown.length?shown.map(i=>cardHtml(i,state.tab,{live:true})).join(""):`<div class="empty">${state.live?"Aucune info ne correspond à ce filtre.":"Chargement…"}</div>`}</div>
+    ${jumpBar(liveF)}
+    <div class="list">${shown.length?liveGrouped(shown):`<div class="empty">${state.live?"Aucune info ne correspond à ce filtre.":"Chargement…"}</div>`}</div>
     ${liveF.length>shown.length?`<button class="btn ghost more" id="more">Voir plus d'infos (${liveF.length-shown.length})</button>`:""}
     ${sel.length?`<div class="toolbar" style="margin-top:30px"><h3>⭐ À retenir</h3></div><div class="list">${sel.map(i=>cardHtml(i,state.tab)).join("")}</div>`:""}
     ${niche.length?`<section class="niche"><div class="niche-h"><h3>🔎 Signaux faibles</h3><span>Infos de niche peu relayées qui peuvent donner un coup d'avance · ${esc(fmtDate(d.updatedAt))}</span></div>
@@ -973,7 +978,8 @@ function _render(){
   main.querySelectorAll(".chips button").forEach(b=>b.addEventListener("click",()=>{state.cat=b.dataset.cat;state.liveShow=25;render()}));
   const inp=document.getElementById("q");
   inp.addEventListener("input",e=>{state.q=e.target.value;const pos=e.target.selectionStart;render();const n=document.getElementById("q");n.focus();n.setSelectionRange(pos,pos)});
-  const mo=document.getElementById("more"); if(mo) mo.addEventListener("click",()=>{state.liveShow=(state.liveShow||25)+25;render()});
+  main.querySelectorAll(".jump button").forEach(b=>b.addEventListener("click",()=>{const k=+b.dataset.k,j=b.dataset.j;if((state.liveShow||25)<k+25)state.liveShow=k+25;render();const el=document.getElementById("tg-"+j);if(el)el.scrollIntoView({behavior:"smooth",block:"start"})}));
+  const mo=document.getElementById("more"); if(mo) mo.addEventListener("click",()=>{state.liveShow=(state.liveShow||25)+40;render()});
   const np=document.getElementById("newpill"); if(np) np.addEventListener("click",()=>{applyLive();});
   bindCards(main);
 }
@@ -1024,6 +1030,25 @@ let rsz; window.addEventListener("resize",()=>{clearTimeout(rsz);rsz=setTimeout(
 
 /* ================= Démarrage ================= */
 let liveStamp="";
+function dayPart(ts){
+  const d=new Date(ts), n=new Date(); if(isNaN(d)) return "";
+  const sd=(a,b)=>a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate();
+  const y=new Date(n); y.setDate(n.getDate()-1); const h=d.getHours();
+  const part=h<6?"nuit":h<12?"matin":h<18?"après-midi":"soir";
+  if(sd(d,n)) return {nuit:"Cette nuit",matin:"Ce matin","après-midi":"Cet après-midi",soir:"Ce soir"}[part];
+  if(sd(d,y)) return {nuit:"Hier, dans la nuit",matin:"Hier matin","après-midi":"Hier après-midi",soir:"Hier soir"}[part];
+  return d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"});
+}
+function liveGrouped(list){
+  let cur=null, out="", n=0;
+  for(const i of list){ const g=dayPart(i.ts); if(g!==cur){ cur=g; out+=`<div class="tgroup" id="tg-${n++}">${esc(g)}</div>`; } out+=cardHtml(i,state.tab,{live:true}); }
+  return out;
+}
+function jumpBar(list){
+  const gs=[]; list.forEach((i,k)=>{ const g=dayPart(i.ts); if(!gs.length||gs[gs.length-1].g!==g) gs.push({g,k,c:0}); gs[gs.length-1].c++; });
+  if(gs.length<2) return "";
+  return `<div class="jump"><span>Aller à</span>${gs.map((x,j)=>`<button data-j="${j}" data-k="${x.k}">${esc(x.g)} <b>${x.c}</b></button>`).join("")}</div>`;
+}
 function applyLive(){ if(state.liveNext){ state.live=state.liveNext; state.liveNext=null; } state.livePending=false; render(); }
 async function loadLive(){
   try{
