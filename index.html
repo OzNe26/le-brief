@@ -23,7 +23,7 @@
   --bg:#0d0f12; --panel:#15181d; --panel2:#1b1f26; --line:#262b33;
   --ink:#eef0f3; --muted:#9aa3ae; --dim:#6b7480;
   --up:#3ecf8e; --down:#ff6b6b; --flat:#9aa3ae;
-  --general:#ff8a5b; --espace:#3ecf8e; --audio:#38bdf8; --commu:#ff5fa2; --crypto:#f7b733; --actions:#5b9dff; --immo:#c58bff;
+  --general:#ff8a5b; --espace:#3ecf8e; --audio:#38bdf8; --analyse:#a3e635; --commu:#ff5fa2; --crypto:#f7b733; --actions:#5b9dff; --immo:#c58bff;
   --accent:var(--crypto);
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -281,6 +281,42 @@ body.playing .wrap{padding-bottom:110px}
 .more{display:block;margin:16px auto 0;cursor:pointer}
 .card .thumb{float:right;width:118px;height:78px;object-fit:cover;border-radius:9px;margin:0 0 6px 14px;background:var(--panel2);clear:right}
 @media (max-width:640px){ .card .thumb{width:86px;height:62px} .newpill{top:64px} }
+
+.warn{background:rgba(255,184,0,.08);border:1px solid rgba(255,184,0,.35);border-radius:12px;padding:12px 14px;font-size:13.5px;color:#f5d27a;margin-bottom:16px}
+.mood{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.mood div{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:13px;color:var(--muted)}
+.mood b{font-size:20px;display:block;font-family:"JetBrains Mono",monospace}
+.claude{background:linear-gradient(135deg,rgba(163,230,53,.10),rgba(163,230,53,.02));border:1px solid rgba(163,230,53,.4);border-radius:14px;padding:16px 18px;margin-bottom:20px}
+.claude h3{font-family:Fraunces,serif;font-size:20px;margin-bottom:4px}
+.claude .sub{color:var(--dim);font-size:12px;font-family:"JetBrains Mono",monospace;margin-bottom:8px}
+.claude p{font-size:15px;line-height:1.6}
+.agrid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.asset{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.ahead{display:flex;align-items:center;gap:10px}
+.ahead .ic{width:38px;height:38px;border-radius:10px;background:var(--panel2);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;color:var(--analyse);flex:none;font-family:"JetBrains Mono",monospace}
+.ahead b{font-size:16px;display:block}
+.ahead small{color:var(--dim);font-size:12px}
+.ahead .px{margin-left:auto;text-align:right;font-family:"JetBrains Mono",monospace}
+.ahead .px span{display:block;font-size:17px;color:var(--ink)}
+.verdict{display:flex;align-items:center;gap:10px}
+.vbadge{font-weight:700;font-size:13px;padding:4px 10px;border-radius:999px}
+.vbadge.Haussier{background:rgba(62,207,142,.15);color:var(--up)} .vbadge.Baissier{background:rgba(255,107,107,.15);color:var(--down)} .vbadge.Neutre{background:rgba(154,163,174,.15);color:var(--muted)}
+.meter{flex:1;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--down),#3a414c 50%,var(--up));position:relative}
+.meter i{position:absolute;top:-4px;width:4px;height:14px;border-radius:3px;background:var(--ink);transform:translateX(-50%)}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;font-family:"JetBrains Mono",monospace;font-size:12px}
+.stats div{background:var(--panel2);border-radius:8px;padding:6px 4px;text-align:center}
+.stats small{display:block;color:var(--dim);font-size:10.5px;font-family:Inter,sans-serif}
+.levels{font-size:12.5px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}
+.levels b{color:var(--ink);font-family:"JetBrains Mono",monospace;font-weight:500}
+.atext{font-size:14px;line-height:1.55;color:#d5dae1}
+.atext .lbl,.cnote .lbl{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:5px;margin-right:6px;vertical-align:1px}
+.atext .lbl{background:var(--panel2);color:var(--muted)}
+.cnote{font-size:14px;line-height:1.55;background:rgba(163,230,53,.07);border-left:3px solid var(--analyse);padding:8px 10px;border-radius:0 8px 8px 0}
+.cnote .lbl{background:rgba(163,230,53,.18);color:var(--analyse)}
+.anews a{display:block;font-size:13px;color:var(--muted);text-decoration:none;padding:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.anews a:hover{color:var(--ink)}
+.spark{width:100%;height:46px;display:block}
+@media (max-width:640px){ .agrid2{grid-template-columns:1fr} .stats{grid-template-columns:repeat(3,1fr)} }
 </style>
 </head>
 <body>
@@ -300,6 +336,7 @@ body.playing .wrap{padding-bottom:110px}
     <button role="tab" data-tab="crypto"><span class="sw" style="background:var(--crypto)"></span>Crypto</button>
     <button role="tab" data-tab="actions"><span class="sw" style="background:var(--actions)"></span>Actions</button>
     <button role="tab" data-tab="immo"><span class="sw" style="background:var(--immo)"></span>Immo</button>
+    <button role="tab" data-tab="analyse"><span class="sw" style="background:var(--analyse)"></span>📊 Analyse</button>
     <button role="tab" data-tab="audio"><span class="sw" style="background:var(--audio)"></span>🎧 Audio</button>
     <button role="tab" data-tab="communaute"><span class="sw" style="background:var(--commu)"></span>💬 Communauté</button>
     <button role="tab" data-tab="espace"><span class="sw" style="background:var(--espace)"></span>⭐ Mon espace</button>
@@ -350,6 +387,7 @@ const TABS={
   crypto:{label:"Crypto",color:"var(--crypto)"},
   actions:{label:"Actions",color:"var(--actions)"},
   immo:{label:"Immo",color:"var(--immo)"},
+  analyse:{label:"Analyse",color:"var(--analyse)"},
   audio:{label:"Audio",color:"var(--audio)"},
   communaute:{label:"Communauté",color:"var(--commu)"},
   espace:{label:"Mon espace",color:"var(--espace)"}
@@ -843,6 +881,48 @@ function renderAudio(main){
   document.getElementById("asf").addEventListener("submit",e=>{e.preventDefault();searchRadios(document.getElementById("asq").value);});
 }
 
+
+/* ================= Analyse des marchés ================= */
+const anState={data:null,claude:null,loading:false,failed:false,f:""};
+async function loadAnalysis(force){
+  if(anState.loading||(anState.data&&!force)) return; anState.loading=true;
+  try{ const [a,c]=await Promise.all([fetch("analysis.json?t="+Date.now(),{cache:"no-store"}),fetch("analysis_claude.json?t="+Date.now(),{cache:"no-store"}).catch(()=>null)]);
+    if(!a.ok) throw 0; anState.data=await a.json(); anState.claude=c&&c.ok?await c.json():null; anState.failed=false; }
+  catch(e){ anState.failed=true; }
+  anState.loading=false; if(state.tab==="analyse") render();
+}
+function nfmt(v){ if(v==null||!isFinite(v)) return "?"; const a=Math.abs(v); return v.toLocaleString("fr-FR",{maximumFractionDigits:a>=1000?0:a>=10?2:4,minimumFractionDigits:a>=1000?0:a>=10?2:2}); }
+function pfmt(v){ if(v==null||!isFinite(v)) return "?"; return (v>=0?"+":"")+v.toLocaleString("fr-FR",{maximumFractionDigits:1,minimumFractionDigits:1})+" %"; }
+function pcls(v){ return v==null?"flat":v>=0?"up":"down"; }
+function sparkSvg(v){ if(!v||v.length<2) return ""; const mn=Math.min(...v),mx=Math.max(...v),r=mx-mn||1; const pts=v.map((x,i)=>`${(i/(v.length-1)*100).toFixed(2)},${(28-(x-mn)/r*26).toFixed(2)}`).join(" ");
+  const col=v[v.length-1]>=v[0]?"var(--up)":"var(--down)"; return `<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>`; }
+function renderAnalyse(main){
+  loadAnalysis();
+  const d=anState.data, c=anState.claude;
+  const list=d?d.assets.filter(a=>!anState.f||a.type===anState.f):[];
+  const cnotes=c&&c.assets?c.assets:{};
+  main.innerHTML=`<section class="brief"><h2>📊 Analyse des marchés</h2><p>Les 10 actifs suivis sur le site, analysés chaque matin (vers 7h) et chaque soir après la clôture de Wall Street (vers 22h40) : tendance, momentum, niveaux à surveiller et actus liées.</p></section>
+    <div class="warn">⚠️ <b>Ce sont des avis, pas des conseils en investissement.</b> L'analyse automatique repose sur des indicateurs techniques simples, et l'avis de Claude est une opinion personnelle à un instant donné. Ils peuvent se tromper : fais toujours tes propres recherches et n'investis que ce que tu peux te permettre de perdre.</div>
+    ${!d?(anState.failed?'<div class="empty">L\'analyse arrive bientôt.</div>':'<div class="loading">Chargement…</div>'):`
+    <div class="mood"><div><b class="up">${d.mood.haussier}</b>haussiers</div><div><b>${d.mood.neutre}</b>neutres</div><div><b class="down">${d.mood.baissier}</b>baissiers</div><div style="flex:1;min-width:200px">Analyse automatique mise à jour ${ago(d.updatedAt)}<br><span style="font-size:12px;color:var(--dim)">${esc(fmtDate(d.updatedAt))} · cours : Binance & Yahoo Finance</span></div></div>
+    ${c&&c.global?`<section class="claude"><h3>🧠 L'avis de Claude</h3><div class="sub">Mon opinion personnelle · ${esc(fmtDate(c.updatedAt))} (${ago(c.updatedAt)})</div><p>${esc(c.global)}</p></section>`:""}
+    <div class="chips"><button data-af="" class="${anState.f?"":"on"}">Tout</button><button data-af="crypto" class="${anState.f==="crypto"?"on":""}">₿ Crypto</button><button data-af="action" class="${anState.f==="action"?"on":""}">📈 Actions</button></div>
+    <div class="agrid2">${list.map(a=>{const x=a.data,ch=x.ch||{},pos=((x.score+5)/10*100).toFixed(0),cn=cnotes[a.id];
+      return `<article class="asset">
+        <div class="ahead"><span class="ic">${esc(a.id)}</span><div><b>${esc(a.name)}</b><small>${a.type==="crypto"?"Crypto · en $":"Action US · en $"}</small></div>
+          <div class="px"><span>${nfmt(x.price)} $</span><em class="${pcls(ch["1j"])}" style="font-style:normal;font-size:12.5px">${pfmt(ch["1j"])} (24 h)</em></div></div>
+        ${sparkSvg(x.spark)}
+        <div class="verdict"><span class="vbadge ${esc(x.verdict)}">${x.verdict==="Haussier"?"▲":x.verdict==="Baissier"?"▼":"●"} ${esc(x.verdict)}</span><div class="meter" title="Score technique ${x.score} (de -5 à +5)"><i style="left:${pos}%"></i></div></div>
+        <div class="stats"><div><small>7 j</small><span class="${pcls(ch["7j"])}">${pfmt(ch["7j"])}</span></div><div><small>30 j</small><span class="${pcls(ch["30j"])}">${pfmt(ch["30j"])}</span></div><div><small>1 an</small><span class="${pcls(ch["1an"])}">${pfmt(ch["1an"])}</span></div><div><small>RSI 14</small>${x.rsi!=null?Math.round(x.rsi):"?"}</div><div><small>Volatilité</small>${x.vol!=null?Math.round(x.vol)+" %":"?"}</div></div>
+        <div class="levels"><span>Support <b>${nfmt(x.support)}</b></span><span>Résistance <b>${nfmt(x.resistance)}</b></span><span>MM50 <b>${nfmt(x.sma50)}</b></span><span>MM200 <b>${nfmt(x.sma200)}</b></span></div>
+        <div class="atext"><span class="lbl">${a.textBy==="ia"?"Analyse IA auto":"Analyse auto"}</span>${esc(a.text)}</div>
+        ${cn?`<div class="cnote"><span class="lbl">Avis de Claude</span>${esc(cn)}</div>`:""}
+        ${a.news&&a.news.length?`<div class="anews">${a.news.slice(0,3).map(n=>`<a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">📰 ${esc(n.titre)} <span style="color:var(--dim)">· ${esc(n.source)}</span></a>`).join("")}</div>`:""}
+      </article>`}).join("")}</div>
+    <p style="color:var(--dim);font-size:12px;margin-top:14px">Méthode : moyennes mobiles 20/50/200 jours, RSI 14 jours, volatilité annualisée sur 30 jours, support et résistance = plus bas et plus haut des 20 dernières séances. Score de -5 (très baissier) à +5 (très haussier).</p>`}`;
+  main.querySelectorAll("[data-af]").forEach(b=>b.addEventListener("click",()=>{anState.f=b.dataset.af;render()}));
+}
+
 /* ================= Rendu principal ================= */
 function render(){
   const ae=document.activeElement; const fid=ae&&ae.id&&ae.id!=="q"&&ae.closest&&ae.closest("#main")?ae.id:null;
@@ -855,6 +935,7 @@ function _render(){
   if(state.tab==="espace"){renderEspace(main);return}
   if(state.tab==="communaute"){renderCommu(main);return}
   if(state.tab==="audio"){renderAudio(main);return}
+  if(state.tab==="analyse"){renderAnalyse(main);return}
   const d=state.data&&state.data[state.tab];
   const L=state.live&&state.live.tabs?state.live.tabs[state.tab]:null;
   if(!d&&!L){main.innerHTML=(state.failed&&state.liveFailed)?'<div class="empty">Impossible de charger les infos pour l\'instant. Recharge la page dans un moment.</div>':'<div class="loading">Chargement des dernières infos…</div>';return}
