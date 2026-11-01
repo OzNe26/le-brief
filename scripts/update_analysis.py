@@ -154,24 +154,27 @@ def ai_rewrite(items):
               "et lien éventuel avec les actus listées). Garde le verdict fourni. N'invente aucun chiffre ni aucune info. "
               "Pas de conseil d'achat ou de vente, pas d'objectif de prix. Réponds en JSON strict : {\"ID\": \"texte\", ...} avec les identifiants entre parenthèses.\n\n"
               + json.dumps(brief, ensure_ascii=False))
-    body = json.dumps({"model": "openai/gpt-4o-mini", "temperature": 0.3, "response_format": {"type": "json_object"},
-                       "messages": [{"role": "user", "content": prompt}]}).encode()
-    try:
-        raw = get("https://models.github.ai/inference/chat/completions", data=body, timeout=90,
-                  headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json", "Accept": "application/json"})
+    errs = []
+    for url, model in (("https://models.github.ai/inference/chat/completions", "openai/gpt-4o-mini"),
+                       ("https://models.inference.ai.azure.com/chat/completions", "gpt-4o-mini")):
+        body = json.dumps({"model": model, "temperature": 0.3, "messages": [{"role": "user", "content": prompt}]}).encode()
+        req = urllib.request.Request(url, data=body, method="POST", headers={
+            "Authorization": f"Bearer {tok}", "Content-Type": "application/json",
+            "Accept": "application/vnd.github+json", "User-Agent": "le-brief-analysis", "X-GitHub-Api-Version": "2022-11-28"})
         try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                raw = resp.read(); final = resp.geturl()
             r = json.loads(raw)
-        except Exception:
-            return None, "réponse non JSON : " + raw[:160].decode("utf-8", "replace")
-        txt = r["choices"][0]["message"]["content"] or ""
-        m = re.search(r"\{.*\}", txt, re.S)
-        return json.loads(m.group(0) if m else txt), "ok"
-    except urllib.error.HTTPError as e:
-        try: detail = e.read().decode("utf-8", "replace")[:200]
-        except Exception: detail = ""
-        return None, f"HTTP {e.code} {detail}"
-    except Exception as e:
-        return None, str(e)[:160]
+            txt = r["choices"][0]["message"]["content"] or ""
+            m = re.search(r"\{.*\}", txt, re.S)
+            return json.loads(m.group(0) if m else txt), f"ok ({model})"
+        except urllib.error.HTTPError as e:
+            try: detail = e.read().decode("utf-8", "replace")[:160]
+            except Exception: detail = ""
+            errs.append(f"{url.split('/')[2]} HTTP {e.code} {detail}")
+        except Exception as e:
+            errs.append(f"{url.split('/')[2]} {str(e)[:120]} {locals().get('final','')}")
+    return None, " | ".join(errs)
 
 def main():
     out = {"updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"), "assets": [], "errors": [], "method": "règles"}
