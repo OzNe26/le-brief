@@ -38,8 +38,8 @@ header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-be
 .status{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);text-align:right}
 .status .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--up);margin-right:6px;box-shadow:0 0 0 0 rgba(62,207,142,.6);animation:pulse 2s infinite}
 @keyframes pulse{70%{box-shadow:0 0 0 8px rgba(62,207,142,0)}100%{box-shadow:0 0 0 0 rgba(62,207,142,0)}}
-nav{display:flex;gap:8px;margin:22px 0 26px;flex-wrap:wrap}
-nav button{all:unset;cursor:pointer;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font-weight:600;font-size:15px;display:flex;align-items:center;gap:8px;transition:.2s}
+nav{display:flex;gap:6px;margin:22px 0 26px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+nav button{all:unset;cursor:pointer;flex:none;white-space:nowrap;padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font-weight:600;font-size:14px;display:flex;align-items:center;gap:7px;transition:.2s}
 nav button:hover{border-color:#3a414c}
 nav button .sw{width:10px;height:10px;border-radius:3px}
 nav button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
@@ -189,7 +189,9 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
   .side{display:flex;flex-direction:column;position:sticky;top:0;align-self:start;height:100vh;overflow:hidden;padding:24px 0 12px}
   .tape{display:none}
 }
-@media (min-width:1280px) and (max-width:1599px){ .layout{grid-template-columns:250px minmax(0,1fr) 250px;gap:20px} }
+@media (min-width:1280px) and (max-width:1599px){ .layout{grid-template-columns:250px minmax(0,1fr) 250px;gap:20px} nav{gap:5px} nav button{padding:8px 10px;gap:6px} }
+.layout>*{min-width:0}
+@media (min-width:1280px) and (max-width:1439px){ .layout{grid-template-columns:230px minmax(0,1fr) 230px;gap:18px} nav button{padding:8px 9px;font-size:13px;gap:5px} nav button .sw{width:7px;height:7px} }
 @media (min-width:1600px){ .layout{grid-template-columns:320px minmax(0,1fr) 320px} }
 
 .agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-bottom:28px}
@@ -337,10 +339,10 @@ body.playing .wrap{padding-bottom:110px}
     <button role="tab" data-tab="crypto"><span class="sw" style="background:var(--crypto)"></span>Crypto</button>
     <button role="tab" data-tab="actions"><span class="sw" style="background:var(--actions)"></span>Actions</button>
     <button role="tab" data-tab="immo"><span class="sw" style="background:var(--immo)"></span>Immo</button>
-    <button role="tab" data-tab="analyse"><span class="sw" style="background:var(--analyse)"></span>📊 Analyse</button>
-    <button role="tab" data-tab="audio"><span class="sw" style="background:var(--audio)"></span>🎧 Audio</button>
-    <button role="tab" data-tab="communaute"><span class="sw" style="background:var(--commu)"></span>💬 Communauté</button>
-    <button role="tab" data-tab="espace"><span class="sw" style="background:var(--espace)"></span>⭐ Mon espace</button>
+    <button role="tab" data-tab="analyse"><span class="sw" style="background:var(--analyse)"></span>Analyse</button>
+    <button role="tab" data-tab="audio"><span class="sw" style="background:var(--audio)"></span>Audio</button>
+    <button role="tab" data-tab="communaute"><span class="sw" style="background:var(--commu)"></span>Communauté</button>
+    <button role="tab" data-tab="espace"><span class="sw" style="background:var(--espace)"></span>Mon espace</button>
   </nav>
   <div class="tape" id="tape"></div>
 
@@ -590,7 +592,7 @@ function renderAcct(){
 function renderMenu(){
   const m=document.getElementById("menu");
   m.innerHTML=state.user?`<div class="who"><b id="mwho"></b><span id="mmail"></span></div>
-    <button data-go="espace">⭐ Mon espace</button><button data-go="communaute">💬 Communauté</button>
+    <button data-go="espace">Mon espace</button><button data-go="communaute">Communauté</button>
     <button class="out" data-act="logout">↪ Se déconnecter</button>`
    :`<div class="who"><b>Pas connecté</b>Crée un compte gratuit en 30 secondes</div>
     <button data-act="signup">✨ Créer un compte</button><button data-act="login">🔑 Se connecter</button>`;
