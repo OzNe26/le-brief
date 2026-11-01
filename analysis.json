@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T22:20:47+00:00",
+ "updatedAt": "2026-11-01T22:21:44+00:00",
  "assets": [
   {
    "id": "BTC",
@@ -7,18 +7,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 77685.21,
+    "price": 77679.62,
     "ch": {
-     "1j": 0.13300762212689055,
-     "7j": -3.0801672129269875,
-     "30j": -8.084430762153517,
-     "1an": 14.845217715253845
+     "1j": 0.12580234440917604,
+     "7j": -3.0871412800020592,
+     "30j": -8.091044737092135,
+     "1an": 14.836953790022388
     },
-    "sma20": 80902.954,
-    "sma50": 81968.4026,
-    "sma200": 73193.46265,
-    "rsi": 36.02935392042568,
-    "vol": 27.701639653194377,
+    "sma20": 80902.6745,
+    "sma50": 81968.2908,
+    "sma200": 73193.4347,
+    "rsi": 35.999273267694704,
+    "vol": 27.700342427699493,
     "support": 76325.98,
     "resistance": 84898.0,
     "hi52": 87395.67,
@@ -59,7 +59,7 @@
      77991.89,
      77368.77,
      77582.02,
-     77685.21
+     77679.62
     ]
    },
    "news": [
@@ -96,18 +96,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 2254.62,
+    "price": 2253.71,
     "ch": {
-     "1j": -0.04610623941551095,
-     "7j": -3.22979393700078,
-     "30j": -15.512686474879999,
-     "1an": 15.159718462371409
+     "1j": -0.08644919890408165,
+     "7j": -3.268851910192405,
+     "30j": -15.546786879962827,
+     "1an": 15.113238193500944
     },
-    "sma20": 2371.912,
-    "sma50": 2516.8144,
-    "sma200": 2158.8934,
-    "rsi": 31.607554670459365,
-    "vol": 35.658067035830285,
+    "sma20": 2371.8665,
+    "sma50": 2516.7961999999998,
+    "sma200": 2158.8888500000003,
+    "rsi": 31.538748434542484,
+    "vol": 35.65123064910781,
     "support": 2174.08,
     "resistance": 2538.52,
     "hi52": 2807.34,
@@ -148,7 +148,7 @@
      2253.13,
      2245.54,
      2255.66,
-     2254.62
+     2253.71
     ]
    },
    "news": [
@@ -177,7 +177,7 @@
      "ts": "2026-11-01T13:00:00+00:00"
     }
    ],
-   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,2 % et sur 30 jours -15,5 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 539 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : Les investisseurs désertent les ETF Ethereum en octobre » (Cointribune)."
+   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,3 % et sur 30 jours -15,5 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 539 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : Les investisseurs désertent les ETF Ethereum en octobre » (Cointribune)."
   },
   {
    "id": "SOL",
@@ -185,18 +185,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 93.36,
+    "price": 93.42,
     "ch": {
-     "1j": -2.2817667992463986,
-     "7j": -7.928994082840246,
-     "30j": -21.314791403286982,
-     "1an": 12.767242420582182
+     "1j": -2.2189658781662125,
+     "7j": -7.8698224852071,
+     "30j": -21.264222503160557,
+     "1an": 12.839714941418045
     },
-    "sma20": 102.15599999999999,
-    "sma50": 109.0062,
-    "sma200": 88.8951,
-    "rsi": 27.52625888316871,
-    "vol": 41.62823833935943,
+    "sma20": 102.159,
+    "sma50": 109.0074,
+    "sma200": 88.89540000000001,
+    "rsi": 27.595281673450486,
+    "vol": 41.600474279602054,
     "support": 92.34,
     "resistance": 109.2,
     "hi52": 124.95,
@@ -238,7 +238,7 @@
      95.64,
      96.38,
      95.54,
-     93.36
+     93.42
     ]
    },
    "news": [
@@ -346,18 +346,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 705.25,
+    "price": 705.53,
     "ch": {
-     "1j": 0.1846722068328699,
-     "7j": -4.526932813494167,
-     "30j": -8.200455580865606,
-     "1an": 14.712101496421614
+     "1j": 0.2244477590737981,
+     "7j": -4.489027873668261,
+     "30j": -8.164009111617322,
+     "1an": 14.757644762524391
     },
-    "sma20": 729.717,
-    "sma50": 748.6632000000001,
-    "sma200": 655.59425,
-    "rsi": 39.17529580846714,
-    "vol": 40.04014471705534,
+    "sma20": 729.731,
+    "sma50": 748.6688,
+    "sma200": 655.59565,
+    "rsi": 39.29675024201409,
+    "vol": 40.04604116013284,
     "support": 680.0,
     "resistance": 762.2,
     "hi52": 809.99,
@@ -398,7 +398,7 @@
      698.46,
      704.42,
      703.95,
-     705.25
+     705.53
     ]
    },
    "news": [
@@ -792,7 +792,7 @@
  ],
  "errors": [],
  "method": "règles",
- "ai": "réponse non JSON : OK\r\n",
+ "ai": "models.github.ai Expecting value: line 1 column 1 (char 0) https://models.github.ai/inference/chat/completions | models.inference.ai.azure.com <urlopen error [Errno -2] Name or service not known> https://models.github.ai/inference/chat/completions",
  "mood": {
   "haussier": 3,
   "baissier": 1,
