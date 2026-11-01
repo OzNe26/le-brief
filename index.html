@@ -182,7 +182,8 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .radio{display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;transition:.15s;text-align:left;color:inherit;font:inherit}
 .radio:hover{border-color:#3a414c}
 .radio.on{border-color:var(--audio);box-shadow:0 0 0 1px var(--audio) inset}
-.rlogo{width:44px;height:44px;border-radius:10px;background:var(--panel2) center/cover no-repeat;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--audio)}
+.rlogo{width:46px;height:46px;border-radius:10px;background:var(--panel2) center/cover no-repeat;flex:none;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--audio);overflow:hidden}
+.rlogo.img{background-color:#fff;background-size:86%;background-position:center}
 .radio b{display:block;font-size:14.5px}
 .radio small{color:var(--dim);font-size:12px}
 .rplay{margin-left:auto;width:32px;height:32px;border-radius:50%;background:var(--audio);color:#0b1220;display:flex;align-items:center;justify-content:center;font-size:13px;flex:none}
@@ -205,7 +206,7 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .asearch input{flex:1;min-width:200px}
 .player{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;width:min(860px,calc(100% - 24px));background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:10px 14px;display:flex;align-items:center;gap:12px;z-index:40;box-shadow:0 14px 40px rgba(0,0,0,.5)}
 .player[hidden]{display:none}
-.player img{width:46px;height:46px;border-radius:10px;object-fit:cover;background:var(--panel);flex:none}
+.player img{width:46px;height:46px;border-radius:10px;object-fit:contain;background:#fff;flex:none}
 .plinfo{flex:1;min-width:0}
 .plinfo b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .plinfo span{color:var(--muted);font-size:12px}
@@ -754,7 +755,7 @@ async function searchRadios(q){
 function radioCard(r){
   const on=isPlaying(r.url);
   return `<button class="radio ${on?"on":""}" data-url="${esc(r.url)}" data-label="${esc(r.label)}" data-cat="${esc(r.cat||"")}" data-logo="${esc(r.logo||"")}">
-    <span class="rlogo" ${r.logo?`style="background-image:url('${esc(r.logo)}')"`:""}>${r.logo?"":esc((r.label||"?").charAt(0))}</span>
+    <span class="rlogo ${r.logo?"img":""}" ${r.logo?`style="background-image:url('${esc(r.logo)}')"`:""}>${r.logo?"":esc((r.label||"?").charAt(0))}</span>
     <span style="min-width:0"><b>${esc(r.label)}</b><small>${esc(r.cat||"")}</small></span><span class="rplay">${on?"❚❚":"▶"}</span></button>`;
 }
 function renderAudio(main){
