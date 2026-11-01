@@ -165,6 +165,7 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .gbtn:hover{background:#f1f1f1}
 .sep{display:flex;align-items:center;gap:10px;color:var(--dim);font-size:12.5px;margin:12px 0}
 .sep:before,.sep:after{content:"";flex:1;height:1px;background:var(--line)}
+.pfav{display:flex;flex-direction:column;align-items:center;gap:6px}.pfpic{position:relative;cursor:pointer;display:block;border-radius:50%}.pfpic:hover .av{filter:brightness(.8)}.pfcam{position:absolute;right:-2px;bottom:-2px;width:26px;height:26px;border-radius:50%;background:var(--panel);border:1px solid var(--line);display:grid;place-items:center;font-size:13px}.pfavb{display:flex;gap:10px;font-size:12.5px}.lnk{all:unset;cursor:pointer;color:var(--dim);text-decoration:underline;text-underline-offset:2px}.lnk:hover{color:var(--ink)}
 .pseudoform{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .pseudoform input{flex:1;min-width:160px}
 .atabs{display:flex;gap:6px;margin-bottom:16px;background:var(--bg);padding:4px;border-radius:12px}
@@ -404,7 +405,7 @@ const TABNAME={general:"Actu",crypto:"Crypto",actions:"Actions",immo:"Immo"};
 const CTAGS=["Général","Crypto","Actions","Immo","Actu"];
 const LS_KEY="lebrief_prefs_v1";
 const state={liveShow:25,live:null,liveNext:null,livePending:false,liveFailed:false,tab:"general",data:{},loaded:false,failed:false,q:"",cat:"",prefs:loadLocal(),
-  user:null,pseudo:"",posts:[],comments:[],likes:[],pseudos:{},commuLoaded:false,commuErr:false,
+  user:null,pseudo:"",avatar:"",avatars:{},posts:[],comments:[],likes:[],pseudos:{},commuLoaded:false,commuErr:false,
   draft:{text:"",link:"",tag:"Général",article:null},open:{},ctag:"",authMode:"signup"};
 
 /* ================= Utils ================= */
@@ -418,7 +419,11 @@ function ago(iso){ const d=new Date(iso); if(isNaN(d)) return ""; const m=Math.r
 function keyOf(i){return (i.url||"")+"|"+(i.titre||"")}
 function toast(t){const el=document.getElementById("toast");el.textContent=t;el.classList.add("show");clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove("show"),2200)}
 function colorFor(s){let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))%360;return `hsl(${h} 70% 65%)`}
-function avatar(name,size=34){const n=name||"?";return `<span class="av letter" style="width:${size}px;height:${size}px;border-radius:50%;background:${colorFor(n)};flex:none">${esc(n.charAt(0).toUpperCase())}</span>`}
+function avatar(name,size=34,url){const n=name||"?";const L=`<span class="av letter" style="width:${size}px;height:${size}px;border-radius:50%;background:${colorFor(n)};flex:none">${esc(n.charAt(0).toUpperCase())}</span>`;
+  if(!url||!/^https:\/\//.test(url)) return L;
+  return `<img class="av photo" src="${esc(url)}" alt="" loading="lazy" referrerpolicy="no-referrer" style="width:${size}px;height:${size}px;border-radius:50%;object-fit:cover;flex:none;background:var(--panel2)" onerror="this.outerHTML=this.dataset.l" data-l="${esc(L)}">`}
+function avatarOf(uid,size){return avatar(uid===(state.user&&state.user.id)?state.pseudo:pseudoOf(uid),size,uid===(state.user&&state.user.id)?state.avatar:state.avatars[uid])}
+function googlePic(){const m=(state.user&&state.user.user_metadata)||{};return m.avatar_url||m.picture||""}
 function frErr(e){
   const m=String((e&&(e.message||e.error_description))||e||"");
   if(/Invalid login credentials/i.test(m)) return "E-mail ou mot de passe incorrect.";
@@ -531,14 +536,54 @@ document.getElementById("authf").addEventListener("submit",async e=>{
 });
 async function loadMyPseudo(){
   if(!sb||!state.user) return;
-  const {data}=await sb.from("profiles").select("pseudo").eq("id",state.user.id).maybeSingle();
+  let {data,error}=await sb.from("profiles").select("pseudo,avatar_url").eq("id",state.user.id).maybeSingle();
+  if(error){ state.noAvatarCol=true; ({data}=await sb.from("profiles").select("pseudo").eq("id",state.user.id).maybeSingle()); }
+  state.avatar=(data&&data.avatar_url)||googlePic()||"";
+  if(data&&!data.avatar_url&&googlePic()&&!state.noAvatarCol) sb.from("profiles").update({avatar_url:googlePic()}).eq("id",state.user.id).then(()=>{});
   if(data&&data.pseudo){ state.pseudo=data.pseudo; }
   else{
     const p=(state.user.user_metadata&&state.user.user_metadata.pseudo)||String(state.user.email||"membre").split("@")[0];
     const r=await sb.from("profiles").insert({id:state.user.id,pseudo:p.slice(0,24)});
     state.pseudo=r.error?p:p.slice(0,24);
   }
-  state.pseudos[state.user.id]=state.pseudo; renderAcct(); render();
+  state.pseudos[state.user.id]=state.pseudo; state.avatars[state.user.id]=state.avatar; renderAcct(); render();
+}
+/* ---- Photo de profil ---- */
+function squareJpeg(file,size=256){return new Promise((res,rej)=>{
+  const url=URL.createObjectURL(file), img=new Image();
+  img.onload=()=>{const c=document.createElement("canvas");c.width=c.height=size;const x=c.getContext("2d");
+    const m=Math.min(img.naturalWidth,img.naturalHeight);x.fillStyle="#fff";x.fillRect(0,0,size,size);
+    x.drawImage(img,(img.naturalWidth-m)/2,(img.naturalHeight-m)/2,m,m,0,0,size,size);URL.revokeObjectURL(url);
+    c.toBlob(b=>b?res(b):rej(new Error("conversion")),"image/jpeg",.86)};
+  img.onerror=()=>{URL.revokeObjectURL(url);rej(new Error("Image illisible"))};img.src=url;})}
+async function clearMyAvatars(keep){
+  try{const {data}=await sb.storage.from("avatars").list(state.user.id,{limit:100});
+    const old=(data||[]).map(f=>state.user.id+"/"+f.name).filter(n=>n!==keep);
+    if(old.length) await sb.storage.from("avatars").remove(old);}catch(e){}
+}
+async function uploadAvatar(file){
+  if(!sb||!state.user||!file) return;
+  if(!/^image\//.test(file.type)){toast("Choisis une image (JPG, PNG…)");return}
+  if(file.size>15e6){toast("Image trop lourde (15 Mo max)");return}
+  toast("Envoi de la photo…");
+  try{
+    const blob=await squareJpeg(file);
+    const path=`${state.user.id}/${Date.now()}.jpg`;
+    const up=await sb.storage.from("avatars").upload(path,blob,{contentType:"image/jpeg",cacheControl:"31536000",upsert:false});
+    if(up.error) throw up.error;
+    const url=sb.storage.from("avatars").getPublicUrl(path).data.publicUrl;
+    const {error}=await sb.from("profiles").update({avatar_url:url}).eq("id",state.user.id);
+    if(error) throw error;
+    state.avatar=url; state.avatars[state.user.id]=url; clearMyAvatars(path);
+    renderAcct(); render(); toast("Photo de profil mise à jour ✅");
+  }catch(e){ const m=String(e&&e.message||e);
+    toast(/bucket|not found|avatar_url|column|row-level|policy/i.test(m)?"Photos pas encore activées : il faut lancer le script SQL des photos dans Supabase":"Échec de l'envoi : "+frErr(e)); }
+}
+async function removeAvatar(){
+  if(!sb||!state.user) return;
+  const {error}=await sb.from("profiles").update({avatar_url:null}).eq("id",state.user.id);
+  if(error){toast(frErr(error));return}
+  clearMyAvatars(""); state.avatar=""; state.avatars[state.user.id]=""; renderAcct(); render(); toast("Photo retirée");
 }
 async function changePseudo(e){
   e.preventDefault(); const v=document.getElementById("pseudoi").value.trim();
@@ -554,7 +599,7 @@ async function changePseudo(e){
 async function onSession(session){
   const prev=state.user&&state.user.id;
   state.user=session?session.user:null;
-  if(!state.user){ state.pseudo=""; renderAcct(); render(); return; }
+  if(!state.user){ state.pseudo=""; state.avatar=""; renderAcct(); render(); return; }
   if(prev===state.user.id) return;
   state.pseudo=(state.user.user_metadata&&state.user.user_metadata.pseudo)||"";
   renderAcct();
@@ -562,7 +607,7 @@ async function onSession(session){
 }
 async function logout(){
   if(sb) await sb.auth.signOut();
-  state.user=null; state.pseudo=""; renderAcct(); render(); toast("Déconnecté");
+  state.user=null; state.pseudo=""; state.avatar=""; renderAcct(); render(); toast("Déconnecté");
 }
 async function checkRecovery(){
   if(!/type=recovery/.test(INIT_HASH)) return;
@@ -590,7 +635,9 @@ async function checkRecovery(){
 /* ================= Menu compte ================= */
 function renderAcct(){
   const nm=document.getElementById("acctnm"), av=document.getElementById("acctav");
-  if(state.user){ const p=state.pseudo||"Mon compte"; nm.textContent=p; av.className="av letter"; av.style.background=colorFor(p); av.textContent=p.charAt(0).toUpperCase(); }
+  if(state.user){ const p=state.pseudo||"Mon compte"; nm.textContent=p;
+    if(state.avatar){ av.className="av"; av.textContent=""; av.style.background=`var(--panel2) url("${state.avatar.replace(/"/g,"%22")}") center/cover`; }
+    else { av.className="av letter"; av.style.background=colorFor(p); av.textContent=p.charAt(0).toUpperCase(); } }
   else { nm.textContent="Connexion"; av.className="av letter guest"; av.style.background=""; av.textContent="👤"; }
 }
 function renderMenu(){
@@ -657,7 +704,8 @@ function renderEspace(main){
   const hits=[]; for(const t of NEWS){const d=state.data[t]; if(!d) continue;
     for(const i of [...(d.items||[]),...(d.niche||[])]) if(watchHit(i)) hits.push({i,t}); }
   main.innerHTML=`
-    ${state.user?`<div class="profile">${avatar(state.pseudo,56)}<div style="flex:1;min-width:220px"><h2 id="pfname"></h2><p>Connecté. Tes favoris et ta liste te suivent sur tous tes appareils.</p>
+    ${state.user?`<div class="profile"><div class="pfav"><label class="pfpic" title="Changer ma photo">${avatar(state.pseudo,72,state.avatar)}<span class="pfcam">📷</span><input type="file" id="avfile" accept="image/*" hidden></label>
+        <div class="pfavb"><label class="lnk" for="avfile">${state.avatar?"Changer":"Ajouter une photo"}</label>${state.avatar?`<button class="lnk" id="avdel" type="button">Retirer</button>`:""}</div></div><div style="flex:1;min-width:220px"><h2 id="pfname"></h2><p>Connecté. Tes favoris et ta liste te suivent sur tous tes appareils.</p>
         <form class="pseudoform" id="pseudof"><input class="search" id="pseudoi" maxlength="24" placeholder="Nouveau pseudo"><button class="btn ghost" type="submit">Changer de pseudo</button></form></div><button class="btn ghost" id="pfout" style="align-self:flex-start">Se déconnecter</button></div>`
       :`<div class="login" style="margin-bottom:22px"><h2>Crée ton compte gratuit</h2><p>Avec un compte, tes favoris et ta liste te suivent sur tous tes appareils, et tu peux participer à la communauté. Juste un pseudo, un e-mail et un mot de passe.</p>
         <p style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="btn" id="esu">Créer un compte</button><button class="btn ghost" id="eli">Se connecter</button></p>
@@ -671,6 +719,8 @@ function renderEspace(main){
       <div class="list" style="margin-bottom:26px">${hits.length?hits.map(h=>cardHtml(h.i,h.t,{showTab:TABNAME[h.t],niche:!!h.i.pourquoi})).join(""):'<div class="empty">Rien sur ta liste dans les infos du moment.</div>'}</div>`:""}
     <div class="toolbar"><h3>⭐ Mes favoris (${saved.length})</h3></div>
     <div class="list">${saved.length?saved.map(s=>cardHtml(s,s.tab||"general",{showTab:TABNAME[s.tab]||""})).join(""):'<div class="empty">Clique sur ☆ à côté d\'une info pour la garder ici.</div>'}</div>`;
+  const avf=document.getElementById("avfile"); if(avf) avf.addEventListener("change",e=>{const f=e.target.files&&e.target.files[0]; e.target.value=""; uploadAvatar(f);});
+  const avd=document.getElementById("avdel"); if(avd) avd.addEventListener("click",removeAvatar);
   const pn=document.getElementById("pfname"); if(pn) pn.textContent=state.pseudo||"Mon compte";
   const po=document.getElementById("pfout"); if(po) po.addEventListener("click",logout);
   const pf=document.getElementById("pseudof"); if(pf){ document.getElementById("pseudoi").value=state.pseudo; pf.addEventListener("submit",changePseudo); }
@@ -698,8 +748,10 @@ async function loadCommu(){
         sb.from("likes").select("post_id,user_id").in("post_id",ids)]);
       state.comments=c.data||[]; state.likes=l.data||[];
     } else { state.comments=[]; state.likes=[]; }
-    const uids=[...new Set([...state.posts.map(p=>p.user_id),...state.comments.map(c=>c.user_id)])].filter(u=>!state.pseudos[u]);
-    if(uids.length){ const {data:pr}=await sb.from("profiles").select("id,pseudo").in("id",uids); (pr||[]).forEach(p=>state.pseudos[p.id]=p.pseudo); }
+    const uids=[...new Set([...state.posts.map(p=>p.user_id),...state.comments.map(c=>c.user_id)])].filter(u=>!state.pseudos[u]||!(u in state.avatars));
+    if(uids.length){ let r=state.noAvatarCol?{error:1}:await sb.from("profiles").select("id,pseudo,avatar_url").in("id",uids);
+      if(r.error){ state.noAvatarCol=true; r=await sb.from("profiles").select("id,pseudo").in("id",uids); }
+      (r.data||[]).forEach(p=>{state.pseudos[p.id]=p.pseudo; state.avatars[p.id]=p.avatar_url||"";}); }
     state.commuLoaded=true; state.commuErr=false;
   }catch(e){ state.commuLoaded=true; state.commuErr=true; }
   commuBusy=false; if(state.tab==="communaute") render();
@@ -740,7 +792,7 @@ function renderCommu(main){
   const posts=state.posts.filter(p=>!state.ctag||p.tag===state.ctag);
   const composer=state.user
     ?`<div class="composer">
-        <div style="display:flex;gap:10px;align-items:center;margin-bottom:10px">${avatar(state.pseudo,30)}<b id="cme"></b></div>
+        <div style="display:flex;gap:10px;align-items:center;margin-bottom:10px">${avatarOf(state.user.id,30)}<b id="cme"></b></div>
         <textarea id="ctext" maxlength="1500" placeholder="Partage une idée d'investissement, un avis, une info…"></textarea>
         ${state.draft.article?`<div class="attach">📰 <span id="atitle"></span><button id="adel" title="Retirer">×</button></div>`:""}
         <div class="crow"><input class="search" id="clink" placeholder="Lien (optionnel) : https://…">
@@ -756,13 +808,13 @@ function renderCommu(main){
       const cms=state.comments.filter(c=>c.post_id===p.id); const open=state.open[p.id];
       const art=p.article&&typeof p.article==="object"?p.article:null;
       return `<article class="post" data-pid="${esc(p.id)}">
-        <div class="phead">${avatar(pseudoOf(p.user_id))}<div><b>${esc(pseudoOf(p.user_id))}${p.user_id===me?" (toi)":""}</b><br><small>${ago(p.created_at)}</small></div>${p.tag?`<span class="tag" style="margin-left:auto">${esc(p.tag)}</span>`:""}</div>
+        <div class="phead">${avatarOf(p.user_id)}<div><b>${esc(pseudoOf(p.user_id))}${p.user_id===me?" (toi)":""}</b><br><small>${ago(p.created_at)}</small></div>${p.tag?`<span class="tag" style="margin-left:auto">${esc(p.tag)}</span>`:""}</div>
         ${p.text?`<div class="ptext">${esc(p.text)}</div>`:""}
         ${art?`<div class="embed"><a href="${esc(safeUrl(art.url))}" target="_blank" rel="noopener">📰 ${esc(art.titre)}</a><small>${esc(art.source||"")}</small></div>`:""}
         ${p.link?`<a class="plink" href="${esc(safeUrl(p.link))}" target="_blank" rel="noopener">🔗 ${esc(p.link)}</a>`:""}
         <div class="pact"><button class="lk ${liked?"liked":""}">${liked?"❤️":"🤍"} ${likes.length}</button>
           <button class="cm">💬 ${cms.length}</button>${p.user_id===me?`<button class="del" title="Supprimer">🗑</button>`:""}</div>
-        ${open?`<div class="comments">${cms.map(c=>`<div class="cmt">${avatar(pseudoOf(c.user_id),24)}<div class="cb"><b>${esc(pseudoOf(c.user_id))}</b><span>${esc(c.text)}</span>${c.user_id===me?`<button class="cx" data-cid="${esc(c.id)}" title="Supprimer">×</button>`:""}</div></div>`).join("")||'<div style="color:var(--dim);font-size:13.5px">Pas encore de commentaire.</div>'}
+        ${open?`<div class="comments">${cms.map(c=>`<div class="cmt">${avatarOf(c.user_id,24)}<div class="cb"><b>${esc(pseudoOf(c.user_id))}</b><span>${esc(c.text)}</span>${c.user_id===me?`<button class="cx" data-cid="${esc(c.id)}" title="Supprimer">×</button>`:""}</div></div>`).join("")||'<div style="color:var(--dim);font-size:13.5px">Pas encore de commentaire.</div>'}
           ${state.user?`<form class="cform"><input class="search" maxlength="800" placeholder="Écrire un commentaire…"><button class="btn" type="submit">Envoyer</button></form>`:`<button class="linkbtn cjoin" style="text-align:left">Connecte-toi pour commenter</button>`}</div>`:""}
       </article>`}).join(""):'<div class="empty">Personne n\'a encore rien publié. Lance la discussion !</div>'}</div>`;
   const cme=document.getElementById("cme"); if(cme) cme.textContent=state.pseudo;
