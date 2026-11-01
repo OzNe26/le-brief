@@ -1,0 +1,24 @@
+{
+  "radios": [
+    {"label": "franceinfo", "q": "franceinfo", "cc": "FR", "cat": "Info"},
+    {"label": "France Inter", "q": "France Inter", "cc": "FR", "cat": "Info"},
+    {"label": "BFM Business", "q": "BFM Business", "cc": "FR", "cat": "Éco & marchés"},
+    {"label": "RMC", "q": "RMC", "cc": "FR", "cat": "Info & sport"},
+    {"label": "Radio Classique", "q": "Radio Classique", "cc": "FR", "cat": "Éco & musique"},
+    {"label": "France Culture", "q": "France Culture", "cc": "FR", "cat": "Culture"},
+    {"label": "Bloomberg Radio", "q": "Bloomberg", "cc": "US", "cat": "Marchés US"},
+    {"label": "FIP", "q": "FIP", "cc": "FR", "cat": "Musique"},
+    {"label": "Mouv'", "q": "Mouv", "cc": "FR", "cat": "Musique"},
+    {"label": "NRJ", "q": "NRJ", "cc": "FR", "cat": "Musique"}
+  ],
+  "podcasts": [
+    {"q": "La Martingale Matthieu Stefani", "cat": "Finances perso"},
+    {"q": "Génération Do It Yourself", "cat": "Business"},
+    {"q": "Good Morning Business BFM", "cat": "Éco & marchés"},
+    {"q": "Cryptoast podcast", "cat": "Crypto"},
+    {"q": "Bankless", "cat": "Crypto"},
+    {"q": "L'Heure du Monde", "cat": "Actu"},
+    {"q": "Code source Le Parisien", "cat": "Actu"},
+    {"q": "Investir immobilier podcast", "cat": "Immo"}
+  ]
+}
