@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/news_sources.json"
       - "scripts/update_news.py"
+      - "scripts/alerts.py"
       - ".github/workflows/news.yml"
 
 permissions:
@@ -27,6 +28,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Actualiser toutes les 5 minutes (le robot reste actif ~50 min puis passe le relais)
+        env:
+          ALERT_SECRET: ${{ secrets.ALERT_SECRET }}
         run: |
           # Le planificateur de GitHub décale ou saute souvent les lancements :
           # chaque lancement actualise donc lui-même le fil 10 fois, toutes les 5 minutes.
@@ -36,8 +39,9 @@ jobs:
           for n in $(seq 1 11); do
             git pull --rebase -q origin main || true
             python3 scripts/update_news.py || echo "Échec lecture des flux"
-            if [ -n "$(git status --porcelain -- news_live.json)" ]; then
-              git add news_live.json
+            python3 scripts/alerts.py || echo "Échec des alertes"
+            if [ -n "$(git status --porcelain -- news_live.json alerts_state.json)" ]; then
+              git add news_live.json; [ -f alerts_state.json ] && git add alerts_state.json
               git commit -q -m "Fil en direct $(date -u +%H:%M) UTC"
               for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done || true
             else
