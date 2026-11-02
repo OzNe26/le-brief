@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-02T12:52:56+00:00",
+"updatedAt": "2026-11-02T12:54:47+00:00",
 "events": [
 {
 "d": "2026-11-02T10:00:00-05:00",
@@ -13,7 +13,7 @@
 "d": "2026-11-02T22:05:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Apple",
+"title": "Résultats d'Apple",
 "sub": "AAPL · après la clôture de Wall Street · trimestre clos Sep/2026",
 "imp": 3,
 "tick": "AAPL"
@@ -74,7 +74,7 @@
 "d": "2026-11-03T13:00:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Eaton, PLC",
+"title": "Résultats d'Eaton",
 "sub": "ETN · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "ETN"
@@ -83,16 +83,7 @@
 "d": "2026-11-03T22:05:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de AMD",
-"sub": "AMD · après la clôture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "AMD"
-},
-{
-"d": "2026-11-03T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Amgen",
+"title": "Résultats d'Amgen",
 "sub": "AMGN · après la clôture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "AMGN"
@@ -101,7 +92,7 @@
 "d": "2026-11-03T22:05:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Arista Networks",
+"title": "Résultats d'Arista Networks",
 "sub": "ANET · après la clôture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "ANET"
@@ -118,7 +109,7 @@
 "d": "2026-11-04T12:00:00+01:00",
 "allday": true,
 "cat": "resultats",
-"title": "Résultats de Toyota Motor Corp Ltd Ord",
+"title": "Résultats de Toyota Motor",
 "sub": "TM · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "TM"
@@ -145,7 +136,7 @@
 "d": "2026-11-04T13:00:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Uber",
+"title": "Résultats d'Uber",
 "sub": "UBER · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "UBER"
@@ -172,7 +163,7 @@
 "d": "2026-11-04T22:05:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Arm",
+"title": "Résultats d'Arm",
 "sub": "ARM · après la clôture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "ARM"
@@ -181,7 +172,7 @@
 "d": "2026-11-04T22:05:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de QUALCOMM Incorporated",
+"title": "Résultats de Qualcomm",
 "sub": "QCOM · après la clôture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "QCOM"
@@ -207,7 +198,7 @@
 "d": "2026-11-05T13:00:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Sony Group",
+"title": "Résultats de Sony",
 "sub": "SONY · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "SONY"
@@ -216,7 +207,7 @@
 "d": "2026-11-05T22:05:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Airbnb",
+"title": "Résultats d'Airbnb",
 "sub": "ABNB · après la clôture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "ABNB"
@@ -263,15 +254,6 @@
 "tick": "BRK.A"
 },
 {
-"d": "2026-11-06T12:00:00+01:00",
-"allday": true,
-"cat": "resultats",
-"title": "Résultats de Berkshire Hathaway",
-"sub": "BRK.B · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "BRK.B"
-},
-{
 "d": "2026-11-11T12:00:00+01:00",
 "allday": true,
 "cat": "resultats",
@@ -284,7 +266,7 @@
 "d": "2026-11-12T22:05:00+01:00",
 "allday": false,
 "cat": "resultats",
-"title": "Résultats de Applied Materials",
+"title": "Résultats d'Applied Materials",
 "sub": "AMAT · après la clôture de Wall Street · trimestre clos Oct/2026",
 "imp": 2,
 "tick": "AMAT"
@@ -293,7 +275,7 @@
 "d": "2026-11-13T12:00:00+01:00",
 "allday": true,
 "cat": "resultats",
-"title": "Résultats de Mitsubishi UFJ Financial Group Inc",
+"title": "Résultats de Mitsubishi UFJ Financial",
 "sub": "MUFG · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "MUFG"
@@ -302,7 +284,7 @@
 "d": "2026-11-13T12:00:00+01:00",
 "allday": true,
 "cat": "resultats",
-"title": "Résultats de Sumitomo Mitsui Financial Group Inc",
+"title": "Résultats de Sumitomo Mitsui Financial",
 "sub": "SMFG · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "SMFG"
@@ -324,7 +306,5 @@
 "imp": 3
 }
 ],
-"errors": [
-"Déblocages de tokens : HTTP Error 402: Payment Required"
-]
+"errors": []
 }
