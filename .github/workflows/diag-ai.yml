@@ -1,0 +1,19 @@
+name: Diagnostic admin
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          ALERT_SECRET: ${{ secrets.ALERT_SECRET }}
+        run: |
+          python3 - <<'P'
+          import os,json,urllib.request
+          K="sb_publishable_N42bTU1DF11LH9mC7K6QYQ_POOJ2ZK2";U="https://rxuhvllidrjifyporkao.supabase.co";H={"apikey":K,"Authorization":"Bearer "+K,"Content-Type":"application/json"}
+          r=json.loads(urllib.request.urlopen(urllib.request.Request(U+"/rest/v1/rpc/robot_alert_targets",data=json.dumps({"p_secret":os.environ["ALERT_SECRET"].strip()}).encode(),headers=H,method="POST")).read())
+          for s in r:
+              p=json.loads(urllib.request.urlopen(urllib.request.Request(U+"/rest/v1/profiles?select=pseudo&id=eq."+s["user_id"],headers=H)).read())
+              print("ABONNE", s["user_id"], (p[0]["pseudo"] if p else "?"), "appareils:", len(s.get("endpoints") or []), "health:", "sys:health" in (s.get("assets") or []))
+          P
