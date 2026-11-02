@@ -15,33 +15,34 @@ permissions:
 
 concurrency:
   group: news
-  cancel-in-progress: true
+  cancel-in-progress: false   # le lancement suivant attend la fin du précédent : relais sans coupure
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 58
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Actualiser toutes les 5 minutes (le robot reste actif ~50 min)
+      - name: Actualiser toutes les 5 minutes (le robot reste actif ~50 min puis passe le relais)
         run: |
           # Le planificateur de GitHub décale ou saute souvent les lancements :
           # chaque lancement actualise donc lui-même le fil 10 fois, toutes les 5 minutes.
-          # Un nouveau lancement remplace le précédent (concurrency), donc jamais de trou.
+          # Le lancement suivant attend son tour puis prend le relais (concurrency), donc pas de trou.
           git config user.name "le-brief-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for n in $(seq 1 10); do
+          for n in $(seq 1 11); do
             git pull --rebase -q origin main || true
             python3 scripts/update_news.py || echo "Échec lecture des flux"
             if [ -n "$(git status --porcelain -- news_live.json)" ]; then
               git add news_live.json
               git commit -q -m "Fil en direct $(date -u +%H:%M) UTC"
-              for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
+              for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done || true
             else
               echo "Rien de nouveau"
             fi
-            [ "$n" -lt 10 ] && sleep 300
+            if [ "$n" -lt 11 ]; then sleep 300; fi
           done
+          echo "Terminé"
