@@ -59,6 +59,12 @@ def cap(s):
     except Exception: return 0.0
 
 
+import re
+def clean_name(n):
+    n = re.sub(r",?\s+(Inc\.?|Incorporated|Corporation|Corp\.?|Ltd\.?|Limited|PLC|plc|N\.V\.|S\.A\.|AG|SE|Holdings?|Group|Co\.?|Ord|Ordinary Shares|ADR|Class [A-C])\b\.?", "", n)
+    n = re.sub(r"\s+", " ", n).strip(" ,")
+    return n.title() if n.isupper() and len(n) > 4 else n
+
 def earnings(out):
     seen = set()
     for i in range(DAYS):
@@ -75,11 +81,13 @@ def earnings(out):
             seen.add((sym, d))
             when = {"time-pre-market": "avant l'ouverture de Wall Street", "time-after-hours": "après la clôture de Wall Street"}.get(r.get("time"), "")
             hour = {"time-pre-market": "13:00", "time-after-hours": "22:05"}.get(r.get("time"), "12:00")
-            name = FOLLOW.get(sym) or (r.get("name") or sym).replace(", Inc.", "").replace(" Inc.", "").replace(" Corporation", "").strip()
+            name = FOLLOW.get(sym) or clean_name(r.get("name") or sym)
+            if (name, d) in seen: continue
+            seen.add((name, d))
             imp = 3 if sym in ("AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META", "TSLA") else 2
             q = r.get("fiscalQuarterEnding") or ""
             out["events"].append({"d": f"{d.isoformat()}T{hour}:00+01:00", "allday": not when, "cat": "resultats",
-                                  "title": f"Résultats de {name}", "sub": " · ".join(x for x in [sym, when, f"trimestre clos {q}" if q else ""] if x),
+                                  "title": ("Résultats d'" if name[:1].upper() in "AEIOUYH" else "Résultats de ") + name, "sub": " · ".join(x for x in [sym, when, f"trimestre clos {q}" if q else ""] if x),
                                   "imp": imp, "tick": sym})
         time.sleep(0.6)
 
@@ -138,7 +146,7 @@ def unlocks(out):
 
 def main():
     out = {"updatedAt": NOW.isoformat(timespec="seconds"), "events": [], "errors": []}
-    earnings(out); macro(out); central(out); unlocks(out)
+    earnings(out); macro(out); central(out)  # unlocks(out) : l'API gratuite de DefiLlama est devenue payante
     lo, hi = NOW - timedelta(hours=12), NOW + timedelta(days=60)
     out["events"] = sorted([e for e in out["events"] if lo <= datetime.fromisoformat(e["d"]) <= hi], key=lambda e: e["d"])
     if len(out["events"]) < 3:
