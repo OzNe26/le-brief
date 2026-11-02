@@ -28,11 +28,11 @@ STYLES = {
 PANEL = [
     {"id": "gemini", "nom": "Gemini", "editeur": "Google", "style": "prudent", "type": "gemini", "env": "GEMINI_API_KEY"},
     {"id": "mistral", "nom": "Mistral", "editeur": "Mistral AI", "style": "technique", "type": "openai", "env": "MISTRAL_API_KEY",
-     "url": "https://api.mistral.ai/v1/chat/completions", "models": ["mistral-medium-latest", "mistral-small-latest"]},
+     "url": "https://api.mistral.ai/v1/chat/completions", "models": ["ministral-14b-latest", "ministral-8b-latest"]  # medium/small : quota 0 sur l'offre gratuite},
     {"id": "gptoss", "nom": "GPT-OSS", "editeur": "OpenAI, via Groq", "style": "macro", "type": "openai", "env": "GROQ_API_KEY",
      "url": "https://api.groq.com/openai/v1/chat/completions", "models": ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]},
-    {"id": "llama", "nom": "Llama", "editeur": "Meta, via Groq", "style": "contrarian", "type": "openai", "env": "GROQ_API_KEY",
-     "url": "https://api.groq.com/openai/v1/chat/completions", "models": ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"]},
+    {"id": "qwen", "nom": "Qwen", "editeur": "Alibaba, via Groq", "style": "contrarian", "type": "openai", "env": "GROQ_API_KEY",
+     "url": "https://api.groq.com/openai/v1/chat/completions", "models": ["qwen/qwen3.8-27b", "openai/gpt-oss-20b"]},
 ]
 
 
@@ -51,6 +51,7 @@ def openai_json(ia, prompt, temperature=0.6):
                 with urllib.request.urlopen(req, timeout=150) as r:
                     data = json.loads(r.read())
                 txt = data["choices"][0]["message"]["content"] or ""
+                txt = re.sub(r"<think>.*?</think>", "", txt, flags=re.S)
                 m = re.search(r"\{.*\}", txt, re.S)
                 return json.loads(m.group(0) if m else txt), model
             except urllib.error.HTTPError as e:
