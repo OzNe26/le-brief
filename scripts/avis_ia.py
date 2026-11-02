@@ -28,7 +28,7 @@ STYLES = {
 PANEL = [
     {"id": "gemini", "nom": "Gemini", "editeur": "Google", "style": "prudent", "type": "gemini", "env": "GEMINI_API_KEY"},
     {"id": "mistral", "nom": "Mistral", "editeur": "Mistral AI", "style": "technique", "type": "openai", "env": "MISTRAL_API_KEY",
-     "url": "https://api.mistral.ai/v1/chat/completions", "models": ["ministral-14b-latest", "ministral-8b-latest"]  # medium/small : quota 0 sur l'offre gratuite},
+     "url": "https://api.mistral.ai/v1/chat/completions", "models": ["ministral-14b-latest", "ministral-8b-latest"]},
     {"id": "gptoss", "nom": "GPT-OSS", "editeur": "OpenAI, via Groq", "style": "macro", "type": "openai", "env": "GROQ_API_KEY",
      "url": "https://api.groq.com/openai/v1/chat/completions", "models": ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]},
     {"id": "qwen", "nom": "Qwen", "editeur": "Alibaba, via Groq", "style": "contrarian", "type": "openai", "env": "GROQ_API_KEY",
