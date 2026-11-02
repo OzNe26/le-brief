@@ -1,14 +1,26 @@
 {
+  "id": "/le-brief/",
   "name": "Le Brief Invest",
   "short_name": "Le Brief",
   "description": "Actu, crypto, actions et immo au même endroit.",
-  "start_url": "./",
+  "lang": "fr",
+  "start_url": "./#general",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#0d0f12",
   "theme_color": "#0d0f12",
+  "categories": ["finance", "news"],
   "icons": [
-    {"src": "img/icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "img/icon-512.png", "sizes": "512x512", "type": "image/png"},
-    {"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}
+    {"src": "img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "img/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Toute l'actu", "url": "./#general", "icons": [{"src": "img/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Analyse des marchés", "url": "./#analyse", "icons": [{"src": "img/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Audio", "url": "./#audio", "icons": [{"src": "img/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Mon portefeuille", "url": "./#espace", "icons": [{"src": "img/icon-192.png", "sizes": "192x192"}]}
   ]
 }
