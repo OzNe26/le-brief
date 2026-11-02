@@ -209,6 +209,12 @@
  ],
  "crypto": [
   {
+   "name": "MyWalletFinance",
+   "url": "https://www.mywalletfinance.com/feed",
+   "trusted": true,
+   "maxAgeHours": 336
+  },
+  {
    "name": "Cryptoast",
    "url": "https://cryptoast.fr/feed/",
    "trusted": true
