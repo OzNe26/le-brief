@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T22:30:13+00:00",
+ "updatedAt": "2026-11-02T06:46:53+00:00",
  "assets": [
   {
    "id": "BTC",
@@ -7,30 +7,29 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 77691.86,
+    "price": 78187.48,
     "ch": {
-     "1j": 0.14157919579820266,
-     "7j": -3.071870693061318,
-     "30j": -8.076562616654126,
-     "1an": 14.855048681763483
+     "1j": -0.21252265359777978,
+     "7j": -2.449240529323815,
+     "30j": -7.7472615899556345,
+     "1an": 20.928383776174275
     },
-    "sma20": 80903.2865,
-    "sma50": 81968.5356,
-    "sma200": 73193.4959,
-    "rsi": 36.06510179010104,
-    "vol": 27.703211291682273,
+    "sma20": 80687.31749999999,
+    "sma50": 82008.6878,
+    "sma200": 73211.97255,
+    "rsi": 38.87999860880784,
+    "vol": 27.949081810480976,
     "support": 76325.98,
     "resistance": 84898.0,
     "hi52": 87395.67,
     "lo52": 57800.19,
-    "score": 0,
+    "score": 1,
     "verdict": "Neutre",
     "why": [
      "sous sa moyenne 50 jours",
      "au-dessus de sa moyenne 200 jours (tendance de fond positive)"
     ],
     "spark": [
-     84753.56,
      86530.0,
      85766.87,
      85549.93,
@@ -59,37 +58,38 @@
      77991.89,
      77368.77,
      77582.02,
-     77691.86
+     78354.0,
+     78187.48
     ]
    },
    "news": [
     {
-     "titre": "Chute du bitcoin : pourquoi la crypto baisse aujourd'hui",
-     "source": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFByWnZHd0tteGItM0htN1ZuX1FxcERsTmhhdFR1UmNxZW5XamRKRWxwRGl5emdSV2ZoMEhXTDJwYzU0cTg5NUh5ZmN0bEJHU2w5RHdGblNsRkNiVHc0eE1WaXI5aVVtN2gxYXM2ckhidVUyUQ?oc=5",
-     "ts": "2026-11-01T21:05:50+00:00"
+     "titre": "Bitcoin rebondit au‑dessus de $78k, les haussiers tentent un retour après octobre",
+     "source": "Invezz",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbTFBU2ZjbmVxeS1kQjMzMmhFSmZHS1k4ZkRnV2xMV0xWaHVwbVYwS2JFa1dwNW5WdzhmRjF1dnJmUlVwUXVBeko2M203TnI1eUpaaDJZZG0zeDc0NnY1VW9xZVZvUl9YWUEtdDNhNXE1ZDJUX3dxVlItNDF4S3pXamxBWmNsNU8tOFdubVZkc0FJVHNtOWxCLUpUVm40QVZDamMtRVhBbWduc21JNHZqTlNzZkU3WGwtc2hDWDJIb2hVb3hHVjhieQ?oc=5",
+     "ts": "2026-11-02T06:03:00+00:00"
     },
     {
-     "titre": "Wall Street estime qu’un résultat électoral donnerait à Bitcoin sa meilleure chance d’atteindre 100 000 dollars",
-     "source": "BeInCrypto FR",
-     "url": "https://fr.beincrypto.com/bitcoin-cent-mille-midterms-bloomberg-survey/",
-     "ts": "2026-11-01T19:58:27+00:00"
+     "titre": "Bitcoin à 78 000 $ avant les midterms : les 3 chiffres qui ouvrent la semaine",
+     "source": "Journal du Coin",
+     "url": "https://journalducoin.com/bitcoin/bitcoin-78000-dollars-midterms-3-chiffres-semaine/",
+     "ts": "2026-11-02T06:00:00+00:00"
     },
     {
-     "titre": "Bitcoin : Octobre se termine sur une chute de 7 %, novembre peut-il inverser la tendance ?",
-     "source": "Cointribune",
-     "url": "https://www.cointribune.com/bitcoin-octobre-se-termine-sur-une-chute-de-7-novembre-peut-il-inverser-la-tendance/",
-     "ts": "2026-11-01T19:00:00+00:00"
+     "titre": "Le dollar hésite avant les élections de mi-mandat aux États-Unis ; le bitcoin sous pression après un vol de cryptomonnaies",
+     "source": "Zonebourse",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYVg0NzlJdTVmX05uekVtLTVjSVU5YzhOdERzUU5MOEQzVThBUEpEZmctdDVWeXlmSk1GU1ZraVVTVHk0Y0pVMFl6VkJqZVpmTkNWSEEwRjRkUGE5Y3VnRnE0QnFCMHFwVG9BZHZJZ1otWDFPcllaOTBXclZ0WFJYcW1rOWhUQVl0Zm1hcFhvT21CZFRoRm1LVDZVd3BPS0tkemJMSjVTSkE5d2FUQVhJVEVRRHQ0YjJRQTlRVGdFQ253YVJjQ0s0Nlp1YjZLY3VTSWhsVDNKSFVBRmtzc2hFZTMza1J2NkZuYVhBSUVKblE?oc=5",
+     "ts": "2026-11-02T05:39:30+00:00"
     },
     {
-     "titre": "Bitcoin Core : trois failles de sécurité révélées",
-     "source": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRVdzajZBUExHX0hLbUQ4WjN0RVUyNHJLRXZBdm1LcjA2Y21VZnhUZ3hqbnRnRV84b0VRVUhSZm5EY1pwcGlOa3dxN2pKY2R5SnM4UmxQczR2bzlxS2t6V1Z2MWpKOGFlNlU4eFlLd1BHMk9DNzVlaVRpMG5tYWlsaw?oc=5",
-     "ts": "2026-11-01T18:50:38+00:00"
+     "titre": "BTCPay Server warns of hot wallet thefts running on outdated software",
+     "source": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "ts": "2026-11-02T05:34:02+00:00"
     }
    ],
    "logo": "logos/assets/btc.svg",
-   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,1 % et sur 30 jours -8,1 %. À surveiller : le support autour de 76 326 $ et la résistance vers 84 898 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Chute du bitcoin : pourquoi la crypto baisse aujourd'hui » (CryptoTicker.io)."
+   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -2,4 % et sur 30 jours -7,7 %. À surveiller : le support autour de 76 326 $ et la résistance vers 84 898 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Bitcoin rebondit au‑dessus de $78k, les haussiers tentent un retour après octobre » (Invezz)."
   },
   {
    "id": "ETH",
@@ -97,20 +97,20 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 2255.61,
+    "price": 2284.93,
     "ch": {
-     "1j": -0.0022166461257300263,
-     "7j": -3.1873022958362363,
-     "30j": -15.47558823198768,
-     "1an": 15.210284908725026
+     "1j": 0.4227995306134158,
+     "7j": -1.7044159084554145,
+     "30j": -14.970806369384093,
+     "1an": 23.090556483327052
     },
-    "sma20": 2371.9615000000003,
-    "sma50": 2516.8342000000002,
-    "sma200": 2158.89835,
-    "rsi": 31.682751588208646,
-    "vol": 35.66610976886523,
+    "sma20": 2362.2955,
+    "sma50": 2513.3848000000003,
+    "sma200": 2158.6806500000002,
+    "rsi": 36.28226703721655,
+    "vol": 35.853475396094524,
     "support": 2174.08,
-    "resistance": 2538.52,
+    "resistance": 2530.44,
     "hi52": 2807.34,
     "lo52": 1505.68,
     "score": 0,
@@ -120,7 +120,6 @@
      "au-dessus de sa moyenne 200 jours (tendance de fond positive)"
     ],
     "spark": [
-     2687.23,
      2726.94,
      2709.98,
      2697.49,
@@ -149,37 +148,38 @@
      2253.13,
      2245.54,
      2255.66,
-     2255.61
+     2275.31,
+     2284.93
     ]
    },
    "news": [
+    {
+     "titre": "Les ETF Ethereum connaissent leur pire mois en termes de flux depuis leur lancement en 2024",
+     "source": "BeInCrypto FR",
+     "url": "https://fr.beincrypto.com/ethereum-etfs-record-octobre-sortie/",
+     "ts": "2026-11-02T04:17:55+00:00"
+    },
+    {
+     "titre": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+     "source": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "ts": "2026-11-02T01:51:48+00:00"
+    },
+    {
+     "titre": "Cours Ethereum : 4,6 Md$ échangés contre 66 Md$ pour BTC",
+     "source": "CryptoTicker.io",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTjBVZ0hmQlpnR0gxTU1ieHFnVWtTN2dKcHQ5N0phQl91VFZ3TmhVcTgwVTNveGI5bl9XNG1ERzVzSUFaVXpieTU4SDVqQmtfYUNuNDVGWW5jUWw1MUptQkVvZi1KeVRtcngwOFB1dm1NQ1dDbmtjcks3NXEzMzBMU09Sd1Q4dEg1?oc=5",
+     "ts": "2026-11-02T00:18:39+00:00"
+    },
     {
      "titre": "Crypto : Les investisseurs désertent les ETF Ethereum en octobre",
      "source": "Cointribune",
      "url": "https://www.cointribune.com/crypto-les-investisseurs-desertent-les-etf-ethereum-en-octobre/",
      "ts": "2026-11-01T18:00:00+00:00"
-    },
-    {
-     "titre": "Prévision Ethereum : 6,7 % des dépôts DeFi partis",
-     "source": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLSXViUjN4bmYzTUJMd3NCMUd0UmxCUVJVUzJZdGxnRzlWZ3J4YVVzYWo5T3F3YXJKWFY5WHdMMERsWG8zcVhwZThpaGQ4VWd3YVJ0WmQtbkNJaFhoNENtSm5RV0dCZy15WEZBbTZaT1hQVUoydFpfQ1dNX3pmRGc?oc=5",
-     "ts": "2026-11-01T15:18:47+00:00"
-    },
-    {
-     "titre": "CoinDesk en Français : Actualités Bitcoin, Ether et Cryptomonnaies",
-     "source": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOFpvZlFFVG9EaHdJZVd5bjg0N0YxMk5ZZU5tazBXZDFRdGJCVWZFN2xKT2tCWlFCMktVaGpBTjN0YjRKMmlHQmQzUXk3VjR2VXhOX1FIR1EySzlaTVNSbVVqWm01R2YtbmM4SmVmaFdlMW43LVVIbUdQZmtzQkVranV3aHFZR2U2dTVHUjZLWE5xMWJp?oc=5",
-     "ts": "2026-11-01T15:00:00+00:00"
-    },
-    {
-     "titre": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
-     "source": "CoinDesk",
-     "url": "https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
-     "ts": "2026-11-01T13:00:00+00:00"
     }
    ],
    "logo": "logos/assets/eth.svg",
-   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -3,2 % et sur 30 jours -15,5 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 539 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : Les investisseurs désertent les ETF Ethereum en octobre » (Cointribune)."
+   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -1,7 % et sur 30 jours -15,0 %. À surveiller : le support autour de 2 174 $ et la résistance vers 2 530 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Les ETF Ethereum connaissent leur pire mois en termes de flux depuis leur lancement en 2024 » (BeInCrypto FR)."
   },
   {
    "id": "SOL",
@@ -187,18 +187,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 93.56,
+    "price": 94.3,
     "ch": {
-     "1j": -2.072430395645808,
-     "7j": -7.731755424063125,
-     "30j": -21.146228402865574,
-     "1an": 13.008817490035018
+     "1j": -0.24330900243308973,
+     "7j": -6.587419514611204,
+     "30j": -21.167028924928943,
+     "1an": 21.052631578947345
     },
-    "sma20": 102.166,
-    "sma50": 109.0102,
-    "sma200": 88.8961,
-    "rsi": 27.757688923022684,
-    "vol": 41.54022542174122,
+    "sma20": 101.588,
+    "sma50": 108.9296,
+    "sma200": 88.9272,
+    "rsi": 28.626928609575714,
+    "vol": 40.964872758087104,
     "support": 92.34,
     "resistance": 109.2,
     "hi52": 124.95,
@@ -208,10 +208,9 @@
     "why": [
      "sous sa moyenne 50 jours",
      "au-dessus de sa moyenne 200 jours (tendance de fond positive)",
-     "RSI bas (28) : zone de survente, rebond technique possible"
+     "RSI bas (29) : zone de survente, rebond technique possible"
     ],
     "spark": [
-     119.62,
      121.6,
      120.78,
      120.71,
@@ -240,31 +239,38 @@
      95.64,
      96.38,
      95.54,
-     93.56
+     94.53,
+     94.3
     ]
    },
    "news": [
+    {
+     "titre": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+     "source": "Cointelegraph",
+     "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+     "ts": "2026-11-02T01:51:48+00:00"
+    },
+    {
+     "titre": "Prévision Solana : deux wallets déplacent 111 millions de dollars en SOL",
+     "source": "CryptoTicker.io",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNFlHTWRZOWFneWhDYTdDYmNHLXFBa280Z3YwVW5VbUtranc1bnVTa1h2bDZSdmluXzJWZ053UXVkb1FQaHZUbmgtSlp5VDczS2pwNUtfM1RSOHh3YmRwcktkT1ZVQTB4Z3VRTlR5c3pVSlF0M05NSm5MTGE5QjBzOWd3WnQ2cmRqMWh3YU1wUlEwSnM?oc=5",
+     "ts": "2026-11-01T18:29:18+00:00"
+    },
+    {
+     "titre": "Un pirate de Binance transfère 96 millions de dollars en Solana volés vers Bitcoin, tandis que ses efforts de blanchiment se poursuivent.",
+     "source": "Brave New Coin",
+     "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQRzZvcEhkQ00xbmctbFBubjhkQW4yUW93QlB4NjBOMXh3SHducmg3Wmh0N1EtS2VBYW9PVkpnalNTb2lWN2xneFhqWmZkUkhlNkl0b2xSanR1M29CR1c4Y0phclJyTFlzZlhsRF9jalZ4a1A3QnItblJqTjg2OEg0T3NDS2lUZFJCUzAzXzl3LTktNHczbG1xZEx3Q0hJRHpsRE83Nk16amJuSnNfLXlHQWdSamM4Zks5R2tobkt6Vl9fYlV0cjQyN2M5LUtOaDZTTjExVW94RmpZelVXUWtYQ2ptMVhEOFh6cTV5QVBwMVJwZEgyOVRZTEhvZFJxTHc4VkJQaTZjZ1ZHakZPMVlFcEhIekF1UlNJNjMtSFlDNEMycmhFMU1xd0xEMA?oc=5",
+     "ts": "2026-11-01T16:18:29+00:00"
+    },
     {
      "titre": "Cours Solana : la crypto SOL se stabilise près de 95,27 $ sous la résistance",
      "source": "Actu Crypto .info",
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbnB2eWg2MWRiNlN1R2JvT3Z4aHRYdjdyekNJMEYtUnQ0aUxSbEhtNndVV1BIUjRJcEY2cU1DZ1BqQXNZYTl2ODBobzdaV3BmYXdnWC1UbzE4dHg3MTgyTWd6bFQxODlkV1NPbTVxeHBUMTQ3Z1hDd2FUS29xQjBwenp5R3M?oc=5",
      "ts": "2026-11-01T11:36:05+00:00"
-    },
-    {
-     "titre": "Binance relance les retraits BTC, ETH et SOL après le hack",
-     "source": "InvestX",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzlIS0tMaThOUnM4dEdaTzhOQjM2b2t3TE1XbVl2R0tlbmVQbjl2bEE2ZFhlZjVNaGJQQVhPUU4xNldTVXc1MDhwY0RDandhT3UtNlVXYlNTcnFjUVZ5cG1FQzRLYklxYlV6UFRNNElkVWhRYnVITGJTR0oyR1A2X2w5MlhqZjQ?oc=5",
-     "ts": "2026-11-01T10:39:00+00:00"
-    },
-    {
-     "titre": "Binance reprend les retraits BTC, ETH, XRP et SOL après une faille massive de 6,3 milliards de dollars",
-     "source": "InvestX",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5LXRzYXU2Y0gybWF3NWtUQ3RPX3ZVQm1vZlNkVWxyVDJsX29RRno3RzJTQU94ZWprS285Ti1FWmpPM2FkZHd3c0FNVl81RDllaloyVVJlYm9FV2NWQ1B1N24zcEppRTI3YjNBbWFiVVZKVkRhV3JOdWlQZHA?oc=5",
-     "ts": "2026-11-01T08:54:00+00:00"
     }
    ],
    "logo": "logos/assets/sol.svg",
-   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,7 % et sur 30 jours -21,1 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (28) : zone de survente, rebond technique possible. Côté actu : « Cours Solana : la crypto SOL se stabilise près de 95,27 $ sous la résistance » (Actu Crypto .info)."
+   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -6,6 % et sur 30 jours -21,2 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (29) : zone de survente, rebond technique possible. Côté actu : « THORChain halts swaps after block reorg bug, slowing Binance hackers » (Cointelegraph)."
   },
   {
    "id": "XRP",
@@ -272,18 +278,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 1.2445,
+    "price": 1.2484,
     "ch": {
-     "1j": -0.5911015256809704,
-     "7j": -3.9885820089492374,
-     "30j": -16.178352529130457,
-     "1an": -10.6732701693942
+     "1j": -0.18389701767009825,
+     "7j": -4.6440574396578,
+     "30j": -16.011840688912805,
+     "1an": -7.649060511910044
     },
-    "sma20": 1.305405,
-    "sma50": 1.3909340000000001,
-    "sma200": 1.276705,
-    "rsi": 36.22289236196922,
-    "vol": 43.72878923134427,
+    "sma20": 1.29983,
+    "sma50": 1.389202,
+    "sma200": 1.2757129999999999,
+    "rsi": 36.64886837047686,
+    "vol": 43.716361234610034,
     "support": 1.2002,
     "resistance": 1.3992,
     "hi52": 1.6999,
@@ -295,7 +301,6 @@
      "sous sa moyenne 200 jours (tendance de fond négative)"
     ],
     "spark": [
-     1.4864,
      1.5206,
      1.5077,
      1.4971,
@@ -324,10 +329,17 @@
      1.2377,
      1.2567,
      1.2519,
-     1.2445
+     1.2507,
+     1.2484
     ]
    },
    "news": [
+    {
+     "titre": "Le PDG de Ripple veut faire du XRP l'étalon institutionnel en 5 ans",
+     "source": "Bitcoin News",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLW9Mb3IzNENmMkQ1YnVsRXRhZWFEaXdBSF9LNjhFc2hNMm81cENJblpWblVxajVaenNyeTE3VC15ZmVPODd1cEZjMTkya0tlaHJNSjdNeEhWcUd5RV8xZEFRbTBHVEtUdjBTeVlpRU9KYXExd0pTZS1ybFNWR2tyUzJ3V2VkSWZmYjhRRFpqeWJGeHFRLU1zS2ZxLVAzM3VWbmx3Z3VVRjNsTTM3a1lv?oc=5",
+     "ts": "2026-11-01T20:45:00+00:00"
+    },
     {
      "titre": "Cours XRP : la crypto Ripple rebondit, mais le seuil de 1,26 $ bloque encore",
      "source": "Actu Crypto .info",
@@ -342,7 +354,7 @@
     }
    ],
    "logo": "logos/assets/xrp.svg",
-   "text": "La tendance technique est plutôt négative : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -4,0 % et sur 30 jours -16,2 %. À surveiller : le support autour de 1,2002 $ et la résistance vers 1,3992 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Cours XRP : la crypto Ripple rebondit, mais le seuil de 1,26 $ bloque encore » (Actu Crypto .info)."
+   "text": "La tendance technique est plutôt négative : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -4,6 % et sur 30 jours -16,0 %. À surveiller : le support autour de 1,2002 $ et la résistance vers 1,3992 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Le PDG de Ripple veut faire du XRP l'étalon institutionnel en 5 ans » (Bitcoin News)."
   },
   {
    "id": "BNB",
@@ -350,18 +362,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 705.53,
+    "price": 709.16,
     "ch": {
-     "1j": 0.2244477590737981,
-     "7j": -4.489027873668261,
-     "30j": -8.164009111617322,
-     "1an": 14.757644762524391
+     "1j": -0.49530651475396814,
+     "7j": -4.539091104889081,
+     "30j": -9.87698251321676,
+     "1an": 18.90478026860716
     },
-    "sma20": 729.731,
-    "sma50": 748.6688,
-    "sma200": 655.59565,
-    "rsi": 39.29675024201409,
-    "vol": 40.04604116013284,
+    "sma20": 728.461,
+    "sma50": 748.6669999999999,
+    "sma200": 655.9984,
+    "rsi": 41.18347662234662,
+    "vol": 39.246703840153515,
     "support": 680.0,
     "resistance": 762.2,
     "hi52": 809.99,
@@ -373,7 +385,6 @@
      "au-dessus de sa moyenne 200 jours (tendance de fond positive)"
     ],
     "spark": [
-     786.88,
      795.43,
      786.43,
      779.5,
@@ -402,37 +413,38 @@
      698.46,
      704.42,
      703.95,
-     705.53
+     712.69,
+     709.16
     ]
    },
    "news": [
     {
-     "titre": "Crypto : +4 milliards $ quittent Binance après l’ouverture des retraits… crise de confiance ?",
-     "source": "Cointribune",
-     "url": "https://www.cointribune.com/crypto-4-milliards-quittent-binance-apres-louverture-des-retraits-crise-de-confiance/",
-     "ts": "2026-11-01T20:00:00+00:00"
+     "titre": "Binance piratée pour 6.3 milliards de $ de crypto dérobées",
+     "source": "Le Grenier de l'éco",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSGtJeGFCa1l0VWxlV3NFcUs2VUdva1dMWVREeWpGaDR4Z3JsOHJHWnJzXzNHWnYwRWt2V3ZRMEVsUmFZRllxQmxlTW5ZZW1MU2ppSnVSdndERGZVTEhCMDhSd0dLSWh5WEEwWVp6b2cyMG8wWEphbnFsdTItSWlKMzYyU05rcW1pWE1Vai1B?oc=5",
+     "ts": "2026-11-02T06:05:31+00:00"
     },
     {
-     "titre": "North Korean hackers launder $242 million of Binance loot via Tron as FBI presses THORChain: analyst",
-     "source": "The Block",
-     "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
-     "ts": "2026-11-01T18:25:48+00:00"
+     "titre": "BFM Crypto, la chronique : Binance, la Corée du Nord à l'origine de l'attaque - 02/11",
+     "source": "BFM",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPTWd5aDhfc3ZBellqUFlXZUhacHE4S0t6UEkxMWJEQWU0bmJYQnd3VUlqa2VXdXJ6c3JnUnMyUEdpUFhKendpWkVoUWZsdTBaeUtFWXJFQVQydEdKX3lET0Z0M2VqTmE3SzZDd2lmMThPNTNxYnhYQWgtS055Z1ZPYWVLbW50eHUydE9ibHlmdW1HeUZBdGdISGxqSVFoU0I3QVU4R3ZvOEcxSUhZNGZlZ2FoQnR5eE1nNGtxTjFhaVpXZG9oSkotSXp2cWtqc3NlcExzcmwwYkNxOHlaUXluQjlxeVFxRmdORGF5V3p0VXpTNU40MmNuNXU0MjhTTWQwUC1iM3U1MA?oc=5",
+     "ts": "2026-11-02T05:59:02+00:00"
     },
     {
-     "titre": "Coinbase est-il sûr après le hack de 6 milliards de Binance ?",
-     "source": "BeInCrypto",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04cnduN2hwX3AzT2JMNFZabGNUTDZYWExrb1VBR3NCcEJRVUhvR3c1VU8xcFVkQW5IZ1J0RUoyQTc0eGtFWWJrc3pDNXdIX015QXR0RW1mYjd2Vy16b1JQWFE5NzN4SExnRjNYVV82MThXQXJKcGJLa0Q1Zmw?oc=5",
-     "ts": "2026-11-01T18:21:06+00:00"
+     "titre": "Binance rouvre les retraits : 5,8 milliards de dollars sortis en 24 heures",
+     "source": "Journal du Coin",
+     "url": "https://journalducoin.com/actualites/binance-rouvre-retraits-5-8-milliards-sortis-24-heures-hack/",
+     "ts": "2026-11-02T05:48:00+00:00"
     },
     {
-     "titre": "Cyberattaque majeure : comment des hackers nord-coréens ont piraté la plateforme crypto Binance",
-     "source": "Zamin.uz",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY3QxR08xRW1MSERrYzZZUkNXM19Odnk1QzJzUVFLOUVjdEhHb05FOHlKdWNhTTdhZHVDVHBEWGJyeWFoelNjQ1dDaDJ0RFl4Zmc1R3dQN2NCQ3RGNjk0b01WZnFwdE9GUlhuQTZ3QUNEYXk4Q1R0Y2lGNnVPclhTMjBIRXJBMkl5eW1XdlAzcHlYeUs5dmdCbkxHb3pvZ21OYmZxWFp5ZFRlODFXT3NsS2lISi1WUGJLdkU2MXdIWExyVU5VWkgySHl3VQ?oc=5",
-     "ts": "2026-11-01T17:57:00+00:00"
+     "titre": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
+     "source": "CoinDesk",
+     "url": "https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
+     "ts": "2026-11-02T05:18:12+00:00"
     }
    ],
    "logo": "logos/assets/bnb.svg",
-   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -4,5 % et sur 30 jours -8,2 %. À surveiller : le support autour de 680,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto : +4 milliards $ quittent Binance après l’ouverture des retraits… crise de confiance ? » (Cointribune)."
+   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -4,5 % et sur 30 jours -9,9 %. À surveiller : le support autour de 680,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Binance piratée pour 6.3 milliards de $ de crypto dérobées » (Le Grenier de l'éco)."
   },
   {
    "id": "NVDA",
@@ -501,12 +513,6 @@
      "source": "The Market Periodical",
      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQ3I4UTBtUDFySGJiZlZ5S0dGT0FiQ05Bci04Y2MwLUlOd1pIQ2Y5WFR5ZkJjSnNMa3dDYmYwZFhMUkc0R0V5VHN6T2NZNDZzanA3YXlVbzRfOXNpdHFTZWhDWllySHZrUnV0ZGFLbEZqY09PYlNsaTZxM080S19uV3BfUXNpXzgxMnFNS20zbjc2d042UW9HdkM1Y2dIdmFVWkxwNHZacmZsM2lEbllvNFl0WE96Vk9PeERRZXdma3I3aHFfaFctdjJwaXczQk1IaGZWVVlyR0Q4NkNaUEpOcVZqYXgzbGFiRUMwcVExTFV0YmFLbjZvMlVXMVVGZw?oc=5",
      "ts": "2026-11-01T06:38:00+00:00"
-    },
-    {
-     "titre": "Nvidia, grand argentier de l'écosystème IA, entre risque de bulle et investissement avisé",
-     "source": "Yahoo Finance France",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeXhfSTNITV81UWRXMTJKUVBsX1lVaHp3d3RnZk1fWmpkR2xZb280VWs0eGUzTVF6NTBYMjB5X3F0SkNHNXRtODhkaDVPTmotU3ZacEtxa3g5UmpzTmM4TzNtOUJKQkt1Q0w1a1EySXZOblZwdUtRMmF0T1pSRlJwTExFVk5qOEt6MFlicktKT3JETWdvSkxLU3ppclNkY24wbHlpeA?oc=5",
-     "ts": "2026-10-31T23:16:00+00:00"
     }
    ],
    "logo": "logos/assets/nvda.svg",
@@ -575,14 +581,32 @@
    },
    "news": [
     {
-     "titre": "Apple’s new earnings era begins at a critical time for Big Tech",
-     "source": "MarketWatch",
-     "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
-     "ts": "2026-11-01T15:00:00+00:00"
+     "titre": "Les actions rebondissent à l'approche des résultats d'Apple, le pétrole recule",
+     "source": "Boursorama",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRWFZb08ydVBPaUZ1Qy1YT3JSSnlzVmlONEVvb090U1VrUXdpdXZ5V1RZS2ZqZkxFdTFib0YwbzFja2FKYlROd044RnZqUzBpTHNSTkpkNExhcjNJNFI2U2lHcG1WMnozcDZyNHlpYWJmNklMd2xpR21kcnpZR3ZZT0pDQnFnRXVYZDlOakFuclF4ZmFwREYzdzlESlo3MlJDeTZUYjRjRXF2ZG00dE84RXJYV1luOFNsem9wbWpmWFJXdkIwTENzZnd1M1Y4LThJbXJQcThibkFuLTZGV3RfMDRjcnAyR3E3RTc40gHwAUFVX3lxTFBIeFdhNmx2dDJuUjBMWG82VmEzbUhTenVpdE9FbS1XLWthb1JKVGo4OFFraV9GbHBDbXF0N2JhTzhTajFDSWNlYjVMVUIzWHJwdFotaENwZWxWN0pFcjNEeFphZnIwcVlWS0dheU0zQWxPX3F0YkVqWVBhYk5fTkJSSk84LWxwanRxbFV6cVR6MTRKVXV4V0ZXaVlkTmc4eVBKa3lFLTZjbDQ2RldhWFJaSTRJQ1VibFo1c21fVjV2X21FMkRxdzlPak9SVGFXNVNMSnpfUFVJZmtxSHkycXBvbEZTbnB1MllUWGdWV2sxdQ?oc=5",
+     "ts": "2026-11-02T04:48:49+00:00"
+    },
+    {
+     "titre": "Les actions asiatiques progressent grâce à la Technologie avant les résultats d’Apple",
+     "source": "Investing.com FR",
+     "url": "https://fr.investing.com/news/stock-market-news/les-actions-asiatiques-progressent-grace-a-la-technologie-avant-les-resultats-dapple-3667304",
+     "ts": "2026-11-02T04:21:47+00:00"
+    },
+    {
+     "titre": "Les élections de mi-mandat, les données sur l’emploi et les résultats d’Apple mettent Wall Street à l’épreuve cette semaine : les actions vont-elles tenir ?",
+     "source": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fQ2tRSzZXZGQwVjJuMExuMnY0VGpzZGFGUlU2emI1ZHQ3N1lOZnNOa3h4cE5wenNTTEZ0SHh2YVU3Rk9kWWRWOV8zcjBtUVFFajI5d3JRa3ZHcFBIQm1zam95VmU0VjdVNWdKWUFFSmZZTVpnVnJBNUNJVkc1eFE?oc=5",
+     "ts": "2026-11-02T03:16:00+00:00"
+    },
+    {
+     "titre": "Dow Jones : Apple, élections de mi-mandat et emploi au menu d’une semaine décisive",
+     "source": "Investing.com FR",
+     "url": "https://fr.investing.com/news/stock-market-news/dow-jones--apple-elections-de-mimandat-et-emploi-au-menu-dune-semaine-decisive-3667284",
+     "ts": "2026-11-02T03:03:03+00:00"
     }
    ],
    "logo": "logos/assets/aapl.svg",
-   "text": "La tendance technique est plutôt positive : Apple évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +0,2 % et sur 30 jours +2,5 %. À surveiller : le support autour de 330,62 $ et la résistance vers 351,73 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Apple’s new earnings era begins at a critical time for Big Tech » (MarketWatch)."
+   "text": "La tendance technique est plutôt positive : Apple évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +0,2 % et sur 30 jours +2,5 %. À surveiller : le support autour de 330,62 $ et la résistance vers 351,73 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Les actions rebondissent à l'approche des résultats d'Apple, le pétrole recule » (Boursorama)."
   },
   {
    "id": "TSLA",
@@ -657,6 +681,12 @@
      "source": "Bourse Direct",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFdqYWlKTzFnbnJLRGFZdWEydW9ILTNFTndVWE5MUVlTN0pZUTJhaUpQcjJDTTg5WUpVLWFaZGdVRFI5NWVZZDU2LWxOSFNnWnVrWEZRbHp2V2xtTkVLakVKQ20xTm9jSHpqcEpFOWlpWXMwQ3l6MlhrNUg4aUNKZ0IyY3UwNGZ0ZjNoV0lMQ0JGY2I0TjdqQVk4WW9SX0RLWnBNc3ZkVkh5MUNETWs4SVI5cw?oc=5",
      "ts": "2026-11-01T10:54:04+00:00"
+    },
+    {
+     "titre": "INFOGRAPHIES. 446 millions de dollars pour Musk, près de 200 millions pour les paris sportifs… Entre milliardaires, entreprises et petits donateurs, qui finance vraiment la bataille des midterms?",
+     "source": "BFMTV",
+     "url": "https://www.bfmtv.com/economie/infographies-446-millions-de-dollars-pour-musk-pres-de-200-millions-pour-les-paris-sportifs-entre-milliardaires-entreprises-et-petits-donateurs-qui-finance-vraiment-la-bataille-des-midterms_AN-202611020071.html",
+     "ts": "2026-11-02T04:56:51+00:00"
     }
    ],
    "logo": "logos/assets/tsla.svg",
