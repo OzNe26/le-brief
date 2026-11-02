@@ -1,0 +1,38 @@
+name: Calendrier des marchés
+
+on:
+  schedule:
+    - cron: "20 5 * * *"    # vers 6h20 (heure de Paris en hiver)
+    - cron: "20 17 * * *"   # vers 18h20
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update_calendar.py"
+      - ".github/workflows/calendar.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendar
+  cancel-in-progress: true
+
+jobs:
+  calendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Construire le calendrier
+        run: python3 scripts/update_calendar.py
+      - name: Enregistrer
+        run: |
+          if [ -z "$(git status --porcelain -- calendar.json)" ]; then echo "Rien de nouveau"; exit 0; fi
+          git config user.name "le-brief-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calendar.json
+          git commit -q -m "Calendrier des marchés $(date -u +%d/%m\ %H:%M) UTC"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
