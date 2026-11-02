@@ -109,7 +109,8 @@ def macro(out):
         bits = [COUNTRY[c]]
         if r.get("forecast"): bits.append(f"prévu {r['forecast']}")
         if r.get("previous"): bits.append(f"précédent {r['previous']}")
-        out["events"].append({"d": d.isoformat(), "allday": False, "cat": "macro", "title": fr or title, "sub": " · ".join(bits),
+        allday = d.minute % 15 != 0 or (r.get("time") or "").lower() in ("all day", "tentative")  # heure « bidon » = toute la journée
+        out["events"].append({"d": d.isoformat(), "allday": allday, "cat": "macro", "title": fr or title, "sub": " · ".join(bits),
                               "imp": 3 if imp == "High" else 2})
 
 
