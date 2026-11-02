@@ -1,0 +1,45 @@
+name: L'essentiel (résumés par l'IA)
+
+on:
+  schedule:
+    - cron: "10 6 * * *"    # vers 7h10 (heure de Paris en hiver)
+    - cron: "40 10 * * *"   # vers 11h40
+    - cron: "10 15 * * *"   # vers 16h10
+    - cron: "40 19 * * *"   # vers 20h40
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update_essentiel.py"
+      - "scripts/gemini.py"
+      - ".github/workflows/essentiel.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: essentiel
+  cancel-in-progress: false
+
+jobs:
+  essentiel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Écrire l'essentiel de chaque onglet
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          git pull -q origin main || true
+          python3 scripts/update_essentiel.py
+      - name: Enregistrer
+        run: |
+          if [ -z "$(git status --porcelain -- data.json)" ]; then echo "Rien de nouveau"; exit 0; fi
+          git config user.name "le-brief-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -q -m "L'essentiel par l'IA $(date -u +%d/%m\ %H:%M) UTC"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done

@@ -8,11 +8,11 @@ on:
   push:
     paths:
       - "scripts/update_analysis.py"
+      - "scripts/gemini.py"
       - ".github/workflows/analysis.yml"
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: analysis
@@ -29,7 +29,7 @@ jobs:
           python-version: "3.12"
       - name: Analyser les 10 actifs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python3 scripts/update_analysis.py
       - name: Enregistrer
         run: |

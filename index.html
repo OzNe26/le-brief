@@ -958,14 +958,19 @@ function sparkSvg(v){ if(!v||v.length<2) return ""; const mn=Math.min(...v),mx=M
   const col=v[v.length-1]>=v[0]?"var(--up)":"var(--down)"; return `<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>`; }
 function renderAnalyse(main){
   loadAnalysis();
-  const d=anState.data, c=anState.claude;
+  const d=anState.data, cl=anState.claude, ia=d&&d.avis;
+  const tsOf=x=>x&&x.updatedAt?new Date(x.updatedAt).getTime():0;
+  const c=(ia&&tsOf(ia)>=tsOf(cl))?ia:cl, byIA=!!(c&&c===ia);
+  const avTitle=byIA?`🤖 L'avis de l'IA <small style="font-weight:500;color:var(--dim);font-size:13px">(${esc(c.par||"Gemini")})</small>`:"🧠 L'avis de Claude";
+  const avSub=byIA?"Opinion rédigée automatiquement par l'IA à partir des indicateurs et des actus":"Mon opinion personnelle";
+  const avLbl=byIA?"Avis de l'IA":"Avis de Claude";
   const list=d?d.assets.filter(a=>!anState.f||a.type===anState.f):[];
   const cnotes=c&&c.assets?c.assets:{};
   main.innerHTML=`<section class="brief"><h2>📊 Analyse des marchés</h2><p>Les 10 actifs suivis sur le site, analysés chaque matin (vers 7h) et chaque soir après la clôture de Wall Street (vers 22h40) : tendance, momentum, niveaux à surveiller et actus liées.</p></section>
-    <div class="warn">⚠️ <b>Ce sont des avis, pas des conseils en investissement.</b> L'analyse automatique repose sur des indicateurs techniques simples, et l'avis de Claude est une opinion personnelle à un instant donné. Ils peuvent se tromper : fais toujours tes propres recherches et n'investis que ce que tu peux te permettre de perdre.</div>
+    <div class="warn">⚠️ <b>Ce sont des avis, pas des conseils en investissement.</b> L'analyse automatique repose sur des indicateurs techniques simples, et l'avis (de l'IA ou de Claude) est une opinion à un instant donné. Ils peuvent se tromper : fais toujours tes propres recherches et n'investis que ce que tu peux te permettre de perdre.</div>
     ${!d?(anState.failed?'<div class="empty">L\'analyse arrive bientôt.</div>':'<div class="loading">Chargement…</div>'):`
     <div class="mood"><div><b class="up">${d.mood.haussier}</b>haussiers</div><div><b>${d.mood.neutre}</b>neutres</div><div><b class="down">${d.mood.baissier}</b>baissiers</div><div style="flex:1;min-width:200px">Analyse automatique mise à jour ${ago(d.updatedAt)}<br><span style="font-size:12px;color:var(--dim)">${esc(fmtDate(d.updatedAt))} · cours : Binance & Yahoo Finance</span></div></div>
-    ${c&&c.global?`<section class="claude"><h3>🧠 L'avis de Claude</h3><div class="sub">Mon opinion personnelle · ${esc(fmtDate(c.updatedAt))} (${ago(c.updatedAt)})</div><p>${esc(c.global)}</p></section>`:""}
+    ${c&&c.global?`<section class="claude"><h3>${avTitle}</h3><div class="sub">${avSub} · ${esc(fmtDate(c.updatedAt))} (${ago(c.updatedAt)})</div><p>${esc(c.global)}</p></section>`:""}
     <div class="chips"><button data-af="" class="${anState.f?"":"on"}">Tout</button><button data-af="crypto" class="${anState.f==="crypto"?"on":""}">₿ Crypto</button><button data-af="action" class="${anState.f==="action"?"on":""}">📈 Actions</button></div>
     <div class="agrid2">${list.map(a=>{const x=a.data,ch=x.ch||{},pos=((x.score+5)/10*100).toFixed(0),cn=cnotes[a.id];
       return `<article class="asset">
@@ -976,7 +981,7 @@ function renderAnalyse(main){
         <div class="stats"><div><small>7 j</small><span class="${pcls(ch["7j"])}">${pfmt(ch["7j"])}</span></div><div><small>30 j</small><span class="${pcls(ch["30j"])}">${pfmt(ch["30j"])}</span></div><div><small>1 an</small><span class="${pcls(ch["1an"])}">${pfmt(ch["1an"])}</span></div><div><small>RSI 14</small>${x.rsi!=null?Math.round(x.rsi):"?"}</div><div><small>Volatilité</small>${x.vol!=null?Math.round(x.vol)+" %":"?"}</div></div>
         <div class="levels"><span>Support <b>${nfmt(x.support)}</b></span><span>Résistance <b>${nfmt(x.resistance)}</b></span><span>MM50 <b>${nfmt(x.sma50)}</b></span><span>MM200 <b>${nfmt(x.sma200)}</b></span></div>
         <div class="atext"><span class="lbl">${a.textBy==="ia"?"Analyse IA auto":"Analyse auto"}</span>${esc(a.text)}</div>
-        ${cn?`<div class="cnote"><span class="lbl">Avis de Claude</span>${esc(cn)}</div>`:""}
+        ${cn?`<div class="cnote"><span class="lbl">${avLbl}</span>${esc(cn)}</div>`:""}
         ${a.news&&a.news.length?`<div class="anews">${a.news.slice(0,3).map(n=>`<a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">📰 ${esc(n.titre)} <span style="color:var(--dim)">· ${esc(n.source)}</span></a>`).join("")}</div>`:""}
       </article>`}).join("")}</div>
     <p style="color:var(--dim);font-size:12px;margin-top:14px">Méthode : moyennes mobiles 20/50/200 jours, RSI 14 jours, volatilité annualisée sur 30 jours, support et résistance = plus bas et plus haut des 20 dernières séances. Score de -5 (très baissier) à +5 (très haussier).</p>`}`;
@@ -1013,10 +1018,10 @@ function _render(){
   const shown=liveF.slice(0,state.liveShow||25);
   const chips=chipVals.length>1?`<div class="chips"><button data-cat="" class="${state.cat?"":"on"}">Tout</button>${chipVals.map(c=>`<button data-cat="${esc(c)}" class="${state.cat===c?"on":""}">${esc(c)}</button>`).join("")}</div>`:"";
   const sel=fresh?(d.items||[]).filter(match).slice(0,6):[];
-  const niche=d?(d.niche||[]).filter(match):[];
+  const niche=d&&(Date.now()-new Date(d.updatedAt))<48*3600e3?(d.niche||[]).filter(match):[];
   const kpis=d?(d.chiffres||[]).map(k=>`<div class="kpi"><div class="l">${esc(k.label)}</div><div class="v">${esc(k.valeur)}</div>${k.variation?`<div class="d ${dir(k.sens)}">${esc(k.variation)}</div>`:""}</div>`).join(""):"";
   main.innerHTML=`
-    ${d&&d.resume?`<section class="brief"><h2>L'essentiel ${TABS[state.tab].label} <small style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0;text-transform:none;color:var(--dim);font-weight:400"> · ${esc(fmtDate(d.updatedAt))}</small></h2><p>${esc(d.resume)}</p></section>`:""}
+    ${d&&d.resume&&(Date.now()-new Date(d.updatedAt))<36*3600e3?`<section class="brief"><h2>L'essentiel ${TABS[state.tab].label} <small style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0;text-transform:none;color:var(--dim);font-weight:400"> · ${esc(fmtDate(d.updatedAt))}${d.par==="ia"?" · résumé par l'IA":""}</small></h2><p>${esc(d.resume)}</p></section>`:""}
     ${kpis&&fresh?`<div class="kpis">${kpis}</div>`:""}
     <div class="toolbar"><h3><span class="livedot"></span>En direct</h3><input class="search" id="q" type="search" placeholder="Filtrer (ex : Binance, taux…)" value="${esc(state.q)}"></div>
     <div class="livemeta">${state.live?`${liveF.length} infos sur les dernières 24 h · mis à jour ${ago(state.live.updatedAt)} · actualisé automatiquement`:"Chargement du fil…"}</div>

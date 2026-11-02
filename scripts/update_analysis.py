@@ -2,8 +2,10 @@
 """Analyse automatique quotidienne de 10 actifs (crypto + actions US) -> analysis.json.
 Cours : Binance (miroir public data-api.binance.vision) pour la crypto, Yahoo Finance puis Stooq pour les actions.
 Indicateurs calculés ici (moyennes mobiles, RSI, volatilité, supports/résistances), verdict par règles,
-texte rédigé par règles. Si GitHub Models est disponible (jeton GITHUB_TOKEN), une IA reformule le texte.
+texte rédigé par règles. Si la clé Gemini est présente (secret GEMINI_API_KEY), l'IA ajoute son avis.
 Bibliothèque standard uniquement. Ce n'est pas un conseil en investissement."""
+import sys
+sys.path.insert(0, __file__.rsplit("/", 1)[0])
 import csv, io, json, math, os, re, statistics, time, urllib.error, urllib.request
 from datetime import datetime, timezone
 
@@ -174,39 +176,33 @@ def related_news(a):
     return out[:4]
 
 # ---------------- IA (facultatif, GitHub Models) ----------------
-def ai_rewrite(items):
-    tok = os.environ.get("GITHUB_TOKEN")
-    if not tok: return None, "pas de jeton"
-    brief = [{"actif": f"{i['name']} ({i['id']})", "prix": i["data"]["price"], "variations_%": i["data"]["ch"],
-              "moyenne50": i["data"]["sma50"], "moyenne200": i["data"]["sma200"], "rsi": i["data"]["rsi"],
-              "volatilite_annualisee_%": i["data"]["vol"], "support": i["data"]["support"], "resistance": i["data"]["resistance"],
-              "verdict_regles": i["data"]["verdict"], "actus": [n["titre"] for n in i["news"]]} for i in items]
-    prompt = ("Tu es un analyste de marché prudent qui écrit en français simple pour de jeunes investisseurs particuliers. "
-              "Pour CHAQUE actif ci-dessous, écris 3 à 4 phrases d'analyse à partir UNIQUEMENT des données fournies (tendance, momentum, niveaux à surveiller, "
-              "et lien éventuel avec les actus listées). Garde le verdict fourni. N'invente aucun chiffre ni aucune info. "
-              "Pas de conseil d'achat ou de vente, pas d'objectif de prix. Réponds en JSON strict : {\"ID\": \"texte\", ...} avec les identifiants entre parenthèses.\n\n"
-              + json.dumps(brief, ensure_ascii=False))
-    errs = []
-    for url, model in (("https://models.github.ai/inference/chat/completions", "openai/gpt-4o-mini"),
-                       ("https://models.inference.ai.azure.com/chat/completions", "gpt-4o-mini")):
-        body = json.dumps({"model": model, "temperature": 0.3, "messages": [{"role": "user", "content": prompt}]}).encode()
-        req = urllib.request.Request(url, data=body, method="POST", headers={
-            "Authorization": f"Bearer {tok}", "Content-Type": "application/json",
-            "Accept": "application/vnd.github+json", "User-Agent": "le-brief-analysis", "X-GitHub-Api-Version": "2022-11-28"})
-        try:
-            with urllib.request.urlopen(req, timeout=120) as resp:
-                raw = resp.read(); final = resp.geturl()
-            r = json.loads(raw)
-            txt = r["choices"][0]["message"]["content"] or ""
-            m = re.search(r"\{.*\}", txt, re.S)
-            return json.loads(m.group(0) if m else txt), f"ok ({model})"
-        except urllib.error.HTTPError as e:
-            try: detail = e.read().decode("utf-8", "replace")[:160]
-            except Exception: detail = ""
-            errs.append(f"{url.split('/')[2]} HTTP {e.code} {detail}")
-        except Exception as e:
-            errs.append(f"{url.split('/')[2]} {str(e)[:120]} {locals().get('final','')}")
-    return None, " | ".join(errs)
+def ai_avis(items):
+    """Avis rédigé par l'IA Gemini (gratuite) à partir des indicateurs et des actus : opinion prudente, jamais un conseil."""
+    import gemini
+    if not gemini.has_key(): return None, "pas de clé GEMINI_API_KEY"
+    brief = [{"id": i["id"], "actif": i["name"], "type": i["type"], "prix_usd": i["data"]["price"],
+              "variations_%": {k: (round(v, 1) if v is not None else None) for k, v in i["data"]["ch"].items()},
+              "moyenne50": i["data"]["sma50"], "moyenne200": i["data"]["sma200"], "rsi14": i["data"]["rsi"],
+              "volatilite_annualisee_%": i["data"]["vol"], "support_20j": i["data"]["support"], "resistance_20j": i["data"]["resistance"],
+              "verdict_technique": i["data"]["verdict"], "actus_du_moment": [n["titre"] for n in i["news"]]} for i in items]
+    prompt = ("Tu tiens la rubrique « L'avis de l'IA » du site français Le Brief Invest, lu par de jeunes investisseurs particuliers. "
+              "À partir UNIQUEMENT des données ci-dessous (indicateurs techniques et titres d'actus), donne ton opinion personnelle, "
+              "prudente et nuancée, en français simple.\n"
+              "Réponds en JSON strict : {\"global\": \"4 à 6 phrases : ta lecture d'ensemble du marché crypto et actions en ce moment, "
+              "et ce que tu surveilles\", \"assets\": {\"ID\": \"2 à 4 phrases qui commencent par 'Mon avis : ', sur cet actif\"}} "
+              "avec une entrée pour chaque ID fourni.\n"
+              "Règles : n'invente aucun chiffre ni aucune info absente des données ; arrondis les prix ; aucun conseil d'achat ou de vente, "
+              "aucun objectif de prix ; reste mesuré (dis quand le signal est incertain).\n\n" + json.dumps(brief, ensure_ascii=False))
+    try:
+        res, model = gemini.ask_json(prompt, temperature=0.5)
+    except Exception as e:
+        return None, f"échec IA : {e}"
+    ids = {i["id"] for i in items}
+    assets = {k: str(v).strip()[:700] for k, v in (res.get("assets") or {}).items() if k in ids and isinstance(v, str) and len(v) > 40}
+    glob = str(res.get("global") or "").strip()
+    if len(glob) < 80 or len(assets) < len(ids) // 2: return None, "réponse IA incomplète"
+    return {"updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"), "par": "Gemini", "modele": model,
+            "global": glob[:1500], "assets": assets}, f"ok ({model})"
 
 def main():
     out = {"updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"), "assets": [], "errors": [], "method": "règles"}
@@ -220,13 +216,15 @@ def main():
         except Exception as e:
             out["errors"].append(f"{a['id']} : {str(e)[:160]}")
         time.sleep(0.4)
-    ai, status = ai_rewrite(out["assets"])
+    avis, status = ai_avis(out["assets"])
     out["ai"] = status
-    if ai:
-        for it in out["assets"]:
-            t = ai.get(it["id"]) or ai.get(f"{it['name']} ({it['id']})")
-            if isinstance(t, str) and len(t) > 60: it["text"] = t.strip(); it["textBy"] = "ia"
-        out["method"] = "règles + IA"
+    if avis:
+        out["avis"] = avis
+    else:  # on garde le dernier avis IA réussi s'il existe
+        try:
+            prev = json.load(open(f"{ROOT}/analysis.json", encoding="utf-8")).get("avis")
+            if prev: out["avis"] = prev
+        except Exception: pass
     up = sum(1 for i in out["assets"] if i["data"]["verdict"] == "Haussier")
     down = sum(1 for i in out["assets"] if i["data"]["verdict"] == "Baissier")
     out["mood"] = {"haussier": up, "baissier": down, "neutre": len(out["assets"]) - up - down}
