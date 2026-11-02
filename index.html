@@ -210,9 +210,9 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .radio small{color:var(--dim);font-size:12px}
 .rfav{all:unset;cursor:pointer;width:30px;height:30px;display:grid;place-items:center;font-size:18px;color:var(--dim);flex:none;border-radius:50%}.rfav:hover{color:var(--ink);background:var(--panel2)}.rfav.on{color:#facc15}
 .prog{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--audio);margin-top:4px}.prog.done{color:var(--up)}
-.bar{display:inline-block;height:4px;border-radius:2px;background:var(--line);overflow:hidden;width:90px;flex:none}.bar i{display:block;height:100%;background:var(--audio)}
+.pbar{display:inline-block;height:4px;border-radius:2px;background:var(--line);overflow:hidden;width:90px;flex:none}.pbar i{display:block;height:100%;background:var(--audio)}
 .resume{display:flex;flex-direction:column;gap:8px;margin-bottom:22px}.rs{display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
-.rs img{width:46px;height:46px;border-radius:8px;object-fit:cover;flex:none}.rsb{flex:1;min-width:0}.rsb b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rsb small{display:block;color:var(--dim);font-size:12px;margin:2px 0 6px}.rsb .bar{width:100%}
+.rs img{width:46px;height:46px;border-radius:8px;object-fit:cover;flex:none}.rsb{flex:1;min-width:0}.rsb b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rsb small{display:block;color:var(--dim);font-size:12px;margin:2px 0 6px}.rsb .pbar{width:100%}
 .rsp,.rsx{all:unset;cursor:pointer;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex:none;font-size:13px}.rsp{background:var(--audio);color:#0b1220}.rsx{color:var(--dim);border:1px solid var(--line)}.rsx:hover{color:var(--up)}
 .rplay{margin-left:auto;width:32px;height:32px;border-radius:50%;background:var(--audio);color:#0b1220;display:flex;align-items:center;justify-content:center;font-size:13px;flex:none}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px;margin-bottom:10px}
@@ -966,12 +966,12 @@ function toggleFavRadio(r){
 function progHtml(url){ const v=progOf(url); if(!v) return "";
   if(v.done) return `<div class="prog done">✓ Écouté</div>`;
   const pct=v.d?Math.min(100,Math.round(v.p/v.d*100)):0;
-  return `<div class="prog"><span class="bar"><i style="width:${pct}%"></i></span>Reprendre à ${fmtT(v.p)}${v.d?` / ${fmtT(v.d)}`:""}</div>`; }
+  return `<div class="prog"><span class="pbar"><i style="width:${pct}%"></i></span>Reprendre à ${fmtT(v.p)}${v.d?` / ${fmtT(v.d)}`:""}</div>`; }
 function resumeHtml(){
   const list=Object.entries(state.prefs.progress||{}).filter(([u,v])=>!v.done&&v.p>5&&v.ti).sort((a,b)=>(b[1].t||0)-(a[1].t||0)).slice(0,6);
   if(!list.length) return "";
   return `<div class="toolbar"><h3>▶️ Reprendre l'écoute</h3></div><div class="resume">${list.map(([u,v])=>{const on=isPlaying(u), pct=v.d?Math.min(100,Math.round(v.p/v.d*100)):0;
-    return `<div class="rs">${v.img?`<img src="${esc(v.img)}" alt="" loading="lazy">`:""}<div class="rsb"><b>${esc(v.ti)}</b><small>${esc(v.sh||"")} · ${fmtT(v.p)}${v.d?` / ${fmtT(v.d)}`:""}</small><span class="bar"><i style="width:${pct}%"></i></span></div>
+    return `<div class="rs">${v.img?`<img src="${esc(v.img)}" alt="" loading="lazy">`:""}<div class="rsb"><b>${esc(v.ti)}</b><small>${esc(v.sh||"")} · ${fmtT(v.p)}${v.d?` / ${fmtT(v.d)}`:""}</small><span class="pbar"><i style="width:${pct}%"></i></span></div>
       <button class="rsp" data-u="${esc(u)}" title="Reprendre">${on?"❚❚":"▶"}</button><button class="rsx" data-x="${esc(u)}" title="Marquer comme écouté">✓</button></div>`}).join("")}</div>`;
 }
 function renderAudio(main){
