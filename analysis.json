@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T09:45:22+00:00",
+ "updatedAt": "2026-11-02T09:53:55+00:00",
  "assets": [
   {
    "id": "BTC",
@@ -7,18 +7,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 78110.46,
+    "price": 78144.99,
     "ch": {
-     "1j": -0.3108201240523689,
-     "7j": -2.545334680131983,
-     "30j": -7.838136828706654,
-     "1an": 20.809261071126883
+     "1j": -0.26675089976261335,
+     "7j": -2.502253259365861,
+     "30j": -7.797395177264521,
+     "1an": 20.86266677101376
     },
-    "sma20": 80683.46650000001,
-    "sma50": 82007.1474,
-    "sma200": 73211.58745,
-    "rsi": 38.62853679871185,
-    "vol": 27.94872098963004,
+    "sma20": 80685.193,
+    "sma50": 82007.838,
+    "sma200": 73211.7601,
+    "rsi": 38.74087002451674,
+    "vol": 27.948377304321426,
     "support": 76325.98,
     "resistance": 84898.0,
     "hi52": 87395.67,
@@ -59,7 +59,7 @@
      77368.77,
      77582.02,
      78354.0,
-     78110.46
+     78144.99
     ]
    },
    "news": [
@@ -97,18 +97,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 2291.49,
+    "price": 2292.46,
     "ch": {
-     "1j": 0.7111118924454152,
-     "7j": -1.422210750467845,
-     "30j": -14.72668882083038,
-     "1an": 23.443947637774066
+     "1j": 0.7537434459480297,
+     "7j": -1.3804822438751696,
+     "30j": -14.690592171120443,
+     "1an": 23.496202122501764
     },
-    "sma20": 2362.6235,
-    "sma50": 2513.516,
-    "sma200": 2158.71345,
-    "rsi": 37.27562359033325,
-    "vol": 35.96043303836217,
+    "sma20": 2362.672,
+    "sma50": 2513.5354,
+    "sma200": 2158.7183,
+    "rsi": 37.419884644003524,
+    "vol": 35.97847142418503,
     "support": 2174.08,
     "resistance": 2530.44,
     "hi52": 2807.34,
@@ -149,7 +149,7 @@
      2245.54,
      2255.66,
      2275.31,
-     2291.49
+     2292.46
     ]
    },
    "news": [
@@ -187,18 +187,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 94.41,
+    "price": 94.51,
     "ch": {
-     "1j": -0.1269438273563961,
-     "7j": -6.478454680534929,
-     "30j": -21.075071058351448,
-     "1an": 21.193838254172004
+     "1j": -0.021157304559393797,
+     "7j": -6.379395740465577,
+     "30j": -20.991472997826442,
+     "1an": 21.3222079589217
     },
-    "sma20": 101.59349999999999,
-    "sma50": 108.93180000000001,
-    "sma200": 88.92775,
-    "rsi": 28.7747108789315,
-    "vol": 40.985834060976615,
+    "sma20": 101.5985,
+    "sma50": 108.93379999999999,
+    "sma200": 88.92825,
+    "rsi": 28.91038868796018,
+    "vol": 41.008236408336096,
     "support": 92.34,
     "resistance": 109.2,
     "hi52": 124.95,
@@ -240,7 +240,7 @@
      96.38,
      95.54,
      94.53,
-     94.41
+     94.51
     ]
    },
    "news": [
@@ -270,7 +270,7 @@
     }
    ],
    "logo": "logos/assets/sol.svg",
-   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -6,5 % et sur 30 jours -21,1 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (29) : zone de survente, rebond technique possible. Côté actu : « Solana risque une nouvelle baisse après $71m de sorties d'ETF » (Invezz)."
+   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -6,4 % et sur 30 jours -21,0 %. À surveiller : le support autour de 92,34 $ et la résistance vers 109,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (29) : zone de survente, rebond technique possible. Côté actu : « Solana risque une nouvelle baisse après $71m de sorties d'ETF » (Invezz)."
   },
   {
    "id": "XRP",
@@ -278,18 +278,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 1.2521,
+    "price": 1.2527,
     "ch": {
-     "1j": 0.11193731510354965,
-     "7j": -4.361442102047041,
-     "30j": -15.762917115177611,
-     "1an": -7.375351383340723
+     "1j": 0.15991045014791538,
+     "7j": -4.315612587839901,
+     "30j": -15.722551130247576,
+     "1an": -7.330966119248405
     },
-    "sma20": 1.300015,
-    "sma50": 1.3892760000000002,
-    "sma200": 1.2757315,
-    "rsi": 37.239099654993666,
-    "vol": 43.760865706138304,
+    "sma20": 1.3000450000000001,
+    "sma50": 1.3892879999999999,
+    "sma200": 1.2757345,
+    "rsi": 37.36732342976311,
+    "vol": 43.770279224576385,
     "support": 1.2002,
     "resistance": 1.3992,
     "hi52": 1.6999,
@@ -330,7 +330,7 @@
      1.2567,
      1.2519,
      1.2507,
-     1.2521
+     1.2527
     ]
    },
    "news": [
@@ -348,7 +348,7 @@
     }
    ],
    "logo": "logos/assets/xrp.svg",
-   "text": "La tendance technique est plutôt négative : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -4,4 % et sur 30 jours -15,8 %. À surveiller : le support autour de 1,2002 $ et la résistance vers 1,3992 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « ETH, XRP, SOL calmes, RUNE à l’arrêt – Le point altcoins » (Journal du Coin)."
+   "text": "La tendance technique est plutôt négative : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -4,3 % et sur 30 jours -15,7 %. À surveiller : le support autour de 1,2002 $ et la résistance vers 1,3992 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « ETH, XRP, SOL calmes, RUNE à l’arrêt – Le point altcoins » (Journal du Coin)."
   },
   {
    "id": "BNB",
@@ -356,18 +356,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 707.86,
+    "price": 708.12,
     "ch": {
-     "1j": -0.6777140131052795,
-     "7j": -4.714085720439365,
-     "30j": -10.042191947946321,
-     "1an": 18.68680940963432
+     "1j": -0.6412325134350194,
+     "7j": -4.679086797329313,
+     "30j": -10.009150061000405,
+     "1an": 18.730403581428902
     },
-    "sma20": 728.396,
-    "sma50": 748.6410000000001,
-    "sma200": 655.9919,
-    "rsi": 40.80561260113895,
-    "vol": 39.260271689746354,
+    "sma20": 728.409,
+    "sma50": 748.6461999999999,
+    "sma200": 655.9932000000001,
+    "rsi": 40.8806296729582,
+    "vol": 39.25674916829949,
     "support": 680.0,
     "resistance": 762.2,
     "hi52": 809.99,
@@ -408,7 +408,7 @@
      704.42,
      703.95,
      712.69,
-     707.86
+     708.12
     ]
    },
    "news": [
@@ -846,21 +846,21 @@
  "method": "règles",
  "ai": "ok (gemini-flash-lite-latest)",
  "avis": {
-  "updatedAt": "2026-11-02T09:46:54+00:00",
+  "updatedAt": "2026-11-02T09:54:14+00:00",
   "par": "Gemini",
   "modele": "gemini-flash-lite-latest",
-  "global": "Le marché global traverse une période d'incertitude marquée par des signaux techniques partagés entre prudence et attentisme, tant sur les cryptomonnaies que sur les actions. Du côté des cryptos, la situation reste sous tension après les récentes sorties sur les ETF et l'actualité liée au piratage de Binance. Sur les marchés actions, l'attention se porte sur Wall Street, les résultats d'entreprises et les rendez-vous macroéconomiques majeurs comme les données sur l'emploi. Je surveille de près l'évolution des niveaux de support clés ainsi que le comportement des indicateurs de momentum comme le RSI pour évaluer la direction à venir.",
+  "global": "Le marché crypto et actions traverse une période contrastée, marquée par des signaux techniques souvent neutres et une volatilité notable. Les cryptomonnaies font face à des remous liés à des sorties d'ETF et aux répercussions d'un piratage d'envergure sur Binance, tandis que le Bitcoin se stabilise au-dessus de 78 000 dollars. Du côté des actions, des valeurs technologiques majeures comme Apple et Tesla affichent des dynamiques haussières malgré l'attentisme des investisseurs face aux résultats d'entreprises et aux contextes politiques. Je surveille de près l'évolution des niveaux de support et les réactions des marchés aux actualités macroéconomiques et sectorielles.",
   "assets": {
-   "BTC": "Mon avis : Le Bitcoin se stabilise au-dessus de 78 000 dollars malgré le choc du piratage de Binance et des signaux techniques plutôt neutres. L'indice de force relative sous les 40 et la volatilité appellent à la prudence, tandis que le marché digère les flux des ETF et les actualités politiques.",
-   "ETH": "Mon avis : Ethereum évolue autour de 2 291 dollars avec un RSI de 37 reflétant un signal technique neutre. L'actif fait face à des sorties records sur ses ETF en octobre et navigue dans un climat de calme relatif sur les altcoins.",
-   "SOL": "Mon avis : Solana subit une pression baissière plus marquée avec un recul sur 30 jours et un RSI proche de 29, illustrant une situation technique fragile. L'actif tente de défendre ses récents niveaux de support face à des sorties de capitaux sur ses ETF.",
-   "XRP": "Mon avis : XRP affiche un verdict technique baissier avec un cours autour de 1,25 dollar et un RSI à 37. Les variations récentes restent négatives sur une semaine comme sur un mois, malgré les ambitions affichées par la direction de Ripple pour le long terme.",
-   "BNB": "Mon avis : BNB montre une certaine résistance autour de 708 dollars malgré le contexte pesant du piratage de Binance. L'indicateur technique reste neutre et le marché surveille de près la solidité des supports face au levier acheteur.",
-   "NVDA": "Mon avis : Nvidia affiche un profil technique neutre avec un cours à 205 dollars et un RSI à 35, s'accompagnant d'un recul récent sur une semaine. Les actualités récentes mentionnent des ajustements de catalogue et de produits qui animent l'écosystème technologique.",
-   "AAPL": "Mon avis : Apple bénéficie d'un verdict technique haussier avec un cours de 345 dollars et un RSI proche de 55. L'action retient l'attention des investisseurs à l'approche de ses résultats financiers et dans un climat de marché partagé.",
-   "TSLA": "Mon avis : Tesla présente une configuration technique haussière avec un prix à 400 dollars et un RSI de 61 traduisant une dynamique plus ferme. L'actif profite de retours positifs sur ses immatriculations en Europe du Nord et de projets de développement.",
-   "MSFT": "Mon avis : Microsoft affiche un verdict technique haussier et un cours s'établissant à 522 dollars, porté par une tendance positive sur un mois. Aucun communiqué marquant n'accompagne cette période, l'actif suivant les tendances globales de Wall Street.",
-   "AMZN": "Mon avis : Amazon affiche un signal technique neutre avec un cours à 240 dollars et un RSI sous la barre des 38. L'activité est rythmée par les préparatifs commerciaux de fin d'année, tandis que l'action accuse un repli hebdomadaire."
+   "BTC": "Mon avis : Le Bitcoin se maintient au-dessus de 78 000 dollars malgré un contexte agité par un important piratage et des mouvements sur les ETF. Son RSI proche de 39 et sa moyenne mobile à 50 jours traduisent une incertitude technique marquée. Le signal reste neutre alors que le marché absorbe ces chocs récents.",
+   "ETH": "Mon avis : Ethereum évolue autour de 2 292 dollars avec un verdict technique neutre et un RSI à 37. L'actif subit des sorties notables sur ses ETF en octobre et navigue dans un climat prudent. Les indicateurs montrent une phase de calme relatif après des baisses mensuelles.",
+   "SOL": "Mon avis : Solana affiche un RSI de 28, ce qui indique une zone de faiblesse technique prononcée avec un verdict neutre à 95 dollars. L'actif subit des sorties sur ses ETF tout en essayant de défendre ses récents niveaux de support. La volatilité annualisée dépasse les 41 %, illustrant la nervosité autour de cet altcoin.",
+   "XRP": "Mon avis : XRP présente un verdict technique baissier avec un prix de 1,25 dollar et un RSI sous la barre des 38. Malgré les ambitions institutionnelles de sa direction à long terme, la tendance sur un mois reste orientée à la baisse. L'actif évolue près de sa moyenne mobile à 200 jours.",
+   "BNB": "Mon avis : BNB se négocie à 708 dollars et conserve un verdict technique neutre avec un RSI de 40. L'actualité reste marquée par le choc du piratage de Binance et la résistance de son cours face au levier acheteur. Les variations sur un an restent positives, mais la prudence domine à court terme.",
+   "NVDA": "Mon avis : Nvidia s'établit à 204 dollars avec un verdict technique neutre et un RSI à 35, proche de sa moyenne mobile à 200 jours. L'action recule sur les 7 derniers jours dans un marché attentif aux actualités de l'intelligence artificielle et des composants. La volatilité demeure modérée pour cette valeur.",
+   "AAPL": "Mon avis : Apple affiche un verdict technique haussier à 344 dollars, porté par un RSI de 55 et une progression sur un mois. L'action retient l'attention des investisseurs à l'approche de ses résultats financiers et des incertitudes de Wall Street. La tendance à court terme montre une relative solidité.",
+   "TSLA": "Mon avis : Tesla se distingue avec un verdict technique haussier et un cours à 399 dollars, soutenu par de bonnes immatriculations en Europe du Nord. Son RSI s'établit à 60, traduisant une dynamique favorable sur un mois malgré des inquiétudes sectorielles plus larges. L'action évolue non loin de sa résistance récente.",
+   "MSFT": "Mon avis : Microsoft affiche un prix de 521 dollars et un verdict technique haussier avec un RSI neutre proche de 49. L'action se maintient au-dessus de sa moyenne mobile à 50 jours malgré un léger repli sur sept jours. Le marché semble observer une phase de consolidation prudente.",
+   "AMZN": "Mon avis : Amazon pointe à 240 dollars avec un verdict technique neutre et un RSI de 38. L'action accuse un recul sur sept jours et un mois, tout en se rapprochant de sa moyenne mobile à 200 jours. Les annonces liées aux offres commerciales de fin d'année animent l'actualité de l'entreprise."
   }
  },
  "mood": {
