@@ -312,6 +312,20 @@ body.playing .wrap{padding-bottom:110px}
 .iahint{text-align:center;font-size:11.5px;color:var(--dim);margin-top:4px}
 @media (max-width:900px){.iaarr{display:none}}@media (min-width:901px){.iahint{display:none}.claude.panel{padding-left:40px;padding-right:40px}.claude.panel .iatabs{margin-left:-22px}}
 .cav{display:flex;flex-direction:column;gap:8px}.cslides{display:flex;align-items:flex-start;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;transition:height .25s}.cslides::-webkit-scrollbar{display:none}.cslide{flex:0 0 100%;scroll-snap-align:start;scroll-snap-stop:always;box-sizing:border-box}.cdots{margin-top:0}
+.pfbox .sub{color:var(--dim);font-size:12.5px;margin:4px 0 12px}.pfhead{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.pfhead h3{margin:0}.pfacts{display:flex;align-items:center;gap:14px}
+.pfsum{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}.pfsum>div{flex:1;min-width:130px;background:var(--panel2);border-radius:10px;padding:10px 12px}.pfsum small{display:block;color:var(--dim);font-size:12px}.pfsum b{font-size:20px;font-family:"JetBrains Mono",monospace;font-weight:600}.pfsum em{font-style:normal;font-size:12.5px;display:block;margin-top:1px}
+@media (max-width:640px){.pfsum{gap:6px}.pfsum>div{min-width:0;padding:8px 10px}.pfsum b{font-size:16px}.pfsum small{font-size:11px}.pfl{gap:8px}.pfe,.pfx{width:24px}}
+.pfbar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--line)}.pfbar i{display:block;height:100%}.pflegend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:8px 0 12px}.pflegend i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}
+.pflist{display:flex;flex-direction:column}.pfl{display:flex;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}
+.pfic{width:36px;height:36px;border-radius:50%;border:2px solid;display:grid;place-items:center;font-size:10.5px;font-weight:800;flex:none;overflow:hidden;background:var(--panel2);font-family:"JetBrains Mono",monospace}.pfic img{width:100%;height:100%;object-fit:cover}
+.pfn{flex:1;min-width:0}.pfn b{display:block;font-size:14.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.pfn small{color:var(--dim);font-size:12px}
+.pfv{text-align:right;font-family:"JetBrains Mono",monospace}.pfv b{display:block;font-size:14px}.pfv small{font-size:12px}
+.pfe,.pfx{all:unset;cursor:pointer;width:28px;height:28px;display:grid;place-items:center;border-radius:50%;color:var(--dim);flex:none}.pfe:hover,.pfx:hover{background:var(--panel2);color:var(--ink)}
+.pfform{background:var(--panel2);border-radius:12px;padding:12px;margin:4px 0 12px;display:flex;flex-direction:column;gap:10px}.pfform label{display:flex;flex-direction:column;gap:5px;font-size:12.5px;color:var(--muted);flex:1;min-width:160px}
+.pfrow{display:flex;gap:10px;flex-wrap:wrap}.pftypes{display:flex;gap:6px;flex-wrap:wrap}.pftypes button{all:unset;cursor:pointer;padding:6px 11px;border-radius:999px;border:1px solid var(--line);font-size:13px;background:var(--panel)}.pftypes button.on{border-color:var(--espace);background:rgba(52,211,153,.12)}.pftypes button[disabled]{opacity:.5;cursor:default}
+.pfsearch{position:relative}.pfsugg{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--panel);border:1px solid var(--line);border-radius:10px;z-index:20;max-height:300px;overflow:auto;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.pfsugg button{all:unset;cursor:pointer;display:flex;align-items:center;gap:8px;padding:8px 10px;width:calc(100% - 20px)}.pfsugg button:hover{background:var(--panel2)}.pfsugg img{width:20px;height:20px;border-radius:50%}.pfsugg b{font-size:14px;color:var(--ink);font-weight:600}.pfsugg small{margin-left:auto;color:var(--dim);font-size:12px}
+.pfnote{font-size:12.5px;color:var(--dim)}.pfbtns{display:flex;gap:8px}
 .votes{display:flex;gap:5px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--dim)}.votes .vt{all:unset;cursor:pointer;padding:3px 8px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;color:var(--ink)}.votes .vt.haussier{color:var(--up)}.votes .vt.baissier{color:var(--down)}.votes .vt.on{border-color:var(--analyse);background:rgba(163,230,53,.10)}
 @media (max-width:640px){.iatabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -4px;padding:0 4px}.iatabs button{flex:none}}
 .agrid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
@@ -455,39 +469,44 @@ function frErr(e){
 }
 
 /* ================= Préférences (local + compte) ================= */
-function loadLocal(){try{const v=JSON.parse(localStorage.getItem(LS_KEY)||"null");if(v)return{saved:Array.isArray(v.saved)?v.saved:[],watch:Array.isArray(v.watch)?v.watch:[],radios:Array.isArray(v.radios)?v.radios:[],progress:(v.progress&&typeof v.progress==="object")?v.progress:{}}}catch(e){}return{saved:[],watch:[],radios:[],progress:{}}}
+function loadLocal(){try{const v=JSON.parse(localStorage.getItem(LS_KEY)||"null");if(v)return{saved:Array.isArray(v.saved)?v.saved:[],watch:Array.isArray(v.watch)?v.watch:[],radios:Array.isArray(v.radios)?v.radios:[],progress:(v.progress&&typeof v.progress==="object")?v.progress:{},portfolio:Array.isArray(v.portfolio)?v.portfolio:[]}}catch(e){}return{saved:[],watch:[],radios:[],progress:{},portfolio:[]}}
 function trimProgress(pr){ // on garde les 60 épisodes les plus récents
   return Object.fromEntries(Object.entries(pr||{}).sort((a,b)=>(b[1].t||0)-(a[1].t||0)).slice(0,60)); }
-function prefsPayload(){ return {saved:state.prefs.saved.slice(0,150),watch:state.prefs.watch.slice(0,40),radios:(state.prefs.radios||[]).slice(0,40),progress:trimProgress(state.prefs.progress)}; }
+function prefsPayload(){ return {saved:state.prefs.saved.slice(0,150),watch:state.prefs.watch.slice(0,40),radios:(state.prefs.radios||[]).slice(0,40),progress:trimProgress(state.prefs.progress),portfolio:(state.prefs.portfolio||[]).slice(0,80)}; }
 let prefTimer=null, quietSave=false;
 function savePrefs(){
   const pl=prefsPayload();
   try{localStorage.setItem(LS_KEY,JSON.stringify(pl))}catch(e){}
   if(sb&&state.user){ clearTimeout(prefTimer); prefTimer=setTimeout(async()=>{
     const row={user_id:state.user.id,saved:pl.saved,watch:pl.watch,updated_at:new Date().toISOString()};
-    if(!state.noAudioCols){ row.radios=pl.radios; row.progress=pl.progress; }
+    state.missingCols=state.missingCols||[];
+    for(const c of ["radios","progress","portfolio"]) if(!state.missingCols.includes(c)) row[c]=pl[c];
     let {error}=await sb.from("user_prefs").upsert(row);
-    if(error&&/radios|progress|column/i.test(error.message||"")){ state.noAudioCols=true; delete row.radios; delete row.progress; ({error}=await sb.from("user_prefs").upsert(row)); }
+    for(let i=0;i<3&&error;i++){ const m=String(error.message||""); const c=["radios","progress","portfolio"].find(c=>m.includes(c)&&c in row);
+      if(!c) break; state.missingCols.push(c); delete row[c]; ({error}=await sb.from("user_prefs").upsert(row)); }
     if(error) toast("Sauvegarde en ligne impossible pour l'instant");
   },quietSave?4000:500); quietSave=false; }
 }
 async function loadPrefs(){
   if(!sb||!state.user) return;
-  let {data,error}=await sb.from("user_prefs").select("saved,watch,radios,progress").eq("user_id",state.user.id).maybeSingle();
-  if(error){ state.noAudioCols=true; ({data,error}=await sb.from("user_prefs").select("saved,watch").eq("user_id",state.user.id).maybeSingle()); }
+  let cols=["saved","watch","radios","progress","portfolio"], data=null, error=null;
+  for(let i=0;i<4;i++){ ({data,error}=await sb.from("user_prefs").select(cols.join(",")).eq("user_id",state.user.id).maybeSingle());
+    if(!error) break; const m=String(error.message||""); const c=["portfolio","progress","radios"].find(c=>m.includes(c)&&cols.includes(c));
+    if(!c) break; cols=cols.filter(x=>x!==c); state.missingCols=[...(state.missingCols||[]),c]; }
   if(error) return;
   const local=state.prefs;
   if(data){
-    const merged={saved:[...(data.saved||[])],watch:[...(data.watch||[])],radios:[...(data.radios||[])],progress:{...(data.progress||{})}};
+    const merged={saved:[...(data.saved||[])],watch:[...(data.watch||[])],radios:[...(data.radios||[])],progress:{...(data.progress||{})},portfolio:[...(data.portfolio||[])]};
     let changed=false;
     for(const s of local.saved) if(!merged.saved.some(x=>keyOf(x)===keyOf(s))){ merged.saved.push(s); changed=true; }
     for(const w of local.watch) if(!merged.watch.some(x=>x.toLowerCase()===w.toLowerCase())){ merged.watch.push(w); changed=true; }
     for(const r of local.radios||[]) if(!merged.radios.some(x=>x.url===r.url)){ merged.radios.push(r); changed=true; }
     for(const [u,v] of Object.entries(local.progress||{})) if(!merged.progress[u]||(merged.progress[u].t||0)<(v.t||0)){ merged.progress[u]=v; changed=true; }
+    if(!merged.portfolio.length&&(local.portfolio||[]).length){ merged.portfolio=[...local.portfolio]; changed=true; } // le compte fait foi, sauf s'il est vide
     state.prefs=merged;
-    if(changed&&!state.noAudioCols) savePrefs(); else if(changed) savePrefs();
+    if(changed) savePrefs();
     else { try{localStorage.setItem(LS_KEY,JSON.stringify(prefsPayload()))}catch(e){} }
-  } else if(local.saved.length||local.watch.length||(local.radios||[]).length||Object.keys(local.progress||{}).length){ savePrefs(); }
+  } else if(local.saved.length||local.watch.length||(local.radios||[]).length||Object.keys(local.progress||{}).length||(local.portfolio||[]).length){ savePrefs(); }
   render();
 }
 function watchHit(i){const txt=(i.titre+" "+i.resume+" "+(i.pourquoi||"")).toLowerCase();return state.prefs.watch.find(w=>w&&txt.includes(w.toLowerCase()))}
@@ -729,7 +748,97 @@ function bindCards(main){
 }
 
 /* ================= Mon espace ================= */
+/* ================= Mon portefeuille ================= */
+const pfState={prices:null,loading:false,adding:false,edit:null,type:"crypto",q:"",pick:null,hide:false};
+try{pfState.hide=localStorage.getItem("lb_pfhide")==="1"}catch(e){}
+const PF_TYPES={crypto:{l:"Crypto",c:"var(--crypto)"},action:{l:"Actions",c:"var(--actions)"},etf:{l:"ETF",c:"#60a5fa"},immo:{l:"Immobilier",c:"var(--immo)"},epargne:{l:"Épargne",c:"#94a3b8"},autre:{l:"Autre",c:"#f472b6"}};
+async function loadPrices(force){
+  if(pfState.loading||(pfState.prices&&!force)) return; pfState.loading=true;
+  try{ const r=await fetch("prices.json?t="+Date.now(),{cache:"no-store"}); if(r.ok){ const j=await r.json(); j.map=Object.fromEntries(j.assets.map(a=>[a.k,a])); pfState.prices=j; } }catch(e){}
+  pfState.loading=false; if(state.tab==="espace") render();
+}
+setInterval(()=>{ if(state.tab==="espace"&&!pfState.adding) loadPrices(true); },10*60*1000);
+const eur=(v,dec)=>pfState.hide?"•••• €":(v==null||isNaN(v)?"—":v.toLocaleString("fr-FR",{style:"currency",currency:"EUR",maximumFractionDigits:dec!=null?dec:(Math.abs(v)<10?2:0)}));
+const sgnP=v=>v==null||isNaN(v)?"":(v>=0?"+":"−")+Math.abs(v).toLocaleString("fr-FR",{maximumFractionDigits:1})+" %";
+function pfLine(h){
+  const live=h.k&&pfState.prices&&pfState.prices.map[h.k];
+  const price=live?live.p:(h.q?h.v/h.q:null);
+  const value=live?live.p*(+h.q||0):(+h.v||0);
+  const cost=h.pru!=null&&h.pru!==""?(+h.pru)*(+h.q||1)*(live?1:0)+(!live&&h.inv?+h.inv:0):(!live&&h.inv?+h.inv:null);
+  const invested=live?(h.pru!=null&&h.pru!==""?(+h.pru)*(+h.q||0):null):(h.inv?+h.inv:null);
+  const pl=invested!=null?value-invested:null;
+  const d24=live&&live.ch!=null?value-value/(1+live.ch/100):0;
+  return {h,live,price,value,invested,pl,plp:invested?pl/invested*100:null,d24,ch:live?live.ch:null};
+}
+function portfolioHtml(){
+  const pf=state.prefs.portfolio||[], P=pfState.prices;
+  const lines=pf.map(pfLine), total=lines.reduce((a,l)=>a+l.value,0), inv=lines.filter(l=>l.invested!=null);
+  const invT=inv.reduce((a,l)=>a+l.invested,0), plT=inv.reduce((a,l)=>a+l.pl,0), d24=lines.reduce((a,l)=>a+l.d24,0);
+  const byT={}; lines.forEach(l=>byT[l.h.t]=(byT[l.h.t]||0)+l.value);
+  const rep=Object.entries(byT).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]);
+  const sugg=pfState.adding&&(pfState.type==="crypto"||pfState.type==="action")&&P&&pfState.q.trim().length>=1&&!pfState.pick
+    ?P.assets.filter(a=>(pfState.type==="crypto"?a.t==="crypto":a.t!=="crypto")&&(a.n+" "+a.s).toLowerCase().includes(pfState.q.trim().toLowerCase())).slice(0,8):[];
+  const e=pfState.edit!=null?pf.find(x=>x.id===pfState.edit):null;
+  const isLive=t=>t==="crypto"||t==="action";
+  const form=pfState.adding?`<form class="pfform" id="pff">
+      <div class="pftypes">${[["crypto","₿ Crypto"],["action","📈 Action / ETF"],["immo","🏠 Immobilier"],["epargne","🏦 Épargne"],["autre","📦 Autre"]].map(([k,l])=>`<button type="button" data-pt="${k}" class="${pfState.type===k?"on":""}" ${e?"disabled":""}>${l}</button>`).join("")}</div>
+      ${isLive(pfState.type)?`<label>${pfState.type==="crypto"?"Cryptomonnaie":"Action ou ETF"}<div class="pfsearch"><input class="search" id="pfq" autocomplete="off" placeholder="${pfState.type==="crypto"?"Ex : Bitcoin, SOL…":"Ex : Apple, LVMH, CW8…"}" value="${esc(pfState.pick?pfState.pick.n+" ("+pfState.pick.s+")":pfState.q)}" ${e?"disabled":""}>
+          ${sugg.length?`<div class="pfsugg">${sugg.map(a=>`<button type="button" data-k="${esc(a.k)}">${a.img?`<img src="${esc(a.img)}" alt="">`:""}<b>${esc(a.n)}</b><small>${esc(a.s)} · ${eur(a.p)}</small></button>`).join("")}</div>`:""}</div></label>
+        ${!P?'<p class="pfnote">Chargement des cours…</p>':(pfState.q.trim()&&!pfState.pick&&!sugg.length?'<p class="pfnote">Introuvable dans la liste des cours suivis : choisis « Autre » pour l\'ajouter avec une valeur manuelle.</p>':"")}
+        <div class="pfrow"><label>Quantité<input class="search" id="pfqty" inputmode="decimal" placeholder="Ex : 0,05" value="${e?esc(String(e.q).replace(".",",")):""}" required></label>
+        <label>Prix d'achat moyen (€, facultatif)<input class="search" id="pfpru" inputmode="decimal" placeholder="Pour voir tes gains" value="${e&&e.pru!=null&&e.pru!==""?esc(String(e.pru).replace(".",",")):""}"></label></div>`
+      :`<label>Nom<input class="search" id="pfname" maxlength="60" placeholder="${pfState.type==="immo"?"Ex : Studio Lyon, SCPI…":pfState.type==="epargne"?"Ex : Livret A, assurance-vie…":"Ex : Montre, or physique…"}" value="${e?esc(e.n):""}" required></label>
+        <div class="pfrow"><label>Valeur actuelle (€)<input class="search" id="pfval" inputmode="decimal" placeholder="Ex : 12000" value="${e?esc(String(e.v).replace(".",",")):""}" required></label>
+        <label>Montant investi (€, facultatif)<input class="search" id="pfinv" inputmode="decimal" placeholder="Pour voir tes gains" value="${e&&e.inv?esc(String(e.inv).replace(".",",")):""}"></label></div>`}
+      <div class="pfbtns"><button class="btn" type="submit">${e?"Enregistrer":"Ajouter"}</button><button class="btn ghost" type="button" id="pfcancel">Annuler</button></div></form>`:"";
+  return `<section class="box pfbox"><div class="pfhead"><h3>💼 Mon portefeuille</h3><div class="pfacts">${pf.length?`<button class="lnk" id="pfhide" type="button">${pfState.hide?"👁 Afficher les montants":"🙈 Masquer les montants"}</button>`:""}${pfState.adding?"":`<button class="btn" id="pfadd" type="button">+ Ajouter</button>`}</div></div>
+    <div class="sub">${state.user?"Privé : visible seulement par toi, enregistré dans ton compte.":"Privé, gardé sur cet appareil. Crée un compte pour le retrouver partout."} Cours mis à jour toutes les 30 min${P?` · dernière mise à jour ${ago(P.updatedAt)}`:""}.</div>
+    ${pf.length?`<div class="pfsum"><div><small>Valeur totale</small><b>${eur(total)}</b></div>
+      ${invT?`<div><small>Plus-value</small><b class="${plT>=0?"up":"down"}">${pfState.hide?"••••":(plT>=0?"+":"−")+eur(Math.abs(plT)).replace("-","")} <em>${sgnP(plT/invT*100)}</em></b></div>`:""}
+      ${d24?`<div><small>Sur 24 h</small><b class="${d24>=0?"up":"down"}">${pfState.hide?"••••":(d24>=0?"+":"−")+eur(Math.abs(d24)).replace("-","")}</b></div>`:""}</div>
+      <div class="pfbar">${rep.map(([t,v])=>`<i style="width:${(v/total*100).toFixed(2)}%;background:${PF_TYPES[t].c}" title="${esc(PF_TYPES[t].l)}"></i>`).join("")}</div>
+      <div class="pflegend">${rep.map(([t,v])=>`<span><i style="background:${PF_TYPES[t].c}"></i>${esc(PF_TYPES[t].l)} ${(v/total*100).toFixed(0)} %</span>`).join("")}</div>`:""}
+    ${form}
+    ${pf.length?`<div class="pflist">${lines.sort((a,b)=>b.value-a.value).map(l=>{const h=l.h;return `<div class="pfl">
+      <span class="pfic" style="border-color:${PF_TYPES[h.t].c}">${l.live&&l.live.img?`<img src="${esc(l.live.img)}" alt="" onerror="this.replaceWith(document.createTextNode('${esc((h.s||"?").slice(0,3).toUpperCase())}'))">`:esc((h.s||h.n||"?").slice(0,3).toUpperCase())}</span>
+      <div class="pfn"><b>${esc(h.n)}</b><small>${l.live?`${pfState.hide?"•••":esc(String(+h.q).replace(".",","))} × ${eur(l.price,l.price<10?4:2)}`:esc(PF_TYPES[h.t].l)}${l.ch!=null?` · <span class="${l.ch>=0?"up":"down"}">${sgnP(l.ch)} 24 h</span>`:""}${h.k&&!l.live&&P?" · cours indisponible":""}</small></div>
+      <div class="pfv"><b>${eur(l.value)}</b>${l.pl!=null?`<small class="${l.pl>=0?"up":"down"}">${sgnP(l.plp)}</small>`:""}</div>
+      <button class="pfe" data-e="${esc(h.id)}" title="Modifier" aria-label="Modifier">✎</button><button class="pfx" data-x="${esc(h.id)}" title="Supprimer" aria-label="Supprimer">×</button></div>`}).join("")}</div>`
+      :(pfState.adding?"":`<div class="empty" style="margin:10px 0 0">Ajoute tes cryptos, actions, ETF, ton immobilier ou ton épargne pour suivre la valeur de ton patrimoine en direct.</div>`)}
+  </section>`;
+}
+function num(v){ const x=parseFloat(String(v||"").replace(/\s/g,"").replace(",",".")); return isNaN(x)?null:x; }
+function bindPortfolio(main){
+  const $=id=>document.getElementById(id);
+  const add=$("pfadd"); if(add) add.addEventListener("click",()=>{ pfState.adding=true; pfState.edit=null; pfState.pick=null; pfState.q=""; loadPrices(); render(); setTimeout(()=>{const q=$("pfq")||$("pfname"); if(q) q.focus();},30); });
+  const hide=$("pfhide"); if(hide) hide.addEventListener("click",()=>{ pfState.hide=!pfState.hide; try{localStorage.setItem("lb_pfhide",pfState.hide?"1":"0")}catch(e){} render(); });
+  const cancel=$("pfcancel"); if(cancel) cancel.addEventListener("click",()=>{ pfState.adding=false; pfState.edit=null; render(); });
+  main.querySelectorAll("[data-pt]").forEach(b=>b.addEventListener("click",()=>{ pfState.type=b.dataset.pt; pfState.pick=null; pfState.q=""; render(); }));
+  const q=$("pfq"); if(q&&!q.disabled) q.addEventListener("input",e=>{ pfState.q=e.target.value; pfState.pick=null; const pos=e.target.selectionStart; render(); const n=$("pfq"); if(n){ n.focus(); n.setSelectionRange(pos,pos);} });
+  main.querySelectorAll(".pfsugg [data-k]").forEach(b=>b.addEventListener("click",()=>{ pfState.pick=pfState.prices.map[b.dataset.k]; render(); const n=$("pfqty"); if(n) n.focus(); }));
+  main.querySelectorAll("[data-x]").forEach(b=>b.addEventListener("click",()=>{ const h=state.prefs.portfolio.find(x=>x.id===b.dataset.x); if(!h||!confirmDel(h)) return;
+    state.prefs.portfolio=state.prefs.portfolio.filter(x=>x.id!==h.id); savePrefs(); render(); toast("Retiré du portefeuille"); }));
+  main.querySelectorAll("[data-e]").forEach(b=>b.addEventListener("click",()=>{ const h=state.prefs.portfolio.find(x=>x.id===b.dataset.e); if(!h) return;
+    pfState.adding=true; pfState.edit=h.id; pfState.type=h.t==="etf"?"action":h.t; pfState.pick=h.k&&pfState.prices?pfState.prices.map[h.k]||{n:h.n,s:h.s,k:h.k}:(h.k?{n:h.n,s:h.s,k:h.k}:null); render(); scrollTo({top:document.getElementById("pff").getBoundingClientRect().top+scrollY-90,behavior:"smooth"}); }));
+  const f=$("pff"); if(f) f.addEventListener("submit",e=>{ e.preventDefault();
+    const ed=pfState.edit!=null?state.prefs.portfolio.find(x=>x.id===pfState.edit):null; let h;
+    if(pfState.type==="crypto"||pfState.type==="action"){
+      const a=pfState.pick; if(!a){ toast("Choisis un actif dans la liste"); return; }
+      const qty=num($("pfqty").value); if(!qty||qty<=0){ toast("Indique une quantité"); return; }
+      const pru=num($("pfpru").value);
+      h={id:ed?ed.id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),k:a.k,n:a.n,s:a.s,t:a.t||(pfState.type),q:qty,pru:pru!=null&&pru>0?pru:null};
+    } else {
+      const n=$("pfname").value.trim(), v=num($("pfval").value), inv=num($("pfinv").value);
+      if(!n||v==null||v<0){ toast("Indique un nom et une valeur"); return; }
+      h={id:ed?ed.id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),k:"",n,s:"",t:pfState.type,q:1,v,inv:inv&&inv>0?inv:null};
+    }
+    state.prefs.portfolio=state.prefs.portfolio||[];
+    if(ed) state.prefs.portfolio=state.prefs.portfolio.map(x=>x.id===ed.id?h:x); else state.prefs.portfolio.push(h);
+    pfState.adding=false; pfState.edit=null; pfState.pick=null; pfState.q=""; savePrefs(); render(); toast(ed?"Ligne modifiée ✅":"Ajouté au portefeuille ✅"); });
+}
+function confirmDel(h){ return window.confirm?confirm(`Supprimer « ${h.n} » de ton portefeuille ?`):true; }
 function renderEspace(main){
+  loadPrices();
   const saved=state.prefs.saved;
   const hits=[]; for(const t of NEWS){const d=state.data[t]; if(!d) continue;
     for(const i of [...(d.items||[]),...(d.niche||[])]) if(watchHit(i)) hits.push({i,t}); }
@@ -740,6 +849,7 @@ function renderEspace(main){
       :`<div class="login" style="margin-bottom:22px"><h2>Crée ton compte gratuit</h2><p>Avec un compte, tes favoris et ta liste te suivent sur tous tes appareils, et tu peux participer à la communauté. Juste un pseudo, un e-mail et un mot de passe.</p>
         <p style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="btn" id="esu">Créer un compte</button><button class="btn ghost" id="eli">Se connecter</button></p>
         <p style="margin-top:12px;font-size:12.5px;color:var(--dim)">Sans compte, tu peux quand même utiliser ta liste et tes favoris : ils restent sur cet appareil.</p></div>`}
+    ${portfolioHtml()}
     <section class="box"><h3>👀 Ma liste à surveiller</h3>
       <div class="sub">Ajoute des mots-clés (Bitcoin, Sanofi, SCPI, PSG…). Les infos qui en parlent sont mises en avant dans tous les onglets et regroupées ici.</div>
       <form class="wlform" id="wlf"><input class="search" id="wli" placeholder="Ex : Solana, TotalEnergies, taux…" maxlength="40"><button class="btn" type="submit">Ajouter</button></form>
@@ -749,6 +859,7 @@ function renderEspace(main){
       <div class="list" style="margin-bottom:26px">${hits.length?hits.map(h=>cardHtml(h.i,h.t,{showTab:TABNAME[h.t],niche:!!h.i.pourquoi})).join(""):'<div class="empty">Rien sur ta liste dans les infos du moment.</div>'}</div>`:""}
     <div class="toolbar"><h3>⭐ Mes favoris (${saved.length})</h3></div>
     <div class="list">${saved.length?saved.map(s=>cardHtml(s,s.tab||"general",{showTab:TABNAME[s.tab]||""})).join(""):'<div class="empty">Clique sur ☆ à côté d\'une info pour la garder ici.</div>'}</div>`;
+  bindPortfolio(main);
   const avf=document.getElementById("avfile"); if(avf) avf.addEventListener("change",e=>{const f=e.target.files&&e.target.files[0]; e.target.value=""; uploadAvatar(f);});
   const avd=document.getElementById("avdel"); if(avd) avd.addEventListener("click",removeAvatar);
   const pn=document.getElementById("pfname"); if(pn) pn.textContent=state.pseudo||"Mon compte";

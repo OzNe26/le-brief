@@ -119,3 +119,6 @@ grant execute on function public.pseudo_dispo(text) to anon, authenticated;
 -- Radios favorites et progression des podcasts (ajout du 2 nov. 2026)
 alter table public.user_prefs add column if not exists radios jsonb not null default '[]'::jsonb;
 alter table public.user_prefs add column if not exists progress jsonb not null default '{}'::jsonb;
+
+-- Mon portefeuille (ajout du 2 nov. 2026)
+alter table public.user_prefs add column if not exists portfolio jsonb not null default '[]'::jsonb;
