@@ -1,7 +1,7 @@
 /* Le Brief Invest : service worker (appli installable + ouverture rapide).
    Pages et données : réseau d'abord (toujours à jour), copie de secours si pas de connexion.
    Images et logos : copie locale, rafraîchie en arrière-plan. Rien n'est touché hors du site (audio, comptes, graphiques). */
-const VERSION = "lb-v1";
+const VERSION = "lb-v2";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "img/logo.svg", "img/icon-192.png", "img/icon-512.png", "favicon.svg", "apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
@@ -42,4 +42,23 @@ self.addEventListener("fetch", e => {
   if (req.mode === "navigate" || url.pathname.endsWith(".html")) { e.respondWith(networkFirst(req, keyOf(req))); return; }
   if (url.pathname.endsWith(".json")) { e.respondWith(networkFirst(req, keyOf(req))); return; }
   if (/\.(png|jpe?g|svg|webp|gif|ico|webmanifest)$/i.test(url.pathname)) { e.respondWith(staleWhileRevalidate(req)); return; }
+});
+
+/* Notifications du site (alertes envoyées par le robot) */
+self.addEventListener("push", e => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch (err) { d = { title: "Le Brief Invest", body: e.data ? e.data.text() : "" }; }
+  e.waitUntil(self.registration.showNotification(d.title || "Le Brief Invest", {
+    body: d.body || "", icon: "img/icon-192.png", badge: "img/icon-192.png", tag: d.tag || undefined,
+    data: { url: d.url || "./#general" }, renotify: !!d.tag
+  }));
+});
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  const url = (e.notification.data && e.notification.data.url) || "./#general";
+  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(list => {
+    const same = list.find(c => c.url.startsWith(self.registration.scope));
+    if (same && url.startsWith(self.registration.scope)) { same.focus(); return same.navigate(url).catch(() => {}); }
+    return self.clients.openWindow(url);
+  }));
 });

@@ -347,6 +347,8 @@ body.playing .wrap{padding-bottom:110px}
 .calb{flex:1;min-width:0}.calb b{display:block;font-size:14px;font-weight:600}.calb small{color:var(--dim);font-size:12px}.calimp{flex:none;font-size:9px;letter-spacing:1px;color:var(--analyse);padding-top:4px}.calev.imp1 .calimp,.calev.imp2 .calimp{color:var(--muted)}
 .calev.imp3 b{color:var(--ink)}.calev.own{background:rgba(52,211,153,.06);border-radius:8px;padding-left:6px;padding-right:6px}.calmine{display:inline-block;font-size:10.5px;font-weight:600;color:var(--espace);background:rgba(52,211,153,.14);padding:1px 6px;border-radius:4px;margin-left:4px;vertical-align:2px;white-space:nowrap}
 .calbox .chips{flex-wrap:wrap}
+.alintro{font-size:13.5px;color:var(--muted);margin:6px 0 10px}.alios{background:var(--panel2);border-radius:10px;padding:10px 12px;font-size:13px;color:var(--muted);margin-bottom:8px;line-height:1.5}.alios b{color:var(--ink)}
+.aldev{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}.aldev small{color:var(--dim);font-size:12.5px}.aldev.on{background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.3);border-radius:10px;padding:8px 12px}.aldev.on span{flex:1;font-size:13.5px;font-weight:600}.aldev .btn{padding:7px 12px;font-size:13px}
 .alsteps p{font-size:14px;color:var(--muted);margin:6px 0}.alsteps ol{margin:6px 0 12px 20px;font-size:14px;color:var(--muted);display:flex;flex-direction:column;gap:4px}.alsteps a,.alhelp a{color:var(--espace)}
 .altopic{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--panel2);border-radius:10px;padding:10px 12px;margin:8px 0}.altopic>div{flex:1;min-width:200px}.altopic small{display:block;color:var(--dim);font-size:12px}.altopic code{font-family:"JetBrains Mono",monospace;font-size:14px;color:var(--ink);word-break:break-all}.altopic .btn{padding:7px 12px;font-size:13px}
 .alhelp{font-size:12.5px;color:var(--dim);margin:4px 0 10px;line-height:1.5}
@@ -678,7 +680,7 @@ async function onSession(session){
   state.user=session?session.user:null;
   if(!state.user){ state.pseudo=""; state.avatar=""; renderAcct(); render(); return; }
   if(prev===state.user.id) return;
-  alState.loaded=false; alState.row=null;
+  alState.loaded=false; alState.row=null; if(window.pushState) pushState.checked=false;
   state.pseudo=(state.user.user_metadata&&state.user.user_metadata.pseudo)||"";
   renderAcct();
   await Promise.all([loadMyPseudo(),loadPrefs()]);
@@ -867,7 +869,7 @@ function bindPortfolio(main){
     pfState.adding=false; pfState.edit=null; pfState.pick=null; pfState.q=""; savePrefs(); render(); toast(ed?"Ligne modifiée ✅":"Ajouté au portefeuille ✅"); });
 }
 function confirmDel(h){ return window.confirm?confirm(`Supprimer « ${h.n} » de ton portefeuille ?`):true; }
-/* ================= Alertes téléphone (ntfy) ================= */
+/* ================= Notifications (Web Push) ================= */
 const AL_ASSETS=[["c:bitcoin","Bitcoin"],["c:ethereum","Ethereum"],["c:solana","Solana"],["c:ripple","XRP"],["c:binancecoin","BNB"],["s:NVDA","Nvidia"],["s:AAPL","Apple"],["s:TSLA","Tesla"],["s:MSFT","Microsoft"],["s:AMZN","Amazon"]];
 var alState={loaded:false,loading:false,row:null,missing:false,err:""};
 function pfKeys(){ return [...new Set((state.prefs.portfolio||[]).filter(h=>h.k).map(h=>h.k))]; }
@@ -886,54 +888,89 @@ function alBuild(base){ // assemble les réglages à enregistrer
   r.assets=[...new Set([...(pfAuto?["pf:auto"]:[]),...chosen,...(pfAuto?pfKeys():[])])].slice(0,60);
   r.keywords=(state.prefs.watch||[]).slice(0,40); r.updated_at=new Date().toISOString(); return r; }
 async function saveAlerts(row,msg){
-  const r=alBuild({...row,user_id:state.user.id}); delete r._pf;
+  const r=alBuild({...row,user_id:state.user.id,topic:null}); delete r._pf;
   const {data,error}=await sb.from("alert_subs").upsert(r).select().maybeSingle();
   if(error){ toast(frErr(error)); return false; }
   alState.row=data||r; if(msg) toast(msg); if(state.tab==="espace") render(); return true; }
 let alSyncT=null;
 function syncAlerts(){ if(!sb||!state.user||!alState.row) return; clearTimeout(alSyncT); alSyncT=setTimeout(()=>saveAlerts(alState.row),1500); }
-async function testAlert(topic){
-  try{ const r=await fetch("https://ntfy.sh/",{method:"POST",body:JSON.stringify({topic,title:"🔔 Test Le Brief Invest",message:"Si tu lis ça, tes alertes marchent ✅",click:location.origin+location.pathname+"#espace",tags:["bell"]})});
-    toast(r.ok?"Notification de test envoyée 📲":"Envoi impossible pour l'instant"); }catch(e){ toast("Envoi impossible pour l'instant"); } }
+const VAPID_PUBLIC="BFy2HqHitiE1eaIOTQnjJD9421RapbvY7ED3IsxR5EmSrqYcJzJcMlO3nBn1DzexDjwjnMHQvAnLkTWX0K7qMU0";
+const PUSH_OK=("serviceWorker" in navigator)&&("PushManager" in window)&&("Notification" in window);
+var pushState={checked:false,sub:null,devices:0,busy:false};
+function b64u(s){ const p="=".repeat((4-s.length%4)%4), b=atob((s+p).replace(/-/g,"+").replace(/_/g,"/")); return Uint8Array.from(b,c=>c.charCodeAt(0)); }
+async function swReg(){ if(!PUSH_OK) return null; try{ return await navigator.serviceWorker.getRegistration()||await navigator.serviceWorker.register("sw.js"); }catch(e){ return null; } }
+async function checkPush(){
+  if(pushState.checking) return; pushState.checking=true;
+  try{ const r=await swReg(); pushState.sub=r?await r.pushManager.getSubscription():null; }catch(e){ pushState.sub=null; }
+  if(sb&&state.user){ const {data,error}=await sb.from("push_subs").select("endpoint"); if(!error){ pushState.devices=(data||[]).length; pushState.mine=!!(pushState.sub&&(data||[]).some(x=>x.endpoint===pushState.sub.endpoint)); pushState.noTable=false; } else pushState.noTable=/push_subs|schema cache|does not exist/i.test(error.message||""); }
+  pushState.checked=true; pushState.checking=false; if(state.tab==="espace") render();
+}
+function deviceName(){ const u=navigator.userAgent; const os=/iPhone|iPad/.test(u)?"iPhone/iPad":/Android/.test(u)?"Android":/Mac/.test(u)?"Mac":/Windows/.test(u)?"PC Windows":"Appareil";
+  const br=/Edg\//.test(u)?"Edge":/Chrome\//.test(u)?"Chrome":/Firefox\//.test(u)?"Firefox":/Safari\//.test(u)?"Safari":""; return (os+(INST.standalone?" (appli)":br?" · "+br:"")).slice(0,100); }
+async function enablePush(){
+  if(pushState.busy) return; pushState.busy=true; render();
+  try{
+    const perm=await Notification.requestPermission();
+    if(perm!=="granted"){ toast(perm==="denied"?"Notifications refusées : réautorise-les dans les réglages du navigateur":"Notifications non autorisées"); return; }
+    const r=await swReg(); if(!r){ toast("Impossible d'activer ici"); return; }
+    await navigator.serviceWorker.ready;
+    let sub=await r.pushManager.getSubscription();
+    if(!sub) sub=await r.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID_PUBLIC)});
+    const j=sub.toJSON();
+    const {error}=await sb.from("push_subs").upsert({endpoint:j.endpoint,user_id:state.user.id,p256dh:j.keys.p256dh,auth:j.keys.auth,device:deviceName()});
+    if(error){ toast(/push_subs|schema cache|does not exist/i.test(error.message||"")?"Notifications pas encore activées sur le site (script Supabase)":frErr(error)); return; }
+    if(!alState.row) await saveAlerts({topic:null,news:true,pct:5,enabled:true,assets:["pf:auto",...(pfKeys().length?[]:["c:bitcoin","c:ethereum"])]});
+    else if(alState.row.enabled===false) await saveAlerts({...alState.row,enabled:true});
+    pushState.sub=sub; pushState.mine=true;
+    r.showNotification("✅ Notifications activées",{body:"Tu recevras ici les infos de ta liste à surveiller et les gros mouvements de tes actifs.",icon:"img/icon-192.png",badge:"img/icon-192.png"});
+    toast("Notifications activées sur cet appareil ✅");
+  }catch(e){ toast("Activation impossible : "+String(e&&e.message||e).slice(0,80)); }
+  finally{ pushState.busy=false; checkPush(); }
+}
+async function disablePush(){
+  try{ const r=await swReg(); const sub=r&&await r.pushManager.getSubscription();
+    if(sub){ await sb.from("push_subs").delete().eq("endpoint",sub.endpoint); await sub.unsubscribe(); }
+    pushState.sub=null; pushState.mine=false; toast("Notifications coupées sur cet appareil"); }catch(e){ toast("Erreur : "+String(e&&e.message||e).slice(0,80)); }
+  checkPush();
+}
+async function testPush(){ const r=await swReg(); if(!r||Notification.permission!=="granted"){ toast("Active d'abord les notifications"); return; }
+  r.showNotification("🔔 Test Le Brief Invest",{body:"Si tu vois ça, tes notifications marchent ✅",icon:"img/icon-192.png",badge:"img/icon-192.png",data:{url:location.origin+location.pathname+"#espace"}}); }
 function alertsHtml(){
-  const head=`<div class="pfhead"><h3>🔔 Alertes sur ton téléphone</h3></div>`;
-  if(!state.user) return `<section class="box">${head}<div class="sub" style="color:var(--dim);font-size:13px;margin:6px 0 10px">Reçois une notification quand un mot de ta liste à surveiller sort dans les actus, ou quand un de tes actifs bouge fort. Gratuit, avec l'appli ntfy.</div><button class="btn" type="button" id="alogin">Se connecter pour activer</button></section>`;
-  if(!alState.loaded) return `<section class="box">${head}<div class="loading" style="padding:10px 0">Chargement…</div></section>`;
-  if(alState.missing) return `<section class="box">${head}<div class="empty" style="margin:8px 0 0">Les alertes ne sont pas encore activées sur le site (il manque le script Supabase des alertes).</div></section>`;
+  const head=`<div class="pfhead"><h3>🔔 Notifications</h3></div>`;
+  const intro=`<p class="alintro">Reçois une notification quand <b>un mot de ta liste à surveiller</b> sort dans les actus, ou quand <b>un de tes actifs bouge fort</b> (par exemple Bitcoin à −5 % sur 24 h). Gratuit, sans appli à télécharger.</p>`;
+  if(!state.user) return `<section class="box">${head}${intro}<button class="btn" type="button" id="alogin">Se connecter pour activer</button></section>`;
+  if(!alState.loaded||!pushState.checked) return `<section class="box">${head}<div class="loading" style="padding:10px 0">Chargement…</div></section>`;
+  if(alState.missing||pushState.noTable) return `<section class="box">${head}<div class="empty" style="margin:8px 0 0">Les notifications ne sont pas encore activées sur le site (il manque un script Supabase).</div></section>`;
+  let device;
+  if(INST.ios&&!INST.standalone) device=`<div class="alios"><b>📲 Sur iPhone, une étape avant :</b> Apple n'autorise les notifications que si le site est installé sur l'écran d'accueil. Dans Safari, touche <b>Partager</b> (carré avec la flèche ⬆️) puis <b>« Sur l'écran d'accueil »</b>, ouvre Le Brief depuis l'icône, puis reviens ici.</div>`;
+  else if(!PUSH_OK) device=`<div class="alios">Ce navigateur ne gère pas les notifications. Essaie avec Chrome, Edge, Firefox ou Safari à jour.</div>`;
+  else if(pushState.mine&&Notification.permission==="granted") device=`<div class="aldev on"><span>✅ Activées sur cet appareil${pushState.devices>1?` · ${pushState.devices} appareils au total`:""}</span><button class="btn ghost" type="button" id="altest">Tester</button><button class="lnk" type="button" id="aldis">Désactiver ici</button></div>`;
+  else if(Notification.permission==="denied") device=`<div class="alios">Les notifications sont bloquées pour ce site. Réautorise-les dans les réglages du navigateur (icône 🔒 à gauche de l'adresse), puis recharge la page.</div>`;
+  else device=`<div class="aldev"><button class="btn" type="button" id="alen" ${pushState.busy?"disabled":""}>${pushState.busy?"Activation…":"🔔 Activer les notifications sur cet appareil"}</button>${pushState.devices?`<small>Déjà activées sur ${pushState.devices} autre${pushState.devices>1?"s":""} appareil${pushState.devices>1?"s":""}</small>`:""}</div>`;
   const r=alState.row;
-  const apps=`<a href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone (App Store)</a> · <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android (Google Play)</a>`;
-  if(!r) return `<section class="box">${head}<div class="alsteps">
-      <p>Reçois une notification quand <b>un mot de ta liste à surveiller</b> sort dans les actus, ou quand <b>un de tes actifs bouge fort</b> (par exemple Bitcoin à −5 % sur 24 h). C'est gratuit.</p>
-      <ol><li>Installe l'appli gratuite <b>ntfy</b> : ${apps}.</li><li>Crée ton canal d'alertes privé ci-dessous, puis abonne-toi à son nom dans ntfy.</li></ol>
-      <button class="btn" type="button" id="alcreate">Créer mon canal d'alertes</button></div></section>`;
+  if(!r) return `<section class="box">${head}${intro}${device}</section>`;
   const pfAuto=(r.assets||[]).includes("pf:auto"), chosen=new Set(r.assets||[]), nPf=pfKeys().length, nW=(state.prefs.watch||[]).length;
-  return `<section class="box">${head}
-    <div class="altopic"><div><small>Ton canal privé (à ajouter dans ntfy avec le bouton +)</small><code id="altopic">${esc(r.topic)}</code></div>
-      <button class="btn ghost" type="button" id="alcopy">Copier</button><button class="btn ghost" type="button" id="altest">Tester</button></div>
-    <p class="alhelp">Dans ntfy : touche <b>+</b>, colle le nom du canal, laisse le serveur par défaut (ntfy.sh), puis <b>S'abonner</b>. Garde ce nom pour toi : quiconque le connaît peut lire tes alertes. Pas encore l'appli ? ${apps}.</p>
+  return `<section class="box">${head}${intro}${device}
     <label class="alrow"><input type="checkbox" id="alnews" ${r.news!==false?"checked":""}><span><b>Infos de ta liste à surveiller</b><small>${nW?`${nW} mot${nW>1?"s":""} : ${esc((state.prefs.watch||[]).slice(0,6).join(", "))}${nW>6?"…":""}`:"Ta liste est vide : ajoute des mots-clés plus bas."}</small></span></label>
     <div class="alrow col"><span><b>Gros mouvements de cours</b><small>Alerte si l'actif bouge de plus de
       <select id="alpct">${[3,5,8,10,15,20].map(v=>`<option value="${v}" ${+r.pct===v?"selected":""}>±${v} %</option>`).join("")}</select> sur 24 h (une fois par jour et par sens)</small></span>
       <div class="alassets"><label class="alchip ${pfAuto?"on":""}"><input type="checkbox" data-al="pf:auto" ${pfAuto?"checked":""}>💼 Mes actifs du portefeuille${nPf?` (${nPf})`:""}</label>
       ${AL_ASSETS.map(([k,n])=>`<label class="alchip ${chosen.has(k)?"on":""}"><input type="checkbox" data-al="${k}" ${chosen.has(k)?"checked":""}>${esc(n)}</label>`).join("")}</div></div>
-    <div class="pfbtns" style="margin-top:6px"><button class="lnk" type="button" id="aloff">${r.enabled===false?"▶ Réactiver les alertes":"⏸ Mettre les alertes en pause"}</button></div>
-    ${r.enabled===false?'<p class="alhelp" style="color:var(--down)">Alertes en pause : tu ne reçois rien.</p>':""}</section>`;
+    <div class="pfbtns" style="margin-top:6px"><button class="lnk" type="button" id="aloff">${r.enabled===false?"▶ Réactiver les notifications":"⏸ Mettre les notifications en pause (tous mes appareils)"}</button></div>
+    ${r.enabled===false?'<p class="alhelp" style="color:var(--down)">En pause : tu ne reçois rien.</p>':""}</section>`;
 }
 function bindAlerts(main){
   const $=id=>document.getElementById(id);
   if($("alogin")) $("alogin").addEventListener("click",()=>openAuth("login"));
-  if($("alcreate")) $("alcreate").addEventListener("click",async()=>{
-    const rnd=[...crypto.getRandomValues(new Uint8Array(15))].map(b=>"abcdefghijkmnpqrstuvwxyz23456789"[b%32]).join("");
-    const ok=await saveAlerts({topic:"lebrief-"+rnd,news:true,pct:5,enabled:true,assets:["pf:auto",...(pfKeys().length?[]:["c:bitcoin","c:ethereum"])]},"Canal créé ✅ Abonne-toi dans ntfy");
-    if(ok) setTimeout(()=>testAlert(alState.row.topic),300); });
-  if($("alcopy")) $("alcopy").addEventListener("click",async()=>{ try{ await navigator.clipboard.writeText(alState.row.topic); toast("Nom du canal copié"); }catch(e){ const r=document.createRange(); r.selectNode($("altopic")); getSelection().removeAllRanges(); getSelection().addRange(r); toast("Sélectionné : copie-le"); } });
-  if($("altest")) $("altest").addEventListener("click",()=>testAlert(alState.row.topic));
+  if($("alen")) $("alen").addEventListener("click",enablePush);
+  if($("aldis")) $("aldis").addEventListener("click",disablePush);
+  if($("altest")) $("altest").addEventListener("click",testPush);
   if($("alnews")) $("alnews").addEventListener("change",e=>saveAlerts({...alState.row,news:e.target.checked},"Enregistré"));
   if($("alpct")) $("alpct").addEventListener("change",e=>saveAlerts({...alState.row,pct:+e.target.value},"Seuil enregistré"));
   main.querySelectorAll("[data-al]").forEach(cb=>cb.addEventListener("change",()=>{ const set=new Set(alState.row.assets||[]); cb.checked?set.add(cb.dataset.al):set.delete(cb.dataset.al);
     if(cb.dataset.al==="pf:auto"&&!cb.checked) pfKeys().forEach(k=>{ if(!AL_ASSETS.some(a=>a[0]===k)) set.delete(k); });
     saveAlerts({...alState.row,assets:[...set]},"Enregistré"); }));
-  if($("aloff")) $("aloff").addEventListener("click",()=>saveAlerts({...alState.row,enabled:alState.row.enabled===false},alState.row.enabled===false?"Alertes réactivées":"Alertes en pause"));
+  if($("aloff")) $("aloff").addEventListener("click",()=>saveAlerts({...alState.row,enabled:alState.row.enabled===false},alState.row.enabled===false?"Notifications réactivées":"Notifications en pause"));
 }
 
 /* ================= Appli installable ================= */
@@ -963,7 +1000,7 @@ function installCardHtml(){
   return `<section class="box"><div class="installbar" style="margin:0;border:0;padding:0;background:none"><img src="img/icon-192.png" alt=""><div><b>📲 Le Brief en appli</b><small>Installe le site sur ton téléphone ou ton ordi : il s'ouvre en plein écran depuis ton écran d'accueil, plus vite, comme une vraie appli.</small><div style="margin-top:8px">${installHow()}</div></div></div></section>`;
 }
 function renderEspace(main){
-  loadPrices(); loadAlerts();
+  loadPrices(); loadAlerts(); if(state.user&&!pushState.checked) checkPush();
   const saved=state.prefs.saved;
   const hits=[]; for(const t of NEWS){const d=state.data[t]; if(!d) continue;
     for(const i of [...(d.items||[]),...(d.niche||[])]) if(watchHit(i)) hits.push({i,t}); }
