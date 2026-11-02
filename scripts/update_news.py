@@ -15,6 +15,17 @@ PER_SOURCE = 60
 NS = {"media": "http://search.yahoo.com/mrss/", "atom": "http://www.w3.org/2005/Atom",
       "content": "http://purl.org/rss/1.0/modules/content/", "dc": "http://purl.org/dc/elements/1.1/"}
 
+# --- Langue : on ne garde que les infos en français ---
+FR = set("le la les des du une un est sont pour sur dans avec qui que et au aux ce cette ses son sa leur plus pas par ne se en il elle nous vous après avant chez entre selon comme mais ou".split())
+EN = set("the and of to in is are for with on that from as its will be by at this has have was were their it an after into over new says said than more".split())
+def is_french(text):
+    t = (text or "").lower()
+    words = re.findall(r"[a-zàâäéèêëîïôöùûüç']+", t)
+    fr = sum(w in FR for w in words) + 2 * len(re.findall(r"[éèêàçùâîôû]", t)) + len(re.findall(r"\b[ldjnsqc]'", t))
+    en = sum(w in EN for w in words) + len(re.findall(r"'s\b", t))
+    return not (en > fr and en >= 2)
+
+
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=20) as r:
@@ -111,6 +122,7 @@ def main():
             out["sources"].setdefault(tab, []).append({"name": s["name"], "count": len(its), "ok": not err})
             for it in its:
                 if it["source"].lower() in block: continue
+                if not is_french(it["titre"] + " " + it.get("resume", "")): continue
                 if not s.get("trusted") and tab in kws:
                     txt = (it["titre"] + " " + it["resume"]).lower()
                     if not any(k in txt for k in kws[tab]): continue
@@ -120,6 +132,7 @@ def main():
             except Exception: continue
             keep = timedelta(hours=max([x.get("maxAgeHours", 24) for x in sources[tab] if x["name"] == it.get("source")] or [24]))
             if NOW - d > keep or it.get("source", "").lower() in block: continue
+            if not is_french(it.get("titre", "") + " " + it.get("resume", "")): continue
             it["_old"] = True
             items.append(it)
         items.sort(key=lambda x: x.get("_old", False))  # à titre égal, la version fraîche passe devant
