@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T16:13:11+00:00",
+ "updatedAt": "2026-11-02T19:08:57+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -134,6 +134,13 @@
    "spotify": "https://open.spotify.com/show/033mghG4DXr2l8o2wOgeZ2",
    "episodes": [
     {
+     "title": "Le point hebdo sur l'éco et les marchés - 02/11/26",
+     "date": "2026-11-02T17:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ae8b61648d00702d7c43b21/media.mp3",
+     "duration": "2:37",
+     "desc": "Le krach de l'IA en bourse qui se rapproche, la France dans une triple crise et les Etats-Unis à l'heure d'un choix historique : on fait le point sur l'éco et les marchés pour cette semaine déterminante ! 🔴 Rendez-vous en live chaque dimanche à 18 h sur YouTub…"
+    },
+    {
      "title": "Pillages et troubles sociaux : à la fin c'est vous qui payez ! Replay Live 01/11/26",
      "date": "2026-11-02T06:00:00+00:00",
      "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ae797d0c89efe5866d4d60d/media.mp3",
@@ -167,13 +174,6 @@
      "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6adb7b61c9b2f5b95dafc233/media.mp3",
      "duration": "2:42",
      "desc": "Réveillez-vous, les députés : vous êtes en train de nous envoyer dans le mur ! Un coup de gueule ce vendredi, à la place du récap ! N’hésitez pas à envoyer cette vidéo à votre député, des fois qu’il ou elle ne soit pas au courant ! 🔴 Rendez-vous en live chaque…"
-    },
-    {
-     "title": "La vérité sur la dette de la France !",
-     "date": "2026-10-21T16:00:00+00:00",
-     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ad8697585adacac7dad23fb/media.mp3",
-     "duration": "53:45",
-     "desc": "Sylvie a 58 ans, elle est enseignante près de Limoges. Ses 30 000 € d'assurance vie financent en partie l'État français, sans qu'elle le sache. En 2026, la France doit emprunter 310 milliards d'euros. Un record. Aujourd'hui, on ouvre les comptes de la France :…"
     }
    ]
   },
@@ -677,7 +677,7 @@
      "title": "Brésil, Serbie, Israël : récit du recul des conservateurs dans les urnes",
      "date": "2026-11-02T15:50:00+00:00",
      "audio": "https://sphinx.acast.com/p/acast/s/la-story/e/6ae8a9d6ecb76dfeb156601f/media.mp3",
-     "duration": "29:52",
+     "duration": "29:51",
      "desc": "Ces derniers jours, dans plusieurs pays du monde, la droite a été défaite. Alors que les midterms ont lieu aux Etats-Unis demain, dans « La Story », Pierrick Fay et ses invités s’interrogent sur ce recul du conservatisme. Lire aussi : PORTRAIT - Une « armée » …"
     },
     {
