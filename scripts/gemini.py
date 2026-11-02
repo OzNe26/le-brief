@@ -32,6 +32,7 @@ def ask_json(prompt, temperature=0.4, max_tokens=8192):
                 parts = data["candidates"][0]["content"]["parts"]
                 txt = "".join(p.get("text", "") for p in parts if not p.get("thought"))
                 m = re.search(r"\{.*\}", txt, re.S)
+                if errs: print("  (IA) modèles précédents indisponibles :", " | ".join(errs)[:600])
                 return json.loads(m.group(0) if m else txt), model
             except urllib.error.HTTPError as e:
                 try: detail = e.read().decode("utf-8", "replace")[:200]
