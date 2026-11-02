@@ -341,6 +341,12 @@ body.playing .wrap{padding-bottom:110px}
 .calb{flex:1;min-width:0}.calb b{display:block;font-size:14px;font-weight:600}.calb small{color:var(--dim);font-size:12px}.calimp{flex:none;font-size:9px;letter-spacing:1px;color:var(--analyse);padding-top:4px}.calev.imp1 .calimp,.calev.imp2 .calimp{color:var(--muted)}
 .calev.imp3 b{color:var(--ink)}.calev.own{background:rgba(52,211,153,.06);border-radius:8px;padding-left:6px;padding-right:6px}.calmine{display:inline-block;font-size:10.5px;font-weight:600;color:var(--espace);background:rgba(52,211,153,.14);padding:1px 6px;border-radius:4px;margin-left:4px;vertical-align:2px;white-space:nowrap}
 .calbox .chips{flex-wrap:wrap}
+.alsteps p{font-size:14px;color:var(--muted);margin:6px 0}.alsteps ol{margin:6px 0 12px 20px;font-size:14px;color:var(--muted);display:flex;flex-direction:column;gap:4px}.alsteps a,.alhelp a{color:var(--espace)}
+.altopic{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--panel2);border-radius:10px;padding:10px 12px;margin:8px 0}.altopic>div{flex:1;min-width:200px}.altopic small{display:block;color:var(--dim);font-size:12px}.altopic code{font-family:"JetBrains Mono",monospace;font-size:14px;color:var(--ink);word-break:break-all}.altopic .btn{padding:7px 12px;font-size:13px}
+.alhelp{font-size:12.5px;color:var(--dim);margin:4px 0 10px;line-height:1.5}
+.alrow{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line);cursor:pointer}.alrow.col{flex-direction:column;cursor:default}.alrow input[type=checkbox]{margin-top:3px;accent-color:var(--espace);width:16px;height:16px}.alrow b{display:block;font-size:14px}.alrow small{color:var(--dim);font-size:12.5px}
+.alrow select{background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:2px 4px;font:inherit;font-size:12.5px}
+.alassets{display:flex;gap:6px;flex-wrap:wrap}.alchip{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;cursor:pointer;background:var(--panel)}.alchip input{display:none}.alchip.on{border-color:var(--espace);background:rgba(52,211,153,.12)}
 .votes{display:flex;gap:5px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--dim)}.votes .vt{all:unset;cursor:pointer;padding:3px 8px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;color:var(--ink)}.votes .vt.haussier{color:var(--up)}.votes .vt.baissier{color:var(--down)}.votes .vt.on{border-color:var(--analyse);background:rgba(163,230,53,.10)}
 @media (max-width:640px){.iatabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -4px;padding:0 4px}.iatabs button{flex:none}}
 .agrid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
@@ -490,7 +496,7 @@ function trimProgress(pr){ // on garde les 60 épisodes les plus récents
 function prefsPayload(){ return {saved:state.prefs.saved.slice(0,150),watch:state.prefs.watch.slice(0,40),radios:(state.prefs.radios||[]).slice(0,40),progress:trimProgress(state.prefs.progress),portfolio:(state.prefs.portfolio||[]).slice(0,80)}; }
 let prefTimer=null, quietSave=false;
 function savePrefs(){
-  const pl=prefsPayload();
+  const pl=prefsPayload(); if(alState.row) syncAlerts();
   try{localStorage.setItem(LS_KEY,JSON.stringify(pl))}catch(e){}
   if(sb&&state.user){ clearTimeout(prefTimer); prefTimer=setTimeout(async()=>{
     const row={user_id:state.user.id,saved:pl.saved,watch:pl.watch,updated_at:new Date().toISOString()};
@@ -664,13 +670,14 @@ async function onSession(session){
   state.user=session?session.user:null;
   if(!state.user){ state.pseudo=""; state.avatar=""; renderAcct(); render(); return; }
   if(prev===state.user.id) return;
+  alState.loaded=false; alState.row=null;
   state.pseudo=(state.user.user_metadata&&state.user.user_metadata.pseudo)||"";
   renderAcct();
   await Promise.all([loadMyPseudo(),loadPrefs()]);
 }
 async function logout(){
   if(sb) await sb.auth.signOut();
-  state.user=null; state.pseudo=""; state.avatar=""; renderAcct(); render(); toast("Déconnecté");
+  state.user=null; state.pseudo=""; state.avatar=""; if(window.alState){alState.loaded=false;alState.row=null;} renderAcct(); render(); toast("Déconnecté");
 }
 async function checkRecovery(){
   if(!/type=recovery/.test(INIT_HASH)) return;
@@ -852,6 +859,75 @@ function bindPortfolio(main){
     pfState.adding=false; pfState.edit=null; pfState.pick=null; pfState.q=""; savePrefs(); render(); toast(ed?"Ligne modifiée ✅":"Ajouté au portefeuille ✅"); });
 }
 function confirmDel(h){ return window.confirm?confirm(`Supprimer « ${h.n} » de ton portefeuille ?`):true; }
+/* ================= Alertes téléphone (ntfy) ================= */
+const AL_ASSETS=[["c:bitcoin","Bitcoin"],["c:ethereum","Ethereum"],["c:solana","Solana"],["c:ripple","XRP"],["c:binancecoin","BNB"],["s:NVDA","Nvidia"],["s:AAPL","Apple"],["s:TSLA","Tesla"],["s:MSFT","Microsoft"],["s:AMZN","Amazon"]];
+var alState={loaded:false,loading:false,row:null,missing:false,err:""};
+function pfKeys(){ return [...new Set((state.prefs.portfolio||[]).filter(h=>h.k).map(h=>h.k))]; }
+function alAssets(row){ const sel=(row.assets||[]).filter(k=>k!=="pf:auto"&&!(row._pf||[]).includes(k)); return sel; }
+async function loadAlerts(force){
+  if(!sb||!state.user||alState.loading||(alState.loaded&&!force)) return; alState.loading=true;
+  const {data,error}=await sb.from("alert_subs").select("*").eq("user_id",state.user.id).maybeSingle();
+  alState.loading=false; alState.loaded=true;
+  if(error){ alState.missing=/alert_subs|relation|schema cache|does not exist/i.test(error.message||""); alState.err=alState.missing?"":frErr(error); }
+  else { alState.missing=false; alState.row=data||null; }
+  if(state.tab==="espace") render();
+}
+function alBuild(base){ // assemble les réglages à enregistrer
+  const r={...base}; const pfAuto=(r.assets||[]).includes("pf:auto");
+  const chosen=(r.assets||[]).filter(k=>AL_ASSETS.some(a=>a[0]===k));
+  r.assets=[...new Set([...(pfAuto?["pf:auto"]:[]),...chosen,...(pfAuto?pfKeys():[])])].slice(0,60);
+  r.keywords=(state.prefs.watch||[]).slice(0,40); r.updated_at=new Date().toISOString(); return r; }
+async function saveAlerts(row,msg){
+  const r=alBuild({...row,user_id:state.user.id}); delete r._pf;
+  const {data,error}=await sb.from("alert_subs").upsert(r).select().maybeSingle();
+  if(error){ toast(frErr(error)); return false; }
+  alState.row=data||r; if(msg) toast(msg); if(state.tab==="espace") render(); return true; }
+let alSyncT=null;
+function syncAlerts(){ if(!sb||!state.user||!alState.row) return; clearTimeout(alSyncT); alSyncT=setTimeout(()=>saveAlerts(alState.row),1500); }
+async function testAlert(topic){
+  try{ const r=await fetch("https://ntfy.sh/",{method:"POST",body:JSON.stringify({topic,title:"🔔 Test Le Brief Invest",message:"Si tu lis ça, tes alertes marchent ✅",click:location.origin+location.pathname+"#espace",tags:["bell"]})});
+    toast(r.ok?"Notification de test envoyée 📲":"Envoi impossible pour l'instant"); }catch(e){ toast("Envoi impossible pour l'instant"); } }
+function alertsHtml(){
+  const head=`<div class="pfhead"><h3>🔔 Alertes sur ton téléphone</h3></div>`;
+  if(!state.user) return `<section class="box">${head}<div class="sub" style="color:var(--dim);font-size:13px;margin:6px 0 10px">Reçois une notification quand un mot de ta liste à surveiller sort dans les actus, ou quand un de tes actifs bouge fort. Gratuit, avec l'appli ntfy.</div><button class="btn" type="button" id="alogin">Se connecter pour activer</button></section>`;
+  if(!alState.loaded) return `<section class="box">${head}<div class="loading" style="padding:10px 0">Chargement…</div></section>`;
+  if(alState.missing) return `<section class="box">${head}<div class="empty" style="margin:8px 0 0">Les alertes ne sont pas encore activées sur le site (il manque le script Supabase des alertes).</div></section>`;
+  const r=alState.row;
+  const apps=`<a href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone (App Store)</a> · <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android (Google Play)</a>`;
+  if(!r) return `<section class="box">${head}<div class="alsteps">
+      <p>Reçois une notification quand <b>un mot de ta liste à surveiller</b> sort dans les actus, ou quand <b>un de tes actifs bouge fort</b> (par exemple Bitcoin à −5 % sur 24 h). C'est gratuit.</p>
+      <ol><li>Installe l'appli gratuite <b>ntfy</b> : ${apps}.</li><li>Crée ton canal d'alertes privé ci-dessous, puis abonne-toi à son nom dans ntfy.</li></ol>
+      <button class="btn" type="button" id="alcreate">Créer mon canal d'alertes</button></div></section>`;
+  const pfAuto=(r.assets||[]).includes("pf:auto"), chosen=new Set(r.assets||[]), nPf=pfKeys().length, nW=(state.prefs.watch||[]).length;
+  return `<section class="box">${head}
+    <div class="altopic"><div><small>Ton canal privé (à ajouter dans ntfy avec le bouton +)</small><code id="altopic">${esc(r.topic)}</code></div>
+      <button class="btn ghost" type="button" id="alcopy">Copier</button><button class="btn ghost" type="button" id="altest">Tester</button></div>
+    <p class="alhelp">Dans ntfy : touche <b>+</b>, colle le nom du canal, laisse le serveur par défaut (ntfy.sh), puis <b>S'abonner</b>. Garde ce nom pour toi : quiconque le connaît peut lire tes alertes. Pas encore l'appli ? ${apps}.</p>
+    <label class="alrow"><input type="checkbox" id="alnews" ${r.news!==false?"checked":""}><span><b>Infos de ta liste à surveiller</b><small>${nW?`${nW} mot${nW>1?"s":""} : ${esc((state.prefs.watch||[]).slice(0,6).join(", "))}${nW>6?"…":""}`:"Ta liste est vide : ajoute des mots-clés plus bas."}</small></span></label>
+    <div class="alrow col"><span><b>Gros mouvements de cours</b><small>Alerte si l'actif bouge de plus de
+      <select id="alpct">${[3,5,8,10,15,20].map(v=>`<option value="${v}" ${+r.pct===v?"selected":""}>±${v} %</option>`).join("")}</select> sur 24 h (une fois par jour et par sens)</small></span>
+      <div class="alassets"><label class="alchip ${pfAuto?"on":""}"><input type="checkbox" data-al="pf:auto" ${pfAuto?"checked":""}>💼 Mes actifs du portefeuille${nPf?` (${nPf})`:""}</label>
+      ${AL_ASSETS.map(([k,n])=>`<label class="alchip ${chosen.has(k)?"on":""}"><input type="checkbox" data-al="${k}" ${chosen.has(k)?"checked":""}>${esc(n)}</label>`).join("")}</div></div>
+    <div class="pfbtns" style="margin-top:6px"><button class="lnk" type="button" id="aloff">${r.enabled===false?"▶ Réactiver les alertes":"⏸ Mettre les alertes en pause"}</button></div>
+    ${r.enabled===false?'<p class="alhelp" style="color:var(--down)">Alertes en pause : tu ne reçois rien.</p>':""}</section>`;
+}
+function bindAlerts(main){
+  const $=id=>document.getElementById(id);
+  if($("alogin")) $("alogin").addEventListener("click",()=>openAuth("login"));
+  if($("alcreate")) $("alcreate").addEventListener("click",async()=>{
+    const rnd=[...crypto.getRandomValues(new Uint8Array(15))].map(b=>"abcdefghijkmnpqrstuvwxyz23456789"[b%32]).join("");
+    const ok=await saveAlerts({topic:"lebrief-"+rnd,news:true,pct:5,enabled:true,assets:["pf:auto",...(pfKeys().length?[]:["c:bitcoin","c:ethereum"])]},"Canal créé ✅ Abonne-toi dans ntfy");
+    if(ok) setTimeout(()=>testAlert(alState.row.topic),300); });
+  if($("alcopy")) $("alcopy").addEventListener("click",async()=>{ try{ await navigator.clipboard.writeText(alState.row.topic); toast("Nom du canal copié"); }catch(e){ const r=document.createRange(); r.selectNode($("altopic")); getSelection().removeAllRanges(); getSelection().addRange(r); toast("Sélectionné : copie-le"); } });
+  if($("altest")) $("altest").addEventListener("click",()=>testAlert(alState.row.topic));
+  if($("alnews")) $("alnews").addEventListener("change",e=>saveAlerts({...alState.row,news:e.target.checked},"Enregistré"));
+  if($("alpct")) $("alpct").addEventListener("change",e=>saveAlerts({...alState.row,pct:+e.target.value},"Seuil enregistré"));
+  main.querySelectorAll("[data-al]").forEach(cb=>cb.addEventListener("change",()=>{ const set=new Set(alState.row.assets||[]); cb.checked?set.add(cb.dataset.al):set.delete(cb.dataset.al);
+    if(cb.dataset.al==="pf:auto"&&!cb.checked) pfKeys().forEach(k=>{ if(!AL_ASSETS.some(a=>a[0]===k)) set.delete(k); });
+    saveAlerts({...alState.row,assets:[...set]},"Enregistré"); }));
+  if($("aloff")) $("aloff").addEventListener("click",()=>saveAlerts({...alState.row,enabled:alState.row.enabled===false},alState.row.enabled===false?"Alertes réactivées":"Alertes en pause"));
+}
+
 /* ================= Appli installable ================= */
 const INST={prompt:null, standalone:matchMedia("(display-mode: standalone)").matches||navigator.standalone===true,
   ios:/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1),
@@ -879,7 +955,7 @@ function installCardHtml(){
   return `<section class="box"><div class="installbar" style="margin:0;border:0;padding:0;background:none"><img src="img/icon-192.png" alt=""><div><b>📲 Le Brief en appli</b><small>Installe le site sur ton téléphone ou ton ordi : il s'ouvre en plein écran depuis ton écran d'accueil, plus vite, comme une vraie appli.</small><div style="margin-top:8px">${installHow()}</div></div></div></section>`;
 }
 function renderEspace(main){
-  loadPrices();
+  loadPrices(); loadAlerts();
   const saved=state.prefs.saved;
   const hits=[]; for(const t of NEWS){const d=state.data[t]; if(!d) continue;
     for(const i of [...(d.items||[]),...(d.niche||[])]) if(watchHit(i)) hits.push({i,t}); }
@@ -891,6 +967,7 @@ function renderEspace(main){
         <p style="margin-top:14px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><button class="btn" id="esu">Créer un compte</button><button class="btn ghost" id="eli">Se connecter</button></p>
         <p style="margin-top:12px;font-size:12.5px;color:var(--dim)">Sans compte, tu peux quand même utiliser ta liste et tes favoris : ils restent sur cet appareil.</p></div>`}
     ${portfolioHtml()}
+    ${alertsHtml()}
     ${installCardHtml()}
     <section class="box"><h3>👀 Ma liste à surveiller</h3>
       <div class="sub">Ajoute des mots-clés (Bitcoin, Sanofi, SCPI, PSG…). Les infos qui en parlent sont mises en avant dans tous les onglets et regroupées ici.</div>
@@ -901,7 +978,7 @@ function renderEspace(main){
       <div class="list" style="margin-bottom:26px">${hits.length?hits.map(h=>cardHtml(h.i,h.t,{showTab:TABNAME[h.t],niche:!!h.i.pourquoi})).join(""):'<div class="empty">Rien sur ta liste dans les infos du moment.</div>'}</div>`:""}
     <div class="toolbar"><h3>⭐ Mes favoris (${saved.length})</h3></div>
     <div class="list">${saved.length?saved.map(s=>cardHtml(s,s.tab||"general",{showTab:TABNAME[s.tab]||""})).join(""):'<div class="empty">Clique sur ☆ à côté d\'une info pour la garder ici.</div>'}</div>`;
-  bindPortfolio(main); bindInstall(main);
+  bindPortfolio(main); bindInstall(main); bindAlerts(main);
   const avf=document.getElementById("avfile"); if(avf) avf.addEventListener("change",e=>{const f=e.target.files&&e.target.files[0]; e.target.value=""; uploadAvatar(f);});
   const avd=document.getElementById("avdel"); if(avd) avd.addEventListener("click",removeAvatar);
   const pn=document.getElementById("pfname"); if(pn) pn.textContent=state.pseudo||"Mon compte";
