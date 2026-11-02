@@ -1,61 +1,400 @@
 {
-"general":{"updatedAt":"2026-11-01T21:05:00+01:00","resume":"En France, la mobilisation sociale continue (entre 320 000 et 500 000 manifestants pour l'acte III) et le budget 2027 s'annonce très difficile à faire voter. À l'international, le FBI accuse la Corée du Nord d'être derrière le piratage géant de Binance, l'Espagne est en deuil après une collision de trains, et Washington évoque une rencontre Trump-Poutine mi-novembre. En sport, la 13e Route du Rhum est partie de Saint-Malo.","chiffres":[],"items":[
-{"categorie":"France","date":"1 nov.","impact":"flat","resume":"Nouvelle journée de mobilisation sociale en France, avant une semaine jugée à risques. Le gouvernement surveille de près le rôle des réseaux sociaux dans l'organisation des cortèges.","source":"France 24","titre":"Acte III des manifestations : entre 320 000 et 500 000 personnes dans la rue","url":"https://www.titrespresse.com/27362132603/europe-info-jour"},
-{"categorie":"France","date":"1 nov.","impact":"flat","resume":"Le rapporteur général du budget estime que le texte ne passera pas au vote et plaide pour un recours au 49.3.","source":"franceinfo","titre":"Budget 2027 : « Le budget sera refusé par le Parlement », prévient Philippe Juvin","url":"https://www.franceinfo.fr/"},
-{"categorie":"France","date":"1 nov.","impact":"flat","resume":"L'enquête sur l'incendie d'un immeuble de l'impasse Perrier, qui a fait plusieurs morts, avance : deux personnes ont été placées en détention.","source":"franceinfo / France 3","titre":"Incendie mortel à Clermont-Ferrand : deux suspects en détention provisoire","url":"https://www.franceinfo.fr/"},
-{"categorie":"France","date":"1 nov.","impact":"flat","resume":"Rassemblements dans plusieurs villes françaises ce week-end contre le racisme.","source":"France 2","titre":"Des milliers de personnes manifestent contre le racisme","url":"https://www.franceinfo.fr/replay-jt/franceinfo/le-fil-info/le-fil-info-matin-du-dimanche-01-novembre-2026_8234764.html"},
-{"categorie":"Monde","date":"1 nov.","impact":"flat","resume":"Selon le FBI, des hackers nord-coréens auraient dérobé environ 6 milliards de dollars en cryptomonnaies. Les retraits reprennent progressivement sur la plateforme.","source":"RTS / RTBF","titre":"Piratage de Binance : le FBI accuse la Corée du Nord","url":"https://www.rts.ch/info/monde/"},
-{"categorie":"Monde","date":"31 oct.","impact":"flat","resume":"Le Premier ministre a décrété trois jours de deuil national ; la colère monte dans le pays après le drame.","source":"RTS / franceinfo","titre":"Espagne : au moins 69 morts dans une collision entre deux trains","url":"https://www.franceinfo.fr/monde/"},
-{"categorie":"Monde","date":"1 nov.","impact":"flat","resume":"Le secrétaire d'État américain dit en avoir parlé avec Sergueï Lavrov. Washington a aussi approuvé la vente de 500 missiles Patriot à l'Ukraine (encore à valider par le Congrès).","source":"RTBF","titre":"Rubio évoque une rencontre Trump-Poutine à la mi-novembre","url":"https://www.rtbf.be/dossier/monde"},
-{"categorie":"Monde","date":"1 nov.","impact":"flat","resume":"Le président américain évoque des frappes sur « un ou deux sites » ; un méthanier a été touché par des projectiles dans le Golfe.","source":"Radio-Canada / RTBF","titre":"Trump menace l'Iran de nouvelles frappes","url":"https://ici.radio-canada.ca/international"},
-{"categorie":"Monde","date":"31 oct.","impact":"flat","resume":"Le Likoud arrive premier sans pouvoir gouverner seul et accuse les partis arabes d'avoir faussé le scrutin.","source":"franceinfo","titre":"Israël : la coalition de Netanyahou en tête des législatives, mais sans majorité","url":"https://www.franceinfo.fr/monde/"},
-{"categorie":"Monde","date":"1 nov.","impact":"flat","resume":"Grosse mobilisation des jeunes en Allemagne, avec des heurts dans la nuit à Cologne et Francfort. Des cortèges ont aussi eu lieu en Suisse.","source":"RTS / RTBF","titre":"Allemagne : la « Gen Z » manifeste dans tout le pays","url":"https://www.rtbf.be/dossier/monde"},
-{"categorie":"Monde","date":"1 nov.","impact":"flat","resume":"Battu au second tour de la présidentielle, il a quitté le Brésil et se proclame « leader du Brésil ». Washington nie toute implication.","source":"Radio-Canada / franceinfo","titre":"Brésil : Flavio Bolsonaro en fuite aux États-Unis","url":"https://ici.radio-canada.ca/international"},
-{"categorie":"Tech","date":"1 nov.","impact":"flat","resume":"Les gigantesques centres de données liés à l'IA suscitent des tensions locales outre-Atlantique, alors que Wall Street s'inquiète du coût de l'IA.","source":"franceinfo","titre":"États-Unis : malaise au pays des data centers","url":"https://www.franceinfo.fr/monde/"},
-{"categorie":"Sport","date":"1 nov.","impact":"flat","resume":"Le départ de la 13e édition a été donné de Saint-Malo. Quelques heures après, Violette Dorange et Romain Pilliard sont entrés en collision au large de Bréhat.","source":"franceinfo / France 3","titre":"Route du Rhum : 115 skippers en route vers la Guadeloupe","url":"https://www.franceinfo.fr/"},
-{"categorie":"Sport","date":"1 nov.","impact":"flat","resume":"Le Français était en conférence de presse avant le début du tournoi parisien.","source":"franceinfo","titre":"Tennis : le Masters 1000 de Paris commence, Arthur Fils en vedette","url":"https://www.franceinfo.fr/"},
-{"categorie":"Sport","date":"31 oct.","impact":"flat","resume":"Les JOJ 2026 se sont ouverts au Sénégal, premiers Jeux olympiques organisés en Afrique.","source":"France 24","titre":"Coup d'envoi des Jeux olympiques de la jeunesse à Dakar","url":"https://www.titrespresse.com/27338442603/europe-info-jour"}]},
-"crypto":{"updatedAt":"2026-11-01T20:00:00+01:00","resume":"Semaine dominée par le piratage record de Binance (environ 6,3 milliards de dollars volés), qui a fait passer le Bitcoin sous les 77 000 $. Binance affirme avoir déjà couvert 90 % des pertes et rouvre les retraits par étapes, ce qui aide le BTC à se reprendre légèrement autour de 77 500 $. Les ETF Bitcoin subissent de fortes sorties de capitaux.","chiffres":[{"label":"Bitcoin (BTC)","sens":"hausse","valeur":"≈ 77 675 $","variation":"+0,17 % (24 h)"},{"label":"Montant volé chez Binance","sens":"baisse","valeur":"6,3 Md$","variation":"plus gros hack crypto de l'histoire"},{"label":"Sorties ETF Bitcoin","sens":"baisse","valeur":"-643 M$","variation":"après le hack"}],"items":[
-{"date":"1 nov.","impact":"hausse","resume":"La plateforme assure avoir déjà comblé l'essentiel du trou laissé par le piratage, ce qui fait légèrement remonter le Bitcoin.","source":"Investing.com","titre":"Binance dit avoir remplacé 90 % des 6,3 milliards de dollars volés","url":"https://www.investing.com/crypto/bitcoin"},
-{"date":"1 nov.","impact":"hausse","resume":"Après le hack, les retraits reprennent progressivement ; le BTC est la première crypto concernée.","source":"CoinDesk","titre":"Binance rouvre les retraits crypto par phases, en commençant par le Bitcoin","url":"https://www.coindesk.com/"},
-{"date":"30 oct.","impact":"baisse","resume":"Les fonds volés sont répartis sur des adresses impossibles à geler. Le montant dérobé dépasse les réserves BTC de Tesla.","source":"CoinDesk","titre":"Le hacker de Binance éparpille 1,4 Md$ de bitcoins dans 19 portefeuilles","url":"https://www.coindesk.com/"},
-{"date":"31 oct.","impact":"baisse","resume":"Les investisseurs retirent massivement leurs fonds des ETF Bitcoin au comptant dans la foulée de l'attaque.","source":"BeInCrypto","titre":"Les ETF Bitcoin perdent 643 M$ après le plus gros hack crypto de l'histoire","url":"https://beincrypto.com/"},
-{"date":"30 oct.","impact":"baisse","resume":"La banque estime que le hack de Binance pourrait continuer de peser sur le cours du Bitcoin à court terme.","source":"CoinDesk","titre":"Standard Chartered s'attend à encore de la baisse","url":"https://www.coindesk.com/"},
-{"date":"31 oct.","impact":"hausse","resume":"Certains y voient une opportunité : les valeurs liées à la crypto auraient trop baissé après l'attaque.","source":"CoinDesk","titre":"Les analystes de Wall Street conseillent d'acheter les actions crypto","url":"https://www.coindesk.com/"},
-{"date":"30 oct.","impact":"flat","resume":"La société de Michael Saylor annonce 21 Md$ de résultat opérationnel trimestriel et détient 848 517 BTC.","source":"CoinDesk","titre":"Strategy : record de bénéfice, mais le directeur financier démissionne","url":"https://www.coindesk.com/"},
-{"date":"1 nov.","impact":"hausse","resume":"L'opérateur boursier ICE (maison mère du NYSE) veut lancer des produits dérivés crypto encadrés.","source":"CryptoActu","titre":"Hyperliquid : ICE prépare des contrats perpétuels régulés aux États-Unis","url":"https://cryptoactu.com/"},
-{"date":"1 nov.","impact":"flat","resume":"Des vulnérabilités du protocole Bitcoin ont été repérées et corrigées plus vite grâce à des outils d'IA.","source":"CryptoActu","titre":"Bitcoin : 3 failles de sécurité corrigées, l'IA accélère la détection","url":"https://cryptoactu.com/"},
-{"date":"28 oct.","impact":"baisse","resume":"Les mineurs cotés ont perdu 21 % de la puissance de calcul du réseau, l'IA leur rapportant davantage.","source":"Bitcoin.com News","titre":"Les mineurs se tournent vers l'IA, le hashrate recule","url":"https://news.bitcoin.com/fr/"}],"niche":[
-{"date":"1 nov.","impact":"baisse","pourquoi":"Un déblocage aussi gros par rapport à la taille du projet crée souvent une pression vendeuse avant et après la date.","resume":"Environ 96 M$ de tokens KITE vont être libérés, pour une capitalisation d'environ 320 M$.","source":"Bitcoin Sistemi / CryptoNews","titre":"Kite (KITE) : déblocage de tokens équivalent à ~30 % de sa capitalisation le 3 novembre","url":"https://cryptonews.net/news/altcoins/33685558/"},
-{"date":"30 oct.","impact":"flat","pourquoi":"Les analystes conseillent de surveiller les dépôts de HYPE sur les plateformes d'échange : c'est un meilleur signal de ventes réelles que le montant brut. En face, les rachats financés par les revenus et l'arrivée de produits régulés chez ICE peuvent soutenir le cours.","resume":"Novembre totalise environ 1,72 Md$ de tokens débloqués toutes cryptos confondues, dont plus de la moitié pour HYPE.","source":"CoinAlertNews (données Tokenomist)","titre":"Hyperliquid (HYPE) : le plus gros déblocage du mois, ~924 M$ autour du 6 novembre","url":"https://coinalertnews.com/news/2026/10/30/hyperliquid-november-token-unlocks"},
-{"date":"29 oct.","impact":"baisse","pourquoi":"Quand l'offre en circulation quasi double en quelques jours, le risque de dilution est très fort. Prudence si tu en détiens.","resume":"Kite et Allora font face à des déblocages énormes rapportés à leur offre en circulation.","source":"Blockchain Reporter","titre":"Allora (ALLO) : ~87 % de l'offre en circulation débloqués d'ici le 10 novembre","url":"https://blockchainreporter.net/emerging-altcoins-radar/"},
-{"date":"vote jusqu'au 2 nov.","impact":"flat","pourquoi":"Une migration de réseau peut changer la liquidité et la visibilité d'un token. C'est un catalyseur à suivre pour AKT, et dans une moindre mesure pour l'écosystème Solana.","resume":"Les détenteurs d'AKT votent sur le transfert de la place de marché d'Akash vers le réseau Solana.","source":"CoinAlertNews","titre":"Akash (AKT) : vote jusqu'au 2 novembre pour migrer vers Solana","url":"https://coinalertnews.com/news/2026/10/30/hyperliquid-november-token-unlocks"},
-{"date":"31 oct.","impact":"baisse","pourquoi":"Si d'autres entreprises qui stockent du BTC en trésorerie suivent, cela peut ajouter une pression vendeuse. C'est un signal à surveiller sur la solidité du modèle des « Bitcoin treasury companies ».","resume":"Elle met en avant le hack de Binance et les craintes liées à l'informatique quantique.","source":"CoinDesk","titre":"Une société cotée au Nasdaq envisage de vendre 450 M$ de bitcoins","url":"https://www.coindesk.com/"},
-{"date":"28 oct.","impact":"flat","pourquoi":"Pour les actions de mineurs, c'est un changement de modèle : elles se comportent de plus en plus comme des valeurs IA et data centers. Pour les petits mineurs, une baisse du hashrate peut aussi améliorer la rentabilité.","resume":"Les mineurs cotés réorientent leurs machines et leur électricité vers le calcul pour l'IA, plus rentable.","source":"Bitcoin.com News / CoinDesk","titre":"Mineurs de Bitcoin : 21 % de la puissance de calcul partie vers l'IA","url":"https://news.bitcoin.com/fr/"}]},
-"actions":{"updatedAt":"2026-11-01T20:00:00+01:00","resume":"Wall Street a fini octobre dans le rouge : le Nasdaq a chuté de près de 3 % vendredi, plombé par Intel (-25 à -28 %) et Amazon, sur fond d'inquiétudes autour des dépenses colossales dans l'IA. Le CAC 40 a mieux résisté, terminant à l'équilibre (7 969 pts) grâce à Sanofi, et gagne 2,4 % sur la semaine. La semaine prochaine : résultats, élections de mi-mandat US et chiffres de l'emploi américain.","chiffres":[{"label":"CAC 40 (clôture ven.)","sens":"flat","valeur":"7 969,42","variation":"-0,01 % · +2,4 % sur 5 j"},{"label":"Nasdaq (ven.)","sens":"baisse","valeur":"-2,86 %","variation":"journée noire pour l'IA"},{"label":"Intel (ven.)","sens":"baisse","valeur":"≈ -25 à -28 %","variation":"après ses résultats"},{"label":"Sanofi (ven.)","sens":"hausse","valeur":"+4,6 à +6 %","variation":"objectifs 2026 relevés"}],"items":[
-{"date":"30 oct.","impact":"baisse","resume":"Les craintes sur les montants dépensés par les géants de l'IA déclenchent une vague de ventes sur la tech américaine.","source":"Bourse Direct","titre":"Journée noire pour l'IA : le Nasdaq plonge de près de 3 %","url":"https://www.boursedirect.fr/fr/marche/seance"},
-{"date":"30 oct.","impact":"baisse","resume":"La publication d'Intel déçoit fortement et fait chuter tout le secteur des semi-conducteurs.","source":"ABC Bourse","titre":"Intel s'effondre de 25 % et entraîne Nvidia, AMD et les fabricants de puces","url":"https://www.abcbourse.com/"},
-{"date":"30 oct.","impact":"flat","resume":"Paris termine quasiment stable autour de 7 969 points, après avoir frôlé les 8 000. Sanofi, Essilor et Danone en tête ; STM et Stellantis en recul.","source":"Zonebourse","titre":"Le CAC 40 résiste à la chute de la tech américaine","url":"https://www.zonebourse.com/actualite-bourse/le-cac-40-resiste-a-la-chute-de-la-tech-americaine-ce785fdbdb80ff21"},
-{"date":"30 oct.","impact":"hausse","resume":"Le laboratoire relève ses objectifs 2026 et prend la tête du CAC 40.","source":"Zonebourse","titre":"Sanofi bondit après un trimestre meilleur que prévu","url":"https://www.zonebourse.com/cours/indice/CAC-40-4941/actualite/"},
-{"date":"30 oct.","impact":"flat","resume":"Les chiffres du PIB et de l'inflation inquiètent, mais la Bourse de Paris ne réagit presque pas.","source":"Zonebourse","titre":"La France flirte avec la récession, le CAC 40 reste impassible","url":"https://www.zonebourse.com/cours/indice/CAC-40-4941/actualite/"},
-{"date":"30 oct.","impact":"baisse","resume":"L'agence de notation s'inquiète de la consommation de trésorerie liée aux investissements dans l'IA.","source":"Boursorama / Reuters","titre":"S&P Global abaisse la perspective de Meta","url":"https://www.boursorama.com/bourse/actualites/"},
-{"date":"30 oct.","impact":"baisse","resume":"L'action de la plateforme crypto souffre à la fois de ses chiffres et du piratage de Binance.","source":"Investing.com","titre":"Coinbase recule après des résultats décevants","url":"https://fr.investing.com/crypto/bitcoin/news"},
-{"date":"30 oct.","impact":"flat","resume":"Les élections de mi-mandat américaines et le rapport sur l'emploi devraient animer les marchés.","source":"ABC Bourse","titre":"À suivre cette semaine : résultats, midterms et emploi US","url":"https://www.abcbourse.com/"},
-{"date":"30 oct.","impact":"hausse","resume":"Les premiers signes de reprise de l'activité séduisent les investisseurs.","source":"Zonebourse","titre":"LDLC s'envole en Bourse","url":"https://www.zonebourse.com/cours/indice/CAC-40-4941/actualite/"}],"niche":[
-{"date":"29 oct.","impact":"hausse","pourquoi":"Plusieurs gérants jugent les valorisations des small caps françaises très attractives, et des fonds rachètent des sociétés cotées décotées (exemple : Balyo rachetée par SoftBank). C'est un terrain à surveiller pour un PEA-PME.","resume":"Le CAC Small reste en baisse sur l'année alors que les small caps européennes progressent. Le CAC Mid & Small a rebondi la semaine dernière.","source":"Boursorama / Moneyvox","titre":"Petites valeurs françaises : -6 % depuis janvier, mais +2,5 % sur la semaine","url":"https://www.boursorama.com/bourse/indices/cours/2zPMS190/"},
-{"date":"30 oct.","impact":"hausse","pourquoi":"TotalEnergies continue d'alléger ses actifs africains les plus risqués. Ça renforce sa trésorerie, et donc potentiellement ses rachats d'actions et ses dividendes.","resume":"La participation est vendue à Sapetro. L'info est passée inaperçue au milieu des résultats trimestriels.","source":"Zonebourse / MT Newswires","titre":"TotalEnergies cède 40 % d'un bloc pétrolier offshore au Nigeria","url":"https://www.zonebourse.com/cours/indice/CAC-40-4941/actualite/"},
-{"date":"30 oct.","impact":"baisse","pourquoi":"Les valeurs européennes de semi-conducteurs (STM, Soitec, ASML) sont très sensibles aux nouvelles américaines. Certains y voient un point d'entrée, d'autres le début d'un dégonflement du « trade IA ».","resume":"Le plongeon d'Intel a entraîné tout le secteur des semi-conducteurs, y compris les valeurs européennes.","source":"Zonebourse","titre":"La chute d'Intel touche aussi STMicroelectronics à Paris (-3,7 %)","url":"https://www.zonebourse.com/actualite-bourse/le-cac-40-resiste-a-la-chute-de-la-tech-americaine-ce785fdbdb80ff21"},
-{"date":"31 oct.","impact":"flat","pourquoi":"Si Binance perd la confiance des utilisateurs, ses concurrents régulés comme Coinbase pourraient récupérer des parts de marché à moyen terme.","resume":"Coinbase a reculé après des résultats décevants et le hack de Binance. Une partie de Wall Street estime pourtant la baisse exagérée.","source":"Investing.com / CoinDesk","titre":"Les actions crypto (Coinbase, American Bitcoin) chahutées, des analystes recommandent d'en acheter","url":"https://www.coindesk.com/"},
-{"date":"30 oct.","impact":"flat","pourquoi":"Ce changement de régime profite souvent aux valeurs jugées « perdantes de l'IA », comme les ESN et les logiciels (Alten, Wavestone, Sopra...), déjà recherchées cet été.","resume":"S&P Global a abaissé la perspective de Meta à cause de la trésorerie brûlée dans l'IA. Le marché sanctionne les dépenses plus que les chiffres.","source":"Boursorama / Zonebourse","titre":"Ce qui déprécie la tech US : la peur de la « facture de l'IA », pas les résultats","url":"https://www.boursorama.com/bourse/actualites/"}]},
-"immo":{"updatedAt":"2026-11-01T20:00:00+01:00","resume":"Les taux de crédit immobilier remontent nettement en novembre : environ 3,75 % en moyenne sur 20 ans, et la barre des 4 % sur 25 ans est déjà franchie pour les ménages les plus modestes. La BCE a laissé ses taux inchangés (dépôt à 2,50 %), mais l'OAT 10 ans française a dépassé 5 %, ce qui pousse les banques à relever leurs barèmes et à devenir plus sélectives.","chiffres":[{"label":"Taux moyen 20 ans (Pretto)","sens":"baisse","valeur":"3,76 %","variation":"+0,06 à +0,11 pt sur un mois"},{"label":"Taux moyen 25 ans (Pretto)","sens":"baisse","valeur":"3,85 %","variation":"4,07 % pour revenus < 40 k€"},{"label":"Taux de dépôt BCE","sens":"flat","valeur":"2,50 %","variation":"inchangé le 29 oct."},{"label":"OAT 10 ans","sens":"baisse","valeur":"> 5 %","variation":"pèse sur les barèmes"}],"items":[
-{"date":"fin oct.","impact":"baisse","resume":"En novembre, les ménages gagnant moins de 40 000 €/an empruntent en moyenne à 4,07 % sur 25 ans. Tous profils : 3,56 % sur 15 ans, 3,76 % sur 20 ans, 3,85 % sur 25 ans.","source":"Pretto","titre":"Taux immobilier : la barre des 4 % franchie pour certains profils","url":"https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-novembre-2026/"},
-{"date":"nov.","impact":"baisse","resume":"Le meilleur taux sur 10 ans passe de 2,64 % à 2,88 %, et le taux moyen sur 20 ans dépasse 3,50 %.","source":"Capifrance","titre":"Les taux repartent à la hausse : +0,24 pt sur 10 ans en un mois","url":"https://www.capifrance.fr/fr/blog/les-taux-de-credit-immobilier-en-novembre-2026-tendances-et-previsions"},
-{"date":"31 oct.","impact":"baisse","resume":"Pour 220 000 € sur 22 ans, passer de 3,55 % à 3,80 % ajoute environ 29 €/mois et 7 700 € d'intérêts. Les barèmes dépassent souvent 4 % avant négociation.","source":"MySweetImmo","titre":"Les taux montent, les banques deviennent plus sélectives","url":"https://www.mysweetimmo.com/2026/10/31/credit-immobilier-les-taux-montent-les-banques-deviennent-plus-selectives/"},
-{"date":"29 oct.","impact":"baisse","resume":"Sur 20 ans, la hausse ajoute environ 13 € à la mensualité et un peu plus de 3 100 € d'intérêts (hors assurance).","source":"MySweetImmo","titre":"Combien coûte la hausse de novembre sur un prêt de 250 000 €","url":"https://www.mysweetimmo.com/2026/10/29/credit-immobilier-les-taux-remontent-les-4-deja-depasses-pour-certains-menages/"},
-{"date":"nov.","impact":"flat","resume":"La BCE maintient son taux de dépôt à 2,50 %. Le taux d'usure reste à 5,40 % pour les prêts de 20 ans et plus.","source":"DB France Invest","titre":"BCE inchangée, mais l'OAT 10 ans franchit 5 %","url":"https://www.dbfranceinvest.com/taux-credit-immobilier-novembre-2026/"},
-{"date":"nov.","impact":"baisse","resume":"Meilleurtaux et Cafpi confirment la hausse ; chez Cafpi les meilleurs dossiers obtiennent encore 3,25 % sur 20 ans.","source":"Moneyvox","titre":"Les nouveaux taux sur 15, 20 et 25 ans en novembre","url":"https://www.moneyvox.fr/credit/actualites/111043/credit-immobilier-voici-les-nouveaux-taux-sur-15-20-et-25-ans-en-novembre-2026"}],"niche":[
-{"date":"nov.","impact":"flat","pourquoi":"Quand le TAEG touche l'usure, les banques refusent des dossiers, et les acheteurs fragiles disparaissent du marché. C'est souvent le moment où les vendeurs négocient davantage : bon pour un acheteur solide.","resume":"Les barèmes dépassent souvent 4 % avant négociation. Avec l'assurance et les frais, certains dossiers frôlent le plafond légal.","source":"DB France Invest / MySweetImmo","titre":"Taux d'usure à 5,40 % : les barèmes bancaires s'en rapprochent","url":"https://www.dbfranceinvest.com/taux-credit-immobilier-novembre-2026/"},
-{"date":"fin oct.","impact":"flat","pourquoi":"Pour un premier investissement locatif à deux, emprunter ensemble (revenus cumulés) ou passer par un courtier peut faire gagner plusieurs milliers d'euros d'intérêts.","resume":"Sur 25 ans, Pretto relève 4,07 % pour les revenus sous 40 000 € contre 3,53 % au-dessus de 120 000 €.","source":"Pretto","titre":"Près de 0,5 point d'écart de taux entre les plus bas et les plus hauts revenus","url":"https://www.pretto.fr/taux-immobilier/historique-taux-immobilier/2026/analyse-taux-immobilier-novembre-2026/"},
-{"date":"oct.","impact":"flat","pourquoi":"Avec l'OAT à plus de 5 %, le rendement des placements sans risque concurrence les SCPI. Celles qui rachètent aujourd'hui des immeubles avec une décote affichent des rendements plus élevés que les anciennes.","resume":"Les SCPI anciennes, très exposées aux bureaux, décollectent. Les SCPI diversifiées récentes captent 70 à 80 % de l'argent investi.","source":"Moneyvox","titre":"SCPI : les vieilles SCPI de bureaux plombées par la hausse des taux","url":"https://www.moneyvox.fr/immobilier/actualites/111013/immobilier-locatif-la-hausse-des-taux-obligataires-met-a-mal-les-vieilles-scpi"},
-{"date":"nov.","impact":"baisse","pourquoi":"Les foncières cotées (Unibail, Klepierre, Gecina...) et les SCPI sont très sensibles aux taux longs. Tant que l'OAT monte, leur valorisation est sous pression. Une détente serait au contraire un catalyseur.","resume":"Le taux d'emprunt de l'État français a franchi un seuil symbolique alors que la BCE ne bouge pas.","source":"DB France Invest","titre":"OAT 10 ans au-dessus de 5 % : mauvais signe pour les foncières cotées","url":"https://www.dbfranceinvest.com/taux-credit-immobilier-novembre-2026/"}]}
+ "general": {
+  "updatedAt": "2026-11-02T09:34:38+00:00",
+  "resume": "L'actualité des dernières heures est marquée par la rentrée en Bourse d'Anthropic et le lancement de nouveaux produits technologiques, ainsi que par les tensions sociales en France autour du pouvoir d'achat et des salaires. Sur le plan international, les élections de mi-mandat aux États-Unis mobilisent l'attention alors que les tensions géopolitiques persistent au Moyen-Orient et en Europe de l'Est.",
+  "chiffres": [],
+  "items": [
+   {
+    "titre": "Face aux mobilisations sociales, le gouvernement envisage une revalorisation du smic",
+    "resume": "Le ministre du travail Jean-Pierre Farandou s'est dit ouvert à une anticipation au 1er décembre de la revalorisation automatique du smic, face aux mobilisations sociales.",
+    "source": "Le Monde Économie",
+    "url": "https://www.lemonde.fr/politique/article/2026/11/02/face-aux-mobilisations-sociales-le-gouvernement-envisage-une-revalorisation-du-smic_6805226_823448.html",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "« Anthropic en Bourse : l’apocalypse est-elle un risque d’investissement comme un autre ? »",
+    "resume": "L'entreprise d'intelligence artificielle Anthropic détaille dans son document d'introduction en Bourse les risques existentiels liés à sa technologie.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/idees/article/2026/11/02/anthropic-en-bourse-l-apocalypse-est-elle-un-risque-d-investissement-comme-un-autre_6805221_3232.html",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Tech"
+   },
+   {
+    "titre": "Guerre en Iran: Donald Trump menace de \"donner un coup de massue\", Téhéran promet une guerre \"plus longue que la précédente\"",
+    "resume": "Le président américain Donald Trump a menacé l'Iran de représailles militaires majeures après les élections de mi-mandat.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-guerre-en-iran-donald-trump-menace-de-donner-un-coup-de-massue-teheran-promet-une-guerre-plus-longue-que-la-precedente_VN-202611020366.html",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Crackgate iPhone Duo : Apple aurait baissé ses critères de contrôle pour livrer plus vite",
+    "resume": "Apple aurait assoupli le contrôle qualité de son iPhone Duo afin d'expédier rapidement des millions d'exemplaires avant la fin de l'année.",
+    "source": "Frandroid",
+    "url": "https://www.frandroid.com/marques/3306427_crackgate-iphone-duo-apple-aurait-baisse-ses-criteres-de-controle-pour-livrer-plus-vite",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Tech"
+   },
+   {
+    "titre": "Alexander Zverev officiellement n°1 mondial au classement ATP, Arthur Fils 7e",
+    "resume": "Alexander Zverev devient officiellement numéro un mondial au classement ATP, tandis qu'Arthur Fils atteint la septième place.",
+    "source": "L'Équipe",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSU1IZzRibnJwSkxVNHp1NG1GdDc0QTEzcWpUZ2JmVGpUZmZSQTRtMWtzaWNfZjdvMjh5QWY4Z1dKRzA1RnU2UXVfbmI2am9saXEzY0sxTEJZQnBLdDBTbEFYVHYwYk1TVUpvendXSVZZSHpWdW9ETXYyNUdkTktLQXFPdGxscnVtNV9ubVctX05CLUNDTThuMl9SR2gwVzFtZGMwMkVZaDljeHJCbWVLREd0alI2YnZfWTcwdjkyMjlLNUpmOGxHeDdaNEwyYkZlVW1pTmswNjdOQQ?oc=5",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Sport"
+   },
+   {
+    "titre": "Midterms 2026: dans le Michigan comme ailleurs, le vote latino sera l'une des clés du scrutin",
+    "resume": "Près de 250 millions d'Américains sont appelés aux urnes pour les élections de mi-mandat, où le vote latino constituera un enjeu déterminant.",
+    "source": "RFI",
+    "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261102-midterms-2026-dans-le-michigan-comme-ailleurs-le-vote-latino-sera-l-une-des-cl%C3%A9s-du-scrutin",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   }
+  ],
+  "par": "ia",
+  "modele": "gemini-flash-lite-latest"
+ },
+ "crypto": {
+  "updatedAt": "2026-11-02T09:34:38+00:00",
+  "resume": "Le marché crypto fait face à la digestion du piratage historique de Binance évalué à 6,3 milliards de dollars, entraînant des milliards de dollars de retraits massifs lors de la réouverture des services. Malgré ce choc, le Bitcoin se stabilise au-dessus des 78 000 dollars, tandis que l'attention des investisseurs se tourne vers les élections de mi-mandat aux États-Unis. Les ETF Bitcoin et Ethereum ont quant à EUX enregistré des sorties massives de capitaux au cours du mois d'octobre.",
+  "chiffres": [
+   {
+    "label": "Bitcoin (BTC)",
+    "valeur": "≈ 78 257 $",
+    "variation": "−0,12 % (24 h)",
+    "sens": "flat"
+   },
+   {
+    "label": "Ethereum (ETH)",
+    "valeur": "≈ 2 298 $",
+    "variation": "+1,01 % (24 h)",
+    "sens": "hausse"
+   },
+   {
+    "label": "Solana (SOL)",
+    "valeur": "≈ 94,76 $",
+    "variation": "+0,24 % (24 h)",
+    "sens": "hausse"
+   },
+   {
+    "label": "XRP (XRP)",
+    "valeur": "≈ 1,25 $",
+    "variation": "+0,28 % (24 h)",
+    "sens": "hausse"
+   }
+  ],
+  "items": [
+   {
+    "titre": "Binance enregistre 6,5 milliards de dollars de retraits suite à son piratage",
+    "resume": "Suite à la réouverture progressive de sa plateforme après le piratage, Binance a enregistré plus de 6,5 milliards de dollars de retraits en l'espace de 24 heures.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/binance-enregistre-milliards-dollars-retraits-suite-piratage/",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le bitcoin se stabilise au-dessus des 78.000 dollars après le choc du piratage de Binance",
+    "resume": "Le cours du Bitcoin parvient à se stabiliser au-dessus du seuil des 78 000 dollars malgré le choc provoqué par le piratage massif de la plateforme Binance.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY1dxR0JZcEdHV3NhM2xwRjRBUXhUbk9ZVUhPZ1ZqUW52bmRlQUlUQ3p4RHpkSHhpZ290LWpqdGNVV01xQWduTFNtM1RPLXNpT3BpWWFQNi1JUmZNSmNvdHc4WF9iVXRITjlKbGpzYW9mSnQwZmltTjFRcFcxeDdLcFhfaU1hU0FHWmZsVHlXODdiMEdlU19EY3huZzlKSlFjSTJpSU83NlpKYzVOV0YwNnpLN3kwbExMVmlWVjgxUDMzMWxTSi1qMFFWUmdybVlzUl91RWU4YVpUdGhibTJ4UTgySQ?oc=5",
+    "date": "2 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
+    "resume": "Les ETF Bitcoin au comptant américains ont terminé le mois d'octobre avec 515 millions de dollars de retraits nets, tandis que les fonds sur l'Ether ont atteint un record de 1,61 milliard de dollars de sorties mensuelles.",
+    "source": "Cointelegraph",
+    "url": "https://cointelegraph.com/markets/bitcoin-etfs-october-red-binance-hack-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Hack Binance : 242 millions blanchis via Tron, le FBI somme THORChain de bloquer",
+    "resume": "Une fraction du butin issu du hack de Binance, soit 242 millions de dollars, a été blanchie via le réseau Tron, poussant le FBI à intervenir auprès de THORChain pour bloquer les flux.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/hack-binance-242-millions-blanchis-tron-fbi-thorchain/",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Coinbase affiche 719 millions $ de bénéfices, dont 715 millions de gains crypto",
+    "resume": "Coinbase annonce un résultat net de 719 millions de dollars pour le troisième trimestre, porté en grande partie par 715 millions de gains de valorisation sur ses investissements en cryptomonnaies.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/coinbase-affiche-719-millions-de-benefices-dont-715-millions-de-gains-crypto/",
+    "date": "2 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+    "resume": "Le protocole THORChain a suspendu ses swaps sur dix réseaux à la suite d'un bug de réorganisation de blocs, ralentissant les mouvements des pirates informatiques.",
+    "source": "Cointelegraph",
+    "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "date": "2 nov.",
+    "impact": "baisse"
+   }
+  ],
+  "par": "ia",
+  "modele": "gemini-flash-lite-latest",
+  "niche": [
+   {
+    "titre": "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany",
+    "resume": "La société Metals.io émet des jetons adossés à 25 tonnes de cuivre physique stockées en Allemagne, débutant avec une valeur de 366 000 dollars.",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/11/02/metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany",
+    "date": "2 nov.",
+    "pourquoi": "Utile pour suivre la tokenisation d'actifs réels (RWA) ; à surveiller pour voir si un marché onchain du cuivre physique parvient à se développer.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Solana risque une nouvelle baisse après $71m de sorties d'ETF",
+    "resume": "Solana subit une pression baissière potentielle après avoir enregistré 71 millions de dollars de sorties sur ses ETF.",
+    "source": "Invezz",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFloS0RVNk9QMFBNOXdjNFIwa2F6RDhoUnlsVTVpZEc1V0VjVXdYYWNqNUUyVnlocGhuUno1STBVTmtsU0drc0hkc3RhLWRPRXhHVmZOWG00QmJxSF9uTWVuODdSWjZjcmNHdkswc0x2MmFCTVhoLW5mQ0kzdGxRU1JuYzEtV0E1R3dtRUZxa29SeTRBSWMtYmVVWkstSWJIWHFhTXNNRGJsT0d4Ti1j?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Concerne l'écosystème Solana (SOL) et les flux institutionnels ; à surveiller pour identifier un éventuel test des supports de prix face à ces retraits.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "BTCPay Server warns of hot wallet thefts running on outdated software",
+    "resume": "Le projet open-source BTCPay Server a invité les opérateurs à éteindre leurs serveurs suite à des rapports de piratage de portefeuilles à chaud utilisant des logiciels obsolètes.",
+    "source": "Cointelegraph",
+    "url": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "date": "2 nov.",
+    "pourquoi": "Concerne la sécurité des infrastructures de paiement Bitcoin auto-hébergées ; à surveiller pour les utilisateurs de nœuds afin d'éviter les failles de version.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Les mineurs de Bitcoin réalisent leurs meilleures recettes depuis onze mois",
+    "resume": "Les mineurs de Bitcoin ont généré 1,215 milliard de dollars en octobre, réalisant leur meilleur mois depuis novembre 2025 malgré une baisse de rendement par unité de puissance.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/les-mineurs-de-bitcoin-realisent-leurs-meilleures-recettes-depuis-onze-mois/",
+    "date": "2 nov.",
+    "pourquoi": "Concerne la rentabilité et les revenus des mineurs de Bitcoin ; à surveiller pour estimer la pression vendeuse potentielle des acteurs industriels.",
+    "impact": "hausse"
+   }
+  ]
+ },
+ "actions": {
+  "updatedAt": "2026-11-02T09:34:38+00:00",
+  "resume": "Les marchés boursiers mondiaux et européens entament la semaine dans le rouge, pénalisés par un climat de prudence à la veille du scrutin américain et par le repli du secteur technologique à Wall Street. À Paris, le CAC 40 subit de plein fouet l'effondrement d'Alstom, qui chute de 30 % après un sévère avertissement sur ses résultats et ses perspectives de trésorerie. En parallèle, les investisseurs analysent les derniers indicateurs PMI manufacturiers en Europe et les annonces de résultats d'entreprises.",
+  "chiffres": [
+   {
+    "label": "Nvidia (NVDA)",
+    "valeur": "≈ 205 $",
+    "variation": "−4,22 % (séance)",
+    "sens": "baisse"
+   },
+   {
+    "label": "Apple (AAPL)",
+    "valeur": "≈ 345 $",
+    "variation": "−1,23 % (séance)",
+    "sens": "baisse"
+   },
+   {
+    "label": "Microsoft (MSFT)",
+    "valeur": "≈ 522 $",
+    "variation": "−1,55 % (séance)",
+    "sens": "baisse"
+   },
+   {
+    "label": "Tesla (TSLA)",
+    "valeur": "≈ 400 $",
+    "variation": "−0,87 % (séance)",
+    "sens": "baisse"
+   }
+  ],
+  "items": [
+   {
+    "titre": "ALSTOM : Le groupe s'attend à brûler 1,5 milliard d'euros de cash… Alstom lance un nouvel avertissement sur résultats massif et s'effondre de 30% en Bourse",
+    "resume": "Alstom s'effondre de 30 % en Bourse après avoir abaissé ses objectifs et annoncé s'attendre à brûler 1,5 milliard d'euros de trésorerie.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/alstom-FR0010220475/actualites/alstom-le-groupe-s-attend-a-bruler-15-milliard-d-euros-de-cash-alstom-lance-un-nouvel-avertissement-sur-resultats-massif-et-s-effondre-de-30-en-bourse-1172909.html",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Les marchés boursiers mondiaux prudents avant le scrutin américain",
+    "resume": "Les marchés boursiers mondiaux affichent de la prudence et reculent en ce début de semaine, dans l'attente des résultats du scrutin électoral américain.",
+    "source": "Zonebourse",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOHJjOUJ4NThhM2Y4RzFCTWE3eEs5WHphZ2xkLVpvWUgzMkxWcVZudUZZdHZJRXJRMDB6eF9GclJGNVVZd3JOZHlZV0RSSjNWdWplOWdqLWxYX283aWhCblFsbmZwU1VJWFZGei1yZkhBTC03N3FBXzRSY2ZLVHMwcllSVERGMzRQOFVpLXMwU28yc0d1QXpJNWVnNFdvOGtIWkZBUnY5Rmtoc0sta0x0LXVkanRXZmdJSHVLR3Q2R182eWVYdFE?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Les actions européennes reculent après la dégradation des perspectives de la France par Fitch",
+    "resume": "Les actions européennes marquent le pas, sous la double pression de la dégradation des perspectives de la France par l'agence Fitch et du repli de la tech américaine.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/les-actions-europeennes-reculent-apres-la-degradation-des-perspectives-de-la-france-par-fitch-3667525",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Forvia affiche des ventes T3 2026 en hausse, l’action gagne 3%",
+    "resume": "Forvia parvient à se démarquer en publiant des ventes en hausse pour le troisième trimestre, ce qui permet à son action de progresser de 3 %.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/transcripts/forvia-affiche-des-ventes-t3-2026-en-hausse-laction-gagne-3-93CH-3667522",
+    "date": "2 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "La BCE devra encore relever ses taux, l’ampleur de la hausse reste incertaine, selon Kazimir",
+    "resume": "La Banque centrale européenne pourrait être contrainte de procéder à de nouvelles hausses de taux, bien que l'ampleur de ces ajustements reste encore incertaine selon le responsable Kazimir.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMUFIVmwtb0N0Y3cyM2hsTUNLRVJlajE3MW1aMzBLTlBYM2VpTG5iN2FlYUdhYWZYWVRzUW5mU0xMYnpfcGdwb1hfT3l6VUpxb01iajQ3d2ZkcVpBNkt5R25QcktiTmRHTXBkUHBNektPeTYtUG83R3VGaVlnc21id0lFWmRHQkZtVGpEcTBSZ3hYcTdpUlNJR1VSS2RtM3dPSW9jdnkzU1NBSExvNU1ZVUhUVGRYYlg3YW13bkZoY0NpNWZMeTRYdkwyaFVkSDRWVW9IMGpPQ2dCS09tRk5XYW9XSzB0Zw?oc=5",
+    "date": "2 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Euronext nommera Knibbe, du groupe NN, au poste de directeur général après le départ de Boujnah",
+    "resume": "Euronext s'apprête à nommer Knibbe au poste de directeur général pour succéder à Boujnah.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQUjVXM19XOXQ5Ui1NWk14T0RscjdWT1ZyejZTMHR5bHo2eDFvMy1JZnRrS2Q5WVRqV3VITjVGYUFpZkpJS3B1Z0NFSG9nMHprVUtteUF4TF9SZ0NMWWgyV0Nnd256LVp2U245NEk4OE1HcVdRT3RJdjJjRVhZRmxnZjI4QmxDZ3hVenlEM0M3Z1g4VGJEMS1DM0hVbDJpUVZRVElBR2pyV0F6Qmkzem54ekVOUnpRdDFuaFVJcDg2UlM3aUh0VUhhR1BVdGxhenp5Z0lpOW91MVZzWURvQzYtcnZ5WHRqQ1FrLTlzdXp1TjZUdlFIUnFtbXlkZ0g4WnlT0gGGAkFVX3lxTE0tX0U2b3R6YXZOanNDWG9mRTZPYTZlcVVtMm1xN3l1VXhVamR1WHJkNnBSMmF4V1dhREgzUGdvS3dibDNMSklqcl85STBsVnJ4QTlZVUxsYml5bFlVakpCMVk2RFRNVjNwR0lZaUd6VkVkd19HT3hqbml6TXJGeldBUFhxRGZCRXY0bXZDNHo0aEhnWUF4Y1BGYktDU1pRdDM3Y1NkYm9GYTdReVc4czM4VVhreW9rYTBzNEtQbEFSSDFGNlk2QlUyaEtTVEg4NW0tTk5ZYUtuMi1lS3VLYlktd3RHdXZ3WXlHSVpWSDJLbUtZeEJhaUktbzY4b2hZcDRoZ1l2QVE?oc=5",
+    "date": "2 nov.",
+    "impact": "flat"
+   }
+  ],
+  "par": "ia",
+  "modele": "gemini-flash-lite-latest",
+  "niche": [
+   {
+    "titre": "Vusion: franchit 136 euros et clôture à 142,90, signal renforcé par le RSI",
+    "resume": "L'action Vusion a franchi le seuil des 136 euros pour clôturer à 142,90 euros, portée par un signal technique de l'indicateur RSI.",
+    "source": "ABC Bourse",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYzJfNWhiSzdrRmdhd3ZDV1NRdUZGX1lfZDFURG5jUUh5ZlZGT3Z4c3JVSGVrVzA0Yk85MWZiTk1jc2QySl80am9oeHVfNC1KdjlBOGNyazh0dzVtZjVCSkVXbFJQOENCZUdTRkEzd2VqcmhQMHdzNDdJMXdNY2h4TFdDT09ORlRaazZpUVNVR2F4QVJqMHpxUmtMMHVWQ1MxUnFEUUs1MXhPLWstUlA4dXZsWQ?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Utile pour suivre la dynamique de cette valeur spécifique et surveiller la persistance de ce signal technique.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Le secteur manufacturier français se contracte en octobre",
+    "resume": "L'activité du secteur manufacturier en France s'est contractée au cours du mois d'octobre.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/economic-indicators/le-secteur-manufacturier-francais-se-contracte-en-octobre-93CH-3667701",
+    "date": "2 nov.",
+    "pourquoi": "Donne un aperçu de la santé macroéconomique industrielle française, à surveiller pour l'ensemble des valeurs cycliques de la cote.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Alphabet lance une émission obligataire libellée en euros, selon l'IFR",
+    "resume": "Alphabet a procédé au lancement d'une émission obligataire libellée en euros.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQWN6NmFFLThMT1NoQXg3b2xvZzBpUi1tVDlkMFd3Ym9EMVM4OWItV21qUV9mYlFsaEo2bDhLZ2dDRHpKbHVBRDNMVmdraGxkRjZCMUxPci04bFBjczVjUjNjd3JObV9HR0w1UGRZZV9KYkhoWFFxUC1hNTE1MmVjZHdJZG40TW8tVHNZanE1VnBneDdSSUxfd21rS3hLXzRITVByU3JkcndCb1lwR25VaEhZZmRMX2ZtRkkwWjJsZFlGdFNmaHpyZHNhbTl5V1RxcWtoeHZTaU05UDdlNXZWRjcycVp6QdIB5gFBVV95cUxQQWN6NmFFLThMT1NoQXg3b2xvZzBpUi1tVDlkMFd3Ym9EMVM4OWItV21qUV9mYlFsaEo2bDhLZ2dDRHpKbHVBRDNMVmdraGxkRjZCMUxPci04bFBjczVjUjNjd3JObV9HR0w1UGRZZV9KYkhoWFFxUC1hNTE1MmVjZHdJZG40TW8tVHNZanE1VnBneDdSSUxfd21rS3hLXzRITVByU3JkcndCb1lwR25VaEhZZmRMX2ZtRkkwWjJsZFlGdFNmaHpyZHNhbTl5V1RxcWtoeHZTaU05UDdlNXZWRjcycVp6QQ?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Permet d'analyser le comportement de la dette des grandes entreprises technologiques et son impact potentiel sur le marché obligataire européen.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Les immatriculations de Tesla ont connu une forte hausse en Europe du Nord au mois d'octobre",
+    "resume": "Les immatriculations de véhicules Tesla ont enregistré une forte augmentation en Europe du Nord au mois d'octobre.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUmM3NUJJOUdHR3FhS0NDSmlGcUlSUC1pb25CUVVvRUhSVDhUdWI5b2xqYTdjdGxfanNndXBNSkdaM21QSkJ1N3p0Y0FRaF9ITnJFWjh5TGlUOVRJbVpkeUxiN0phaE1RSXVOd2l0MFU1cmJpT1QwLTF5amhVZWM4RFpiVFFLY2lXTHU2dDBNSTVfWW16Z3JDWTFKcE1BQTVhV0RVTkd1b0VsaTB2QnRRaTRSNURfMUlscHdpc2hjQ0QwdDRpMzdKTWJmTzRlT3FoTjZsMUJZaFNmTk1tWG1yRUtkYnpQazF3dGtsM1dPYmYyRjZ0eEd1REdTVVR4R2vSAYQCQVVfeXFMT2pVSTY2TTFtT1dXZnJETUF0NUVXcEpwYzBqOUp6Y3RkSjNBOF9fWGtyaUx1UFpheXJZelhGTHRpcnI3M2NsUWV1Y0FBdEhHOERfNjhYdUs2SkY4amI5cTc3UDMxNEx1NE1TRy1HeHkwYlJoWEJCU2VQVmRCeFVVdGhFYWlpamlaQld3YnlKZUJRdlBMaVRkaWlUbGxEeWxEQ1V4QTFyUGdCZ0owbXlmd0RmOUtxV0dRVk1oWHp0cGRIc0JzaGFNcG42MWlldzlucGsxVEFPaURzQ0xLbl8zR1dsQlFVRWxSLVJpazNYdXVMdjEwVFo3UzVsRXhOU3hHcXdvbWw?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Indique la tendance commerciale régionale pour le secteur des véhicules électriques et le positionnement de Tesla sur ce marché.",
+    "impact": "hausse"
+   }
+  ]
+ },
+ "immo": {
+  "updatedAt": "2026-11-02T09:34:38+00:00",
+  "resume": "Le marché immobilier français fait face à un nouveau rapport de force marqué par des prix en baisse et des taux de crédit qui augmentent, atteignant par exemple 3,76 % sur 20 ans en novembre. Dans ce contexte, l'investissement locatif s'interroge sur sa rentabilité, tandis que le statut LMNP échappe pour l'instant à un durcissement fiscal après un rejet des députés. Parallèlement, l'Île-de-France enregistre une baisse des ventes et des prix.",
+  "chiffres": [],
+  "items": [
+   {
+    "titre": "Taux immobilier : 3,76 % à 20 ans en novembre, 13 € de plus par mois",
+    "resume": "Les taux des crédits immobiliers continuent de progresser en novembre, s'établissant à 3,76 % sur une durée de 20 ans.",
+    "source": "Stéphane Larue News",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbXMyNWI4SUFndF9YeGZFLUVWMDBSeTJidUR3RWwyR2dEemhvYjlpMTZUdmlsZDM0VWRuSkJqMmM0eXNBLU1UOV9sM0dhQktXRGVZYzlydWRKWTgzYzN2clNGdTlXb1NQODB1ckEyRDhFSkhmNjdyTW14OUNvMjFhXzJ1OFRvaTlmSXJ1N0lqX2lOWU0?oc=5",
+    "date": "2 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Entre baisse des prix et hausse des taux, un marché immobilier sous pression",
+    "resume": "Le marché immobilier évolue sous tension, caractérisé par un mouvement global de baisse des prix conjugué à une hausse des taux.",
+    "source": "Meilleurs Agents",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdzVTOHhzdGNrVFhVQlowNlRYcm5KVnpLNzFkbFdMUlhRS1YzaTFyeWttZU4ta3prMHZ4cmpxU2N0Z2M4eHZFeHBIZEVCZGYycHVIa3RsT3Eyd2lBa1o1dUJyWS1Ob0h2aUQ1V3IzTG43NEw5empmSE9xb3c5UmxJemVsUUtkWHp4WnNJcnNLWFR3emM2Ui0wVHRJM1B3Q3RRck0xRk1ZMjl6OFhSWnlkb3V2VnRuQm1sNVdLcDlXaTVLeEMxNU5CUmhJMA?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Favoriser la relance plutôt que serrer tous les boulons : les députés ont rejeté le tour de vis sur le statut LMNP, victoire d’étape ou victoire à la Pyrrhus ?",
+    "resume": "Les députés ont rejeté le projet de resserrement fiscal concernant le statut de loueur en meublé non professionnel (LMNP).",
+    "source": "Challenges",
+    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQTWpSSXRGNktSeV9TS2dPNlVadGN3dGx5dTE2TjZMRVhZOHNQb24yRXp2b21xdnZyQ2YwZVBWOU5Bb0s0VnlsUXh6d09NTkkzR2MwbmdkbWxnZlFpaFJ4SFJvT2xxZDRlUDBLTndiMEhlS2c2VlRMWlExSGtXQlJ2R3ZxRVduTDk0LTR0M3AxVDF1d3VCSWI2WFRFWkFuWDJWblgtOC1TT2l0THV1VDVKWl9mSFJ1NklHaVFOOHN6S2dNSExsVHFNMGx2eTBVVHEtcllUVHAxTFhSSHktNmFEX3JUQnJoam9FVnh3ek4wa0NrQUxUcEVtU3loeHNrLUcxVjdsWGZ5RkNTdllLSEdoclRSbnZKWGJac1ZZQlhfVHQxcGM?oc=5",
+    "date": "2 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Immobilier Île-de-France : ventes et prix en baisse en 2026",
+    "resume": "La région Île-de-France confirme une tendance baissière concernant à la fois le volume des ventes et le niveau des prix en 2026.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQazJXNjlJZ2R6Y3ZSbllWa1lDdG15dXV4LXc2WUJKeks3QmNOTmhBODFjNmE4bjd2MmU3Q0JJZU1td01yYVZORW1lalc2dnpDc3JWRXZKLWFSczd0TGZvczVYOXJUNC1CTFZyODc0V25JeS1OVmJNdV9lS0JsNDRtMlZOUU1VUThnZ0tqX0dPSzNiMVJuYWlGSGNGYXR6YXBnOTM3NDlobHJhcENf?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Immobilier locatif : taxe foncière, crédit, travaux... est-ce encore rentable d'investir fin 2026 ?",
+    "resume": "L'analyse de la rentabilité de l'immobilier locatif met en lumière les pressions exercées par la taxe foncière, le coût du crédit et les travaux.",
+    "source": "MoneyVox",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdnRjaWJVeThCU2FzNVJXdGRkMnE2VzRMdVk1RHdNYlZybVlEUFFpZzdlZ2syaGNRWTl5TVFrSUVmZV9xaVZPaWNhOEg4V3ZQUXhHLTNkckdMRmM0RU1jU194NEdLODlrNVdmVG51eXk1WXc0MVFkRGNBMDZMODFmR0lPUnpvR0JMVExLTGdrM1FlTG1sQU5EMWJ0bWZFS05zdndhMmJnU21ZcUZ6ZzNneWpjMmFOSEF2cTVOcnVpMzJ5OXYxbzJTUk9OZkVaQkFHbGRreVV5a2o?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Immobilier : l'APL accession va-t-elle faire son grand retour ?",
+    "resume": "Un retour éventuel de l'aide personnalisée au logement (APL) accession est actuellement évoqué pour soutenir le marché.",
+    "source": "La Tribune",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckJkUmR6dmJ6bWd6RUltcHdzeWRxekFOQnRwbVYxc2ljT0hmSVloZDlRRFB2VXljNlB1S3phUDdDakFjMjlYUUtzb3VqYXo4NXRxVEUyTjA4cmVXaENuLXd0VFhmY3NKV0tCbmdiZFNDYnFCZDBkZHZvMTVIaWxMczlJRmhsckdEbjExZWNJRDJmU1laSFl3QWRLRFRYbUVBa2hRM1pXQkxONkp3MFBiM1BPUkJBUG1nY3FteEpkUlF2ZTlGTVVBWWdUeGtpN1hGcXNwU1dn?oc=5",
+    "date": "2 nov.",
+    "impact": "hausse"
+   }
+  ],
+  "par": "ia",
+  "modele": "gemini-flash-lite-latest",
+  "niche": [
+   {
+    "titre": "Immobilier : Tarbes mise sur des rendements locatifs élevés",
+    "resume": "La ville de Tarbes se positionne sur le marché en affichant des rendements locatifs élevés.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXRYWmd6bmpIc1lwN3NTaHFhbU5DcXhOX1pZQzVFRExGb0ttNnVINzFRWFYyMFdqTWVPVXBlcHg0UDByM2hMRmhuUENBbGN2Yl9mNTUxVDJ0TmRINEJMdnNXMkpkODNTd3ZSVmdrb0ZRZnptRjlERkVzb21tLTFhWHd2WkJFVG1hOWxmcVhkWUh3VjZ4cENMNTkzRXg4THEtNFY1NGdkT1pqQ0t4VnVmMFlGUXkyYUZvd1NDZV9pUXE?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Utile pour cibler des marchés de report secondaires offrant de la rentabilité locative. À surveiller : l'évolution de la demande locative locale.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "FISCAL – Vente immobilière : la responsabilité du notaire engagée pour une TVA indûment appliquée",
+    "resume": "La responsabilité d'un notaire a été engagée suite à une application indue de la TVA lors d'une vente immobilière.",
+    "source": "LE MAG' JURIDIQUE",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVlhTS2h0TGVmdWlBVmdxbWVBM0U5aktma3R5SHVLVWZYZElMUVY4SEkxWUpCS0M0MGpYdjJueGc5cU5ud2dFTlFUWGxBS2MybVJPdW9JMGprSm4yX0FfTVItRjRzbWFoMjh4RjBpTVRsUzJGTWswSkhxVmxGUDhEZkNUdE9YeTRtRFdvMldURnZkMGtfSjJLbHZ5bzlGa0QyeG9YVUtPcHYzanliY05NcW9yNGp0TkRNaU9SbVZ4YXhpUzVtS00tTTRoRWlINHM?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Concerne le risque juridique et fiscal des transactions. À surveiller : la rigueur dans le traitement fiscal des cessions pour sécuriser les opérations.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Colocation en 2026 : une solution attractive face à la hausse des loyers",
+    "resume": "La colocation gagne en attractivité en 2026 comme alternative face à la hausse générale des loyers.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRnRIQ05ETkhTVk16TkJ1U241T3JPN19zUkdPWncxVEpMN3JQY0ZqdlZkYlJPQ1NTOGdzZURtNGppcnpZWE1ZQTUyOU1fRUVpbEhBNlRiWGNEQTEtWjhUMjZyWW9GYkl3UDZaSlFUU3hZQnRNU0JfZm1wTlozT3l0RUFHbXlZMmxLaE9EZTlvUlYzVG1IZkJtRE9Gc2hac3ZDUWlrX2ozbkRqcng4STFmUWtHTlAxbGJXYlVBWGZuQlJlc2V2MHYwWDY5dks4cHJuTkx5NnQ4Mmh4OWVHTHBLaFJwUU9Zc0U?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "S'adresse au secteur de l'investissement locatif étudiant et urbain. À surveiller : les tensions sur les loyers et la demande pour ce type de bail.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Canicule et passoires thermiques : les données climatiques influent sur les prix de l’immobilier à Château-Renault",
+    "resume": "Les données climatiques et les épisodes de canicule influencent désormais directement les prix des passoires thermiques à Château-Renault.",
+    "source": "lanouvellerepublique.fr",
+    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPQ3BXX1M1RGw2cnNuaXhpczhpYmpNamNFTlN3X2swWm1waFRSY2tsaVk3OWVlQ1JuOERNWkFUNEk5cHIwQ05fZDUwYXAtV0ctX2g5NzJSSzMtdzN5SUlmS1haSDMxbERLMFl3YlpaOHRpbkx2UjFrMXNwVmlFSm85WVdVMThmei1HdHpjMV9Rb3Boem9iY0pOekNkSm42OS11R2hITDNOSzV1U2dHRHlQYXRES1FiRnQtQVZIcnU2WU53dTA1bTJEeEpkY1RQZHByRUV3d2JxZGZyRG1OZ2pPalIyZHdzQjBHX0ZvLWw5dGlIazNqcmc3VWgwaXB5anc4TVhobzRpcmtWZE9XNU5CZEtqTmNyWXNUSmF2aHVIRWlNQXVE?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Concerne l'impact de la transition énergétique sur la valorisation des biens anciens. À surveiller : la décote des passoires thermiques selon la géographie.",
+    "impact": "baisse"
+   }
+  ]
+ }
 }
