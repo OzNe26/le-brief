@@ -885,7 +885,7 @@ async function loadAlerts(force){
 function alBuild(base){ // assemble les réglages à enregistrer
   const r={...base}; const pfAuto=(r.assets||[]).includes("pf:auto");
   const chosen=(r.assets||[]).filter(k=>AL_ASSETS.some(a=>a[0]===k));
-  const sys=(r.assets||[]).includes("sys:health")?["sys:health"]:[];
+  const sys=isAdmin()&&(r.assets||[]).includes("sys:health")?["sys:health"]:[];
   r.assets=[...new Set([...sys,...(pfAuto?["pf:auto"]:[]),...chosen,...(pfAuto?pfKeys():[])])].slice(0,60);
   r.keywords=(state.prefs.watch||[]).slice(0,40); r.updated_at=new Date().toISOString(); return r; }
 async function saveAlerts(row,msg){
@@ -895,6 +895,8 @@ async function saveAlerts(row,msg){
   alState.row=data||r; if(msg) toast(msg); if(state.tab==="espace") render(); return true; }
 let alSyncT=null;
 function syncAlerts(){ if(!sb||!state.user||!alState.row) return; clearTimeout(alSyncT); alSyncT=setTimeout(()=>saveAlerts(alState.row),1500); }
+const ADMIN_IDS=["4e08bbf0-78fc-4dd5-984c-2144202bbae0"]; // seul l'admin du site voit l'option « panne des robots »
+const isAdmin=()=>!!(state.user&&ADMIN_IDS.includes(state.user.id));
 const VAPID_PUBLIC="BFy2HqHitiE1eaIOTQnjJD9421RapbvY7ED3IsxR5EmSrqYcJzJcMlO3nBn1DzexDjwjnMHQvAnLkTWX0K7qMU0";
 const PUSH_OK=("serviceWorker" in navigator)&&("PushManager" in window)&&("Notification" in window);
 var pushState={checked:false,sub:null,devices:0,busy:false};
@@ -957,7 +959,7 @@ function alertsHtml(){
       <select id="alpct">${[3,5,8,10,15,20].map(v=>`<option value="${v}" ${+r.pct===v?"selected":""}>±${v} %</option>`).join("")}</select> sur 24 h (une fois par jour et par sens)</small></span>
       <div class="alassets"><label class="alchip ${pfAuto?"on":""}"><input type="checkbox" data-al="pf:auto" ${pfAuto?"checked":""}>💼 Mes actifs du portefeuille${nPf?` (${nPf})`:""}</label>
       ${AL_ASSETS.map(([k,n])=>`<label class="alchip ${chosen.has(k)?"on":""}"><input type="checkbox" data-al="${k}" ${chosen.has(k)?"checked":""}>${esc(n)}</label>`).join("")}</div></div>
-    <label class="alrow"><input type="checkbox" id="alhealth" ${(r.assets||[]).includes("sys:health")?"checked":""}><span><b>🛠 Me prévenir si le site ne se met plus à jour</b><small>Une notification si un robot tombe en panne (actus, cours, analyse…), puis une autre quand c'est réparé. Utile pour la personne qui gère le site.</small></span></label>
+    ${isAdmin()?`<label class="alrow"><input type="checkbox" id="alhealth" ${(r.assets||[]).includes("sys:health")?"checked":""}><span><b>🛠 Me prévenir si le site ne se met plus à jour</b><small>Une notification si un robot tombe en panne (actus, cours, analyse…), puis une autre quand c'est réparé. Réservé à l'admin du site.</small></span></label>`:""}
     <div class="pfbtns" style="margin-top:6px"><button class="lnk" type="button" id="aloff">${r.enabled===false?"▶ Réactiver les notifications":"⏸ Mettre les notifications en pause (tous mes appareils)"}</button></div>
     ${r.enabled===false?'<p class="alhelp" style="color:var(--down)">En pause : tu ne reçois rien.</p>':""}</section>`;
 }

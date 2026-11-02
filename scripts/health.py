@@ -11,6 +11,7 @@ import alerts
 ROOT = __file__.rsplit("/scripts/", 1)[0]
 NOW = datetime.now(timezone.utc)
 SITE = alerts.SITE
+ADMIN_IDS = {"4e08bbf0-78fc-4dd5-984c-2144202bbae0"}  # seul l'admin du site reçoit les alertes de panne
 # (fichier, nom affiché, retard toléré en heures, robot GitHub)
 CHECKS = [
     ("news_live.json", "Le fil d'actus en direct", 0.75, "Fil d'actus en direct"),
@@ -57,7 +58,7 @@ def main():
         secret = os.environ.get("ALERT_SECRET", "").strip()
         subs = []
         if secret:
-            try: subs = [s for s in alerts.rpc("robot_alert_targets", {"p_secret": secret}) if "sys:health" in (s.get("assets") or [])]
+            try: subs = [s for s in alerts.rpc("robot_alert_targets", {"p_secret": secret}) if "sys:health" in (s.get("assets") or []) and s.get("user_id") in ADMIN_IDS]
             except Exception as e: print("Lecture des abonnés impossible :", str(e)[:120])
         for s in subs:
             send = alerts.Sender(s, secret)
