@@ -29,7 +29,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Outils pour les notifications du site
-        run: pip install -q pywebpush==2.* || echo "pywebpush indisponible : notifications du site désactivées pour ce passage"
+        run: |
+          pip install -q "pywebpush==2.*" || echo "pywebpush indisponible, notifications du site sautées pour ce passage"
       - name: Actualiser toutes les 5 minutes (le robot reste actif ~50 min puis passe le relais)
         env:
           ALERT_SECRET: ${{ secrets.ALERT_SECRET }}
