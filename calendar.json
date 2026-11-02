@@ -1,0 +1,330 @@
+{
+"updatedAt": "2026-11-02T12:52:56+00:00",
+"events": [
+{
+"d": "2026-11-02T10:00:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Indice ISM manufacturier",
+"sub": "🇺🇸 États-Unis · prévu 54.5 · précédent 54.5",
+"imp": 2
+},
+{
+"d": "2026-11-02T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Apple",
+"sub": "AAPL · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 3,
+"tick": "AAPL"
+},
+{
+"d": "2026-11-02T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Palantir",
+"sub": "PLTR · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "PLTR"
+},
+{
+"d": "2026-11-03T10:00:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Offres d'emploi (JOLTS)",
+"sub": "🇺🇸 États-Unis · prévu 7.11M · précédent 7.08M",
+"imp": 2
+},
+{
+"d": "2026-11-03T10:16:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Élections de mi-mandat américaines",
+"sub": "🇺🇸 États-Unis",
+"imp": 3
+},
+{
+"d": "2026-11-03T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de MARA Holdings",
+"sub": "MARA · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "MARA"
+},
+{
+"d": "2026-11-03T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Shopify",
+"sub": "SHOP · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "SHOP"
+},
+{
+"d": "2026-11-03T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Pfizer",
+"sub": "PFE · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "PFE"
+},
+{
+"d": "2026-11-03T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Eaton, PLC",
+"sub": "ETN · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "ETN"
+},
+{
+"d": "2026-11-03T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de AMD",
+"sub": "AMD · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "AMD"
+},
+{
+"d": "2026-11-03T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Amgen",
+"sub": "AMGN · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "AMGN"
+},
+{
+"d": "2026-11-03T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Arista Networks",
+"sub": "ANET · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "ANET"
+},
+{
+"d": "2026-11-04T10:00:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Indice ISM des services",
+"sub": "🇺🇸 États-Unis · prévu 54.9 · précédent 54.9",
+"imp": 2
+},
+{
+"d": "2026-11-04T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Toyota Motor Corp Ltd Ord",
+"sub": "TM · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "TM"
+},
+{
+"d": "2026-11-04T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de McDonald's",
+"sub": "MCD · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "MCD"
+},
+{
+"d": "2026-11-04T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Novo Nordisk",
+"sub": "NVO · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "NVO"
+},
+{
+"d": "2026-11-04T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Uber",
+"sub": "UBER · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "UBER"
+},
+{
+"d": "2026-11-04T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Circle",
+"sub": "CRCL · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "CRCL"
+},
+{
+"d": "2026-11-04T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Riot Platforms",
+"sub": "RIOT · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "RIOT"
+},
+{
+"d": "2026-11-04T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Arm",
+"sub": "ARM · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "ARM"
+},
+{
+"d": "2026-11-04T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de QUALCOMM Incorporated",
+"sub": "QCOM · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "QCOM"
+},
+{
+"d": "2026-11-05T08:30:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Inscriptions hebdomadaires au chômage",
+"sub": "🇺🇸 États-Unis · prévu 197K · précédent 194K",
+"imp": 2
+},
+{
+"d": "2026-11-05T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de ConocoPhillips",
+"sub": "COP · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "COP"
+},
+{
+"d": "2026-11-05T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Sony Group",
+"sub": "SONY · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "SONY"
+},
+{
+"d": "2026-11-05T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Airbnb",
+"sub": "ABNB · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "ABNB"
+},
+{
+"d": "2026-11-06T08:30:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Salaires horaires",
+"sub": "🇺🇸 États-Unis · prévu 0.3% · précédent 0.1%",
+"imp": 3
+},
+{
+"d": "2026-11-06T08:30:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Emploi américain (NFP)",
+"sub": "🇺🇸 États-Unis · prévu 63K · précédent 29K",
+"imp": 3
+},
+{
+"d": "2026-11-06T08:30:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Taux de chômage",
+"sub": "🇺🇸 États-Unis · prévu 4.2% · précédent 4.2%",
+"imp": 3
+},
+{
+"d": "2026-11-06T10:00:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Moral des consommateurs (Michigan)",
+"sub": "🇺🇸 États-Unis · prévu 47.8 · précédent 46.3",
+"imp": 2
+},
+{
+"d": "2026-11-06T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Berkshire Hathaway",
+"sub": "BRK.A · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "BRK.A"
+},
+{
+"d": "2026-11-06T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Berkshire Hathaway",
+"sub": "BRK.B · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "BRK.B"
+},
+{
+"d": "2026-11-11T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Cisco Systems",
+"sub": "CSCO · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "CSCO"
+},
+{
+"d": "2026-11-12T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Applied Materials",
+"sub": "AMAT · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "AMAT"
+},
+{
+"d": "2026-11-13T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Mitsubishi UFJ Financial Group Inc",
+"sub": "MUFG · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "MUFG"
+},
+{
+"d": "2026-11-13T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Sumitomo Mitsui Financial Group Inc",
+"sub": "SMFG · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "SMFG"
+},
+{
+"d": "2026-12-09T20:00:00+01:00",
+"allday": false,
+"cat": "banques",
+"title": "Décision de taux de la Fed",
+"sub": "Réserve fédérale américaine · conférence de presse 30 min après",
+"imp": 3
+},
+{
+"d": "2026-12-17T14:15:00+01:00",
+"allday": false,
+"cat": "banques",
+"title": "Décision de taux de la BCE",
+"sub": "Banque centrale européenne · conférence de presse à 14h45",
+"imp": 3
+}
+],
+"errors": [
+"Déblocages de tokens : HTTP Error 402: Payment Required"
+]
+}
