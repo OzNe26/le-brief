@@ -1,0 +1,37 @@
+name: Cours pour le portefeuille
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # toutes les 30 minutes (GitHub peut décaler)
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update_prices.py"
+      - ".github/workflows/prices.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: true
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Récupérer les cours
+        run: python3 scripts/update_prices.py
+      - name: Enregistrer
+        run: |
+          if [ -z "$(git status --porcelain -- prices.json)" ]; then echo "Rien de nouveau"; exit 0; fi
+          git config user.name "le-brief-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices.json
+          git commit -q -m "Cours du portefeuille $(date -u +%H:%M) UTC"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
