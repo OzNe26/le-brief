@@ -952,11 +952,11 @@ function renderAudio(main){
 
 
 /* ================= Analyse des marchés ================= */
-const anState={data:null,claude:null,loading:false,failed:false,f:"",ia:""};
+const anState={data:null,loading:false,failed:false,f:"",ia:""};
 async function loadAnalysis(force){
   if(anState.loading||(anState.data&&!force)) return; anState.loading=true;
-  try{ const [a,c]=await Promise.all([fetch("analysis.json?t="+Date.now(),{cache:"no-store"}),fetch("analysis_claude.json?t="+Date.now(),{cache:"no-store"}).catch(()=>null)]);
-    if(!a.ok) throw 0; anState.data=await a.json(); anState.claude=c&&c.ok?await c.json():null; anState.failed=false; }
+  try{ const a=await fetch("analysis.json?t="+Date.now(),{cache:"no-store"});
+    if(!a.ok) throw 0; anState.data=await a.json(); anState.failed=false; }
   catch(e){ anState.failed=true; }
   anState.loading=false; if(state.tab==="analyse") render();
 }
@@ -967,12 +967,9 @@ function sparkSvg(v){ if(!v||v.length<2) return ""; const mn=Math.min(...v),mx=M
   const col=v[v.length-1]>=v[0]?"var(--up)":"var(--down)"; return `<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>`; }
 function renderAnalyse(main){
   loadAnalysis();
-  const d=anState.data, cl=anState.claude;
-  // Panel : les IA automatiques + l'avis de Claude s'il a moins de 3 jours
+  const d=anState.data;
+  // Panel : les IA automatiques
   const panel=((d&&d.panel)||[]).filter(p=>p&&p.global).map(p=>({...p}));
-  if(cl&&cl.global&&(Date.now()-new Date(cl.updatedAt))<72*3600e3)
-    panel.push({id:"claude",nom:"Claude",editeur:"Anthropic",style:"Mon avis perso",emoji:"🧠",updatedAt:cl.updatedAt,global:cl.global,
-      assets:Object.fromEntries(Object.entries(cl.assets||{}).map(([k,v])=>[k,{avis:v,tendance:""}]))});
   if(!panel.some(p=>p.id===anState.ia)) anState.ia=panel[0]?panel[0].id:"";
   const cur=panel.find(p=>p.id===anState.ia);
   const tIcon=t=>t==="haussier"?"▲":t==="baissier"?"▼":t==="neutre"?"●":"";
