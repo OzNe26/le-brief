@@ -198,7 +198,7 @@ def main():
     down = sum(1 for i in out["assets"] if i["data"]["verdict"] == "Baissier")
     out["mood"] = {"haussier": up, "baissier": down, "neutre": len(out["assets"]) - up - down}
     json.dump(out, open(f"{ROOT}/analysis.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"{len(out['assets'])} actifs, IA : {status}, erreurs : {out['errors']}")
+    print(f"{len(out['assets'])} actifs, IA : {out['ai']}, erreurs : {out['errors']}")
     for i in out["assets"]:
         d = i["data"]; print(f" {i['id']:5} {fmt(d['price']):>10} 30j {sgn(d['ch']['30j']):>9} RSI {d['rsi'] or 0:4.0f} -> {d['verdict']} ({i['source']})")
 
