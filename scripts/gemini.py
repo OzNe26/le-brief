@@ -3,7 +3,8 @@
 La clé est lue dans la variable d'environnement GEMINI_API_KEY (secret GitHub), jamais écrite dans le dépôt."""
 import json, os, re, time, urllib.error, urllib.request
 
-MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-flash-lite-latest"]
+# « -latest » suit toujours la version actuelle (les anciens noms comme gemini-2.5-flash sont retirés).
+MODELS = ["gemini-flash-latest", "gemini-flash-lite-latest"]
 URL = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
 
 
@@ -22,8 +23,11 @@ def ask_json(prompt, temperature=0.4, max_tokens=8192):
                              "responseMimeType": "application/json"},
     }).encode()
     errs = []
-    for model in MODELS:
-        for attempt in range(3):
+    # 1er passage rapide : si un modèle est saturé, on passe tout de suite au suivant.
+    # 2e passage : on réessaie après une petite attente (les pics de demande sont passagers).
+    for wait in (0, 25):
+        for model in MODELS:
+            if wait: time.sleep(wait)
             req = urllib.request.Request(URL.format(model), data=body, method="POST", headers={
                 "Content-Type": "application/json", "x-goog-api-key": key})
             try:
@@ -32,18 +36,13 @@ def ask_json(prompt, temperature=0.4, max_tokens=8192):
                 parts = data["candidates"][0]["content"]["parts"]
                 txt = "".join(p.get("text", "") for p in parts if not p.get("thought"))
                 m = re.search(r"\{.*\}", txt, re.S)
-                if errs: print("  (IA) modèles précédents indisponibles :", " | ".join(errs)[:600])
-                return json.loads(m.group(0) if m else txt), model
+                out = json.loads(m.group(0) if m else txt)
+                if errs: print("  (IA) essais précédents :", " | ".join(errs)[:400])
+                return out, model
             except urllib.error.HTTPError as e:
-                try: detail = e.read().decode("utf-8", "replace")[:200]
+                try: detail = json.loads(e.read()).get("error", {}).get("message", "")[:120]
                 except Exception: detail = ""
                 errs.append(f"{model} HTTP {e.code} {detail}")
-                if e.code in (429, 500, 503) and attempt < 2:
-                    time.sleep(20 * (attempt + 1)); continue
-                break  # 400/403/404 : on passe au modèle suivant
             except Exception as e:
-                errs.append(f"{model} {str(e)[:150]}")
-                if attempt < 1:
-                    time.sleep(5); continue
-                break
+                errs.append(f"{model} {str(e)[:120]}")
     raise RuntimeError(" | ".join(errs)[-900:])
