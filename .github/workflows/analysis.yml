@@ -9,6 +9,7 @@ on:
     paths:
       - "scripts/update_analysis.py"
       - "scripts/gemini.py"
+      - "scripts/avis_ia.py"
       - ".github/workflows/analysis.yml"
 
 permissions:
@@ -21,7 +22,7 @@ concurrency:
 jobs:
   analyse:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,6 +31,8 @@ jobs:
       - name: Analyser les 10 actifs
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python3 scripts/update_analysis.py
       - name: Enregistrer
         run: |

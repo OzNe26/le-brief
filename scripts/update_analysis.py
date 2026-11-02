@@ -2,7 +2,7 @@
 """Analyse automatique quotidienne de 10 actifs (crypto + actions US) -> analysis.json.
 Cours : Binance (miroir public data-api.binance.vision) pour la crypto, Yahoo Finance puis Stooq pour les actions.
 Indicateurs calculés ici (moyennes mobiles, RSI, volatilité, supports/résistances), verdict par règles,
-texte rédigé par règles. Si la clé Gemini est présente (secret GEMINI_API_KEY), l'IA ajoute son avis.
+texte rédigé par règles. Puis le panel de 4 IA gratuites (scripts/avis_ia.py) donne ses avis, selon les clés présentes.
 Bibliothèque standard uniquement. Ce n'est pas un conseil en investissement."""
 import sys
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
@@ -176,34 +176,6 @@ def related_news(a):
     return out[:4]
 
 # ---------------- IA (facultatif, GitHub Models) ----------------
-def ai_avis(items):
-    """Avis rédigé par l'IA Gemini (gratuite) à partir des indicateurs et des actus : opinion prudente, jamais un conseil."""
-    import gemini
-    if not gemini.has_key(): return None, "pas de clé GEMINI_API_KEY"
-    brief = [{"id": i["id"], "actif": i["name"], "type": i["type"], "prix_usd": i["data"]["price"],
-              "variations_%": {k: (round(v, 1) if v is not None else None) for k, v in i["data"]["ch"].items()},
-              "moyenne50": i["data"]["sma50"], "moyenne200": i["data"]["sma200"], "rsi14": i["data"]["rsi"],
-              "volatilite_annualisee_%": i["data"]["vol"], "support_20j": i["data"]["support"], "resistance_20j": i["data"]["resistance"],
-              "verdict_technique": i["data"]["verdict"], "actus_du_moment": [n["titre"] for n in i["news"]]} for i in items]
-    prompt = ("Tu tiens la rubrique « L'avis de l'IA » du site français Le Brief Invest, lu par de jeunes investisseurs particuliers. "
-              "À partir UNIQUEMENT des données ci-dessous (indicateurs techniques et titres d'actus), donne ton opinion personnelle, "
-              "prudente et nuancée, en français simple.\n"
-              "Réponds en JSON strict : {\"global\": \"4 à 6 phrases : ta lecture d'ensemble du marché crypto et actions en ce moment, "
-              "et ce que tu surveilles\", \"assets\": {\"ID\": \"2 à 4 phrases qui commencent par 'Mon avis : ', sur cet actif\"}} "
-              "avec une entrée pour chaque ID fourni.\n"
-              "Règles : n'invente aucun chiffre ni aucune info absente des données ; arrondis les prix ; aucun conseil d'achat ou de vente, "
-              "aucun objectif de prix ; reste mesuré (dis quand le signal est incertain).\n\n" + json.dumps(brief, ensure_ascii=False))
-    try:
-        res, model = gemini.ask_json(prompt, temperature=0.5)
-    except Exception as e:
-        return None, f"échec IA : {e}"
-    ids = {i["id"] for i in items}
-    assets = {k: str(v).strip()[:700] for k, v in (res.get("assets") or {}).items() if k in ids and isinstance(v, str) and len(v) > 40}
-    glob = str(res.get("global") or "").strip()
-    if len(glob) < 80 or len(assets) < len(ids) // 2: return None, "réponse IA incomplète"
-    return {"updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"), "par": "Gemini", "modele": model,
-            "global": glob[:1500], "assets": assets}, f"ok ({model})"
-
 def main():
     out = {"updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"), "assets": [], "errors": [], "method": "règles"}
     for a in ASSETS:
@@ -216,15 +188,12 @@ def main():
         except Exception as e:
             out["errors"].append(f"{a['id']} : {str(e)[:160]}")
         time.sleep(0.4)
-    avis, status = ai_avis(out["assets"])
-    out["ai"] = status
-    if avis:
-        out["avis"] = avis
-    else:  # on garde le dernier avis IA réussi s'il existe
-        try:
-            prev = json.load(open(f"{ROOT}/analysis.json", encoding="utf-8")).get("avis")
-            if prev: out["avis"] = prev
-        except Exception: pass
+    import avis_ia
+    try: previous = json.load(open(f"{ROOT}/analysis.json", encoding="utf-8")).get("panel")
+    except Exception: previous = None
+    panel, log = avis_ia.run(out["assets"], previous)
+    out["panel"] = panel
+    out["ai"] = " · ".join(log)
     up = sum(1 for i in out["assets"] if i["data"]["verdict"] == "Haussier")
     down = sum(1 for i in out["assets"] if i["data"]["verdict"] == "Baissier")
     out["mood"] = {"haussier": up, "baissier": down, "neutre": len(out["assets"]) - up - down}
