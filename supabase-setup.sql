@@ -115,3 +115,7 @@ returns boolean language sql security definer set search_path = public stable as
   select not exists (select 1 from public.profiles where lower(pseudo) = lower(trim(p)));
 $$;
 grant execute on function public.pseudo_dispo(text) to anon, authenticated;
+
+-- Radios favorites et progression des podcasts (ajout du 2 nov. 2026)
+alter table public.user_prefs add column if not exists radios jsonb not null default '[]'::jsonb;
+alter table public.user_prefs add column if not exists progress jsonb not null default '{}'::jsonb;

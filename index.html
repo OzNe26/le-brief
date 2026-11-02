@@ -208,6 +208,12 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .rlogo.img{background-color:#fff;background-size:86%;background-position:center}
 .radio b{display:block;font-size:14.5px}
 .radio small{color:var(--dim);font-size:12px}
+.rfav{all:unset;cursor:pointer;width:30px;height:30px;display:grid;place-items:center;font-size:18px;color:var(--dim);flex:none;border-radius:50%}.rfav:hover{color:var(--ink);background:var(--panel2)}.rfav.on{color:#facc15}
+.prog{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--audio);margin-top:4px}.prog.done{color:var(--up)}
+.bar{display:inline-block;height:4px;border-radius:2px;background:var(--line);overflow:hidden;width:90px;flex:none}.bar i{display:block;height:100%;background:var(--audio)}
+.resume{display:flex;flex-direction:column;gap:8px;margin-bottom:22px}.rs{display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.rs img{width:46px;height:46px;border-radius:8px;object-fit:cover;flex:none}.rsb{flex:1;min-width:0}.rsb b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.rsb small{display:block;color:var(--dim);font-size:12px;margin:2px 0 6px}.rsb .bar{width:100%}
+.rsp,.rsx{all:unset;cursor:pointer;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex:none;font-size:13px}.rsp{background:var(--audio);color:#0b1220}.rsx{color:var(--dim);border:1px solid var(--line)}.rsx:hover{color:var(--up)}
 .rplay{margin-left:auto;width:32px;height:32px;border-radius:50%;background:var(--audio);color:#0b1220;display:flex;align-items:center;justify-content:center;font-size:13px;flex:none}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px;margin-bottom:10px}
 .pod{all:unset;cursor:pointer;display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:.15s}
@@ -449,28 +455,39 @@ function frErr(e){
 }
 
 /* ================= Préférences (local + compte) ================= */
-function loadLocal(){try{const v=JSON.parse(localStorage.getItem(LS_KEY)||"null");if(v)return{saved:Array.isArray(v.saved)?v.saved:[],watch:Array.isArray(v.watch)?v.watch:[]}}catch(e){}return{saved:[],watch:[]}}
-let prefTimer=null;
+function loadLocal(){try{const v=JSON.parse(localStorage.getItem(LS_KEY)||"null");if(v)return{saved:Array.isArray(v.saved)?v.saved:[],watch:Array.isArray(v.watch)?v.watch:[],radios:Array.isArray(v.radios)?v.radios:[],progress:(v.progress&&typeof v.progress==="object")?v.progress:{}}}catch(e){}return{saved:[],watch:[],radios:[],progress:{}}}
+function trimProgress(pr){ // on garde les 60 épisodes les plus récents
+  return Object.fromEntries(Object.entries(pr||{}).sort((a,b)=>(b[1].t||0)-(a[1].t||0)).slice(0,60)); }
+function prefsPayload(){ return {saved:state.prefs.saved.slice(0,150),watch:state.prefs.watch.slice(0,40),radios:(state.prefs.radios||[]).slice(0,40),progress:trimProgress(state.prefs.progress)}; }
+let prefTimer=null, quietSave=false;
 function savePrefs(){
-  try{localStorage.setItem(LS_KEY,JSON.stringify({saved:state.prefs.saved.slice(0,150),watch:state.prefs.watch.slice(0,40)}))}catch(e){}
+  const pl=prefsPayload();
+  try{localStorage.setItem(LS_KEY,JSON.stringify(pl))}catch(e){}
   if(sb&&state.user){ clearTimeout(prefTimer); prefTimer=setTimeout(async()=>{
-    const {error}=await sb.from("user_prefs").upsert({user_id:state.user.id,saved:state.prefs.saved.slice(0,150),watch:state.prefs.watch.slice(0,40),updated_at:new Date().toISOString()});
+    const row={user_id:state.user.id,saved:pl.saved,watch:pl.watch,updated_at:new Date().toISOString()};
+    if(!state.noAudioCols){ row.radios=pl.radios; row.progress=pl.progress; }
+    let {error}=await sb.from("user_prefs").upsert(row);
+    if(error&&/radios|progress|column/i.test(error.message||"")){ state.noAudioCols=true; delete row.radios; delete row.progress; ({error}=await sb.from("user_prefs").upsert(row)); }
     if(error) toast("Sauvegarde en ligne impossible pour l'instant");
-  },500); }
+  },quietSave?4000:500); quietSave=false; }
 }
 async function loadPrefs(){
   if(!sb||!state.user) return;
-  const {data,error}=await sb.from("user_prefs").select("saved,watch").eq("user_id",state.user.id).maybeSingle();
+  let {data,error}=await sb.from("user_prefs").select("saved,watch,radios,progress").eq("user_id",state.user.id).maybeSingle();
+  if(error){ state.noAudioCols=true; ({data,error}=await sb.from("user_prefs").select("saved,watch").eq("user_id",state.user.id).maybeSingle()); }
   if(error) return;
   const local=state.prefs;
   if(data){
-    const merged={saved:[...(data.saved||[])],watch:[...(data.watch||[])]};
-    for(const s of local.saved) if(!merged.saved.some(x=>keyOf(x)===keyOf(s))) merged.saved.push(s);
-    for(const w of local.watch) if(!merged.watch.some(x=>x.toLowerCase()===w.toLowerCase())) merged.watch.push(w);
+    const merged={saved:[...(data.saved||[])],watch:[...(data.watch||[])],radios:[...(data.radios||[])],progress:{...(data.progress||{})}};
+    let changed=false;
+    for(const s of local.saved) if(!merged.saved.some(x=>keyOf(x)===keyOf(s))){ merged.saved.push(s); changed=true; }
+    for(const w of local.watch) if(!merged.watch.some(x=>x.toLowerCase()===w.toLowerCase())){ merged.watch.push(w); changed=true; }
+    for(const r of local.radios||[]) if(!merged.radios.some(x=>x.url===r.url)){ merged.radios.push(r); changed=true; }
+    for(const [u,v] of Object.entries(local.progress||{})) if(!merged.progress[u]||(merged.progress[u].t||0)<(v.t||0)){ merged.progress[u]=v; changed=true; }
     state.prefs=merged;
-    if(merged.saved.length!==(data.saved||[]).length||merged.watch.length!==(data.watch||[]).length) savePrefs();
-    else { try{localStorage.setItem(LS_KEY,JSON.stringify(merged))}catch(e){} }
-  } else if(local.saved.length||local.watch.length){ savePrefs(); }
+    if(changed&&!state.noAudioCols) savePrefs(); else if(changed) savePrefs();
+    else { try{localStorage.setItem(LS_KEY,JSON.stringify(prefsPayload()))}catch(e){} }
+  } else if(local.saved.length||local.watch.length||(local.radios||[]).length||Object.keys(local.progress||{}).length){ savePrefs(); }
   render();
 }
 function watchHit(i){const txt=(i.titre+" "+i.resume+" "+(i.pourquoi||"")).toLowerCase();return state.prefs.watch.find(w=>w&&txt.includes(w.toLowerCase()))}
@@ -874,7 +891,7 @@ function playItem(item){
     loadHls().then(Hls=>{ if(P.cur!==item) return; if(!Hls||!Hls.isSupported()){toast("Ce flux n'est pas lisible dans ce navigateur");return}
       P.hls=new Hls(); P.hls.loadSource(item.url); P.hls.attachMedia(a); a.play().catch(()=>{}); });
   } else { a.src=item.url; a.load(); }
-  if(!item.live){ try{ const pos=+(localStorage.getItem("lb_pos:"+item.url)||0); if(pos>5) a.currentTime=pos; }catch(e){} }
+  if(!item.live){ const pr=progOf(item.url); if(pr&&!pr.done&&pr.p>5){ const go=()=>{ try{a.currentTime=pr.p}catch(e){} }; if(a.readyState>=1) go(); else a.addEventListener("loadedmetadata",go,{once:true}); } }
   if(!P.hls&&a.getAttribute("src")) a.play().catch(e=>{ if(e&&e.name!=="AbortError") toast("Lecture impossible : la source ne répond pas"); });
   const pl=document.getElementById("player"); pl.hidden=false; document.body.classList.add("playing");
   document.getElementById("pltitle").textContent=item.title;
@@ -888,7 +905,13 @@ function playItem(item){
 let hlsP=null;
 function loadHls(){ if(window.Hls) return Promise.resolve(window.Hls); if(hlsP) return hlsP;
   hlsP=new Promise(res=>{ const sc=document.createElement("script"); sc.src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"; sc.onload=()=>res(window.Hls); sc.onerror=()=>res(null); document.head.appendChild(sc); }); return hlsP; }
-function savePos(){ const a=document.getElementById("plaudio"); if(P.cur&&!P.cur.live&&a.currentTime>5){ try{ localStorage.setItem("lb_pos:"+P.cur.url,String(Math.floor(a.currentTime))) }catch(e){} } }
+function savePos(done){ const a=document.getElementById("plaudio"); if(!P.cur||P.cur.live) return;
+  if(!done&&a.currentTime<=5) return;
+  const c=P.cur, d=isFinite(a.duration)?Math.floor(a.duration):(state.prefs.progress[c.url]||{}).d||0;
+  state.prefs.progress[c.url]={p:done?0:Math.floor(a.currentTime),d,done:!!done||(d>0&&a.currentTime>d-30),t:Date.now(),ti:c.title,sh:c.sub||"",img:c.img||""};
+  quietSave=true; savePrefs(); }
+function progOf(url){ const v=state.prefs.progress&&state.prefs.progress[url]; if(v) return v;
+  try{ const p=+(localStorage.getItem("lb_pos:"+url)||0); if(p>5) return {p,d:0}; }catch(e){} return null; }
 (function initPlayer(){
   const a=document.getElementById("plaudio"), play=document.getElementById("plplay"), seek=document.getElementById("plseek");
   try{ a.volume=+(localStorage.getItem("lb_vol")||1); document.getElementById("plvol").value=a.volume; }catch(e){}
@@ -897,8 +920,8 @@ function savePos(){ const a=document.getElementById("plaudio"); if(P.cur&&!P.cur
   a.addEventListener("pause",()=>{play.textContent="▶"; savePos(); if(state.tab==="audio") render();});
   a.addEventListener("timeupdate",()=>{ if(!P.cur||P.cur.live) return; document.getElementById("plcur").textContent=fmtT(a.currentTime);
     document.getElementById("pldur").textContent=fmtT(a.duration); if(a.duration&&!seek.matches(":active")) seek.value=Math.round(a.currentTime/a.duration*1000);
-    if(Math.floor(a.currentTime)%15===0) savePos(); });
-  a.addEventListener("ended",()=>{ try{localStorage.removeItem("lb_pos:"+P.cur.url)}catch(e){} });
+    const sec=Math.floor(a.currentTime); if(sec%15===0&&sec!==P.lastSave){ P.lastSave=sec; savePos(); } });
+  a.addEventListener("ended",()=>{ savePos(true); try{localStorage.removeItem("lb_pos:"+P.cur.url)}catch(e){} if(state.tab==="audio") render(); });
   a.addEventListener("error",()=>{ if(P.cur) toast("Cette source ne répond pas pour l'instant"); });
   seek.addEventListener("input",()=>{ if(a.duration) a.currentTime=seek.value/1000*a.duration; });
   document.getElementById("plback").addEventListener("click",()=>{a.currentTime=Math.max(0,a.currentTime-15)});
@@ -925,11 +948,31 @@ async function searchRadios(q){
   if(!res) toast("Recherche indisponible pour l'instant");
   render();
 }
+function isFavRadio(url){ return (state.prefs.radios||[]).some(x=>x.url===url); }
 function radioCard(r){
-  const on=isPlaying(r.url);
-  return `<button class="radio ${on?"on":""}" data-url="${esc(r.url)}" data-label="${esc(r.label)}" data-cat="${esc(r.cat||"")}" data-logo="${esc(r.logo||"")}">
+  const on=isPlaying(r.url), fav=isFavRadio(r.url);
+  return `<div class="radio ${on?"on":""}" role="button" tabindex="0" data-url="${esc(r.url)}" data-label="${esc(r.label)}" data-cat="${esc(r.cat||"")}" data-logo="${esc(r.logo||"")}">
     <span class="rlogo ${r.logo?"img":""}" ${r.logo?`style="background-image:url('${esc(r.logo)}')"`:""}>${r.logo?"":esc((r.label||"?").charAt(0))}</span>
-    <span style="min-width:0"><b>${esc(r.label)}</b><small>${esc(r.cat||"")}</small></span><span class="rplay">${on?"❚❚":"▶"}</span></button>`;
+    <span style="min-width:0;flex:1"><b>${esc(r.label)}</b><small>${esc(r.cat||"")}</small></span>
+    <button class="rfav ${fav?"on":""}" type="button" title="${fav?"Retirer de mes radios":"Ajouter à mes radios"}" aria-label="${fav?"Retirer de mes radios":"Ajouter à mes radios"}">${fav?"★":"☆"}</button><span class="rplay">${on?"❚❚":"▶"}</span></div>`;
+}
+function toggleFavRadio(r){
+  state.prefs.radios=state.prefs.radios||[];
+  const i=state.prefs.radios.findIndex(x=>x.url===r.url);
+  if(i>=0){ state.prefs.radios.splice(i,1); toast("Retirée de tes radios"); }
+  else { state.prefs.radios.unshift({label:r.label,url:r.url,cat:r.cat||"",logo:r.logo||""}); toast("Ajoutée à tes radios ⭐"); }
+  savePrefs(); render();
+}
+function progHtml(url){ const v=progOf(url); if(!v) return "";
+  if(v.done) return `<div class="prog done">✓ Écouté</div>`;
+  const pct=v.d?Math.min(100,Math.round(v.p/v.d*100)):0;
+  return `<div class="prog"><span class="bar"><i style="width:${pct}%"></i></span>Reprendre à ${fmtT(v.p)}${v.d?` / ${fmtT(v.d)}`:""}</div>`; }
+function resumeHtml(){
+  const list=Object.entries(state.prefs.progress||{}).filter(([u,v])=>!v.done&&v.p>5&&v.ti).sort((a,b)=>(b[1].t||0)-(a[1].t||0)).slice(0,6);
+  if(!list.length) return "";
+  return `<div class="toolbar"><h3>▶️ Reprendre l'écoute</h3></div><div class="resume">${list.map(([u,v])=>{const on=isPlaying(u), pct=v.d?Math.min(100,Math.round(v.p/v.d*100)):0;
+    return `<div class="rs">${v.img?`<img src="${esc(v.img)}" alt="" loading="lazy">`:""}<div class="rsb"><b>${esc(v.ti)}</b><small>${esc(v.sh||"")} · ${fmtT(v.p)}${v.d?` / ${fmtT(v.d)}`:""}</small><span class="bar"><i style="width:${pct}%"></i></span></div>
+      <button class="rsp" data-u="${esc(u)}" title="Reprendre">${on?"❚❚":"▶"}</button><button class="rsx" data-x="${esc(u)}" title="Marquer comme écouté">✓</button></div>`}).join("")}</div>`;
 }
 function renderAudio(main){
   loadAudio();
@@ -937,17 +980,24 @@ function renderAudio(main){
   const pods=d?d.podcasts||[]:[];
   const op=audioState.open!=null?pods[audioState.open]:null;
   main.innerHTML=`<section class="brief"><h2>🎧 Audio</h2><p>Radios en direct et derniers épisodes de podcasts éco, crypto et actu. Le son continue quand tu changes d'onglet.</p></section>
-    <div class="toolbar"><h3>📻 Radios en direct</h3></div>
+    ${resumeHtml()}
+    ${(state.prefs.radios||[]).length?`<div class="toolbar"><h3>⭐ Mes radios</h3></div><div class="agrid">${state.prefs.radios.map(radioCard).join("")}</div>`:""}
+    <div class="toolbar"><h3>📻 Radios en direct</h3>${(state.prefs.radios||[]).length?"":`<span style="color:var(--dim);font-size:12px">Touche ☆ pour ajouter une radio à tes favoris</span>`}</div>
     ${!d?(audioState.failed?'<div class="empty">Les radios arrivent bientôt.</div>':'<div class="loading">Chargement…</div>'):`<div class="agrid">${(d.radios||[]).map(radioCard).join("")}</div>`}
     <div class="toolbar"><h3>🔎 Trouver une autre radio</h3></div>
     <form class="asearch" id="asf"><input class="search" id="asq" placeholder="Nom d'une radio (ex : Skyrock, Nostalgie, BBC…)" value="${esc(audioState.q)}"><button class="btn" type="submit">Chercher</button></form>
     ${audioState.searching?'<div class="loading">Recherche…</div>':audioState.results?(audioState.results.length?`<div class="agrid">${audioState.results.map(radioCard).join("")}</div>`:'<div class="empty" style="margin-bottom:28px">Aucune radio trouvée.</div>'):""}
     <div class="toolbar"><h3>🎙️ Podcasts</h3>${d&&d.updatedAt?`<span style="color:var(--dim);font-size:12px;font-family:'JetBrains Mono',monospace">épisodes mis à jour ${ago(d.updatedAt)}</span>`:""}</div>
     ${d?(pods.length?`<div class="pgrid">${pods.map((p,i)=>`<button class="pod ${audioState.open===i?"open":""}" data-i="${i}"><img src="${esc(p.image)}" alt="" loading="lazy"><div><b>${esc(p.name)}</b><small>${esc(p.cat||p.author||"")}</small></div></button>`).join("")}</div>
-      ${op?`<div class="eps"><h4>${esc(op.name)}</h4>${op.episodes.map((e,j)=>{const on=isPlaying(e.audio);return `<div class="ep"><button data-j="${j}">${on?"❚❚":"▶"}</button><div><b>${esc(e.title)}</b><small>${e.date?ago(e.date):""}${e.duration?" · "+esc(/^\d+$/.test(e.duration)?fmtT(+e.duration):e.duration):""}</small>${e.desc?`<p>${esc(e.desc)}</p>`:""}</div></div>`}).join("")}
+      ${op?`<div class="eps"><h4>${esc(op.name)}</h4>${op.episodes.map((e,j)=>{const on=isPlaying(e.audio);return `<div class="ep"><button data-j="${j}">${on?"❚❚":"▶"}</button><div style="flex:1;min-width:0"><b>${esc(e.title)}</b><small>${e.date?ago(e.date):""}${e.duration?" · "+esc(/^\d+$/.test(e.duration)?fmtT(+e.duration):e.duration):""}</small>${progHtml(e.audio)}${e.desc?`<p>${esc(e.desc)}</p>`:""}</div></div>`}).join("")}
         <p style="margin-top:10px;display:flex;gap:16px;flex-wrap:wrap"><a href="${op.spotify?esc(safeUrl(op.spotify)):`https://open.spotify.com/search/${encodeURIComponent(op.name)}/podcasts`}" target="_blank" rel="noopener" style="color:#1ed760;font-size:13px">Écouter sur Spotify ↗</a>${op.apple?`<a href="${esc(safeUrl(op.apple))}" target="_blank" rel="noopener" style="color:var(--audio);font-size:13px">Apple Podcasts ↗</a>`:""}</p></div>`:'<p style="color:var(--dim);font-size:13px;margin-bottom:20px">Clique sur un podcast pour voir ses derniers épisodes.</p>'}`
       :'<div class="empty">Les podcasts arrivent bientôt.</div>'):""}`;
-  main.querySelectorAll(".radio").forEach(b=>b.addEventListener("click",()=>playItem({url:b.dataset.url,title:b.dataset.label,sub:b.dataset.cat,img:b.dataset.logo,live:true})));
+  main.querySelectorAll(".radio").forEach(b=>{ const r={url:b.dataset.url,label:b.dataset.label,cat:b.dataset.cat,logo:b.dataset.logo};
+    const go=()=>playItem({url:r.url,title:r.label,sub:r.cat,img:r.logo,live:true});
+    b.addEventListener("click",e=>{ if(e.target.closest(".rfav")){ e.stopPropagation(); toggleFavRadio(r); return; } go(); });
+    b.addEventListener("keydown",e=>{ if((e.key==="Enter"||e.key===" ")&&!e.target.closest(".rfav")){ e.preventDefault(); go(); } }); });
+  main.querySelectorAll(".resume [data-u]").forEach(b=>b.addEventListener("click",()=>{ const v=state.prefs.progress[b.dataset.u]; if(v) playItem({url:b.dataset.u,title:v.ti||"Épisode",sub:v.sh||"",img:v.img||"",live:false}); }));
+  main.querySelectorAll(".resume [data-x]").forEach(b=>b.addEventListener("click",()=>{ const v=state.prefs.progress[b.dataset.x]; if(v){ v.done=true; v.t=Date.now(); savePrefs(); render(); } }));
   main.querySelectorAll(".pod").forEach(b=>b.addEventListener("click",()=>{const i=+b.dataset.i;audioState.open=audioState.open===i?null:i;render();}));
   if(op) main.querySelectorAll(".ep button").forEach(b=>b.addEventListener("click",()=>{const e=op.episodes[+b.dataset.j];playItem({url:e.audio,title:e.title,sub:op.name,img:op.image,live:false});}));
   document.getElementById("asf").addEventListener("submit",e=>{e.preventDefault();searchRadios(document.getElementById("asq").value);});

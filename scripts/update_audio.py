@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Génère audio.json : radios en direct (via radio-browser.info) + derniers épisodes de podcasts (via iTunes + flux RSS).
 Uniquement la bibliothèque standard de Python. Lancé par .github/workflows/audio.yml."""
-import json, os, re, sys, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import html, json, os, re, sys, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -103,7 +103,7 @@ def find_radio(src):
             "uuid": st.get("stationuuid", "")}
 
 def clean(t, n=400):
-    t = re.sub(r"<[^>]+>", " ", t or "")
+    t = html.unescape(re.sub(r"<[^>]+>", " ", html.unescape(t or "")))
     t = re.sub(r"\s+", " ", t).strip()
     return t[:n] + ("…" if len(t) > n else "")
 
