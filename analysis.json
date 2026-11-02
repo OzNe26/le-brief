@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T09:34:29+00:00",
+ "updatedAt": "2026-11-02T09:45:22+00:00",
  "assets": [
   {
    "id": "BTC",
@@ -7,18 +7,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 78119.01,
+    "price": 78110.46,
     "ch": {
-     "1j": -0.2999081093498779,
-     "7j": -2.534667256223788,
-     "30j": -7.828048756889983,
-     "1an": 20.82248489777132
+     "1j": -0.3108201240523689,
+     "7j": -2.545334680131983,
+     "30j": -7.838136828706654,
+     "1an": 20.809261071126883
     },
-    "sma20": 80683.894,
-    "sma50": 82007.3184,
-    "sma200": 73211.6302,
-    "rsi": 38.65629099011111,
-    "vol": 27.94855929809788,
+    "sma20": 80683.46650000001,
+    "sma50": 82007.1474,
+    "sma200": 73211.58745,
+    "rsi": 38.62853679871185,
+    "vol": 27.94872098963004,
     "support": 76325.98,
     "resistance": 84898.0,
     "hi52": 87395.67,
@@ -59,10 +59,16 @@
      77368.77,
      77582.02,
      78354.0,
-     78119.01
+     78110.46
     ]
    },
    "news": [
+    {
+     "titre": "Élections de mi-mandat aux Etats-Unis : impact haussier sur le Bitcoin ? L'analyse de Vincent Ganne",
+     "source": "Cryptoast",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWDJPekFqcXJtYm9pcHdZSU1zSUdBcUx0cEwyaGNwRnk4MlQ0SkRMenVxODd2YloxODhEQmFBN3RsSVZhZENiYWRfeTBPeEtpOGxCU2F4bFh2ZTBJRXdzckNlUFBGM2VNR1RpdEw3djNnS280cGJETmNtRXQ2RXJ6TzJvWUY3WGpVQnFqWjR3WjNxR3VncmlsTVZyZlJpemFsX05UNGJSN05WSmw5VUlCNExSZlZCVDA?oc=5",
+     "ts": "2026-11-02T09:37:24+00:00"
+    },
     {
      "titre": "Un hack de 6,3 milliards de dollars met à l’épreuve le marché haussier de Bitcoin : 3 signes qu’il l’a surmontée",
      "source": "BeInCrypto",
@@ -80,16 +86,10 @@
      "source": "Cointribune",
      "url": "https://www.cointribune.com/michael-saylor-affiche-sa-confiance-dans-le-bitcoin-et-evoque-de-nouveaux-achats-pour-strategy/",
      "ts": "2026-11-02T09:00:00+00:00"
-    },
-    {
-     "titre": "ETF Bitcoin : 643M$ de sorties en octobre, record pour Ethereum",
-     "source": "InvestX",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU1dwaFRPQnZ5U3pleVVZY2dSbUhfY3pyUmdycHFSaVNFbmJwcTFqVkItRG9xdnNRaFQwLUxXVDktOVBMVl81aDF4UTN2T0MtMzg1X204eVlxVktDamYxQnNFX19maDBXX2NvZzRTYzVtRW5rOUNZOXdWQmNsVDgtQW5uM0dDVXpYaXd4T28xQ2VNQQ?oc=5",
-     "ts": "2026-11-02T08:44:00+00:00"
     }
    ],
    "logo": "logos/assets/btc.svg",
-   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -2,5 % et sur 30 jours -7,8 %. À surveiller : le support autour de 76 326 $ et la résistance vers 84 898 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Un hack de 6,3 milliards de dollars met à l’épreuve le marché haussier de Bitcoin : 3 signes qu’il l’a surmontée » (BeInCrypto)."
+   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -2,5 % et sur 30 jours -7,8 %. À surveiller : le support autour de 76 326 $ et la résistance vers 84 898 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Élections de mi-mandat aux Etats-Unis : impact haussier sur le Bitcoin ? L'analyse de Vincent Ganne » (Cryptoast)."
   },
   {
    "id": "ETH",
@@ -97,18 +97,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 2291.1,
+    "price": 2291.49,
     "ch": {
-     "1j": 0.6939713709340767,
-     "7j": -1.4389881912628355,
-     "30j": -14.74120190679622,
-     "1an": 23.42293810267737
+     "1j": 0.7111118924454152,
+     "7j": -1.422210750467845,
+     "30j": -14.72668882083038,
+     "1an": 23.443947637774066
     },
-    "sma20": 2362.6040000000003,
-    "sma50": 2513.5082,
-    "sma200": 2158.7115,
-    "rsi": 37.217434083751435,
-    "vol": 35.95334099483191,
+    "sma20": 2362.6235,
+    "sma50": 2513.516,
+    "sma200": 2158.71345,
+    "rsi": 37.27562359033325,
+    "vol": 35.96043303836217,
     "support": 2174.08,
     "resistance": 2530.44,
     "hi52": 2807.34,
@@ -149,7 +149,7 @@
      2245.54,
      2255.66,
      2275.31,
-     2291.1
+     2291.49
     ]
    },
    "news": [
@@ -187,18 +187,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 94.43,
+    "price": 94.41,
     "ch": {
-     "1j": -0.10578652279699119,
-     "7j": -6.458642892521049,
-     "30j": -21.058351446246448,
-     "1an": 21.219512195121947
+     "1j": -0.1269438273563961,
+     "7j": -6.478454680534929,
+     "30j": -21.075071058351448,
+     "1an": 21.193838254172004
     },
-    "sma20": 101.59450000000001,
-    "sma50": 108.9322,
-    "sma200": 88.92784999999999,
-    "rsi": 28.801744466252416,
-    "vol": 40.99006007194482,
+    "sma20": 101.59349999999999,
+    "sma50": 108.93180000000001,
+    "sma200": 88.92775,
+    "rsi": 28.7747108789315,
+    "vol": 40.985834060976615,
     "support": 92.34,
     "resistance": 109.2,
     "hi52": 124.95,
@@ -240,7 +240,7 @@
      96.38,
      95.54,
      94.53,
-     94.43
+     94.41
     ]
    },
    "news": [
@@ -278,18 +278,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 1.2516,
+    "price": 1.2521,
     "ch": {
-     "1j": 0.0719597025665708,
-     "7j": -4.399633363886335,
-     "30j": -15.79655543595263,
-     "1an": -7.412339103417653
+     "1j": 0.11193731510354965,
+     "7j": -4.361442102047041,
+     "30j": -15.762917115177611,
+     "1an": -7.375351383340723
     },
-    "sma20": 1.29999,
-    "sma50": 1.3892660000000001,
-    "sma200": 1.2757290000000001,
-    "rsi": 37.131844776003945,
-    "vol": 43.75348770013696,
+    "sma20": 1.300015,
+    "sma50": 1.3892760000000002,
+    "sma200": 1.2757315,
+    "rsi": 37.239099654993666,
+    "vol": 43.760865706138304,
     "support": 1.2002,
     "resistance": 1.3992,
     "hi52": 1.6999,
@@ -330,7 +330,7 @@
      1.2567,
      1.2519,
      1.2507,
-     1.2516
+     1.2521
     ]
    },
    "news": [
@@ -356,18 +356,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 708.49,
+    "price": 707.86,
     "ch": {
-     "1j": -0.5893165331350314,
-     "7j": -4.62928063751884,
-     "30j": -9.962128914192759,
-     "1an": 18.792441441290396
+     "1j": -0.6777140131052795,
+     "7j": -4.714085720439365,
+     "30j": -10.042191947946321,
+     "1an": 18.68680940963432
     },
-    "sma20": 728.4275,
-    "sma50": 748.6536,
-    "sma200": 655.99505,
-    "rsi": 40.98786153376834,
-    "vol": 39.25243423876441,
+    "sma20": 728.396,
+    "sma50": 748.6410000000001,
+    "sma200": 655.9919,
+    "rsi": 40.80561260113895,
+    "vol": 39.260271689746354,
     "support": 680.0,
     "resistance": 762.2,
     "hi52": 809.99,
@@ -408,7 +408,7 @@
      704.42,
      703.95,
      712.69,
-     708.49
+     707.86
     ]
    },
    "news": [
@@ -438,7 +438,7 @@
     }
    ],
    "logo": "logos/assets/bnb.svg",
-   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -4,6 % et sur 30 jours -10,0 %. À surveiller : le support autour de 680,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto et Hack Binance : comment les signatures ont été détournées ? » (Actu Crypto .info)."
+   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -4,7 % et sur 30 jours -10,0 %. À surveiller : le support autour de 680,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Crypto et Hack Binance : comment les signatures ont été détournées ? » (Actu Crypto .info)."
   },
   {
    "id": "NVDA",
@@ -503,6 +503,12 @@
    },
    "news": [
     {
+     "titre": "Disparue du site officiel, la RTX 5080 préparerait son retour avec une belle surprise",
+     "source": "Frandroid",
+     "url": "https://www.frandroid.com/marques/nvidia/3306331_disparue-du-site-officiel-la-rtx-5080-preparerait-son-retour-avec-une-belle-surprise",
+     "ts": "2026-11-02T09:41:49+00:00"
+    },
+    {
      "titre": "Ce logiciel débride les Nvidia GeForce RTX 20, 30 et 40",
      "source": "Frandroid",
      "url": "https://www.frandroid.com/marques/3306125_ce-logiciel-debride-les-nvidia-geforce-rtx-20-30-et-40",
@@ -510,7 +516,7 @@
     }
    ],
    "logo": "logos/assets/nvda.svg",
-   "text": "Le signal technique est mitigé : Nvidia évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,8 % et sur 30 jours -7,9 %. À surveiller : le support autour de 200,92 $ et la résistance vers 243,37 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Ce logiciel débride les Nvidia GeForce RTX 20, 30 et 40 » (Frandroid)."
+   "text": "Le signal technique est mitigé : Nvidia évolue sous sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -7,8 % et sur 30 jours -7,9 %. À surveiller : le support autour de 200,92 $ et la résistance vers 243,37 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Disparue du site officiel, la RTX 5080 préparerait son retour avec une belle surprise » (Frandroid)."
   },
   {
    "id": "AAPL",
@@ -683,10 +689,10 @@
      "ts": "2026-11-01T10:54:04+00:00"
     },
     {
-     "titre": "Agacé par les recommandations de YouTube, Andrej Karpathy a codé son propre YouTube en deux heures",
-     "source": "Numerama",
-     "url": "https://www.numerama.com/tech/2365403-agace-par-les-recommandations-de-youtube-andrej-karpathy-a-code-son-propre-youtube-en-deux-heures.html",
-     "ts": "2026-11-02T08:09:12+00:00"
+     "titre": "Trois ans de travaux réduits à quelques mois : comme BYD et Tesla, Ionity mise sur des batteries pour booster ses stations",
+     "source": "Frandroid",
+     "url": "https://www.frandroid.com/survoltes/voitures-electriques/3306209_trois-ans-de-travaux-reduits-a-quelques-mois-comme-byd-et-tesla-ionity-mise-sur-des-batteries-pour-booster-ses-stations",
+     "ts": "2026-11-02T09:37:13+00:00"
     }
    ],
    "logo": "logos/assets/tsla.svg",
@@ -840,21 +846,21 @@
  "method": "règles",
  "ai": "ok (gemini-flash-lite-latest)",
  "avis": {
-  "updatedAt": "2026-11-02T09:36:40+00:00",
+  "updatedAt": "2026-11-02T09:46:54+00:00",
   "par": "Gemini",
   "modele": "gemini-flash-lite-latest",
-  "global": "Le marché oscille actuellement entre prudence sur les cryptomonnaies et dynamisme contrasté sur les actions. Du côté des actifs numériques, le climat reste sous tension après un important piratage et des sorties notables sur les ETF en octobre. Les grandes valeurs technologiques affichent quant à elles des trajectoires plus hétérogènes, partagées entre des signaux haussiers encourageants et des replis récents. Pour les investisseurs particuliers, la vigilance s'impose face à une volatilité toujours bien présente sur l'ensemble des marchés. Je surveille de près le comportement des prix autour des moyennes mobiles clés et l'évolution des volumes sur les supports techniques.",
+  "global": "Le marché global traverse une période d'incertitude marquée par des signaux techniques partagés entre prudence et attentisme, tant sur les cryptomonnaies que sur les actions. Du côté des cryptos, la situation reste sous tension après les récentes sorties sur les ETF et l'actualité liée au piratage de Binance. Sur les marchés actions, l'attention se porte sur Wall Street, les résultats d'entreprises et les rendez-vous macroéconomiques majeurs comme les données sur l'emploi. Je surveille de près l'évolution des niveaux de support clés ainsi que le comportement des indicateurs de momentum comme le RSI pour évaluer la direction à venir.",
   "assets": {
-   "BTC": "Mon avis : Le Bitcoin se stabilise au-dessus des 78 000 dollars malgré le choc récent d'un piratage majeur et des sorties d'ETF enregistrées en octobre. Son verdict technique est neutre, avec un RSI qui traduit une pression vendeuse modérée sans excès. Il convient d'observer attentivement la tenue du support à 76 326 dollars dans ce contexte incertain.",
-   "ETH": "Mon avis : Ethereum évolue autour de 2 291 dollars, affichant un recul sensible sur un mois marqué par des sorties records sur les ETF. Le verdict technique reste neutre avec un RSI proche des zones de survente relative. La stabilité du cours dépendra de sa capacité à préserver son support des 20 derniers jours établi à 2 174 dollars.",
-   "SOL": "Mon avis : Solana subit une correction plus marquée avec une baisse notable sur un mois et des sorties de capitaux sur ses ETF. Son RSI proche de 28 reflète une configuration technique fragile et une forte pression baissière récente. Le maintien du support situé à 92,34 dollars constitue un niveau primordial à surveiller pour les séances à venir.",
-   "XRP": "Mon avis : Affichant un prix de 1,25 dollar, XRP présente un verdict technique baissier et un recul notable sur les trente derniers jours. Les indicateurs de momentum comme le RSI restent bas, traduisant un manque de dynamisme acheteur à court terme. Il faudra surveiller la résistance technique proche de 1,40 dollar en cas de tentative de rebond.",
-   "BNB": "Mon avis : BNB se maintient autour de 708 dollars malgré le contexte agité lié au piratage de Binance et à la présence de levier acheteur. Le verdict technique demeure neutre, soutenu par une volatilité annualisée modérée. La zone de support à 680 dollars jouera un rôle clé pour absorber d'éventuelles tensions supplémentaires.",
-   "NVDA": "Mon avis : Nvidia subit un repli sur une semaine et un mois, ramenant son cours à environ 204 dollars. Le verdict technique est neutre et le titre teste une zone proche de sa moyenne mobile à 200 jours. La prudence reste de mise alors que le RSI s'approche des seuils de faiblesse à court terme.",
-   "AAPL": "Mon avis : Apple affiche une dynamique plus encourageante avec un verdict technique haussier et un prix qui s'établit à 344 dollars. Le RSI se place au-dessus de 55, témoignant d'une orientation acheteuse plus solide que sur d'autres valeurs. Les investisseurs gardent un œil attentif sur la résistance proche de 352 dollars à l'approche de ses publications.",
-   "TSLA": "Mon avis : Tesla se distingue par une progression notable sur trente jours, portant son cours à près de 400 dollars. Son verdict technique est haussier, appuyé par un RSI supérieur à 60 qui montre un intérêt acheteur persistant. Le titre évolue toutefois près de sa résistance fixée à 411 dollars, invitant à surveiller d'éventuelles prises de bénéfices.",
-   "MSFT": "Mon avis : Microsoft affiche un profil résilient avec un verdict technique haussier et un cours s'élevant à 521 dollars. La dynamique mensuelle reste positive malgré une légère baisse sur les sept derniers jours. Le maintien au-dessus du support des 20 derniers jours à 514 dollars sera déterminant pour la suite.",
-   "AMZN": "Mon avis : Amazon traverse une période de correction avec une baisse sur une semaine et un mois, ramenant l'action à 240 dollars. Le verdict technique demeure neutre, avec un RSI sous la barre des 40 traduisant une faiblesse passagère du momentum. Le support situé à 229 dollars constitue un repère technique important pour observer la réaction des acheteurs."
+   "BTC": "Mon avis : Le Bitcoin se stabilise au-dessus de 78 000 dollars malgré le choc du piratage de Binance et des signaux techniques plutôt neutres. L'indice de force relative sous les 40 et la volatilité appellent à la prudence, tandis que le marché digère les flux des ETF et les actualités politiques.",
+   "ETH": "Mon avis : Ethereum évolue autour de 2 291 dollars avec un RSI de 37 reflétant un signal technique neutre. L'actif fait face à des sorties records sur ses ETF en octobre et navigue dans un climat de calme relatif sur les altcoins.",
+   "SOL": "Mon avis : Solana subit une pression baissière plus marquée avec un recul sur 30 jours et un RSI proche de 29, illustrant une situation technique fragile. L'actif tente de défendre ses récents niveaux de support face à des sorties de capitaux sur ses ETF.",
+   "XRP": "Mon avis : XRP affiche un verdict technique baissier avec un cours autour de 1,25 dollar et un RSI à 37. Les variations récentes restent négatives sur une semaine comme sur un mois, malgré les ambitions affichées par la direction de Ripple pour le long terme.",
+   "BNB": "Mon avis : BNB montre une certaine résistance autour de 708 dollars malgré le contexte pesant du piratage de Binance. L'indicateur technique reste neutre et le marché surveille de près la solidité des supports face au levier acheteur.",
+   "NVDA": "Mon avis : Nvidia affiche un profil technique neutre avec un cours à 205 dollars et un RSI à 35, s'accompagnant d'un recul récent sur une semaine. Les actualités récentes mentionnent des ajustements de catalogue et de produits qui animent l'écosystème technologique.",
+   "AAPL": "Mon avis : Apple bénéficie d'un verdict technique haussier avec un cours de 345 dollars et un RSI proche de 55. L'action retient l'attention des investisseurs à l'approche de ses résultats financiers et dans un climat de marché partagé.",
+   "TSLA": "Mon avis : Tesla présente une configuration technique haussière avec un prix à 400 dollars et un RSI de 61 traduisant une dynamique plus ferme. L'actif profite de retours positifs sur ses immatriculations en Europe du Nord et de projets de développement.",
+   "MSFT": "Mon avis : Microsoft affiche un verdict technique haussier et un cours s'établissant à 522 dollars, porté par une tendance positive sur un mois. Aucun communiqué marquant n'accompagne cette période, l'actif suivant les tendances globales de Wall Street.",
+   "AMZN": "Mon avis : Amazon affiche un signal technique neutre avec un cours à 240 dollars et un RSI sous la barre des 38. L'activité est rythmée par les préparatifs commerciaux de fin d'année, tandis que l'action accuse un repli hebdomadaire."
   }
  },
  "mood": {
