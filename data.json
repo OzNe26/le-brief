@@ -1,12 +1,21 @@
 {
  "general": {
-  "updatedAt": "2026-11-02T09:45:05+00:00",
-  "resume": "L'actualité des dernières heures est marquée par l'ouverture d'une enquête suite aux violences contre les forces de l'ordre lors de manifestations à Paris et par la décision du gouvernement d'anticiper la revalorisation du SMIC et de libérer des stocks stratégiques de gazole. Dans le secteur de la tech, plusieurs annonces et lancements de produits rythment la période, tandis que le sport mondial et national célèbre de nouveaux résultats, notamment en Ligue 1 et sur la Route du Rhum.",
+  "updatedAt": "2026-11-02T09:53:54+00:00",
+  "resume": "L'actualité est marquée par les tensions politiques autour de la date du second tour de la présidentielle de 2027 et la menace d'une grève générale le 5 novembre après des manifestations. Sur le plan économique, le gouvernement envisage d'avancer la revalorisation du SMIC et de déstocker du gazole pour baisser les prix. Enfin, plusieurs avancées technologiques et sportives rythment le week-end, de l'intelligence artificielle aux compétitions de voile.",
   "chiffres": [],
   "items": [
    {
+    "titre": "Faut-il changer les dates de la présidentielle 2027? Le second tour de l'élection au lendemain du 1er-Mai divise les candidats",
+    "resume": "La date du second tour de l'élection présidentielle fixée au 2 mai 2027 suscite l'inquiétude de plusieurs candidats, qui craignent des coïncidences avec les mobilisations du 1er mai.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/politique/faut-il-changer-les-dates-de-la-presidentielle-2027-le-second-tour-de-l-election-au-lendemain-du-1er-mai-divise-les-candidats_AD-202611020404.html",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
     "titre": "Face aux mobilisations sociales, le gouvernement envisage une revalorisation du smic",
-    "resume": "Face aux mobilisations sociales, le gouvernement envisage d'avancer la revalorisation automatique du salaire minimum au 1er décembre et étudie la piste d'un coup de pouce salarial.",
+    "resume": "Face aux mouvements sociaux, le gouvernement examine l'hypothèse d'une revalorisation anticipée du salaire minimum dès le 1er décembre.",
     "source": "Le Monde Économie",
     "url": "https://www.lemonde.fr/politique/article/2026/11/02/face-aux-mobilisations-sociales-le-gouvernement-envisage-une-revalorisation-du-smic_6805226_823448.html",
     "date": "2 nov.",
@@ -14,26 +23,8 @@
     "categorie": "Économie"
    },
    {
-    "titre": "Gendarme visé par un cocktail molotov: \"Environ 20% de son unité a été blessée\", affirme le général Bertin Malhet, inspecteur de la gendarmerie mobile",
-    "resume": "Une enquête pour tentative d'homicide a été ouverte après qu'un cocktail Molotov a blessé des gendarmes lors des manifestations du 31 octobre à Paris.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/police-justice/video-gendarme-vise-par-un-cocktail-molotov-environ-20-de-son-unite-a-ete-blessee-affirme-le-general-bertin-malhet-inspecteur-de-la-gendarmerie-mobile_VN-202611020403.html",
-    "date": "2 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Disparue du site officiel, la RTX 5080 préparerait son retour avec une belle surprise",
-    "resume": "Nvidia préparerait une version de sa GeForce RTX 5080 dotée de 24 gigaoctets de mémoire vidéo pour remplacer le modèle actuel de 16 gigaoctets d'ici janvier 2027.",
-    "source": "Frandroid",
-    "url": "https://www.frandroid.com/marques/nvidia/3306331_disparue-du-site-officiel-la-rtx-5080-preparerait-son-retour-avec-une-belle-surprise",
-    "date": "2 nov.",
-    "impact": "flat",
-    "categorie": "Tech"
-   },
-   {
     "titre": "Libération de stocks stratégiques de gazole: \"C'est un pansement sur une jambe de bois\", juge Philippe Charlez, expert en question énergétique et pétrolière",
-    "resume": "La libération de stocks stratégiques de gazole par le gouvernement pour faire baisser les prix à la pompe est jugée insuffisante par certains experts énergétiques.",
+    "resume": "La libération de réserves stratégiques de gazole par l'exécutif vise à réduire les prix à la pompe, bien que certains experts jugent cette mesure insuffisante.",
     "source": "BFMTV",
     "url": "https://www.bfmtv.com/economie/video-liberation-de-stocks-strategiques-de-gazole-c-est-un-pansement-sur-une-jambe-de-bois-juge-philippe-charlez-expert-en-question-energetique-et-petroliere_VN-202611020391.html",
     "date": "2 nov.",
@@ -41,19 +32,28 @@
     "categorie": "Économie"
    },
    {
-    "titre": "L’UBB résiste à Bayonne, sacre historique d’Antonelli, Gabby Williams au sommet de la WNBA, départ de la Route du Rhum… Le récap sportif du week-end",
-    "resume": "Le week-end sportif a été marqué par de nombreux résultats, incluant la résistance de l'UBB face à Bayonne, le triomphe de Gabby Williams en WNBA et le départ de la Route du Rhum.",
-    "source": "Sud Ouest",
-    "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOTUVPOWpldFV4aTNrenBod2VnQVJWaURoaVlhZUVvbVZEM21JV0pUejJPb1l3aUpSc1pHZWxDc0hRcW5fU29pdFliVDNfVmh3eXpqcWc2RDg1RkNhTVoxRGpyN1BFamhPc3JhTjNMVklfWFhlYVdyNWF6Q3JOV3M1N1I0UjAzeFlJbXhaZUZxajFkSVMwWEIzaTg1TE5hTTdXWnBhTFI4RnpwWTJMXzh4alBEaUphWGxvc1pLMnFVOWFfTFViVFVXVHhJUURfYlkxeUdzMmFiU1dGNTkySWtjcGZ2eXZvSlVLakhKOE90Mkd2ekY0eHRiY3pya1hiZWx5R2JOcEZETmNVRWlfZ0J3OGN5Y1NidFFPem82b2NR?oc=5",
+    "titre": "Yann LeCun tient peut-être la preuve que la taille d’un LLM ne fait pas sa qualité",
+    "resume": "Une nouvelle étude menée par Yann LeCun et Randall Balestriero suggère qu'un petit modèle d'intelligence artificielle bien entraîné peut rivaliser avec des LLM beaucoup plus volumineux.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/tech/2365555-yann-lecun-tient-peut-etre-la-preuve-que-la-taille-dun-llm-ne-fait-pas-sa-qualite.html",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Tech"
+   },
+   {
+    "titre": "Route du Rhum : Laperche en tête, Le Cleac’h dauphin, Caudrelier au pied du podium… Un point sur le classement de la catégorie Ultim",
+    "resume": "Le classement de la catégorie Ultim de la Route du Rhum place pour l'instant Charles Laperche en tête, suivi de près par Armel Le Cleac’h.",
+    "source": "Le Figaro",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPd2w0NTZ0Sml5b0lIaVBjMVp4OFRCMWw3NnR4SlZBdVcyUmVFS1NsbVczeFcwdWMxM09uUk9IeHpqblFmZnZlMlJwOWNRX2tNYXhoZE9tdWs2R3BjemxMTHBzVUkyLTZndEZoRmx4VEtXVXRjX2otVlE2MGtsLV9zX1pBTlBYc3k0WVh2X0RfX2p3V3F3ZmFFVmlHOGZsVFQ0Zkh2SXMxcmdZRTR1TVZIRDZITTJoUlM3alRTc056a0RwYWJ1QUJNM0RvaVAyNDllYl9tODVJR25UdHJ6Yi1GeVRuSkk2bExlUTRhLU04RC1ZaXBuNGdEOHF5dFFIS2NQVS1N?oc=5",
     "date": "2 nov.",
     "impact": "flat",
     "categorie": "Sport"
    },
    {
-    "titre": "En Bulgarie, Iliana Iotova gagne l’élection présidentielle, haut la main, face à son opposant pro-européen",
-    "resume": "Iliana Iotova a remporté l'élection présidentielle en Bulgarie face à son opposant, promettant de se positionner en présidente de la paix.",
-    "source": "Le Monde International",
-    "url": "https://www.lemonde.fr/international/article/2026/11/02/en-bulgarie-iliana-iotova-gagne-l-election-presidentielle-haut-la-main-face-a-son-opposant-pro-europeen_6805224_3210.html",
+    "titre": "La liquidation de la Minurso, illustration des impasses du Conseil de sécurité",
+    "resume": "Le mandat de la Mission des Nations unies pour l'organisation d'un référendum au Sahara occidental (Minurso) a expiré après l'échec d'un renouvellement au Conseil de sécurité suite à un veto russe.",
+    "source": "RFI",
+    "url": "https://www.rfi.fr/fr/podcasts/la-fabrique-du-monde/20261102-la-liquidation-de-la-minurso-illustration-des-impasses-du-conseil-de-s%C3%A9curit%C3%A9",
     "date": "2 nov.",
     "impact": "flat",
     "categorie": "Monde"
@@ -63,80 +63,80 @@
   "modele": "gemini-flash-lite-latest"
  },
  "crypto": {
-  "updatedAt": "2026-11-02T09:45:05+00:00",
-  "resume": "Le marché crypto tente de se stabiliser après le piratage massif de Binance évalué à 6,3 milliards de dollars et la réouverture progressive des retraits. Les ETF Bitcoin et Ethereum ont enregistré des sorties massives de capitaux au cours du mois d'octobre. Enfin, la semaine est rythmée par l'approche des élections de mi-mandat aux États-Unis et par de nouvelles mesures de régulation en Chine.",
+  "updatedAt": "2026-11-02T09:53:54+00:00",
+  "resume": "Le marché crypto tente de se stabiliser au-dessus des 78 000 dollars pour le Bitcoin après le piratage massif de Binance évalué à 6,3 milliards de dollars. Suite à la réouverture des retraits, la plateforme a enregistré entre 5,8 et 6,5 milliards de dollars de sorties de fonds en 24 heures. Parallèlement, le mois d'octobre s'achève sur des records de retraits mensuels pour les ETF Bitcoin et Ethereum.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
-    "valeur": "≈ 78 119 $",
-    "variation": "−0,30 % (24 h)",
+    "valeur": "≈ 78 110 $",
+    "variation": "−0,31 % (24 h)",
     "sens": "baisse"
    },
    {
     "label": "Ethereum (ETH)",
     "valeur": "≈ 2 291 $",
-    "variation": "+0,69 % (24 h)",
+    "variation": "+0,71 % (24 h)",
     "sens": "hausse"
    },
    {
     "label": "Solana (SOL)",
-    "valeur": "≈ 94,43 $",
-    "variation": "−0,11 % (24 h)",
+    "valeur": "≈ 94,41 $",
+    "variation": "−0,13 % (24 h)",
     "sens": "flat"
    },
    {
     "label": "XRP (XRP)",
     "valeur": "≈ 1,25 $",
-    "variation": "+0,07 % (24 h)",
+    "variation": "+0,11 % (24 h)",
     "sens": "flat"
    }
   ],
   "items": [
    {
     "titre": "Binance enregistre 6,5 milliards de dollars de retraits suite à son piratage",
-    "resume": "Suite à la réouverture progressive de sa plateforme après le piratage, Binance fait face à des retraits massifs estimés à plus de 6,5 milliards de dollars sur 24 heures.",
+    "resume": "Après une suspension de 45 heures suite à un piratage de 6,3 milliards de dollars, Binance a rouvert ses retraits et fait face à plus de 6,5 milliards de dollars de sorties de fonds en 24 heures.",
     "source": "Cryptoast",
     "url": "https://cryptoast.fr/binance-enregistre-milliards-dollars-retraits-suite-piratage/",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le bitcoin se stabilise au-dessus des 78.000 dollars après le choc du piratage de Binance",
-    "resume": "Le cours du Bitcoin parvient à se stabiliser au-dessus du seuil des 78 000 dollars malgré le choc provoqué par le piratage de la plateforme Binance.",
-    "source": "Zonebourse Suisse",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY1dxR0JZcEdHV3NhM2xwRjRBUXhUbk9ZVUhPZ1ZqUW52bmRlQUlUQ3p4RHpkSHhpZ290LWpqdGNVV01xQWduTFNtM1RPLXNpT3BpWWFQNi1JUmZNSmNvdHc4WF9iVXRITjlKbGpzYW9mSnQwZmltTjFRcFcxeDdLcFhfaU1hU0FHWmZsVHlXODdiMEdlU19EY3huZzlKSlFjSTJpSU83NlpKYzVOV0YwNnpLN3kwbExMVmlWVjgxUDMzMWxTSi1qMFFWUmdybVlzUl91RWU4YVpUdGhibTJ4UTgySQ?oc=5",
-    "date": "2 nov.",
-    "impact": "flat"
-   },
-   {
     "titre": "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack",
-    "resume": "Les fonds négociés en bourse (ETF) sur le Bitcoin et l'Ether aux États-Unis ont clôturé le mois d'octobre avec des sorties nettes records de capitaux.",
+    "resume": "Les ETF Bitcoin au comptant aux États-Unis ont enregistré 515 millions de dollars de retraits nets en octobre, tandis que les fonds sur l'Ether ont atteint un record mensuel de 1,61 milliard de dollars de sorties.",
     "source": "Cointelegraph",
     "url": "https://cointelegraph.com/markets/bitcoin-etfs-october-red-binance-hack-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Le bitcoin se stabilise au-dessus des 78.000 dollars après le choc du piratage de Binance",
+    "resume": "Le cours du Bitcoin parvient à se maintenir et se stabilise au-dessus du seuil des 78 000 dollars malgré le choc du piratage de Binance.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY1dxR0JZcEdHV3NhM2xwRjRBUXhUbk9ZVUhPZ1ZqUW52bmRlQUlUQ3p4RHpkSHhpZ290LWpqdGNVV01xQWduTFNtM1RPLXNpT3BpWWFQNi1JUmZNSmNvdHc4WF9iVXRITjlKbGpzYW9mSnQwZmltTjFRcFcxeDdLcFhfaU1hU0FHWmZsVHlXODdiMEdlU19EY3huZzlKSlFjSTJpSU83NlpKYzVOV0YwNnpLN3kwbExMVmlWVjgxUDMzMWxTSi1qMFFWUmdybVlzUl91RWU4YVpUdGhibTJ4UTgySQ?oc=5",
+    "date": "2 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
-    "resume": "La plateforme décentralisée THORChain a suspendu ses échanges suite à un bug, tentant de bloquer les mouvements de fonds liés au piratage de Binance.",
+    "resume": "Le protocole THORChain a suspendu ses échanges sur dix réseaux suite à un bug de réorganisation de blocs, bloquant ainsi une partie du butin des pirates informatiques de Binance.",
     "source": "Cointelegraph",
     "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Les mineurs de Bitcoin réalisent leurs meilleures recettes depuis onze mois",
-    "resume": "Les mineurs de Bitcoin ont atteint en octobre un chiffre d'affaires mensuel record de 1,215 milliard de dollars, le plus haut depuis novembre 2025.",
+    "titre": "Coinbase affiche 719 millions $ de bénéfices, dont 715 millions de gains crypto",
+    "resume": "Coinbase annonce un résultat net de 719 millions de dollars pour le troisième trimestre, porté en grande partie par 715 millions de gains de valorisation sur ses investissements en cryptomonnaies.",
     "source": "Cointribune",
-    "url": "https://www.cointribune.com/les-mineurs-de-bitcoin-realisent-leurs-meilleures-recettes-depuis-onze-mois/",
+    "url": "https://www.cointribune.com/coinbase-affiche-719-millions-de-benefices-dont-715-millions-de-gains-crypto/",
     "date": "2 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Chine : le Parti communiste déclare la guerre à la corruption en crypto",
-    "resume": "Le Parti communiste chinois a intégré les monnaies virtuelles et la blockchain dans sa nouvelle résolution visant à lutter contre la corruption.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/chine-parti-communiste-corruption-crypto-plenum/",
+    "titre": "China’s Communist Party calls for a crackdown on corruption that uses crypto and blockchain",
+    "resume": "Le Parti communiste chinois a émis un nouvel appel à l'action pour intensifier la lutte contre la corruption en ciblant spécifiquement les monnaies virtuelles et la blockchain.",
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com/markets/2026/11/02/china-s-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain",
     "date": "2 nov.",
     "impact": "baisse"
    }
@@ -146,45 +146,45 @@
   "niche": [
    {
     "titre": "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany",
-    "resume": "Une entreprise émet des jetons adossés à 25 tonnes de cuivre physique stocké en Allemagne, commençant avec une valeur de 366 000 dollars.",
+    "resume": "Une entreprise émet des jetons adossés à 25 tonnes de cuivre physique stocké en Allemagne pour une valeur initiale de 366 000 dollars.",
     "source": "CoinDesk",
     "url": "https://www.coindesk.com/markets/2026/11/02/metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany",
     "date": "2 nov.",
-    "pourquoi": "Utile pour suivre la tokenisation des matières premières physiques onchain ; surveiller l'adoption de ce marché de niche pour les investisseurs en métaux.",
-    "impact": "hausse"
+    "pourquoi": "Utile pour suivre le développement de la tokenisation d'actifs réels (RWA) sur la blockchain, à surveiller pour la diversification vers les matières premières.",
+    "impact": "flat"
    },
    {
     "titre": "3 déverrouillages de tokens à surveiller début novembre 2026",
-    "resume": "Le marché crypto s'apprête à accueillir pour plus de 879,9 millions de dollars de déverrouillages de tokens lors de la première semaine de novembre 2026.",
+    "resume": "Le marché s'apprête à accueillir des déverrouillages de tokens d'une valeur totale de plus de 879,9 millions de dollars pour la première semaine de novembre, concernant notamment Bitway, Kite et Hyperliquid.",
     "source": "BeInCrypto FR",
     "url": "https://fr.beincrypto.com/deverrouillage-tokens-premiere-semaine-novembre-2026/",
     "date": "2 nov.",
-    "pourquoi": "Concerne les actifs Bitway (BTW), Kite (KITE) et Hyperliquid (HYPE) ; à surveiller pour anticiper une possible pression vendeuse liée à l'arrivée de ces nouvelles pièces.",
+    "pourquoi": "Permet d'anticiper une potentielle pression vendeuse sur les actifs concernés (BTW, KITE, HYPE) en raison de l'augmentation de l'offre en circulation.",
     "impact": "baisse"
    },
    {
     "titre": "BTCPay Server warns of hot wallet thefts running on outdated software",
-    "resume": "Le protocole de paiement BTCPay Server a invité ses utilisateurs à couper leurs serveurs après des signalements de vols sur des portefeuilles chauds utilisant des logiciels obsolètes.",
+    "resume": "Le projet open-source BTCPay Server a invité les opérateurs à éteindre leurs serveurs à la suite de rapports signalant des vols de portefeuilles chauds exploitant des logiciels obsolètes.",
     "source": "Cointelegraph",
     "url": "https://cointelegraph.com/news/btcpay-server-hot-wallet-thefts-older-versions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "date": "2 nov.",
-    "pourquoi": "Concerne la sécurité des infrastructures de paiement Bitcoin ; surveiller l'état des correctifs pour les opérateurs de nœuds et de serveurs.",
+    "pourquoi": "Indique un risque de sécurité sur les outils d'auto-hébergement de paiements Bitcoin, à surveiller pour la sécurité des nœuds et des services de paiement.",
     "impact": "baisse"
    },
    {
-    "titre": "ETH, XRP, SOL calmes, RUNE à l’arrêt – Le point altcoins",
-    "resume": "Le token RUNE de THORChain chute de 19 % suite à l'arrêt des échanges, tandis que le token LIT bondit de 17 %.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/point-altcoins-eth-xrp-sol-rune-lit-2-novembre/",
+    "titre": "Solana risque une nouvelle baisse après $71m de sorties d'ETF",
+    "resume": "Solana enregistre 71 millions de dollars de sorties de capitaux de ses ETF, faisant craindre une correction potentielle du cours de la cryptomonnaie.",
+    "source": "Invezz",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFloS0RVNk9QMFBNOXdjNFIwa2F6RDhoUnlsVTVpZEc1V0VjVXdYYWNqNUUyVnlocGhuUno1STBVTmtsU0drc0hkc3RhLWRPRXhHVmZOWG00QmJxSF9uTWVuODdSWjZjcmNHdkswc0x2MmFCTVhoLW5mQ0kzdGxRU1JuYzEtV0E1R3dtRUZxa29SeTRBSWMtYmVVWkstSWJIWHFhTXNNRGJsT0d4Ti1j?oc=5",
     "date": "2 nov.",
-    "pourquoi": "Concerne la volatilité des altcoins suite aux incidents techniques ; surveiller la reprise des réseaux concernés pour évaluer la persistance de ces mouvements.",
+    "pourquoi": "Concerne directement l'actif SOL et reflète l'appétit des investisseurs institutionnels via les produits dérivés, à surveiller face aux supports techniques.",
     "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-02T09:45:05+00:00",
-  "resume": "Les marchés européens et la Bourse de Paris débutent la semaine dans le rouge, pénalisés par un repli de la tech à Wall Street et la prudence des investisseurs à la veille des élections de mi-mandat aux États-Unis. En France, l'actualité est marquée par l'effondrement spectaculaire de l'action Alstom, qui plonge d'environ 30 % après une révision drastique de ses objectifs et un avertissement sur sa rentabilité et sa trésorerie. En parallèle, les indices PMI confirment des contrastes dans le secteur manufacturier européen, entre contraction en France et progression rapide en Espagne.",
+  "updatedAt": "2026-11-02T09:53:54+00:00",
+  "resume": "Les marchés boursiers européens débutent la semaine dans le rouge ou avec prudence, sur fond de recul de la tech à Wall Street et d'attentisme avant les élections américaines. À Paris, le CAC 40 est lourdement pénalisé par l'effondrement de l'action Alstom, qui plonge d'environ 30 % après un avertissement sévère sur ses objectifs et sa consommation de trésorerie. Côté macroéconomie, les signaux d'activité manufacturière divergent en Europe, entre contraction en France et redressement en Allemagne.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -214,47 +214,47 @@
   "items": [
    {
     "titre": "ALSTOM : Le groupe s'attend à brûler 1,5 milliard d'euros de cash… Alstom lance un nouvel avertissement sur résultats massif et s'effondre de 30% en Bourse",
-    "resume": "L'action Alstom s'effondre d'environ 30 % à la Bourse de Paris suite à un lourd avertissement sur ses résultats et à des prévisions de trésorerie négatives s'élevant à 1,5 milliard d'euros.",
+    "resume": "Alstom s'effondre d'environ 30 % en Bourse après avoir émis un lourd avertissement sur ses résultats et annoncé prévoir une consommation de 1,5 milliard d'euros de trésorerie.",
     "source": "BFM Bourse",
     "url": "https://www.tradingsat.com/alstom-FR0010220475/actualites/alstom-le-groupe-s-attend-a-bruler-15-milliard-d-euros-de-cash-alstom-lance-un-nouvel-avertissement-sur-resultats-massif-et-s-effondre-de-30-en-bourse-1172909.html",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Les marchés boursiers mondiaux prudents avant le scrutin américain",
+    "resume": "Les places boursières internationales font preuve de retenue et restent attentistes à l'approche des élections américaines.",
+    "source": "Zonebourse",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOHJjOUJ4NThhM2Y4RzFCTWE3eEs5WHphZ2xkLVpvWUgzMkxWcVZudUZZdHZJRXJRMDB6eF9GclJGNVVZd3JOZHlZV0RSSjNWdWplOWdqLWxYX283aWhCblFsbmZwU1VJWFZGei1yZkhBTC03N3FBXzRSY2ZLVHMwcllSVERGMzRQOFVpLXMwU28yc0d1QXpJNWVnNFdvOGtIWkZBUnY5Rmtoc0sta0x0LXVkanRXZmdJSHVLR3Q2R182eWVYdFE?oc=5",
+    "date": "2 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "L'Europe dans le rouge après le repli de la tech à Wall Street",
-    "resume": "Les marchés européens affichent une tendance baissière au début de cette séance, dans le sillage de la correction enregistrée par le secteur technologique sur les marchés américains.",
+    "resume": "Les indices boursiers européens ouvrent en repli, entraînés par la baisse récente des valeurs technologiques à Wall Street.",
     "source": "ABC Bourse",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOUM3ZDRiZzJJRWdDNHdQZXdmLWRlSEFqUjVNQTlMRnYwNVJVdno3UGl2YndKVjZIalZfUURYZnFtWnBnOEpNektCMDQtRjhDMXhQWldKLWdwZ3I0NHk2Q1dXVlE4M3E4eE1mWHVldkRIaHJoQkJwbm9HekVxbVdNclBHNVl6THQ2NnNRYjF2RXlJa1ZYa0VQdDhZTk1YTFhWOW4tZWdB?oc=5",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "La Bourse de Paris stable avant les élections de mi-mandat aux Etats-Unis",
-    "resume": "La Bourse de Paris et les places européennes évoluent prudemment et dans le rouge, les investisseurs adoptant une posture d'attentisme à la veille des élections de mi-mandat aux États-Unis.",
-    "source": "Orange Actualités",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc2RGZUZFc3ZtS0F6djZnbzRObkx6ZDEycGdDVWJ1anBjTUk1TjQxQlRCOC1qYzBKYnI2OWY1U2VKbmxzZXNxQkI1ckNSaDh5dFllSTF4TnZEd3ZGNDhzemxJMWxmd3E4MkgtalVISDJpcjVjRnpPOEVGTUNrQzN2TVVGNEQ2cEF5SFBtcDg3cmZUaktRWmZRMnJRaG85b2daRVBxbndvS3p2MzdYc29makJJMWJIMGRJYUxBNTk3ZE84X1k?oc=5",
-    "date": "2 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Le secteur manufacturier français se contracte en octobre",
-    "resume": "Les données macroéconomiques indiquent que l'activité du secteur manufacturier français accuse une contraction au cours du mois d'octobre.",
+    "titre": "Le PMI manufacturier allemand grimpe à 54,2 en octobre, les coûts s’envolent",
+    "resume": "L'indice PMI manufacturier allemand s'est redressé à 54,2 en octobre, bien qu'il s'accompagne d'une forte progression des coûts.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economic-indicators/le-secteur-manufacturier-francais-se-contracte-en-octobre-93CH-3667701",
-    "date": "2 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Le secteur manufacturier espagnol progresse à son rythme le plus rapide en un an",
-    "resume": "À l'inverse d'autres pays européens, le secteur manufacturier en Espagne enregistre une progression qui atteint son rythme le plus rapide sur une période d'un an.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economic-indicators/le-secteur-manufacturier-espagnol-progresse-a-son-rythme-le-plus-rapide-en-un-an-93CH-3667573",
+    "url": "https://fr.investing.com/news/economic-indicators/le-pmi-manufacturier-allemand-grimpe-a-542-en-octobre-les-couts-senvolent-3667865",
     "date": "2 nov.",
     "impact": "hausse"
    },
    {
+    "titre": "La BCE devra encore relever ses taux, l’ampleur de la hausse reste incertaine, selon Kazimir",
+    "resume": "Selon Peter Kazimir, membre de la Banque centrale européenne, de nouvelles hausses des taux directeurs seront nécessaires pour juguler l'inflation.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMUFIVmwtb0N0Y3cyM2hsTUNLRVJlajE3MW1aMzBLTlBYM2VpTG5iN2FlYUdhYWZYWVRzUW5mU0xMYnpfcGdwb1hfT3l6VUpxb01iajQ3d2ZkcVpBNkt5R25QcktiTmRHTXBkUHBNektPeTYtUG83R3VGaVlnc21id0lFWmRHQkZtVGpEcTBSZ3hYcTdpUlNJR1VSS2RtM3dPSW9jdnkzU1NBSExvNU1ZVUhUVGRYYlg3YW13bkZoY0NpNWZMeTRYdkwyaFVkSDRWVW9IMGpPQ2dCS09tRk5XYW9XSzB0Zw?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "Euronext nommera Knibbe, du groupe NN, au poste de directeur général après le départ de Boujnah",
-    "resume": "Euronext annonce le prochain changement de sa direction générale avec la nomination de Knibbe, issu du groupe NN, pour succéder à Boujnah.",
+    "resume": "L'opérateur boursier Euronext a choisi David Knibbe, dirigeant issu du groupe NN, pour succéder à Stéphane Boujnah à la direction générale.",
     "source": "Boursorama",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQUjVXM19XOXQ5Ui1NWk14T0RscjdWT1ZyejZTMHR5bHo2eDFvMy1JZnRrS2Q5WVRqV3VITjVGYUFpZkpJS3B1Z0NFSG9nMHprVUtteUF4TF9SZ0NMWWgyV0Nnd256LVp2U245NEk4OE1HcVdRT3RJdjJjRVhZRmxnZjI4QmxDZ3hVenlEM0M3Z1g4VGJEMS1DM0hVbDJpUVZRVElBR2pyV0F6Qmkzem54ekVOUnpRdDFuaFVJcDg2UlM3aUh0VUhhR1BVdGxhenp5Z0lpOW91MVZzWURvQzYtcnZ5WHRqQ1FrLTlzdXp1TjZUdlFIUnFtbXlkZ0g4WnlT0gGGAkFVX3lxTE0tX0U2b3R6YXZOanNDWG9mRTZPYTZlcVVtMm1xN3l1VXhVamR1WHJkNnBSMmF4V1dhREgzUGdvS3dibDNMSklqcl85STBsVnJ4QTlZVUxsYml5bFlVakpCMVk2RFRNVjNwR0lZaUd6VkVkd19HT3hqbml6TXJGeldBUFhxRGZCRXY0bXZDNHo0aEhnWUF4Y1BGYktDU1pRdDM3Y1NkYm9GYTdReVc4czM4VVhreW9rYTBzNEtQbEFSSDFGNlk2QlUyaEtTVEg4NW0tTk5ZYUtuMi1lS3VLYlktd3RHdXZ3WXlHSVpWSDJLbUtZeEJhaUktbzY4b2hZcDRoZ1l2QVE?oc=5",
     "date": "2 nov.",
@@ -262,54 +262,62 @@
    }
   ],
   "par": "ia",
-  "modele": "gemini-flash-lite-latest",
+  "modele": "gemini-flash-latest",
   "niche": [
    {
-    "titre": "Livret A et LEP : les taux pourraient grimper en février 2027",
-    "resume": "Le Revenu indique que les taux du Livret A et du LEP pourraient augmenter en février 2027.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObGhzSWxQdnRBdkpaSFFubFpCVTBIcmQ1aXluangyZ3llOUdDT2NWZEl1WV9yeUFwNVF1WTE4czdkcWRfZmxEbkNiX3BJUWN2WjZsaW5sUmUzMjU0UG9adHI5ZExYd1ZnV0V0OHBUaXlTTUdXajJOM0hWSXBZRUZST1BuRlEzUGI1OFd1Snp6QU9GR0ZEM3pDd3hXeTFobDJDT1BLYTUtZ09PQTJIZVRCQXJfUVNnUTh2UUYtcVZoeGxwQQ?oc=5",
-    "date": "2 nov.",
-    "pourquoi": "Utile pour anticiper l'évolution de l'épargne réglementée française et comparer les rendements sans risque face aux marchés financiers.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Compte rendu d’AcadeMedia T1 2026 : ventes en hausse de 14%, action proche des sommets",
-    "resume": "AcadeMedia publie un rapport pour le premier trimestre 2026 affichant des ventes en hausse de 14 %, portant l'action près de ses sommets.",
+    "titre": "Pourquoi l’action Inovio Pharmaceuticals s’envole-t-elle de 225% aujourd’hui ?",
+    "resume": "L'action de la biotech Inovio Pharmaceuticals s'envole de 225 % au cours de la séance.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/compte-rendu-dacademedia-t1-2026--ventes-en-hausse-de-14-action-proche-des-sommets-93CH-3667788",
+    "url": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-inovio-pharmaceuticals-senvoletelle-de-225-aujourdhui--93CH-3667859",
     "date": "2 nov.",
-    "pourquoi": "Permet de surveiller la bonne santé opérationnelle de cette petite valeur scandinave et la réaction des cours sur ses plus hauts.",
+    "pourquoi": "Ce mouvement spectaculaire illustre la très forte volatilité des biotechs à petite capitalisation, un segment où les investisseurs doivent surveiller les annonces cliniques et les volumes d'échange.",
     "impact": "hausse"
-   },
-   {
-    "titre": "Le PMI manufacturier de l’Italie recule à 49,4 en octobre",
-    "resume": "L'indice PMI manufacturier de l'Italie recule à 49,4 pour le mois d'octobre.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economic-indicators/le-pmi-manufacturier-de-litalie-recule-a-494-en-octobre-93CH-3667699",
-    "date": "2 nov.",
-    "pourquoi": "Donne une indication précise sur la santé industrielle italienne, utile pour le suivi macroéconomique de la zone euro.",
-    "impact": "baisse"
    },
    {
     "titre": "Alphabet lance une émission obligataire libellée en euros, selon l'IFR",
-    "resume": "Alphabet réalise une émission obligataire libellée en euros selon les informations de l'IFR.",
+    "resume": "La maison mère de Google, Alphabet, a initié une émission d'obligations libellées en euros.",
     "source": "Boursorama",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQWN6NmFFLThMT1NoQXg3b2xvZzBpUi1tVDlkMFd3Ym9EMVM4OWItV21qUV9mYlFsaEo2bDhLZ2dDRHpKbHVBRDNMVmdraGxkRjZCMUxPci04bFBjczVjUjNjd3JObV9HR0w1UGRZZV9KYkhoWFFxUC1hNTE1MmVjZHdJZG40TW8tVHNZanE1VnBneDdSSUxfd21rS3hLXzRITVByU3JkcndCb1lwR25VaEhZZmRMX2ZtRkkwWjJsZFlGdFNmaHpyZHNhbTl5V1RxcWtoeHZTaU05UDdlNXZWRjcycVp6QdIB5gFBVV95cUxQQWN6NmFFLThMT1NoQXg3b2xvZzBpUi1tVDlkMFd3Ym9EMVM4OWItV21qUV9mYlFsaEo2bDhLZ2dDRHpKbHVBRDNMVmdraGxkRjZCMUxPci04bFBjczVjUjNjd3JObV9HR0w1UGRZZV9KYkhoWFFxUC1hNTE1MmVjZHdJZG40TW8tVHNZanE1VnBneDdSSUxfd21rS3hLXzRITVByU3JkcndCb1lwR25VaEhZZmRMX2ZtRkkwWjJsZFlGdFNmaHpyZHNhbTl5V1RxcWtoeHZTaU05UDdlNXZWRjcycVp6QQ?oc=5",
     "date": "2 nov.",
-    "pourquoi": "Fournit des indications sur la stratégie de financement de la grande entreprise technologique sur le marché obligataire européen.",
+    "pourquoi": "L'arrivée d'un géant américain de la tech sur la dette en euros offre des repères sur le coût de financement des multinationales et la dynamique du marché obligataire européen.",
     "impact": "flat"
+   },
+   {
+    "titre": "Vusion: franchit 136 euros et clôture à 142,90, signal renforcé par le RSI",
+    "resume": "Le titre Vusion dépasse le seuil des 136 euros pour finir à 142,90 euros, confirmant un signal technique d'après le RSI.",
+    "source": "ABC Bourse",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYzJfNWhiSzdrRmdhd3ZDV1NRdUZGX1lfZDFURG5jUUh5ZlZGT3Z4c3JVSGVrVzA0Yk85MWZiTk1jc2QySl80am9oeHVfNC1KdjlBOGNyazh0dzVtZjVCSkVXbFJQOENCZUdTRkEzd2VqcmhQMHdzNDdJMXdNY2h4TFdDT09ORlRaazZpUVNVR2F4QVJqMHpxUmtMMHVWQ1MxUnFEUUs1MXhPLWstUlA4dXZsWQ?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Cette cassure graphique sur un acteur des étiquettes électroniques est un point de repère pertinent pour les adeptes d'analyse technique sur les valeurs de croissance françaises.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Le directeur financier d’Avalo Therapeutics vend des actions pour 202.437$",
+    "resume": "Le directeur financier de la société Avalo Therapeutics a vendu des actions de son entreprise pour un montant d'environ 202 437 dollars.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-davalo-therapeutics-vend-des-actions-pour-202437-93CH-3667717",
+    "date": "2 nov.",
+    "pourquoi": "Les transactions d'initiés constituent un indicateur suivi par le marché pour évaluer la confiance des dirigeants envers la valorisation de leur propre titre.",
+    "impact": "baisse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-02T09:45:05+00:00",
-  "resume": "Le marché immobilier français fait face à un nouveau rapport de force marqué par des prix en baisse et des taux de crédit qui remontent, s'établissant à 3,76 % sur 20 ans en novembre. Les députés ont rejeté le tour de vis fiscal sur le statut LMNP, offrant une victoire d'étape pour les investisseurs locatifs. Par ailleurs, la rentabilité de l'immobilier locatif subit une pression accrue fin 2026 en raison de la hausse des charges et des taxes.",
+  "updatedAt": "2026-11-02T09:53:54+00:00",
+  "resume": "Le marché immobilier français fait face à un nouveau rapport de force marqué par des prix orientés à la baisse et des taux de crédit sous tension, s'établissant autour de 3,76 % sur 20 ans en novembre. Dans ce contexte, l'investissement locatif est interrogé sur sa rentabilité en raison du poids de la taxe foncière, des travaux et du crédit, tandis que les députés ont rejeté le tour de vis fiscal sur le statut LMNP. Parallèlement, les notaires font des propositions pour assouplir les donations et les courtiers avancent des solutions pour débloquer les projets d'achat.",
   "chiffres": [],
   "items": [
    {
+    "titre": "Entre baisse des prix et hausse des taux, un marché immobilier sous pression",
+    "resume": "Le marché immobilier évolue sous pression en raison d'une combinaison de prix en baisse et de taux de crédit en hausse.",
+    "source": "Meilleurs Agents",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdzVTOHhzdGNrVFhVQlowNlRYcm5KVnpLNzFkbFdMUlhRS1YzaTFyeWttZU4ta3prMHZ4cmpxU2N0Z2M4eHZFeHBIZEVCZGYycHVIa3RsT3Eyd2lBa1o1dUJyWS1Ob0h2aUQ1V3IzTG43NEw5empmSE9xb3c5UmxJemVsUUtkWHp4WnNJcnNLWFR3emM2Ui0wVHRJM1B3Q3RRck0xRk1ZMjl6OFhSWnlkb3V2VnRuQm1sNVdLcDlXaTVLeEMxNU5CUmhJMA?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "Taux immobilier : 3,76 % à 20 ans en novembre, 13 € de plus par mois",
-    "resume": "Les taux de crédit immobilier atteignent 3,76 % sur 20 ans en novembre, entraînant une hausse des mensualités pour les emprunteurs.",
+    "resume": "Le taux des crédits immobiliers sur 20 ans atteint 3,76 % en novembre, ce qui représente une augmentation des mensualités pour les emprunteurs.",
     "source": "Stéphane Larue News",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbXMyNWI4SUFndF9YeGZFLUVWMDBSeTJidUR3RWwyR2dEemhvYjlpMTZUdmlsZDM0VWRuSkJqMmM0eXNBLU1UOV9sM0dhQktXRGVZYzlydWRKWTgzYzN2clNGdTlXb1NQODB1ckEyRDhFSkhmNjdyTW14OUNvMjFhXzJ1OFRvaTlmSXJ1N0lqX2lOWU0?oc=5",
     "date": "2 nov.",
@@ -317,7 +325,7 @@
    },
    {
     "titre": "Favoriser la relance plutôt que serrer tous les boulons : les députés ont rejeté le tour de vis sur le statut LMNP, victoire d’étape ou victoire à la Pyrrhus ?",
-    "resume": "L'Assemblée nationale a rejeté le durcissement fiscal prévu sur le statut du Loueur Meublé Non Professionnel (LMNP), privilégiant la relance.",
+    "resume": "Les députés ont voté le rejet du tour de vis fiscal concernant le statut du Loueur Meublé Non Professionnel (LMNP), privilégiant la relance.",
     "source": "Challenges",
     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQTWpSSXRGNktSeV9TS2dPNlVadGN3dGx5dTE2TjZMRVhZOHNQb24yRXp2b21xdnZyQ2YwZVBWOU5Bb0s0VnlsUXh6d09NTkkzR2MwbmdkbWxnZlFpaFJ4SFJvT2xxZDRlUDBLTndiMEhlS2c2VlRMWlExSGtXQlJ2R3ZxRVduTDk0LTR0M3AxVDF1d3VCSWI2WFRFWkFuWDJWblgtOC1TT2l0THV1VDVKWl9mSFJ1NklHaVFOOHN6S2dNSExsVHFNMGx2eTBVVHEtcllUVHAxTFhSSHktNmFEX3JUQnJoam9FVnh3ek4wa0NrQUxUcEVtU3loeHNrLUcxVjdsWGZ5RkNTdllLSEdoclRSbnZKWGJac1ZZQlhfVHQxcGM?oc=5",
     "date": "2 nov.",
@@ -325,66 +333,67 @@
    },
    {
     "titre": "Immobilier locatif : taxe foncière, crédit, travaux... est-ce encore rentable d'investir fin 2026 ?",
-    "resume": "L'investissement locatif de fin 2026 est questionné face à la conjonction de la taxe foncière, du coût du crédit et des travaux nécessaires.",
+    "resume": "La rentabilité de l'immobilier locatif fin 2026 est questionnée face à l'accumulation de la taxe foncière, du coût des crédits et des travaux.",
     "source": "MoneyVox",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdnRjaWJVeThCU2FzNVJXdGRkMnE2VzRMdVk1RHdNYlZybVlEUFFpZzdlZ2syaGNRWTl5TVFrSUVmZV9xaVZPaWNhOEg4V3ZQUXhHLTNkckdMRmM0RU1jU194NEdLODlrNVdmVG51eXk1WXc0MVFkRGNBMDZMODFmR0lPUnpvR0JMVExLTGdrM1FlTG1sQU5EMWJ0bWZFS05zdndhMmJnU21ZcUZ6ZzNneWpjMmFOSEF2cTVOcnVpMzJ5OXYxbzJTUk9OZkVaQkFHbGRreVV5a2o?oc=5",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Patrimoine : les propositions des notaires pour assouplir les donations",
+    "resume": "Les notaires ont formulé des propositions visant à assouplir les règles encadrant les donations au sein du patrimoine.",
+    "source": "Le Figaro",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTHFWSUE0WmZaa25GV1JPYmtMNGd2OHlmREJ2NDhZZTRRNE9WWFZnaUQzMFhRLTZRX1BUU1dhQWlBM1lkMzFWcC1WU2Y3dUMxbjRWejE3VXhGV0ZnWC1RSEgzQzgtZmcxVHJHZ0loN01sMmNyNHJGazRhekFnQ3V6OFA0bV8xUmdlZ21KS09wMDZWcjJBTDNfUnIyZFAxaHRyLWZIanR2MU52aTVxRVEwX3AtRG9VSDFW?oc=5",
+    "date": "2 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Immobilier Île-de-France : ventes et prix en baisse en 2026",
-    "resume": "Le marché immobilier en Île-de-France enregistre une baisse conjuguée des volumes de ventes et des prix sur l'ensemble de l'année 2026.",
+    "resume": "En Île-de-France, les volumes de ventes ainsi que les prix affichent des baisses sur l'ensemble de l'année 2026.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQazJXNjlJZ2R6Y3ZSbllWa1lDdG15dXV4LXc2WUJKeks3QmNOTmhBODFjNmE4bjd2MmU3Q0JJZU1td01yYVZORW1lalc2dnpDc3JWRXZKLWFSczd0TGZvczVYOXJUNC1CTFZyODc0V25JeS1OVmJNdV9lS0JsNDRtMlZOUU1VUThnZ0tqX0dPSzNiMVJuYWlGSGNGYXR6YXBnOTM3NDlobHJhcENf?oc=5",
     "date": "2 nov.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Crédit immobilier : ces propositions choc des courtiers pour débloquer vos projets",
-    "resume": "Les courtiers en crédit immobilier avancent de nouvelles propositions pour tenter de débloquer les projets d'achat des ménages.",
-    "source": "Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNnZqR01BSkVlcFVHcEFRanpKSE5VUFhSY2ktQnA0NTRoMDNtUkJ0LW50QjhzZ3NHTjZTNWZ1d3VUdUJKc2dIWmFYVXlwcE8tSnJEMmJWQ0hLc3pDbkVXWC1QWF94eG0tOHA5VmctTHdVOFZESk8xRjJ1V2JzcDVTb0ZxaGNteTh0TXdwUjFPdndHbUhoMnpyRGVDWGZtMmhlVkw3SF91X0FGWDJQanhLbEYtQURwbHZTQm5FdG9ScFk1MEhjNWhxLXh2RGtWczg?oc=5",
-    "date": "2 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Immobilier : l'APL accession va-t-elle faire son grand retour ?",
-    "resume": "Un débat émerge sur un éventuel retour de l'APL accession pour soutenir les ménages dans leur parcours d'achat immobilier.",
-    "source": "La Tribune",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckJkUmR6dmJ6bWd6RUltcHdzeWRxekFOQnRwbVYxc2ljT0hmSVloZDlRRFB2VXljNlB1S3phUDdDakFjMjlYUUtzb3VqYXo4NXRxVEUyTjA4cmVXaENuLXd0VFhmY3NKV0tCbmdiZFNDYnFCZDBkZHZvMTVIaWxMczlJRmhsckdEbjExZWNJRDJmU1laSFl3QWRLRFRYbUVBa2hRM1pXQkxONkp3MFBiM1BPUkJBUG1nY3FteEpkUlF2ZTlGTVVBWWdUeGtpN1hGcXNwU1dn?oc=5",
-    "date": "2 nov.",
-    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-flash-lite-latest",
   "niche": [
    {
-    "titre": "Les prix de location des zones industrielles continuent d'augmenter, le taux d'occupation est élevé",
-    "resume": "Les prix des loyers des zones industrielles continuent de progresser et affichent un taux d'occupation élevé.",
-    "source": "Laodong.vn",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMzI1bDhzLTYwQWJ5dWs4Y3V6dFVzR3V3dXRoSm5hUi1GVW9mYzZSYTFKTHpITmtWVlNESHU0d2ExSl80SzJRbzllX2ktZnFpVzZ3T2FCYXNFdTF6Rl9vUHd2a0RiM1diUERjR25QQld4OEFXZUtmVkxwTUdCTFVYd3dlNURsdnRHSXpFVGloRVMwTlg4ZFhmUll5Mkt3RjNzOV9UZlVn?oc=5",
-    "date": "2 nov.",
-    "pourquoi": "Utile pour analyser le secteur de la logistique et de l'immobilier professionnel, à surveiller pour la résilience des rendements face au résidentiel.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "FISCAL – Vente immobilière : la responsabilité du notaire engagée pour une TVA indûment appliquée",
-    "resume": "La responsabilité d'un notaire a été engagée suite à l'application indue d'une TVA lors d'une vente immobilière.",
-    "source": "LE MAG' JURIDIQUE",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVlhTS2h0TGVmdWlBVmdxbWVBM0U5aktma3R5SHVLVWZYZElMUVY4SEkxWUpCS0M0MGpYdjJueGc5cU5ud2dFTlFUWGxBS2MybVJPdW9JMGprSm4yX0FfTVItRjRzbWFoMjh4RjBpTVRsUzJGTWswSkhxVmxGUDhEZkNUdE9YeTRtRFdvMldURnZkMGtfSjJLbHZ5bzlGa0QyeG9YVUtPcHYzanliY05NcW9yNGp0TkRNaU9SbVZ4YXhpUzVtS00tTTRoRWlINHM?oc=5",
-    "date": "2 nov.",
-    "pourquoi": "Concerne le risque juridique et fiscal lors des transactions, à surveiller pour la sécurité des montages et la responsabilité des professionnels.",
-    "impact": "flat"
-   },
-   {
     "titre": "Budget, charges, travaux : Foncia lance une plateforme gratuite pour les conseils syndicaux",
-    "resume": "Foncia déploie une plateforme numérique gratuite, Campus Copro, dédiée aux conseils syndicaux pour la gestion des budgets et charges.",
+    "resume": "Foncia lance Campus Copro, une plateforme gratuite destinée aux conseils syndicaux pour suivre les charges et le budget.",
     "source": "MySweetImmo",
     "url": "https://www.mysweetimmo.com/2026/11/02/budget-charges-travaux-foncia-lance-une-plateforme-gratuite-pour-les-conseils-syndicaux/",
     "date": "2 nov.",
-    "pourquoi": "Concerne la gestion de copropriété et la maîtrise des charges, un poste de dépense clé pour la rentabilité des investisseurs en appartement.",
+    "pourquoi": "Utile pour la gestion des charges en copropriété ; à surveiller pour optimiser la maîtrise des coûts de fonctionnement des immeubles gérés.",
+    "impact": "flat"
+   },
+   {
+    "titre": "FISCAL – Vente immobilière : la responsabilité du notaire engagée pour une TVA indûment appliquée",
+    "resume": "La responsabilité d'un notaire a été engagée dans le cadre d'une vente immobilière suite à une application indue de la TVA.",
+    "source": "LE MAG' JURIDIQUE",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVlhTS2h0TGVmdWlBVmdxbWVBM0U5aktma3R5SHVLVWZYZElMUVY4SEkxWUpCS0M0MGpYdjJueGc5cU5ud2dFTlFUWGxBS2MybVJPdW9JMGprSm4yX0FfTVItRjRzbWFoMjh4RjBpTVRsUzJGTWswSkhxVmxGUDhEZkNUdE9YeTRtRFdvMldURnZkMGtfSjJLbHZ5bzlGa0QyeG9YVUtPcHYzanliY05NcW9yNGp0TkRNaU9SbVZ4YXhpUzVtS00tTTRoRWlINHM?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Concerne la sécurité juridique des transactions fiscales ; à surveiller pour les risques de contentieux sur la TVA immobilière.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Canicule et passoires thermiques : les données climatiques influent sur les prix de l’immobilier à Château-Renault",
+    "resume": "À Château-Renault, les données climatiques et la canicule influencent directement les prix des passoires thermiques.",
+    "source": "lanouvellerepublique.fr",
+    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPQ3BXX1M1RGw2cnNuaXhpczhpYmpNamNFTlN3X2swWm1waFRSY2tsaVk3OWVlQ1JuOERNWkFUNEk5cHIwQ05fZDUwYXAtV0ctX2g5NzJSSzMtdzN5SUlmS1haSDMxbERLMFl3YlpaOHRpbkx2UjFrMXNwVmlFSm85WVdVMThmei1HdHpjMV9Rb3Boem9iY0pOekNkSm42OS11R2hITDNOSzV1U2dHRHlQYXRES1FiRnQtQVZIcnU2WU53dTA1bTJEeEpkY1RQZHByRUV3d2JxZGZyRG1OZ2pPalIyZHdzQjBHX0ZvLWw5dGlIazNqcmc3VWgwaXB5anc4TVhobzRpcmtWZE9XNU5CZEtqTmNyWXNUSmF2aHVIRWlNQXVE?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Concerne l'impact de la transition énergétique sur la valeur des biens ; à surveiller pour l'évolution des décotes sur les logements énergivores.",
     "impact": "baisse"
+   },
+   {
+    "titre": "Immobilier : l'APL accession va-t-elle faire son grand retour ?",
+    "resume": "Un débat émerge sur un éventuel retour de l'APL accession pour soutenir l'achat immobilier.",
+    "source": "La Tribune",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckJkUmR6dmJ6bWd6RUltcHdzeWRxekFOQnRwbVYxc2ljT0hmSVloZDlRRFB2VXljNlB1S3phUDdDakFjMjlYUUtzb3VqYXo4NXRxVEUyTjA4cmVXaENuLXd0VFhmY3NKV0tCbmdiZFNDYnFCZDBkZHZvMTVIaWxMczlJRmhsckdEbjExZWNJRDJmU1laSFl3QWRLRFRYbUVBa2hRM1pXQkxONkp3MFBiM1BPUkJBUG1nY3FteEpkUlF2ZTlGTVVBWWdUeGtpN1hGcXNwU1dn?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Concerne le secteur de l'accession à la propriété des ménages modestes ; à surveiller pour de potentielles aides publiques au financement.",
+    "impact": "hausse"
    }
   ]
  }
