@@ -145,7 +145,7 @@ def parse_show(p, src):
             break
     return {"name": p.get("collectionName", ""), "author": p.get("artistName", ""), "cat": src.get("cat", ""),
             "image": p.get("artworkUrl600") or p.get("artworkUrl100") or "", "apple": p.get("collectionViewUrl", ""),
-            "feed": p["feedUrl"], "query": src["q"], "episodes": eps}
+            "feed": p["feedUrl"], "query": src["q"], "spotify": src.get("spotify", ""), "episodes": eps}
 
 def main():
     sources = json.load(open(f"{ROOT}/scripts/audio_sources.json", encoding="utf-8"))
