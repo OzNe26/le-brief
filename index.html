@@ -304,6 +304,7 @@ body.playing .wrap{padding-bottom:110px}
 .iadots{display:flex;gap:6px;justify-content:center;margin-top:10px}.iadots i{width:7px;height:7px;border-radius:50%;background:var(--line);transition:.2s}.iadots i.on{background:var(--analyse);width:18px;border-radius:4px}
 .iahint{text-align:center;font-size:11.5px;color:var(--dim);margin-top:4px}
 @media (max-width:900px){.iaarr{display:none}}@media (min-width:901px){.iahint{display:none}.claude.panel{padding-left:40px;padding-right:40px}.claude.panel .iatabs{margin-left:-22px}}
+.cav{display:flex;flex-direction:column;gap:8px}.cslides{display:flex;align-items:flex-start;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;transition:height .25s}.cslides::-webkit-scrollbar{display:none}.cslide{flex:0 0 100%;scroll-snap-align:start;scroll-snap-stop:always;box-sizing:border-box}.cdots{margin-top:0}
 .votes{display:flex;gap:5px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--dim)}.votes .vt{all:unset;cursor:pointer;padding:3px 8px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;color:var(--ink)}.votes .vt.haussier{color:var(--up)}.votes .vt.baissier{color:var(--down)}.votes .vt.on{border-color:var(--analyse);background:rgba(163,230,53,.10)}
 @media (max-width:640px){.iatabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -4px;padding:0 4px}.iatabs button{flex:none}}
 .agrid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
@@ -989,7 +990,6 @@ function renderAnalyse(main){
     ${panelHtml}
     <div class="chips"><button data-af="" class="${anState.f?"":"on"}">Tout</button><button data-af="crypto" class="${anState.f==="crypto"?"on":""}">₿ Crypto</button><button data-af="action" class="${anState.f==="action"?"on":""}">📈 Actions</button></div>
     <div class="agrid2">${list.map(a=>{const x=a.data,ch=x.ch||{},pos=((x.score+5)/10*100).toFixed(0),cn=cur&&cur.assets?cur.assets[a.id]:null;
-      const votes=panel.filter(p=>p.assets&&p.assets[a.id]&&p.assets[a.id].tendance);
       return `<article class="asset">
         <div class="ahead">${a.logo?`<img class="ic logo" src="${esc(a.logo)}" alt="${esc(a.id)}" onerror="this.outerHTML='<span class=&quot;ic&quot;>${esc(a.id)}</span>'">`:`<span class="ic">${esc(a.id)}</span>`}<div><b>${esc(a.name)} <span style="color:var(--dim);font-weight:500;font-size:13px">${esc(a.id)}</span></b><small>${a.type==="crypto"?"Crypto · en dollar US":"Action US · en dollar US"}</small></div>
           <div class="px"><span>${nfmt(x.price)} $</span><em class="${pcls(ch["1j"])}" style="font-style:normal;font-size:12.5px">${pfmt(ch["1j"])} (24 h)</em></div></div>
@@ -998,8 +998,12 @@ function renderAnalyse(main){
         <div class="stats"><div><small>7 j</small><span class="${pcls(ch["7j"])}">${pfmt(ch["7j"])}</span></div><div><small>30 j</small><span class="${pcls(ch["30j"])}">${pfmt(ch["30j"])}</span></div><div><small>1 an</small><span class="${pcls(ch["1an"])}">${pfmt(ch["1an"])}</span></div><div><small>RSI 14</small>${x.rsi!=null?Math.round(x.rsi):"?"}</div><div><small>Volatilité</small>${x.vol!=null?Math.round(x.vol)+" %":"?"}</div></div>
         <div class="levels"><span>Support <b>${nfmt(x.support)}</b></span><span>Résistance <b>${nfmt(x.resistance)}</b></span><span>MM50 <b>${nfmt(x.sma50)}</b></span><span>MM200 <b>${nfmt(x.sma200)}</b></span></div>
         <div class="atext"><span class="lbl">${a.textBy==="ia"?"Analyse IA auto":"Analyse auto"}</span>${esc(a.text)}</div>
-        ${votes.length>1?`<div class="votes"><span>Le panel :</span>${votes.map(p=>{const t=p.assets[a.id].tendance;return `<button data-ia="${esc(p.id)}" class="vt ${t} ${p.id===(cur&&cur.id)?"on":""}" title="${esc(p.nom)} · ${esc(p.style)} : ${esc(t)}">${esc(p.emoji||"")} ${tIcon(t)}</button>`}).join("")}</div>`:""}
-        ${cn&&cn.avis?`<div class="cnote"><span class="lbl">${esc(cur.emoji||"")} ${esc(cur.style)} · ${esc(cur.nom)}</span>${esc(cn.avis)}</div>`:""}
+        ${(()=>{const av=panel.filter(p=>p.assets&&p.assets[a.id]&&p.assets[a.id].avis); if(!av.length) return "";
+          const ci=Math.max(0,av.findIndex(p=>p.id===(cur&&cur.id)));
+          return `<div class="cav" data-asset="${esc(a.id)}">
+          ${av.length>1?`<div class="votes"><span>Le panel :</span>${av.map((p,i)=>{const t=p.assets[a.id].tendance||"";return `<button data-cv="${i}" class="vt ${t} ${i===ci?"on":""}" title="${esc(p.nom)} · ${esc(p.style)} : ${esc(t)}">${esc(p.emoji||"")} ${tIcon(t)}</button>`}).join("")}</div>`:""}
+          <div class="cslides" data-start="${ci}">${av.map(p=>`<div class="cslide"><div class="cnote"><span class="lbl">${esc(p.emoji||"")} ${esc(p.style)} · ${esc(p.nom)}</span>${esc(p.assets[a.id].avis)}</div></div>`).join("")}</div>
+          ${av.length>1?`<div class="iadots cdots">${av.map((p,i)=>`<i class="${i===ci?"on":""}"></i>`).join("")}</div>`:""}</div>`})()}
         ${a.news&&a.news.length?`<div class="anews">${a.news.slice(0,3).map(n=>`<a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">📰 ${esc(n.titre)} <span style="color:var(--dim)">· ${esc(n.source)}</span></a>`).join("")}</div>`:""}
       </article>`}).join("")}</div>
     <p style="color:var(--dim);font-size:12px;margin-top:14px">Méthode : moyennes mobiles 20/50/200 jours, RSI 14 jours, volatilité annualisée sur 30 jours, support et résistance = plus bas et plus haut des 20 dernières séances. Score de -5 (très baissier) à +5 (très haussier).</p>`}`;
@@ -1016,6 +1020,16 @@ function renderAnalyse(main){
     const step=d=>{const ix=panel.findIndex(p=>p.id===anState.ia)+d; if(ix>=0&&ix<panel.length) goIA(panel[ix].id,true);};
     const pv=main.querySelector(".iaarr.prev"), nx=main.querySelector(".iaarr.next");
     if(pv) pv.addEventListener("click",()=>step(-1)); if(nx) nx.addEventListener("click",()=>step(1)); }
+  // Avis de chaque actif : on glisse directement dans la carte (indépendant des autres cartes)
+  main.querySelectorAll(".cav").forEach(box=>{
+    const cs=box.querySelector(".cslides"); if(!cs) return;
+    const slides=[...cs.children], btns=[...box.querySelectorAll("[data-cv]")], dots=[...box.querySelectorAll(".cdots i")];
+    const mark=i=>{btns.forEach((b,k)=>b.classList.toggle("on",k===i)); dots.forEach((d,k)=>d.classList.toggle("on",k===i));
+      if(slides[i]) cs.style.height=slides[i].offsetHeight+"px";};
+    const start=+cs.dataset.start||0; cs.scrollLeft=start*cs.clientWidth; mark(start);
+    let t; cs.addEventListener("scroll",()=>{clearTimeout(t); t=setTimeout(()=>mark(Math.round(cs.scrollLeft/cs.clientWidth)),100);},{passive:true});
+    btns.forEach(b=>b.addEventListener("click",()=>{const i=+b.dataset.cv; cs.scrollTo({left:i*cs.clientWidth,behavior:"smooth"}); mark(i);}));
+  });
   main.querySelectorAll("[data-ia]").forEach(b=>b.addEventListener("click",()=>{ const id=b.dataset.ia; if(b.closest(".iatabs")&&sl){goIA(id,true);return} setIA(id); goIA(id,false); }));
 }
 
