@@ -30,9 +30,53 @@ def post(url, data, headers=None):
         return r.read()
 
 
-def notify(topic, title, message, click=SITE, tags=None, prio=3):
-    post("https://ntfy.sh/", {"topic": topic, "title": title[:120], "message": message[:900], "click": click,
-                              "tags": tags or [], "priority": prio, "icon": SITE + "img/icon-192.png"})
+VAPID = None
+try:
+    import vapid as _v
+    from pywebpush import webpush, WebPushException
+    from py_vapid import Vapid
+except Exception:
+    _v = None
+
+
+def rpc(name, payload):
+    return json.loads(post(f"{SB_URL}/rest/v1/rpc/{name}", payload, {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}"}) or b"null")
+
+
+class Sender:
+    """Envoie une alerte sur tous les appareils d'un membre (notifications du site) et sur ntfy s'il l'utilise."""
+    def __init__(self, sub, secret):
+        self.topic = sub.get("topic") if re.fullmatch(r"[A-Za-z0-9_-]{16,64}", sub.get("topic") or "") else None
+        self.endpoints = [e for e in (sub.get("endpoints") or []) if isinstance(e, dict) and (e.get("endpoint") or "").startswith("https://")]
+        self.secret = secret
+        self.count = 0
+
+    def ok(self): return bool(self.topic or self.endpoints)
+
+    def __call__(self, title, message, click=SITE, tags=None, prio=3):
+        global VAPID
+        if self.topic:
+            try:
+                post("https://ntfy.sh/", {"topic": self.topic, "title": title[:120], "message": message[:900], "click": click,
+                                          "tags": tags or [], "priority": prio, "icon": SITE + "img/icon-192.png"})
+            except Exception as e: print("ntfy :", str(e)[:100])
+        if self.endpoints and _v:
+            if VAPID is None:
+                VAPID = Vapid(private_key=_v.private_key(self.secret))
+            data = json.dumps({"title": title[:120], "body": message[:600], "url": click, "tag": (tags or ["lebrief"])[0]}, ensure_ascii=False)
+            for e in list(self.endpoints):
+                try:
+                    webpush({"endpoint": e["endpoint"], "keys": {"p256dh": e["p256dh"], "auth": e["auth"]}}, data,
+                            vapid_private_key=VAPID, vapid_claims={"sub": "https://ozne26.github.io"}, ttl=6 * 3600, timeout=15)
+                except WebPushException as ex:
+                    code = getattr(getattr(ex, "response", None), "status_code", 0)
+                    if code in (404, 410):  # appareil désabonné : on le retire
+                        try: rpc("robot_remove_push", {"p_secret": self.secret, "p_endpoint": e["endpoint"]})
+                        except Exception: pass
+                        self.endpoints.remove(e)
+                    else: print("push :", code, str(ex)[:100])
+                except Exception as ex: print("push :", str(ex)[:100])
+        self.count += 1
 
 
 def main():
@@ -40,10 +84,11 @@ def main():
     if not secret:
         print("Alertes : pas de secret ALERT_SECRET, rien à faire."); return
     try:
-        subs = json.loads(post(f"{SB_URL}/rest/v1/rpc/robot_alert_subs", {"p_secret": secret},
-                               {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}"}))
-    except Exception as e:
-        print("Alertes : lecture des réglages impossible :", str(e)[:150]); return
+        subs = rpc("robot_alert_targets", {"p_secret": secret})
+    except Exception:
+        try: subs = rpc("robot_alert_subs", {"p_secret": secret})  # ancienne version (ntfy seul)
+        except Exception as e:
+            print("Alertes : lecture des réglages impossible :", str(e)[:150]); return
     try: state = json.load(open(f"{ROOT}/alerts_state.json"))
     except Exception: state = {}
     live = json.load(open(f"{ROOT}/news_live.json", encoding="utf-8"))
@@ -60,9 +105,9 @@ def main():
     sent_total = 0
     active = set()
     for sub in subs:
-        topic = sub.get("topic") or ""
-        if not re.fullmatch(r"[A-Za-z0-9_-]{16,64}", topic): continue
-        key = h(topic); active.add(key)
+        notify = Sender(sub, secret)
+        if not notify.ok() or not sub.get("user_id"): continue
+        key = h("u:" + sub["user_id"]); active.add(key)
         st = state.setdefault(key, {"sent": [], "px": {}, "new": True})
         sent = set(st.get("sent", []))
         # --- actus
@@ -88,32 +133,33 @@ def main():
         try:
             if st.get("new"):
                 # première fois : on ne renvoie pas les anciennes infos, juste un message de bienvenue
-                notify(topic, "✅ Alertes Le Brief activées",
+                notify("✅ Alertes Le Brief activées",
                        "Tu recevras ici les infos qui parlent de ta liste à surveiller et les gros mouvements de tes actifs.", tags=["white_check_mark"])
                 sent |= {ih for _, _, ih in hits}
                 for k, a, tag in moves: st["px"][k] = tag
-                st["new"] = False; sent_total += 1
+                st["new"] = False
             else:
                 for k, a, tag in moves[:MAX_PER_RUN]:
                     up = a["ch"] > 0
                     p = f"{a['p']:,.2f}".replace(",", " ").replace(".", ",") if a["p"] < 100 else f"{a['p']:,.0f}".replace(",", " ")
-                    notify(topic, f"{'📈' if up else '📉'} {a['n']} {'+' if up else '−'}{abs(a['ch']):.1f} % sur 24 h".replace(".", ","),
+                    notify(f"{'📈' if up else '📉'} {a['n']} {'+' if up else '−'}{abs(a['ch']):.1f} % sur 24 h".replace(".", ","),
                            f"{a['n']} ({a['s']}) cote environ {p} €. Ton seuil d'alerte : ±{pct:g} %.",
                            click=SITE + "#espace", tags=["chart_with_upwards_trend" if up else "chart_with_downwards_trend"], prio=4)
-                    st["px"][k] = tag; sent_total += 1
+                    st["px"][k] = tag
                 if len(hits) > MAX_PER_RUN:
                     words = sorted({k for k, _, _ in hits})
-                    notify(topic, f"🔔 {len(hits)} nouvelles infos sur ta liste",
+                    notify(f"🔔 {len(hits)} nouvelles infos sur ta liste",
                            "Mots trouvés : " + ", ".join(words[:8]) + "\n\n" + "\n".join("• " + it["titre"][:110] for _, it, _ in hits[:6]),
                            click=SITE + "#espace", tags=["bell"])
-                    sent |= {ih for _, _, ih in hits}; sent_total += 1
+                    sent |= {ih for _, _, ih in hits}
                 else:
                     for k, it, ih in hits:
-                        notify(topic, f"🔔 {k} · {it['source']}", it["titre"] + ("\n\n" + it["resume"][:280] if it.get("resume") else ""),
+                        notify(f"🔔 {k} · {it['source']}", it["titre"] + ("\n\n" + it["resume"][:280] if it.get("resume") else ""),
                                click=it["url"], tags=["bell"])
-                        sent.add(ih); sent_total += 1
+                        sent.add(ih)
         except Exception as e:
             print("Alertes : envoi impossible pour un membre :", str(e)[:120])
+        sent_total += notify.count
         st["sent"] = list(sent)[-400:]
         st["px"] = {k: v for k, v in st["px"].items() if v.startswith(TODAY)}
     # on oublie les membres qui ont coupé leurs alertes
