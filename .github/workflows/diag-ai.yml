@@ -1,0 +1,11 @@
+name: Diagnostic Supabase
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          K=sb_publishable_N42bTU1DF11LH9mC7K6QYQ_POOJ2ZK2
+          curl -sS -o out.txt -w "HTTP=%{http_code}\n" "https://rxuhvllidrjifyporkao.supabase.co/rest/v1/user_prefs?select=radios,progress&limit=0" -H "apikey: $K" -H "Authorization: Bearer $K"; head -c 300 out.txt; echo
