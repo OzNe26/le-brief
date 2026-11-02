@@ -3,7 +3,9 @@ name: Calendrier des marchés
 on:
   schedule:
     - cron: "20 5 * * *"    # vers 6h20 (heure de Paris en hiver)
+    - cron: "20 11 * * *"   # vers 12h20
     - cron: "20 17 * * *"   # vers 18h20
+    - cron: "50 21 * * *"   # vers 22h50 (après les résultats publiés à la clôture de Wall Street)
   workflow_dispatch:
   push:
     paths:

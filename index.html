@@ -1331,6 +1331,10 @@ function renderAudio(main){
 }
 
 
+/* Un rendez-vous reste affiché 45 min après son heure ; un rendez-vous « journée » jusqu'au soir. */
+function calUpcoming(e){ const x=new Date(e.d), n=Date.now();
+  if(e.allday){ const end=new Date(x.getFullYear(),x.getMonth(),x.getDate()+1); return end.getTime()>n; }
+  return x.getTime()>n-45*60e3; }
 /* ================= Accueil : la météo des marchés ================= */
 const WX=[ // du plus beau au plus mauvais temps
   {k:"soleil",min:1.2,ico:"☀️",nom:"Grand soleil",sur:"Grand soleil"},
@@ -1364,7 +1368,7 @@ function renderAccueil(main){
   // prévisions : 3 prochains jours avec rendez-vous
   const cal=anState.cal&&anState.cal.events||[], days=[];
   for(let i=0;i<10&&days.length<3;i++){ const t=new Date(now.getFullYear(),now.getMonth(),now.getDate()+i), t2=new Date(t.getTime()+864e5);
-    const ev=cal.filter(e=>{const x=new Date(e.d); return x>=t&&x<t2&&x>=new Date(now.getTime()-3*3600e3);}).sort((a,b)=>(b.imp||1)-(a.imp||1)).slice(0,3);
+    const ev=cal.filter(e=>{const x=new Date(e.d); return x>=t&&x<t2&&calUpcoming(e);}).sort((a,b)=>(b.imp||1)-(a.imp||1)).slice(0,3);
     if(ev.length) days.push({t,ev}); }
   const fc=days.map(({t,ev})=>{const top=Math.max(...ev.map(e=>e.imp||1)); const lab=calDayLabel(t);
     return `<div class="wxday"><div class="wxdh"><span>${top>=3?"⚡":"🌥️"}</span><b>${esc(lab)}</b></div>${ev.map(e=>`<p><time>${e.allday?"journée":new Date(e.d).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"})}</time>${esc(e.title)}</p>`).join("")}</div>`}).join("");
@@ -1414,9 +1418,9 @@ function calDayLabel(d){ const n=new Date(), t=new Date(n.getFullYear(),n.getMon
 function calendarHtml(){
   const c=anState.cal; if(!c||!c.events||!c.events.length) return "";
   const mine=new Set((state.prefs.portfolio||[]).filter(h=>h.k&&h.k.startsWith("s:")).map(h=>h.k.slice(2).split(".")[0].toUpperCase()));
-  const lim=Date.now()+(anState.calAll?60:14)*864e5, from=Date.now()-3*3600e3;
+  const lim=Date.now()+(anState.calAll?60:14)*864e5;
   const ICON={macro:"📊",resultats:"💼",banques:"🏦",crypto:"🔓"};
-  let ev=c.events.filter(e=>{const t=new Date(e.d).getTime(); return t>=from&&t<=lim;});
+  let ev=c.events.filter(e=>calUpcoming(e)&&new Date(e.d).getTime()<=lim);
   if(anState.calF==="macro") ev=ev.filter(e=>e.cat==="macro"||e.cat==="banques");
   if(anState.calF==="resultats") ev=ev.filter(e=>e.cat==="resultats");
   let cur="", html="";
@@ -1439,7 +1443,7 @@ async function loadCalendar(force){
 }
 function calHighlights(){
   const c=anState.cal; if(!c) return "";
-  const now=Date.now(), up=c.events.filter(e=>new Date(e.d).getTime()>now-3*3600e3);
+  const now=Date.now(), up=c.events.filter(calUpcoming);
   const pick=(f)=>up.find(f);
   const cards=[["🏦","Prochaine décision de la Fed",pick(e=>/taux de la Fed/i.test(e.title))],["🇪🇺","Prochaine décision de la BCE",pick(e=>/taux de la BCE/i.test(e.title))],
     ["👷","Prochain chiffre de l'emploi US",pick(e=>/Emploi américain/i.test(e.title))],["💼","Prochains gros résultats",pick(e=>e.cat==="resultats"&&e.imp>=3)||pick(e=>e.cat==="resultats")]].filter(x=>x[2]);
