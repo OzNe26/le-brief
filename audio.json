@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T10:18:31+00:00",
+ "updatedAt": "2026-11-02T10:59:28+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -124,6 +124,114 @@
  ],
  "podcasts": [
   {
+   "name": "Matthias Baccino",
+   "author": "Matthias Baccino",
+   "cat": "Finances perso",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f9/34/92/f934928c-9a20-3612-0945-b356506e1488/mza_17976197249653617129.jpeg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/matthias-baccino/id1896805553?uo=4",
+   "feed": "https://feeds.acast.com/public/shows/6a12eb57294da705c31d3351",
+   "query": "Matthias Baccino",
+   "spotify": "https://open.spotify.com/show/033mghG4DXr2l8o2wOgeZ2",
+   "episodes": [
+    {
+     "title": "Pillages et troubles sociaux : à la fin c'est vous qui payez ! Replay Live 01/11/26",
+     "date": "2026-11-02T06:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ae797d0c89efe5866d4d60d/media.mp3",
+     "duration": "1:24:25",
+     "desc": "Après plusieurs semaines de troubles sociaux, une question s&#39;ajoute à celle des revendications : combien ça va coûter ? Au-delà des dispositifs d&#39;aides, comment les commerçants sont-ils impactés ? Et surtout, à la fin, qui va payer l’addition ? J’ai au…"
+    },
+    {
+     "title": "Le Récap de la semaine - 31/10/2026",
+     "date": "2026-10-31T17:30:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ae62406ace2d1bf65331be5/media.mp3",
+     "duration": "2:52",
+     "desc": "Le secteur de l’IA qui baisse en bourse, les banques centrales en mode pause et la France qui s’enfonce dans une triple crise : c’est le Récap ! Et bien sûr une question qui reste en suspens : qui va payer pour les commerçants qui souffrent des pillages ? Rdv …"
+    },
+    {
+     "title": "Le point hebdo sur l'éco et les marchés - 26/10/26",
+     "date": "2026-10-27T08:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ae055eb29dd53209d745416/media.mp3",
+     "duration": "2:51",
+     "desc": "Première alerte sur le secteur de l’IA en Bourse, la France qui s’enfonce dans la crise et un rendez-vous dimanche à 18 h. Voici votre point hebdo ! 🔴 Rendez-vous en live chaque dimanche à 18 h sur YouTube : je réponds à toutes vos questions économiques, polit…"
+    },
+    {
+     "title": "La réalité des déserts médicaux en France ! Replay Live 25/10/26",
+     "date": "2026-10-26T06:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ade602cd10dc4428d2516e2/media.mp3",
+     "duration": "1:21:26",
+     "desc": "Pendant ce live, j&#39;étais avec Alexis Mussard, cofondateur d&#39;OùSoigner ! ⁠⁠Trois Français sur quatre vivent en zone officiellement « sous-dotée ». Ça veut dire quoi ? C&#39;est ce que nous avons vu dans ce live. Avec OùSoigner, Alexis et son équipe aide…"
+    },
+    {
+     "title": "Le Récap de la semaine - 23/10/2026",
+     "date": "2026-10-23T16:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6adb7b61c9b2f5b95dafc233/media.mp3",
+     "duration": "2:42",
+     "desc": "Réveillez-vous, les députés : vous êtes en train de nous envoyer dans le mur ! Un coup de gueule ce vendredi, à la place du récap ! N’hésitez pas à envoyer cette vidéo à votre député, des fois qu’il ou elle ne soit pas au courant ! 🔴 Rendez-vous en live chaque…"
+    },
+    {
+     "title": "La vérité sur la dette de la France !",
+     "date": "2026-10-21T16:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ad8697585adacac7dad23fb/media.mp3",
+     "duration": "53:45",
+     "desc": "Sylvie a 58 ans, elle est enseignante près de Limoges. Ses 30 000 € d&#39;assurance vie financent en partie l&#39;État français, sans qu&#39;elle le sache. En 2026, la France doit emprunter 310 milliards d&#39;euros. Un record. Aujourd&#39;hui, on ouvre les co…"
+    }
+   ]
+  },
+  {
+   "name": "Romain Lanéry",
+   "author": "Romain Lanéry",
+   "cat": "Tech & business",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/08/6e/86086e99-0a4e-a6f4-807e-4fd99782f1fa/mza_16694344546537570664.jpeg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/romain-lan%C3%A9ry/id1733831702?uo=4",
+   "feed": "https://feeds.acast.com/public/shows/65e1a01ed3026b00179a9e6d",
+   "query": "Romain Lanéry",
+   "spotify": "https://open.spotify.com/show/19AAlVOxV2tKTEPIwCNEYz",
+   "episodes": [
+    {
+     "title": "Le conseil pas politiquement correct sur le couple",
+     "date": "2026-11-01T04:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/65e1a01ed3026b00179a9e6d/e/6ae349e40d996106e77baa57/media.mp3",
+     "duration": "9:02",
+     "desc": "Un divorce coûte en moyenne 3 % de niveau de vie à un homme. Et 22 % à une femme. Voici le mécanisme exact qui produit cet écart. - Ouvrir un compte Trade Republic : https://trade.re/RLanery_sept26 Collaboration commerciale. Tout investissement comporte un ris…"
+    },
+    {
+     "title": "Pourquoi votre iPhone ne fera jamais de bonnes photos",
+     "date": "2026-10-29T04:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/65e1a01ed3026b00179a9e6d/e/6adb1a5c8b357cfa12b98ac3/media.mp3",
+     "duration": "13:50",
+     "desc": "C&#39;est la grande nouveauté photo de cet iPhone. Et il ne l&#39;utilise presque jamais. Pour la première fois, un iPhone a une ouverture mécanique. À l&#39;intérieur de l&#39;objectif, de vraies petites palettes s&#39;ouvrent et se ferment pour laisser passe…"
+    },
+    {
+     "title": "Voici le meilleur conseil pour devenir riche !",
+     "date": "2026-10-27T04:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/65e1a01ed3026b00179a9e6d/e/6adb1906671fe37e7ce71918/media.mp3",
+     "duration": "8:46",
+     "desc": "Un spectateur lui a reproché d&#39;avoir un meuble Ikea derrière lui alors qu&#39;il donne des conseils pour devenir riche. Sa réponse : c&#39;est peut-être exactement pour ça. - Ouvrir un compte Trade Republic : https://trade.re/RLanery_sept26 Matthias Baccin…"
+    },
+    {
+     "title": "Whoop : Pourquoi les riches achètent ce bracelet ?",
+     "date": "2026-10-25T09:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/65e1a01ed3026b00179a9e6d/e/6adc8bd4cb731c5d349e7014/media.mp3",
+     "duration": "30:58",
+     "desc": "Pourquoi Cristiano Ronaldo, le Prince Williams ou encore Charles Leclerc, portent tous, un bracelet Whoop ? Comment ce simple capteur est devenu en quelques années l’ennemi numéro 1 d’Apple et de son Apple Watch ? Aujourd’hui on cherche à comprendre pourquoi t…"
+    },
+    {
+     "title": "Le meilleur téléphone du monde pour l'IA (mais sans IA)",
+     "date": "2026-10-22T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/65e1a01ed3026b00179a9e6d/e/6acf3b85a27739e8c7718fbb/media.mp3",
+     "duration": "8:13",
+     "desc": "L&#39;iPhone 18 Pro est le meilleur smartphone au monde pour l&#39;intelligence artificielle. Et en Europe, il n&#39;a pas d&#39;intelligence artificielle. Commençons par la performance, parce qu&#39;elle est spectaculaire. L&#39;A20 Pro est la première puce d…"
+    },
+    {
+     "title": "Pourquoi les jeunes Français s'appauvrissent ?",
+     "date": "2026-10-20T03:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/65e1a01ed3026b00179a9e6d/e/6acf3a90a27739e8c7718fba/media.mp3",
+     "duration": "9:30",
+     "desc": "Vous empruntez 2 000 € en crédit à la consommation sur trois ans. Vous remboursez 2 727 €. Et ce chiffre est écrit en tout petit, en bas de la page. - Ouvrir un compte Trade Republic : https://trade.re/RLanery_sept26 Matthias Baccino, qui dirige les marchés eu…"
+    }
+   ]
+  },
+  {
    "name": "La Martingale",
    "author": "Orso Media",
    "cat": "Finances perso",
@@ -131,6 +239,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/la-martingale/id1457342478?uo=4",
    "feed": "https://feeds.audiomeans.fr/feed/647b907b-5a2f-4a11-94cb-591d604cb1b9.xml",
    "query": "La Martingale Matthieu Stefani",
+   "spotify": "",
    "episodes": [
     {
      "title": "#341 - Si Jancovici a raison, où mettre son argent ? - Virginie Wauquiez (Carbon4 Finance)",
@@ -184,6 +293,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/g%C3%A9n%C3%A9ration-do-it-yourself/id1209142994?uo=4",
    "feed": "https://feeds.audiomeans.fr/feed/b4a5ee3a-9230-4f9f-988d-2ae156a2d5a9.xml",
    "query": "Génération Do It Yourself",
+   "spotify": "",
    "episodes": [
     {
      "title": "#575 - David Foenkinos - Écrivain - S’en foutre, la définition du bonheur",
@@ -237,6 +347,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/good-morning-business/id82335643?uo=4",
    "feed": "https://feeds.simplecast.com/GwKPZCN1",
    "query": "Good Morning Business BFM",
+   "spotify": "",
    "episodes": [
     {
      "title": "L'intégrale de Good Morning Business du lundi 2 novembre",
@@ -290,6 +401,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/cryptoast-bitcoin-et-cryptomonnaies/id1511692988?uo=4",
    "feed": "https://anchor.fm/s/1f189c68/podcast/rss",
    "query": "Cryptoast podcast",
+   "spotify": "",
    "episodes": [
     {
      "title": "« Notre système monétaire ne peut pas survivre » - Avec Yorick de Mombynes",
@@ -343,6 +455,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/bankless/id1499409058?uo=4",
    "feed": "https://feeds.flightcast.com/p83fuj0y0u58o82l41xei7zo.xml",
    "query": "Bankless",
+   "spotify": "",
    "episodes": [
     {
      "title": "$VVV Community Call | October",
@@ -396,6 +509,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/lheure-du-monde/id1704984604?uo=4",
    "feed": "https://feeds.acast.com/public/shows/68db9d2509b1c365e44318ca",
    "query": "L'Heure du Monde",
+   "spotify": "",
    "episodes": [
     {
      "title": "La bataille des cartes : un enjeu géopolitique dans un monde instable",
@@ -449,6 +563,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/code-source/id1460276302?uo=4",
    "feed": "https://feeds.acast.com/public/shows/9f905938-baf3-4214-bd26-65999b4899d7",
    "query": "Code source Le Parisien",
+   "spotify": "",
    "episodes": [
     {
      "title": "Elections en Israël : pourquoi l'avenir politique du pays reste flou",
@@ -502,6 +617,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/immoral-podcast-investissement-immobilier-locatif-par/id1620502511?uo=4",
    "feed": "https://feed.ausha.co/mXgkGU15kL46",
    "query": "investissement locatif immobilier",
+   "spotify": "",
    "episodes": [
     {
      "title": "Investissement locatif : choisir son projet et passer à l’action - avec Laetitia de Boyer",
@@ -555,6 +671,7 @@
    "apple": "https://podcasts.apple.com/fr/podcast/la-story/id1460685072?uo=4",
    "feed": "https://feeds.acast.com/public/shows/07b210dd-7af5-5b41-b04d-e4eb2a19e708",
    "query": "Les Echos podcast économie",
+   "spotify": "",
    "episodes": [
     {
      "title": "[BONUS] - Les mots éco. Présidentielle 2027 : c’est quoi le pouvoir d’achat ?",
