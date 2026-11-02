@@ -354,6 +354,12 @@ body.playing .wrap{padding-bottom:110px}
 .alhelp{font-size:12.5px;color:var(--dim);margin:4px 0 10px;line-height:1.5}
 .alrow{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line);cursor:pointer}.alrow.col{flex-direction:column;cursor:default}.alrow input[type=checkbox]{margin-top:3px;accent-color:var(--espace);width:16px;height:16px}.alrow b{display:block;font-size:14px}.alrow small{color:var(--dim);font-size:12.5px}
 .alrow select{background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:2px 4px;font:inherit;font-size:12.5px}
+.alprice{gap:10px}.alseg{display:flex;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:3px;gap:2px;width:fit-content;max-width:100%;overflow-x:auto;scrollbar-width:none}.alseg button{all:unset;cursor:pointer;padding:6px 11px;border-radius:7px;font-size:13px;font-family:"JetBrains Mono",monospace;color:var(--muted);white-space:nowrap}.alseg button.on{background:var(--espace);color:#0b1220;font-weight:700}
+.alpf{display:flex;align-items:center;gap:12px;cursor:pointer;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:10px 12px}.alpf.on{border-color:rgba(52,211,153,.5)}.alpf input{display:none}.alpf b{display:block;font-size:14px}.alpf small{color:var(--dim);font-size:12.5px}
+.alsw{width:38px;height:22px;border-radius:11px;background:var(--line);position:relative;flex:none;transition:.2s}.alsw:after{content:"";position:absolute;left:3px;top:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:.2s}.alpf.on .alsw{background:var(--espace)}.alpf.on .alsw:after{left:19px}
+.alsub{color:var(--dim);font-size:12.5px;margin-top:2px}.algrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(122px,1fr));gap:6px;width:100%}
+.algrid .alchip{display:flex;align-items:center;gap:7px;padding:7px 10px;border-radius:10px;justify-content:flex-start}.algrid .alchip img{width:20px;height:20px;border-radius:50%;object-fit:contain;flex:none}.algrid .alchip span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.algrid .alchip i{font-style:normal;color:var(--dim);font-size:13px}.algrid .alchip.on i{color:var(--espace);font-weight:700}
+@media (max-width:640px){.algrid{grid-template-columns:repeat(2,1fr)}.alseg{display:grid;grid-template-columns:repeat(6,1fr);width:100%;box-sizing:border-box}.alseg button{padding:7px 0;text-align:center;font-size:12px}.alpf{width:100%;box-sizing:border-box}}
 .alassets{display:flex;gap:6px;flex-wrap:wrap}.alchip{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;cursor:pointer;background:var(--panel)}.alchip input{display:none}.alchip.on{border-color:var(--espace);background:rgba(52,211,153,.12)}
 .votes{display:flex;gap:5px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--dim)}.votes .vt{all:unset;cursor:pointer;padding:3px 8px;border-radius:999px;border:1px solid var(--line);font-size:12.5px;color:var(--ink)}.votes .vt.haussier{color:var(--up)}.votes .vt.baissier{color:var(--down)}.votes .vt.on{border-color:var(--analyse);background:rgba(163,230,53,.10)}
 @media (max-width:640px){.iatabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -4px;padding:0 4px}.iatabs button{flex:none}}
@@ -870,6 +876,7 @@ function bindPortfolio(main){
 }
 function confirmDel(h){ return window.confirm?confirm(`Supprimer « ${h.n} » de ton portefeuille ?`):true; }
 /* ================= Notifications (Web Push) ================= */
+const AL_LOGO={"c:bitcoin":"logos/assets/btc.svg","c:ethereum":"logos/assets/eth.svg","c:solana":"logos/assets/sol.svg","c:ripple":"logos/assets/xrp.svg","c:binancecoin":"logos/assets/bnb.svg","s:NVDA":"logos/assets/nvda.svg","s:AAPL":"logos/assets/aapl.svg","s:TSLA":"logos/assets/tsla.svg","s:MSFT":"logos/assets/msft.svg","s:AMZN":"logos/assets/amzn.svg"};
 const AL_ASSETS=[["c:bitcoin","Bitcoin"],["c:ethereum","Ethereum"],["c:solana","Solana"],["c:ripple","XRP"],["c:binancecoin","BNB"],["s:NVDA","Nvidia"],["s:AAPL","Apple"],["s:TSLA","Tesla"],["s:MSFT","Microsoft"],["s:AMZN","Amazon"]];
 var alState={loaded:false,loading:false,row:null,missing:false,err:""};
 function pfKeys(){ return [...new Set((state.prefs.portfolio||[]).filter(h=>h.k).map(h=>h.k))]; }
@@ -955,10 +962,11 @@ function alertsHtml(){
   const pfAuto=(r.assets||[]).includes("pf:auto"), chosen=new Set(r.assets||[]), nPf=pfKeys().length, nW=(state.prefs.watch||[]).length;
   return `<section class="box">${head}${intro}${device}
     <label class="alrow"><input type="checkbox" id="alnews" ${r.news!==false?"checked":""}><span><b>Infos de ta liste à surveiller</b><small>${nW?`${nW} mot${nW>1?"s":""} : ${esc((state.prefs.watch||[]).slice(0,6).join(", "))}${nW>6?"…":""}`:"Ta liste est vide : ajoute des mots-clés plus bas."}</small></span></label>
-    <div class="alrow col"><span><b>Gros mouvements de cours</b><small>Alerte si l'actif bouge de plus de
-      <select id="alpct">${[3,5,8,10,15,20].map(v=>`<option value="${v}" ${+r.pct===v?"selected":""}>±${v} %</option>`).join("")}</select> sur 24 h (une fois par jour et par sens)</small></span>
-      <div class="alassets"><label class="alchip ${pfAuto?"on":""}"><input type="checkbox" data-al="pf:auto" ${pfAuto?"checked":""}>💼 Mes actifs du portefeuille${nPf?` (${nPf})`:""}</label>
-      ${AL_ASSETS.map(([k,n])=>`<label class="alchip ${chosen.has(k)?"on":""}"><input type="checkbox" data-al="${k}" ${chosen.has(k)?"checked":""}>${esc(n)}</label>`).join("")}</div></div>
+    <div class="alrow col alprice"><span><b>Gros mouvements de cours</b><small>Une alerte quand un actif bouge fort sur 24 h (une seule par jour et par sens).</small></span>
+      <div class="alseg" role="radiogroup" aria-label="Seuil d'alerte">${[3,5,8,10,15,20].map(v=>`<button type="button" data-pct="${v}" class="${+r.pct===v?"on":""}" role="radio" aria-checked="${+r.pct===v}">±${v} %</button>`).join("")}</div>
+      <label class="alpf ${pfAuto?"on":""}"><input type="checkbox" data-al="pf:auto" ${pfAuto?"checked":""}><span class="alsw"></span><span><b>💼 Tous les actifs de mon portefeuille</b><small>${nPf?`${nPf} actif${nPf>1?"s":""} suivi${nPf>1?"s":""} automatiquement`:"Ton portefeuille est vide pour l'instant"}</small></span></label>
+      <small class="alsub">Et en plus :</small>
+      <div class="algrid">${AL_ASSETS.map(([k,n])=>{const on=chosen.has(k),lg=AL_LOGO[k];return `<label class="alchip ${on?"on":""}"><input type="checkbox" data-al="${k}" ${on?"checked":""}>${lg?`<img src="${lg}" alt="" loading="lazy">`:""}<span>${esc(n)}</span><i>${on?"✓":"+"}</i></label>`}).join("")}</div></div>
     ${isAdmin()?`<label class="alrow"><input type="checkbox" id="alhealth" ${(r.assets||[]).includes("sys:health")?"checked":""}><span><b>🛠 Me prévenir si le site ne se met plus à jour</b><small>Une notification si un robot tombe en panne (actus, cours, analyse…), puis une autre quand c'est réparé. Réservé à l'admin du site.</small></span></label>`:""}
     <div class="pfbtns" style="margin-top:6px"><button class="lnk" type="button" id="aloff">${r.enabled===false?"▶ Réactiver les notifications":"⏸ Mettre les notifications en pause (tous mes appareils)"}</button></div>
     ${r.enabled===false?'<p class="alhelp" style="color:var(--down)">En pause : tu ne reçois rien.</p>':""}</section>`;
@@ -971,7 +979,7 @@ function bindAlerts(main){
   if($("altest")) $("altest").addEventListener("click",testPush);
   if($("alnews")) $("alnews").addEventListener("change",e=>saveAlerts({...alState.row,news:e.target.checked},"Enregistré"));
   if($("alhealth")) $("alhealth").addEventListener("change",e=>{ const set=new Set(alState.row.assets||[]); e.target.checked?set.add("sys:health"):set.delete("sys:health"); saveAlerts({...alState.row,assets:[...set]},e.target.checked?"Tu seras prévenu en cas de panne":"Enregistré"); });
-  if($("alpct")) $("alpct").addEventListener("change",e=>saveAlerts({...alState.row,pct:+e.target.value},"Seuil enregistré"));
+  main.querySelectorAll("[data-pct]").forEach(b=>b.addEventListener("click",()=>saveAlerts({...alState.row,pct:+b.dataset.pct},"Seuil : ±"+b.dataset.pct+" %")));
   main.querySelectorAll("[data-al]").forEach(cb=>cb.addEventListener("change",()=>{ const set=new Set(alState.row.assets||[]); cb.checked?set.add(cb.dataset.al):set.delete(cb.dataset.al);
     if(cb.dataset.al==="pf:auto"&&!cb.checked) pfKeys().forEach(k=>{ if(!AL_ASSETS.some(a=>a[0]===k)) set.delete(k); });
     saveAlerts({...alState.row,assets:[...set]},"Enregistré"); }));
