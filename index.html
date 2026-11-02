@@ -416,7 +416,6 @@ body.playing .wrap{padding-bottom:110px}
     </form>
     <div class="mact"><button class="btn ghost" id="aclose" type="button">Fermer</button></div>
   </div></div>
-  <div id="installbar"></div>
   <main id="main"><div class="loading">Chargement des dernières infos…</div></main>
 
   <footer>Résumés rédigés à partir de sources publiques. Ce n'est pas un conseil en investissement : vérifie toujours la source avant d'agir. · <a href="confidentialite.html" style="color:inherit">Confidentialité</a><br>© 2026 Le Brief Invest · Tous droits réservés. Le code et le design de ce site ne peuvent pas être copiés ni réutilisés sans autorisation.</footer>
@@ -869,7 +868,6 @@ function renderInstallBar(){
   el.querySelector(".ix").addEventListener("click",()=>{ try{localStorage.setItem("lb_inst_off","1")}catch(e){} el.innerHTML=""; });
   bindInstall(el);
 }
-renderInstallBar();
 if("serviceWorker" in navigator&&location.protocol==="https:") addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 function installCardHtml(){
   if(INST.standalone) return "";
