@@ -62,7 +62,7 @@ def parse(raw, src):
             link = l.get("href", "") if l is not None else ""
         d = pdate(it.findtext("pubDate") or it.findtext("dc:date", namespaces=NS) or it.findtext("atom:updated", namespaces=NS) or it.findtext("atom:published", namespaces=NS))
         if not title or not link.startswith("http") or d is None: continue
-        if d > NOW + timedelta(minutes=10) or NOW - d > MAX_AGE: continue
+        if d > NOW + timedelta(minutes=10) or NOW - d > timedelta(hours=src.get("maxAgeHours", 24)): continue
         source = src["name"]
         if "news.google.com" in src["url"]:
             s_el = it.find("source")
@@ -118,7 +118,8 @@ def main():
         for it in prev.get(tab, []):
             try: d = datetime.fromisoformat(it["ts"])
             except Exception: continue
-            if NOW - d > MAX_AGE or it.get("source", "").lower() in block: continue
+            keep = timedelta(hours=max([x.get("maxAgeHours", 24) for x in sources[tab] if x["name"] == it.get("source")] or [24]))
+            if NOW - d > keep or it.get("source", "").lower() in block: continue
             it["_old"] = True
             items.append(it)
         items.sort(key=lambda x: x.get("_old", False))  # à titre égal, la version fraîche passe devant

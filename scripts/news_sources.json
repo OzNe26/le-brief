@@ -1,320 +1,326 @@
 {
-  "_filters": {
-    "blocklist": [
-      "Vietnam.vn",
-      "MCE TV",
-      "TIKR.com",
-      "Traders Union",
-      "Ahraminfo",
-      "Kohen Avocats",
-      "Marie France",
-      "Marie France, magazine féminin",
-      "Yahoo Actualités Canada",
-      "MSN"
-    ],
-    "keywords": {
-      "crypto": [
-        "bitcoin",
-        "btc",
-        "ethereum",
-        "ether",
-        "crypto",
-        "blockchain",
-        "solana",
-        "xrp",
-        "ripple",
-        "binance",
-        "stablecoin",
-        "token",
-        "etf",
-        "defi",
-        "nft",
-        "altcoin",
-        "coinbase",
-        "memecoin",
-        "minage",
-        "mineur",
-        "tether",
-        "usdt",
-        "usdc",
-        "satoshi",
-        "web3",
-        "hyperliquid",
-        "cardano",
-        "dogecoin",
-        "bnb",
-        "wallet",
-        "portefeuille"
-      ],
-      "actions": [
-        "bourse",
-        "cac",
-        "wall street",
-        "nasdaq",
-        "s&p",
-        "dow jones",
-        "action",
-        "actions",
-        "titre",
-        "marché",
-        "marchés",
-        "résultat",
-        "chiffre d'affaires",
-        "bénéfice",
-        "dividende",
-        "investisseur",
-        "fed",
-        "bce",
-        "taux",
-        "inflation",
-        "obligat",
-        "opa",
-        "introduction en bourse",
-        "indice",
-        "stoxx",
-        "trimestr",
-        "earnings",
-        "stock",
-        "shares",
-        "market",
-        "nvidia",
-        "apple",
-        "tesla",
-        "microsoft",
-        "amazon",
-        "alphabet",
-        "meta",
-        "valorisation",
-        "rachat",
-        "analyste",
-        "semi-conducteur",
-        "pétrole",
-        "or ",
-        "dollar",
-        "euro"
-      ],
-      "immo": [
-        "immobili",
-        "immo",
-        "logement",
-        "crédit",
-        "taux",
-        "prêt",
-        "scpi",
-        "loyer",
-        "locati",
-        "lmnp",
-        "notaire",
-        "propriétaire",
-        "locataire",
-        "acheteur",
-        "maison",
-        "appartement",
-        "dpe",
-        "ptz",
-        "foncière",
-        "m²",
-        "mètre carré",
-        "pel ",
-        "hlm",
-        "construction",
-        "promoteur",
-        "copropriété",
-        "bail",
-        "agence",
-        "achat",
-        "vente",
-        "habitation",
-        "résidence",
-        "terrain"
-      ]
-    }
+ "_filters": {
+  "blocklist": [
+   "Vietnam.vn",
+   "MCE TV",
+   "TIKR.com",
+   "Traders Union",
+   "Ahraminfo",
+   "Kohen Avocats",
+   "Marie France",
+   "Marie France, magazine féminin",
+   "Yahoo Actualités Canada",
+   "MSN"
+  ],
+  "keywords": {
+   "crypto": [
+    "bitcoin",
+    "btc",
+    "ethereum",
+    "ether",
+    "crypto",
+    "blockchain",
+    "solana",
+    "xrp",
+    "ripple",
+    "binance",
+    "stablecoin",
+    "token",
+    "etf",
+    "defi",
+    "nft",
+    "altcoin",
+    "coinbase",
+    "memecoin",
+    "minage",
+    "mineur",
+    "tether",
+    "usdt",
+    "usdc",
+    "satoshi",
+    "web3",
+    "hyperliquid",
+    "cardano",
+    "dogecoin",
+    "bnb",
+    "wallet",
+    "portefeuille"
+   ],
+   "actions": [
+    "bourse",
+    "cac",
+    "wall street",
+    "nasdaq",
+    "s&p",
+    "dow jones",
+    "action",
+    "actions",
+    "titre",
+    "marché",
+    "marchés",
+    "résultat",
+    "chiffre d'affaires",
+    "bénéfice",
+    "dividende",
+    "investisseur",
+    "fed",
+    "bce",
+    "taux",
+    "inflation",
+    "obligat",
+    "opa",
+    "introduction en bourse",
+    "indice",
+    "stoxx",
+    "trimestr",
+    "earnings",
+    "stock",
+    "shares",
+    "market",
+    "nvidia",
+    "apple",
+    "tesla",
+    "microsoft",
+    "amazon",
+    "alphabet",
+    "meta",
+    "valorisation",
+    "rachat",
+    "analyste",
+    "semi-conducteur",
+    "pétrole",
+    "or ",
+    "dollar",
+    "euro"
+   ],
+   "immo": [
+    "immobili",
+    "immo",
+    "logement",
+    "crédit",
+    "taux",
+    "prêt",
+    "scpi",
+    "loyer",
+    "locati",
+    "lmnp",
+    "notaire",
+    "propriétaire",
+    "locataire",
+    "acheteur",
+    "maison",
+    "appartement",
+    "dpe",
+    "ptz",
+    "foncière",
+    "m²",
+    "mètre carré",
+    "pel ",
+    "hlm",
+    "construction",
+    "promoteur",
+    "copropriété",
+    "bail",
+    "agence",
+    "achat",
+    "vente",
+    "habitation",
+    "résidence",
+    "terrain"
+   ]
+  }
+ },
+ "general": [
+  {
+   "name": "franceinfo",
+   "url": "https://www.francetvinfo.fr/titres.rss",
+   "cat": "France"
   },
-  "general": [
-    {
-      "name": "franceinfo",
-      "url": "https://www.francetvinfo.fr/titres.rss",
-      "cat": "France"
-    },
-    {
-      "name": "Le Monde",
-      "url": "https://www.lemonde.fr/rss/une.xml",
-      "cat": "France"
-    },
-    {
-      "name": "20 Minutes",
-      "url": "https://www.20minutes.fr/feeds/rss-une.xml",
-      "cat": "France"
-    },
-    {
-      "name": "BFMTV",
-      "url": "https://www.bfmtv.com/rss/news-24-7/",
-      "cat": "France"
-    },
-    {
-      "name": "Le Monde International",
-      "url": "https://www.lemonde.fr/international/rss_full.xml",
-      "cat": "Monde"
-    },
-    {
-      "name": "France 24",
-      "url": "https://www.france24.com/fr/rss",
-      "cat": "Monde"
-    },
-    {
-      "name": "RFI",
-      "url": "https://www.rfi.fr/fr/rss",
-      "cat": "Monde"
-    },
-    {
-      "name": "Le Monde Pixels",
-      "url": "https://www.lemonde.fr/pixels/rss_full.xml",
-      "cat": "Tech"
-    },
-    {
-      "name": "Numerama",
-      "url": "https://www.numerama.com/feed/",
-      "cat": "Tech"
-    },
-    {
-      "name": "Frandroid",
-      "url": "https://www.frandroid.com/feed",
-      "cat": "Tech"
-    },
-    {
-      "name": "L'Équipe",
-      "url": "https://dwh.lequipe.fr/api/edito/rss?path=/",
-      "cat": "Sport"
-    },
-    {
-      "name": "Le Monde Culture",
-      "url": "https://www.lemonde.fr/culture/rss_full.xml",
-      "cat": "Culture"
-    },
-    {
-      "name": "Le Monde Économie",
-      "url": "https://www.lemonde.fr/economie/rss_full.xml",
-      "cat": "Économie"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
-      "cat": "France"
-    },
-    {
-      "name": "Google Actualités Sport",
-      "url": "https://news.google.com/rss/search?q=football+OR+rugby+OR+tennis+OR+Ligue+1+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr",
-      "cat": "Sport"
-    }
-  ],
-  "crypto": [
-    {
-      "name": "Cryptoast",
-      "url": "https://cryptoast.fr/feed/",
-      "trusted": true
-    },
-    {
-      "name": "Journal du Coin",
-      "url": "https://journalducoin.com/feed/",
-      "trusted": true
-    },
-    {
-      "name": "Cointribune",
-      "url": "https://www.cointribune.com/feed/",
-      "trusted": true
-    },
-    {
-      "name": "BeInCrypto FR",
-      "url": "https://fr.beincrypto.com/feed/",
-      "trusted": true
-    },
-    {
-      "name": "CoinDesk",
-      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-      "trusted": true
-    },
-    {
-      "name": "Cointelegraph",
-      "url": "https://cointelegraph.com/rss",
-      "trusted": true
-    },
-    {
-      "name": "Decrypt",
-      "url": "https://decrypt.co/feed",
-      "trusted": true
-    },
-    {
-      "name": "The Block",
-      "url": "https://www.theblock.co/rss.xml",
-      "trusted": true
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=bitcoin+OR+ethereum+OR+crypto+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=crypto+r%C3%A9gulation+OR+ETF+bitcoin+OR+stablecoin+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    }
-  ],
-  "actions": [
-    {
-      "name": "BFM Bourse",
-      "url": "https://www.tradingsat.com/rssbourse.xml",
-      "trusted": true
-    },
-    {
-      "name": "Investing.com FR",
-      "url": "https://fr.investing.com/rss/news.rss",
-      "trusted": true
-    },
-    {
-      "name": "MarketWatch",
-      "url": "https://feeds.marketwatch.com/marketwatch/topstories/",
-      "trusted": true
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=Bourse+de+Paris+OR+CAC+40+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=Wall+Street+OR+Nasdaq+OR+S%26P+500+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=r%C3%A9sultats+trimestriels+OR+action+bondit+OR+action+chute+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=BCE+OR+Fed+taux+OR+inflation+march%C3%A9s+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "CNBC Investing",
-      "url": "https://www.cnbc.com/id/15839069/device/rss/rss.html"
-    }
-  ],
-  "immo": [
-    {
-      "name": "MySweetImmo",
-      "url": "https://www.mysweetimmo.com/feed/",
-      "trusted": true
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=immobilier+prix+OR+ventes+immobili%C3%A8res+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=cr%C3%A9dit+immobilier+OR+taux+immobilier+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=SCPI+OR+investissement+locatif+OR+LMNP+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "name": "Google Actualités",
-      "url": "https://news.google.com/rss/search?q=notaires+immobilier+OR+march%C3%A9+immobilier+OR+loyers+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
-    }
-  ]
+  {
+   "name": "Le Monde",
+   "url": "https://www.lemonde.fr/rss/une.xml",
+   "cat": "France"
+  },
+  {
+   "name": "20 Minutes",
+   "url": "https://www.20minutes.fr/feeds/rss-une.xml",
+   "cat": "France"
+  },
+  {
+   "name": "BFMTV",
+   "url": "https://www.bfmtv.com/rss/news-24-7/",
+   "cat": "France"
+  },
+  {
+   "name": "Le Monde International",
+   "url": "https://www.lemonde.fr/international/rss_full.xml",
+   "cat": "Monde"
+  },
+  {
+   "name": "France 24",
+   "url": "https://www.france24.com/fr/rss",
+   "cat": "Monde"
+  },
+  {
+   "name": "RFI",
+   "url": "https://www.rfi.fr/fr/rss",
+   "cat": "Monde"
+  },
+  {
+   "name": "Le Monde Pixels",
+   "url": "https://www.lemonde.fr/pixels/rss_full.xml",
+   "cat": "Tech"
+  },
+  {
+   "name": "Numerama",
+   "url": "https://www.numerama.com/feed/",
+   "cat": "Tech"
+  },
+  {
+   "name": "Frandroid",
+   "url": "https://www.frandroid.com/feed",
+   "cat": "Tech"
+  },
+  {
+   "name": "L'Équipe",
+   "url": "https://dwh.lequipe.fr/api/edito/rss?path=/",
+   "cat": "Sport"
+  },
+  {
+   "name": "Le Monde Culture",
+   "url": "https://www.lemonde.fr/culture/rss_full.xml",
+   "cat": "Culture"
+  },
+  {
+   "name": "Le Monde Économie",
+   "url": "https://www.lemonde.fr/economie/rss_full.xml",
+   "cat": "Économie"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
+   "cat": "France"
+  },
+  {
+   "name": "Google Actualités Sport",
+   "url": "https://news.google.com/rss/search?q=football+OR+rugby+OR+tennis+OR+Ligue+1+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr",
+   "cat": "Sport"
+  }
+ ],
+ "crypto": [
+  {
+   "name": "Cryptoast",
+   "url": "https://cryptoast.fr/feed/",
+   "trusted": true
+  },
+  {
+   "name": "Journal du Coin",
+   "url": "https://journalducoin.com/feed/",
+   "trusted": true
+  },
+  {
+   "name": "Cointribune",
+   "url": "https://www.cointribune.com/feed/",
+   "trusted": true
+  },
+  {
+   "name": "BeInCrypto FR",
+   "url": "https://fr.beincrypto.com/feed/",
+   "trusted": true
+  },
+  {
+   "name": "CoinDesk",
+   "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+   "trusted": true
+  },
+  {
+   "name": "Cointelegraph",
+   "url": "https://cointelegraph.com/rss",
+   "trusted": true
+  },
+  {
+   "name": "Decrypt",
+   "url": "https://decrypt.co/feed",
+   "trusted": true
+  },
+  {
+   "name": "The Block",
+   "url": "https://www.theblock.co/rss.xml",
+   "trusted": true
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=bitcoin+OR+ethereum+OR+crypto+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=crypto+r%C3%A9gulation+OR+ETF+bitcoin+OR+stablecoin+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  }
+ ],
+ "actions": [
+  {
+   "name": "MyWalletFinance",
+   "url": "https://www.mywalletfinance.com/feed",
+   "trusted": true,
+   "maxAgeHours": 336
+  },
+  {
+   "name": "BFM Bourse",
+   "url": "https://www.tradingsat.com/rssbourse.xml",
+   "trusted": true
+  },
+  {
+   "name": "Investing.com FR",
+   "url": "https://fr.investing.com/rss/news.rss",
+   "trusted": true
+  },
+  {
+   "name": "MarketWatch",
+   "url": "https://feeds.marketwatch.com/marketwatch/topstories/",
+   "trusted": true
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=Bourse+de+Paris+OR+CAC+40+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=Wall+Street+OR+Nasdaq+OR+S%26P+500+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=r%C3%A9sultats+trimestriels+OR+action+bondit+OR+action+chute+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=BCE+OR+Fed+taux+OR+inflation+march%C3%A9s+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "CNBC Investing",
+   "url": "https://www.cnbc.com/id/15839069/device/rss/rss.html"
+  }
+ ],
+ "immo": [
+  {
+   "name": "MySweetImmo",
+   "url": "https://www.mysweetimmo.com/feed/",
+   "trusted": true
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=immobilier+prix+OR+ventes+immobili%C3%A8res+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=cr%C3%A9dit+immobilier+OR+taux+immobilier+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=SCPI+OR+investissement+locatif+OR+LMNP+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  },
+  {
+   "name": "Google Actualités",
+   "url": "https://news.google.com/rss/search?q=notaires+immobilier+OR+march%C3%A9+immobilier+OR+loyers+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr"
+  }
+ ]
 }
