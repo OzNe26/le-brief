@@ -1,59 +1,59 @@
 {
  "general": {
-  "updatedAt": "2026-11-02T11:30:14+00:00",
-  "resume": "L'actualité de ce lundi 2 novembre 2026 est marquée par les élections de mi-mandat aux États-Unis, la poursuite des mobilisations lycéennes en France avec une quarantaine d'établissements bloqués, ainsi que des actualités économiques et technologiques variées. De plus, la plateforme Binance fait face à des retraits massifs suite à un piratage de grande ampleur, tandis que la rentrée sportive et culturelle s'anime à l'approche de nouvelles échéances.",
+  "updatedAt": "2026-11-02T16:03:54+00:00",
+  "resume": "L'actualité des dernières heures est marquée par le placement en redressement judiciaire du grand magasin parisien BHV, des mouvements de grève et des blocages de lycées en France, ainsi que par des tensions internationales aux États-Unis à la veille des élections de mi-mandat. Sur le plan économique et pratique, le gouvernement tente de faire baisser les prix des carburants tandis qu'EDF prépare la modification des heures creuses. Enfin, l'actualité sportive est dominée par la Ligue des champions et les préparatifs des clubs français.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Midterms : le coût de la vie au cœur des priorités des électeurs du Michigan",
-    "resume": "À la veille des élections de mi-mandat aux États-Unis prévues le 3 novembre, les électeurs du Michigan placent le coût de la vie au cœur de leurs priorités, dans un contexte politique tendu pour le parti au pouvoir.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261102-midterms-le-co%C3%BBt-de-la-vie-au-c%C5%93ur-des-priorit%C3%A9s-des-%C3%A9lecteurs-du-michigan",
-    "date": "2 nov.",
-    "impact": "flat",
-    "categorie": "Monde"
-   },
-   {
-    "titre": "\"Il n'y a pas de panique généralisée\": malgré plusieurs milliards de dollars de cryptos retirées par les clients de Binance depuis son piratage, la société se veut rassurante",
-    "resume": "Malgré un vol de plusieurs milliards de dollars et d'importants retraits de cryptomonnaies par ses clients, la plateforme Binance tente de se montrer rassurante face à la situation.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/crypto/il-n-y-a-pas-de-panique-generalisee-malgre-plusieurs-milliards-de-dollars-de-cryptos-retirees-par-les-clients-de-binance-depuis-son-piratage-la-societe-se-veut-rassurante_AN-202611020486.html",
+    "titre": "Le BHV Marais, à Paris, placé en redressement judiciaire",
+    "resume": "L'emblématique grand magasin parisien BHV a été officiellement placé en redressement judiciaire afin de sécuriser son plan de relance et de préserver l'emploi.",
+    "source": "Le Monde Économie",
+    "url": "https://www.lemonde.fr/economie/article/2026/11/02/le-bhv-marais-a-paris-place-en-redressement-judiciaire_6805272_3234.html",
     "date": "2 nov.",
     "impact": "flat",
     "categorie": "Économie"
    },
    {
-    "titre": "Mobilisation lycéenne en France : plus de 40 lycées bloqués au retour des vacances scolaires",
-    "resume": "Au lendemain des vacances de la Toussaint, la mobilisation lycéenne se poursuit en France avec une quarantaine d'établissements bloqués ce lundi matin, poussant le gouvernement à proposer de nouvelles rencontres.",
+    "titre": "Baisse du prix du gazole: \"C'est un effort important\", déclare le ministre de l'Économie Roland Lescure",
+    "resume": "Le gouvernement a annoncé le déblocage de millions de barils de gazole pour faire baisser les prix à la pompe, une mesure saluée par l'exécutif mais diversement appliquée selon les stations.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/video-baisse-du-prix-du-gazole-c-est-un-effort-important-declare-le-ministre-de-l-economie-roland-lescure_VN-202611020657.html",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Manifestations en France : les jeunes restent mobilisés malgrés les annonces du gouvernement",
+    "resume": "Plusieurs lycées et universités continuent de faire l'objet de blocages et de manifestations en France, malgré les appels au calme et les discussions prévues avec le gouvernement.",
     "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261102-mobilisation-lyc%C3%A9enne-en-france-plus-de-40-lyc%C3%A9es-bloqu%C3%A9s-au-retour-des-vacances-scolaires",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20261102-manifestations-en-france-les-jeunes-restent-mobilis%C3%A9s-malgr%C3%A9s-les-annonces-du-gouvernement",
     "date": "2 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "Piratage de la Switch 2 : jeux natifs sur Mac et iPhone, émulation PC… Nintendo est dans une mauvaise passe",
-    "resume": "La Nintendo Switch 2 fait face à des difficultés techniques majeures après la diffusion d'un dispositif de piratage permettant l'émulation de ses jeux sur PC et ordinateurs Apple.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/cyberguerre/2365507-piratage-de-la-switch-2-jeux-natifs-sur-mac-et-iphone-emulation-pc-nintendo-est-dans-une-mauvaise-passe.html",
-    "date": "2 nov.",
-    "impact": "flat",
-    "categorie": "Tech"
-   },
-   {
-    "titre": "Plus de 400 milliards d'euros sur cinq ans: le Japon réfléchit à doubler ses dépenses de défense pour s'inspirer des nouvelles méthodes de combat en Ukraine et en Iran",
-    "resume": "Le Japon envisage de doubler ses dépenses de défense sur cinq ans pour dépasser 400 milliards d'euros, en privilégiant l'intelligence artificielle, les drones et les technologies spatiales.",
+    "titre": "Midterms: dans le Michigan, un État pivot remporté par Donald Trump en 2024, les démocrates multiplient les opérations de campagne pour convaincre les derniers indécis",
+    "resume": "À la veille des élections de mi-mandat aux États-Unis, la campagne s'accélère dans les États pivots comme le Michigan, sur fond de menaces proférées par Donald Trump envers l'Iran.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/entreprises/defense/plus-de-400-milliards-d-euros-sur-cinq-ans-le-japon-reflechit-a-doubler-ses-depenses-de-defense-pour-s-inspirer-des-nouvelles-formes-de-combat-en-ukraine-et-en-iran_AV-202611020465.html",
+    "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/video-midterms-dans-le-michigan-un-etat-pivot-remporte-par-donald-trump-en-2024-les-democrates-multiplient-les-operations-de-campagne-pour-convaincre-les-derniers-indecis_VN-202611020647.html",
     "date": "2 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Ligue 1. OM 2 - Toulouse 0: Trois points et une quatrième victoire consécutive en championnat",
-    "resume": "En Ligue 1, l'Olympique de Marseille s'est imposé face à Toulouse sur le score de 2 à 0, enregistrant ainsi sa quatrième victoire consécutive en championnat.",
-    "source": "Destimed",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNckxjZTRFamV3RnJDdzhUQTVHTzVhVFVLQzFoV0syMWhoLWZhUk9kY1MtSUlveC1tMjJXN2NZdC1xV1gzblFNRnYtNnpPOUZiWG5yS3hHWndzbUF3SlU4WUhMVF85bG1EYVBPV2pyOWRNcFpqNDU2RFBhcWZyTVRLT3RMOUk4RUlDQUdqcUFVcWh2djdWUnk3MHBYMkJQOWF6RzVlUU5nSkZSQ0MwQVFEN3FHYVk?oc=5",
+    "titre": "Heures creuses EDF : voici comment savoir si vos horaires vont bientôt changer",
+    "resume": "EDF s'apprête à modifier progressivement les horaires des heures creuses pour une partie de ses clients à partir du 4 novembre et ce, sur une période d'un an.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/sciences/2365551-heures-creuses-edf-voici-comment-savoir-si-vos-horaires-vont-bientot-changer.html",
+    "date": "2 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Villarreal - PSG : Paris, « un rouleau compresseur qui écrase tout le monde » pour le coach espagnol Inigo Perez",
+    "resume": "À la veille de son match de Ligue des champions contre le Paris Saint-Germain, Villarreal se prépare à affronter un adversaire qualifié de rouleau compresseur par son entraîneur.",
+    "source": "20 Minutes",
+    "url": "https://www.20minutes.fr/sport/football/ligue_des_champions/4259767-20261102-villarreal-psg-paris-rouleau-compresseur-ecrase-tout-monde-coach-espagnol-inigo-perez?at_medium=display&at_campaign=149",
     "date": "2 nov.",
     "impact": "flat",
     "categorie": "Sport"
@@ -63,8 +63,8 @@
   "modele": "gemini-flash-lite-latest"
  },
  "crypto": {
-  "updatedAt": "2026-11-02T11:30:14+00:00",
-  "resume": "La plateforme Binance a repris les retraits après un piratage massif évalué à plus de 6 milliards de dollars, attribué au FBI à la Corée du Nord, entraînant une vague de retraits clients et des flux records vers des plateformes concurrentes comme OKX. Malgré ce choc, le Bitcoin se stabilise au-dessus des 78 000 dollars tandis que les marchés font face aux incertitudes liées aux élections de mi-mandat aux États-Unis. En parallèle, Coinbase affiche de solides bénéfices trimestriels et le Parti communiste chinois appelle à une répression accrue de la corruption liée aux cryptomonnaies.",
+  "updatedAt": "2026-11-02T16:03:54+00:00",
+  "resume": "L'écosystème crypto est marqué par les répercussions du piratage massif de la plateforme Binance, entraînant des retraits massifs de fonds et une chute de l'indice de peur et de cupidité. D'autres incidents de cybersécurité ont également touché des acteurs comme Mercado Bitcoin au Brésil. Parallèlement, le marché fait face à des échéances politiques et réglementaires importantes aux États-Unis et en France.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,98 +93,89 @@
   ],
   "items": [
    {
-    "titre": "FBI Blames North Korea for $6B Binance Hack as Exchange Reopens Withdrawals",
-    "resume": "Le FBI impute à la Corée du Nord le piratage massif de Binance, qui s'élève à plus de 6 milliards de dollars. La plateforme a rouvert ses retraits, entraînant une sortie nette de plus de 3,5 milliards de dollars d'actifs lors des premières heures.",
-    "source": "Decrypt",
-    "url": "https://decrypt.co/382316/fbi-blames-north-korea-for-6b-binance-hack-as-exchange-reopens-withdrawals",
+    "titre": "Les actualités Bitcoin et cryptomonnaies de la semaine – L’Hebdo Crypto #352",
+    "resume": "La plateforme Binance a fait l'objet d'un piratage historique estimé à 6,3 milliards de dollars, provoquant des sorties massives de fonds de la part des utilisateurs.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/bitcoin-cryptomonnaies-semaine-hebdo-crypto-352/",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le bitcoin se stabilise au-dessus des 78.000 dollars après le choc du piratage de Binance",
-    "resume": "Le cours du Bitcoin parvient à se stabiliser au-dessus des 78 000 dollars malgré le choc du piratage de Binance, qui a également provoqué des sorties de capitaux sur les ETF Bitcoin et une fin de mois d'octobre difficile.",
-    "source": "Zonebourse Suisse",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY1dxR0JZcEdHV3NhM2xwRjRBUXhUbk9ZVUhPZ1ZqUW52bmRlQUlUQ3p4RHpkSHhpZ290LWpqdGNVV01xQWduTFNtM1RPLXNpT3BpWWFQNi1JUmZNSmNvdHc4WF9iVXRITjlKbGpzYW9mSnQwZmltTjFRcFcxeDdLcFhfaU1hU0FHWmZsVHlXODdiMEdlU19EY3huZzlKSlFjSTJpSU83NlpKYzVOV0YwNnpLN3kwbExMVmlWVjgxUDMzMWxTSi1qMFFWUmdybVlzUl91RWU4YVpUdGhibTJ4UTgySQ?oc=5",
-    "date": "2 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "OKX draws $445M in net inflows as Binance outflows exceed $7B",
-    "resume": "À la suite des retraits massifs enregistrés sur Binance, les plateformes concurrentes comme OKX captent une partie des liquidités, affichant d'importants afflux nets de capitaux.",
-    "source": "Cointelegraph",
-    "url": "https://cointelegraph.com/news/okx-leads-crypto-exchanges-445m-inflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "date": "2 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Coinbase affiche 719 millions $ de bénéfices, dont 715 millions de gains crypto",
-    "resume": "L'exchange Coinbase renoue avec la rentabilité au troisième trimestre avec un bénéfice net de 719 millions de dollars, soutenu en grande partie par des gains sur ses investissements en cryptomonnaies.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/coinbase-affiche-719-millions-de-benefices-dont-715-millions-de-gains-crypto/",
-    "date": "2 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "La Chine appelle à une répression contre la corruption utilisant la cryptomonnaie et la blockchain",
-    "resume": "Le Parti communiste chinois a émis un nouvel appel à l'action pour réprimer la corruption impliquant l'utilisation de cryptomonnaies et de la technologie blockchain.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWlJiWVZVVzZiU1cwdl9pZEpqTFhTcDN5aXhCWk1XbXFQX0hTYTR0RTNsYTRwMkFxN2tEU3dxWFBxT09Wd2NvSWxpUTBtWDdEakZxLVRwWEUza0tIY052cE9PLXdvQlVyRWdyY3BkcHgwWHh1b1NqOEFLelpzWFI1bjEteFBsZE4tYjZiZXNTX0Q5UmNVcEVLdzR6YnlWRzZ4Nkp3RHl5WExIYTlhR3I2NFpTanlEQnJuemFpTnNod1NXcmE5REtyeEhlVXJidFhnSlVncg?oc=5",
+    "titre": "La plus grande plateforme crypto du Brésil Mercado Bitcoin touchée par un possible hack de 40 millions de dollars",
+    "resume": "Le plus grand exchange du Brésil, Mercado Bitcoin, a également été victime d'un piratage estimé à plusieurs dizaines de millions de dollars.",
+    "source": "BeInCrypto FR",
+    "url": "https://fr.beincrypto.com/plus-grande-bourse-crypto-bresil-mercado-bitcoin-hack/",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Trezor lifts password ceiling after Coldcard’s $100M wallet thefts",
-    "resume": "L'entreprise Trezor a relevé sa limite de mots de passe pour renforcer la sécurité du stockage des phrases de récupération face aux attaques récentes subies par des portefeuilles concurrents.",
-    "source": "Cointelegraph",
-    "url": "https://cointelegraph.com/news/trezor-wallet-passphrase-limit-128-characters-coldcard-attacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "titre": "De 68 à 30 en une semaine : L’indice crypto Fear & Greed plonge après le piratage de Binance",
+    "resume": "À la suite de ces cyberattaques, l'indice de sentiment de marché Fear & Greed a chuté de manière marquée, passant de 68 à 30 en une semaine.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/indice-fear-greed-plonge-piratage-binance/",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Règlementation crypto : l’AMF siffle la fin de la tolérance pour les ex-PSAN",
+    "resume": "En France, l'Autorité des marchés financiers (AMF) durcit sa position en mettant fin à la période de tolérance pour les prestataires de services sur actifs numériques.",
+    "source": "L'Agefi",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMTgzWXREMkwxSVFuREZaWWF4NGFjajFtZFlMbGpXQ25RXzNaTTM0TUUzSHVFZTN2LWw1WXNybDd1bnhpZm81d1Y1bzFpZVk5b2lIdVY3MkVjWDFpVUxFYlY2SUVwTjBra0VvbC1rZWJkZTJobnNBUFZfMWdIWVRDUEFRYTNLcFRLano1cC05SlVnMEx6OFB6bktwOTFFQUJhZmtZZ2hNNzNKbjAtdm9xTnJ3?oc=5",
     "date": "2 nov.",
     "impact": "flat"
+   },
+   {
+    "titre": "Crypto : Coinbase renoue avec les bénéfices, les marchés de prédiction décollent",
+    "resume": "Malgré un climat tendu, Coinbase a publié un bénéfice net trimestriel soutenu par des plus-values sur les crypto-actifs, tandis que ses marchés de prédiction progressent.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/crypto-coinbase-benefices-marches-prediction/",
+    "date": "2 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Crypto : Un raton laveur rapporte 110 000 $ à son maître via le memecoin Pepper",
+    "resume": "Un memecoin hébergé sur Pump.fun et associé à un raton laveur au Canada a généré d'importantes récompenses pour son créateur, attirant l'attention des régulateurs.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/crypto-raton-laveur-memecoin-pepper/",
+    "date": "2 nov.",
+    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-flash-lite-latest",
   "niche": [
    {
-    "titre": "Solana risque une nouvelle baisse après $71m de sorties d'ETF",
-    "resume": "Solana enregistre 71 millions de dollars de sorties de capitaux via ses ETF.",
-    "source": "Invezz",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFloS0RVNk9QMFBNOXdjNFIwa2F6RDhoUnlsVTVpZEc1V0VjVXdYYWNqNUUyVnlocGhuUno1STBVTmtsU0drc0hkc3RhLWRPRXhHVmZOWG00QmJxSF9uTWVuODdSWjZjcmNHdkswc0x2MmFCTVhoLW5mQ0kzdGxRU1JuYzEtV0E1R3dtRUZxa29SeTRBSWMtYmVVWkstSWJIWHFhTXNNRGJsT0d4Ti1j?oc=5",
+    "titre": "Budget 2027 : si l’Assemblée rejette les recettes mardi, la taxe stablecoins saute",
+    "resume": "Le projet de budget 2027 en France pourrait voir la suppression de la taxe sur les conversions en stablecoins en cas de rejet des recettes par l'Assemblée.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/budget-2027-rejet-recettes-taxe-stablecoins/",
     "date": "2 nov.",
-    "pourquoi": "Utile pour suivre la pression vendeuse sur l'actif SOL et surveiller la solidité du support de prix autour des 93 dollars face aux positions acheteuses importantes.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "3 déverrouillages de tokens à surveiller début novembre 2026",
-    "resume": "La première semaine de novembre 2026 prévoit des déverrouillages de tokens pour une valeur totale dépassant 879 millions de dollars, notamment pour Bitway, Kite et Hyperliquid.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/deverrouillage-tokens-premiere-semaine-novembre-2026/",
-    "date": "2 nov.",
-    "pourquoi": "Permet d'anticiper l'arrivée potentielle de nouvelles liquidités en circulation sur ces altcoins et la pression baissière associée sur les cours.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany",
-    "resume": "L'entreprise Metals.io a émis des tokens adossés à 25 tonnes de cuivre physique stockées en Allemagne, représentant une valeur initiale de 366 000 dollars.",
-    "source": "CoinDesk",
-    "url": "https://www.coindesk.com/markets/2026/11/02/metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany",
-    "date": "2 nov.",
-    "pourquoi": "Sert à observer le développement de la tokenisation des matières premières physiques sur la blockchain et les nouvelles opportunités de trading onchain.",
+    "pourquoi": "Utile pour suivre la fiscalité des stablecoins en France et les risques de régulation locale à court terme.",
     "impact": "flat"
    },
    {
-    "titre": "Zcash vise $1,385 alors que les flux ETF reprennent avant la mise à niveau NU7",
-    "resume": "Zcash vise un objectif de 1 385 dollars alors que les flux vers ses ETF reprennent avant sa mise à niveau technique NU7.",
-    "source": "Invezz",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdW95TmVnLXZCWnd6UjBHd2VGOGZWOTZPLVNsSGhaRWJqdmxManpmSjFXNUdVRmptLXJRTWFRSy1BOWtKLWNWMXR4X1lFRURnRktsSzIyYlpXN04tR2V0S3RLd2dCMXJrQ2h4Y0MzOTNsYnpULVVHZjMzNFY5b2c0bDg0Vk1CSzlPLXZROG1MRzRTeEh5a1o5cy1VU3ZmR1NvSVJ4MTEzZkZvZFhoRzNOU1NYMUV5Q0xCOUVBYjVsdmduYUlVS1E?oc=5",
+    "titre": "ETF bitcoin : -203 M$ vendredi, gains hebdomadaires effacés",
+    "resume": "Les fonds négociés en bourse (ETF) Bitcoin ont enregistré une sortie nette de 203 millions de dollars, effaçant leurs gains de la semaine.",
+    "source": "Bitcoin News",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPME4xZHRnUUM4ZGlGS3NqMUFGVlVVYlVINUNKZHIyOGRxZ1dtMS16QVcyUGdZS3JnQlZTSlVfVzVwX2JJc3hkNFlnODd4QVl3UWtoel9HZWQ2RjdGWExxc2ZubDJpZDhObWNqVElWZWdpaThwSHpzRkFXSGhpbzluZHRub0NQZ0JHWHl0OU4wWDUwLURyc3NQaGI4RQ?oc=5",
     "date": "2 nov.",
-    "pourquoi": "Indique un regain d'intérêt institutionnel et spéculatif sur la confidentialité, à surveiller en lien avec l'évolution des volumes d'échange.",
+    "pourquoi": "À surveiller pour évaluer l'appétit et les flux de capitaux des investisseurs institutionnels sur le Bitcoin.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Uber utilise une blockchain publique pour faire fructifier sa trésorerie le week-end",
+    "resume": "Uber a testé le placement de sa trésorerie du week-end sur une blockchain publique en collaboration avec HSBC et Franklin Templeton.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/uber-tresorerie-fonds-tokenise-franklin-templeton-week-end/",
+    "date": "2 nov.",
+    "pourquoi": "Indique une adoption croissante des technologies de blockchain publique par les grandes entreprises pour la gestion de trésorerie.",
     "impact": "hausse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-02T11:30:14+00:00",
-  "resume": "Le CAC 40 repasse au-dessus des 8 000 points, soutenu par le repli du pétrole malgré les incertitudes macroéconomiques. À Wall Street, les contrats à terme progressent tandis que les valeurs technologiques marquent une pause. L'actualité est également marquée par des publications de résultats trimestriels contrastées pour plusieurs entreprises.",
+  "updatedAt": "2026-11-02T16:03:54+00:00",
+  "resume": "Wall Street ouvre en hausse à la veille des élections de mi-mandat, porté par un rebond de la tech et une baisse marquée des cours du pétrole brut de plus de 6 %. En Europe, les marchés réagissent à des résultats d'entreprises contrastés, tandis que l'actualité boursière est marquée par divers ajustements d'objectifs de cours et des publications financières sectorielles.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,50 +204,50 @@
   ],
   "items": [
    {
-    "titre": "Le CAC 40 franchit les 8 000 points, insensible aux secousses de Wall Street",
-    "resume": "L'indice parisien franchit de nouveau le seuil des 8 000 points, profitant notamment de la baisse des prix du pétrole et faisant abstraction des mouvements de Wall Street.",
-    "source": "Idéal Investisseur",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR3pjQmdIZTExb3dBU2hQSHIyMkRUY3lfNmJqQ3k3UUgtdUtwQ1lZdzhOWUVKYk1jX05Fbzg2dTZraGN2MUd0ZWx4X1RFaDNVaDhMN05IZnVEMXEyQmFweUM1R1AtVGxMc2JMaHdvM1dkbkpVQm52amk4WmpXZHhjWkFlMjRBQV9JYnZqeEdreGJMZ1ZjQ0k4blZGQWhUeVZjNjNudDlYeGhjdXFReWNUNkxOcHdPeHYtNW4xbHpLZDFMUnpPdHlHWmNWbUdfdEha?oc=5",
+    "titre": "USA: Wall Street rebondit à la veille des élections américaines, le pétrole se détend",
+    "resume": "Wall Street rebondit nettement à la veille des élections américaines, aidé par une détente des prix du pétrole.",
+    "source": "ABC Bourse",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdFF5Sl92cVJjYVUyRnhuVDhBM0VWSThZZF9VVGx5bFd4MlhtX3pPTnlRamk3TUFmWDlxNU14cFBVbEVWSDJmbzQweDc5bHdpc0JVaVFHY3U0NkdIeTI4VW5yWWd3SmxxWXd1bkMwWHg2akw0TUJGbmlQWmZ6WXROcTlXR1kxQUcwYlRsWlNJWDd1cWVlZ0ROWktzRTBUN2VSY2VmbXF6UTJwMnZ6N2ZCRDdUMUFwWWluYUhV?oc=5",
     "date": "2 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Alstom plonge de plus de 30 % en Bourse après avoir drastiquement abaissé ses objectifs annuels",
-    "resume": "L'action Alstom s'effondre de plus de 30 % à la Bourse de Paris après des retards de livraison en Allemagne et une révision drastique à la baisse de ses objectifs annuels.",
-    "source": "Libération",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNLXd5ZUR6MGZ6OVRvUXFqY3NwUTluSzc2bU1zWmphM3NwS2FHcDAxWFdrOHJJSW9OZGlBblNNVFJxczRvd0gzMXNvYUpWODlVMXFRSWtfQWhIOFloWVMtc1ctTUl3cGxnM3pxOVhkdXc0ckV6cm5pTXExOWlfVjlRTXNXVU12bzNzY0pCMTFJZXlfTkNWdWlVNXozaXFiWmRmZXdXYkxmSjFZdGNTNVUwaWxFbVBWOWlUV1kyYUctMjM4V2Q4ZngyclFsOFJ2ejkwSk5mRUpKV1J2ZHRRMGZXQmFXSlE5Vk9HeDJ1QjktVEFQYmVEMVJ4ag?oc=5",
+    "titre": "Pétrole Brent : Un coup de téléphone de Trump, quelques déclarations iraniennes et le pétrole plonge de plus de 6% ce lundi",
+    "resume": "Les cours du pétrole Brent plongent de plus de 6 % suite à des déclarations iraniennes et à un appel de Donald Trump.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/petrole-brent-MP0000000BRN/actualites/petrole-brent-un-coup-de-telephone-de-trump-quelques-declarations-iraniennes-et-le-petrole-plonge-de-plus-de-6-ce-lundi-1172969.html",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Reddit : l’action plonge de près de 30 %, les nouvelles fonctionnalités de Google inquiètent",
-    "resume": "Le titre Reddit plonge de près de 30 % à la suite d'inquiétudes des investisseurs concernant l'impact des nouvelles fonctionnalités de recherche de Google.",
+    "titre": "En retard sur ses livraisons de trains en Allemagne, Alstom émet un nouvel avertissement sur ses résultats",
+    "resume": "Alstom émet un nouvel avertissement sur ses résultats en raison de retards accumulés sur la livraison de trains en Allemagne.",
+    "source": "Le Monde.fr",
+    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUHpwWjlMa2hZSVNQOWFBeEdyUXVtZ0lYaURrYkpnRUc1bjk2eXQxeHRxR3FWaDVHd2FGTnh0NWxEdkNkMVJVX3pyX2lDTjhGbUlhbXU3dXB5bUtWQ0FETHUxay1MOVhvbmN1WWE0aThlQzB1d1pfZlh4ajd5UnZNY0JnRFVSbkNVVEZiU3pvT2VKVm91RGtNT1VFMWFnQko4RXA4ejN4OGx2R0JHaW4zUDdqNEpId1VTSlpkRFZmN1hWN3d5U0tBWHVPLWxwMEtpRVI3dkd0NjAzai1Lc1NCaV9XbkNiMXVmNGxJVm16TDU2QlZrT1A2bHhETG45ZFJOMkpwZQ?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "CAC 40 : Air Liquide dépasse Airbus et prend la 3e place",
+    "resume": "Sur le CAC 40, Air Liquide surclasse Airbus pour s'emparer de la troisième place du classement.",
     "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQjZqVW56YU1UdTdJeDVOVnJ6YmlwUDI5eFdHVktGNm45Y0l1WXNURkFpVGo2dmNtU1ZLN3BKOXZaY3RuYWxKQVRnZGFfLTQ5Z1RHOXFIbXBUeVJ0ZEVxQW9ZUWpXaDJNSVJvelJLRVhhS2REbjQ1b2d2d0Fvak1wdVV4QU1LN3IzVmFSdUlXYVkyTnVHNkNrYzFtZjVwWHY0Z3dGYU8xaGx6ai0w?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRzd0UFlUTHlIYUpaTzBKRG1tbGU5TmwwcmZ5SzNSYmlwSE5ZbkVuREFPbldkUmtRV0ZvT1ByTmJGTW5HNXRvVHBySk1adVUzdENGamdER2pkdC03SDdEQkxzMVRmdjlDemkzank5SFQ4N3VFZnlPUUVpcmZ0WVlEcTZacmhDNjBGZ1g3VWFCWVVhUFdHbFZveTVYNlMtRHFqMi11NDJCODhLTU0?oc=5",
+    "date": "2 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "2CRSI : Après avoir perdu 43% en Bourse sur des accusations de fraude, le fabricant français de serveurs pour l'IA 2CRSi voit ses comptes remis en cause par son auditeur, son action plonge de 50%",
+    "resume": "Le fabricant français de serveurs pour l'IA 2CRSi voit ses comptes remis en cause par son auditeur, provoquant une chute boursière drastique après de précédentes accusations.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/2crsi-FR0013341781/actualites/2crsi-apres-avoir-perdu-43-en-bourse-sur-des-accusations-de-fraude-le-fabricant-francais-de-serveurs-pour-l-ia-2crsi-voit-ses-comptes-remis-en-cause-par-son-auditeur-son-action-plonge-de-50-1172934.html",
     "date": "2 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "L’action Estée Lauder bondit après des résultats solides et des perspectives relevées",
-    "resume": "Estée Lauder enregistre une forte hausse de son action après avoir publié des résultats financiers solides et relevé ses perspectives.",
+    "titre": "Estée Lauder dépasse les prévisions du T1 2027 et relève ses perspectives",
+    "resume": "Estée Lauder dépasse les attentes financières pour le premier trimestre 2027 et relève ses perspectives globales.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/earnings/laction-estee-lauder-bondit-apres-des-resultats-solides-et-des-perspectives-relevees-3668200",
-    "date": "2 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "\"Nous devons agir avant qu'une inflation élevée ne commence à paraître normale\": le gouverneur de la Banque de Slovaquie juge inévitable de nouvelles hausses de taux de la BCE",
-    "resume": "Le gouverneur de la Banque de Slovaquie juge inévitable de nouvelles hausses de taux de la part de la BCE pour contenir l'inflation.",
-    "source": "BFM",
-    "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNdk5VTzc0UVdKdVUwUVpHSXE4bkthU2YyZFBua1ZLMDVibUVZLThwbGVDQXRnY3BOTGtRNmFCU3F3TXAwNUhBcWs4RmdlUmR1SnA5bXlNOUpmYU1Ibm56bXhxeTlmVnVIaHJPeG9XOWRkM1RsMTJ4Z25HMkxvNDcwZmcwUTJEQjZUZXh3alIxZHI5NW5uR2xRTUJmZk1hb3BUVkZpWUhhUU9YS2daaDFxYjBVLThMOGo1VFpzUW5peXUzYU56cnFwYmpHZFhvbU40OWVzbFJndVN2cEs2Z3llRXFLSUdjVUtpaXI0T2xJOVhEeDVZOUVvY0diZ0kwTDNZQkdsQXR5Wi1ST0lDeUg5REE4M0lrejg3MVRBUWEyeHhjUkViVEI1SnJHblhzT0NNQ0JISzhkZ2hWY3VzZEdLdC1vZzlsUUZ5QkVHbFRCMXFGQWFLdm9tS29jSGpJMkVkY05zd0dRQ3M2Q1RvYW1zNm13UQ?oc=5",
-    "date": "2 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Wall Street : sursaut après la purge, en attendant Apple et les 'midterms'",
-    "resume": "Les marchés américains connaissent un rebond à l'approche des élections de mi-mandat et dans l'attente des résultats d'entreprises comme Apple.",
-    "source": "Boursier.com",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVnlRQW5jcGRSRWcwRVVfenJHaWp2ODQ2ODBSYnJFS1kwamNGUmphaFBKOXE3OGI0MEdLeGQ5Zld5S1RNWnNlU2hSMF9UWnJtTEcxRlp3aF95VXlWdm1qdkQ1ZUliOXlJSXg0Y1Z2RzBYenRrWTVhU2had0ZrczUyUVpKRGVObnVHbE1iNU9SMktjemNSRmI3OFd4LTBrTmVtR1drU3dvVGlhVWUteGpQN0Z1cHFZMVc4ZnRHalFzYTlSbzByNmlsa2FXZw?oc=5",
+    "url": "https://fr.investing.com/news/transcripts/estee-lauder-depasse-les-previsions-du-t1-2027-et-releve-ses-perspectives-93CH-3669343",
     "date": "2 nov.",
     "impact": "hausse"
    }
@@ -265,135 +256,126 @@
   "modele": "gemini-flash-lite-latest",
   "niche": [
    {
-    "titre": "Apollo lance une plateforme européenne de crédit de 10 milliards €",
-    "resume": "Apollo lance une nouvelle plateforme de crédit européenne dotée de 10 milliards d'euros.",
+    "titre": "Les dépenses de construction aux États-Unis chutent de 1,9% en septembre",
+    "resume": "Les dépenses de construction aux États-Unis ont enregistré une baisse de 1,9 % au cours du mois de septembre.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/apollo-lance-une-plateforme-europeenne-de-credit-de-10-milliards--93CH-3668105",
+    "url": "https://fr.investing.com/news/economy-news/les-depenses-de-construction-aux-etatsunis-chutent-de-19-en-septembre-3669462",
     "date": "2 nov.",
-    "pourquoi": "Utile pour suivre les flux de financement privé et l'accès au crédit pour les entreprises en Europe, un indicateur à surveiller pour le secteur financier.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Worldline lance une offre de rachat sur ses obligations arrivant à échéance en juin 2027",
-    "resume": "Worldline initie une offre de rachat portant sur ses obligations arrivant à échéance en juin 2027.",
-    "source": "ABC Bourse",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUGdYenpWa3R0Tjdta0t5aVh0aHlleFNvMHFVSHpTZTZ4bm1kT1lhd0t2bDFRMDlITDZDMnJmc1NRWm1XWVBaNHZORkF0S3RYcnk4RVBoRVlWbm9mczhPYzB3MWUyaHFfWFZhOTAyY3FUc3hjWGpFZU1DYU5BdGFVWU9QSGNoeHF0TkpUQVVqV2ozMk1yYjh4c0xVZ3UySWVSREdLdHhKTUFIQ2tlQ3ZWZHJQN05HLTU5c2U4aVRn?oc=5",
-    "date": "2 nov.",
-    "pourquoi": "Permet de surveiller la gestion de la dette et la trésorerie de l'entreprise dans le secteur des paiements.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Digital Brands Group reçoit un avis de défaut sur une obligation convertible de 3,5 millions $",
-    "resume": "Digital Brands Group fait l'objet d'un avis de défaut concernant une obligation convertible d'un montant de 3,5 millions de dollars.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/sec-filings/digital-brands-group-recoit-un-avis-de-defaut-sur-une-obligation-convertible-de-35-millions--93CH-3668197",
-    "date": "2 nov.",
-    "pourquoi": "Un signal de tension financière à surveiller pour les petites capitalisations et le risque lié aux obligations convertibles.",
+    "pourquoi": "Cette donnée macroéconomique est utile pour surveiller la santé du secteur immobilier et de la construction aux États-Unis, avec un impact potentiel sur les valeurs du bâtiment.",
     "impact": "baisse"
    },
    {
-    "titre": "AH Realty Trust finalise une restructuration de dette et des cessions d’actifs",
-    "resume": "AH Realty Trust annonce avoir finalisé une restructuration de sa dette ainsi que plusieurs cessions d'actifs.",
+    "titre": "ADM ouvre un bureau marketing à Nairobi pour servir l’Afrique de l’Est",
+    "resume": "La société ADM implante un nouveau bureau marketing à Nairobi afin de renforcer sa présence en Afrique de l'Est.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/ah-realty-trust-finalise-une-restructuration-de-dette-et-des-cessions-dactifs-93CH-3668194",
+    "url": "https://fr.investing.com/news/company-news/adm-ouvre-un-bureau-marketing-a-nairobi-pour-servir-lafrique-de-lest-93CH-3669441",
     "date": "2 nov.",
-    "pourquoi": "Indique des manœuvres de restructuration dans le secteur immobilier, utiles pour analyser la santé des petites structures foncières.",
+    "pourquoi": "Ce mouvement stratégique concerne le secteur agroalimentaire et permet de suivre l'expansion géographique et la diversification des revenus d'ADM dans les marchés émergents.",
     "impact": "flat"
+   },
+   {
+    "titre": "Les systèmes de réfrigération de supermarchés touchés par des cyberattaques en Europe",
+    "resume": "Plusieurs systèmes de réfrigération utilisés dans des supermarchés européens ont été la cible de cyberattaques.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/les-systemes-de-refrigeration-de-supermarches-touches-par-des-cyberattaques-en-europe-93CH-3669427",
+    "date": "2 nov.",
+    "pourquoi": "Cet incident touche la cybersécurité et la grande distribution en Europe, incitant à surveiller la robustesse des infrastructures numériques des acteurs de ce secteur.",
+    "impact": "baisse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-02T11:30:14+00:00",
-  "resume": "Le marché immobilier français fait face à un nouveau rapport de force marqué par une hausse des taux de crédit, qui s'établissent autour de 3,76 % sur 20 ans en novembre 2026, et des prix globalement orientés à la baisse. En parallèle, les députés ont rejeté le tour de vis fiscal sur le statut LMNP, offrant une victoire d'étape aux investisseurs. Les professionnels du secteur et les courtiers multiplient quant à eux les propositions pour tenter de débloquer l'accès au logement et relancer l'activité.",
+  "updatedAt": "2026-11-02T16:03:54+00:00",
+  "resume": "Le marché immobilier français fait face à une remontée des taux de crédit, qui atteignent environ 3,76 % sur 20 ans, tandis que les prix continuent de baisser dans plusieurs régions. En parallèle, les députés ont voté des amendements pour élargir l'accès au prêt à taux zéro (PTZ) dans le cadre du budget 2027 et ont rejeté le tour de vis sur le statut LMNP. Les courtiers et professionnels multiplient quant à eux les propositions pour tenter de relancer le marché et redonner l'accès au logement.",
   "chiffres": [],
   "items": [
    {
     "titre": "Taux immobilier : 3,76 % à 20 ans en novembre, 13 € de plus par mois",
-    "resume": "Les taux de crédit immobilier continuent de progresser pour atteindre 3,76 % sur 20 ans en novembre, alourdissant les mensualités des emprunteurs.",
+    "resume": "Les taux de crédit immobilier poursuivent leur progression pour atteindre 3,76 % sur une durée de 20 ans en novembre.",
     "source": "Stéphane Larue News",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbXMyNWI4SUFndF9YeGZFLUVWMDBSeTJidUR3RWwyR2dEemhvYjlpMTZUdmlsZDM0VWRuSkJqMmM0eXNBLU1UOV9sM0dhQktXRGVZYzlydWRKWTgzYzN2clNGdTlXb1NQODB1ckEyRDhFSkhmNjdyTW14OUNvMjFhXzJ1OFRvaTlmSXJ1N0lqX2lOWU0?oc=5",
     "date": "2 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Prix en baisse, taux en hausse : un nouveau rapport de force sur le marché immobilier ?",
-    "resume": "La combinaison de prix immobiliers en baisse et de taux d'emprunt en hausse redessine le rapport de force entre acheteurs et vendeurs sur le marché.",
-    "source": "SeLoger",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLXNoVERySFVFTFpVLW9udjlISVBMQVQzOVdrZ196bjF2eld5Z242WExFN1U2RnVDcm0wLWI2dk5IcmJ5dHhNd19BNDdmOE92MHZpN1Uyckw0UGNiODlFdmFaLW5UZ1lQS2lYNm1ReldwVURJZDg5eE1vYkZtNW14QnhTamVIcG91QTk1Z1lXbFRZa3l0aWxqbWRfU0Nob0lCV3ZSNVZDNDc1X3lqaUdjX0tldWYydw?oc=5",
+    "titre": "Budget 2027 : les députés votent des amendements pour élargir l'accès au prêt à taux zéro (PTZ)",
+    "resume": "Les députés ont voté des amendements dans le cadre du budget 2027 afin d'élargir l'accès au prêt à taux zéro (PTZ).",
+    "source": "MoneyVox",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd3psZ29aNkhONnJHSU1NTkNwaS1jb2VmdDg4WlBCX3BDMXVNY1pMZVh1RlBGRkFSaTEzdWFibFdXQ0xqODRlMVBBVTZjOXZhWjluNjkwcGdxZWlsUDQxMlQ4N1VsOTNhcnFzSnkxSHc4NUdMYU4xTkV4ZGNFWFdFM19DUEotbVBEdnh5cGhya0dzWl8ySWxRR2xtX3hTSTJWemp4MWNvWnEtLUlPWF9Ub3pSUUZTWXpBTlJ5Wk5qUU1BVEJ2czJJTXhIYm9mWS1wT2dobg?oc=5",
     "date": "2 nov.",
-    "impact": "baisse"
+    "impact": "hausse"
    },
    {
     "titre": "Favoriser la relance plutôt que serrer tous les boulons : les députés ont rejeté le tour de vis sur le statut LMNP, victoire d’étape ou victoire à la Pyrrhus ?",
-    "resume": "Les députés ont rejeté le projet de durcissement fiscal visant le statut de loueur en meublé non professionnel (LMNP), suspendant pour l'instant cette réforme.",
+    "resume": "Le projet de durcissement du statut LMNP a été rejeté par les députés, évitant pour l'instant un tour de vis fiscal sur cette niche.",
     "source": "Challenges",
     "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQTWpSSXRGNktSeV9TS2dPNlVadGN3dGx5dTE2TjZMRVhZOHNQb24yRXp2b21xdnZyQ2YwZVBWOU5Bb0s0VnlsUXh6d09NTkkzR2MwbmdkbWxnZlFpaFJ4SFJvT2xxZDRlUDBLTndiMEhlS2c2VlRMWlExSGtXQlJ2R3ZxRVduTDk0LTR0M3AxVDF1d3VCSWI2WFRFWkFuWDJWblgtOC1TT2l0THV1VDVKWl9mSFJ1NklHaVFOOHN6S2dNSExsVHFNMGx2eTBVVHEtcllUVHAxTFhSSHktNmFEX3JUQnJoam9FVnh3ek4wa0NrQUxUcEVtU3loeHNrLUcxVjdsWGZ5RkNTdllLSEdoclRSbnZKWGJac1ZZQlhfVHQxcGM?oc=5",
     "date": "2 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Crédit immobilier : Six propositions de l’APIC pour redonner accès au logement",
-    "resume": "L'association professionnelle des courtiers (APIC) a formulé six propositions concrètes pour faciliter l'accès au crédit et redonner du dynamisme au marché du logement.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVFlNMTZPSmUyUXRMMjczcHhlRVpsMVY2Z0hyNWpEdjBvcGJ5bXd5T2RpSG9kUHB3bTBucWtXZGEyakxWamFyWHpDRnhOXy00eW15d2ZYVGFoZk9uTWhEUGpXaUwyYjQ0aGlsZER6c1ZsOG1OZjRrNWU5X3Q3YkpKb3JtOHNURzl4bVVqMWJpT0FSOW11ZEw4czQ3WHMydjlLQm5yZnp2anlpcXRxWHJRWmpSQ2h6QQ?oc=5",
+    "titre": "Immobilier Île-de-France : ventes et prix en baisse en 2026",
+    "resume": "Le marché immobilier en Île-de-France enregistre une baisse globale de ses volumes de ventes et de ses prix pour l'année 2026.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR3pDaF9yQldfR0hGcEVSUzNJNHhkS3ZDNEVnV2RGX2loOE4wOV9ZdkVpWnhWWHZmN19CR2JLdldqTDA0VE56d1doelJnaEw3cTVXUXh5M3VIc0RRTEhKRXloR3pyaWlyN1p4MFY2cmxkckNOZHJLdl9ZRERiRElOMDhOcG5NMnpsRWd0YV9JSFV6S0J5X3IyeDJGaDBGdFB2Rk85czFyQVBOemc?oc=5",
+    "date": "2 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Crédit immobilier : les courtiers dégainent leurs propositions pour relancer le marché",
+    "resume": "Face au durcissement des conditions d'emprunt, les courtiers en crédit immobilier formulent de nouvelles propositions pour tenter de débloquer le marché.",
+    "source": "Batiactu",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1J4UHBNRFE2Qzh6eDZiZ2pid3A4U2ZxdEZra1lodVRjTXlZbkd1Z1Fud0JPSmZVanRhZFZ6SUlLN1BZRnFjREItRzZRRWl1T2dOTGt4U3B1S2hUWDNNRXZGdy1KVGM3SXltNjVmTXVBdEVoaVQwaUY1dWRRdTdFWWdhY0RYNzlLLWc1N1FzSmxvODQyXzdieTVFR3RPUQ?oc=5",
     "date": "2 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Immobilier : l'APL accession va-t-elle faire son grand retour ?",
-    "resume": "La question du retour potentiel de l'APL accession est relancée, ouvrant le débat sur de nouvelles aides publiques pour soutenir l'achat immobilier.",
-    "source": "La Tribune",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckJkUmR6dmJ6bWd6RUltcHdzeWRxekFOQnRwbVYxc2ljT0hmSVloZDlRRFB2VXljNlB1S3phUDdDakFjMjlYUUtzb3VqYXo4NXRxVEUyTjA4cmVXaENuLXd0VFhmY3NKV0tCbmdiZFNDYnFCZDBkZHZvMTVIaWxMczlJRmhsckdEbjExZWNJRDJmU1laSFl3QWRLRFRYbUVBa2hRM1pXQkxONkp3MFBiM1BPUkJBUG1nY3FteEpkUlF2ZTlGTVVBWWdUeGtpN1hGcXNwU1dn?oc=5",
+    "titre": "Taxe foncière à 2 mois de loyer : le détail qui fait basculer la rentabilité de votre investissement locatif en 2026",
+    "resume": "Le poids de la taxe foncière, équivalant désormais à environ deux mois de loyer, pèse lourdement sur la rentabilité des investissements locatifs en 2026.",
+    "source": "Bourse Inside",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaGcyeGJ0YnBmYmI0V2pkNmRkcllIcExXOE80RTl4TnNxbkVmLVpuX0tQZlZLMklYZ1FYSGVpaXlTLVNrSjBvN0NGYWNUTFJQWXByemVZNktTajdpRnZFNUczTDZhRFE5X01mWGw3aHpLYS1iVWg3dUlOVDFmZFZRcE04M2UtTmlZcXA5VV91MFJ1UUZSVWhlenpvUU9PZ0FwY1I0a053TURjMWUwRWZ2TkNVZkJ1UmVVLXVUTHFNX3R4YnY5ZXUwM0VBUlAwbEN1NVRyOF9PcEtveXNIeU80?oc=5",
     "date": "2 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Immobilier à Reims : l’appartement se vend 2 651 € le m², en hausse de 2 % sur un an",
-    "resume": "À Reims, le prix des appartements s'établit à 2 651 € le m², affichant une hausse de 2 % sur une période d'un an.",
-    "source": "stephanelarue.com",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEt6bl8yWVZZb3VHbDZtd2ZSOGpPakV1bVlxSTl0MGgwZkdhTG1VamxodkN3eUNpTkdobTNqUWNBR1J2RGZNM3p0MS13ZDVUYWJmVWNEYTlLMmtyTkhOeC1zanQ3SVNNMFVvcnFkNGFPVTZ4RExxUzd4WUk0WWhzQnY2SC1MajVjTmEyTnNSc2FtSlJDQkFRRE9lUUZtd1FFamtKeVp5dHhWQmJXemYw?oc=5",
-    "date": "2 nov.",
-    "impact": "hausse"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-flash-lite-latest",
   "niche": [
    {
-    "titre": "AIP des fonctionnaires : les 4 conditions pour toucher jusqu'à 1 500 euros - www.actual-immo.fr",
-    "resume": "Quatre conditions spécifiques ont été précisées pour permettre aux fonctionnaires de toucher l'Aide personnalisée au logement (AIP) pouvant atteindre 1 500 euros.",
-    "source": "www.actual-immo.fr",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DMURucHVZQ2ZsU0p2SkFpV0dHcndzdU1Uak54MnlkRjR0V09SLVAtV1hkeXlLZUIyM01acVRFODgtOWU3QkxVYjM1Wk1Sc29YMGpqZEZkcmM0T203dS02T2RHRjBham9BbHdHTk9n?oc=5",
+    "titre": "NICE : Immobilier - La proximité des cimetières, un facteur de décote sur les prix",
+    "resume": "À Nice, la proximité des cimetières constitue un facteur mesurable de décote sur les prix immobiliers.",
+    "source": "Presse Agence",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT3dMTlZsekwxS3RRc3puX2lSYmgtZGlYZTRUV3ptR2l3RFBCemNncVVnUHJwSnp6YXZvXzI5cFMtZ1dkOER5NkRZeXEwVVNjbHQxU1JfZGFnUjBERjA1U29ZNzRPZmF6ZF9FYzk0RFk0djhBNjB0UHBqV3dkY0FZVnh5OGZmMUk3SkVpeXVsbE05WU85TjFSSzZ0c3Bydm12UHhrTw?oc=5",
     "date": "2 nov.",
-    "pourquoi": "Utile pour cibler le pouvoir d'achat immobilier des agents de la fonction publique et surveiller l'impact de cette aide sur leur capacité d'emprunt.",
+    "pourquoi": "Utile pour affiner l'analyse micro-lokale des prix d'acquisition et identifier des décotes spécifiques sur le secteur résidentiel.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Un retraité a emprunté 200 000 euros sur sa maison sans la vendre ni rembourser un centime de son vivant",
+    "resume": "Un dispositif de prêt adossé à un bien immobilier a permis à un retraité d'emprunter sans vendre son logement ni rembourser de son vivant.",
+    "source": "Capital.fr",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWGNnX2lZdHktV3hpRlpfa3dTZHJnMXI2TEd2ZE1QaE5TUWFwMzRDM2NHNlVMTkNZa21JYU1ySjJKXzZIQUZFQlVXUzhKVjBsRk1FbjdVOGg2b05zWDRVcjRBcHJXY2ZuYU1WcmVHWTBUd0RaVmxxWHo5a0xUbldFMUZGTnJoaXV6a1lFdWZWWWZncjNQOGJic1VKRnRUdjgtdXVkRXJlZ0tkSXdvTy1idGowbG5wOXpPNXc2aVRIT1RHT09YUFdhTWtsRXpUM2ZVSDBR?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Concerne le secteur du crédit hypothécaire alternatif et de la monétisation du patrimoine pour les seniors, à surveiller pour de nouvelles solutions de financement.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Immobilier : Tarbes mise sur des rendements locatifs élevés",
+    "resume": "La ville de Tarbes se positionne sur un profil de marché axé sur des rendements locatifs élevés.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXRYWmd6bmpIc1lwN3NTaHFhbU5DcXhOX1pZQzVFRExGb0ttNnVINzFRWFYyMFdqTWVPVXBlcHg0UDByM2hMRmhuUENBbGN2Yl9mNTUxVDJ0TmRINEJMdnNXMkpkODNTd3ZSVmdrb0ZRZnptRjlERkVzb21tLTFhWHd2WkJFVG1hOWxmcVhkWUh3VjZ4cENMNTkzRXg4THEtNFY1NGdkT1pqQ0t4VnVmMFlGUXkyYUZvd1NDZV9pUXE?oc=5",
+    "date": "2 nov.",
+    "pourquoi": "Intéressant pour les investisseurs étudiant les marchés locatifs secondaires offrant de la rentabilité brute en dehors des métropoles saturées.",
     "impact": "hausse"
    },
    {
     "titre": "Budget, charges, travaux : Foncia lance une plateforme gratuite pour les conseils syndicaux",
-    "resume": "Foncia a mis en ligne 'Campus Copro', une plateforme numérique gratuite destinée à accompagner les conseils syndicaux dans la gestion des budgets et des charges.",
+    "resume": "Foncia lance Campus Copro, une plateforme numérique gratuite dédiée aux conseils syndicaux pour la gestion du budget et des charges.",
     "source": "MySweetImmo",
     "url": "https://www.mysweetimmo.com/2026/11/02/budget-charges-travaux-foncia-lance-une-plateforme-gratuite-pour-les-conseils-syndicaux/",
     "date": "2 nov.",
-    "pourquoi": "À surveiller pour les investisseurs en copropriété : une meilleure lisibilité des charges et de la gestion d'immeuble peut impacter la rentabilité locative nette.",
+    "pourquoi": "Représente un outil numérique utile pour le suivi des charges de copropriété, un poste de dépense clé impactant la rentabilité locative.",
     "impact": "flat"
-   },
-   {
-    "titre": "FISCAL – Vente immobilière : la responsabilité du notaire engagée pour une TVA indûment appliquée",
-    "resume": "La responsabilité juridique d'un notaire a été engagée dans le cadre d'une vente immobilière suite à une application erronée de la TVA.",
-    "source": "LE MAG' JURIDIQUE",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVlhTS2h0TGVmdWlBVmdxbWVBM0U5aktma3R5SHVLVWZYZElMUVY4SEkxWUpCS0M0MGpYdjJueGc5cU5ud2dFTlFUWGxBS2MybVJPdW9JMGprSm4yX0FfTVItRjRzbWFoMjh4RjBpTVRsUzJGTWswSkhxVmxGUDhEZkNUdE9YeTRtRFdvMldURnZkMGtfSjJLbHZ5bzlGa0QyeG9YVUtPcHYzanliY05NcW9yNGp0TkRNaU9SbVZ4YXhpUzVtS00tTTRoRWlINHM?oc=5",
-    "date": "2 nov.",
-    "pourquoi": "Un rappel réglementaire important pour la sécurisation juridique des transactions complexes et la responsabilité des professionnels de l'immobilier.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Canicule et passoires thermiques : les données climatiques influent sur les prix de l’immobilier à Château-Renault",
-    "resume": "À Château-Renault, l'analyse montre que les données climatiques et les épisodes de canicule influencent directement la décote des passoires thermiques.",
-    "source": "lanouvellerepublique.fr",
-    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPQ3BXX1M1RGw2cnNuaXhpczhpYmpNamNFTlN3X2swWm1waFRSY2tsaVk3OWVlQ1JuOERNWkFUNEk5cHIwQ05fZDUwYXAtV0ctX2g5NzJSSzMtdzN5SUlmS1haSDMxbERLMFl3YlpaOHRpbkx2UjFrMXNwVmlFSm85WVdVMThmei1HdHpjMV9Rb3Boem9iY0pOekNkSm42OS11R2hITDNOSzV1U2dHRHlQYXRES1FiRnQtQVZIcnU2WU53dTA1bTJEeEpkY1RQZHByRUV3d2JxZGZyRG1OZ2pPalIyZHdzQjBHX0ZvLWw5dGlIazNqcmc3VWgwaXB5anc4TVhobzRpcmtWZE9XNU5CZEtqTmNyWXNUSmF2aHVIRWlNQXVE?oc=5",
-    "date": "2 nov.",
-    "pourquoi": "Permet de surveiller la valorisation des biens énergivores en zones locales et l'intégration du risque climatique par le marché.",
-    "impact": "baisse"
    }
   ]
  }
