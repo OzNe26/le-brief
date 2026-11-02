@@ -885,7 +885,8 @@ async function loadAlerts(force){
 function alBuild(base){ // assemble les réglages à enregistrer
   const r={...base}; const pfAuto=(r.assets||[]).includes("pf:auto");
   const chosen=(r.assets||[]).filter(k=>AL_ASSETS.some(a=>a[0]===k));
-  r.assets=[...new Set([...(pfAuto?["pf:auto"]:[]),...chosen,...(pfAuto?pfKeys():[])])].slice(0,60);
+  const sys=(r.assets||[]).includes("sys:health")?["sys:health"]:[];
+  r.assets=[...new Set([...sys,...(pfAuto?["pf:auto"]:[]),...chosen,...(pfAuto?pfKeys():[])])].slice(0,60);
   r.keywords=(state.prefs.watch||[]).slice(0,40); r.updated_at=new Date().toISOString(); return r; }
 async function saveAlerts(row,msg){
   const r=alBuild({...row,user_id:state.user.id,topic:null}); delete r._pf;
@@ -956,6 +957,7 @@ function alertsHtml(){
       <select id="alpct">${[3,5,8,10,15,20].map(v=>`<option value="${v}" ${+r.pct===v?"selected":""}>±${v} %</option>`).join("")}</select> sur 24 h (une fois par jour et par sens)</small></span>
       <div class="alassets"><label class="alchip ${pfAuto?"on":""}"><input type="checkbox" data-al="pf:auto" ${pfAuto?"checked":""}>💼 Mes actifs du portefeuille${nPf?` (${nPf})`:""}</label>
       ${AL_ASSETS.map(([k,n])=>`<label class="alchip ${chosen.has(k)?"on":""}"><input type="checkbox" data-al="${k}" ${chosen.has(k)?"checked":""}>${esc(n)}</label>`).join("")}</div></div>
+    <label class="alrow"><input type="checkbox" id="alhealth" ${(r.assets||[]).includes("sys:health")?"checked":""}><span><b>🛠 Me prévenir si le site ne se met plus à jour</b><small>Une notification si un robot tombe en panne (actus, cours, analyse…), puis une autre quand c'est réparé. Utile pour la personne qui gère le site.</small></span></label>
     <div class="pfbtns" style="margin-top:6px"><button class="lnk" type="button" id="aloff">${r.enabled===false?"▶ Réactiver les notifications":"⏸ Mettre les notifications en pause (tous mes appareils)"}</button></div>
     ${r.enabled===false?'<p class="alhelp" style="color:var(--down)">En pause : tu ne reçois rien.</p>':""}</section>`;
 }
@@ -966,6 +968,7 @@ function bindAlerts(main){
   if($("aldis")) $("aldis").addEventListener("click",disablePush);
   if($("altest")) $("altest").addEventListener("click",testPush);
   if($("alnews")) $("alnews").addEventListener("change",e=>saveAlerts({...alState.row,news:e.target.checked},"Enregistré"));
+  if($("alhealth")) $("alhealth").addEventListener("change",e=>{ const set=new Set(alState.row.assets||[]); e.target.checked?set.add("sys:health"):set.delete("sys:health"); saveAlerts({...alState.row,assets:[...set]},e.target.checked?"Tu seras prévenu en cas de panne":"Enregistré"); });
   if($("alpct")) $("alpct").addEventListener("change",e=>saveAlerts({...alState.row,pct:+e.target.value},"Seuil enregistré"));
   main.querySelectorAll("[data-al]").forEach(cb=>cb.addEventListener("change",()=>{ const set=new Set(alState.row.assets||[]); cb.checked?set.add(cb.dataset.al):set.delete(cb.dataset.al);
     if(cb.dataset.al==="pf:auto"&&!cb.checked) pfKeys().forEach(k=>{ if(!AL_ASSETS.some(a=>a[0]===k)) set.delete(k); });
