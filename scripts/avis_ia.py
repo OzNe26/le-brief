@@ -85,17 +85,24 @@ def build_prompt(style, items):
             + json.dumps(brief, ensure_ascii=False, separators=(",", ":")))
 
 
+def flat(x):
+    """Certaines IA renvoient un dict ou une liste au lieu d'un texte : on remet tout à plat, sans markdown."""
+    if isinstance(x, dict): x = " ".join(flat(v) for v in x.values())
+    elif isinstance(x, (list, tuple)): x = " ".join(flat(v) for v in x)
+    x = re.sub(r"\*\*|__|^#+\s*", "", str(x or ""))
+    return re.sub(r"\s+", " ", x).strip()
+
+
 def clean(res, ids):
     assets = {}
     for k, v in (res.get("assets") or {}).items():
         if k not in ids: continue
-        if isinstance(v, str): v = {"avis": v}
-        if not isinstance(v, dict): continue
-        t = str(v.get("avis") or "").strip()
+        if not isinstance(v, dict): v = {"avis": v}
+        t = flat(v.get("avis"))
         s = str(v.get("tendance") or "").lower().strip()
         if len(t) < 40: continue
         assets[k] = {"avis": t[:600], "tendance": s if s in ("haussier", "neutre", "baissier") else "neutre"}
-    glob = str(res.get("global") or "").strip()
+    glob = flat(res.get("global"))
     if len(glob) < 60 or len(assets) < max(1, len(ids) // 2): return None
     return glob[:1200], assets
 
