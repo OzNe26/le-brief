@@ -1,4 +1,4 @@
-name: Diagnostic SEC
+name: Diagnostic HoldLens
 on: workflow_dispatch
 permissions:
   contents: read
@@ -7,22 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          UA="LeBriefInvest site-perso OzNe26@users.noreply.github.com"
-          curl -sS -m 30 -A "$UA" -o sub.json -w "sub %{http_code}\n" https://data.sec.gov/submissions/CIK0001067983.json
-          python3 - <<'P'
-          import json,urllib.request,re
-          UA={"User-Agent":"LeBriefInvest site-perso OzNe26@users.noreply.github.com"}
-          g=lambda u: urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=30).read()
-          for cik in ["0001067983","0001649339","0001697748","0001336528","0001536411","0001656456","0001350694"]:
-              try:
-                  d=json.loads(g(f"https://data.sec.gov/submissions/CIK{cik}.json"));r=d["filings"]["recent"]
-                  f=[(a,dt,rp) for fo,a,dt,rp in zip(r["form"],r["accessionNumber"],r["filingDate"],r["reportDate"]) if fo=="13F-HR"]
-                  print(cik,d["name"],f[:2])
-              except Exception as e: print(cik,"ERR",e)
-          a=json.loads(g("https://data.sec.gov/submissions/CIK0001067983.json"))["filings"]["recent"]
-          acc=[x for fo,x in zip(a["form"],a["accessionNumber"]) if fo=="13F-HR"][0].replace("-","")
-          idx=json.loads(g(f"https://www.sec.gov/Archives/edgar/data/1067983/{acc}/index.json"))
-          names=[i["name"] for i in idx["directory"]["item"]];print(names)
-          x=[n for n in names if n.endswith(".xml") and "primary" not in n.lower()][0]
-          t=g(f"https://www.sec.gov/Archives/edgar/data/1067983/{acc}/{x}").decode()[:1500];print(t)
-          P
+          UA="LeBriefInvest/1.0 (+https://ozne26.github.io/le-brief/)"
+          curl -sSL -m 30 -A "$UA" https://holdlens.com/api/v1/managers.json -o m.json -w "managers %{http_code}\n"; python3 -c "
+          import json;d=json.load(open('m.json'));print(d.get('quarter'),len(d['data']));print([(x['slug'],x['name'],x.get('fund')) for x in d['data']])" 2>&1 | head -4
+          curl -sSL -m 30 -A "$UA" https://holdlens.com/api/v1/managers/warren-buffett.json -o b.json -w "buffett %{http_code}\n"; python3 -c "
+          import json;d=json.load(open('b.json'));x=d.get('data',d);print(list(x.keys()));print(json.dumps(x,ensure_ascii=False)[:1800])" 2>&1 | head -6
+          curl -sSL -m 30 -A "$UA" -o /dev/null -w "dataroma %{http_code}\n" "https://www.dataroma.com/m/holdings.php?m=BRK"
