@@ -13,12 +13,12 @@ NOW = datetime.now(timezone.utc)
 PARIS = timezone(timedelta(hours=1))  # assez précis pour l'affichage « 2 nov. »
 MOIS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
 TABS = {
-    "general": "toute l'actualité (France, monde, tech, sport, culture), pas seulement l'investissement",
+    "general": "toute l'actualité (France, monde, tech, culture), jamais le sport, pas seulement l'investissement",
     "crypto": "les cryptomonnaies (Bitcoin, Ethereum, altcoins, régulation, plateformes)",
     "actions": "la Bourse et les actions (CAC 40, Wall Street, résultats d'entreprises, macroéconomie)",
     "immo": "l'immobilier en France (taux de crédit, prix, SCPI, fiscalité, marché)",
 }
-CATS = ["France", "Monde", "Tech", "Sport", "Culture", "Économie"]
+CATS = ["France", "Monde", "Tech", "Culture", "Économie"]
 
 
 def fr_date(ts):

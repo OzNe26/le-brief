@@ -92,6 +92,26 @@ def norm(t):
     t = re.sub(r"[^a-z0-9àâäéèêëîïôöùûüç ]", "", t.lower())
     return " ".join(t.split()[:10])
 
+SPORT_SRC = {"l'équipe", "sport.fr", "rmc sport", "foot mercato", "footmercato", "so foot", "eurosport", "maxifoot", "le10sport",
+             "le 10 sport", "football365", "onzemondial", "foot01", "but!", "but football club", "sports.fr", "france football",
+             "rugbyrama", "tennis actu", "basket europe", "autohebdo", "motorsport.com", "lequipe.fr", "ouest-france sport"}
+SPORT_RE = re.compile(r"\b(ligue 1|ligue 2|ligue des champions|ligue europa|champions league|premier league|liga|serie a|bundesliga|"
+                      r"psg|om\b|ol\b|losc|mercato|footballeur|football|foot\b|rugby|top 14|xv de france|tennis|roland-garros|wimbledon|"
+                      r"nba|nfl|formule 1|\bf1\b|grand prix|moto ?gp|tour de france|cyclisme|handball|basket|biathlon|ski alpin|"
+                      r"jeux olympiques|\bjo\b|coupe du monde|euro 20\d\d|ballon d'or|entraîneur|sélectionneur|mbappé|dembélé|"
+                      r"\d+-\d+ (?:contre|face|à)|victoire (?:face|contre)|s'impose (?:face|contre)|en finale|en demi-finale|quart de finale)", re.I)
+
+
+def is_sport(it, tab):
+    """Les actus sport sont retirées du site."""
+    if (it.get("categorie") or "").lower() == "sport": return True
+    if (it.get("source") or "").strip().lower() in SPORT_SRC: return True
+    u = (it.get("url") or "").lower()
+    if re.search(r"/(sport|sports|football|foot|rugby|tennis|cyclisme|basket|formule-1|f1|jeux-olympiques)(/|-|\.|$)", u) or "sport." in u.split("/")[2:3][0] if u.count("/") >= 2 else False:
+        return True
+    return tab == "general" and bool(SPORT_RE.search(it.get("titre") or ""))
+
+
 def main():
     sources = json.load(open(f"{ROOT}/scripts/news_sources.json", encoding="utf-8"))
     filters = sources.pop("_filters", {})
@@ -123,6 +143,7 @@ def main():
             for it in its:
                 if it["source"].lower() in block: continue
                 if not is_french(it["titre"] + " " + it.get("resume", "")): continue
+                if is_sport(it, tab): continue
                 if not s.get("trusted") and tab in kws:
                     txt = (it["titre"] + " " + it["resume"]).lower()
                     if not any(k in txt for k in kws[tab]): continue
@@ -133,6 +154,7 @@ def main():
             keep = timedelta(hours=max([x.get("maxAgeHours", 24) for x in sources[tab] if x["name"] == it.get("source")] or [24]))
             if NOW - d > keep or it.get("source", "").lower() in block: continue
             if not is_french(it.get("titre", "") + " " + it.get("resume", "")): continue
+            if is_sport(it, tab): continue
             it["_old"] = True
             items.append(it)
         items.sort(key=lambda x: x.get("_old", False))  # à titre égal, la version fraîche passe devant

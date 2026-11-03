@@ -182,11 +182,6 @@
    "cat": "Tech"
   },
   {
-   "name": "L'Équipe",
-   "url": "https://dwh.lequipe.fr/api/edito/rss?path=/",
-   "cat": "Sport"
-  },
-  {
    "name": "Le Monde Culture",
    "url": "https://www.lemonde.fr/culture/rss_full.xml",
    "cat": "Culture"
@@ -200,11 +195,6 @@
    "name": "Google Actualités",
    "url": "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr",
    "cat": "France"
-  },
-  {
-   "name": "Google Actualités Sport",
-   "url": "https://news.google.com/rss/search?q=football+OR+rugby+OR+tennis+OR+Ligue+1+when%3A1d&hl=fr&gl=FR&ceid=FR%3Afr",
-   "cat": "Sport"
   }
  ],
  "crypto": [
