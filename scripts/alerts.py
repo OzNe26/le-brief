@@ -102,6 +102,11 @@ def main():
             try: age = NOW - datetime.fromisoformat(it["ts"])
             except Exception: continue
             if age <= timedelta(hours=3): items.append(it)
+    try: ins = json.load(open(f"{ROOT}/insiders.json", encoding="utf-8"))
+    except Exception: ins = {}
+    lim = (NOW - timedelta(days=4)).date().isoformat()
+    ins_trades = [t for t in (ins.get("congress") or {}).get("trades", []) if (t.get("ddate") or "") >= lim]
+    ins_funds = [i for i in ins.get("investors", []) if i.get("date")]
     sent_total = 0
     active = set()
     for sub in subs:
@@ -130,7 +135,42 @@ def main():
             tag = f"{TODAY}:{'+' if a['ch'] > 0 else '-'}"
             if st["px"].get(k) == tag: continue
             moves.append((k, a, tag))
+        # --- élus et grands investisseurs (option « ins:trades »)
+        ins_hits = []
+        if "ins:trades" in (sub.get("assets") or []):
+            mine = {k[2:].upper() for k in (sub.get("assets") or []) if k.startswith("s:")}
+            seen_ins = set(st.get("ins") or [])
+            first = "ins" not in st
+            for t in ins_trades:
+                if not (t.get("famous") or (t.get("ticker") or "") in mine): continue
+                ih = h("t:%s|%s|%s|%s|%s" % (t.get("slug"), t.get("ticker"), t.get("tdate"), t.get("type"), t.get("amount")))
+                if ih not in seen_ins: ins_hits.append(("t", t, ih))
+            for f in ins_funds:
+                ih = h("f:%s|%s" % (f["code"], f["date"]))
+                if ih not in seen_ins: ins_hits.append(("f", f, ih))
+            if first:  # on n'envoie pas l'historique quand on vient d'activer l'option
+                seen_ins |= {ih for _, _, ih in ins_hits}; ins_hits = []
+            st["ins"] = list(seen_ins)[-600:]
         try:
+            if ins_hits and not st.get("new"):
+                seen_ins = set(st["ins"])
+                trades = [x for x in ins_hits if x[0] == "t"]
+                if len(trades) > 3:
+                    notify(f"🏛 {len(trades)} nouveaux trades d'élus déclarés",
+                           "\n".join(f"• {t['who']} : {t['type']} {t['ticker'] or t['asset'][:30]} ({t.get('amount') or '?'})" for _, t, _ in trades[:6]),
+                           click=SITE + "#elus", tags=["classical_building"])
+                else:
+                    for _, t, _ in trades:
+                        notify(f"🏛 {t['who']} : {t['type']} {t['ticker'] or ''}".strip(),
+                               f"{t['asset'][:80]}\nMontant déclaré : {t.get('amount') or '?'} · trade du {t.get('tdate')}, déclaré le {t.get('ddate')}.",
+                               click=SITE + "#elus", tags=["classical_building"])
+                funds = [x for x in ins_hits if x[0] == "f"][:3]
+                for _, f, _ in funds:
+                    mv = ", ".join(f"{m['t']} ({m['act']})" for m in (f.get("moves") or [])[:4])
+                    notify(f"💼 {f['name']} a publié son portefeuille",
+                           f"{f['fund']}, positions au {f['date']}." + (f" Mouvements : {mv}." if mv else ""),
+                           click=SITE + "#elus", tags=["briefcase"])
+                st["ins"] = list(seen_ins | {ih for _, _, ih in trades + funds})[-600:]
             if st.get("new"):
                 # première fois : on ne renvoie pas les anciennes infos, juste un message de bienvenue
                 notify("✅ Alertes Le Brief activées",

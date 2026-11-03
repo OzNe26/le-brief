@@ -103,6 +103,31 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .profile img{width:56px;height:56px;border-radius:50%}
 .profile h2{font-family:Fraunces,serif;font-size:24px}
 .profile p{color:var(--muted);font-size:14px}
+.anviews{display:flex;gap:4px;padding:4px;background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-bottom:18px;width:max-content;max-width:100%}
+.anviews button{all:unset;cursor:pointer;font-size:13.5px;font-weight:600;padding:7px 14px;border-radius:9px;color:var(--muted);white-space:nowrap}
+.anviews button.on{background:var(--accent);color:var(--bg)}
+.insbox h3{font-size:14.5px;margin-bottom:10px}.insbox{padding:14px 16px;margin-bottom:14px}
+.instop{display:flex;flex-wrap:wrap;gap:6px}.instop span{font-size:12.5px;padding:4px 10px;border-radius:8px;background:var(--panel2);color:var(--muted)}.instop b{color:var(--ink);font-family:"JetBrains Mono",monospace}
+.instop span.mine,.instop5 .mine b,.insmv .mine b{box-shadow:inset 0 0 0 1px var(--espace)}
+.insmem{margin-bottom:0}.insmem small{opacity:.7;margin-left:3px}
+.inslist{display:flex;flex-direction:column;gap:8px}
+.instr{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.insb{font-size:11.5px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap}
+.instr.buy .insb,.insb.buy{background:rgba(62,207,142,.14);color:var(--up)}.instr.sell .insb,.insb.sell{background:rgba(255,107,107,.13);color:var(--down)}
+.insm{min-width:0;display:flex;flex-direction:column}.insm b{font-family:"JetBrains Mono",monospace;font-size:14px}.insm small{color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.insw{font-size:12.5px;margin-top:2px}.insmine{font-family:Inter,sans-serif;font-size:11px;font-weight:600;color:var(--espace);margin-left:4px}
+.insr{text-align:right;display:flex;flex-direction:column;gap:1px}.insr b{font-size:13px}.insr small{font-size:11.5px;color:var(--dim)}.insr a{font-size:11.5px;color:var(--muted);margin-top:2px}
+.inssrc{color:var(--dim);font-size:12px;margin-top:14px}.inssrc a{color:var(--muted)}
+.insfunds{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}.insf{margin:0;display:flex;flex-direction:column;gap:12px;padding:16px}
+.insfh{display:flex;justify-content:space-between;gap:10px}.insfh small,.insv small{display:block;color:var(--dim);font-size:12px}.insv{text-align:right}.insfh b{font-size:15px}
+.instop5{display:flex;flex-direction:column;gap:6px}.instop5 div{display:grid;grid-template-columns:1fr 70px 44px;gap:8px;align-items:center;font-size:12.5px}
+.instop5 span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted)}.instop5 span b{color:var(--ink);font-family:"JetBrains Mono",monospace;padding:0 3px;border-radius:4px}
+.instop5 i{height:6px;background:var(--panel2);border-radius:4px;overflow:hidden}.instop5 em{display:block;height:100%;background:var(--accent)}.instop5 small{text-align:right;color:var(--dim)}
+.insmv{display:flex;flex-wrap:wrap;gap:5px}.insmv .lbl{width:100%;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--dim)}.insmv span:not(.lbl){font-size:12px;padding:3px 8px;border-radius:7px;background:var(--panel2)}.insmv b{font-family:"JetBrains Mono",monospace;padding:0 3px;border-radius:4px;color:var(--ink)}
+.insmv .up{color:var(--up)}.insmv .down{color:var(--down)}.inslink{font-size:12.5px;color:var(--muted);margin-top:auto}
+.wxins{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}.wxins a{display:flex;align-items:center;gap:10px;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.wxins a>span:nth-child(2){flex:1;min-width:0;display:flex;flex-direction:column}.wxins b{font-family:"JetBrains Mono",monospace}.wxins small{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.wxins time{font-size:11.5px;color:var(--dim)}
+@media (max-width:640px){.instr{grid-template-columns:1fr auto;}.instr .insb{grid-column:1/-1;justify-self:start}.insr{grid-column:1/-1;text-align:left}.anviews{width:100%}.anviews button{flex:1;text-align:center;padding:7px 6px;font-size:13px}}
 .box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:22px}
 .box h3{font-family:Fraunces,serif;font-size:20px;margin-bottom:4px}
 .box .sub{color:var(--muted);font-size:13.5px;margin-bottom:12px}
@@ -782,19 +807,19 @@ document.getElementById("acct").addEventListener("click",e=>{e.stopPropagation()
 document.addEventListener("click",e=>{const m=document.getElementById("menu");if(!m.hidden&&!m.contains(e.target))m.hidden=true});
 
 /* ================= Navigation ================= */
-function readHash(){const h=location.hash.replace("#","");return TABS[h]?h:null}
+function readHash(){const h=location.hash.replace("#",""); if(h==="elus"){anState.view="elus";return "analyse"} return TABS[h]?h:null}
 function setTab(t){
   state.tab=t; state.cat=""; state.liveShow=25; if(state.liveNext){state.live=state.liveNext;state.liveNext=null;state.livePending=false;}
   document.documentElement.style.setProperty("--accent",TABS[t].color);
   document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
-  if(location.hash!=="#"+t && !/access_token|error_description/.test(location.hash)) history.replaceState(null,"","#"+t);
+  if(location.hash!=="#"+t && !(t==="analyse"&&anState.view==="elus"&&location.hash==="#elus") && !/access_token|error_description/.test(location.hash)) history.replaceState(null,"","#"+t);
   if(t==="communaute") loadCommu();
   const ab=document.querySelector(`nav button[data-tab="${t}"]`); if(ab&&ab.scrollIntoView&&window.innerWidth<=640) try{ab.scrollIntoView({inline:"center",block:"nearest",behavior:"smooth"})}catch(e){}
   render();
 }
 document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>setTab(b.dataset.tab)));
 document.getElementById("home").addEventListener("click",e=>{e.preventDefault();setTab("accueil");scrollTo({top:0,behavior:"smooth"});});
-window.addEventListener("hashchange",()=>{const h=readHash(); if(h&&h!==state.tab) setTab(h)});
+window.addEventListener("hashchange",()=>{const h=readHash(); if(h&&h!==state.tab) setTab(h); else if(h==="analyse") render();});
 
 /* ================= Cartes d'infos ================= */
 let itemMap={};
@@ -1004,6 +1029,7 @@ function alertsHtml(){
       <details class="almulti" id="almulti"><summary class="alsel">${(()=>{const names=[...(pfAuto?["Mon portefeuille"]:[]),...AL_ASSETS.filter(([k])=>chosen.has(k)).map(([,n])=>n)];return names.length?esc(names.length<=2?names.join(", "):names.slice(0,2).join(", ")+" +"+(names.length-2)):"Aucun actif"})()}</summary>
         <div class="almenu"><label><input type="checkbox" data-al="pf:auto" ${pfAuto?"checked":""}><span>💼 Mon portefeuille${nPf?` <small>(${nPf})</small>`:""}</span></label><hr>
         ${AL_ASSETS.map(([k,n])=>`<label><input type="checkbox" data-al="${k}" ${chosen.has(k)?"checked":""}>${AL_LOGO[k]?`<img src="${AL_LOGO[k]}" alt="">`:""}<span>${esc(n)}</span></label>`).join("")}</div></details></div></div>
+    <label class="alrow"><input type="checkbox" id="alins" ${(r.assets||[]).includes("ins:trades")?"checked":""}><span><b>🏛 Trades des élus et grands investisseurs</b><small>Quand un élu très suivi (Pelosi, Khanna…) ou n'importe quel élu déclare un trade sur une action de ton portefeuille, et quand Buffett, Ackman & co publient leur nouveau portefeuille.</small></span></label>
     ${isAdmin()?`<label class="alrow"><input type="checkbox" id="alhealth" ${(r.assets||[]).includes("sys:health")?"checked":""}><span><b>🛠 Me prévenir si le site ne se met plus à jour</b><small>Une notification si un robot tombe en panne (actus, cours, analyse…), puis une autre quand c'est réparé. Réservé à l'admin du site.</small></span></label>`:""}
     <div class="pfbtns" style="margin-top:6px"><button class="lnk" type="button" id="aloff">${r.enabled===false?"▶ Réactiver les notifications":"⏸ Mettre les notifications en pause (tous mes appareils)"}</button></div>
     ${r.enabled===false?'<p class="alhelp" style="color:var(--down)">En pause : tu ne reçois rien.</p>':""}</section>`;
@@ -1016,6 +1042,7 @@ function bindAlerts(main){
   if($("altest")) $("altest").addEventListener("click",testPush);
   if($("alnews")) $("alnews").addEventListener("change",e=>saveAlerts({...alState.row,news:e.target.checked},"Enregistré"));
   if($("alhealth")) $("alhealth").addEventListener("change",e=>{ const set=new Set(alState.row.assets||[]); e.target.checked?set.add("sys:health"):set.delete("sys:health"); saveAlerts({...alState.row,assets:[...set]},e.target.checked?"Tu seras prévenu en cas de panne":"Enregistré"); });
+  if($("alins")) $("alins").addEventListener("change",e=>{ const set=new Set(alState.row.assets||[]); e.target.checked?set.add("ins:trades"):set.delete("ins:trades"); saveAlerts({...alState.row,assets:[...set]},e.target.checked?"Tu seras prévenu des nouveaux trades":"Enregistré"); });
   if($("alpct")) $("alpct").addEventListener("change",e=>saveAlerts({...alState.row,pct:+e.target.value},"Seuil : ±"+e.target.value+" %"));
   const mm=$("almulti"); if(mm){ if(alState.menuOpen) mm.open=true; mm.addEventListener("toggle",()=>{alState.menuOpen=mm.open;}); }
   if(!window._alOut){ window._alOut=true; document.addEventListener("click",e=>{ const m=document.getElementById("almulti"); if(m&&m.open&&!m.contains(e.target)){ m.open=false; alState.menuOpen=false; } }); }
@@ -1351,7 +1378,7 @@ function zoneScore(assets,panel,type){
   return {move, score:move*(type==="crypto"?0.5:0.8)+(n?(h-b)/n:0), up:list.filter(a=>a.data.ch["1j"]>0).length, n:list.length, h, b, votes:n};
 }
 function renderAccueil(main){
-  loadAnalysis(); loadCalendar(); loadPrices();
+  loadAnalysis(); loadCalendar(); loadPrices(); loadInsiders();
   const d=anState.data, assets=d?d.assets:[], panel=(d&&d.panel)||[];
   const now=new Date(), h=now.getHours();
   const hello=(h>=5&&h<18?"Bonjour":"Bonsoir")+(state.pseudo?" "+state.pseudo:"");
@@ -1393,12 +1420,80 @@ function renderAccueil(main){
     ${temps?`<section class="wxsec"><h3>Les températures</h3><p class="wxlead">Variation sur 24 h de chaque actif suivi. Touche-en un pour lire son analyse.</p><div class="wxtemps">${temps}</div></section>`:""}
     ${fc?`<section class="wxsec"><h3>Les prochains jours</h3><div class="wxfc">${fc}</div><a class="wxmore" href="#calendrier" data-go="calendrier">Tout le calendrier</a></section>`:""}
     ${g&&g.resume&&(Date.now()-new Date(g.updatedAt))<36*3600e3?`<section class="wxsec"><h3>Le bulletin</h3><p class="wxbull">${esc(g.resume)}</p><a class="wxmore" href="#general" data-go="general">Toute l'actu</a></section>`:""}
-    ${heads?`<section class="wxsec"><h3>Les derniers gros titres</h3><div class="wxheads">${heads}</div></section>`:""}`;
-  main.querySelectorAll("[data-go]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();setTab(a.dataset.go);scrollTo({top:0});}));
+    ${heads?`<section class="wxsec"><h3>Les derniers gros titres</h3><div class="wxheads">${heads}</div></section>`:""}
+    ${(()=>{const T=(insState.data&&insState.data.congress&&insState.data.congress.trades)||[]; if(!T.length) return "";
+      const pick=[...T.filter(t=>t.famous).slice(0,2),...T.filter(t=>!t.famous)].slice(0,4).sort((a,b)=>(b.ddate||"").localeCompare(a.ddate||""));
+      return `<section class="wxsec"><h3>Ce que déclarent les élus américains</h3><p class="wxlead">Les derniers achats et ventes d'actions déclarés par des membres du Congrès.</p><div class="wxins">${pick.map(t=>{const buy=/achat/.test(t.type);
+        return `<a href="#elus" data-go="elus"><span class="insb ${buy?"buy":"sell"}">${buy?"▲ Achat":"▼ Vente"}</span><span><b>${esc(t.ticker||t.asset.slice(0,24))}</b><small>${t.famous?"⭐ ":""}${esc(insName(t))} · ${insAmount(t)}</small></span><time>${dfr(t.ddate)}</time></a>`}).join("")}</div><a class="wxmore" href="#elus" data-go="elus">Élus & grands investisseurs</a></section>`})()}`;
+  main.querySelectorAll("[data-go]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault(); const g=a.dataset.go; if(g==="elus"){anState.view="elus";setTab("analyse")} else {if(g==="analyse")anState.view="marches"; setTab(g)} scrollTo({top:0});}));
 }
 
 /* ================= Analyse des marchés ================= */
-const anState={data:null,loading:false,failed:false,f:"",ia:"",cal:null,calF:"",calAll:false};
+const anState={data:null,loading:false,failed:false,f:"",ia:"",cal:null,calF:"",calAll:false,view:"marches"};
+/* ================= Élus & grands investisseurs ================= */
+const insState={data:null,loading:false,failed:false,sec:"elus",f:"",who:"",show:30};
+async function loadInsiders(){
+  if(insState.loading||insState.data) return; insState.loading=true;
+  try{ const r=await fetch("insiders.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw 0; insState.data=await r.json(); insState.failed=false; }
+  catch(e){ insState.failed=true; }
+  insState.loading=false; if(state.tab==="analyse"||state.tab==="accueil") render();
+}
+function myTickers(){ return new Set(pfKeys().filter(k=>k.startsWith("s:")).map(k=>k.slice(2).toUpperCase())); }
+const INS_PORTAL={house:"https://disclosures-clerk.house.gov/FinancialDisclosure",senate:"https://efdsearch.senate.gov/search/"};
+function usd(v){ if(v==null) return "?"; return v>=1e9?(v/1e9).toLocaleString("fr-FR",{maximumFractionDigits:v>=1e11?0:1})+" Md$":v>=1e6?(v/1e6).toLocaleString("fr-FR",{maximumFractionDigits:0})+" M$":v.toLocaleString("fr-FR")+" $"; }
+function insAmount(t){ return t.lo!=null&&t.hi!=null?`${t.lo.toLocaleString("fr-FR")} à ${t.hi.toLocaleString("fr-FR")} $`:(t.lo!=null?`plus de ${t.lo.toLocaleString("fr-FR")} $`:esc(t.amount||"?")); }
+function dfr(d){ if(!d) return "?"; const x=new Date(d+"T12:00:00Z"); return x.toLocaleDateString("fr-FR",{day:"numeric",month:"short"}); }
+function insName(t){ return String(t.who||"").replace(/\s+/g," ").replace(/\b(Mr|Mrs|Ms|Dr)\.?\s/g,"").replace(/\b([A-Z])([A-Z]{3,})\b/g,(m,a,b)=>a+b.toLowerCase()).trim(); }
+function insTradeHtml(t,mine){
+  const buy=/achat/.test(t.type), days=t.tdate&&t.ddate?Math.round((new Date(t.ddate)-new Date(t.tdate))/864e5):null;
+  return `<div class="instr ${buy?"buy":"sell"}"><span class="insb">${buy?"▲ Achat":t.type==="vente partielle"?"▼ Vente part.":/vente/.test(t.type)?"▼ Vente":esc(t.type)}</span>
+    <div class="insm"><b>${t.ticker?esc(t.ticker):""}${mine&&mine.has(t.ticker)?' <span class="insmine">dans ton portefeuille</span>':""}</b><small>${esc(String(t.asset||"").replace(/\s*\[[A-Z]{2,4}\]\s*$/,""))}</small>
+      <span class="insw">${t.famous?"⭐ ":""}${esc(insName(t))} · ${t.chamber==="senate"?"Sénat":"Chambre des représentants"}${t.state?" · "+esc(t.state):""}</span></div>
+    <div class="insr"><b>${insAmount(t)}</b><small>trade le ${dfr(t.tdate)} · déclaré le ${dfr(t.ddate)}${days!=null&&days>0?` (${days} j après)`:""}</small>
+      ${t.perf!=null?`<small>Cours depuis : <span class="${pcls(t.perf)}">${pfmt(t.perf)}</span></small>`:""}
+      <a href="${INS_PORTAL[t.chamber]||INS_PORTAL.house}" target="_blank" rel="noopener">Déclaration officielle ↗</a></div></div>`;
+}
+function insidersHtml(){
+  const d=insState.data, mine=myTickers();
+  const seg=`<div class="chips insseg"><button data-is="elus" class="${insState.sec==="elus"?"on":""}">🏛 Élus américains</button><button data-is="fonds" class="${insState.sec==="fonds"?"on":""}">💼 Grands investisseurs</button></div>`;
+  const intro=`<section class="brief"><h2>🏛 Élus & grands investisseurs</h2><p>Ce que les membres du Congrès américain et les investisseurs les plus suivis (Buffett, Ackman, Icahn…) <b>déclarent</b> acheter et vendre. Mis à jour deux fois par jour.</p></section>
+    <div class="warn">ℹ️ <b>Ce sont des déclarations légales et publiques, pas des preuves de quoi que ce soit.</b> Les élus américains doivent déclarer leurs trades sous 45 jours, avec des montants en fourchettes. Les fonds publient leurs positions chaque trimestre, jusqu'à 45 jours après. Tout arrive donc avec du retard : copier ces trades n'est pas une stratégie garantie.</div>`;
+  if(!d) return intro+(insState.failed?'<div class="empty">Les données arrivent bientôt.</div>':'<div class="loading">Chargement…</div>');
+  let body="";
+  if(insState.sec==="elus"){
+    const c=d.congress||{}, all=c.trades||[];
+    let L=all;
+    if(insState.f==="achat") L=L.filter(t=>/achat/.test(t.type)); else if(insState.f==="vente") L=L.filter(t=>/vente/.test(t.type));
+    else if(insState.f==="star") L=L.filter(t=>t.famous); else if(insState.f==="pf") L=L.filter(t=>mine.has(t.ticker));
+    if(insState.who) L=L.filter(t=>t.slug===insState.who);
+    const cnt={}; all.filter(t=>/achat/.test(t.type)&&t.ticker).forEach(t=>{cnt[t.ticker]=(cnt[t.ticker]||0)+1});
+    const top=Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,8);
+    const buys=all.filter(t=>/achat/.test(t.type)).length;
+    body=`<div class="mood"><div><b>${all.length}</b>trades déclarés</div><div><b class="up">${buys}</b>achats</div><div><b class="down">${all.length-buys}</b>ventes</div><div style="flex:1;min-width:200px">Mis à jour ${ago(d.updatedAt)}<br><span style="font-size:12px;color:var(--dim)">sur les 4 derniers mois de déclarations</span></div></div>
+      ${top.length?`<section class="box insbox"><h3>Les actions les plus achetées par les élus</h3><div class="instop">${top.map(([k,n])=>`<span class="${mine.has(k)?"mine":""}"><b>${esc(k)}</b> ${n} achat${n>1?"s":""}</span>`).join("")}</div></section>`:""}
+      ${(c.members||[]).length?`<section class="box insbox"><h3>Les plus actifs (3 derniers mois)</h3><div class="chips insmem"><button data-iw="" class="${insState.who?"":"on"}">Tout le monde</button>${c.members.slice(0,12).map(m=>`<button data-iw="${esc(m.slug)}" class="${insState.who===m.slug?"on":""}">${esc(insName(m))} <small>${m.trades}</small></button>`).join("")}</div></section>`:""}
+      <div class="chips"><button data-if="" class="${insState.f?"":"on"}">Tous</button><button data-if="achat" class="${insState.f==="achat"?"on":""}">Achats</button><button data-if="vente" class="${insState.f==="vente"?"on":""}">Ventes</button><button data-if="star" class="${insState.f==="star"?"on":""}">⭐ Élus très suivis</button>${mine.size?`<button data-if="pf" class="${insState.f==="pf"?"on":""}">💼 Mes actions</button>`:""}</div>
+      <div class="inslist">${L.length?L.slice(0,insState.show).map(t=>insTradeHtml(t,mine)).join(""):'<div class="empty">Aucun trade déclaré avec ce filtre sur la période.</div>'}</div>
+      ${L.length>insState.show?`<button class="btn ghost" type="button" id="insmore" style="margin-top:12px">Voir plus (${L.length-insState.show})</button>`:""}
+      <p class="inssrc">⭐ = élus des deux partis dont les trades sont très suivis par les médias (Pelosi, Khanna, Tuberville, Greene…), qu'ils aient ou non un trade récent. Données : <a href="https://www.bargo.ai" target="_blank" rel="noopener">Bargo</a> (API gratuite), d'après les déclarations officielles de la Chambre et du Sénat (STOCK Act). Seul le Congrès américain est couvert.</p>`;
+  } else {
+    const F=d.investors||[];
+    body=`<div class="insfunds">${F.map(f=>{const mx=Math.max(...(f.top||[]).map(x=>x.pct||0),1);
+      return `<article class="box insf"><div class="insfh"><div><b>${esc(f.name)}</b><small>${esc(f.fund)}</small></div><div class="insv"><b>${usd(f.value)}</b><small>${f.count} lignes · au ${f.date?new Date(f.date+"T12:00:00Z").toLocaleDateString("fr-FR",{day:"numeric",month:"short",year:"numeric"}):"?"}</small></div></div>
+        <div class="instop5">${(f.top||[]).slice(0,5).map(x=>`<div class="${mine.has(x.t)?"mine":""}"><span><b>${esc(x.t)}</b> ${esc(x.n)}</span><i><em style="width:${(x.pct/mx*100).toFixed(0)}%"></em></i><small>${(x.pct||0).toLocaleString("fr-FR",{maximumFractionDigits:1})} %</small></div>`).join("")}</div>
+        ${(f.moves||[]).length?`<div class="insmv"><span class="lbl">Mouvements du trimestre</span>${f.moves.slice(0,6).map(m=>`<span class="${/allège|vend/.test(m.act)?"down":"up"}${mine.has(m.t)?" mine":""}"><b>${esc(m.t)}</b> ${esc(m.act)}</span>`).join("")}</div>`:'<div class="insmv"><span class="lbl">Aucun changement ce trimestre</span></div>'}
+        <a class="inslink" href="https://www.dataroma.com/m/holdings.php?m=${encodeURIComponent(f.code)}" target="_blank" rel="noopener">Tout le portefeuille ↗</a></article>`}).join("")}</div>
+      <p class="inssrc">Positions déclarées chaque trimestre à la SEC (formulaire 13F) : seules les actions américaines y figurent, pas le cash ni les ventes à découvert. Michael Burry, Stanley Druckenmiller et Cathie Wood ne sont pas disponibles dans cette source. Données : <a href="https://www.dataroma.com" target="_blank" rel="noopener">Dataroma</a>.</p>`;
+  }
+  return intro+seg+body;
+}
+function bindInsiders(main){
+  const keep=fn=>()=>{const y=scrollY;fn();render();scrollTo(0,y)};
+  main.querySelectorAll("[data-is]").forEach(b=>b.addEventListener("click",keep(()=>{insState.sec=b.dataset.is})));
+  main.querySelectorAll("[data-if]").forEach(b=>b.addEventListener("click",keep(()=>{insState.f=b.dataset.if;insState.show=30})));
+  main.querySelectorAll("[data-iw]").forEach(b=>b.addEventListener("click",keep(()=>{insState.who=b.dataset.iw;insState.show=30})));
+  const m=document.getElementById("insmore"); if(m) m.addEventListener("click",keep(()=>{insState.show+=40}));
+}
 async function loadAnalysis(force){
   if(anState.loading||(anState.data&&!force)) return; anState.loading=true;
   try{ const [a,cr]=await Promise.all([fetch("analysis.json?t="+Date.now(),{cache:"no-store"}),fetch("calendar.json?t="+Date.now(),{cache:"no-store"}).catch(()=>null)]);
@@ -1460,6 +1555,11 @@ function renderCalendar(main){
   const cm=document.getElementById("calmore"); if(cm) cm.addEventListener("click",()=>{anState.calAll=!anState.calAll;const y=scrollY;render();scrollTo(0,y)});
 }
 function renderAnalyse(main){
+  const views=`<div class="anviews"><button data-av="marches" class="${anState.view!=="elus"?"on":""}">📊 Les marchés</button><button data-av="elus" class="${anState.view==="elus"?"on":""}">🏛 Élus & investisseurs</button></div>`;
+  const bindViews=()=>main.querySelectorAll("[data-av]").forEach(b=>b.addEventListener("click",()=>{anState.view=b.dataset.av; history.replaceState(null,"","#"+(anState.view==="elus"?"elus":"analyse")); render(); scrollTo({top:0});}));
+  if(anState.view==="elus"){ loadInsiders(); if(location.hash!=="#elus") history.replaceState(null,"","#elus");
+    main.innerHTML=views+insidersHtml(); bindViews(); bindInsiders(main); return; }
+  if(location.hash==="#elus") history.replaceState(null,"","#analyse");
   loadAnalysis();
   const d=anState.data;
   // Panel : les IA automatiques
@@ -1476,7 +1576,7 @@ function renderAnalyse(main){
         <div class="sub">${esc(p.emoji||"🤖")} ${esc(p.style)} · ${esc(p.nom)} (${esc(p.editeur||"")}) · ${esc(fmtDate(p.updatedAt))} (${ago(p.updatedAt)})</div>
         <p>${esc(p.global)}</p></div>`).join("")}</div></div>
       ${panel.length>1?`<div class="iadots">${panel.map(p=>`<i class="${p.id===cur.id?"on":""}"></i>`).join("")}</div><div class="iahint">← glisse pour changer d'avis →</div>`:""}</section>`:"";
-  main.innerHTML=`<section class="brief"><h2>📊 Analyse des marchés</h2><p>Les 10 actifs suivis sur le site, analysés chaque matin (vers 7h) et chaque soir après la clôture de Wall Street (vers 22h40) : tendance, momentum, niveaux à surveiller et actus liées.</p></section>
+  main.innerHTML=views+`<section class="brief"><h2>📊 Analyse des marchés</h2><p>Les 10 actifs suivis sur le site, analysés chaque matin (vers 7h) et chaque soir après la clôture de Wall Street (vers 22h40) : tendance, momentum, niveaux à surveiller et actus liées.</p></section>
     <div class="warn">⚠️ <b>Ce sont des avis, pas des conseils en investissement.</b> L'analyse automatique repose sur des indicateurs techniques simples, et les avis des IA sont des opinions à un instant donné. Ils peuvent se tromper : fais toujours tes propres recherches et n'investis que ce que tu peux te permettre de perdre.</div>
     ${!d?(anState.failed?'<div class="empty">L\'analyse arrive bientôt.</div>':'<div class="loading">Chargement…</div>'):`
     <div class="mood"><div><b class="up">${d.mood.haussier}</b>haussiers</div><div><b>${d.mood.neutre}</b>neutres</div><div><b class="down">${d.mood.baissier}</b>baissiers</div><div style="flex:1;min-width:200px">Analyse automatique mise à jour ${ago(d.updatedAt)}<br><span style="font-size:12px;color:var(--dim)">${esc(fmtDate(d.updatedAt))} · cours : Binance & Yahoo Finance</span></div></div>
@@ -1500,6 +1600,7 @@ function renderAnalyse(main){
         ${a.news&&a.news.length?`<div class="anews">${a.news.slice(0,3).map(n=>`<a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">📰 ${esc(n.titre)} <span style="color:var(--dim)">· ${esc(n.source)}</span></a>`).join("")}</div>`:""}
       </article>`}).join("")}</div>
     <p style="color:var(--dim);font-size:12px;margin-top:14px">Méthode : moyennes mobiles 20/50/200 jours, RSI 14 jours, volatilité annualisée sur 30 jours, support et résistance = plus bas et plus haut des 20 dernières séances. Score de -5 (très baissier) à +5 (très haussier).</p>`}`;
+  bindViews();
   main.querySelectorAll("[data-af]").forEach(b=>b.addEventListener("click",()=>{anState.f=b.dataset.af;render()}));
   main.querySelectorAll("[data-cf]").forEach(b=>b.addEventListener("click",()=>{anState.calF=b.dataset.cf;const y=scrollY;render();scrollTo(0,y)}));
   const cm=document.getElementById("calmore"); if(cm) cm.addEventListener("click",()=>{anState.calAll=!anState.calAll;const y=scrollY;render();scrollTo(0,y)});
