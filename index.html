@@ -56,8 +56,7 @@ a{color:inherit}
 .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
 header{position:relative;z-index:40;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;padding-bottom:22px;border-bottom:1px solid var(--line)}
 .brand h1{font-family:Fraunces,serif;font-weight:800;font-size:clamp(28px,5vw,42px);letter-spacing:-.02em;line-height:1}
-.brandlogo{width:1.05em;height:1.05em;vertical-align:-0.16em;margin-right:.32em;border-radius:22%;box-shadow:0 6px 18px color-mix(in srgb,var(--accent) 28%,transparent);transition:box-shadow .3s}
-.brandlogo .lb1{stop-color:var(--accent);transition:stop-color .3s}.brandlogo .lb2{stop-color:color-mix(in srgb,var(--accent) 62%,#fff);transition:stop-color .3s}
+.brandlogo{width:1.05em;height:1.05em;vertical-align:-0.16em;margin-right:.32em;border-radius:22%;box-shadow:0 6px 18px rgba(255,122,69,.25)}
 .brand h1 span{color:var(--accent);transition:color .3s}
 .brand p{color:var(--muted);font-size:14px;margin-top:6px}
 .status{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);text-align:right}
@@ -467,7 +466,7 @@ body.playing .wrap{padding-bottom:110px}
 <div class="wrap">
   <header>
     <div class="brand">
-      <h1><a href="#accueil" id="home" class="homelink" title="Retour à l'accueil"><svg class="brandlogo" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" class="lb1"/><stop offset="1" class="lb2"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#lbg)"/><rect x="13" y="14" width="24" height="5.5" rx="2.75" fill="#14161b"/><rect x="13" y="24" width="16" height="5.5" rx="2.75" fill="#14161b" opacity=".55"/><polyline points="14,48 25,38 33,43 49,26" fill="none" stroke="#14161b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="39.5,24.5 50.5,24.5 50.5,35.5" fill="none" stroke="#14161b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>Le Brief <span>Invest</span></a></h1>
+      <h1><a href="#accueil" id="home" class="homelink" title="Retour à l'accueil"><img src="img/logo.svg" alt="" class="brandlogo">Le Brief <span>Invest</span></a></h1>
       <p>L'actu générale, crypto, bourse et immo au même endroit. Mise à jour plusieurs fois par jour.</p>
     </div>
     <div class="hright"><div class="status" id="status"><span class="dot"></span>Chargement…</div><div class="hrow"><button class="thbtn" id="thbtn" type="button" title="Mode clair / sombre" aria-label="Changer de thème"></button><div class="acctwrap"><button class="acct" id="acct" type="button"><span class="av" id="acctav"></span><span class="nm" id="acctnm">Connexion</span></button><div class="menu" id="menu" hidden></div></div></div></div>
