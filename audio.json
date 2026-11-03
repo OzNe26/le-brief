@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T10:05:10+00:00",
+ "updatedAt": "2026-11-03T13:18:05+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -458,6 +458,13 @@
    "spotify": "",
    "episodes": [
     {
+     "title": "The Race for Private Ethereum | Zac Williamson",
+     "date": "2026-11-03T11:30:00+00:00",
+     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M6G8SSB7AK4B3BPNCHA6N7CW.mp3",
+     "duration": "2775",
+     "desc": "Can Ethereum become private without giving anyone a master key? Aztec co-founder Zac Williamson joins David Hoffman to discuss the race to build private smart contracts, why transparent blockchains struggle with tokenized finance, and how ZK Passport could bri…"
+    },
+    {
      "title": "The Complete Zcash Roadmap | Sean Bowe and Dev Ojha",
      "date": "2026-11-02T11:55:00+00:00",
      "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M6DX5NMF2SHCSAT661GF2H78.mp3",
@@ -491,13 +498,6 @@
      "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M5YACEJGQTGWMRJ2ZKHR6GVR.mp3",
      "duration": "3627",
      "desc": "Is crypto building a freer financial system, or giving Wall Street and Washington new ways to control it? Former CFTC Chairman Chris Giancarlo returns to Bankless to unpack crypto's political battles, why he believes Wall Street will move onto digital rails by…"
-    },
-    {
-     "title": "What Is Bitcoin Telling Us? | Michael Howell, Macro Analyst",
-     "date": "2026-10-26T10:30:00+00:00",
-     "audio": "https://pscrb.fm/rss/p/episode.flightcast.com/01M5VT71ZDRYW689Q6SBDV5X7F.mp3",
-     "duration": "4676",
-     "desc": "Could Bitcoin be signaling the next liquidity recovery before the rest of the market sees it? Global liquidity expert Michael Howell returns to Bankless to revisit his 2027 outlook, explain why Bitcoin's $70K level matters, and examine whether the next market …"
     }
    ]
   },
