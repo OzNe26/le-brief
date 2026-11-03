@@ -44,6 +44,12 @@ def who(t):
     return re.sub(r"\s+", " ", n).strip()
 
 
+def amt(t):
+    f = lambda v: f"{v:,}".replace(",", " ")
+    if t.get("lo") is not None and t.get("hi") is not None: return f"{f(t['lo'])} à {f(t['hi'])} $"
+    return t.get("amount") or "?"
+
+
 def rpc(name, payload):
     return json.loads(post(f"{SB_URL}/rest/v1/rpc/{name}", payload, {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}"}) or b"null")
 
@@ -162,12 +168,12 @@ def main():
                 trades = [x for x in ins_hits if x[0] == "t"]
                 if len(trades) > 3:
                     notify(f"🏛 {len(trades)} nouveaux trades d'élus déclarés",
-                           "\n".join(f"• {who(t)} : {t['type']} {t['ticker'] or t['asset'][:30]} ({t.get('amount') or '?'})" for _, t, _ in trades[:6]),
+                           "\n".join(f"• {who(t)} : {t['type']} {t['ticker'] or t['asset'][:30]} ({amt(t)})" for _, t, _ in trades[:6]),
                            click=SITE + "#elus", tags=["classical_building"])
                 else:
                     for _, t, _ in trades:
                         notify(f"🏛 {who(t)} : {t['type']} {t['ticker'] or ''}".strip(),
-                               f"{t['asset'][:80]}\nMontant déclaré : {t.get('amount') or '?'} · trade du {t.get('tdate')}, déclaré le {t.get('ddate')}.",
+                               f"{t['asset'][:80]}\nMontant déclaré : {amt(t)} · trade du {t.get('tdate')}, déclaré le {t.get('ddate')}.",
                                click=SITE + "#elus", tags=["classical_building"])
                 funds = [x for x in ins_hits if x[0] == "f"]
                 if len(funds) > 1:  # nouveau trimestre : un seul message pour tous les fonds
