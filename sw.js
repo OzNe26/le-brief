@@ -1,7 +1,7 @@
 /* Le Brief Invest : service worker (appli installable + ouverture rapide).
    Pages et données : réseau d'abord (toujours à jour), copie de secours si pas de connexion.
    Images et logos : copie locale, rafraîchie en arrière-plan. Rien n'est touché hors du site (audio, comptes, graphiques). */
-const VERSION = "lb-v10";
+const VERSION = "lb-v11";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "img/logo.svg", "img/icon-192.png", "img/icon-512.png", "favicon.svg", "apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
@@ -17,7 +17,8 @@ function keyOf(req) {               // les ?t=123 anti-cache ne créent pas une 
 async function networkFirst(req, key) {
   const c = await caches.open(VERSION);
   try {
-    const res = await fetch(req);
+    // no-cache : on revalide toujours auprès du serveur (sinon le navigateur garde l'ancienne page jusqu'à 10 min)
+    const res = await fetch(req.mode === "navigate" ? new Request(req.url, { cache: "no-cache", credentials: "same-origin" }) : new Request(req, { cache: "no-cache" }));
     if (res && res.ok) c.put(key, res.clone());
     return res;
   } catch (err) {
