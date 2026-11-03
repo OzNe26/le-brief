@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T23:14:55+00:00",
+ "updatedAt": "2026-11-03T23:16:37+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -850,49 +850,56 @@
    ]
   },
   {
-   "name": "Dans un coin de ma tête",
-   "author": "Ana'🤍",
-   "cat": "Crypto",
-   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/34/4a/f6/344af604-49b8-9314-c26d-3189497466e9/mza_12830338063587258268.jpg/600x600bb.jpg",
-   "apple": "https://podcasts.apple.com/fr/podcast/dans-un-coin-de-ma-t%C3%AAte/id6805612366?uo=4",
-   "feed": "https://anchor.fm/s/1167712a0/podcast/rss",
-   "query": "Journal du Coin",
+   "name": "BFM Bourse",
+   "author": "BFM Business",
+   "cat": "Bourse",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/80/78/3180787a-fc47-9437-c7e2-452d88190d19/mza_4193998614812459487.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/bfm-bourse/id328729492?uo=4",
+   "feed": "https://feeds.simplecast.com/dCzX0hyl",
+   "query": "Intégrale Bourse BFM",
    "spotify": "",
    "episodes": [
     {
-     "title": "Épisode 5 - Couper contact avec ses parents",
-     "date": "2026-09-27T16:00:00+00:00",
-     "audio": "https://anchor.fm/s/1167712a0/podcast/play/126339338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-26%2F432708240-44100-2-f3d8f33eb92c7.m4a",
-     "duration": "00:41:51",
-     "desc": "⚠️ Petite précision avant l’écoute : j’ai malheureusement encore eu quelques soucis avec mon micro pendant l’enregistrement de cet épisode. Mon câble crée des faux contacts et peut provoquer quelques grésillements à certains moments. Je m’excuse d’avance pour …"
+     "title": "Le point sur le portefeuille trading – 03/11",
+     "date": "2026-11-03T17:21:43+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/000902ad-9013-44b0-8973-9026705ee97b/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=000902ad-9013-44b0-8973-9026705ee97b&category=Business%2CNews&episode_published_at=2026-11-03T17%3A21%3A43&episode_title=Le+point+sur+le+portefeuille+trading+%E2%80%93+03%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:02:22",
+     "desc": "Ce mardi 3 novembre, Alexandre Tixier, analyste pour le site BFM Bourse, a donné son point de vue sur le CAC 40, ainsi que sur les valeurs ennyeuses et celles à suivre cette semaine, dans Le Portefeuille trading dans l'émission BFM Bourse présentée par Guillau…"
     },
     {
-     "title": "Épisode 4 - Les excuses réparent-elles vraiment ?",
-     "date": "2026-09-13T16:00:00+00:00",
-     "audio": "https://anchor.fm/s/1167712a0/podcast/play/125191468/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-4%2F431166782-44100-2-b2d6c76bef28.m4a",
-     "duration": "00:22:32",
-     "desc": "On a tous déjà attendu des excuses en pensant qu’un simple « je suis désolé » nous aiderait à tourner la page. Mais est-ce que les excuses réparent réellement ce qui a été cassé ? Est-ce qu’elles sont toujours sincères ? Et surtout, avons-nous vraiment besoin …"
+     "title": "L'intégrale de BFM Bourse du mardi 3 novembre",
+     "date": "2026-11-03T17:09:21+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/fcbe325a-9c50-4991-bd7f-33d8ce1ad997/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=fcbe325a-9c50-4991-bd7f-33d8ce1ad997&category=Business%2CNews&episode_published_at=2026-11-03T17%3A09%3A21&episode_title=L%27int%C3%A9grale+de+BFM+Bourse+du+mardi+3+novembre&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "01:44:54",
+     "desc": "Ce mardi 3 novembre, Antoine Larigaudrie, journaliste BFM Business, Philippe Ferreira, responsable adjoint de la Stratégie de Kepler Cheuvreux, Grégoire Uettwiller, gérant du fonds Moneta Long Short chez Moneta, Patrice Gautry, chef économiste chez Union Banca…"
     },
     {
-     "title": "Épisode 3 - Mon histoire avec la dépression",
-     "date": "2026-09-06T16:00:00+00:00",
-     "audio": "https://anchor.fm/s/1167712a0/podcast/play/125271787/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-6%2F431275916-44100-2-91af807c04b99.m4a",
-     "duration": "00:31:20",
-     "desc": "À l’occasion de Septembre Jaune , j’avais envie de vous parler d’un sujet qui me touche personnellement : la dépression Dans cet épisode, je vous raconte mon histoire, de mon premier diagnostic à l’adolescence jusqu’à ma rechute à 25 ans. Le regard des autres,…"
+     "title": "On refait la séance : Stif s'envole, SpaceX dope son carnet de commandes – 03/11",
+     "date": "2026-11-03T16:58:52+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/fd362e44-8a73-478d-b9e4-dbff828a78f5/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=fd362e44-8a73-478d-b9e4-dbff828a78f5&category=Business%2CNews&episode_published_at=2026-11-03T16%3A58%3A52&episode_title=On+refait+la+s%C3%A9ance+%3A+Stif+s%27envole%2C+SpaceX+dope+son+carnet+de+commandes+%E2%80%93+03%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:07:34",
+     "desc": "Ce mardi 3 novembre, Philippe Ferreira, responsable adjoint de la stratégie de Kepler Cheuvreux, a débriefé la séance du jour, dans l'émission BFM Bourse présentée par Guillaume Sommerer. BFM Bourse est à voir ou écouter du lundi au vendredi sur BFM Business."
     },
     {
-     "title": "Épisode 2 - Être perdu dans ses études",
-     "date": "2026-08-30T16:00:00+00:00",
-     "audio": "https://anchor.fm/s/1167712a0/podcast/play/124876708/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-28%2F430737795-44100-2-0cff47fbed2b3.m4a",
-     "duration": "00:18:32",
-     "desc": "Pour ce deuxième épisode, et avec la rentrée qui approche, j’avais envie de vous parler de mon cursus universitaire, mais surtout de ce sentiment d’être complètement perdu dans ses études , ses choix d’orientation et de ne pas réussir à trouver quelque chose q…"
+     "title": "La Data Room : +103,8 % = l'évolution des profits dans l'électronique en Chine sur les neuf premiers mois de 2026 – 03/11",
+     "date": "2026-11-03T16:54:51+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/40c9f2f3-e90d-41dc-b009-a0e8b9eeddf2/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=40c9f2f3-e90d-41dc-b009-a0e8b9eeddf2&category=Business%2CNews&episode_published_at=2026-11-03T16%3A54%3A51&episode_title=La+Data+Room+%3A+%2B103%2C8+%25+%3D+l%27%C3%A9volution+des+profits+dans+l%27%C3%A9lectronique+en+Chine+sur+les+neuf+premiers+mois+de+2026+%E2%80%93+03%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:03:14",
+     "desc": "Ce mardi 3 novembre, retrouvez la Data room en replay sur BFM Business."
     },
     {
-     "title": "Épisode 1 - Faisons connaissance",
-     "date": "2026-08-26T06:00:00+00:00",
-     "audio": "https://anchor.fm/s/1167712a0/podcast/play/124732372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-25%2F430536409-44100-2-69ef3147fd123.m4a",
-     "duration": "00:03:04",
-     "desc": "Avant de commencer cette nouvelle aventure, il était peut-être temps de faire connaissance 🤍 Dans ce premier épisode, je me présente, je vous raconte comment est né Dans un coin de ma tête , pourquoi j’ai choisi ce nom et ce que vous pourrez retrouver dans les…"
+     "title": "Les seuils techniques incontournables sur les marchés et les valeurs – 03/11",
+     "date": "2026-11-03T16:51:21+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/9e81be2e-671c-40b2-8dd1-1d73dd7eb0ca/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=9e81be2e-671c-40b2-8dd1-1d73dd7eb0ca&category=Business%2CNews&episode_published_at=2026-11-03T16%3A51%3A21&episode_title=Les+seuils+techniques+incontournables+sur+les+march%C3%A9s+et+les+valeurs+%E2%80%93+03%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:01:10",
+     "desc": "Ce mardi 3 novembre, retrouvez Alerte Trader en replay sur BFM Business."
+    },
+    {
+     "title": "Le Club : La fin du \"Trade IA\" ? – 03/11",
+     "date": "2026-11-03T16:42:31+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/e3d764e9-7846-460a-96a8-3d592df56d2a/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=e3d764e9-7846-460a-96a8-3d592df56d2a&category=Business%2CNews&episode_published_at=2026-11-03T16%3A42%3A31&episode_title=Le+Club+%3A+La+fin+du+%22Trade+IA%22+%3F+%E2%80%93+03%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:28:58",
+     "desc": "Ce mardi 3 novembre, Christian Parisot, économiste et conseiller auprès de Aurel BGC, et Mabrouk Chetouane, responsable de la stratégie globale de marché chez Natixis Investment Managers, étaient les invités de l'émission BFM Bourse présentée par Guillaume Som…"
     }
    ]
   }
