@@ -39,6 +39,11 @@ except Exception:
     _v = None
 
 
+def who(t):
+    n = re.sub(r"\b(Mr|Mrs|Ms|Dr)\.?\s", "", t.get("who") or "")
+    return re.sub(r"\s+", " ", n).strip()
+
+
 def rpc(name, payload):
     return json.loads(post(f"{SB_URL}/rest/v1/rpc/{name}", payload, {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}"}) or b"null")
 
@@ -157,15 +162,19 @@ def main():
                 trades = [x for x in ins_hits if x[0] == "t"]
                 if len(trades) > 3:
                     notify(f"🏛 {len(trades)} nouveaux trades d'élus déclarés",
-                           "\n".join(f"• {t['who']} : {t['type']} {t['ticker'] or t['asset'][:30]} ({t.get('amount') or '?'})" for _, t, _ in trades[:6]),
+                           "\n".join(f"• {who(t)} : {t['type']} {t['ticker'] or t['asset'][:30]} ({t.get('amount') or '?'})" for _, t, _ in trades[:6]),
                            click=SITE + "#elus", tags=["classical_building"])
                 else:
                     for _, t, _ in trades:
-                        notify(f"🏛 {t['who']} : {t['type']} {t['ticker'] or ''}".strip(),
+                        notify(f"🏛 {who(t)} : {t['type']} {t['ticker'] or ''}".strip(),
                                f"{t['asset'][:80]}\nMontant déclaré : {t.get('amount') or '?'} · trade du {t.get('tdate')}, déclaré le {t.get('ddate')}.",
                                click=SITE + "#elus", tags=["classical_building"])
-                funds = [x for x in ins_hits if x[0] == "f"][:3]
-                for _, f, _ in funds:
+                funds = [x for x in ins_hits if x[0] == "f"]
+                if len(funds) > 1:  # nouveau trimestre : un seul message pour tous les fonds
+                    notify(f"💼 {len(funds)} grands investisseurs ont publié leur portefeuille",
+                           ", ".join(f["name"] for _, f, _ in funds[:8]) + (" et d'autres." if len(funds) > 8 else "."),
+                           click=SITE + "#elus", tags=["briefcase"])
+                for _, f, _ in funds[:1] if len(funds) == 1 else []:
                     mv = ", ".join(f"{m['t']} ({m['act']})" for m in (f.get("moves") or [])[:4])
                     notify(f"💼 {f['name']} a publié son portefeuille",
                            f"{f['fund']}, positions au {f['date']}." + (f" Mouvements : {mv}." if mv else ""),
