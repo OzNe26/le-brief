@@ -1,0 +1,40 @@
+name: Élus et grands investisseurs
+
+on:
+  schedule:
+    - cron: "40 6 * * *"    # vers 7h40 (heure de Paris en hiver)
+    - cron: "40 18 * * *"   # vers 19h40
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update_insiders.py"
+      - ".github/workflows/insiders.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: insiders
+  cancel-in-progress: true
+
+jobs:
+  insiders:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Récupérer les déclarations
+        env:
+          BARGO_API_KEY: ${{ secrets.BARGO_API_KEY }}
+        run: python3 scripts/update_insiders.py
+      - name: Enregistrer
+        run: |
+          if [ -z "$(git status --porcelain -- insiders.json)" ]; then echo "Rien de nouveau"; exit 0; fi
+          git config user.name "le-brief-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add insiders.json
+          git commit -q -m "Élus et investisseurs $(date -u +%d/%m\ %H:%M) UTC"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
