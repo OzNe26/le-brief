@@ -1,0 +1,18 @@
+name: Diagnostic élus et investisseurs
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          UA="LeBriefInvest/1.0 (+https://ozne26.github.io/le-brief/)"
+          echo "== bargo trades"; curl -sS -m 30 -A "$UA" "https://www.bargo.ai/free-apis/congress/v1/trades?limit=3" | head -c 1500; echo
+          echo "== bargo pelosi"; curl -sS -m 30 -A "$UA" "https://www.bargo.ai/free-apis/congress/v1/trades?member=pelosi&limit=2" | head -c 800; echo
+          echo "== bargo members"; curl -sS -m 30 -A "$UA" "https://www.bargo.ai/free-apis/congress/v1/members?limit=3" | head -c 800; echo
+          echo "== sec berkshire"; curl -sS -m 30 -A "$UA" -o sub.json -w "%{http_code}\n" https://data.sec.gov/submissions/CIK0001067983.json; python3 -c "
+          import json;d=json.load(open('sub.json'));r=d['filings']['recent'];print([ (f,a,dt) for f,a,dt in zip(r['form'],r['accessionNumber'],r['filingDate']) if f.startswith('13F')][:3])" 2>&1 | head -3
+          echo "== sec scion"; curl -sS -m 30 -A "$UA" https://data.sec.gov/submissions/CIK0001649339.json | python3 -c "
+          import json,sys;d=json.load(sys.stdin);r=d['filings']['recent'];print(d.get('name'),[ (f,dt) for f,dt in zip(r['form'],r['filingDate']) if f.startswith('13F')][:2])" 2>&1 | head -2
+          echo "== index"; A=$(python3 -c "import json;d=json.load(open('sub.json'));r=d['filings']['recent'];print([a for f,a in zip(r['form'],r['accessionNumber']) if f=='13F-HR'][0])"); P=${A//-/}; curl -sS -m 30 -A "$UA" "https://www.sec.gov/Archives/edgar/data/1067983/$P/index.json" | head -c 900
