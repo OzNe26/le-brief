@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-03T06:11:37+00:00",
+"updatedAt": "2026-11-03T12:04:04+00:00",
 "events": [
 {
 "d": "2026-11-03T10:00:00-05:00",
@@ -16,15 +16,6 @@
 "title": "Élections de mi-mandat américaines",
 "sub": "🇺🇸 États-Unis",
 "imp": 3
-},
-{
-"d": "2026-11-03T12:00:00+01:00",
-"allday": true,
-"cat": "resultats",
-"title": "Résultats de MARA Holdings",
-"sub": "MARA · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "MARA"
 },
 {
 "d": "2026-11-03T13:00:00+01:00",
@@ -208,6 +199,15 @@
 "sub": "BRK.A · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "BRK.A"
+},
+{
+"d": "2026-11-09T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de MARA Holdings",
+"sub": "MARA · après la clôture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "MARA"
 },
 {
 "d": "2026-11-11T12:00:00+01:00",
