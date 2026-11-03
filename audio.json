@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T21:56:48+00:00",
+ "updatedAt": "2026-11-03T23:12:51+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -48,6 +48,30 @@
    "bitrate": 0,
    "uuid": "",
    "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/RMC_2025.svg/langfr-330px-RMC_2025.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "label": "Europe 1",
+   "cat": "Info",
+   "name": "Europe 1",
+   "url": "https://stream.europe1.fr/europe1.aac",
+   "logo": "logos/europe-1.png",
+   "homepage": "https://www.europe1.fr/",
+   "codec": "AAC",
+   "bitrate": 128,
+   "uuid": "dfcef843-6bf9-40f6-b3fe-2b224df86e48",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Europe1_FLAT.png/330px-Europe1_FLAT.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "label": "RTL",
+   "cat": "Info",
+   "name": "RTL",
+   "url": "https://live.m6radio.quortex.io/webM89Hc99XApzgfhXNX8ASN5/grouprtl/national/short/audio-64000/index.m3u8",
+   "logo": "logos/rtl.png",
+   "homepage": "https://www.rtl.fr/",
+   "codec": "AAC",
+   "bitrate": 64,
+   "uuid": "042d3140-227c-4fac-9387-4903b692d5f2",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/RTL_logo.svg/langfr-330px-RTL_logo.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "label": "Radio Classique",
@@ -716,7 +740,117 @@
      "desc": "Le label B Corp est né aux Etats-Unis il y a vingt ans. Cette certification écologique et sociale a renforcé ses critères cette année. Dans cet épisode en deux parties de « La Story », le podcast d’actualité des « Echos », Clara Grouzis et ses invités décrypte…"
     }
    ]
+  },
+  {
+   "name": "La Chronique Bourse",
+   "author": "Anthony Bondain",
+   "cat": "Bourse",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c6/f5/f4/c6f5f417-9142-0eb8-a36d-8325a8ed5cbe/mza_2407474753071975381.jpg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/la-chronique-bourse/id1543928755?uo=4",
+   "feed": "https://feeds.audiomeans.fr/feed/0a5d40f2-7ce9-4d45-8d62-b559765460e8.xml",
+   "query": "Zonebourse",
+   "spotify": "",
+   "episodes": [
+    {
+     "title": "La vieille économie se rebelle",
+     "date": "2026-11-03T07:04:22+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/382644f4-6f4a-4789-a3cc-97d369ea14a9.mp3?_=1793689511",
+     "duration": "09:06",
+     "desc": "🎧 La Chronique Bourse – Podcast sur les marchés financiers, actualité économique et analyse boursière Bienvenue sur La Chronique Bourse, le podcast quotidien animé par Anthony Bondain, rédacteur en chef de Zonebourse. Chaque épisode vous propose un condensé de…"
+    },
+    {
+     "title": "Wall Street joue à se faire peur avant les midterms",
+     "date": "2026-11-02T07:01:05+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/bcc6a845-6219-461a-b39f-8085a9f45ca9.mp3?_=1793602915",
+     "duration": "08:00",
+     "desc": "🎧 La Chronique Bourse – Podcast sur les marchés financiers, actualité économique et analyse boursière Bienvenue sur La Chronique Bourse, le podcast quotidien animé par Anthony Bondain, rédacteur en chef de Zonebourse. Chaque épisode vous propose un condensé de…"
+    },
+    {
+     "title": "Alphabet, Amazon, Intel… c'est plus ce que c'était !",
+     "date": "2026-10-30T07:06:20+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/9fbbab42-843a-470e-99e3-f3dfdffbd954.mp3?_=1793344010",
+     "duration": "09:22",
+     "desc": "🎧 La Chronique Bourse – Podcast sur les marchés financiers, actualité économique et analyse boursière Bienvenue sur La Chronique Bourse, le podcast quotidien animé par Anthony Bondain, rédacteur en chef de Zonebourse. Chaque épisode vous propose un condensé de…"
+    },
+    {
+     "title": "Alphabet gâche un peu la fête de l'IA",
+     "date": "2026-10-29T07:10:41+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/cb33a028-b5b2-4908-bab9-34078cac06f6.mp3?_=1793257889",
+     "duration": "08:10",
+     "desc": "🎧 La Chronique Bourse – Podcast sur les marchés financiers, actualité économique et analyse boursière Bienvenue sur La Chronique Bourse, le podcast quotidien animé par Anthony Bondain, rédacteur en chef de Zonebourse. Chaque épisode vous propose un condensé de…"
+    },
+    {
+     "title": "L'IA reprend le contrôle de la narration boursière avant le retour de la Fed",
+     "date": "2026-10-28T07:07:44+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/5ad608e3-e1ef-42f0-837e-31a0395d5b55.mp3?_=1793171313",
+     "duration": "07:13",
+     "desc": "🎧 La Chronique Bourse – Podcast sur les marchés financiers, actualité économique et analyse boursière Bienvenue sur La Chronique Bourse, le podcast quotidien animé par Anthony Bondain, rédacteur en chef de Zonebourse. Chaque épisode vous propose un condensé de…"
+    },
+    {
+     "title": "Anthropic, et ça repart",
+     "date": "2026-10-27T07:04:52+00:00",
+     "audio": "https://audio.audiomeans.fr/file/PogdqQkjlg/ce707c9e-004b-42b0-84ef-a4b4840f12f4.mp3?_=1793084739",
+     "duration": "08:23",
+     "desc": "🎧 La Chronique Bourse – Podcast sur les marchés financiers, actualité économique et analyse boursière Bienvenue sur La Chronique Bourse, le podcast quotidien animé par Anthony Bondain, rédacteur en chef de Zonebourse. Chaque épisode vous propose un condensé de…"
+    }
+   ]
+  },
+  {
+   "name": "Matthieu Louvet - S'investir",
+   "author": "S'investir",
+   "cat": "Crypto",
+   "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b2/f5/bb/b2f5bb5d-7c37-a629-695c-c3b273189fab/mza_2541590241696014311.jpeg/600x600bb.jpg",
+   "apple": "https://podcasts.apple.com/fr/podcast/matthieu-louvet-sinvestir/id1621473889?uo=4",
+   "feed": "https://feed.ausha.co/KwqWvcdN8WZa",
+   "query": "Hasheur",
+   "spotify": "",
+   "episodes": [
+    {
+     "title": "Les MEILLEURS ETF PEA en 2026 (comparatif complet)",
+     "date": "2026-11-02T16:57:10+00:00",
+     "audio": "https://audio.ausha.co/BqPQmIv99gqG.mp3?t=1793612228",
+     "duration": "29:59",
+     "desc": "🎯 Réservez votre place au Challenge S’investir : 3 soirées 100 % gratuites dès le dimanche 8 novembre à 20h : https://challenge.sinvestir.fr/?utm_source=ausha&utm_campaign=video-2 📋 Téléchargez la liste des meilleurs ETF PEA (gratuit) : https://sinvestir.fr/se…"
+    },
+    {
+     "title": "3 JOURS pour apprendre à investir intelligemment (GRATUIT)",
+     "date": "2026-10-31T10:00:00+00:00",
+     "audio": "https://audio.ausha.co/BQ0zKcW8xaM0.mp3?t=1793164044",
+     "duration": "04:58",
+     "desc": "🎯 Réservez votre place au Challenge S’investir : 3 soirées 100 % gratuites dès le dimanche 8 novembre à 20h : https://challenge.sinvestir.fr/utm_source=ausha 🤝 Rejoindre la communauté privée S'investir (gratuit, en 1 clic) — Les infos clés sur l'investissement…"
+    },
+    {
+     "title": "Les 6 niveaux de richesse : où vous situez-vous vraiment ?",
+     "date": "2026-10-29T16:44:44+00:00",
+     "audio": "https://audio.ausha.co/bYwARFL7zrJV.mp3?t=1793281207",
+     "duration": "17:32",
+     "desc": "🎯 Réservez votre place au Challenge S’investir : 3 soirées 100 % gratuites dès le dimanche 8 novembre à 20h : https://challenge.sinvestir.fr/?utm_source= ausha 📈 Formation offerte — Apprenez à investir intelligemment, sécuriser votre avenir financier et constr…"
+    },
+    {
+     "title": "Comment investir en Bourse avec seulement 50 € par mois ?",
+     "date": "2026-10-26T18:00:00+00:00",
+     "audio": "https://audio.ausha.co/owPeWI42pg8e.mp3?t=1793009284",
+     "duration": "25:24",
+     "desc": "📈 Formation offerte — Apprenez à investir intelligemment, sécuriser votre avenir financier et construire des revenus complémentaires potentiels (sans prérequis) : https://sinvestir.fr/formation-offerte/?source=ausha 📊 Le comparateur des meilleurs PEA (100% gra…"
+    },
+    {
+     "title": "Gagner de l’argent avec une assurance-vie : le guide pour débutants",
+     "date": "2026-10-20T07:11:20+00:00",
+     "audio": "https://audio.ausha.co/zypPYnILxa8y.mp3?t=1792479411",
+     "duration": "11:56",
+     "desc": "📊 Le comparateur complet des assurances-vie (100% gratuits) : https://sinvestir.fr/tableau-comparatif-des-assurance-vie/?source=ausha 📈 Formation offerte — Apprenez à investir intelligemment, sécuriser votre avenir financier et construire des revenus complémen…"
+    },
+    {
+     "title": "Pourquoi vous investissez… mais ne gagnez rien ?",
+     "date": "2026-10-15T09:00:00+00:00",
+     "audio": "https://audio.ausha.co/bWaOMsV6m6jA.mp3?t=1789638225",
+     "duration": "14:54",
+     "desc": "📈 Formation offerte — Apprenez à investir intelligemment, sécuriser votre avenir financier et construire des revenus complémentaires potentiels (sans prérequis) : https://sinvestir.fr/formation-offerte/?source=ausha 📚 LBD — Le programme de formation complet en…"
+    }
+   ]
   }
  ],
- "errors": []
+ "errors": [
+  "podcast introuvable : Heu?reka"
+ ]
 }
