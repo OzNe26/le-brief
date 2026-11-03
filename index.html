@@ -211,28 +211,15 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 #asub{text-align:center}
 .av.guest{background:var(--panel2)!important;font-size:14px}
 .av.letter{display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#111}
-.side{display:none}
 .tape{margin:-8px 0 22px;border:1px solid var(--line);border-radius:12px;overflow:hidden;min-height:46px;background:var(--panel)}
-.shead{display:flex;align-items:center;justify-content:space-between;margin:0 4px 10px;flex:none}
-.shead h3{font-family:Fraunces,serif;font-size:19px}
-.shead span{font-size:11.5px;color:var(--dim);font-family:"JetBrains Mono",monospace}
-.sbox{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:2px 4px;margin-bottom:8px;overflow:hidden;flex:none}
-.snote{font-size:11px;color:var(--dim);text-align:center;margin:auto 0 0;flex:none}
-.snote a{color:var(--dim)}
-@media (min-width:1280px){
-  .layout{display:grid;grid-template-columns:290px minmax(0,1fr) 290px;gap:26px;max-width:1800px;margin:0 auto;padding:0 22px}
-  .layout .wrap{max-width:none;padding-left:0;padding-right:0}
-  .side{display:flex;flex-direction:column;position:sticky;top:0;align-self:start;height:100vh;overflow:hidden;padding:24px 0 12px}
-  .tape{display:none}
-}
-@media (min-width:1280px) and (max-width:1599px){ .layout{grid-template-columns:250px minmax(0,1fr) 250px;gap:20px} nav{gap:5px} nav button{padding:8px 10px;gap:6px} }
-.layout>*{min-width:0}
-.layout>.wrap{margin:0;width:auto}
-@media (min-width:1280px) and (max-width:1599px){ nav{gap:4px!important} nav button{padding:7px 9px!important;font-size:13px!important;gap:5px!important} nav button .sw{width:6px!important;height:6px!important} }
-@media (min-width:1280px) and (max-width:1439px){ nav button .sw{display:none} }
+@media (min-width:1280px){ .tape{display:none} }
+/* Grands écrans : la colonne s'élargit (1920×1080 et plus) */
+@media (min-width:1440px){ .wrap{max-width:1320px;padding-left:32px;padding-right:32px} }
+@media (min-width:1800px){ .wrap{max-width:1480px} }
+@media (min-width:1440px){ .wrap .list{grid-template-columns:repeat(2,minmax(0,1fr))} .list>.tgroup,.list>.empty{grid-column:1/-1} }
+@media (min-width:1440px){ .wrap .agrid{grid-template-columns:repeat(auto-fill,minmax(255px,1fr))} }
+@media (min-width:1024px){ .wrap .wxtemps{grid-template-columns:repeat(5,minmax(0,1fr))} }
 @media (min-width:641px){ nav{gap:5px} nav button{padding:8px 11px;font-size:13.5px;gap:6px} }
-@media (min-width:1280px) and (max-width:1439px){ .layout{grid-template-columns:230px minmax(0,1fr) 230px;gap:18px} nav button{padding:8px 9px;font-size:13px;gap:5px} nav button .sw{width:7px;height:7px} }
-@media (min-width:1600px){ .layout{grid-template-columns:320px minmax(0,1fr) 320px} }
 
 .agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-bottom:28px}
 .radio{display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;transition:.15s;text-align:left;color:inherit;font:inherit}
@@ -457,7 +444,6 @@ body.playing .wrap{padding-bottom:110px}
 </head>
 <body>
 <div class="layout">
-<aside class="side" id="sideL" aria-label="Cours crypto"></aside>
 <div class="wrap">
   <header>
     <div class="brand">
@@ -507,7 +493,6 @@ body.playing .wrap{padding-bottom:110px}
 
   <footer>Résumés rédigés à partir de sources publiques. Ce n'est pas un conseil en investissement : vérifie toujours la source avant d'agir. · <a href="confidentialite.html" style="color:inherit">Confidentialité</a><br>© 2026 Le Brief Invest · Tous droits réservés. Le code et le design de ce site ne peuvent pas être copiés ni réutilisés sans autorisation.</footer>
 </div>
-<aside class="side" id="sideR" aria-label="Cours actions"></aside>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -1709,23 +1694,11 @@ function tvWidget(el,name,cfg){
   const sc=document.createElement("script"); sc.src="https://s3.tradingview.com/external-embedding/embed-widget-"+name+".js"; sc.async=true; sc.text=JSON.stringify(cfg);
   c.appendChild(sc); el.appendChild(c);
 }
-let sideH=0;
-function buildSide(id,title,list){
-  const el=document.getElementById(id); if(!el||el.dataset.built) return; el.dataset.built="1";
-  const h=Math.max(96,Math.min(170,Math.floor((window.innerHeight-24-12-40-22)/list.length)-12));
-  el.innerHTML=`<div class="shead"><h3>${title}</h3><span>en direct · USD</span></div>`;
-  for(const [sym] of list){ const b=document.createElement("div"); b.className="sbox"; el.appendChild(b);
-    b.style.height=(h+4)+"px";
-    tvWidget(b,"mini-symbol-overview",{symbol:sym,width:"100%",height:h,locale:"fr",dateRange:"1M",colorTheme:"dark",isTransparent:true,autosize:false,noTimeScale:true,largeChartUrl:""}); }
-  const n=document.createElement("p"); n.className="snote"; n.innerHTML='Graphiques <a href="https://fr.tradingview.com/" target="_blank" rel="noopener">TradingView</a>'; el.appendChild(n);
-}
 function buildTape(){
   const el=document.getElementById("tape"); if(!el||el.dataset.built) return; el.dataset.built="1";
   tvWidget(el,"ticker-tape",{symbols:[...CRYPTO_CHARTS,...STOCK_CHARTS].map(([s,t])=>({proName:s,title:t})),showSymbolLogo:true,isTransparent:true,displayMode:"adaptive",colorTheme:"dark",locale:"fr"});
 }
-function buildCharts(){ if(window.matchMedia("(min-width:1280px)").matches){
-    if(sideH&&Math.abs(window.innerHeight-sideH)>60){ for(const id of ["sideL","sideR"]){const e=document.getElementById(id); if(e){e.innerHTML="";delete e.dataset.built;}} }
-    sideH=window.innerHeight; buildSide("sideL","₿ Crypto",CRYPTO_CHARTS); buildSide("sideR","📈 Actions",STOCK_CHARTS); } else buildTape(); }
+function buildCharts(){ if(!window.matchMedia("(min-width:1280px)").matches) buildTape(); }
 buildCharts();
 let rsz; window.addEventListener("resize",()=>{clearTimeout(rsz);rsz=setTimeout(buildCharts,300)});
 
