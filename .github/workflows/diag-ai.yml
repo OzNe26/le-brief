@@ -1,4 +1,4 @@
-name: Diagnostic HoldLens
+name: Diagnostic Dataroma
 on: workflow_dispatch
 permissions:
   contents: read
@@ -7,9 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          UA="LeBriefInvest/1.0 (+https://ozne26.github.io/le-brief/)"
-          curl -sSL -m 30 -A "$UA" https://holdlens.com/api/v1/managers.json -o m.json -w "managers %{http_code}\n"; python3 -c "
-          import json;d=json.load(open('m.json'));print(d.get('quarter'),len(d['data']));print([(x['slug'],x['name'],x.get('fund')) for x in d['data']])" 2>&1 | head -4
-          curl -sSL -m 30 -A "$UA" https://holdlens.com/api/v1/managers/warren-buffett.json -o b.json -w "buffett %{http_code}\n"; python3 -c "
-          import json;d=json.load(open('b.json'));x=d.get('data',d);print(list(x.keys()));print(json.dumps(x,ensure_ascii=False)[:1800])" 2>&1 | head -6
-          curl -sSL -m 30 -A "$UA" -o /dev/null -w "dataroma %{http_code}\n" "https://www.dataroma.com/m/holdings.php?m=BRK"
+          UA="Mozilla/5.0 (compatible; LeBriefInvest/1.0; +https://ozne26.github.io/le-brief/)"
+          echo "== robots"; curl -sSL -m 20 -A "$UA" https://www.dataroma.com/robots.txt | head -20
+          curl -sSL -m 30 -A "$UA" "https://www.dataroma.com/m/holdings.php?m=BRK" -o h.html; wc -c h.html
+          python3 - <<'P'
+          import re,html
+          s=open('h.html',encoding='utf-8',errors='ignore').read()
+          i=s.find('id="grid"'); print(re.sub(r'\s+',' ',s[s.find('Portfolio date'):s.find('Portfolio date')+200]))
+          t=s[i:i+4000]; print(re.sub(r'\s+',' ',t)[:2500])
+          P
+          curl -sSL -m 30 -A "$UA" "https://www.dataroma.com/m/managers.php" -o mg.html; python3 -c "
+          import re;s=open('mg.html',errors='ignore').read();print(re.findall(r'holdings.php\?m=([A-Za-z0-9]+)\">([^<]+)<',s)[:80])"
