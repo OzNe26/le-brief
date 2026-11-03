@@ -57,6 +57,27 @@
    "domain": "rmc.bfmtv.com"
   },
   {
+   "label": "Europe 1",
+   "q": "Europe 1",
+   "cc": "FR",
+   "cat": "Info",
+   "wiki": [
+    "fr:Europe 1"
+   ],
+   "domain": "europe1.fr"
+  },
+  {
+   "label": "RTL",
+   "q": "RTL",
+   "cc": "FR",
+   "cat": "Info",
+   "wiki": [
+    "fr:RTL (radio)",
+    "fr:RTL"
+   ],
+   "domain": "rtl.fr"
+  },
+  {
    "label": "Radio Classique",
    "q": "Radio Classique",
    "cc": "FR",
@@ -168,6 +189,18 @@
   {
    "q": "Les Echos podcast économie",
    "cat": "Éco & marchés"
+  },
+  {
+   "q": "Heu?reka",
+   "cat": "Bourse"
+  },
+  {
+   "q": "Zonebourse",
+   "cat": "Bourse"
+  },
+  {
+   "q": "Hasheur",
+   "cat": "Crypto"
   }
  ]
 }
