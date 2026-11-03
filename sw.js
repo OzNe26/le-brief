@@ -1,7 +1,7 @@
 /* Le Brief Invest : service worker (appli installable + ouverture rapide).
    Pages et données : réseau d'abord (toujours à jour), copie de secours si pas de connexion.
    Images et logos : copie locale, rafraîchie en arrière-plan. Rien n'est touché hors du site (audio, comptes, graphiques). */
-const VERSION = "lb-v7";
+const VERSION = "lb-v8";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "img/logo.svg", "img/icon-192.png", "img/icon-512.png", "favicon.svg", "apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
