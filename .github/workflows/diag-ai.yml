@@ -1,4 +1,4 @@
-name: Diagnostic élus et investisseurs
+name: Diagnostic SEC
 on: workflow_dispatch
 permissions:
   contents: read
@@ -7,12 +7,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          UA="LeBriefInvest/1.0 (+https://ozne26.github.io/le-brief/)"
-          echo "== bargo trades"; curl -sS -m 30 -A "$UA" "https://www.bargo.ai/free-apis/congress/v1/trades?limit=3" | head -c 1500; echo
-          echo "== bargo pelosi"; curl -sS -m 30 -A "$UA" "https://www.bargo.ai/free-apis/congress/v1/trades?member=pelosi&limit=2" | head -c 800; echo
-          echo "== bargo members"; curl -sS -m 30 -A "$UA" "https://www.bargo.ai/free-apis/congress/v1/members?limit=3" | head -c 800; echo
-          echo "== sec berkshire"; curl -sS -m 30 -A "$UA" -o sub.json -w "%{http_code}\n" https://data.sec.gov/submissions/CIK0001067983.json; python3 -c "
-          import json;d=json.load(open('sub.json'));r=d['filings']['recent'];print([ (f,a,dt) for f,a,dt in zip(r['form'],r['accessionNumber'],r['filingDate']) if f.startswith('13F')][:3])" 2>&1 | head -3
-          echo "== sec scion"; curl -sS -m 30 -A "$UA" https://data.sec.gov/submissions/CIK0001649339.json | python3 -c "
-          import json,sys;d=json.load(sys.stdin);r=d['filings']['recent'];print(d.get('name'),[ (f,dt) for f,dt in zip(r['form'],r['filingDate']) if f.startswith('13F')][:2])" 2>&1 | head -2
-          echo "== index"; A=$(python3 -c "import json;d=json.load(open('sub.json'));r=d['filings']['recent'];print([a for f,a in zip(r['form'],r['accessionNumber']) if f=='13F-HR'][0])"); P=${A//-/}; curl -sS -m 30 -A "$UA" "https://www.sec.gov/Archives/edgar/data/1067983/$P/index.json" | head -c 900
+          UA="LeBriefInvest site-perso OzNe26@users.noreply.github.com"
+          curl -sS -m 30 -A "$UA" -o sub.json -w "sub %{http_code}\n" https://data.sec.gov/submissions/CIK0001067983.json
+          python3 - <<'P'
+          import json,urllib.request,re
+          UA={"User-Agent":"LeBriefInvest site-perso OzNe26@users.noreply.github.com"}
+          g=lambda u: urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=30).read()
+          for cik in ["0001067983","0001649339","0001697748","0001336528","0001536411","0001656456","0001350694"]:
+              try:
+                  d=json.loads(g(f"https://data.sec.gov/submissions/CIK{cik}.json"));r=d["filings"]["recent"]
+                  f=[(a,dt,rp) for fo,a,dt,rp in zip(r["form"],r["accessionNumber"],r["filingDate"],r["reportDate"]) if fo=="13F-HR"]
+                  print(cik,d["name"],f[:2])
+              except Exception as e: print(cik,"ERR",e)
+          a=json.loads(g("https://data.sec.gov/submissions/CIK0001067983.json"))["filings"]["recent"]
+          acc=[x for fo,x in zip(a["form"],a["accessionNumber"]) if fo=="13F-HR"][0].replace("-","")
+          idx=json.loads(g(f"https://www.sec.gov/Archives/edgar/data/1067983/{acc}/index.json"))
+          names=[i["name"] for i in idx["directory"]["item"]];print(names)
+          x=[n for n in names if n.endswith(".xml") and "primary" not in n.lower()][0]
+          t=g(f"https://www.sec.gov/Archives/edgar/data/1067983/{acc}/{x}").decode()[:1500];print(t)
+          P
