@@ -206,10 +206,10 @@ footer{margin-top:40px;color:var(--dim);font-size:12px;text-align:center}
 .cmt img{width:24px;height:24px;border-radius:50%;flex:none}
 .cmt .cb{background:var(--panel2);border-radius:10px;padding:6px 10px;flex:1}
 .cmt .cb b{font-size:13px;margin-right:6px}
-.cmt .cb span{white-space:pre-wrap}
+.cmt .cb span{white-space:pre-wrap;word-wrap:break-word}
 .cmt .cx{all:unset;cursor:pointer;color:var(--dim);font-size:12px;margin-left:6px}
 .cform{display:flex;gap:6px}
-.cform input{flex:1;min-width:0}
+.cform{align-items:flex-end}.cform textarea{flex:1;min-width:0;resize:none;font:inherit;line-height:1.45;min-height:40px;max-height:220px;overflow-y:auto}
 .mbox.auth{max-width:420px}
 .gbtn{all:unset;box-sizing:border-box;width:100%;display:flex;align-items:center;justify-content:center;gap:10px;cursor:pointer;background:#fff;color:#1f1f1f;font-weight:600;font-size:14.5px;padding:11px;border-radius:10px;margin-bottom:6px}
 .gbtn:hover{background:#f1f1f1}
@@ -1209,7 +1209,7 @@ function renderCommu(main){
         <div class="pact"><button class="lk ${liked?"liked":""}">${liked?"❤️":"🤍"} ${likes.length}</button>
           <button class="cm">💬 ${cms.length}</button>${p.user_id===me?`<button class="del" title="Supprimer">🗑</button>`:""}</div>
         ${open?`<div class="comments">${cms.map(c=>`<div class="cmt">${avatarOf(c.user_id,24)}<div class="cb"><b>${esc(pseudoOf(c.user_id))}</b><span>${esc(c.text)}</span>${c.user_id===me?`<button class="cx" data-cid="${esc(c.id)}" title="Supprimer">×</button>`:""}</div></div>`).join("")||'<div style="color:var(--dim);font-size:13.5px">Pas encore de commentaire.</div>'}
-          ${state.user?`<form class="cform"><input class="search" maxlength="800" placeholder="Écrire un commentaire…"><button class="btn" type="submit">Envoyer</button></form>`:`<button class="linkbtn cjoin" style="text-align:left">Connecte-toi pour commenter</button>`}</div>`:""}
+          ${state.user?`<form class="cform"><textarea class="search" rows="1" maxlength="800" placeholder="Écrire un commentaire…"></textarea><button class="btn" type="submit">Envoyer</button></form>`:`<button class="linkbtn cjoin" style="text-align:left">Connecte-toi pour commenter</button>`}</div>`:""}
       </article>`}).join(""):'<div class="empty">Personne n\'a encore rien publié. Lance la discussion !</div>'}</div>`;
   const cme=document.getElementById("cme"); if(cme) cme.textContent=state.pseudo;
   const t=document.getElementById("ctext");
@@ -1229,7 +1229,10 @@ function renderCommu(main){
     const d=el.querySelector(".del"); if(d) d.addEventListener("click",()=>{ if(d.dataset.sure){delPost(pid)} else {d.dataset.sure="1";d.textContent="Confirmer ?";} });
     el.querySelectorAll(".cx").forEach(x=>x.addEventListener("click",()=>delComment(x.dataset.cid)));
     const j=el.querySelector(".cjoin"); if(j) j.addEventListener("click",()=>openAuth("login"));
-    const f=el.querySelector(".cform"); if(f) f.addEventListener("submit",e=>{e.preventDefault();const i=f.querySelector("input");addComment(pid,i.value);i.value="";});
+    const f=el.querySelector(".cform"); if(f){ const i=f.querySelector("textarea"), fit=()=>{i.style.height="auto";i.style.height=Math.min(i.scrollHeight+2,220)+"px"};
+      i.addEventListener("input",fit);
+      i.addEventListener("keydown",e=>{ if(e.key==="Enter"&&(e.metaKey||e.ctrlKey)){ e.preventDefault(); f.requestSubmit(); } }); // Entrée = retour à la ligne, Cmd/Ctrl+Entrée = envoyer
+      f.addEventListener("submit",e=>{e.preventDefault(); const v=i.value.replace(/\n{3,}/g,"\n\n").trim(); if(!v) return; addComment(pid,v);i.value="";fit();}); }
   });
 }
 
