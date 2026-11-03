@@ -14,7 +14,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0d0f12" id="themecolor">
-<script>(function(){try{var t=localStorage.getItem("lb-theme");if(!t)t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.dataset.theme=t;if(t==="light")document.getElementById("themecolor").content="#f4f5f7";}catch(e){}})();</script>
+<script>(function(){try{var t=localStorage.getItem("lb-theme");if(!t)t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.dataset.theme=t;if(t==="light")document.getElementById("themecolor").content="#ffffff";}catch(e){}})();</script>
 <meta name="description" content="Actu générale, crypto, actions et immo au même endroit, avec les signaux faibles pour investir.">
 <meta property="og:title" content="Le Brief Invest">
 <meta property="og:description" content="Actu · Crypto · Actions · Immo — toute l'info utile pour investir, au même endroit.">
@@ -33,7 +33,7 @@
   --accent:var(--crypto); --onacc:#0d0f12; --hov:#3a414c; --soft:#d5dae1;
 }
 html[data-theme="light"]{
-  --bg:#f4f5f7; --panel:#ffffff; --panel2:#eef0f3; --line:#dde1e7;
+  --bg:#ffffff; --panel:#ffffff; --panel2:#f3f4f6; --line:#e3e6ea;
   --ink:#151a21; --muted:#535c68; --dim:#7a838f;
   --up:#0e9a5e; --down:#d63a3a; --flat:#7a838f;
   --general:#e8663a; --espace:#12a46c; --audio:#0b8fd6; --analyse:#5c9a0b; --commu:#e0367f; --crypto:#d18f00; --actions:#2f6fe0; --immo:#9455e0; --cal:#c026d3;
@@ -517,7 +517,7 @@ body.playing .wrap{padding-bottom:110px}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* ================= Config ================= */
-function setTheme(t,save){ document.documentElement.dataset.theme=t; const m=document.getElementById("themecolor"); if(m) m.content=t==="light"?"#f4f5f7":"#0d0f12";
+function setTheme(t,save){ document.documentElement.dataset.theme=t; const m=document.getElementById("themecolor"); if(m) m.content=t==="light"?"#ffffff":"#0d0f12";
   const b=document.getElementById("thbtn"); if(b){ b.textContent=t==="light"?"🌙":"☀️"; b.title=t==="light"?"Passer en mode sombre":"Passer en mode clair"; }
   if(save) try{localStorage.setItem("lb-theme",t)}catch(e){} }
 setTheme(document.documentElement.dataset.theme||"dark");
