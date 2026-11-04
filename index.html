@@ -1724,7 +1724,7 @@ function tvWidget(el,name,cfg){
 }
 function buildTape(){
   const el=document.getElementById("tape"); if(!el||el.dataset.built) return; el.dataset.built="1";
-  tvWidget(el,"ticker-tape",{symbols:[...CRYPTO_CHARTS,...STOCK_CHARTS].map(([s,t])=>({proName:s,title:t})),showSymbolLogo:true,isTransparent:true,displayMode:"adaptive",colorTheme:document.documentElement.dataset.theme==="light"?"light":"dark",locale:"fr"});
+  tvWidget(el,"ticker-tape",{symbols:[...CRYPTO_CHARTS,...STOCK_CHARTS].map(([s,t])=>({proName:s,title:t})),showSymbolLogo:true,isTransparent:true,displayMode:"regular",colorTheme:document.documentElement.dataset.theme==="light"?"light":"dark",locale:"fr"});
 }
 function buildCharts(){ buildTape(); }
 buildCharts();
