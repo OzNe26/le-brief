@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T19:11:59+00:00",
+ "updatedAt": "2026-11-04T21:58:04+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -24,6 +24,18 @@
    "bitrate": 0,
    "uuid": "",
    "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/langfr-330px-France_Inter_logo_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "label": "BFM Business",
+   "cat": "Éco & marchés",
+   "name": "BFM Business",
+   "url": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
+   "logo": "logos/bfm-business.jpg",
+   "homepage": "https://bfmbusiness.bfmtv.com/mediaplayer/live-audio/",
+   "codec": "MP3",
+   "bitrate": 256,
+   "uuid": "3a83c34b-ca9d-48c8-916e-9563216ddcdf",
+   "logoSource": "https://www.google.com/s2/favicons?domain=bfmtv.com&sz=128"
   },
   {
    "label": "RMC",
@@ -892,7 +904,5 @@
    ]
   }
  ],
- "errors": [
-  "radio BFM Business : <urlopen error [Errno -2] Name or service not known>"
- ]
+ "errors": []
 }
