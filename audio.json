@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T16:04:47+00:00",
+ "updatedAt": "2026-11-04T19:11:59+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -24,18 +24,6 @@
    "bitrate": 0,
    "uuid": "",
    "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/France_Inter_logo_2021.svg/langfr-330px-France_Inter_logo_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
-   "label": "BFM Business",
-   "cat": "Éco & marchés",
-   "name": "BFM Business",
-   "url": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
-   "logo": "logos/bfm-business.jpg",
-   "homepage": "https://bfmbusiness.bfmtv.com/mediaplayer/live-audio/",
-   "codec": "MP3",
-   "bitrate": 256,
-   "uuid": "3a83c34b-ca9d-48c8-916e-9563216ddcdf",
-   "logoSource": "https://www.google.com/s2/favicons?domain=bfmtv.com&sz=128"
   },
   {
    "label": "RMC",
@@ -158,6 +146,13 @@
    "spotify": "https://open.spotify.com/show/033mghG4DXr2l8o2wOgeZ2",
    "episodes": [
     {
+     "title": "Que se passe-t-il si on arrête de payer nos impôts ?",
+     "date": "2026-11-04T18:10:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6aeb74284815938a8db98819/media.mp3",
+     "duration": "43:42",
+     "desc": "Que se passe-t-il si les Français arrêtent de payer leurs impôts ? Conséquences individuelles, effondrements collectifs, et ce que l'histoire de France et la crise grecque de 2010, nous apprennent vraiment sur le consentement à l'impôt. Dans cette vidéo de la …"
+    },
+    {
      "title": "Le point hebdo sur l'éco et les marchés - 02/11/26",
      "date": "2026-11-02T17:00:00+00:00",
      "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ae8b61648d00702d7c43b21/media.mp3",
@@ -191,13 +186,6 @@
      "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ade602cd10dc4428d2516e2/media.mp3",
      "duration": "1:21:26",
      "desc": "Pendant ce live, j'étais avec Alexis Mussard, cofondateur d'OùSoigner ! ⁠⁠Trois Français sur quatre vivent en zone officiellement « sous-dotée ». Ça veut dire quoi ? C'est ce que nous avons vu dans ce live. Avec OùSoigner, Alexis et son équipe aident les soign…"
-    },
-    {
-     "title": "Le Récap de la semaine - 23/10/2026",
-     "date": "2026-10-23T16:00:00+00:00",
-     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6adb7b61c9b2f5b95dafc233/media.mp3",
-     "duration": "2:42",
-     "desc": "Réveillez-vous, les députés : vous êtes en train de nous envoyer dans le mur ! Un coup de gueule ce vendredi, à la place du récap ! N’hésitez pas à envoyer cette vidéo à votre député, des fois qu’il ou elle ne soit pas au courant ! 🔴 Rendez-vous en live chaque…"
     }
    ]
   },
@@ -860,49 +848,51 @@
    "spotify": "",
    "episodes": [
     {
+     "title": "L'intégrale de BFM Bourse du mercredi 4 novembre",
+     "date": "2026-11-04T17:24:41+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/bf3b9756-9592-4488-afee-1680103220c6/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=bf3b9756-9592-4488-afee-1680103220c6&category=Business%2CNews&episode_published_at=2026-11-04T17%3A24%3A41&episode_title=L%27int%C3%A9grale+de+BFM+Bourse+du+mercredi+4+novembre&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "01:49:05",
+     "desc": "Ce mercredi 4 novembre, Antoine Larigaudrie, journaliste BFM Business,Thibault François, co-fondateur et associé de Fastea Capital, Léa Dauphas, cheffe économiste chez TAC ECONOMICS, Julie Jourdan, gérante actions américaines chez Amplegest, Julien Marion, jou…"
+    },
+    {
+     "title": "On refait la séance : « Malgré le discours rassurant de Nvidia, que penser du récent repli sur l'IA et de la rotation vers Apple pour la 1?? capitalisation ? Faut-il renforcer ou se méfier ? » – 04/11",
+     "date": "2026-11-04T17:06:10+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/97eaf3e4-8589-478c-a893-45d27537d244/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=97eaf3e4-8589-478c-a893-45d27537d244&category=Business%2CNews&episode_published_at=2026-11-04T17%3A06%3A10&episode_title=On+refait+la+s%C3%A9ance+%3A+%C2%AB+Malgr%C3%A9+le+discours+rassurant+de+Nvidia%2C+que+penser+du+r%C3%A9cent+repli+sur+l%27IA+et+de+la+rotation+vers+Apple+pour+la+1%3F%3F+capitalisation+%3F+Faut-il+renforcer+ou+se+m%C3%A9fier+%3F+%C2%BB+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:13:17",
+     "desc": "Ce mercredi 4 novembre, Thibault François, co-fondateur et associé de Fastea Capital, Tommy Douziech, analyste financier chez Zonebourse, Antoine Larigaudrie, journaliste BFM Business, et Alexandre, auditeur de BFM Bourse, ont débriefé la séance du jour, dans …"
+    },
+    {
      "title": "Les seuils techniques incontournables sur les marchés et les valeurs – 04/11",
-     "date": "2026-11-04T15:52:40+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/77359b5a-4ab2-4192-8f10-eb0eb9f417d3/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=77359b5a-4ab2-4192-8f10-eb0eb9f417d3&category=Business%2CNews&episode_published_at=2026-11-04T15%3A52%3A40&episode_title=Les+seuils+techniques+incontournables+sur+les+march%C3%A9s+et+les+valeurs+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:01:32",
+     "date": "2026-11-04T16:52:09+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/525e0794-0149-49c5-8c3e-7a0e6a42a355/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=525e0794-0149-49c5-8c3e-7a0e6a42a355&category=Business%2CNews&episode_published_at=2026-11-04T16%3A52%3A09&episode_title=Les+seuils+techniques+incontournables+sur+les+march%C3%A9s+et+les+valeurs+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:00:57",
      "desc": "Ce mercredi 4 novembre, retrouvez Alerte Trader en replay sur BFM Business."
     },
     {
-     "title": "Midterms : l'indépendance de la Fed sortira-t-elle renforcée ? – 04/11",
-     "date": "2026-11-04T15:51:39+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/5f5acd35-21fb-480c-a9ee-983431dd57d1/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=5f5acd35-21fb-480c-a9ee-983431dd57d1&category=Business%2CNews&episode_published_at=2026-11-04T15%3A51%3A39&episode_title=Midterms+%3A+l%27ind%C3%A9pendance+de+la+Fed+sortira-t-elle+renforc%C3%A9e+%3F+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:16:46",
-     "desc": "Ce mercredi 4 novembre, Léa Dauphas, cheffe économiste chez TAC ECONOMICS, et Julie Jourdan, gérante actions américaines chez Amplegest, se sont penchées sur le raz-de-marée démocrate au Congrès lors des midterms, le dilemme des démocrates autour de l’IA, les …"
+     "title": "La Data Room : 11,6 mds $ = le montant des dépenses publicitaires électorales aux Etats-Unis pour ces élections Midterms 2026 – 04/11",
+     "date": "2026-11-04T16:45:09+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/f637f371-aff2-4bbe-aafb-e032c36ed7a0/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=f637f371-aff2-4bbe-aafb-e032c36ed7a0&category=Business%2CNews&episode_published_at=2026-11-04T16%3A45%3A09&episode_title=La+Data+Room+%3A+11%2C6+mds+%24+%3D+le+montant+des+d%C3%A9penses+publicitaires+%C3%A9lectorales+aux+Etats-Unis+pour+ces+%C3%A9lections+Midterms+2026+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:03:06",
+     "desc": "Ce mercredi 4 novembre, retrouvez la data room en replay sur BFM Business."
     },
     {
-     "title": "Novo Nordisk s'envole après le relèvement de ses prévisions – 04/11",
-     "date": "2026-11-04T15:31:39+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/ec914c2a-0d7d-4385-a493-36377b53e152/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=ec914c2a-0d7d-4385-a493-36377b53e152&category=Business%2CNews&episode_published_at=2026-11-04T15%3A31%3A39&episode_title=Novo+Nordisk+s%27envole+apr%C3%A8s+le+rel%C3%A8vement+de+ses+pr%C3%A9visions+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:08:57",
-     "desc": "Ce mercredi 4 novembre, Thibault François, co-fondateur et associé de Fastea Capital, s'est penché sur les changements à anticiper sur les marchés après les midterms, la surperformance du groupe audiovisuel M6 grâce à la Coupe du monde 2026, ainsi que Novo Nor…"
+     "title": "Le Club : Une nouvelle phase de marché s'ouvre-t-elle ? – 04/11",
+     "date": "2026-11-04T16:44:21+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/c5a039c8-6a11-432c-90c0-b8f1831adcb7/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=c5a039c8-6a11-432c-90c0-b8f1831adcb7&category=Business%2CNews&episode_published_at=2026-11-04T16%3A44%3A21&episode_title=Le+Club+%3A+Une+nouvelle+phase+de+march%C3%A9+s%27ouvre-t-elle+%3F+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:28:21",
+     "desc": "Ce mercredi 4 novembre, Xavier Patrolin, président d’Albatros Capital, et Olivier Malteste, directeur des Investissements de Altheis by Yomoni. , étaient les invités de l'émission BFM Bourse présentée par Guillaume Sommerer. BFM Bourse est à voir ou écouter du…"
     },
     {
-     "title": "Le point sur le portefeuille trading – 03/11",
-     "date": "2026-11-03T17:21:43+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/000902ad-9013-44b0-8973-9026705ee97b/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=000902ad-9013-44b0-8973-9026705ee97b&category=Business%2CNews&episode_published_at=2026-11-03T17%3A21%3A43&episode_title=Le+point+sur+le+portefeuille+trading+%E2%80%93+03%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:02:22",
-     "desc": "Ce mardi 3 novembre, Alexandre Tixier, analyste pour le site BFM Bourse, a donné son point de vue sur le CAC 40, ainsi que sur les valeurs ennyeuses et celles à suivre cette semaine, dans Le Portefeuille trading dans l'émission BFM Bourse présentée par Guillau…"
-    },
-    {
-     "title": "L'intégrale de BFM Bourse du mardi 3 novembre",
-     "date": "2026-11-03T17:09:21+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/fcbe325a-9c50-4991-bd7f-33d8ce1ad997/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=fcbe325a-9c50-4991-bd7f-33d8ce1ad997&category=Business%2CNews&episode_published_at=2026-11-03T17%3A09%3A21&episode_title=L%27int%C3%A9grale+de+BFM+Bourse+du+mardi+3+novembre&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "01:44:54",
-     "desc": "Ce mardi 3 novembre, Antoine Larigaudrie, journaliste BFM Business, Philippe Ferreira, responsable adjoint de la Stratégie de Kepler Cheuvreux, Grégoire Uettwiller, gérant du fonds Moneta Long Short chez Moneta, Patrice Gautry, chef économiste chez Union Banca…"
-    },
-    {
-     "title": "On refait la séance : Stif s'envole, SpaceX dope son carnet de commandes – 03/11",
-     "date": "2026-11-03T16:58:52+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/fd362e44-8a73-478d-b9e4-dbff828a78f5/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=fd362e44-8a73-478d-b9e4-dbff828a78f5&category=Business%2CNews&episode_published_at=2026-11-03T16%3A58%3A52&episode_title=On+refait+la+s%C3%A9ance+%3A+Stif+s%27envole%2C+SpaceX+dope+son+carnet+de+commandes+%E2%80%93+03%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:07:34",
-     "desc": "Ce mardi 3 novembre, Philippe Ferreira, responsable adjoint de la stratégie de Kepler Cheuvreux, a débriefé la séance du jour, dans l'émission BFM Bourse présentée par Guillaume Sommerer. BFM Bourse est à voir ou écouter du lundi au vendredi sur BFM Business."
+     "title": "Mythomètre : \"L'inflation est la première raison de la défaite républicaine aux midterms\", FAUX répond Charles Monot – 04/11",
+     "date": "2026-11-04T16:17:40+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/59f22f6a-15e4-4576-ad54-5cf6cdde4acf/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=59f22f6a-15e4-4576-ad54-5cf6cdde4acf&category=Business%2CNews&episode_published_at=2026-11-04T16%3A17%3A40&episode_title=Mythom%C3%A8tre+%3A+%22L%27inflation+est+la+premi%C3%A8re+raison+de+la+d%C3%A9faite+r%C3%A9publicaine+aux+midterms%22%2C+FAUX+r%C3%A9pond+Charles+Monot+%E2%80%93+04%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:07:02",
+     "desc": "Mythomètre : \"L'inflation est la première raison de la défaite républicaine aux midterms\""
     }
    ]
   }
  ],
- "errors": []
+ "errors": [
+  "radio BFM Business : <urlopen error [Errno -2] Name or service not known>"
+ ]
 }
