@@ -1,59 +1,59 @@
 {
  "general": {
-  "updatedAt": "2026-11-04T11:35:54+00:00",
-  "resume": "L'actualité des dernières heures est marquée par la déroute du camp de Donald Trump lors des élections de mi-mandat aux États-Unis et par une cyberattaque majeure ayant touché le Crédit Mutuel Arkéa. En parallèle, plusieurs annonces fortes ont eu lieu, comme le succès commercial de la première Ferrari électrique, la décision de justice interdisant à Meta d'utiliser des contenus de presse brésiliens pour son IA, et l'arrivée tardive du film d'animation de Ghibli « Si tu tends l’oreille » dans les salles françaises.",
+  "updatedAt": "2026-11-04T15:57:49+00:00",
+  "resume": "Les élections de mi-mandat aux États-Unis marquent une victoire historique des démocrates qui s'emparent du Congrès, tandis qu'en France, une journée de grève interprofessionnelle et de manifestations est prévue ce jeudi. Par ailleurs, les marchés financiers réagissent à l'actualité politique américaine et les autorités annoncent diverses mesures en matière de pouvoir d'achat et de sécurité.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Midterms : le raz-de-marée démocrate a conquis des bastions républicains",
-    "resume": "Les élections de mi-mandat aux États-Unis se sont soldées par une défaite historique pour le camp de Donald Trump, les démocrates parvenant à reprendre le contrôle du Congrès.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-raz-de-mar%C3%A9e-d%C3%A9mocrate-a-conquis-des-bastions-r%C3%A9publicains",
+    "titre": "Majorité au Congrès, conquête de bastions républicains historiques... Visualisez la nette victoire des démocrates aux midterms face au camp de Donald Trump",
+    "resume": "Le Parti républicain a perdu le contrôle du Congrès lors des élections de mi-mandat, cédant la majorité au Sénat et à la Chambre des représentants face aux démocrates.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html#xtor=RSS-3-[lestitres]",
     "date": "4 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Fortuneo visé par une fraude à plus de 100 millions d’euros ? Ce que les clients doivent savoir",
-    "resume": "Le groupe Crédit Mutuel Arkéa, maison mère de Fortuneo, a fait l'objet d'une cyberattaque d'envergure ayant entraîné le détournement de fonds convertis en cryptomonnaies.",
-    "source": "Frandroid",
-    "url": "https://www.frandroid.com/services/banque-en-ligne/3310177_fortuneo-vise-par-une-fraude-a-plus-de-100-millions-deuros-ce-que-les-clients-doivent-savoir",
+    "titre": "Éducation, transports, santé... à quoi s'attendre pour la journée de mobilisation de jeudi ?",
+    "resume": "Une journée de grèves et de manifestations interprofessionnelles est organisée ce jeudi dans les secteurs public et privé pour porter des revendications salariales.",
+    "source": "France 24",
+    "url": "https://www.france24.com/fr/france/20261104-%C3%A9ducation-transports-sant%C3%A9-%C3%A0-quoi-s-attendre-journ%C3%A9e-mobilisation-jeudi",
     "date": "4 nov.",
     "impact": "flat",
-    "categorie": "Économie"
+    "categorie": "France"
    },
    {
-    "titre": "Même à 550 000 €, la première Ferrari électrique affiche déjà complet pour 2027",
-    "resume": "La production de la future Ferrari électrique, la Luce, affiche déjà complet pour l'année 2027 en dépit de l'absence de livraisons initiales et d'un prix élevé.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/vroom/2367495-meme-a-550-000-e-la-premiere-ferrari-electrique-affiche-deja-complet-pour-2027.html",
-    "date": "4 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Empêcher \"un abus manifeste de droit\" et éviter des dommages \"irréversibles\": la justice brésilienne interdit à Meta d'utiliser des contenus de presse pour entraîner son IA",
-    "resume": "La justice brésilienne a ordonné à Meta de cesser d'utiliser gratuitement des articles de presse pour entraîner ses modèles d'intelligence artificielle.",
+    "titre": "Le gouvernement durcit le cumul emploi-retraite",
+    "resume": "Le gouvernement a annoncé un durcissement des règles du cumul emploi-retraite à compter du 1er janvier 2027, fixant un seuil de gain brut annuel au-delà duquel une partie du dépassement sera prélevée.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/empecher-un-abus-manifeste-de-droit-et-eviter-des-dommages-irreversibles-la-justice-bresilienne-interdit-a-meta-d-utiliser-des-contenus-de-presse-pour-entrainer-son-ia_AD-202611040445.html",
+    "url": "https://www.bfmtv.com/economie/video-le-gouvernement-durcit-le-cumul-emploi-retraite_VN-202611040678.html",
+    "date": "4 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Sept personnes interpellées après le vol de six gravures de Pablo Picasso dans les Alpes-Maritimes, les oeuvres retrouvées",
+    "resume": "Sept personnes ont été interpellées dans les Alpes-Maritimes et six gravures de Pablo Picasso volées ont été retrouvées en parfait état.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/cote-d-azur/sept-personnes-interpellees-apres-le-vol-de-six-gravures-de-pablo-picasso-dans-les-alpes-maritimes-les-oeuvres-retrouvees_AN-202611040666.html",
+    "date": "4 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Les gagnants de ce concours de court-métrage nous ont fait changer d’avis sur l’IA en vidéo (et ils sont repartis avec 1 million de dollars)",
+    "resume": "Un festival de cinéma organisé par la start-up Higgsfield a récompensé des créations vidéo entièrement réalisées grâce à l'intelligence artificielle.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/tech/2367773-les-gagnants-de-ce-concours-de-court-metrage-nous-ont-fait-changer-davis-sur-lia-en-video-et-ils-sont-repartis-avec-1-million-de-dollars.html",
     "date": "4 nov.",
     "impact": "flat",
     "categorie": "Tech"
    },
    {
-    "titre": "\"Si tu tends l'oreille\": pourquoi cet inédit du studio Ghibli n'arrive qu'aujourd'hui dans les salles françaises, près de 30 ans après sa sortie au Japon",
-    "resume": "Près de trente ans après sa sortie au Japon, le film d'animation « Si tu tends l'oreille » du studio Ghibli sort pour la première fois au cinéma en France dans une version restaurée.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/culture/cinema-series/si-tu-tends-l-oreille-pourquoi-cet-inedit-du-studio-ghibli-n-arrive-qu-aujourd-hui-dans-les-salles-francaises-pres-de-30-ans-apres-sa-sortie-au-japon_AN-202611040448.html",
-    "date": "4 nov.",
-    "impact": "flat",
-    "categorie": "Culture"
-   },
-   {
-    "titre": "Grève du 5 novembre: près de 70.000 forces de l'ordre devraient être mobilisés",
-    "resume": "Une journée d'action nationale mobilise près de 70 000 membres des forces de l'ordre, impactant à la fois les secteurs public et privé.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/societe/manifestations/video-greve-du-5-novembre-pres-de-70-000-forces-de-l-ordre-devraient-etre-mobilises_VN-202611040484.html",
+    "titre": "La Corse placée en vigilance orange pluie-inondation à partir de jeudi",
+    "resume": "Météo-France a placé la Corse en vigilance orange pluie-inondation en raison d'intempéries attendues sur la façade orientale de l'île.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/planete/article/2026/11/04/la-corse-placee-en-vigilance-orange-pluie-inondation-a-partir-de-jeudi_6806317_3244.html",
     "date": "4 nov.",
     "impact": "flat",
     "categorie": "France"
@@ -63,8 +63,8 @@
   "modele": "gemini-flash-lite-latest"
  },
  "crypto": {
-  "updatedAt": "2026-11-04T11:35:54+00:00",
-  "resume": "Le marché des cryptomonnaies réagit aux résultats des élections de mi-mandat aux États-Unis, qui voient une progression démocrate, tandis que le Bitcoin oscille autour de 76 000 à 78 000 dollars. L'actualité est également marquée par des secousses sécuritaires, avec la confirmation d'un piratage visant la banque française Crédit Mutuel Arkéa et les suites du récent casse de Binance. Parallèlement, l'actualité réglementaire et fiscale évolue avec des rejets de mesures en France et de nouveaux débats sur l'épargne traditionnelle.",
+  "updatedAt": "2026-11-04T15:57:49+00:00",
+  "resume": "Le marché des cryptomonnaies navigue entre les répercussions des récentes élections de mi-mandat aux États-Unis et l'onde de choc d'une cyberattaque confirmée par le Crédit Mutuel Arkéa. Malgré des sorties de capitaux sur les ETF et la volatilité du Bitcoin autour de 78 000 $, le marché tente un rebond soutenu par la DeFi. Parallèlement, des acteurs majeurs comme Binance et Tether continuent de faire l'actualité avec des révélations sur leurs avoirs et la sécurité.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,98 +93,98 @@
   ],
   "items": [
    {
-    "titre": "Le Bitcoin remonte vers 78.000$ après la victoire des démocrates aux élections de mi-mandat",
-    "resume": "Le cours du Bitcoin se redresse et s'approche des 78 000 dollars à la suite des résultats des élections de mi-mandat aux États-Unis.",
-    "source": "Investing.com France",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeng1bDVWMUNjUjIxdE54ODFBZ1FKM3FKMzJnNXZJLUkyZTkwbjdaQzd4cU1JVWtvUDF2S08tVDlwNXk4REU4bjRocEdqR2gwMEJfVkJLMUJkbFZfSmZlVWQtLTRwSHV5NWpvOWd0TWxEaDI3SlA4b29mZHI0cDRfMjJQdzVvS0lKcGxUUG1Tb2s1cTAzU2U0WVU5Z08zNXVSZ2hZQkhtTWwyNDJGVGJuMkdWWFZxbWtJcFpBOEZtckpkR2RMTVhXU0lYdEpqSDVSN2U1ejAtWlV4R25KUVFn?oc=5",
+    "titre": "Crédit Mutuel Arkéa : Hack confirmé, 133 M$ selon ZachXBT",
+    "resume": "Le Crédit Mutuel Arkéa a confirmé avoir subi une cyberattaque informatique, tandis que l'expert ZachXBT évoque un montant de 133 millions de dollars détournés via des flux vers Kraken.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/credit-mutuel-arkea-hack-confirme-133-m-selon-zachxbt/",
     "date": "4 nov.",
-    "impact": "hausse"
+    "impact": "baisse"
    },
    {
-    "titre": "Crédit Mutuel Arkéa : la banque française victime d’un piratage massif, des fonds volés",
-    "resume": "La banque française Crédit Mutuel Arkéa a confirmé avoir subi un piratage s'élevant à environ 133 millions de dollars en cryptomonnaies.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/credit-mutuel-arkea-hack-crypto-133-millions-zachxbt/",
+    "titre": "Bitcoin et Ethereum : Presque 200 millions de dollars quittent les ETF spot en une séance",
+    "resume": "Les ETF Bitcoin et Ethereum spot américains enregistrent de nouvelles sorties nettes de capitaux, confirmant une tendance vendeuse sur plusieurs séances consécutives.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/bitcoin-ethereum-millions-quittent-etf-spot/",
     "date": "4 nov.",
     "impact": "baisse"
    },
    {
     "titre": "Crypto : Derrière le piratage de Binance, un faux recrutement et plusieurs mois d’infiltration",
-    "resume": "Binance a publié des détails sur le vol de 6,34 milliards de dollars, expliquant que les hackers ont piégé un ingénieur via un faux processus de recrutement.",
+    "resume": "Binance a publié des détails sur sa récente cyberattaque, expliquant que les hackers ont utilisé une fausse offre d'emploi pour infiltrer le poste d'un ingénieur.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/crypto-derriere-le-piratage-de-binance-un-faux-recrutement-et-plusieurs-mois-dinfiltration/",
     "date": "4 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "France : Les députés rejettent deux amendements d’exit tax sur les cryptos",
-    "resume": "L'Assemblée nationale française a rejeté des amendements visant à étendre l'exit tax aux plus-values latentes sur les actifs numériques lors d'un départ fiscal.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/france-les-deputes-rejettent-deux-amendements-dexit-tax-sur-les-cryptos/",
-    "date": "4 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Plus de 100 000 € en crypto ? Des députés veulent que vous déclariez vos wallets",
-    "resume": "Des députés français proposent d'instaurer une obligation de déclaration pour les porteurs de cryptomonnaies détenant plus de 100 000 euros.",
-    "source": "Cryptoast",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYjhJUmFqeXJGekUzNFc4Vi13WWs5SHNmMnlVXzdfS3BOVEVXMkZ2UVlWbnhZb29XeE10OUFNNVVTbEhVUEg4Si1PVzF3SWliVmt4Ylg0bG1GLVdvTkY3VXBsX2UtenpaMGtrZ1dVcDdOS1NnWW9IZWhZZjYtaVdsY3JIMVRvNnFpZ1BkZDVXMGRFZ0daZGZqREpLRUlWSDF4M0E?oc=5",
-    "date": "4 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "La Bourse de Moscou, sanctionnée par les États-Unis, prévoit de répertorier le bitcoin et l’USDT de Tether en décembre",
-    "resume": "La Bourse de Moscou, sous le coup de sanctions américaines, prévoit d'intégrer le Bitcoin et l'USDT de Tether à sa cote au mois de décembre.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOGpTbkl2RUl5NEZkaU9xdlJla0RTcUJCTi1ncE1CaDlvVGpEOTVmS2VYZ21laW16bUtjZGl1YTljb0pSQXlscUpmWDRfMFJZeFQyNmZSVjFrU1BJb0JUMklQUGUwOFpOaUdpT2k4dDE3RjJOaVhET1kyc0JNMW5hX05mWGF1V0k1eGw5QkxRZTU0eGpvZ01FRVBEY2ZnX0RMcXg5RHJ1RTNNbmlZdEdaSmVMWlFLQ0kwNUdjSVlNRTY?oc=5",
+    "titre": "XRP frôle $1.30 alors que les élections américaines relancent le marché crypto",
+    "resume": "Le XRP s'approche de la barre des 1,30 dollar, dynamisé par un contexte politique américain renouvelé après les élections de mi-mandat.",
+    "source": "Invezz",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQVFYRGNPQmNuSVNtcllBZmNzZjlXcG8zM3lweXhnSTNtOW5CR0lMUE5vQmExV0NQLVBUOTVVNGd5Q2ZZZnladXcyYWluRm83OXFKR2Jmbzd2NFo4QkIyNTUyTnQwcDlZV2w4azlOb0xSMTMtZTFxNUxiUGFoZUZnN1pXa1ZIREx4MW1MYjBqZUVTRUI5WEZJdUp3NGIxMlJFWUYyenBiZjhaY095a2xfYlhQb0xuRzFDLXVZbW9EdHdVTmhQZ3c?oc=5",
     "date": "4 nov.",
     "impact": "hausse"
+   },
+   {
+    "titre": "150 000 bitcoins : Tether dévoile l’ampleur de ses avoirs",
+    "resume": "Le PDG de Tether, Paolo Ardoino, a révélé que l'entreprise détient environ 150 000 Bitcoins dans ses réserves, soit un volume supérieur à ce qui apparaissait dans les rapports officiels.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/150-000-bitcoins-tether-devoile-lampleur-de-ses-avoirs/",
+    "date": "4 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "« La moitié de la population du Paraguay n’a plus accès à son argent » après la chute de l’Ueno Bank",
+    "resume": "La banque centrale du Paraguay a pris le contrôle de l'Ueno Bank, privant temporairement près de la moitié de la population de l'accès à son argent.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/paraguay-crise-bancaire-ueno-bank-comptes-geles-moitie-population/",
+    "date": "4 nov.",
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-flash-lite-latest",
   "niche": [
    {
-    "titre": "Économie : La Banque populaire de Chine durcit ses règles sur les devises pour calmer le yuan",
-    "resume": "La Banque populaire de Chine relève ses réserves obligatoires en devises de 4 % à 6 % à partir du 15 novembre.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/economie/economie-la-banque-populaire-de-chine-durcit-ses-regles-sur-les-devises-pour-calmer-le-yuan/",
-    "date": "4 nov.",
-    "pourquoi": "Utile pour anticiper les mouvements de liquidité sur le yuan et son impact indirect sur les marchés d'actifs alternatifs.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "ETF Bitcoin : plus de 1 milliard de dollars de sorties",
-    "resume": "Les fonds négociés en bourse (ETF) Bitcoin enregistrent plus de 1 milliard de dollars de sorties de capitaux.",
-    "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0FJbEdoS1VSYU1CYzIyUUxHQkpqVGdMWlN3WGc5c19tYTkyaHlhMDB1MTdGdngzbGhlZHF1ZUoyTE1FRU4xR0Y5bXM1bFhfLW45cDFuMUY5eFJndUVNNmpCS1N5WDE0NWNONDVxZHNtYk5FY1RyVkZDRGppbVA3MA?oc=5",
-    "date": "4 nov.",
-    "pourquoi": "Permet de suivre le comportement des investisseurs institutionnels et la pression vendeuse potentielle sur les produits indiciels.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "150 000 bitcoins : Tether dévoile l’ampleur de ses avoirs",
-    "resume": "L'entreprise Tether détient environ 150 000 bitcoins dans ses réserves, selon les déclarations de son PDG Paolo Ardoino.",
+    "titre": "Le nombre de portefeuilles détenant au moins un million de XRP atteint son plus haut niveau de 2026",
+    "resume": "Le nombre de portefeuilles détenant au moins un million de XRP a atteint son plus haut niveau de l'année 2026.",
     "source": "Cointribune",
-    "url": "https://www.cointribune.com/150-000-bitcoins-tether-devoile-lampleur-de-ses-avoirs/",
+    "url": "https://www.cointribune.com/le-nombre-de-portefeuilles-detenant-au-moins-un-million-de-xrp-atteint-son-plus-haut-niveau-de-2026/",
     "date": "4 nov.",
-    "pourquoi": "Fournit une information clé sur la solidité financière de l'émetteur du principal stablecoin et son exposition au BTC.",
+    "pourquoi": "Utile pour suivre le comportement des grands investisseurs (whales) sur le XRP et identifier d'éventuels signaux d'accumulation malgré un cours faible.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Circle licencie 5 % de son personnel malgré un trimestre rentable : pourquoi maintenant ?",
+    "resume": "Circle a réduit ses effectifs de 5 % au cours du troisième trimestre malgré un trimestre rentable, pénalisé par la baisse des revenus de réserve et la stagnation de l'USDC.",
+    "source": "BeInCrypto FR",
+    "url": "https://fr.beincrypto.com/circle-licenciements-cinq-pourcent-effectif-troisieme-trimestre/",
+    "date": "4 nov.",
+    "pourquoi": "À surveiller pour évaluer la santé financière des émetteurs de stablecoins et l'impact sur la liquidité globale de l'écosystème.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Plus de 100 000 € en crypto ? Des députés veulent que vous déclariez vos wallets",
+    "resume": "Des députés français étudient une proposition visant à rendre obligatoire la déclaration des portefeuilles de cryptomonnaies pour les montants supérieurs à 100 000 €.",
+    "source": "Cryptoast",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYjhJUmFqeXJGekUzNFc4Vi13WWs5SHNmMnlVXzdfS3BOVEVXMkZ2UVlWbnhZb29XeE10OUFNNVVTbEhVUEg4Si1PVzF3SWliVmt4Ylg0bG1GLVdvTkY3VXBsX2UtenpaMGtrZ1dVcDdOS1NnWW9IZWhZZjYtaVdsY3JIMVRvNnFpZ1BkZDVXMGRFZ0daZGZqREpLRUlWSDF4M0E?oc=5",
+    "date": "4 nov.",
+    "pourquoi": "Un signal fort pour la régulation fiscale en France, à surveiller pour les détenteurs de portefeuilles personnels et la conformité des plateformes.",
     "impact": "flat"
    },
    {
-    "titre": "Le parti au pouvoir en Corée du Sud souhaite à nouveau reporter sa taxe sur les cryptomonnaies",
-    "resume": "Le parti au pouvoir en Corée du Sud manifeste son intention de reporter de nouveau l'application de la taxe sur les cryptomonnaies.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXk3Z1JTRElCVGtud1dudFp6TGVKOEtVQ0xwdkVaYmFvVUxUZ1IxalJUaFlhbFMzRk5XOEVOTW9mZHFLX0ZaVEUzTUZDalFxOGx1ajhhX01fNlhtN0hZeTVFUmpJZnJXRzNKUGNXWUVVYktaMVBHZjhDNjdrZGlUN0JabWQ2cDFKMS14R0ltRFU3QnlZbjAtWkZ5YnJhdTJkcTJwX2NIV2JQaVdzV0M0?oc=5",
+    "titre": "OKX distribue 172 000 € en tokens NIGHT : comment récupérer votre part ?",
+    "resume": "OKX lance une distribution de 4,5 millions de jetons NIGHT via son programme X Drops d'une valeur d'environ 172 000 €.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/okx-distribue-172-000-e-en-tokens-night-comment-recuperer-votre-part/",
     "date": "4 nov.",
-    "pourquoi": "À surveiller pour la régulation asiatique et l'activité des investisseurs particuliers sur les places de marché locales.",
+    "pourquoi": "Pertinent pour les utilisateurs de la plateforme OKX qui cherchent à suivre les opérations de largage (airdrops) et de distribution de nouveaux actifs.",
     "impact": "hausse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-04T11:35:54+00:00",
-  "resume": "La Bourse de Paris progresse avec un CAC 40 soutenu par les valeurs bancaires suite aux élections de mi-mandat aux États-Unis, malgré la baisse de valeurs de la défense comme Thales. En parallèle, l'inflation de la zone euro atteint 4 %, principalement tirée par l'énergie, tandis que Wall Street réagit à une série de résultats d'entreprises et de notes d'analystes.",
+  "updatedAt": "2026-11-04T15:57:49+00:00",
+  "resume": "Les marchés boursiers mondiaux, incluant Wall Street et le CAC 40, s'envolent à la suite de la victoire des démocrates aux élections de mi-mandat aux États-Unis, qui lève les incertitudes politiques. En Europe, les valeurs bancaires affichent de fortes hausses, tandis que de nombreuses entreprises publient leurs résultats financiers du troisième trimestre. Parallèlement, plusieurs actualités macroéconomiques et sectorielles marquent la séance, comme le maintien des taux directeurs en Pologne.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,50 +213,50 @@
   ],
   "items": [
    {
-    "titre": "Victoire écrasante des démocrates au Congrès, le Cac 40 en hausse de 1% grâce à ses banques, Thales en forte baisse",
-    "resume": "Le CAC 40 progresse d'environ 1 % à la suite d'une large victoire des démocrates au Congrès américain, porté par la bonne forme du secteur bancaire tandis que Thales recule nettement.",
-    "source": "Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOUVUzNkdjb3JzUmhSX2I3VHRRUE9wVTlYY2Q2bG1kSTVLTndmZ0pZV0p1QldJeEVkZnhXWFF5OW9kLUtaYnZqdVExRFFxVmNTaVIyaUJFUG5TOHBLaDdTUFlQbFhvNlFveVlmUTNackZEbjY4YUxDdlRDQXptdFVmT2VKeEVvcUh2YmNoNDhlYkZkYUZ2REdCb1N1d25QdDdzYjlJRGRZaG9ab3JLWW1hS1ZNRDVidk9sOVBrWkNTWWNjeGpyTnBGWGxvbmFDUXdHeWczUmV1YVlNVWJCODA3bXpYdUZ2S29fUFVvRF92VmYteXFWaXlqWkNhc1dRaWE2eU1odjQ0aXhhWURaSFAxVA?oc=5",
+    "titre": "Le Cac 40 accélère et gagne plus de 2% grâce à ses banques après la victoire des démocrates aux élections de mi-mandat, New York salue également la « levée des incertitudes",
+    "resume": "Le CAC 40 progresse de plus de 2 % porté par ses valeurs bancaires, tandis que New York salue la levée des incertitudes politiques après les élections de mi-mandat aux États-Unis.",
+    "source": "Investir Les Echos",
+    "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPX3BwcWZxaXcteHFtS3dSRTFkUFFEQUU3cE5HUUNwdjNJYWt2SXVpbkVVMy1wZlR1TXVHWHQ5SU9NNkVHa2tTWndzRXpaYjVaU1BwV1JWWGg1YjkyUFRfMy1fM2ZRVTBLYVVYazJWdTNHckFYNThQbWxRU3puNlcwME5OandNNWhoMU1ySUdIeFppRXpvMVc1SGF4RXpnLXlxSjBuR29pdHl3RWNqOHc5cGNzelJtVnRFUGs4UHc2S0tyTkhUd2ZSZjlRRVdUbUVZdTBGc1ZpaG5LTUJnUDJ0MGx2dlQwVFFGMTY1Wl80cU5Ja2szOUY2NFItMUlrQnBKcmlzMUk1UnJUbjUwNkZyUFNibmxsSFd5cEJLMkFtZVZKRzlWaHlfZWl4MGh1U2tHa1hpQV92SWwtdkhaLXJQajdfdGdVVjk1?oc=5",
     "date": "4 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Inflation de la zone euro à 4 %, tirée par l’énergie, au plus haut depuis 3 ans",
-    "resume": "L'inflation annuelle de la zone euro atteint 4 % au plus haut depuis trois ans, un mouvement principalement alimenté par les prix de l'énergie.",
-    "source": "Euronews.com",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc01JdzJtNVlrNmRSMlNXMzE5Njc3cElLRm9SRjVOMmxGRndYcXY1R0owRTJDMjRWMHlUeHhOaE84VmFuQnR1c09pUDc5Y2pJMHpxd3VMTGtXSm4wTG96NkpYdlVPdHlScU55NlRwQjQ3VzhwQ1V6VndlNnV3dVVCRGJLMUpfb1dkNExiOFoySUd6bldNXzN1a3Y2U21vMGtrVXhvLVp2bE9xTG1jbUE?oc=5",
+    "titre": "USA: Wall Street ouvre en forte hausse après la victoire démocrate aux midterms",
+    "resume": "Wall Street ouvre en forte hausse au lendemain de la victoire du camp démocrate aux élections de mi-mandat.",
+    "source": "ABC Bourse",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmxiVTZHRndBclpZZFdOUlRmMEpjSmlKTGdqbGpIZDFMSEhjR3VvOUZnNnBvWkNHdDlVRUNkeDVJbGhPMkFPWlR0NUN3YXpWWkRWdEhZc0FVVkFEcGxweE5FMzBtVUhoUk1MV2ZMdlctWk9vWlVRYk4zQ29XTFNnWkJCLVhFNHpyQUdNUHBUMldaUWJmNXBCVWdUMk41OGc5RHlRSkp1Y1MwVjJMNjN0dmRndjczdXJGa0tv?oc=5",
     "date": "4 nov.",
-    "impact": "baisse"
+    "impact": "hausse"
    },
    {
-    "titre": "Action BMW : chute des résultats et virage en Chine",
-    "resume": "Le constructeur automobile BMW publie une chute de ses résultats au troisième trimestre tout en opérant un virage stratégique sur le marché chinois.",
-    "source": "XTB.com",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTDR3c3pEM1JUNVBDZFVJNHFKb1lPYmtEdXRhNlhDSkFCekNGNjNBUXpIWnlONzc5WmpCbnB4QmZyMmJfb3RSVTc3TXY1Mnd5NjVXaVlMTWZnMnppekpxVUhuODljeFU5NjBnMTZsSkFLQWFhZG4yNHFERjA2RUlhVEF1d1FqV2prUUV5TG1YQXhBZw?oc=5",
+    "titre": "SOCIETE GENERALE : BNP Paribas prend 5%, Société Générale 4,8%, HSBC 4,7%, Deutsche Bank 6%... Pourquoi le raz-de-marée démocrate au Congrès américain catapulte les banques européennes en Bourse",
+    "resume": "Le raz-de-marée démocrate au Congrès américain catapulte les banques européennes en Bourse, avec des gains notables pour BNP Paribas, Société Générale, HSBC et Deutsche Bank.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/societe-generale-FR0000130809/actualites/societe-generale-bnp-paribas-prend-5-societe-generale-48-hsbc-47-deutsche-bank-6-pourquoi-le-raz-de-maree-democrate-au-congres-americain-catapulte-les-banques-europeennes-en-bourse-1173152.html",
     "date": "4 nov.",
-    "impact": "baisse"
+    "impact": "hausse"
    },
    {
-    "titre": "The Andersons acquiert un producteur d’éthanol pour 915 millions $",
-    "resume": "La société The Andersons officialise l'acquisition d'un producteur d'éthanol pour un montant total de 915 millions de dollars.",
+    "titre": "Wall Street s’envole après la victoire des démocrates au Congrès ; les valeurs des centres de données reculent",
+    "resume": "Les indices boursiers américains s'envolent à la suite de la victoire des démocrates au Congrès, bien que les valeurs liées aux centres de données enregistrent un repli.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVkFBblpBMlcwdGFxemZPTjg2ZlYtaC1zT0p1ZkI2WDdJazFyaUZrUFE2bDdPM0lTOFUyRUp3WlI2aDJVUmpkQVRELWJDbnZBcjlvZlF2am45Q3ZTbW16NHpHTndwR0d4Y01CVmI1d3lmLXpZeFhyd3BVaG1qVnhxUjdnRkNLaGltemVwMlNha1hJNEYwTTg5ODVMamY4NGNGV3NKRTg3QnR0ZVpJZWlpRnhReXhKUFNHYXRkdHFPT1FlMWNqVGE3cTBSUVA4U0F6VGUwTGwyRW1ndk1SSzFraG5ab09VSDNBNEtpVzhn?oc=5",
+    "date": "4 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Propel Holdings dépasse les prévisions du T3 2026, l’action bondit de 10%",
+    "resume": "Propel Holdings surpasse les prévisions du troisième trimestre 2026, entraînant un bond de 10 % de son action.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/the-andersons-acquiert-un-producteur-dethanol-pour-915-millions--93CH-3674179",
+    "url": "https://fr.investing.com/news/transcripts/propel-holdings-depasse-les-previsions-du-t3-2026-laction-bondit-de-10-93CH-3675849",
     "date": "4 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Coca-Cola HBC relève ses prévisions de croissance pour 2026 après un T3 solide",
-    "resume": "Coca-Cola HBC revoit à la hausse ses prévisions de croissance pour l'année 2026 après avoir enregistré un solide troisième trimestre.",
+    "titre": "Compte rendu d’appel de résultats : SM Energy dépasse les prévisions du T3 2026, l’action chute de 9%",
+    "resume": "SM Energy dépasse les attentes des analystes pour son troisième trimestre 2026, mais son action chute de 9 %.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/cocacola-hbc-releve-ses-previsions-de-croissance-pour-2026-apres-un-t3-solide-93CH-3674085",
-    "date": "4 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "L’action ArcBest chute de 2% malgré des résultats supérieurs aux attentes",
-    "resume": "L'action ArcBest enregistre un recul de 2 % en séance en dépit de résultats financiers supérieurs aux attentes du marché.",
-    "source": "Investing.com France",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRnYzX0dUUjBCMXp5aFI1YURQdUFYRXRlY19qc0JBWjJtVFBGMTRNNm9vbWlRUmJIMFNMLUNvTkJkWHFZd1NicUpjRXQzZEdQdWhKcHhvVU5JNWpha1RfbDlZbDQ4NndaaXNZRVUxcGs1M1RUSWtBQkpvMFJQYmxZLThyWHA5ay04T05LNDEwM0VPTHBMUExuMDY3N042Vm0tY1d5WWdWWEJ1M2MxWm9hbGFpZzI5dFVxVlAyMzc2Uzg?oc=5",
+    "url": "https://fr.investing.com/news/transcripts/compte-rendu-dappel-de-resultats--sm-energy-depasse-les-previsions-du-t3-2026-laction-chute-de-9-93CH-3675895",
     "date": "4 nov.",
     "impact": "baisse"
    }
@@ -265,59 +265,66 @@
   "modele": "gemini-flash-lite-latest",
   "niche": [
    {
-    "titre": "Le PDG de Hemnet, Jonas Gustafsson, démissionne dès jeudi",
-    "resume": "Jonas Gustafsson, le PDG de Hemnet, quitte ses fonctions dès le jeudi suivant l'annonce.",
+    "titre": "La Pologne maintient ses taux à 3,75% pour le huitième mois consécutif",
+    "resume": "La banque centrale polonaise maintient ses taux d'intérêt directeurs inchangés à 3,75 % pour le huitième mois consécutif.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/le-pdg-de-hemnet-jonas-gustafsson-demissionne-des-jeudi-93CH-3674183",
+    "url": "https://fr.investing.com/news/world-news/la-pologne-maintient-ses-taux-a-375-pour-le-huitieme-mois-consecutif-3675851",
     "date": "4 nov.",
-    "pourquoi": "Utile pour suivre la gouvernance de Hemnet et la réaction du titre à ce départ soudain de direction.",
+    "pourquoi": "Utile pour suivre la politique monétaire en Europe de l'Est et l'évolution des conditions de crédit pour les actifs locaux.",
+    "impact": "flat"
+   },
+   {
+    "titre": "KeyBanc dégrade Vistra Energy en raison des élections au Texas",
+    "resume": "KeyBanc abaisse la recommandation sur Vistra Energy en raison des dynamiques politiques liées aux élections au Texas.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/analyst-ratings/keybanc-degrade-vistra-energy-en-raison-des-elections-au-texas-93CH-3675807",
+    "date": "4 nov.",
+    "pourquoi": "Permet de surveiller le secteur énergétique américain et l'impact de la régulation étatique sur les valorisations.",
     "impact": "baisse"
    },
    {
-    "titre": "Datamatics affiche une forte croissance au T2 2026, l’action recule",
-    "resume": "Datamatics enregistre une forte progression de son activité au deuxième trimestre 2026, mais son action recule dans le même temps.",
+    "titre": "L’action NuScale Power atteint un plus bas de 52 semaines à 5,19$",
+    "resume": "L'action de NuScale Power recule pour atteindre un plus bas sur les 52 dernières semaines, s'établissant à 5,19 dollars.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/datamatics-affiche-une-forte-croissance-au-t2-2026-laction-recule-93CH-3674184",
+    "url": "https://fr.investing.com/news/company-news/laction-nuscale-power-atteint-un-plus-bas-de-52-semaines-a-519-93CH-3675902",
     "date": "4 nov.",
-    "pourquoi": "Permet d'analyser le secteur technologique et les cas où de bonnes publications ne soutiennent pas immédiatement les cours.",
+    "pourquoi": "Intéressant pour analyser la santé du secteur des petites technologies nucléaires et les seuils de support technique.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Les actions de Metro Bank bondissent de 13% grâce à ses objectifs de marge",
-    "resume": "Les titres de Metro Bank affichent un bond de 13 % à la suite d'annonces concernant ses objectifs de marge.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/les-actions-de-metro-bank-bondissent-de-13-grace-a-ses-objectifs-de-marge-93CH-3673831",
-    "date": "4 nov.",
-    "pourquoi": "Cible le secteur bancaire britannique et l'importance des perspectives de rentabilité pour déclencher des achats.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Le gaz européen progresse après les élections américaines et les tensions autour d’Ormuz",
-    "resume": "Le prix du gaz naturel en Europe augmente après les élections américaines et l'émergence de tensions autour de la zone d'Ormuz.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/commodities-news/le-gaz-europeen-progresse-apres-les-elections-americaines-et-les-tensions-autour-dormuz-3673834",
-    "date": "4 nov.",
-    "pourquoi": "Utile pour surveiller les cours de l'énergie et l'impact géopolitique sur les matières premières en Europe.",
-    "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-04T11:35:54+00:00",
-  "resume": "Le marché du crédit immobilier fait face à un durcissement des conditions d'emprunt, avec des taux qui peuvent dépasser les 4 % sur 20 ans selon certains courtiers. En parallèle, l'investissement locatif reste sous surveillance en raison de l'impact des charges sur les rendements et des incertitudes fiscales persistantes. Les professionnels de l'immobilier ajustent quant à eux leurs outils et stratégies face à une offre qui progresse dans certaines régions.",
+  "updatedAt": "2026-11-04T15:57:49+00:00",
+  "resume": "Le marché du crédit immobilier fait face à des taux qui dépassent les 4 % sur 20 ans, tandis que des discussions politiques s'ouvrent sur un éventuel assouplissement des règles d'endettement à 35 %. En parallèle, le réseau SAFTI anticipe 900 000 transactions pour l'année 2027 et le secteur observe des tensions persistantes sur la fiscalité et la rentabilité locative.",
   "chiffres": [],
   "items": [
    {
     "titre": "Crédit immobilier : Vousfinancer évoque des taux dépassant les 4% sur 20 ans",
-    "resume": "Les taux de crédit immobilier montrent des signes de tension, certains acteurs du courtage constatant des niveaux dépassant la barre des 4 % sur une durée de 20 ans.",
+    "resume": "Le courtier Vousfinancer rapporte que les taux des crédits immobiliers dépassent désormais la barre des 4 % pour les emprunts contractés sur une durée de 20 ans.",
     "source": "Lyon Pôle Immo",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYldaV1RSZ3BuM1pEYkxkTmhtWTVyMExCaU5MSkhtRFFUanl3QUZZY0ptRm1kWGEyaWk4TFphNC1TUUk4YU1kOFJ6d0gtcFR1ZzN6V2VhbDBZYzV5VE9PeUJDR0hfLXQ5UnFsYnFlZ0Q4NVpkUWZyUE10Wm4tXzJOSTM5SFpNck5XQ2VfUFhaeVFiMzZVbjBaNGNWZzFOZVBSQjdGdEJxclp3QUc2ZllyZUhualBwN3dZRmk4?oc=5",
     "date": "4 nov.",
     "impact": "hausse"
    },
    {
+    "titre": "Prêts immobiliers : le ministre du Logement ouvre la porte à un assouplissement des règles sur l’endettement des ménages",
+    "resume": "Le ministre du Logement a ouvert la voie à un possible assouplissement des critères d'endettement des ménages encadrés par le Haut Conseil de stabilité financière.",
+    "source": "Orange Actualités",
+    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPYmg5a2VCRVdrYmY0TFd0RG8yWHhYY2E5LTIxdEd3QWp6LVVyaVNCdjFqb1NGd0M5UEZEcC11R1BDVUZ0Rzh0c3NkNVgwZUxfaXZJMm1zVTRQckFSVDExZmhTUTV6SkxmMzR5UHFHRWp4Y0oxdEFmZmhOWHBaQWc3LTF1MWRDMHBCWFFqN1owdmdNbkVid19UMzE0LW1nN3hpekY2WlZjeWFkdkVsZ1BPZlR2enlOTlVjQm5KLWlNVllaOHMxWHhOQTVxZ1FCU3A0bjZBb1BrRkRtTGM5T0pLTEZYOU5LSzJEYXlCWUZlQ0FnUzgxMDg0cjBjLW5MbllmY1FzaU9YNWJ3TGlFbnZ2bEtnSXlkbGhmZVE?oc=5",
+    "date": "4 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Marché immobilier : SAFTI prévoit 900 000 transactions en 2027",
+    "resume": "Le réseau d'agences SAFTI publie ses prévisions et table sur un volume de 900 000 transactions immobilières en France pour l'année 2027.",
+    "source": "Mon Immeuble",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOHd3V0tBS1JtYVdyZVNwc0t6NlA5a2VhNzBCdzRfd0hUXzhPUnhZZWd2SWdTdjV3SXRza0NKUjNVTlJVZDEzOS1pNXFiNk01ejU4aHZ2dG1Zc3VKNjJrUGU4cVAyNndZZXRWRXI1RmhMY095dUR0M2luX0xiYlhINlZSc29IdmN0Y3VITy1Dc0VFbW5BTjB6ZFdn?oc=5",
+    "date": "4 nov.",
+    "impact": "hausse"
+   },
+   {
     "titre": "Investissement locatif : pourquoi un rendement de 6 % peut fondre après les charges",
-    "resume": "Le calcul de la rentabilité d'un investissement locatif demande de la prudence, car les charges réelles peuvent fortement réduire un rendement brut affiché à 6 %.",
+    "resume": "Un investissement locatif affichant un rendement brut de 6 % peut voir sa rentabilité nettement diminuer une fois déduites l'ensemble des charges et des taxes.",
     "source": "www.leconseilpatrimoine.fr",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQUtGQWVuZkhWT3J4eFk5dUN5UHJpdkdtNWZ1N3VvTEpiQ0RmdFdHMm5acktzQ0lTVGdiV2VGSUJndmt2QjBkY0cxT3ZEM3BZeFpWdGtkV2syUUdLTkk1OHE1TUsxZS1uSy1Jb25KbXV6dndlNzRsbEpIZG5QcnNJTXZvRFVORC1ZejJwMmI1THFvbU9yQl9taVg5MA?oc=5",
     "date": "4 nov.",
@@ -325,74 +332,49 @@
    },
    {
     "titre": "La hausse d’impôt sur la location meublée annulée par les députés pourrait revenir dès le rejet du Budget",
-    "resume": "Le débat fiscal autour de la location meublée reste ouvert, la hausse d'impôt initialement rejetée par les députés risquant de revenir lors des discussions budgétaires.",
+    "resume": "La hausse de la fiscalité sur la location meublée, initialement annulée par les députés, pourrait faire son retour lors des débats sur le budget.",
     "source": "Capital.fr",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUtqS0FqckxjTGVVQjhpQVN0d0lZNEt2TWpsNUkzOVhDdVZmOWxES1o1SWpuYVlGbW1ZYnhLcjI0V0hyblhRN3NzUHM5MmZnSzlUTTJKOFBVZm9GdXlPYlpXNkdLS05vQlJnWWZwTmN3SlVvbDQzb0UwalkteXdQMXpXeW5DYVFXWHVKbzl5XzNHeDdtOWdSa0k0M1M4d3JROE5NdExvMEtnQ0tfdXBZcVpxczM?oc=5",
     "date": "4 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Immobilier : l’offre augmente de 8% en Auvergne-Rhône-Alpes",
-    "resume": "Le marché régional montre une évolution de l'offre, qui enregistre une augmentation de 8 % dans la région Auvergne-Rhône-Alpes.",
-    "source": "Lyon Pôle Immo",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVnN1cDdfNzRRWm5TeHdpelZsdDN6WXhiVGVkVU4wVk42dUFnT2VLdTVxNVROLV9sdVd2V1BJbUZUdE1qZklnZTlYY1lmVXVUU1Rha3F4SlJkMlNFazlZdENobXVYX3VaNVBaSkZnb0tQUDdWT0pIZHl0MGZpdm96MnE0RGtKWjh1SzNPaTNGVGxpRFNvTFcxdTlBRXlRcm4zbUZN?oc=5",
+    "titre": "Loyers impayés : forte baisse dans les grandes villes en 2026",
+    "resume": "Le secteur locatif enregistre une forte baisse des loyers impayés recensés dans les grandes agglomérations françaises.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNak9WN1NSbngxN1FqQndFV25IWTNrYTFKTnRQdlpSSUxxN3JzTkJ0cGVhOExwOGstWWhUeXdQY0Z0NEM3OEx6M0R1ZEwxb29rUlpvdmRuRW4xckdLeW1YcDBRbXRTUlhmdnhlUHpQcmZTVWExdGh3emc3Q3hYeF9EYWREU0xrLVgxTm50ZGVGQllMQmZWM0swMUNDLS0zOUw0Tzd1YVdYRWxmLTNGaVJnb2Rucw?oc=5",
     "date": "4 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Crédit immobilier : Votre logement est remboursé, est-ce le moment de vendre ?",
-    "resume": "Les propriétaires dont le crédit est totalement remboursé s'interrogent sur la stratégie à adopter entre conserver, revendre pour racheter plus petit ou basculer en location.",
-    "source": "MySweetImmo",
-    "url": "https://www.mysweetimmo.com/2026/11/04/credit-immobilier-votre-logement-est-rembourse-est-ce-le-moment-de-vendre/",
-    "date": "4 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "« Nue-propriété : et si l'épargne privée devenait un levier pour répondre à la crise du logement ? »",
-    "resume": "La nue-propriété est mise en avant comme un mécanisme d'épargne privée mobilisable pour contribuer à résoudre la crise actuelle du logement.",
-    "source": "Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONzd1MFExUW1EYk1KTl8yTzdYVUJsZUtPYWtMZUJFTDVqcXJxcmU0TFJzeWpxSW1OQnZtN2w5MU56OFd0NENoNVd2dFd3b3BHeGQwdDVsckQtNldmRm1KWTRsaGQ1RDNSbjFSSWp2cVc1emo1aTlKQmFrdkJqbDdQSEtuMWJPZ3UyMEdVMkVua2RVNUxzMjFnaVdyY2kyWjR1QkhXR3hyYnJTcldhWW9JVFN1Q3p0bVJYYi1RU1dfU0c1ajBOdFRORS1MTm1fdm5ENmU3OHI2UnBMMGtvRms3Ukd1eUU?oc=5",
-    "date": "4 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-flash-lite-latest",
   "niche": [
    {
+    "titre": "LMNP, gîte, résidence de services : 3 profils de loueurs face à la facture électronique",
+    "resume": "Les loueurs en meublé non professionnel, exploitants de gîtes et gestionnaires de résidences de services doivent se préparer à l'arrivée de la facture électronique.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45RlZlODJwS3liRnNHZzVfZlZkWkhYNFV5QmVYbGNydUhnUmRFZ01zaklraVFsc2dYWm1Nbmd1YnBTb3B3ZzZjNmdIY2RqblF2dWFWTndTaFZVTUs0SmhUbkNsQkNXSkZDVmdoUExIUFIzZ1BtazUtdw?oc=5",
+    "date": "4 nov.",
+    "pourquoi": "Utile pour anticiper les contraintes comptables et administratives dans l'immobilier meublé, secteur où la gestion des flux financiers se digitalise. À surveiller : les coûts de mise en conformité logicielle.",
+    "impact": "flat"
+   },
+   {
     "titre": "Agents immobiliers : Diffuser vos annonces coûte 890 € HT par vente, Jinka lance une offre gratuite",
-    "resume": "La plateforme Jinka lance une offre gratuite pour la diffusion des annonces d'agences, estimant le coût habituel à 890 € HT par vente.",
+    "resume": "La plateforme Jinka estime que la visibilité des annonces en agence revient à 890 euros hors taxes par vente et lance une formule alternative gratuite.",
     "source": "MySweetImmo",
     "url": "https://www.mysweetimmo.com/2026/11/04/annonces-immobilieres-cout-jinka-free/",
     "date": "4 nov.",
-    "pourquoi": "Utile pour analyser les coûts de structure et la rentabilité opérationnelle des agences immobilières traditionnelles, un secteur où la maîtrise des frais de prospection est clé.",
+    "pourquoi": "Permet aux investisseurs et mandataires d'analyser les coûts d'acquisition client dans la commercialisation immobilière. À surveiller : l'évolution des modèles économiques des portails d'annonces.",
     "impact": "baisse"
    },
    {
-    "titre": "Agents immobiliers : MeilleursBiens lance un connecteur MCP pour piloter Neo depuis ChatGPT ou Claude",
-    "resume": "L'agence MeilleursBiens introduit un connecteur MCP pour piloter le logiciel Neo directement depuis des interfaces d'intelligence artificielle comme ChatGPT ou Claude.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04ekRxWDNHM0ZjSFJaclVOc04xNDFjQ3h3RkJLUUJjRFFQYktoTmFKUmE1OC1NUGVOWTJyQUlQeTBsQzE2NHRMUDJaSWl3eUhacS1NRU0xbnN4TnJoaDlOSVNjQmtXcWdtNENuSEcxeGI1NTB2U2QxOU56bk4?oc=5",
+    "titre": "Terrasse, véranda… ces éléments peuvent faire exploser la taxe foncière de votre logement sans que vous le sachiez",
+    "resume": "L'ajout d'aménagements extérieurs tels qu'une terrasse ou une véranda peut modifier le montant de la taxe foncière des propriétaires.",
+    "source": "Maison & Travaux",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWXlaX1lJaVRaa1BRN1JpTXREcmJiU1l2ZWdmTFlDb0o3Q0o0Ql85WEwzZGVCd2hvM0tGWXVJSC1rT2ZmV0Y2cUtDWHJMTnQ0RVVLSDFkU1VmR0ozb0dUS0pjUUFySEkzS0ZMX2E2eHdtR2xSN1N4VWpvRkJRekNYcDhvbGs1RktWclg3QUtNUGkwY2ZNSDVCa29EV2d6d0ZRX09ZXzJERTZVWE90T0wyVEtuQ3hTM1J0cXQ0eg?oc=5",
     "date": "4 nov.",
-    "pourquoi": "Permet de surveiller l'adoption des technologies d'IA générative dans les outils métier des réseaux immobiliers, ce qui impacte l'efficacité opérationnelle des agents.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "BRS, la formule immobilière à petit prix qui séduit les ménages modestes… et les promoteurs",
-    "resume": "Le Bail Réel Solidaire (BRS) continue d'attirer l'intérêt des ménages aux revenus modestes ainsi que des promoteurs immobiliers.",
-    "source": "Figaro Immobilier",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQN1lFVXhQSmtGR1Bva3QxUm1OTE8wbjYxSUZoV0pndzJJdi1HWC1KdVdGVkllY2JERnZvTHRWSUhGMlZWUWZ2dkxJQkxxYy1nc0ZDVldjV2dBazZQaDNMb1N4MUhlaWVYd1poaWlRQUFfamtFdHV2VXkyQndxQ1hYdFZacWp2LUVmdEhuSWlGUGZSSTNzYV9kTlhlem1FeHlEUi1FX0xwdkgyLVhUc0Z3a1FDZ2ZVQUFWa2xSTy15WjZmWEFGZ2NPNHBrOUF3WTZnWXlj?oc=5",
-    "date": "4 nov.",
-    "pourquoi": "Permet de suivre la dynamique de ce dispositif d'accession sociale à la propriété dissociant le foncier du bâti, un segment de marché soutenu par les acteurs de la promotion.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "AQQI lève 4 millions d’euros pour centraliser le parcours d’achat immobilier avec l’IA",
-    "resume": "La proptech AQQI lève 4 millions d'euros afin de centraliser le parcours d'achat immobilier à l'aide de l'intelligence artificielle.",
-    "source": "Immobilier 2.0",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZU5KUk1BUnhpd3I4SFpfdUNIbm4tZDNEdUlKdUJEbVlxTDAzTXlmVzN1a3VoWjV5WkFBQXg3c1FabUFtTXNPZm5WWFZNRUJDMTNFYVEyRkw3eDM5bUM0TF83RXdKM3h1LVlONkFJS0R0UmFNTWlQMHRCbDZCQVVTclVNNXFGVF9iNWpGY1U2WkRyNF9PRzNiX2E2MkxRLWJJdTRLNnJxSzhDOXgtck1FMi1jNXhFOG9lMmJCckFCWjc?oc=5",
-    "date": "3 nov.",
-    "pourquoi": "Indique les flux de financement sur les startups de la tech immobilière et les tendances d'innovation autour de la digitalisation de l'achat immobilier.",
+    "pourquoi": "Indique un risque fiscal souvent sous-estimé lors de la réalisation de travaux de valorisation d'un bien. À surveiller : l'impact sur la rentabilité nette des biens rénovés.",
     "impact": "hausse"
    }
   ]
