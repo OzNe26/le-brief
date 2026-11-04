@@ -1,58 +1,6 @@
 {
-"updatedAt": "2026-11-03T22:25:03+00:00",
+"updatedAt": "2026-11-04T06:17:32+00:00",
 "events": [
-{
-"d": "2026-11-03T10:00:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Offres d'emploi (JOLTS)",
-"sub": "🇺🇸 États-Unis · prévu 7.15M · précédent 7.08M",
-"imp": 2
-},
-{
-"d": "2026-11-03T10:16:00-05:00",
-"allday": true,
-"cat": "macro",
-"title": "Élections de mi-mandat américaines",
-"sub": "🇺🇸 États-Unis",
-"imp": 3
-},
-{
-"d": "2026-11-03T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Shopify",
-"sub": "SHOP · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "SHOP"
-},
-{
-"d": "2026-11-03T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Pfizer",
-"sub": "PFE · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "PFE"
-},
-{
-"d": "2026-11-03T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Amgen",
-"sub": "AMGN · après la clôture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "AMGN"
-},
-{
-"d": "2026-11-03T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Arista Networks",
-"sub": "ANET · après la clôture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "ANET"
-},
 {
 "d": "2026-11-04T10:00:00-05:00",
 "allday": false,
@@ -253,6 +201,33 @@
 "sub": "SMFG · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "SMFG"
+},
+{
+"d": "2026-11-17T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats d'Home Depot (The)",
+"sub": "HD · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "HD"
+},
+{
+"d": "2026-11-17T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Disney",
+"sub": "DIS · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "DIS"
+},
+{
+"d": "2026-11-17T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Nvidia",
+"sub": "NVDA · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 3,
+"tick": "NVDA"
 },
 {
 "d": "2026-12-09T20:00:00+01:00",
