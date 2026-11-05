@@ -28,6 +28,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Module pour Gemini Live
+        run: pip install -q websockets || true
       - name: Analyser les 10 actifs
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

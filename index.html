@@ -517,6 +517,11 @@ body.playing .wrap{padding-bottom:110px}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* ================= Config ================= */
+function modelLabel(m,fallback){ m=String(m||"").toLowerCase();
+  if(/flash-live/.test(m)) return "Gemini 3.1 Flash Live"; if(/gemini-3\.8-live/.test(m)) return "Gemini 3.8 Live";
+  if(/flash-lite/.test(m)) return "Gemini Flash Lite"; if(/gemini/.test(m)) return "Gemini Flash";
+  if(/ministral-(\d+)b/.test(m)) return "Mistral ("+m.match(/ministral-(\d+)b/)[1]+"B)"; if(/gpt-oss/.test(m)) return "GPT-OSS"; if(/qwen/.test(m)) return "Qwen";
+  return fallback||m; }
 function setTheme(t,save){ document.documentElement.dataset.theme=t; const m=document.getElementById("themecolor"); if(m) m.content=t==="light"?"#ffffff":"#0d0f12";
   const b=document.getElementById("thbtn"); if(b){ b.textContent=t==="light"?"🌙":"☀️"; b.title=t==="light"?"Passer en mode sombre":"Passer en mode clair"; }
   if(save) try{localStorage.setItem("lb-theme",t)}catch(e){} }
@@ -1586,7 +1591,7 @@ function renderAnalyse(main){
       <div class="iatabs">${panel.map(p=>`<button data-ia="${esc(p.id)}" class="${p.id===cur.id?"on":""}"><span>${esc(p.emoji||"🤖")} ${esc(p.style)}</span><small>${esc(p.nom)}</small></button>`).join("")}</div>
       <div class="iawrap">${panel.length>1?`<button class="iaarr prev" type="button" aria-label="Avis précédent">‹</button><button class="iaarr next" type="button" aria-label="Avis suivant">›</button>`:""}
       <div class="iaslides" id="iaslides">${panel.map(p=>`<div class="iaslide" data-id="${esc(p.id)}">
-        <div class="sub">${esc(p.emoji||"🤖")} ${esc(p.style)} · ${esc(p.nom)} (${esc(p.editeur||"")}) · ${esc(fmtDate(p.updatedAt))} (${ago(p.updatedAt)})</div>
+        <div class="sub">${esc(p.emoji||"🤖")} ${esc(p.style)} · ${esc(modelLabel(p.modele,p.nom))} (${esc(p.editeur||"")}) · ${esc(fmtDate(p.updatedAt))} (${ago(p.updatedAt)})</div>
         <p>${esc(p.global)}</p></div>`).join("")}</div></div>
       ${panel.length>1?`<div class="iadots">${panel.map(p=>`<i class="${p.id===cur.id?"on":""}"></i>`).join("")}</div><div class="iahint">← glisse pour changer d'avis →</div>`:""}</section>`:"";
   main.innerHTML=views+`<section class="brief"><h2>📊 Analyse des marchés</h2><p>Les 10 actifs suivis sur le site, analysés chaque matin (vers 7h) et chaque soir après la clôture de Wall Street (vers 22h40) : tendance, momentum, niveaux à surveiller et actus liées.</p></section>
@@ -1677,7 +1682,7 @@ function _render(){
   const niche=d&&(Date.now()-new Date(d.updatedAt))<48*3600e3?(d.niche||[]).filter(match):[];
   const kpis=d?(d.chiffres||[]).map(k=>`<div class="kpi"><div class="l">${esc(k.label)}</div><div class="v">${esc(k.valeur)}</div>${k.variation?`<div class="d ${dir(k.sens)}">${esc(k.variation)}</div>`:""}</div>`).join(""):"";
   main.innerHTML=`
-    ${d&&d.resume&&(Date.now()-new Date(d.updatedAt))<36*3600e3?`<section class="brief"><h2>L'essentiel ${TABS[state.tab].label} <small style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0;text-transform:none;color:var(--dim);font-weight:400"> · ${esc(fmtDate(d.updatedAt))}${d.par==="ia"?" · résumé par l'IA":""}</small></h2><p>${esc(d.resume)}</p></section>`:""}
+    ${d&&d.resume&&(Date.now()-new Date(d.updatedAt))<36*3600e3?`<section class="brief"><h2>L'essentiel ${TABS[state.tab].label} <small style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:0;text-transform:none;color:var(--dim);font-weight:400"> · ${esc(fmtDate(d.updatedAt))}${d.par==="ia"?" · résumé par "+esc(modelLabel(d.modele,"l'IA")):""}</small></h2><p>${esc(d.resume)}</p></section>`:""}
     ${kpis&&fresh?`<div class="kpis">${kpis}</div>`:""}
     <div class="toolbar"><h3><span class="livedot"></span>En direct</h3><input class="search" id="q" type="search" placeholder="Filtrer (ex : Binance, taux…)" value="${esc(state.q)}"></div>
     <div class="livemeta">${state.live?`${liveF.length} infos sur les dernières 24 h · mis à jour ${ago(state.live.updatedAt)} · actualisé automatiquement`:"Chargement du fil…"}</div>
