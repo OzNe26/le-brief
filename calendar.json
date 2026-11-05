@@ -1,86 +1,6 @@
 {
-"updatedAt": "2026-11-04T22:30:36+00:00",
+"updatedAt": "2026-11-05T06:17:45+00:00",
 "events": [
-{
-"d": "2026-11-04T10:00:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Indice ISM des services",
-"sub": "🇺🇸 États-Unis · prévu 54.8 · précédent 54.9",
-"imp": 2
-},
-{
-"d": "2026-11-04T12:00:00+01:00",
-"allday": true,
-"cat": "resultats",
-"title": "Résultats de Toyota Motor",
-"sub": "TM · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "TM"
-},
-{
-"d": "2026-11-04T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de McDonald's",
-"sub": "MCD · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "MCD"
-},
-{
-"d": "2026-11-04T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Novo Nordisk",
-"sub": "NVO · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "NVO"
-},
-{
-"d": "2026-11-04T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Uber",
-"sub": "UBER · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "UBER"
-},
-{
-"d": "2026-11-04T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Circle",
-"sub": "CRCL · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "CRCL"
-},
-{
-"d": "2026-11-04T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Riot Platforms",
-"sub": "RIOT · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "RIOT"
-},
-{
-"d": "2026-11-04T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Arm",
-"sub": "ARM · après la clôture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "ARM"
-},
-{
-"d": "2026-11-04T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Qualcomm",
-"sub": "QCOM · après la clôture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "QCOM"
-},
 {
 "d": "2026-11-05T08:30:00-05:00",
 "allday": false,
@@ -219,6 +139,24 @@
 "sub": "NVDA · après la clôture de Wall Street · trimestre clos Oct/2026",
 "imp": 3,
 "tick": "NVDA"
+},
+{
+"d": "2026-11-18T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de TJX Companies (The)",
+"sub": "TJX · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "TJX"
+},
+{
+"d": "2026-11-18T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Palo Alto Networks",
+"sub": "PANW · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "PANW"
 },
 {
 "d": "2026-12-09T20:00:00+01:00",
