@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-05T12:12:07+00:00",
+"updatedAt": "2026-11-05T17:59:26+00:00",
 "events": [
 {
 "d": "2026-11-05T08:30:00-05:00",
@@ -17,6 +17,15 @@
 "sub": "COP · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "COP"
+},
+{
+"d": "2026-11-05T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Sony",
+"sub": "SONY · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "SONY"
 },
 {
 "d": "2026-11-05T22:05:00+01:00",
@@ -76,15 +85,6 @@
 "sub": "MARA · après la clôture de Wall Street · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "MARA"
-},
-{
-"d": "2026-11-11T12:00:00+01:00",
-"allday": true,
-"cat": "resultats",
-"title": "Résultats de Cisco Systems",
-"sub": "CSCO · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "CSCO"
 },
 {
 "d": "2026-11-12T22:05:00+01:00",
