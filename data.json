@@ -1,12 +1,12 @@
 {
  "general": {
-  "updatedAt": "2026-11-05T13:59:39+00:00",
-  "resume": "La France connaît une journée de grève nationale mobilisant salariés, fonctionnaires et jeunes pour les salaires, tandis que le budget 2027 a été rejeté à l'unanimité à l'Assemblée nationale. Aux États-Unis, les élections de mi-mandat marquent un recul pour le camp républicain sur fond de tensions internes. Dans la tech, des cyberattaques sophistiquées ont visé l'iPhone, Binance et le Crédit mutuel Arkéa.",
+  "updatedAt": "2026-11-05T14:00:34+00:00",
+  "resume": "Une journée de grève nationale mobilise salariés, fonctionnaires et jeunes en France pour réclamer des hausses de salaires. À l'international, les élections de mi-mandat aux États-Unis sont marquées par des tensions chez les Républicains, tandis qu'à Hong Kong, l'activiste Joshua Wong est condamné à une peine supplémentaire. Dans le secteur technologique, des pirates affirment avoir contourné une protection de l'iPhone et Motorola dévoile de nouveaux produits.",
   "chiffres": [],
   "items": [
    {
     "titre": "Mobilisation du 5 novembre : l'Intérieur dénombre 270 000 manifestants dans 180 cortèges, la CGT en compte 250 000 dans plus de 73 villes",
-    "resume": "Une journée de grève nationale mobilise des centaines de milliers de personnes en France pour réclamer des hausses de salaires, avec des manifestations dans de nombreuses villes.",
+    "resume": "Une journée de mobilisation nationale en France rassemble des centaines de milliers de manifestants à l'appel des syndicats pour demander des augmentations de salaires.",
     "source": "franceinfo",
     "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html#xtor=RSS-3-[lestitres]",
     "date": "5 nov.",
@@ -14,26 +14,17 @@
     "categorie": "France"
    },
    {
-    "titre": "« Les midterms 2026 marquent un sérieux coup de frein, pas un coup d’arrêt, au trumpisme débridé »",
-    "resume": "Les élections de mi-mandat aux États-Unis voient les démocrates freiner la domination républicaine au Congrès, sur fond de divisions internes chez les conservateurs après la défaite.",
-    "source": "Le Monde International",
-    "url": "https://www.lemonde.fr/idees/article/2026/11/05/les-midterms-2026-marquent-un-serieux-coup-de-frein-pas-un-coup-d-arret-au-trumpisme-debride_6806866_3232.html",
+    "titre": "EN DIRECT, midterms 2026 : la guerre en Iran fracture le camp Trump, une élection qui pourrait être historique dans le Mississippi",
+    "resume": "Les élections de mi-mandat aux États-Unis créent des divisions au sein du Parti républicain, certains attribuant les difficultés électorales à la guerre en Iran.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/international/live/2026/11/05/en-direct-midterms-2026-la-guerre-en-iran-fracture-le-camp-trump-une-election-qui-pourrait-etre-historique-dans-le-mississippi_6805528_3210.html",
     "date": "5 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Budget 2027 rejeté à l'unanimité: \"Une fin de règne qui est un peu pathétique\", tacle Marine Le Pen, candidate Rassemblement national à la présidentielle",
-    "resume": "La partie recettes du projet de loi de finances pour 2027 a été rejetée à l'unanimité par les députés à l'Assemblée nationale.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/politique/front-national/video-budget-2027-rejete-a-l-unanimite-une-fin-de-regne-qui-est-un-peu-pathetique-tacle-marine-le-pen-candidate-rassemblement-national-a-la-presidentielle_VN-202611050501.html",
-    "date": "5 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
     "titre": "Le mode Isolement des iPhone est \"une protection extrême\" face aux cyberattaques ciblées selon Apple: des hackers ont pourtant réussi à jailbreaker un iPhone 18 Pro protégé par cette fonction",
-    "resume": "Des pirates informatiques sont parvenus à déjouer le mode de protection extrême d'Apple sur un iPhone 18 Pro en utilisant un fichier PDF malveillant.",
+    "resume": "Des hackers d'une entreprise de cybersécurité affirment avoir réussi à déjouer le mode Isolement d'Apple sur un iPhone 18 Pro.",
     "source": "BFMTV",
     "url": "https://www.bfmtv.com/tech/cybersecurite/le-mode-isolement-des-i-phone-est-une-protection-extreme-face-aux-cyberattaques-ciblees-selon-apple-des-hackers-ont-pourtant-reussi-a-jailbreaker-un-i-phone-18-pro-protege-par-cette-fonction_AN-202611050536.html",
     "date": "5 nov.",
@@ -41,8 +32,17 @@
     "categorie": "Tech"
    },
    {
+    "titre": "A Hongkong, Joshua Wong, figure du mouvement prodémocratie, condamné à dix ans de prison supplémentaires : « Cela doit avoir un effet dissuasif » d’après le juge",
+    "resume": "Joshua Wong, figure du mouvement pro-démocratie à Hong Kong, est condamné à dix ans de prison supplémentaires pour collusion avec des forces étrangères.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/international/article/2026/11/05/a-hongkong-joshua-wong-figure-du-mouvement-prodemocratie-condamne-a-dix-ans-de-prison-supplementaires-cela-doit-avoir-un-effet-dissuasif-d-apres-le-juge_6806869_3210.html",
+    "date": "5 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
     "titre": "Des millions d'euros volés, une attaque inédite, une enquête ouverte... Ce que l'on sait du piratage du Crédit mutuel Arkéa",
-    "resume": "Le groupe bancaire Crédit mutuel Arkéa a été victime d'une cyberattaque sophistiquée ayant permis le vol de plusieurs millions d'euros, sans impacter les comptes des clients.",
+    "resume": "Le groupe bancaire Crédit mutuel Arkéa a été victime d'une cyberattaque sophistiquée ayant entraîné le vol de plusieurs millions d'euros.",
     "source": "franceinfo",
     "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-millions-d-euros-voles-une-attaque-inedite-et-une-enquete-ouverte-ce-que-l-on-sait-du-piratage-du-credit-mutuel-arkea_8269124.html#xtor=RSS-3-[lestitres]",
     "date": "5 nov.",
@@ -50,21 +50,21 @@
     "categorie": "Économie"
    },
    {
-    "titre": "A Hongkong, Joshua Wong, figure du mouvement prodémocratie, condamné à dix ans de prison supplémentaires : « Cela doit avoir un effet dissuasif » d’après le juge",
-    "resume": "À Hong Kong, la figure du mouvement pro-démocratie Joshua Wong a été condamnée à dix ans de prison supplémentaires pour collusion avec des forces étrangères.",
+    "titre": "Les six gravures de Picasso volées dans un restaurant près de Cannes ont été retrouvées un mois plus tard",
+    "resume": "Six gravures de Picasso, dérobées le mois dernier dans un restaurant près de Cannes, ont été retrouvées et les suspects interpellés.",
     "source": "Le Monde",
-    "url": "https://www.lemonde.fr/international/article/2026/11/05/a-hongkong-joshua-wong-figure-du-mouvement-prodemocratie-condamne-a-dix-ans-de-prison-supplementaires-cela-doit-avoir-un-effet-dissuasif-d-apres-le-juge_6806869_3210.html",
+    "url": "https://www.lemonde.fr/culture/article/2026/11/05/les-six-gravures-de-picasso-volees-dans-un-restaurant-pres-de-cannes-ont-ete-retrouvees-un-mois-plus-tard_6806863_3246.html",
     "date": "5 nov.",
     "impact": "flat",
-    "categorie": "Monde"
+    "categorie": "Culture"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-05T13:59:39+00:00",
-  "resume": "Le Bitcoin a dépassé les 80 000 dollars suite aux élections de mi-mandat aux États-Unis, entraînant un rebond généralisé du marché crypto. Parallèlement, la pression réglementaire et politique s'intensifie, notamment autour des activités crypto de la famille Trump et de nouvelles normes fiscales à Hong Kong. Le secteur reste également confronté à des défis de sécurité majeurs, illustrés par des piratages et l'usage de l'IA par des hackers.",
+  "updatedAt": "2026-11-05T14:00:34+00:00",
+  "resume": "Le Bitcoin a franchi la barre des 80 000 dollars suite aux élections de mi-mandat aux États-Unis, entraînant un rebond généralisé du marché crypto. Parallèlement, les démocrates préparent des enquêtes sur les activités crypto de la famille Trump après leur victoire. En France, le rejet du budget 2027 par les députés entraîne la suppression provisoire des nouvelles taxes sur les cryptomonnaies.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -94,7 +94,7 @@
   "items": [
    {
     "titre": "Bitcoin atteint 80 000 $ US, INDODAX étudie la reprise des sentiments du marché des crypto-monnaies",
-    "resume": "Le cours du Bitcoin a franchi la barre symbolique des 80 000 dollars, soutenu par le sentiment post-électoral américain.",
+    "resume": "Le Bitcoin a atteint un nouveau sommet historique au-dessus de 80 000 dollars, soutenu par le sentiment post-électoral américain et l'accumulation par les baleines.",
     "source": "VOI.ID",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QMkEtWGlmRHFwNDZLVUFMcXdfbXFZZTJOMVZ3bXY4OVpYbzhJUVJ6MlQ0Q0ZSTHhHemhNYmRiNmxEUmRhbTJJX9IBQkFVX3lxTE8yMDFqeFhMNXJFRzJRZm5tMmdPTVBGMzgzU1p0ckNWcjBkY3lTbV82NmtGMkd2VDlfMy0ybUlyci0tUQ?oc=5",
     "date": "5 nov.",
@@ -102,31 +102,31 @@
    },
    {
     "titre": "Les démocrates préparent des enquêtes sur les affaires crypto de la famille Trump",
-    "resume": "Après leur victoire aux midterms, les démocrates américains préparent des enquêtes sur les activités crypto liées à la famille Trump.",
+    "resume": "Après leur victoire aux élections de mi-mandat, les démocrates préparent des enquêtes sur les activités crypto de la famille Trump.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/les-democrates-preparent-des-enquetes-sur-les-affaires-crypto-de-la-famille-trump/",
     "date": "5 nov.",
     "impact": "flat"
    },
    {
-    "titre": "CZ alerte : l'IA dépasse la sécurité crypto après piratage Binance (6,3 Md$)",
-    "resume": "Le fondateur de Binance alerte sur le fait que l'intelligence artificielle surpasse désormais la sécurité crypto, suite à un piratage massif de 6,3 milliards de dollars.",
-    "source": "Bitcoin News",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNkwyU1IyVkJMVDJGMGw1QzNkMHI2WEJqdFVOd0FYUUdmRHFNejNxYTZjUzd5LVZLVDlYVm5aeUE1c3cySE1uenoxSmFVblpLYUNmeF82dThob2FpRDdjbjY0YWp2YVFncHBnbzJkTXVNSzRyblE3R3hjSkQzT3h1dEJQNFRad3pvWnRTRU9rakdTRUFiS3FqRUJYSnhHLThITVBpdjJ1RWZwa0luT2c?oc=5",
-    "date": "5 nov.",
-    "impact": "baisse"
-   },
-   {
     "titre": "Budget 2027 : le rejet du texte fait tomber les nouvelles taxes sur les cryptomonnaies",
-    "resume": "Le rejet du budget 2027 par les députés français entraîne l'abandon provisoire de nouvelles taxes sur les cryptomonnaies.",
+    "resume": "Le rejet du budget 2027 par l'Assemblée nationale française fait tomber provisoirement les projets de taxation des stablecoins et de déclaration des portefeuilles.",
     "source": "Cryptoast",
     "url": "https://cryptoast.fr/rejet-budget-2027-amendements-crypto-annules/",
     "date": "5 nov.",
     "impact": "flat"
    },
    {
+    "titre": "Après le piratage de Binance, Coinbase affirme conserver hors ligne plus de 99 % des actifs de ses clients",
+    "resume": "Coinbase annonce conserver plus de 99 % des actifs clients hors ligne pour rassurer après le piratage massif de Binance.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/apres-le-piratage-de-binance-coinbase-affirme-conserver-hors-ligne-plus-de-99-des-actifs-de-ses-clients/",
+    "date": "5 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Amundi tokenise son fonds STOXX Europe 600 sur Ethereum : la blockchain entre dans l'investissement indiciel",
-    "resume": "Amundi a tokenisé un fonds indiciel européen sur la blockchain Ethereum, marquant une nouvelle étape dans l'adoption institutionnelle.",
+    "resume": "Amundi lance la tokenisation de son fonds indiciel STOXX Europe 600 sur la blockchain Ethereum.",
     "source": "FranceTransactions.com",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONThlSWhKaFJTUS1QUWZiaUJZb0F2MGV4MUV3RkFkY3Z4NjBnMkEwV1JmbkFxY2RiMy1KTWR3MHROeUNERTU5dmNoVEE3d1V3SWhXTDd3YUxIR1poQ3ZQLW1Mc0JkYmdQRlRHb0RiWkpXLWZUdTNfSFdlNzYwS041cGVIWVpzWjgwdlFGdmJtWXpGa19GVm5lNjlESkw0Ni1Sa2dZNHB3NXh4Wml6VXR4UklyVTU5Zw?oc=5",
     "date": "5 nov.",
@@ -134,7 +134,7 @@
    },
    {
     "titre": "Polygon veut un hard fork pour rendre 70 millions de POL volés à Polymarket et Binance",
-    "resume": "Polygon propose une mise à jour forcée (hard fork) pour tenter de récupérer 70 millions de tokens POL dérobés lors des piratages de Binance et Polymarket.",
+    "resume": "Polygon propose un hard fork pour récupérer 70,5 millions de jetons POL volés lors des piratages de Binance et Polymarket.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/actualites/polygon-hard-fork-recuperer-70-millions-pol-polymarket-binance/",
     "date": "5 nov.",
@@ -146,36 +146,36 @@
   "niche": [
    {
     "titre": "Zcash s'apprête à geler 16 millions de dollars placés dans son plus ancien pool de confidentialité",
-    "resume": "Zcash va geler 16 millions de dollars dans son ancien pool de confidentialité Sprout lors d'une mise à niveau.",
+    "resume": "Zcash va geler 16 millions de dollars en ZEC dans son ancien pool de confidentialité Sprout lors de la mise à niveau NU7.",
     "source": "Cryptoast",
     "url": "https://cryptoast.fr/zcash-apprete-geler-16-millions-dollars-places-plus-ancien-pool-confidentialite/",
     "date": "5 nov.",
-    "pourquoi": "Cette action force les détenteurs de ZEC dans ce pool à migrer leurs fonds avant le gel, ce qui pourrait influencer la liquidité ou le cours de l'actif.",
+    "pourquoi": "Les détenteurs de ZEC dans ce pool doivent retirer leurs fonds avant le gel. Cela pourrait influencer la liquidité ou le cours du ZEC.",
     "impact": "flat"
    },
    {
     "titre": "Tether Gold : 25,7 tonnes d’or en coffre et un record à 3,44 milliards de dollars",
-    "resume": "Tether Gold a vu ses réserves d'or augmenter de 59 % en neuf mois, atteignant 3,44 milliards de dollars.",
+    "resume": "Tether Gold (XAUT) a vu ses réserves d'or augmenter de 59 % en neuf mois, atteignant 3,44 milliards de dollars.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/economie/tether-gold-xaut-25-tonnes-or-record-3-44-milliards/",
     "date": "5 nov.",
-    "pourquoi": "Cela montre une demande croissante pour les stablecoins adossés à des actifs réels comme l'or, offrant une alternative de diversification.",
-    "impact": "flat"
+    "pourquoi": "Cette croissance montre un intérêt accru pour les stablecoins adossés à des actifs physiques comme l'or, à surveiller pour le secteur des RWA.",
+    "impact": "hausse"
    },
    {
-    "titre": "Prévision Bitcoin : 24 912 calls contre 8 223 puts, ce que décide l’expiration de vendredi",
-    "resume": "Pour l'expiration des options de vendredi, on observe 24 912 options d'achat (calls) contre 8 223 options de vente (puts) sur le Bitcoin.",
-    "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNek1uMWZxaklPSVNtNHh5YWJ4R29aZi1sZTBMRFFUX0JVdjdwM2dDM2VPNVVhYTQwd0c4N2RuckJ1MjcwckVQSjJGdVQwUHZWWkI4UWgtNjRFbnk4TUprUUF4by1HdG0xU3VoZ2o3Tl85clJRMUlMVDNZSVJGMmdteTgwcU5VN00?oc=5",
+    "titre": "Ozapay : 92,7 M d’OZA retirés d’un verrou Solsale avant terme",
+    "resume": "92,7 millions de jetons OZA ont été retirés prématurément d'un coffre Solsale et immédiatement vendus.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/ozapay-927-m-doza-retires-dun-verrou-solsale-avant-terme/",
     "date": "5 nov.",
-    "pourquoi": "Ce déséquilibre important en faveur des calls indique un fort sentiment haussier à court terme chez les traders d'options.",
-    "impact": "hausse"
+    "pourquoi": "Cet événement signale une pression de vente soudaine sur le jeton OZA et soulève des questions sur la sécurité des launchpads Solana.",
+    "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-05T13:59:39+00:00",
-  "resume": "Les marchés boursiers américains et européens sont orientés à la hausse, portés par une rotation sectorielle post-électorale aux États-Unis. La Banque d'Angleterre a relevé ses taux directeurs pour la première fois en plus de trois ans. De nombreuses entreprises ont publié leurs résultats trimestriels, avec des fortunes diverses pour des titres comme Snap ou Ralph Lauren.",
+  "updatedAt": "2026-11-05T14:00:34+00:00",
+  "resume": "Les marchés boursiers américains et européens affichent une tendance haussière, soutenus par une rotation sectorielle post-élections américaines. La Banque d'Angleterre a relevé ses taux directeurs pour la première fois en plus de trois ans. De nombreuses entreprises ont publié des résultats trimestriels supérieurs aux attentes, bien que certaines réactions boursières soient mitigées.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,7 +213,7 @@
    },
    {
     "titre": "CAC 40 : Cette «rotation sectorielle» qui porte le CAC 40 (+0,8%) depuis l'issue des élections aux États-Unis",
-    "resume": "Le CAC 40 progresse, soutenu par des mouvements de rotation sectorielle suite aux résultats des élections américaines.",
+    "resume": "Le CAC 40 progresse, porté par une rotation des investissements sectoriels suite aux résultats électoraux aux États-Unis.",
     "source": "BFM Bourse",
     "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-cette-rotation-sectorielle-qui-porte-le-cac-40-08-depuis-l-issue-des-elections-aux-etats-unis-1173235.html",
     "date": "5 nov.",
@@ -221,31 +221,31 @@
    },
    {
     "titre": "Snap : action -10 % après des résultats et une croissance d'utilisateurs décevants",
-    "resume": "L'action Snap chute lourdement après l'annonce de résultats et d'une croissance du nombre d'utilisateurs inférieurs aux attentes.",
+    "resume": "L'action Snap chute lourdement après l'annonce de résultats et d'une croissance du nombre d'utilisateurs inférieurs aux prévisions.",
     "source": "Invezz",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOM0FOMVE5MFRUa0pBYXdZdlprVlJZVUstM1BFZ0JxOUt6NmRJczlnWGhSWV9tZ1J0Y2wwTmtfYnpWSC03M3NZWUFQZFJxeDNSVGNEOUlVcG5JWE9WcFV2enhSLUxWVk1DUjZ6R3hBZUJVMTVOSlJhV0NVUDU0clF0UThWVzI5X3ZyUGkwRDBpbHlLVHctSUZUaGE5R0Q3QWtkejFLcXE3TUcySVpOU0t4azRCMFV1dGRaRjFKVHhBWEhiUUtOQ3NKZQ?oc=5",
     "date": "5 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le BPA de Unity Software a dépassé les attentes de 0,41$, le CA a surpassé les prévisions",
-    "resume": "Unity Software voit son action grimper après avoir publié un bénéfice par action et un chiffre d'affaires supérieurs aux prévisions.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/earnings/le-bpa-de-unity-software-a-depasse-les-attentes-de-041-le-ca--a-surpasse-les-previsions-3678573",
-    "date": "5 nov.",
-    "impact": "hausse"
-   },
-   {
     "titre": "JC DECAUX SA. : Ils peuvent diffuser 6 pubs en une minute au lieu d'une... Grâce à ses écrans numériques et à un ciblage publicitaire plus précis, JCDecaux surclasse les attentes, la Bourse aPPR (ex Pinault…",
-    "resume": "JCDecaux dépasse les attentes grâce à la performance de ses écrans numériques et un ciblage publicitaire optimisé.",
+    "resume": "JCDecaux dépasse les attentes grâce à la performance de ses écrans numériques et à un ciblage publicitaire optimisé.",
     "source": "BFM Bourse",
     "url": "https://www.tradingsat.com/jc-decaux-sa-FR0000077919/actualites/jc-decaux-sa-ils-peuvent-diffuser-6-pubs-en-une-minute-au-lieu-d-une-grace-a-ses-ecrans-numeriques-et-a-un-ciblage-publicitaire-plus-precis-jcdecaux-surclasse-les-attentes-la-bourse-apprecie-1173233.html",
     "date": "5 nov.",
     "impact": "hausse"
    },
    {
+    "titre": "Le BPA de Unity Software a dépassé les attentes de 0,41$, le CA a surpassé les prévisions",
+    "resume": "Unity Software voit son action grimper après avoir publié un bénéfice par action et un chiffre d'affaires supérieurs aux estimations.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/earnings/le-bpa-de-unity-software-a-depasse-les-attentes-de-041-le-ca--a-surpasse-les-previsions-3678573",
+    "date": "5 nov.",
+    "impact": "hausse"
+   },
+   {
     "titre": "Ralph Lauren dépasse les attentes mais son action recule",
-    "resume": "Malgré des résultats meilleurs que prévu, le titre Ralph Lauren enregistre une baisse en Bourse.",
+    "resume": "Malgré des résultats dépassant les attentes, le cours de l'action Ralph Lauren enregistre un recul.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/earnings/ralph-lauren-depasse-les-attentes-mais-son-action-recule-3679050",
     "date": "5 nov.",
@@ -261,7 +261,7 @@
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/company-news/liberty-media-rachete-les-actions-a-droit-de-vote-eleve-de-john-malone-93CH-3679142",
     "date": "5 nov.",
-    "pourquoi": "Ce rachat modifie la structure de gouvernance de Liberty Media, impactant potentiellement le contrôle de l'entreprise et ses futures décisions stratégiques.",
+    "pourquoi": "Cela pourrait signaler une consolidation du contrôle ou une restructuration du capital chez Liberty Media, à surveiller pour les actionnaires.",
     "impact": "flat"
    },
    {
@@ -270,28 +270,28 @@
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/company-news/tradeweb-enregistre-une-hausse-de-263-des-volumes-en-octobre-93CH-3678741",
     "date": "5 nov.",
-    "pourquoi": "Cette hausse indique une activité accrue sur les marchés obligataires et dérivés, ce qui peut signaler une volatilité ou des changements de positionnement des investisseurs institutionnels.",
+    "pourquoi": "Cette hausse indique une activité accrue sur les marchés financiers, ce qui peut profiter aux plateformes de trading électronique comme Tradeweb.",
     "impact": "hausse"
    },
    {
     "titre": "LifeMD s’associe à Eli Lilly pour distribuer des médicaments GLP-1",
-    "resume": "LifeMD collabore avec Eli Lilly pour la distribution de médicaments de la classe GLP-1.",
+    "resume": "LifeMD s'associe à Eli Lilly pour la distribution de médicaments de la classe GLP-1.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/company-news/lifemd-sassocie-a-eli-lilly-pour-distribuer-des-medicaments-glp1-93CH-3678739",
     "date": "5 nov.",
-    "pourquoi": "Ce partenariat dans le secteur de la santé pourrait stimuler la croissance de LifeMD en la positionnant sur le marché très porteur des traitements contre l'obésité.",
+    "pourquoi": "Ce partenariat dans le secteur de la santé pourrait stimuler la croissance de LifeMD grâce à la demande pour ces traitements.",
     "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-05T13:59:39+00:00",
-  "resume": "La hausse continue des taux de crédit immobilier pèse sur le pouvoir d'achat des ménages et freine les transactions. Face à cette situation, le ministre du Logement envisage de modifier la règle limitant l'endettement à 35 %. Parallèlement, le marché locatif reste tendu avec des loyers en augmentation dans les grandes villes.",
+  "updatedAt": "2026-11-05T14:00:34+00:00",
+  "resume": "La hausse continue des taux de crédit immobilier pèse sur le pouvoir d'achat des ménages et freine les transactions, bien que le ministre du Logement envisage de réformer la règle des 35 % d'endettement. Parallèlement, le marché locatif se tend avec des loyers en augmentation dans les grandes villes, tandis que les prix de l'ancien amorcent une baisse en Île-de-France. Face à la crise du logement, une large majorité de Français compte en faire un critère de vote déterminant pour la prochaine élection présidentielle.",
   "chiffres": [],
   "items": [
    {
     "titre": "Immobilier : la hausse des taux de crédit plombe les achats de logements",
-    "resume": "L'augmentation des taux d'emprunt impacte directement le volume des achats immobiliers, rendant l'accès à la propriété plus difficile.",
+    "resume": "L'augmentation des taux d'emprunt impacte directement la capacité d'achat des ménages, entraînant une diminution du nombre de transactions immobilières.",
     "source": "MoneyVox",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeFBqdzlJeXB4RlZ3VzJkVU9hQldleFRjNUZ2dlc4bVlTSmZ0blpyYkZVeVdUTXlQSEFpRTlYb2gtOThvanFwTVA5eWtCbFJhcktRdTNFRE5IZVdObnF3d1diS0d2Q3IzN0ZZWWxlZmpJMm1GamVONTkzcWlhdnBEQnk2a3NVM0pURmZ4MVdtVjdTTXduaXZkakkxZmU4X1k3UHVPY2RUbXFtazJpMXVMRzYwZTM0dUpTVUgw?oc=5",
     "date": "5 nov.",
@@ -299,7 +299,7 @@
    },
    {
     "titre": "Crédit immobilier : la règle des 35 % bloque votre projet ? Le ministre du Logement veut la faire évoluer",
-    "resume": "Le ministre du Logement souhaite assouplir la règle des 35 % de taux d'effort maximum pour débloquer certains projets d'achat.",
+    "resume": "Le ministre du Logement souhaite modifier la règle limitant l'endettement à 35 % des revenus afin de faciliter l'accès au crédit pour les emprunteurs bloqués.",
     "source": "L'Union",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdlBiQUR5aE1ZTUh5SE5QM1FvZnVxelhLUjBCUjBVZXljQUhmY1ppZW1DVVVoUlFkd0Q1VTJfWlFqSlhVZDVHVXNUNGtfTEV2aDhuNzFWQlowZF9YenZ6dUdfUldJVmlndVRYUjRMek9jS2h0eTlPVGJ0RXBNSGM3SDg1VjlaN0RaRFIwWGJwZy1XRUhTeDFxTWZNRHlLR1RULWNqR1lJNTc3YkhQMGpFY1p4M0ctQXQxLW1rVTNGUUpoelZaVmc?oc=5",
     "date": "5 nov.",
@@ -307,7 +307,7 @@
    },
    {
     "titre": "Baromètre locatif 2026 : les loyers augmentent dans les 50 plus grandes villes de France",
-    "resume": "Les loyers progressent dans les 50 plus grandes communes françaises, confirmant la tension sur le marché locatif.",
+    "resume": "Le baromètre locatif indique une progression des loyers dans les 50 plus grandes communes françaises, accentuant la tension sur ce marché.",
     "source": "Meilleurs Agents",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObDNJODhpUG5qRzZPZTFEVWlMeDdHTlNlcDBJb0RPZWpYRGk4MFVwT0lfdWw5NXdQNVVTWDVSdlZESm1idXFrSmNITFYzNEVHanB0cnFPVFJtNEdha2VseHlnOVZvMnFMWVdpM1VINzN3TFg0blh3Q05fM253cldrMHVsRzlQWHFyX2FDdUoxZWJmUDJOcjZDaXJqZVMxd3lieXZKSVhaZ0J2R1pIc3NFY0laYzI0cUMzcTNlX19lMlBZNWxSSzRBQTY0UQ?oc=5",
     "date": "5 nov.",
@@ -315,57 +315,57 @@
    },
    {
     "titre": "Immobilier en Île-de-France : les prix chutent jusqu’à 20 % dans certaines communes",
-    "resume": "En Île-de-France, certains biens subissent des baisses de prix importantes, atteignant jusqu'à 20 %.",
+    "resume": "En Île-de-France, le marché immobilier enregistre des baisses de prix significatives, atteignant jusqu'à 20 % dans certaines localités.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMXpkM3ZsUmw4SWJSZ1FiQ3Rsa0Y1eUtTVXZ6SGxBMFRMY3VXNmtIM0FwWGM0WEd4V2lrdHQyaWRwUktyQVlVdW4xTGZFRnNINmpZcDhOU0FqSVpCY3FxakZheTJFeVFDVUxlV1VjeGFGLUtSVUNreUp4Q2JJSHhwaFI3SzN6R0c4VjhLRWJiY0J0UWxVcDdCYjhtS2Q5RS0yd3ZaVXcwVzlWUUFnLUdFYnBHNno?oc=5",
     "date": "5 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "\"Politiquement, le logement ne rapportait rien\": les Français en ont assez d'étouffer à cause du logement, 76% comptent désormais en faire un critère de vote en 2027",
+    "resume": "Une forte majorité de Français (76 %) considère désormais la problématique du logement comme un enjeu électoral majeur pour la présidentielle de 2027.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNRXJaR29IajlHVEpKaFU0M3UyaHYxdV9uNGx4M3F6cXNRVkkxM2VKSl9QVWZhTEV1YlpUc2FLVGlEc2pSdkVkcFFCbnpEMGE1ZV81NFlJNFVmWDRvd1ZkTk1zcGNCcTZlZUhqRVZGM1phbEJnV0g4Z3NHbmlqM1F2eHo3WmNmT2xxRm9aejY2bGdibUdQRzJadGZpa1pUQzJPNEdPR3ZiZEYyOXNYNDFQOXU0ZlpENG5zX20xR0hfckZ1Y05XRlR4aTV0emVBVnExakh0N24teVFJWFJXbGxiZTRMd3FfRHd5bmZtRTBlZ3Vyai1ZS0hWejlibF8tWktvSFVXVWJoTVlTdXdrOGdsaVZCUl9uODhISzIxbnRkRlNwYnc2TmNUMldUd21mVXloSVQ5b25iZVQ?oc=5",
+    "date": "5 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Fonds immobiliers grand public : entre valeurs réajustées et collecte au ralenti",
-    "resume": "Les fonds immobiliers grand public (SCPI) font face à une collecte ralentie et à des ajustements de la valeur de leurs actifs.",
+    "resume": "Les fonds immobiliers destinés au grand public font face à un ralentissement de la collecte et à un ajustement de la valeur de leurs actifs.",
     "source": "Profession CGP",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTno0RG9kNDR2QkRhZmxta1VxSzlfNmxTZzFDbWVILTVtYVZSdllZclpTRVZVT3d6bXlXUnBidWNWYjdlcE9hSjlLNGk5OXNqc0hkcUctMWtMc2RURElldlVRTFRWUVhEaFFCQ2hGU0xEdVRQZ3RQRlZjdU1UMW9CQWdpOS1ucTdpdmVvZ3M3U0xZbFVwTVlPYW5XTW5CNGJ6QlpELTM1d0VTVEN6LS1oY1I1ZF9KYVU1N1lTR2JGN1lBNmJBMmpaZlB0X2czck5fcldfaDdvaGdfd2M?oc=5",
     "date": "5 nov.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Faux RIB du notaire : les 5 contrôles qui protègent l'apport et le prix d'un achat immobilier",
-    "resume": "La vigilance est de mise lors des transactions pour éviter les fraudes au faux RIB de notaire et protéger les fonds.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5heE12OXlsdlZCUnIzeEctSWJaaXhTRldpT1oySGM3MDNkcGlid1QtaHNwb01lN0haLWxDSFVCOTJCcVpxc1BCUFFQY190X3dOZzRUcl9mUWxDcUdTMVpueGt3?oc=5",
-    "date": "5 nov.",
-    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
+    "titre": "Luberon, Alpilles, Uzès : pourquoi les acheteurs américains passent devant les Britanniques",
+    "resume": "Les acheteurs américains deviennent plus actifs que les Britanniques dans des secteurs prisés comme le Luberon ou les Alpilles.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Jdms1QlVmVjNRaTFydXlEdW1fU0ZiQ1E1ZzNaYXBtZGg5TmtONXNINVF1Rk5nZzhNUjlHcjJsZGpfQTVWaUJWbVJOY1ZiNkRyRHBqWlBmNG01S3VsNnpUN3ZjM1JvdUU?oc=5",
+    "date": "5 nov.",
+    "pourquoi": "Cela signale un déplacement de la demande étrangère haut de gamme. Il faut surveiller l'impact sur les prix dans ces micro-marchés de luxe.",
+    "impact": "hausse"
+   },
+   {
     "titre": "Airbnb : le nombre de locations à l'année en hausse en Ile-de-France",
-    "resume": "Le nombre de locations Airbnb à l'année augmente en Île-de-France.",
+    "resume": "Le nombre de locations Airbnb à l'année est en augmentation en Île-de-France.",
     "source": "Les Echos",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa3luTndpV2FvMUpoTTRsdDUzMTFzSW9SOWRIOXJvZEZKTkJRMU11MzUzUHFBLVdScjFHTDlfVERqQTFOZTFiWGRQN0h6V3dFUW80V0Vyb3F5ZGxKblhWUnVlQkFiR3ByZU5VcW5pYkEyenp5bmpUZy1XUU9yRUFQc2E3UnpvSWxIWmxrdFdaZDdSVVdKSk50YUJodnNfZkY4S01xYWo5MlJPZDFnTmZGbG1NNUJ5QkttdTFZ?oc=5",
     "date": "5 nov.",
-    "pourquoi": "Cela indique une possible stratégie de rendement locatif court terme pour les investisseurs, malgré les réglementations potentielles.",
+    "pourquoi": "Cette tendance pourrait réduire l'offre locative classique et influencer la réglementation locale. Utile pour l'investissement locatif parisien.",
     "impact": "hausse"
    },
    {
     "titre": "Immobilier : Casavo vise jusqu’à 10 rachats de réseaux en France en 2027",
-    "resume": "Casavo prévoit d'acquérir jusqu'à 10 réseaux d'agences en France d'ici 2027.",
+    "resume": "La proptech Casavo ambitionne d'acquérir jusqu'à dix réseaux immobiliers en France d'ici 2027.",
     "source": "MySweetImmo",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbm9nOW4wY19IWWtycmtDRVpDdGljM2kwb1dxckIxRlRTOVJnZzF0SnMxR0VfTnJ6cFZpM3hhMFUtUmFwaDk5Wi1JM2Qyc1ZLemZpMW5WVF9xQUQ4XzQzMFlWQmY0anNnU09OUFpmak5fNWM0emcyYkdPNlZqSXpTUG9UZjlVUHhORmhib1JOdW0wSnVkb0xSemlMVFB2OGVFTTFXdmZ3clRKdzB5aGc?oc=5",
     "date": "5 nov.",
-    "pourquoi": "Ce mouvement signale une consolidation en cours chez les intermédiaires immobiliers, à surveiller pour l'évolution des services.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Immobilier à Lyon : le changement climatique transforme le marché",
-    "resume": "Le changement climatique commence à transformer le marché immobilier lyonnais.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV3Y5Yk02cjl1WUlpd2xudl9zMVBCRFNDcTd4TG9YSlNJa3BZWXQ4RUNHSkFtR3R2aEhPTDJseW94VHZSdWpyQ0VIdlpVZUpiSjN4SlFVTXF3eklna2w1SXpNMTVsWnNwVW9BSUNrdEc3T1JKNEZ0ZlNrMWdIZXl0VFRXWkl5UmxXSTktWWdxTEo5VGd0LUpqd0ktVDhkYmV3dkc4Z2VaLS11NjU1SjlqWnd2UzA?oc=5",
-    "date": "5 nov.",
-    "pourquoi": "La performance thermique et l'adaptation climatique deviennent des critères de valorisation à long terme pour les actifs.",
+    "pourquoi": "Cela montre une volonté de consolidation des acteurs de la transaction. À suivre pour l'évolution des services et des frais d'agence.",
     "impact": "flat"
    }
   ]
