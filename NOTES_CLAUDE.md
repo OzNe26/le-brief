@@ -30,6 +30,7 @@ GEMINI_API_KEY, MISTRAL_API_KEY, GROQ_API_KEY, ALERT_SECRET (Web Push / VAPID d�
 - Mode clair : fond blanc (#fff), bouton ☀️/🌙, suit l'appareil par défaut. Logo orange fixe ; « Invest » orange sur l'accueil.
 - Bandeau TradingView en mode "regular" (une ligne) sur toutes les tailles d'écran ; plus de graphiques latéraux.
 - Alertes panne réservées à l'admin (ADMIN_IDS dans index.html et health.py).
+- Icônes d'appli (apple-touch-icon, img/icon-*.png) : carré orange plein bord, SANS coins arrondis ni transparence (iOS/macOS/Android arrondissent eux-mêmes ; sinon bordure noire). Maskable = logo réduit à 80 %. Changer ?v= dans index.html + manifest et la VERSION de sw.js à chaque nouvelle icône.
 
 ## Problèmes connus
 - SEC EDGAR bloque les IP de GitHub Actions (403) → Dataroma pour les 13F. Burry, Druckenmiller, Cathie Wood absents.
