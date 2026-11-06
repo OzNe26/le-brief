@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-06T15:53:51+00:00",
-  "resume": "L'actualité est marquée par un tragique accident de car dans l'Ain ayant causé la mort de deux jeunes et par la mise en service du nouveau TGV M par la SNCF. En économie, les valeurs liées à l'IA chutent en Bourse après les élections de mi-mandat américaines. Par ailleurs, de nouvelles fausses alertes à la bombe ont visé des avions survolant la France.",
+  "updatedAt": "2026-11-06T20:21:48+00:00",
+  "resume": "L'actualité est marquée par de fortes tensions sociales en France, avec de nouvelles manifestations prévues et des débats sur le maintien de l'ordre. À l'international, Donald Trump effectue ses premières nominations post-électorales tandis que l'UE fait pression sur TikTok. En économie, l'emploi américain rebondit et la succession à la tête de la BCE se précise.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Accident de car dans l'Ain : les deux morts sont une fille de 7 ans et un jeune homme de 18 ans, annonce le ministre des Transports",
-    "resume": "Un grave accident de car est survenu dans l'Ain, provoquant le décès d'une fillette de 7 ans et d'un jeune homme de 18 ans.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/faits-divers/accident/direct-accident-d-un-car-scolaire-dans-l-ain-deux-enfants-sont-morts-le-ministre-des-transports-attendu-sur-place_8270534.html#xtor=RSS-3-[lestitres]",
+    "titre": "Donald Trump nomme Stephen Miller, représentant de la droite identitaire, au poste stratégique de directeur de cabinet",
+    "resume": "Donald Trump a nommé Stephen Miller, figure de la droite identitaire, comme directeur de cabinet après la défaite républicaine aux élections de mi-mandat.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/international/article/2026/11/06/donald-trump-nomme-stephen-miller-representant-de-la-droite-identitaire-au-poste-strategique-de-directeur-de-cabinet_6807861_3210.html",
     "date": "6 nov.",
     "impact": "flat",
-    "categorie": "France"
+    "categorie": "Monde"
    },
    {
-    "titre": "Chute en Bourse des valeurs liées à l'IA après les midterms: «Ça pourrait freiner la croissance américaine»",
-    "resume": "Les actions des entreprises spécialisées dans l'intelligence artificielle ont fortement baissé en Bourse suite à la victoire démocrate aux midterms américaines.",
+    "titre": "L'UE exige que TikTok modifie ses flux personnalisés, accusés d'effets «nocifs»",
+    "resume": "L'Union européenne exige que TikTok modifie ses flux vidéo personnalisés, jugés nocifs pour la santé mentale des utilisateurs.",
     "source": "RFI",
-    "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-international/20261106-chute-en-bourse-des-valeurs-li%C3%A9es-%C3%A0-l-ia-apr%C3%A8s-les-midterms-%C3%A7a-pourrait-freiner-la-croissance-am%C3%A9ricaine",
+    "url": "https://www.rfi.fr/fr/europe/20261106-l-ue-exige-que-tiktok-modifie-ses-flux-personnalis%C3%A9s-accus%C3%A9s-d-effets-nocifs",
     "date": "6 nov.",
     "impact": "flat",
-    "categorie": "Économie"
+    "categorie": "Tech"
    },
    {
-    "titre": "\"L'impression de voyager dans un autre train\": nous avons fait Paris-Marseille à bord du nouveau TGV, bluffant de confort mais la voiture-bar risque de coincer",
-    "resume": "La SNCF a lancé commercialement son nouveau TGV M sur la ligne Paris-Marseille, promettant plus de confort et d'espace.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/entreprises/transports/l-impression-de-voyager-dans-un-autre-train-nous-avons-fait-paris-marseille-a-bord-du-nouveau-tgv-bluffant-de-confort-mais-la-voiture-bar-risque-de-coincer_AN-202611060628.html",
+    "titre": "Manifestations du 7 novembre : le dispositif de sécurité \"reconduit\" avec 70 000 policiers et gendarmes mobilisés",
+    "resume": "Un important dispositif de 70 000 policiers et gendarmes est mobilisé en France face au maintien d'une nouvelle journée de manifestations.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/societe/manifestations/manifestation-du-7-novembre-le-dispositif-de-securite-reconduit-avec-70-000-policiers-et-gendarmes-mobilises_8271407.html#xtor=RSS-3-[lestitres]",
     "date": "6 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "Nouvelle série de fausses alertes à la bombe en Europe, dont quatre sur des vols survolant la France, le gouvernement annonce une enquête en cours",
-    "resume": "Le gouvernement français a annoncé l'ouverture d'une enquête après de nouvelles fausses alertes à la bombe visant des vols commerciaux.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/police-justice/video-nouvelle-serie-de-fausses-alertes-a-la-bombe-en-europe-dont-quatre-sur-des-vols-survolant-la-france-le-gouvernement-annonce-une-enquete-en-cours_VN-202611060608.html",
-    "date": "6 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "\"La plus grosse attaque informatique sur un acteur bancaire en France\": comment les banques peuvent-elles éviter une cyberattaque comme au Crédit Mutuel Arkéa?",
-    "resume": "Le Crédit Mutuel Arkéa a subi une cyberattaque majeure, entraînant un préjudice estimé à plus de 100 millions d'euros.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/crypto/la-plus-grosse-attaque-informatique-sur-un-acteur-bancaire-en-france-comment-les-banques-peuvent-elles-eviter-une-cyberattaque-comme-au-credit-mutuel-arkea_AD-202611060591.html",
+    "titre": "Aux Etats-Unis, l’accélération inattendue des créations d’emplois",
+    "resume": "Aux États-Unis, les créations d'emplois ont fortement accéléré en octobre, dépassant largement les attentes.",
+    "source": "Le Monde Économie",
+    "url": "https://www.lemonde.fr/economie/article/2026/11/06/aux-etats-unis-l-acceleration-inattendue-des-creations-d-emplois_6807852_3234.html",
     "date": "6 nov.",
     "impact": "flat",
     "categorie": "Économie"
    },
    {
-    "titre": "Stranger Things : Netflix annonce par surprise une nouvelle série préquelle, prévue pour 2028",
-    "resume": "Netflix a annoncé par surprise la production d'une série préquelle pour Stranger Things, dont la sortie est prévue pour 2028.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/pop-culture/2369601-stranger-things-netflix-annonce-par-surprise-une-nouvelle-serie-prequelle-prevue-pour-2028.html",
+    "titre": "Un duel entre les pays du Nord et ceux du Sud de l'Europe: la succession de Christine Lagarde à la tête de la BCE va se jouer entre l'Espagnol Pablo Hernandez de Cos et le Néerlandais Klaas Knot",
+    "resume": "La course à la succession de Christine Lagarde à la présidence de la Banque centrale européenne se jouera entre les candidats espagnol et néerlandais.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/un-duel-entre-les-pays-du-nord-et-ceux-du-sud-de-l-europe-la-succession-de-christine-lagarde-a-la-tete-de-la-bce-va-se-jouer-entre-l-espagnol-pablo-hernandez-de-cos-et-le-neerlandais-klaas-knot_AD-202611060796.html",
     "date": "6 nov.",
     "impact": "flat",
-    "categorie": "Culture"
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Accident de car dans l’Ain : deux morts et 29 blessés, le chauffeur placé en garde à vue",
+    "resume": "Un accident de car dans l'Ain a causé la mort de deux personnes et blessé 29 autres ; le chauffeur s'est probablement assoupi.",
+    "source": "Le Monde.fr",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdHRvS2xDbWhpR1ZUdGpBdXo4ZzZqOWFPV2kzb3YtdVhQNENBbU4yRS14Zm12N1RrRDRaZzJsODA1SmY0RHlZWl9QNDdRMEx4c0ktS2NwWHJQZ1l0akkzcWt4Nk9peW9KUzY5a1lPNkl0RF9CenhjYnFsQXhlYlhlcEVMY05jNWpXMUlvZjdHRGUxNF9CcXBLMXhrVkVZVHZhRWVwS1lTN2NETml0eVFfZ2hzUUZFaW41aGVsTGplTzRmQy13YWJZMjZkVjJuR0RIR0xEQ3V5c1d2VGhaVDVLZGhGeTk1cXRn?oc=5",
+    "date": "6 nov.",
+    "impact": "flat",
+    "categorie": "France"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-06T15:53:51+00:00",
-  "resume": "Le marché crypto a connu une forte correction, marquée par plus d'un milliard de dollars de liquidations haussières et des sorties massives des ETF Bitcoin et Ether. Cette baisse est accentuée par la chute des valeurs technologiques à Wall Street et des données sur l'emploi américain qui pourraient influencer la politique de la Fed. En parallèle, la Russie et le Bhoutan avancent sur l'ouverture de leurs marchés aux cryptomonnaies, tandis que la Chine enquête sur Solana.",
+  "updatedAt": "2026-11-06T20:21:48+00:00",
+  "resume": "Le marché des cryptomonnaies a connu une forte baisse, le Bitcoin chutant sous les 75 000 dollars, entraînant plus d'un milliard de dollars de liquidations de positions haussières. Parallèlement, les ETF Bitcoin américains ont enregistré d'importantes sorties nettes de capitaux. Sur le plan réglementaire, la Russie finalise ses règles pour le trading de cryptomonnaies, tandis que Binance annonce la fermeture des comptes de ses utilisateurs français.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,50 +93,50 @@
   ],
   "items": [
    {
-    "titre": "Liquidations crypto : plus d’un milliard de dollars de positions haussières effacées en 24 heures",
-    "resume": "Plus d'un milliard de dollars de positions haussières ont été liquidées de force en 24 heures suite à une chute du marché.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/bitcoin/liquidations-crypto-plus-milliard-dollars-paris-hausse/",
+    "titre": "Bitcoin chute à 75 700 $ US avec des liquidations de 1,1 Md$ US",
+    "resume": "Le cours du Bitcoin a dégringolé, touchant les 75 700 dollars et provoquant la liquidation forcée de positions haussières pour un montant dépassant le milliard de dollars.",
+    "source": "PortalCripto",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDJ3Q1pxUnpNamtRUXlhVlpPWHhkNXM1V2stLWxYX05XLVhNM2UwMFZiVUtiV05KYzZNN0pTaDYtUk54MG1NLXlBRjVfU0NkZ2NhWmt6YWlGdGZ3aklrZ3AzcjZWQ0tIaGlJdnNLcWtGQmNmbFR6NGVZVkVtMFdwX0FuQmZHbmJlZ3lxeVZZZmhJLVpZT0E?oc=5",
     "date": "6 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Les ETF Bitcoin et Ether subissent 530 millions de dollars de retraits en pleine chute de Wall Street",
-    "resume": "Les ETF Bitcoin et Ether ont enregistré des retraits nets de 530 millions de dollars le 5 novembre, dans un contexte de débâcle boursière.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/les-etf-bitcoin-et-ether-subissent-530-millions-de-dollars-de-retraits-en-pleine-chute-de-wall-street/",
+    "titre": "Les ETF spot Bitcoin aux États-Unis ont 430 millions de dollars de sorties nettes",
+    "resume": "Les ETF Bitcoin au comptant aux États-Unis ont subi une désaffection marquée, avec des sorties nettes atteignant 430 millions de dollars sur une seule journée.",
+    "source": "PortalCripto",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOckRjdEd3MEdIenJlQnFGcktoa0NlRzUxNTFlWW1TYmc3LXRYM2l5aUptTVpSTEYzZWl6MFROelNQaG00RzA2cGpOSHhfR3B2Ym9hVzVLbEdja09JSkhxZ2xUR0IwUjFJcWlHbWtVaDdkamQwMDZkaThCY0NZWTRpdDRfSVZ1eXYxRTV1QllZVjZtemQ3VFVpbC1pSDBrNHpkNmRuU2hFSFBGQTdweEZjVWVR?oc=5",
     "date": "6 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "L’emploi américain dépasse les prévisions, faisant baisser l’or et le cours de Bitcoin",
-    "resume": "Des chiffres de l'emploi américain meilleurs que prévu ont fait baisser le cours du Bitcoin, les investisseurs anticipant une possible hausse des taux de la Fed.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/or-bitcoin-baisse-emploi-us/",
-    "date": "6 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Crypto : la Banque de Russie ouvre bitcoin, ether et USDT aux particuliers",
-    "resume": "La Banque de Russie va permettre aux particuliers d'acheter du Bitcoin, de l'Ether et de l'USDT à partir du 17 novembre, sous conditions.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/banque-russie-crypto-ouvre-bitcoin-ether-usdt/",
-    "date": "6 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Solana dans le viseur de la Chine : la banque centrale ouvre une enquête",
-    "resume": "La banque centrale chinoise enquête sur Solana et a fait annuler des événements liés à cette blockchain à Shanghai.",
+    "titre": "Binance annonce la clôture des comptes de ses utilisateurs français au 31 décembre",
+    "resume": "La plateforme d'échange Binance a informé ses clients résidant en France de la clôture définitive de leurs comptes prévue pour le 31 décembre.",
     "source": "Cryptoast",
-    "url": "https://cryptoast.fr/chine-banque-centrale-enquete-solana-shanghai-accelerate/",
+    "url": "https://cryptoast.fr/binance-annonce-cloture-comptes-utilisateurs-francais-31-decembre/",
     "date": "6 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    },
    {
-    "titre": "Gnosis Pay : fuite de données pour les détenteurs de sa carte crypto",
-    "resume": "Gnosis Pay a subi une fuite de données concernant les détenteurs de sa carte crypto.",
+    "titre": "La Russie finalise les règles de trading des cryptomonnaies avant leur mise en œuvre le 17 novembre",
+    "resume": "La Russie s'apprête à mettre en œuvre, dès le 17 novembre, un cadre réglementaire finalisé pour encadrer le trading des cryptomonnaies.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwWmNpM043UU9ZRU1IUThPNnhTUmVCY0xQSWVvY1drYWpYaGVXR2ZTdldSaWNfb2k2MExmTWpsZTVWTDdlOUpaeEx3QjM3OXJ4NmFVbEZlQWJaejNtVHYyNGJwakNHTldnZ3FsNnJYNA?oc=5",
+    "date": "6 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Piratage de Binance : 3,1 milliards de dollars que la Corée du Nord n’arrive pas à blanchir",
+    "resume": "La Corée du Nord éprouve des difficultés à blanchir 3,1 milliards de dollars en cryptomonnaies, soit la moitié du butin issu d'un piratage massif contre Binance.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/exchanges/piratage-binance-3-1-milliards-dollars-coree/",
+    "date": "6 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Ethereum reporte Glamsterdam, sa prochaine mise à jour, pour des questions de sécurité",
+    "resume": "Les développeurs d'Ethereum ont décidé de reporter la mise à jour Glamsterdam afin de résoudre des problèmes de sécurité potentiels.",
     "source": "Cryptoast",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzN3l4WERNOHNFRFN1dmhyRkt5RVdJeUpZVXNBYkFTbkxrVFI1TGRqMXZDRDVvSG5lM2x0Q3J1dGhDeGR6cnhyblE4N3VCakRUa1BsOXFHVW5Xb1lpeG9ZYnphTlB1clpXOEVwamJXNTdIS0xfZ3NV?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcnNmMy1TTFBwRkRCdjAtVnQ5a3VRWEVxY0lDMzN1U1BFdDl4VW40ek10cHhGcVRaUXplanhEWmJwazZlYkJKcUlHNTlJTDFTeDhvcDlrM04teHJ6eTVCVmRoSmwzcGl1REVWSUNGa3JYNkF5Zk9uckdFczRUekU0TFNLOUdTVGIz?oc=5",
     "date": "6 nov.",
     "impact": "flat"
    }
@@ -150,41 +150,41 @@
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/ethereum/amundi-tokenise-fonds-indiciel-ethereum/",
     "date": "6 nov.",
-    "pourquoi": "Cela signale l'adoption croissante de la tokenisation par les grands gestionnaires d'actifs traditionnels, au-delà des fonds monétaires.",
-    "impact": "flat"
+    "pourquoi": "Cela signale l'adoption croissante de la tokenisation par les grands gestionnaires d'actifs traditionnels, ce qui pourrait à terme augmenter l'utilisation et la valeur du réseau Ethereum.",
+    "impact": "hausse"
    },
    {
-    "titre": "La Grèce approuve une taxe de 10 % sur les gains en cryptomonnaies et une imposition de 15 % sur les revenus DeFi",
-    "resume": "La Grèce approuve une taxe de 10 % sur les gains crypto et de 15 % sur les revenus de la DeFi.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRnZOZl91RFVnSDdzMHhwOVpSS251dUphQ0s1WVVJMTNhV0ktR1lVRzE1ckR5aVUta1BTZ3ViemYxNnljamEzckRmbnQ2QjFLaEZxbXh2d2VDRmpGN3lkUktQTy1RV2c3Rk9GSFBlQ3k0b1VCMURucEdQQlNzYTdFbEE1OWtiQ2FiVjRfOTdWWE0yTTlocXNsQ0cwQWhRbkJBaTRMTUxadlBZSXhCS1RaVw?oc=5",
+    "titre": "Bittensor (TAO) lance des portefeuilles résistants à l’informatique quantique",
+    "resume": "Bittensor (TAO) a dévoilé des portefeuilles conçus pour résister aux futures attaques de l'informatique quantique.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/bittensor-tao-wallets-resistants-quantique-signatures/",
     "date": "6 nov.",
-    "pourquoi": "Cette nouvelle fiscalité pourrait influencer le comportement des investisseurs locaux et servir de précédent pour d'autres pays européens.",
-    "impact": "flat"
+    "pourquoi": "Cette avancée en matière de sécurité pourrait renforcer la confiance des investisseurs dans le projet TAO et le secteur de l'IA décentralisée face aux menaces technologiques futures.",
+    "impact": "hausse"
    },
    {
     "titre": "Zcash modifie ses règles et bloque définitivement l’accès à 12 224 ZEC",
-    "resume": "La mise à jour NU7 de Zcash a rendu définitivement inaccessibles 12 224 ZEC de l'ancien pool Sprout.",
+    "resume": "La mise à jour NU7 de Zcash a rendu définitivement inaccessibles 12 224 ZEC conservés dans un ancien pool protégé.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/zcash-modifie-ses-regles-et-bloque-definitivement-lacces-a-12-224-zec/",
     "date": "6 nov.",
-    "pourquoi": "Cela réduit l'offre en circulation de Zcash, un facteur technique à surveiller pour la valorisation de cet actif.",
-    "impact": "flat"
+    "pourquoi": "Cette réduction forcée de l'offre en circulation de ZEC pourrait théoriquement soutenir son prix si la demande reste stable.",
+    "impact": "hausse"
    },
    {
-    "titre": "Bhoutan : Un décret royal ouvre les réserves de la future banque centrale de Gelephu aux cryptos",
-    "resume": "Un décret royal au Bhoutan autorise la future banque centrale de Gelephu à détenir des cryptomonnaies.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/bitcoin/bhoutan-decret-reserves-banque-centrale-cryptos/",
+    "titre": "Solana dans le viseur de la Chine : la banque centrale ouvre une enquête",
+    "resume": "La banque centrale chinoise a fait annuler des événements liés à Solana à Shanghai et a lancé une enquête.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/chine-banque-centrale-enquete-solana-shanghai-accelerate/",
     "date": "6 nov.",
-    "pourquoi": "Cette initiative, adossée au minage hydroélectrique, montre l'intégration des cryptos dans les réserves d'État.",
-    "impact": "flat"
+    "pourquoi": "Cela souligne la pression réglementaire persistante en Chine, ce qui pourrait impacter négativement le sentiment et l'activité autour de Solana dans la région.",
+    "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-06T15:53:51+00:00",
-  "resume": "Wall Street tente de rebondir après une forte baisse la veille, soutenue par des chiffres de l'emploi américain meilleurs que prévu. Cependant, ces données solides relancent les craintes d'une hausse des taux par la Fed en décembre. Le marché reste inquiet face aux perspectives de croissance, notamment dans le secteur technologique.",
+  "updatedAt": "2026-11-06T20:21:48+00:00",
+  "resume": "Les marchés boursiers affichent une tendance mitigée, Wall Street tentant de rebondir grâce à la technologie tandis que la Bourse de Paris recule face à l'aversion pour le risque. L'économie américaine montre des signes de solidité avec un rapport sur l'emploi robuste, ce qui soutient le dollar mais pourrait encourager la Fed à relever ses taux. Dans l'actualité des entreprises, DraftKings chute lourdement après ses résultats alors qu'Oracle baisse suite à la fin d'un accord avec Microsoft.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,89 +213,89 @@
   ],
   "items": [
    {
-    "titre": "États-Unis : +165 000 emplois en octobre, renforce les paris sur une hausse des taux en déc.",
-    "resume": "L'économie américaine a créé 165 000 emplois en octobre, dépassant les attentes et renforçant la probabilité d'une hausse des taux d'intérêt.",
-    "source": "Invezz",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYldwbERZV3ktZFJEdVQ2emZtNlZVOTBERUhJa1FuZVlhRU14Xzc2Zm1ydE5XSEJqRHJiMHNMMjRIQ2lvYkZNdFlGOXVpa09FeDhpMlJpZDdZWUJsLVRERFQ5VlRKaUEzd2NGdWsxdXczVVhjbFNZMW81RllkV2puR1ZUcTVsR3hydjR6SlB4YnVhTzZOMlpUdHRXTVdCVWtVYmZxd0E3UWxjS2NVWi1TN2JkZFJUQ2dvUmxpSGl6QV9zTlN4WmVlS25Qb0U?oc=5",
-    "date": "6 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Wall Street tente un rebond, mais reste loin de compenser la déroute de jeudi",
-    "resume": "La Bourse de New York essaie de se reprendre mais ne parvient pas à effacer les pertes massives enregistrées jeudi.",
-    "source": "Zonebourse",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTm5McVo0cWVFOHNhOE5oMHVEVjNzTE9LRHZla3VmTWo4SUN0SVROM1FIVFlTdExTSTZFUTlXY2ZnSkFuMjhTVDhqWEZGOGdmMTJQaVE0ajMxSWtDQkVVYUJ3SUpHZ2dVd2c3Ym56UUJFZnpsYjRXdHRBeXJYSWY5Q3B5NzRDWmJfdW10QnJLOXp2b3E4T2VOTGJMRXhqOEM0WEFxSThFOUxhMVc0ekJxb2V4eVppYmtyNDdMaU9hdXMxU0lXTkxQdUJ0WUVaejlfd3hn?oc=5",
-    "date": "6 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Pourquoi l’action Intel est-elle en forte hausse aujourd’hui ?",
-    "resume": "L'action Intel progresse nettement, se distinguant dans un secteur technologique par ailleurs sous pression.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-intel-estelle-en-forte-hausse-aujourdhui--93CH-3683107",
+    "titre": "Le dollar en hausse, profite d'un rapport sur l'emploi robuste aux Etats-Unis",
+    "resume": "Le dollar américain se renforce suite à la publication de données sur l'emploi meilleures que prévu aux États-Unis.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfVEhvTU5OZnB5WHlQak1RYU9lQTlIQmpjNnh4anFmNWxwem16X3lnRmNxbVdmcWVxdUZ6MTBQd1p5SFM0TU8wZDhWUmttdWtUMWhITm44bFp3SXJaUU1aZ1RR?oc=5",
     "date": "6 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Extreme Networks bondit de 15% sur des rumeurs de cession",
-    "resume": "Le titre Extreme Networks grimpe de 15% suite à des spéculations sur une éventuelle vente de l'entreprise.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/extreme-networks-bondit-de-15-sur-des-rumeurs-de-cession-3683109",
-    "date": "6 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Les ventes d’Ikea reculent à 43,8 milliards € sous la pression de l’inflation",
-    "resume": "Ikea rapporte une baisse de ses ventes annuelles à 43,8 milliards d'euros, l'inflation pesant sur le pouvoir d'achat des consommateurs.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/les-ventes-dikea-reculent-a-438-milliards--sous-la-pression-de-linflation-3683074",
+    "titre": "L'action de DraftKings chute de plus de 26 % après la mise à jour des résultats du troisième trimestre 2026.",
+    "resume": "Le titre DraftKings dégringole de plus de 26 % après la révision à la baisse de ses résultats pour le troisième trimestre.",
+    "source": "Quartz en Français",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWRpVHRVVU11aHZRd2RHYnJkMGtEaVM0Vms3SEhhbXlTZkhKVUxuRGRyQWV2dThqcy1kOWRVb01XZktZdWIybmx5Q2tYS0l2V2trVHBmU0lmVkpCWTBETEtnOVB0ak9KRmtidG1MQXk5VnJnRlctOUlTLXNnLVQxdk1TR3EyZGs5UGYwdg?oc=5",
     "date": "6 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "L’action Icahn Enterprises atteint un plus bas de 52 semaines à 4,96$",
-    "resume": "L'action Icahn Enterprises a touché un nouveau plus bas sur 52 semaines, s'échangeant à 4,96 dollars.",
+    "titre": "La Fed devrait encore relever ses taux pour juguler l’inflation",
+    "resume": "La Réserve fédérale américaine pourrait procéder à de nouvelles hausses de taux pour contrer la persistance de l'inflation.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/laction-icahn-enterprises-atteint-un-plus-bas-de-52-semaines-a-496-93CH-3683073",
+    "url": "https://fr.investing.com/news/economy-news/la-fed-devrait-encore-relever-ses-taux-pour-juguler-linflation-3683286",
     "date": "6 nov.",
     "impact": "baisse"
+   },
+   {
+    "titre": "Oracle chute de 4% après que Microsoft aurait mis fin à un accord cloud IA",
+    "resume": "L'action Oracle recule de 4 % après l'annonce de la fin potentielle d'un partenariat cloud IA avec Microsoft.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/oracle-chute-de-4-apres-que-microsoft-aurait-mis-fin-a-un-accord-cloud-ia-3683250",
+    "date": "6 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "La Bourse de Paris termine dans le rouge dans un climat d'aversion pour le risque",
+    "resume": "Le CAC 40 termine la séance en baisse, pénalisé par un climat d'incertitude et de prudence chez les investisseurs.",
+    "source": "France 24",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTllOTkU2QzdoTEtoY1FPOUo2STZyc2RJS0JOWmZBRnFUdmJBWFdEY3J0bXJkMFZncmM3SXVrTDA5OVQwdEpIWFg5WGdmZ1dnQWs1WUpZN1JrSEl6SnZfZWp0d0c4QW44RFlRM3NGQURDWWRIeXJEUVNNTGo5eTVPWTE0MTZYZ1ZOU2ZETl9ONEdkcjJEQ1VCcldQM0IyVnRuSDI0eGRuamwtRllzYTJwdEoyblgtbE9rOEI2X0w2Rk9ra1FFTGVOZ2JpVG8tb0U?oc=5",
+    "date": "6 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Les marchés d’options américains enregistrent un volume record",
+    "resume": "Le volume d'activité sur les marchés d'options américains a atteint un niveau record.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/les-marches-doptions-americains-enregistrent-un-volume-record-93CH-3683292",
+    "date": "6 nov.",
+    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Pourquoi l’action Lumentum s’envole-t-elle aujourd’hui ?",
-    "resume": "L'action Lumentum connaît une forte hausse aujourd'hui.",
+    "titre": "Le PDG de Kennametal, Sanjay Chowbey, achète des actions KMT pour 165.368$",
+    "resume": "Le PDG de Kennametal a acheté pour environ 165 000 $ d'actions de sa propre entreprise.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-lumentum-senvoletelle-aujourdhui--93CH-3683072",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-kennametal-sanjay-chowbey-achete-des-actions-kmt-pour-165368-93CH-3683282",
     "date": "6 nov.",
-    "pourquoi": "Cette forte variation sur une valeur technologique spécifique pourrait signaler un catalyseur sectoriel ou propre à l'entreprise à surveiller.",
+    "pourquoi": "Un achat d'initié important peut signaler une confiance de la direction dans l'avenir de la société Kennametal (KMT).",
     "impact": "hausse"
    },
    {
-    "titre": "Machina Labs remporte un contrat drone du Pentagone grâce à l’IA",
-    "resume": "Machina Labs a obtenu un contrat du Pentagone pour des drones utilisant l'intelligence artificielle.",
+    "titre": "vVardis vise une introduction en bourse jusqu’à 24 $ par action",
+    "resume": "La société vVardis prépare son introduction en bourse avec un prix cible allant jusqu'à 24 $ par action.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/machina-labs-remporte-un-contrat-drone-du-pentagone-grace-a-lia-93CH-3683023",
+    "url": "https://fr.investing.com/news/stock-market-news/vvardis-vise-une-introduction-en-bourse-jusqua-24--par-action-432SI-3683327",
     "date": "6 nov.",
-    "pourquoi": "Cela souligne l'intérêt croissant de la défense pour l'IA, pouvant impacter les secteurs de la tech militaire et de l'IA.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Hawkeye Digital s’associe à Securitize pour tokeniser ses actions",
-    "resume": "Hawkeye Digital collabore avec Securitize pour tokeniser ses actions.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/hawkeye-digital-sassocie-a-securitize-pour-tokeniser-ses-actions-93CH-3682724",
-    "date": "6 nov.",
-    "pourquoi": "Cet événement illustre la tendance de la tokenisation d'actifs réels, un développement important pour le secteur de la blockchain et de la finance.",
+    "pourquoi": "Cela signale une nouvelle opportunité d'investissement dans le secteur de la santé et permet de jauger l'appétit pour les IPO.",
     "impact": "flat"
+   },
+   {
+    "titre": "L’action Ashland Inc atteint un plus haut sur 52 semaines à 78,26 $",
+    "resume": "L'action Ashland Inc a atteint un nouveau sommet sur 52 semaines à 78,26 $.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/company-news/laction-ashland-inc-atteint-un-plus-haut-sur-52-semaines-a-7826--93CH-3683321",
+    "date": "6 nov.",
+    "pourquoi": "Cette performance indique une dynamique haussière forte pour cette valeur du secteur chimique, à surveiller.",
+    "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-06T15:53:51+00:00",
-  "resume": "Les taux de crédit immobilier continuent de grimper, franchissant parfois la barre des 4 %, ce qui pèse lourdement sur le pouvoir d'achat des ménages. Malgré une baisse des prix observée dans certaines régions, celle-ci ne suffit pas à compenser le coût des emprunts, entraînant un allongement de la durée des prêts et une accumulation des biens à vendre. Le marché locatif est également sous pression, avec une hausse des locations Airbnb en Île-de-France et des débats sur l'encadrement des loyers.",
+  "updatedAt": "2026-11-06T20:21:48+00:00",
+  "resume": "La tendance actuelle du marché immobilier français est marquée par une hausse continue des taux de crédit, qui franchissent parfois la barre des 4 %. Parallèlement, les prix de l'immobilier amorcent une baisse dans plusieurs régions, sans toutefois compenser l'augmentation du coût des emprunts pour les acheteurs. Le marché locatif voit la colocation et les locations Airbnb se développer, tandis que l'investissement dans les passoires thermiques attire pour ses rendements potentiels.",
   "chiffres": [],
   "items": [
    {
@@ -307,56 +307,65 @@
     "impact": "baisse"
    },
    {
+    "titre": "Prix de l’immobilier : la baisse s’installe en novembre 2026",
+    "resume": "Une diminution des prix de l'immobilier est observée en ce mois de novembre 2026.",
+    "source": "Mon Immeuble",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVlBZcGs5a2NVcGt0NEJwM2ZMdjl4VUo4ekZCRWFFZk1IS2V0RUZSdFV2TW56WVRYRjVMTWlLR2dZczkxb184RTlxU2RBcWs4djZJUGt4azAtR2JYZmcwYVpieklTNEVERVR2a1JXbWo0eGhKb2RjQUhJMlJpYVI0MWFWbUtYSDdERWR2cFplT215Yk1z?oc=5",
+    "date": "6 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "Immobilier : la baisse des prix ne suffit pas à compenser la hausse des taux",
-    "resume": "La diminution actuelle des prix de l'immobilier ne parvient pas à compenser l'augmentation du coût des crédits pour les acheteurs.",
+    "resume": "La baisse actuelle des prix ne suffit pas à contrebalancer l'impact de la hausse des taux sur le pouvoir d'achat des acquéreurs.",
     "source": "l'Opinion",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQemlWRzlidHNwM3A1aW8wdHFMTWdRTC1OREl2VTJTMThkVGt1UUs3YUFjTzBsMjJmY2ZxWEh6TGs4dEd2ZDdpMEI4NGs1MUxkdjVjQWJ0Q2xuRDFiX3VuZnlaOGlsc0w0aVhYcjNRcklqbnJBREVuLWtDOTg0czN4dmhWSWpwNmp0a1VrQXM4MkJRYWJSRFdyRXhMYmM3MFBFWXRmaWpsVXJlazR2QkE?oc=5",
     "date": "6 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Marché immobilier : les biens à vendre s'accumulent, les acheteurs attendent une baisse de prix plus marquée",
-    "resume": "Le stock de biens disponibles à la vente augmente car les acquéreurs potentiels attendent des baisses de prix plus significatives.",
+    "titre": "Immobilier locatif : investir dans les passoires thermiques, pour rêver de rendements à 2 chiffres",
+    "resume": "L'investissement dans les logements énergivores (passoires thermiques) est envisagé pour obtenir des rendements à deux chiffres.",
     "source": "FranceTransactions.com",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOWwyOWI3U1BxdmY1eGhOVUp1dmN3UXl6VHRsRFVuOE5sWWhteWRIVnpjVmNBamhUdmV1RVJxSGpCMEVmM2NfY2Z1T0JjYjZWV3djcE10b3Q3RXduMk9EVnNSbEdWWUJOR0dZbnhqSndpN2FkZnU5TGZPSV9DNWtBM0QwNFd1ekszYzZXc1FKdUxFR1h0SWozel9SaVBFbW16YWtj?oc=5",
-    "date": "6 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Airbnb : les locations à l'année explosent en Île-de-France",
-    "resume": "En Île-de-France, le nombre de locations de courte durée type Airbnb explose au détriment des locations à l'année.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU29VdU8yTlJTYXpHNnlDZTVUU0l6aGhyVzVMMjJDVEkyOU1vMVE4OWpibWhvZENkMVJCQ202S09nRkJYbGE0WDhjYlY0S0IxOEJENmVYcUc3Vzh1OEViR0FkS3ZZWFdXQ2RBYm9sS1N2Mm5nU1lidEo3MmVlYTVSMTlqbGJLVVkyOGpKcXktdGRHbUNuemJUb3lLVXVkWnNKXzctay1QM0dxUnpYT0tfX0MxVTU?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVGN3bWNoY0F6QTBFOW52U3JiMXZkbXduZ1ZBNXVBNnZSem95V0liam4zMGxKcGhQcU5lWWw1Tm1UQlpLeWVRY19ubEJfX05FYWpocURNUENUdUM2R2ttMWtrVVZQV3dJY0xXMDRuWlRQeXZIMGFqSV9DdmNJVTEzdmg5T24wYlVRcnRNeVZleGcyWEh3QkpxTEd6MEhNMHdUY00xVk1hYVg1WTBSQ1cwMUZlbDlSZw?oc=5",
     "date": "6 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Achat immobilier : pourquoi le DPE est devenu un critère aussi important que le prix en 20 ans ?",
-    "resume": "Le Diagnostic de Performance Énergétique (DPE) est devenu un critère de choix aussi crucial que le prix lors d'un achat immobilier.",
-    "source": "Empruntis",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVFBGU1BRZ2R0WF9BcC03R0pVbXd4NG5ZOTFSVlRYSV84RGIyYlgyanRWTlRjYWdidXhuaHB4alpCVHJpaDFsWnQ2NnNBU1FUVjJ4bDVTYXo4RFlSWEFTdEdRcjdrOG1rbklIZjJFcDh4OHFRR1pPUXpQOTNKQ3ZfRmtJbXB6OVZyRHFiRUhJTzdnbXdlc0xzSmZ3aDdrRUhjRjg1Q1ZMLW9oVzB2Y0huX3Zhak1qaXdDcFZTZXV4OA?oc=5",
+    "titre": "Budget 2027 rejeté : PTZ, LMNP, APL… Que reste-t-il pour l’immobilier ?",
+    "resume": "Suite au rejet du budget 2027, l'avenir de dispositifs clés comme le PTZ, le LMNP et les APL est incertain.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYkNpMDFLYmxQWjZrRXd2S2VWNnZSYngzSENKSzZwMEtfbHFlejdRUkJOQ0d2VmxFZ052V1d6ejN4dlcxWU51UFdfMEFmWGl2Q1psOVhJTzh6Q2hYY1RtVlYwSFA2R1VWazJLYW92MUMtenc2ejEzdzRCalZKbll6cmQ2Zm5JalE?oc=5",
     "date": "6 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    },
    {
-    "titre": "Immobilier papier : faut-il se laisser tenter par les nouveaux fonds Eltif ?",
-    "resume": "De nouveaux fonds immobiliers européens (Eltif) font leur apparition, offrant une alternative pour l'investissement en 'pierre papier'.",
-    "source": "Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaF9hRjVrbEpuOGVpOFAzRVctUHhqRTVsT1FiVlFod3YtN1lkVjhNYUlFS0hzbndpRWlqRHZ6TDZCVnpEdTZadUZSUk5oNVRtNG5waWVoNElhbTQ1OWtxTHBBN3B0M2lxRDV3Q013czhVTUVENjZ5NXJXTzZCQzRWS1h2ZnZvM3BDa05DUE9zQUZyeklvQ2ViT1JieXhud21pU21iUjFrMHBNcnpjbEJsVWFjcWFqT082Mk9ER2RfUk1WZlE?oc=5",
+    "titre": "Bouygues Immobilier : un CA en repli de 13 % sur un an",
+    "resume": "Bouygues Immobilier enregistre une baisse significative de 13 % de son chiffre d'affaires sur un an.",
+    "source": "Immo Matin",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWEFueUp1b0gyZUxubDEwT0xWdXVJQmxiSW1fNE15YVM0REViUE9tYjhiN2tIRmF6VFdQYlMwZnEyZGY1enJkcEM1Mk54UlhjZ3dZZW1PNENZelRKbUpjei1pcTN4ZndrRHRhUFdUbWd2VEFPalpKbGlhYXlxUFVqY2ZjVEJBeTZJN1dNdzVJNnhkNVlkUEdfcWt4WXd1NndHWDNnMFdTYXF5VHdpVHFLazZCRm1JOFplTzlwZzVXMTU?oc=5",
     "date": "6 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "À Lyon, le ralentissement du marché de bureaux profite aux entreprises",
-    "resume": "À Lyon, le marché des bureaux ralentit, offrant plus de choix et de pouvoir de négociation aux entreprises locataires.",
-    "source": "MySweetImmo",
-    "url": "https://www.mysweetimmo.com/2026/11/06/a-lyon-le-ralentissement-du-marche-de-bureaux-profite-aux-entreprises/",
+    "titre": "Immobilier papier : faut-il se laisser tenter par les nouveaux fonds Eltif ?",
+    "resume": "De nouveaux fonds Eltif sont proposés sur le marché de l'immobilier papier.",
+    "source": "Les Echos",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaF9hRjVrbEpuOGVpOFAzRVctUHhqRTVsT1FiVlFod3YtN1lkVjhNYUlFS0hzbndpRWlqRHZ6TDZCVnpEdTZadUZSUk5oNVRtNG5waWVoNElhbTQ1OWtxTHBBN3B0M2lxRDV3Q013czhVTUVENjZ5NXJXTzZCQzRWS1h2ZnZvM3BDa05DUE9zQUZyeklvQ2ViT1JieXhud21pU21iUjFrMHBNcnpjbEJsVWFjcWFqT082Mk9ER2RfUk1WZlE?oc=5",
     "date": "6 nov.",
-    "pourquoi": "Cela concerne l'immobilier d'entreprise lyonnais. Il faut surveiller l'évolution des loyers et des conditions de bail, qui pourraient devenir plus favorables aux preneurs.",
+    "pourquoi": "Cela diversifie les options d'investissement en SCPI/fonds immobiliers. Il faut surveiller leur composition et leur rendement réel.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Encadrement des loyers : Génération Libre pointe 181 millions d'euros de recettes publiques en moins par an",
+    "resume": "L'encadrement des loyers provoquerait une perte de 181 millions d'euros de recettes publiques par an.",
+    "source": "Economie Matin",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMnYxM0hVSTJVU2R3Ul9ieS0xRVdCVVZoaFVhMUxqR2hZVU1Db2ZDTE90V1RxQkxFaC1OZ295ZHdTblJGYjBDZFlzbHRjeTJRTGw2VjQyb0txdzZpX0lmYnVBU2FTUGRaREpmR2UxVllQeVhOemp1d0I0UHI5VFNrVDJvX1doX3VrUjdETUhCZzFGZ3pHNzNPMVFQcGRmMkVPeUt6ZVEzSXhNRGZ2ZmpVWTdFSWR6bFJrVHZONUhfOHExM1JYZ1Y4dFF2TVhPUQ?oc=5",
+    "date": "6 nov.",
+    "pourquoi": "Cette donnée pourrait influencer les futures décisions politiques sur l'encadrement, impactant le rendement locatif privé.",
     "impact": "baisse"
    },
    {
@@ -365,17 +374,8 @@
     "source": "Breizh-info.com",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQUkzZGs3aUxSbHJMal9hcjFub2pzREZRSDlyQktzajRIM3hOVTVuRWdidXk5cmMzWE0tdXg0bjF3bm81UDZ1bTNDRlNlcWpEYTU1WDZqcVdkelRHSG5rVmNfcUd6LW4wSnhoN2JrOWV0TlI1Q1NGd3dkTDh4Zl9wNFFlNzExVlpDR1ltUFlFdzB1cmFpcWhIeGMyaVFvSXVsdmlHb3JlLWFmdHZscnMyZU9VcWZvLUVqc0RUNXlWT3diYVhSSHhObmNsTXM2aWl5TXc?oc=5",
     "date": "6 nov.",
-    "pourquoi": "Utile pour les investisseurs cherchant à optimiser le coût total de leur crédit. Il faut comparer les offres d'assurance pour réduire les frais.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Investissement locatif : bailleurs concernés, plateforme à choisir, sanctions… 10 choses à savoir sur la facturation électronique",
-    "resume": "La facturation électronique devient obligatoire pour les bailleurs, avec des sanctions possibles.",
-    "source": "Le Particulier",
-    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxORG1pT2dWRzduUmRqU3UwTzBfakRycmFWUTRLSmxxMTVybHlseGNNaThoZ1U0WjFveTMwdmhtUDNZeWdlLXBfNTFGeFdEZlBxcUJfZHBPSVhyU2xqT1NuM1duc3R5U0hDYlNFZXlCb1drRWJ3SzVPYXFlcGpqVHdWaEgtTzIxNHBZcDM1RFFFRTZ2Y0ZWX2dfZmhlRkQ2T1VpcW5ETExvRWgyMXNBa3NSSHRENzEtVkZiVERwX3dhYTRuQTVNbFdXOTM3c19TR3NCMVlrOTFlbnRsTE9LYW5SRU9PQWh5d2tCM2UySHVCMUZaYnFKVmNlbjhRcmhHYjhzaGtQZmx2djVvdjdZUjlsem1mWXAxMzkyS2c?oc=5",
-    "date": "6 nov.",
-    "pourquoi": "Concerne la gestion locative. Les investisseurs doivent adapter leur comptabilité et choisir les bonnes plateformes pour éviter les pénalités.",
-    "impact": "flat"
+    "pourquoi": "C'est un levier pour réduire le coût total d'un crédit immobilier, à négocier lors d'un achat.",
+    "impact": "hausse"
    }
   ]
  }
