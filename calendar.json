@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-06T17:58:15+00:00",
+"updatedAt": "2026-11-06T22:25:04+00:00",
 "events": [
 {
 "d": "2026-11-06T08:30:00-05:00",
@@ -32,6 +32,15 @@
 "title": "Moral des consommateurs (Michigan)",
 "sub": "🇺🇸 États-Unis · prévu 48.1 · précédent 46.3",
 "imp": 2
+},
+{
+"d": "2026-11-06T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Berkshire Hathaway",
+"sub": "BRK.A · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "BRK.A"
 },
 {
 "d": "2026-11-09T22:05:00+01:00",
@@ -68,6 +77,15 @@
 "sub": "MUFG · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "MUFG"
+},
+{
+"d": "2026-11-13T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Sumitomo Mitsui Financial",
+"sub": "SMFG · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "SMFG"
 },
 {
 "d": "2026-11-17T13:00:00+01:00",
