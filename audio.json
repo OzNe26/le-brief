@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T15:59:18+00:00",
+ "updatedAt": "2026-11-06T19:05:33+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -132,18 +132,6 @@
    "bitrate": 0,
    "uuid": "",
    "logoSource": "https://thumb.wikimedia.org/wikipedia/fr/thumb/f/ff/Logo_de_Mouv%27_2021.svg/langfr-330px-Logo_de_Mouv%27_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
-   "label": "NRJ",
-   "cat": "Musique",
-   "name": "Nrj Hits",
-   "url": "https://streaming.nrjaudio.fm/ou7xugf3s5gi?origine=playernrj&aw_0_req.userConsentV2=&aw_0_1st.station=NRJ-Hits",
-   "logo": "logos/nrj.png",
-   "homepage": "https://www.nrj.fr/webradios/mur-des-radios/nrj-hits",
-   "codec": "AAC+",
-   "bitrate": 128,
-   "uuid": "36eba167-5c51-4421-98f0-d2cda24be928",
-   "logoSource": "https://thumb.wikimedia.org/wikipedia/fr/thumb/c/ca/Nrj2014.png/330px-Nrj2014.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
  ],
  "podcasts": [
@@ -157,6 +145,13 @@
    "query": "Matthias Baccino",
    "spotify": "https://open.spotify.com/show/033mghG4DXr2l8o2wOgeZ2",
    "episodes": [
+    {
+     "title": "Le Récap de la semaine - 06/11/2026",
+     "date": "2026-11-06T17:00:00+00:00",
+     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6aedf94bf447607cd64fe9dc/media.mp3",
+     "duration": "2:57",
+     "desc": "Pas de panique ! Oui les valeurs IA ont baissé ces derniers temps en bourse mais faut-il pour autant paniquer ? Mais aussi le pétrole qui baisse, la majorité qui change à l'assemblée américaine et la France qui décroche. C'est votre récap de la semaine ! Rende…"
+    },
     {
      "title": "Que se passe-t-il si on arrête de payer nos impôts ?",
      "date": "2026-11-04T18:10:00+00:00",
@@ -191,13 +186,6 @@
      "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ae055eb29dd53209d745416/media.mp3",
      "duration": "2:51",
      "desc": "Première alerte sur le secteur de l’IA en Bourse, la France qui s’enfonce dans la crise et un rendez-vous dimanche à 18 h. Voici votre point hebdo ! 🔴 Rendez-vous en live chaque dimanche à 18 h sur YouTube : je réponds à toutes vos questions économiques, polit…"
-    },
-    {
-     "title": "La réalité des déserts médicaux en France ! Replay Live 25/10/26",
-     "date": "2026-10-26T06:00:00+00:00",
-     "audio": "https://sphinx.acast.com/p/open/s/6a12eb57294da705c31d3351/e/6ade602cd10dc4428d2516e2/media.mp3",
-     "duration": "1:21:26",
-     "desc": "Pendant ce live, j'étais avec Alexis Mussard, cofondateur d'OùSoigner ! ⁠⁠Trois Français sur quatre vivent en zone officiellement « sous-dotée ». Ça veut dire quoi ? C'est ce que nous avons vu dans ce live. Avec OùSoigner, Alexis et son équipe aident les soign…"
     }
    ]
   },
@@ -590,6 +578,13 @@
    "spotify": "",
    "episodes": [
     {
+     "title": "Prothèses de hernie : vers un scandale sanitaire ?",
+     "date": "2026-11-06T16:27:07+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6aedff1194a26ea112b63330/media.mp3",
+     "duration": "21:49",
+     "desc": "C’est une alerte de santé publique qui fait de plus en plus de bruit. La pose d’une prothèse de hernie est une opération extrêmement courante. Mais de nombreux de patients alertent des complications dont ils souffrent depuis la pose d’un tel implant. 459 signa…"
+    },
+    {
      "title": "Nathalie revit grâce à sa stomie, sa poche digestive vue à la Fashion Week de Paris",
      "date": "2026-11-05T16:41:49+00:00",
      "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6aecacdf89ec3e946b015eb2/media.mp3",
@@ -623,13 +618,6 @@
      "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6ae4b62f35c2a1389906b29c/media.mp3",
      "duration": "20:34",
      "desc": "En Israël, aucune majorité ne s’est clairement dégagée après les élections législatives du mardi 27 octobre. La coalition sortante, menée par Benyamin Netanyahou et constituée avec l’aide des partis ultranationalistes et ultra orthodoxes, arrive en tête Mais r…"
-    },
-    {
-     "title": "La tour Triangle à Paris, 18 ans de controverses",
-     "date": "2026-10-29T15:40:28+00:00",
-     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6ae3654c89a6d7b980e7bf0a/media.mp3",
-     "duration": "16:57",
-     "desc": "Le projet de construire la tour Triangle, haute de 180 mètres, est lancé en 2008, sous l’égide de Bertrand Delanoë (PS), alors maire de Paris. Depuis l’annonce, cette pyramide de verre, située porte de Versailles (XVe), reçoit de nombreuses critiques : certain…"
     }
    ]
   },
@@ -860,49 +848,51 @@
    "spotify": "",
    "episodes": [
     {
-     "title": "IA & Data Centers : le choc de la réalité environnementale – 06/11",
-     "date": "2026-11-06T15:43:20+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/30de48b6-dcdf-4a27-a732-0e99a0befc42/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=30de48b6-dcdf-4a27-a732-0e99a0befc42&category=Business%2CNews&episode_published_at=2026-11-06T15%3A43%3A20&episode_title=IA+%26+Data+Centers+%3A+le+choc+de+la+r%C3%A9alit%C3%A9+environnementale+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:06:43",
-     "desc": "Ce vendredi 6 novembre, Anne-Catherine Husson-Traoré, fondatrice d'ACT'ors for Sustainability, explique le choc de la réalité environnementale dans le secteur de l’IA et des data centers, dans l'émission BFM Bourse présentée par Guillaume Sommerer. BFM Bourse …"
+     "title": "L'intégrale de BFM Bourse du vendredi 6 novembre",
+     "date": "2026-11-06T17:09:09+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/7e04288a-0679-4393-b800-6fcadf935080/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=7e04288a-0679-4393-b800-6fcadf935080&category=Business%2CNews&episode_published_at=2026-11-06T17%3A09%3A09&episode_title=L%27int%C3%A9grale+de+BFM+Bourse+du+vendredi+6+novembre+&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "01:49:53",
+     "desc": "Ce vendredi 6 novembre, Maxime Le Juez, gérant chez GSD Gestion, Philippe Waechter, directeur de la recherche économique chez Ostrum Asset Management, Anne-Catherine Husson-Traoré, fondatrice d'ACT'ors for Sustainability, Alice Lhabouz, fondatrice d'Alice Lhab…"
     },
     {
-     "title": "L'éco du monde : Le rapport sur l'emploi US livre son verdict – 06/11",
-     "date": "2026-11-06T15:32:19+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/06f3e730-16eb-4455-9fec-4b6c0d4ca287/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=06f3e730-16eb-4455-9fec-4b6c0d4ca287&category=Business%2CNews&episode_published_at=2026-11-06T15%3A32%3A19&episode_title=L%27%C3%A9co+du+monde+%3A+Le+rapport+sur+l%27emploi+US+livre+son+verdict+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:07:14",
-     "desc": "Ce vendredi 6 novembre, Philippe Waechter, directeur de la recherche économique chez Ostrum Asset Management, a abordé la dynamique américaine confirmée par le rapport sur l'emploi, la future nomination d'E. Warren à la présidence du Comité des banques du Séna…"
+     "title": "On refait la séance : Téléperformance chute, nouvel avertissement sur résultats – 06/11",
+     "date": "2026-11-06T17:03:11+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/e1fca9c2-f6b1-4b19-a6f8-f65e5b194b07/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=e1fca9c2-f6b1-4b19-a6f8-f65e5b194b07&category=Business%2CNews&episode_published_at=2026-11-06T17%3A03%3A11&episode_title=On+refait+la+s%C3%A9ance+%3A+T%C3%A9l%C3%A9performance+chute%2C+nouvel+avertissement+sur+r%C3%A9sultats+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:14:48",
+     "desc": "Ce vendredi 6 novembre, Maxime Le Juez, gérant chez GSD Gestion, Gilles Santacreu, trader algorithmique et administrateur du site Boursikoter.com, Julien Marion, journaliste BFMBourse.com, et Antoine Larigaudrie, journaliste BFM Business, ont débriefé la séanc…"
     },
     {
-     "title": "Nouvelle forte hausse d'Air France-KLM après un relèvement d'opinion spectaculaire – 06/11",
-     "date": "2026-11-06T15:21:20+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/4933e8a6-a92b-4218-8a0f-576e96599729/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=4933e8a6-a92b-4218-8a0f-576e96599729&category=Business%2CNews&episode_published_at=2026-11-06T15%3A21%3A20&episode_title=Nouvelle+forte+hausse+d%27Air+France-KLM+apr%C3%A8s+un+rel%C3%A8vement+d%27opinion+spectaculaire+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:11:23",
-     "desc": "Ce vendredi 6 novembre, Maxime Le Juez, gérant chez GSD Gestion, s'est penché sur Teleperformance abaissant ses prévisions 2026 après un repli de ses ventes, le nouvel élan boursier pour le groupe aérien Air France-KLM, ainsi que Wall Street tentant un rebond …"
+     "title": "Les seuils techniques incontournables sur les marchés et les valeurs – 06/11",
+     "date": "2026-11-06T16:57:51+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/10213124-68c4-45c3-bb9f-9500deee76c9/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=10213124-68c4-45c3-bb9f-9500deee76c9&category=Business%2CNews&episode_published_at=2026-11-06T16%3A57%3A51&episode_title=Les+seuils+techniques+incontournables+sur+les+march%C3%A9s+et+les+valeurs+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:01:03",
+     "desc": "Ce vendredi 6 novembre, retrouvez Alerte Trader en replay sur BFM Business."
     },
     {
-     "title": "L'intégrale de BFM Bourse du jeudi 5 novembre",
-     "date": "2026-11-05T17:17:53+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/b3147b86-ee4e-47fc-a0f8-1ab8c5883b16/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=b3147b86-ee4e-47fc-a0f8-1ab8c5883b16&category=Business%2CNews&episode_published_at=2026-11-05T17%3A17%3A53&episode_title=L%27int%C3%A9grale+de+BFM+Bourse+du+jeudi+5+novembre+&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "01:49:24",
-     "desc": "Ce jeudi 5 novembre, Mathieu Détouche, gérant de fonds actions chez Arkéa Asset Management, Florian Ielpo, en charge de la macroéconomie chez Lombard Odier IM, Matthieu Lavillunière, responsable de la recherche-actions chez Silex, Romain Daubry, consultant che…"
+     "title": "La Data Room : 400Mds $ : le montant d’émissions obligataires prévu par BNP Paribas pour les hyperscalers américains en 2027 – 06/11",
+     "date": "2026-11-06T16:42:49+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/6b3561f0-0930-4572-8b18-c734542c5e86/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=6b3561f0-0930-4572-8b18-c734542c5e86&category=Business%2CNews&episode_published_at=2026-11-06T16%3A42%3A49&episode_title=La+Data+Room+%3A+400Mds+%24+%3A+le+montant+d%E2%80%99%C3%A9missions+obligataires+pr%C3%A9vu+par+BNP+Paribas+pour+les+hyperscalers+am%C3%A9ricains+en+2027+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:02:39",
+     "desc": "Ce vendredi 6 novembre, retrouvez la Data room en replay sur BFM Business."
     },
     {
-     "title": "On refait la séance : Air France KLM monte fort après ses résultats – 05/11",
-     "date": "2026-11-05T17:08:10+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/5edb2857-0bd5-4eb2-9710-5ae79e0db4db/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=5edb2857-0bd5-4eb2-9710-5ae79e0db4db&category=Business%2CNews&episode_published_at=2026-11-05T17%3A08%3A10&episode_title=On+refait+la+s%C3%A9ance+%3A+Air+France+KLM+monte+fort+apr%C3%A8s+ses+r%C3%A9sultats+%E2%80%93+05%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:13:44",
-     "desc": "Ce jeudi 5 novembre, Sébastien Lalevée, DG de Montpensier Arbevel, Stéphane Déo, gérant ELEVA, et Romain Daubry, consultant chez BOURSE DIRECT, ont débriefé la séance du jour, dans l'émission BFM Bourse présentée par Guillaume Sommerer. BFM Bourse est à voir o…"
+     "title": "Le Club : La Tech est-elle cassée ? Les conséquences des Midterms sur les marchés – 06/11",
+     "date": "2026-11-06T16:39:21+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/c89d81a5-dea7-40e8-952f-ed33ffbe3e61/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=c89d81a5-dea7-40e8-952f-ed33ffbe3e61&category=Business%2CNews&episode_published_at=2026-11-06T16%3A39%3A21&episode_title=Le+Club+%3A+La+Tech+est-elle+cass%C3%A9e+%3F+Les+cons%C3%A9quences+des+Midterms+sur+les+march%C3%A9s+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:27:52",
+     "desc": "Ce vendredi 6 novembre, Laurent Chaudeurge, membre du comité d'investissement chez BDL Capital Management, et Florian Roger, head of CIO office chez BNP Paribas, étaient les invités de l'émission BFM Bourse présentée par Guillaume Sommerer. BFM Bourse est à vo…"
     },
     {
-     "title": "Le point sur le portefeuille trading – 05/11",
-     "date": "2026-11-05T16:59:00+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/e8347861-44b3-43d7-be52-0db0325a5fa1/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=e8347861-44b3-43d7-be52-0db0325a5fa1&category=Business%2CNews&episode_published_at=2026-11-05T16%3A59%3A00&episode_title=Le+point+sur+le+portefeuille+trading+%E2%80%93+05%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:02:05",
-     "desc": "Ce jeudi 5 novembre, Alexandre Tixier, analyste pour le site BFM Bourse, a donné son point de vue sur le CAC 40, le Wall Street, la saison des publications qui bat son plein, ainsi que sur les valeurs à suivre cette semaine, dans Le Portefeuille trading dans l…"
+     "title": "Tech stocks : Ces valeurs Tech qui offrent un possible point d'entrée – 06/11",
+     "date": "2026-11-06T16:04:30+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/52c50eeb-64c6-4432-bfeb-a3687586753c/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=52c50eeb-64c6-4432-bfeb-a3687586753c&category=Business%2CNews&episode_published_at=2026-11-06T16%3A04%3A30&episode_title=Tech+stocks+%3A+Ces+valeurs+Tech+qui+offrent+un+possible+point+d%27entr%C3%A9e+%E2%80%93+06%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:25:58",
+     "desc": "Ce vendredi 6 novembre, retrouvez Tech Stocks en replay sur BFM Business."
     }
    ]
   }
  ],
- "errors": []
+ "errors": [
+  "radio NRJ : <urlopen error [Errno -2] Name or service not known>"
+ ]
 }
