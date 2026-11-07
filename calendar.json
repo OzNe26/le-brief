@@ -1,47 +1,6 @@
 {
-"updatedAt": "2026-11-06T22:25:04+00:00",
+"updatedAt": "2026-11-07T06:03:19+00:00",
 "events": [
-{
-"d": "2026-11-06T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Salaires horaires",
-"sub": "🇺🇸 États-Unis · prévu 0.3% · précédent 0.1%",
-"imp": 3
-},
-{
-"d": "2026-11-06T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Emploi américain (NFP)",
-"sub": "🇺🇸 États-Unis · prévu 65K · précédent 29K",
-"imp": 3
-},
-{
-"d": "2026-11-06T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Taux de chômage",
-"sub": "🇺🇸 États-Unis · prévu 4.2% · précédent 4.2%",
-"imp": 3
-},
-{
-"d": "2026-11-06T10:00:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Moral des consommateurs (Michigan)",
-"sub": "🇺🇸 États-Unis · prévu 48.1 · précédent 46.3",
-"imp": 2
-},
-{
-"d": "2026-11-06T12:00:00+01:00",
-"allday": true,
-"cat": "resultats",
-"title": "Résultats de Berkshire Hathaway",
-"sub": "BRK.A · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "BRK.A"
-},
 {
 "d": "2026-11-09T22:05:00+01:00",
 "allday": false,
@@ -77,15 +36,6 @@
 "sub": "MUFG · trimestre clos Sep/2026",
 "imp": 2,
 "tick": "MUFG"
-},
-{
-"d": "2026-11-13T12:00:00+01:00",
-"allday": true,
-"cat": "resultats",
-"title": "Résultats de Sumitomo Mitsui Financial",
-"sub": "SMFG · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "SMFG"
 },
 {
 "d": "2026-11-17T13:00:00+01:00",
