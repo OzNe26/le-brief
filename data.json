@@ -1,48 +1,30 @@
 {
  "general": {
-  "updatedAt": "2026-11-07T11:15:54+00:00",
-  "resume": "La journée est marquée par de nouvelles manifestations en France concernant le pouvoir d'achat, tandis que la scène politique se prépare pour la présidentielle de 2027. À l'international, le Paraguay a investi un nouveau président suite à une crise bancaire majeure, et les tensions persistent en Ukraine et au Moyen-Orient. Dans le secteur technologique, le marché boursier américain réagit aux résultats électoraux et les promotions du Black Friday se poursuivent.",
+  "updatedAt": "2026-11-07T15:42:51+00:00",
+  "resume": "La journée a été marquée par une nouvelle mobilisation sociale en France, tandis que la Pologne a été endeuillée par une fusillade meurtrière à Cracovie. En Ukraine, des frappes russes massives ont de nouveau visé les infrastructures énergétiques du pays. Enfin, le PDG d'EDF a annoncé une stabilité des prix de l'électricité pour les particuliers jusqu'à la fin de l'hiver.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Colère lycéenne: \"Ça fait plus d'un mois qu'on se mobilise, et on n'a eu aucune réponse concrète du gouvernement\", déplore l'Union syndicale lycéenne",
-    "resume": "Pour le quatrième samedi consécutif, des manifestations ont lieu en France à l'appel de syndicats et de gilets jaunes, mobilisant un important dispositif policier.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/politique/video-colere-lyceenne-ca-fait-plus-d-un-mois-qu-on-se-mobilise-et-on-n-a-eu-aucune-reponse-concrete-du-gouvernement-deplore-l-union-syndicale-lyceenne_VN-202611070219.html",
-    "date": "7 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Après une crise bancaire majeure, le Paraguay destitue son président, Santiago Peña, et investit son vice-président, Pedro Alliana",
-    "resume": "Le président du Paraguay, Santiago Peña, a été destitué et remplacé par son vice-président après une grave crise bancaire ayant gelé les dépôts de millions de personnes.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/monde/ameriques/apres-une-crise-bancaire-majeure-le-paraguay-a-destitue-son-president-pour-en-reinvestir-un-autre_8272058.html#xtor=RSS-3-[lestitres]",
+    "titre": "En Pologne, au moins cinq morts dans une fusillade à Cracovie, le tireur interpellé",
+    "resume": "Une fusillade sur la place principale de Cracovie en Pologne a fait au moins cinq morts et plusieurs blessés ce samedi. Le tireur a été interpellé par les forces de l'ordre.",
+    "source": "Le Monde International",
+    "url": "https://www.lemonde.fr/international/article/2026/11/07/en-pologne-au-moins-cinq-morts-dans-une-fusillade-a-cracovie-le-tireur-interpelle_6808293_3210.html",
     "date": "7 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "La bulle de l’IA se heurte à la réalité",
-    "resume": "L'indice boursier Nasdaq a connu une baisse significative aux États-Unis, suite à la victoire démocrate aux élections de mi-mandat, impactant le secteur de l'intelligence artificielle.",
-    "source": "Le Monde International",
-    "url": "https://www.lemonde.fr/idees/article/2026/11/07/la-bulle-de-l-ia-se-heurte-a-la-realite_6808268_3232.html",
-    "date": "7 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Présidentielle 2027 : Jean-Luc Mélenchon va présenter son programme au Bourget",
-    "resume": "À six mois de l'élection présidentielle française, Jean-Luc Mélenchon présente son programme au Bourget pendant qu'Édouard Philippe s'exprime à La Ciotat.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-jean-luc-melenchon-va-presenter-son-programme-au-bourget_8272022.html#xtor=RSS-3-[lestitres]",
+    "titre": "Manifestations: 46.000 personnes ont défilé à Paris selon la préfecture de police",
+    "resume": "Pour le quatrième samedi consécutif, des manifestations ont eu lieu en France, rassemblant 46 000 personnes à Paris selon la police, dans un contexte de mobilisation sociale continue.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/societe/manifestations/video-manifestations-46-000-personnes-ont-defile-a-paris-selon-la-prefecture-de-police_VN-202611070376.html",
     "date": "7 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "En Ukraine, un pont et des infrastructures énergétiques endommagés par des frappes russes dans la région de Kiev",
-    "resume": "De nouvelles frappes russes ont touché des infrastructures énergétiques et un pont dans la région de Kiev, faisant plusieurs blessés.",
+    "titre": "L'Ukraine frappée par des bombardements nocturnes russes \"massifs\" contre ses infrastructures énergétiques",
+    "resume": "La Russie a mené des bombardements nocturnes massifs contre les infrastructures énergétiques ukrainiennes, provoquant des coupures de courant et blessant au moins neuf personnes.",
     "source": "franceinfo",
     "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-un-pont-et-des-infrastructures-energetiques-endommages-par-des-frappes-russes-dans-la-region-de-kiev_8272043.html#xtor=RSS-3-[lestitres]",
     "date": "7 nov.",
@@ -50,10 +32,28 @@
     "categorie": "Monde"
    },
    {
-    "titre": "Des militants occupent le chantier d'un centre de données Microsoft à Amsterdam",
-    "resume": "Des militants occupent le chantier d'un centre de données Microsoft à Amsterdam pour protester contre sa construction.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261107-des-militants-occupent-le-chantier-d-un-centre-de-donn%C3%A9es-microsoft-%C3%A0-amsterdam",
+    "titre": "Les prix de l’électricité pour les particuliers « seront stables jusqu’au 1ᵉʳ février au moins », selon le PDG d’EDF",
+    "resume": "Le PDG d'EDF a annoncé que les tarifs de l'électricité pour les particuliers resteraient stables au moins jusqu'au 1er février, malgré les révisions tarifaires prévues.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/economie/article/2026/11/07/les-prix-de-l-electricite-pour-les-particuliers-seront-stables-jusqu-au-1-fevrier-au-moins-selon-le-pdg-d-edf_6808283_3234.html",
+    "date": "7 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Alertes à la bombe visant des avions: le parquet de Paris annonce l'ouverture d'une enquête et évoque \"un lien éventuel avec des puissances étrangères\"",
+    "resume": "Le parquet de Paris a ouvert une enquête suite à des alertes à la bombe visant des avions, évoquant un possible lien avec des puissances étrangères.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/police-justice/alertes-a-la-bombe-visant-des-avions-le-parquet-de-paris-annonce-l-ouverture-d-une-enquete-et-evoque-un-lien-eventuel-avec-des-puissances-etrangeres_AD-202611070377.html",
+    "date": "7 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Des actions à travers l'Europe contre les centres de données",
+    "resume": "Des militants écologistes ont manifesté dans 16 pays européens ce week-end pour s'opposer à la construction de nouveaux centres de données.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/international/europe/suisse/video-des-actions-a-travers-l-europe-contre-les-centres-de-donnees_VN-202611070374.html",
     "date": "7 nov.",
     "impact": "flat",
     "categorie": "Tech"
@@ -63,8 +63,8 @@
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-07T11:15:54+00:00",
-  "resume": "Le marché crypto subit une forte pression baissière, le Bitcoin peinant à se maintenir au-dessus des 76 000 $ face à des sorties massives des ETF et un sentiment de peur extrême. La plateforme Binance s'apprête à fermer les comptes de ses utilisateurs français, tandis que MEXC est exclue du système financier américain pour transactions illicites. En parallèle, JPMorgan anticipe un rendement annuel de 10 % pour le Bitcoin à long terme.",
+  "updatedAt": "2026-11-07T15:42:51+00:00",
+  "resume": "Binance annonce la fermeture définitive des comptes de ses clients français pour la fin de l'année 2026 suite à l'échec de l'obtention de son agrément MiCA. Parallèlement, la plateforme MEXC est exclue du système financier américain pour des transactions illicites présumées. Le marché crypto connaît une forte volatilité, le Bitcoin oscillant autour des 76 000 dollars malgré d'importantes sorties de capitaux des ETF.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,52 +93,52 @@
   ],
   "items": [
    {
+    "titre": "Crypto : Binance annonce la fermeture des comptes français au 31 décembre",
+    "resume": "Binance cessera de servir ses clients français au 31 décembre 2026, n'ayant pas réussi à obtenir l'agrément européen MiCA.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/crypto-binance-annonce-la-fermeture-des-comptes-francais-au-31-decembre/",
+    "date": "7 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "MEXC exclu du système financier américain après 16 milliards de dollars de transactions illicites",
-    "resume": "Le Trésor américain a banni l'exchange MEXC du système financier des États-Unis, invoquant 16 milliards de dollars de transactions illicites liées à des pays sous sanctions.",
+    "resume": "Les autorités américaines ont banni la plateforme MEXC, l'accusant d'avoir facilité des milliards de dollars de transactions illicites.",
     "source": "Cryptoast",
     "url": "https://cryptoast.fr/mexc-tresor-americain-fincen-16-milliards-iran-russie-coree-du-nord/",
     "date": "7 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le Bitcoin rebondit à 76.000$, mais une sortie de 1,3 milliard$ des ETF met à l’épreuve la reprise",
-    "resume": "Le cours du Bitcoin vacille autour de 76 000 $, fragilisé par une sortie massive de 1,3 milliard de dollars des ETF, mettant à l'épreuve la dynamique de reprise.",
-    "source": "Investing.com France",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVF9TcU1aeHAwNHM2SWFUa3NxS3FLZk5iMWhzSGFnSXJRdFl0a1VfSnR5d0h3RmNTODRwVnJDSGpnbVJZLVQ1Y0hkdHdlNmt0ek51dTdyXzd6bF9Hc2FuOTZiVWx3emhDdG40S1VyV0U0eVRKVmIxb2FUOU4ycUR5bFUxaThudEJlcUh5Zmx1R09kLU1zbmw5ZVB0cGtaaFlqSEhoMjZTQVdweVBEMXp6SHVrdVBYaC0tbllkSjd6ZzBXRkZuNXlkQl9SZ3FuT1FrNml0cU9xRk9MdkV4SWFDOVcwR24?oc=5",
+    "titre": "Bitcoin rebondit à 76.000$, mais une sortie de 1,3 milliard$ d’ETF met la reprise à l’épreuve",
+    "resume": "Le cours du Bitcoin tente de se maintenir à 76 000 dollars, mais subit la pression d'une sortie massive de 1,3 milliard de dollars des ETF.",
+    "source": "Yahoo Finance France",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekI3aENiZ2xxY2huNEtHREh2YTEzRzVZSUpVM1NMYU1RRmIxTXhkd3BfVGctdHJjcDRtdC1WLTJsTU54V1VQVHJXNTM1V0hjN0JEbjkyVGNTUEF6WldiakhEWEE2Nm1zNFR2Y180WWk1ZGhScVBzZExyNFk5aXRjOENySTdIT3NnS2t6TWh3?oc=5",
     "date": "7 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Binance fermera votre compte le 31 décembre : vers quelle plateforme migrer ?",
-    "resume": "Binance a annoncé la clôture définitive des comptes de ses clients français pour le 31 décembre 2026, avec l'application de frais sur les soldes inactifs dès la fin novembre.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/arret-binance-france-voici-meilleures-alternatives-pour-vos-cryptomonnaies/",
-    "date": "7 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "JPMorgan prévoit un rendement annuel de 10 % pour le bitcoin à long terme",
-    "resume": "JPMorgan Asset Management projette un rendement annuel composé de 10 % pour le Bitcoin à long terme dans ses prévisions pour 2027.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/jpmorgan-prevoit-un-rendement-annuel-de-10-pour-le-bitcoin-a-long-terme/",
-    "date": "7 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Nigeria : Licence obligatoire pour les stablecoins, les modèles algorithmiques interdits",
-    "resume": "La Banque centrale du Nigeria impose désormais une licence pour les stablecoins et interdit formellement les modèles algorithmiques.",
+    "titre": "Ethereum : Glamsterdam repoussé, deux EIP menacent des projets de l’écosystème",
+    "resume": "La mise à jour Glamsterdam d'Ethereum est reportée car deux propositions techniques menacent la stabilité de certains projets de l'écosystème.",
     "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/nigeria-licence-obligatoire-stablecoins/",
+    "url": "https://journalducoin.com/ethereum/ethereum-glamsterdam-repousse-deux-eip-menacent-projets/",
+    "date": "7 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Crypto : La Grèce adopte une taxe de 10 % sur les plus-values dès 2027",
+    "resume": "La Grèce prévoit d'introduire une taxe de 10 % sur les plus-values issues des cryptomonnaies à partir de 2027.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/crypto-grece-adopte-taxe-plus-values/",
     "date": "7 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Cours du bitcoin : l’indice Fear and Greed en peur extrême",
-    "resume": "L'indice de sentiment du marché crypto, Fear and Greed, indique actuellement un état de peur extrême parmi les investisseurs.",
-    "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iY0VoQkpXYTZoa0xhUTR4RWFLZlFSMklCajNFQmJua1B2ci01TXBiZ05lcy1uR2tMcjctSGdjUzFwN1Y3T2diaDhZeEwyenNrSHdRblZ0MjJqendqbWtNUHFlbW92STdtX2M4bGVMQ0N6LXNBbS1r?oc=5",
+    "titre": "Bitcoin et S&P 500 : une corrélation record depuis 2020 qui inquiète les investisseurs",
+    "resume": "La corrélation entre le Bitcoin et l'indice boursier S&P 500 atteint un niveau record, inquiétant les investisseurs quant à la diversification.",
+    "source": "Cryptoast",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mNTQ2Tjlrc2JhSk1sd3htTEh2LTUwWnE1VGFBUUZwdFdtRlA3QU1Lc2lYZlY4SjVYVUNGbV9WckZuMF95SXRJRXF1SUg2dXVFUHEzaXVLQWxNVTZHeWFNVnBsTGVhM29WclB2eUl1MWQ5cmc?oc=5",
     "date": "7 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    }
   ],
   "par": "ia",
@@ -146,36 +146,36 @@
   "niche": [
    {
     "titre": "Strive affiche 509 millions de dollars de bénéfice trimestriel grâce au bitcoin",
-    "resume": "La société Strive a enregistré un bénéfice de 509 millions de dollars au T3 2026 grâce à la valorisation de ses réserves en Bitcoin.",
+    "resume": "L'entreprise Strive a enregistré un bénéfice de 509 millions de dollars grâce à l'appréciation de ses réserves en bitcoin.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/strive-affiche-509-millions-de-dollars-de-benefice-trimestriel-grace-au-bitcoin/",
     "date": "7 nov.",
-    "pourquoi": "Cela montre l'impact direct de la détention de BTC sur les résultats financiers d'entreprises cotées, au-delà du secteur purement crypto.",
+    "pourquoi": "Cela montre l'impact direct de la détention de BTC sur les résultats financiers d'entreprises non-crypto. À surveiller pour les actions de sociétés exposées au Bitcoin.",
     "impact": "hausse"
    },
    {
+    "titre": "Nigeria : Licence obligatoire pour les stablecoins, les modèles algorithmiques interdits",
+    "resume": "Le Nigeria impose une licence aux émetteurs de stablecoins et interdit les modèles algorithmiques.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/nigeria-licence-obligatoire-stablecoins/",
+    "date": "7 nov.",
+    "pourquoi": "Cette régulation stricte pourrait influencer le marché des stablecoins en Afrique. À surveiller pour les projets de stablecoins centralisés.",
+    "impact": "flat"
+   },
+   {
     "titre": "Bitcoin Cash au plus bas depuis septembre, Zcash digère NU7 : le point altcoins",
-    "resume": "Bitcoin Cash a touché son plus bas niveau depuis septembre vers 262 $, tandis que Zcash a gelé 16 millions de dollars suite à une mise à jour.",
+    "resume": "Le cours du Bitcoin Cash est tombé à son plus bas niveau depuis septembre, autour de 262 dollars.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/actualites/bitcoin-cash-plus-bas-zcash-nu7-point-altcoins/",
     "date": "7 nov.",
-    "pourquoi": "Des signaux de sous-performance ou de problèmes techniques sur des altcoins spécifiques peuvent indiquer une rotation des capitaux ou des risques accrus sur ces actifs.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "La faille de Gnosis Pay expose des données de cartes, des données personnelles et des informations de portefeuille crypto",
-    "resume": "Une faille de sécurité chez Gnosis Pay a exposé des données personnelles et des informations de cartes et portefeuilles crypto.",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iMWQ0YnJHUUNId2E1di01aEtaMjlRRVBGZDJENDlodTBEM3VGYWwwbDZFZGJ3dW81U3pXeEJqLThRZ0hnbEQ2ZUJtRHZvSjZLSG1KNEdoYlE5eGZaNXNCQ1E5TDNkOXFtZHotNUdSWQ?oc=5",
-    "date": "6 nov.",
-    "pourquoi": "Cet incident souligne les risques persistants dans l'infrastructure de paiement crypto et pourrait affecter la confiance dans les solutions de cartes Visa/Mastercard crypto.",
+    "pourquoi": "Indique une faiblesse spécifique de cet altcoin par rapport au reste du marché. À surveiller pour les traders de BCH.",
     "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-07T11:15:54+00:00",
-  "resume": "L'incertitude politique et la dette française inquiètent les investisseurs, tandis que la saison des résultats du CAC 40 montre des performances très contrastées. Aux États-Unis, les ventes d'actions par des dirigeants d'entreprises se poursuivent, et le Bitcoin teste sa reprise après des sorties de fonds d'ETF. En Asie, la Chine montre des signes de faible demande intérieure avant de nouvelles mesures de soutien.",
+  "updatedAt": "2026-11-07T15:42:51+00:00",
+  "resume": "Berkshire Hathaway a publié des résultats supérieurs aux attentes et accélère ses rachats d'actions. L'actualité est aussi marquée par des résultats d'entreprises contrastés et des mouvements importants de dirigeants sur leurs propres titres. Sur le plan macroéconomique, la Chine montre des signes de faible demande intérieure tandis que l'inflation inquiète en Europe.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,50 +204,50 @@
   ],
   "items": [
    {
-    "titre": "Dette, instabilité politique… Face au «risque France», faut-il fuir ou miser sur les valeurs capables de résister aux turbulences?",
-    "resume": "Les investisseurs s'inquiètent du « risque France » lié à la dette et à l'instabilité politique, se demandant s'il faut fuir ou choisir des valeurs résistantes.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/actualites/informations-societes/dette-instabilite-politique-face-au-risque-france-faut-il-fuir-ou-miser-sur-les-valeurs-capables-de-resister-aux-turbulences-1173153.html",
+    "titre": "Le BPA de Berkshire Hathaway B a dépassé les attentes de 4,55$, le CA a surpassé les prévisions",
+    "resume": "Berkshire Hathaway, la société de Warren Buffett, a dépassé les prévisions de bénéfices et de chiffre d'affaires au troisième trimestre.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/earnings/le-bpa-de-berkshire-hathaway-b-a-depasse-les-attentes-de-455-le-ca--a-surpasse-les-previsions-3683608",
+    "date": "7 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Un mémo des renseignements américains lie le PDG de Nvidia à une espionne présumée",
+    "resume": "Le PDG de Nvidia est cité dans un mémo des renseignements américains le liant à une espionne présumée, une information potentiellement sensible pour le géant des puces.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/un-memo-des-renseignements-americains-lie-le-pdg-de-nvidia-a-une-espionne-presumee-3683623",
     "date": "7 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "CAC 40 : Stellantis et Renault qui rebondissent de 15,5% et 7%, Kering qui s'effondre de 16%, Carrefour qui perd 14%... Quels groupes du CAC 40 ont le mieux (et le moins bien) réussi la saison des résultats?",
-    "resume": "La saison des résultats du CAC 40 est inégale : Stellantis et Renault rebondissent fortement, alors que Kering et Carrefour chutent lourdement.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-stellantis-et-renault-qui-rebondissent-de-155-et-7-kering-qui-s-effondre-de-16-carrefour-qui-perd-14-quels-groupes-du-cac-40-ont-le-mieux-et-le-moins-bien-reussi-la-saison-des-resultats-1172997.html",
-    "date": "7 nov.",
-    "impact": "flat"
-   },
-   {
     "titre": "La Chine signale une faible demande intérieure avant les mesures de croissance 2027",
-    "resume": "La Chine signale une faible demande intérieure, en attendant d'éventuelles mesures de soutien à la croissance prévues pour 2027.",
+    "resume": "La Chine signale une demande intérieure atone avant l'annonce de nouvelles mesures de soutien à la croissance prévues pour 2027.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/economy-news/la-chine-signale-une-faible-demande-interieure-avant-les-mesures-de-croissance-2027-3683582",
     "date": "7 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Bitcoin rebondit à 76.000$, mais une sortie de 1,3 milliard$ d’ETF met la reprise à l’épreuve",
-    "resume": "Le Bitcoin a rebondi à 76 000 dollars, mais ce mouvement est mis à l'épreuve par d'importantes sorties de capitaux des ETF.",
+    "titre": "Novartis abandonne le pelacarsen après l’échec d’une étude majeure",
+    "resume": "Novartis arrête le développement du pelacarsen suite à l'échec d'une étude clinique majeure.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/cryptocurrency-news/le-bitcoin-rebondit-a-76000-mais-une-sortie-de-13-milliard-des-etf-met-a-lepreuve-la-reprise-3683575",
-    "date": "7 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Le PDG de Capital One vend des actions pour 18,6 millions de dollars",
-    "resume": "Le PDG de Capital One a vendu pour 18,6 millions de dollars d'actions de son entreprise.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-capital-one-vend-des-actions-pour-186-millions-de-dollars-93CH-3683567",
+    "url": "https://fr.investing.com/news/stock-market-news/novartis-abandonne-le-pelacarsen-apres-lechec-dune-etude-majeure-3683624",
     "date": "7 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "SoftBank et ABB envisagent une scission chinoise pour sauver leur accord à 5,4 milliards $",
-    "resume": "SoftBank et ABB envisagent de scinder leurs activités en Chine pour tenter de sauver un accord de 5,4 milliards de dollars.",
+    "titre": "ASBISc dépasse largement les attentes au T3 2026, l’action bondit de 8%",
+    "resume": "L'action ASBISc a bondi de 8% après la publication de résultats trimestriels largement supérieurs aux attentes.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/softbank-et-abb-envisagent-une-scission-chinoise-pour-sauver-leur-accord-a-54-milliards--3683581",
+    "url": "https://fr.investing.com/news/transcripts/asbisc-depasse-largement-les-attentes-au-t3-2026-laction-bondit-de-8-93CH-3683619",
+    "date": "7 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Bitcoin et S&P 500 : une corrélation record depuis 2020 qui inquiète les investisseurs",
+    "resume": "La corrélation entre le Bitcoin et le S&P 500 atteint un niveau record depuis 2020, ce qui préoccupe certains investisseurs.",
+    "source": "Cryptoast",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mNTQ2Tjlrc2JhSk1sd3htTEh2LTUwWnE1VGFBUUZwdFdtRlA3QU1Lc2lYZlY4SjVYVUNGbV9WckZuMF95SXRJRXF1SUg2dXVFUHEzaXVLQWxNVTZHeWFNVnBsTGVhM29WclB2eUl1MWQ5cmc?oc=5",
     "date": "7 nov.",
     "impact": "flat"
    }
@@ -256,108 +256,108 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Le directeur des opérations de Tyler Technologies vend pour 4,2M$ d’actions",
-    "resume": "Le directeur des opérations de Tyler Technologies a vendu pour 4,2 millions de dollars d'actions.",
+    "titre": "Le PDG de Marriott, Anthony Capuano, cède des actions pour 26,6M$",
+    "resume": "Le PDG de Marriott a vendu pour 26,6 millions de dollars d'actions de son entreprise.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/le-directeur-des-operations-de-tyler-technologies-vend-pour-42m-dactions-93CH-3683584",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-marriott-anthony-capuano-cede-des-actions-pour-266m-93CH-3683597",
     "date": "7 nov.",
-    "pourquoi": "Une vente importante par un dirigeant opérationnel peut signaler une valorisation jugée élevée en interne pour ce secteur technologique.",
+    "pourquoi": "Une vente massive par un dirigeant peut signaler un manque de confiance dans le potentiel de hausse à court terme de l'action du secteur hôtelier.",
     "impact": "baisse"
    },
    {
-    "titre": "Prem Shah, vice-président de CVS Health, achète pour 2 millions $ d’actions",
-    "resume": "Un vice-président de CVS Health a acheté pour 2 millions de dollars d'actions de la société.",
+    "titre": "argenx annonce des données positives de phase 3 pour son traitement contre la myosite auto-immune",
+    "resume": "argenx annonce des données positives de phase 3 pour un traitement contre la myosite auto-immune.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/prem-shah-vicepresident-de-cvs-health-achete-pour-2-millions--dactions-93CH-3683555",
+    "url": "https://fr.investing.com/news/company-news/argenx-annonce-des-donnees-positives-de-phase-3-pour-son-traitement-contre-la-myosite-autoimmune-93CH-3683618",
     "date": "7 nov.",
-    "pourquoi": "Un achat d'initié d'une telle ampleur peut indiquer une confiance dans la sous-évaluation actuelle du titre dans le secteur de la santé.",
+    "pourquoi": "Cette avancée pourrait doper le secteur des biotechnologies et spécifiquement la valorisation d'argenx.",
     "impact": "hausse"
    },
    {
-    "titre": "Le prix de l'or se maintient au niveau de 4 000 USD/once, le risque de renversement de tendance est toujours présent",
-    "resume": "Le prix de l'or se maintient vers 4 000 USD/once, mais un risque de retournement de tendance persiste.",
-    "source": "Laodong.vn",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVHYyWmQwTjRpeXdEbHpPMnVsWnU0dXpfcUlNVF94VF9LM0FlYzRxNnNvVDZEczNRRVNYMlRSVFh2OWpMX1NwLXlhSlh3OGJJWDNGcnRjeDdSNkl6WW9ZMElLWk1NcjhkWVltSUE2ZTltenFFZldIMHNQMFBrOU1uME4xT0Flb0JCQlgyVFlHNU5lSjFMVlU3WnpSaDI0SHhNblByNnJkYmtVNmVpN0ZB?oc=5",
+    "titre": "La Pologne : S&P abaisse ses perspectives à négatives, Domański pointe les vetos présidentiels",
+    "resume": "S&P a abaissé la perspective de la Pologne à négative en raison de blocages politiques.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/economy-news/la-pologne--sp-abaisse-ses-perspectives-a-negatives-domanski-pointe-les-vetos-presidentiels-3683604",
     "date": "7 nov.",
-    "pourquoi": "Utile pour surveiller le secteur des métaux précieux et le sentiment global face au risque, l'or étant une valeur refuge.",
-    "impact": "flat"
+    "pourquoi": "Cela pourrait affecter les obligations souveraines polonaises et les entreprises exposées à ce marché émergent.",
+    "impact": "baisse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-07T11:15:54+00:00",
-  "resume": "Les taux de crédit immobilier continuent de grimper, franchissant parfois le seuil de 4% sur 20 ans, ce qui pèse sur le marché et le pouvoir d'achat des ménages. Malgré ce contexte difficile, certaines villes comme Dijon voient le prix des appartements augmenter. Par ailleurs, le PTZ parentalité prévu pour 2027 a été stoppé en première lecture.",
+  "updatedAt": "2026-11-07T15:42:51+00:00",
+  "resume": "Les taux de crédit immobilier poursuivent leur ascension, franchissant le seuil des 4 % sur 20 ans, ce qui pèse sur le pouvoir d'achat des ménages et l'activité du marché. De nouveaux plafonds de taux d'usure entreront en vigueur le 20 novembre 2026. Parallèlement, le marché locatif se prépare à l'application de la trêve hivernale.",
   "chiffres": [],
   "items": [
    {
     "titre": "Crédit immobilier : le seuil de 4% sur 20 ans est franchi, voici le surcoût de plusieurs milliers d'euros pour votre projet",
-    "resume": "Les taux de crédit immobilier dépassent désormais les 4% sur 20 ans, entraînant un surcoût important pour les nouveaux emprunteurs.",
+    "resume": "Les taux de crédit sur 20 ans dépassent désormais les 4 %, entraînant un surcoût notable pour les nouveaux emprunteurs.",
     "source": "Bourse Inside",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdmdfa0dXNXdZcWVhWEJwYnBVRW9Vd2dBbGZLZ2c1Nng2WDhpSlBXUUdvQXpWT0R3XzlNd3NsSHFxUlA1YnBLanZZOTNEX3F3U2hoZXNtUHhUUzdzcGl0VUVuenE3SFliYVBWZVNuNlZHQ280OVJ0UEZ1eXpjb0RzRWtGTXNtTEp6Y0hKQ0J4eFo2SzlqaWo2UUU3elU5d0ZqNWhENW5ON2RQZUxOdm4xcURneW1ld2lrS1pYYkZBaUdLWWk3RjRia1YtejY4VmpIdzZUb1BkeHdfRmtUZnFfS2MyZHU?oc=5",
     "date": "7 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "PTZ parentalité : le fer de lance immobilier du budget 2027 stoppé en première lecture",
-    "resume": "Le dispositif PTZ parentalité, mesure phare pour l'immobilier dans le budget 2027, a été rejeté en première lecture.",
-    "source": "Infosimmo",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS0pJWEx5TVlzeVpDTm5HTjJObElGMXNEcVZUejJUMk9zekI5MENJdDVWRXFodXNVYlBTRm5aLWxYZm5RZDE2WmQyMndOZ3VQRDZfOVhvQy1pNHBpVWR6OGRqLXVPVi10LWJLS3lmT0ZfY3I1S3dQSEdpU21JZy0zQUdZRExuSERSZDFpSnY4Vl9fSE51eFBPZUtCcFI3REtOS3B6My1tczFZemJ4Y2dqcw?oc=5",
-    "date": "6 nov.",
-    "impact": "baisse"
+    "titre": "Crédits : les nouveaux plafonds de taux d’usure applicables dès le 20 novembre 2026",
+    "resume": "La Banque de France mettra à jour les taux d'usure le 20 novembre 2026, ajustant le plafond légal des crédits.",
+    "source": "Economie Matin",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFNLSTJUV0dvdWNKUzkzSkZ6dk9NSk9rSlZ5Uy15dHFaeUMzeHBydi1mekNLS2lDelNqYVREblVaZk52MWZGb1FaaHNRTjE0b2lZZVhNamo0VkF0YXJEb0ZwN3NYOGdibnFOQVhwczctYUlPNG1vYjUzQ3AwS21abDRwVQ?oc=5",
+    "date": "7 nov.",
+    "impact": "flat"
    },
    {
-    "titre": "Immobilier à Dijon : l’appartement à 2 692 € le m² en 2025, en hausse de 4,7 %",
-    "resume": "À Dijon, le prix moyen des appartements a progressé de 4,7 % pour atteindre 2 692 € le m² en 2025.",
-    "source": "Stéphane Larue News",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFhsVHNtMWdkMEgwc2ZyRlJka0d3VE51MHN0Slp1dGZEUHdMdmlGTmU2V3owc3FsdHhVb2puRWNzWFNuelVfOTdnV2wwdGJORHh6NTBkVmpIMVBpaUFhUUV0bXNxNXBYT3lKaGY1OXJQRk9GTXN4WkZEY3JrMmpNeGp4clVFMXBubWV3U0N1UHVZYk9nd19EOVVZbTJBUXV1Q3RjMEtn?oc=5",
+    "titre": "Trêve hivernale 2026 : 5 erreurs à éviter pour les propriétaires",
+    "resume": "La trêve hivernale 2026 approche, rappelant aux propriétaires bailleurs les règles strictes concernant les expulsions.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRzBaT1lISUM1VnRZcWZETEdfbU5BU1ZUNFhuUGJMbEJHQTJoTmJVQnJJLWQtcmhJOVlOblVuOWFQN1lQelJOYzhaMjNESFVFNXJ3TkhtSXhVMzRGVDRGZ09CR3hjak9lTU5nVXJNOC1kRTJVbS1lYXE3bFNDVnFxdDN3NnVVaHJRcTl6di03LXhodTAxbWk4VWtwblRTWFRUSTUtM2QzUlE3SFAwRURYX2dHYWpDdw?oc=5",
     "date": "7 nov.",
-    "impact": "hausse"
+    "impact": "flat"
+   },
+   {
+    "titre": "Immobilier 2026 : avec 250 000 €, voici les villes où acheter jusqu'à 194 m²",
+    "resume": "Malgré la hausse des taux, certaines villes permettent encore d'acquérir de grandes surfaces pour un budget de 250 000 €.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUVlnanJhQUVtSmNXMG1Rbkp1ajUyTE5TZk42VkVseS1ZNTFwTzFFcVpOcm1KQXktS3NaTDNvLWlUWkUxQUlfYndqUW93a2hza2EwdWljMktodEVWLWhmSHpqdVV1cEZnTjNYRG1HMjNCdE1sZnpKaVdPeVhzRUYxVFBlVm5OWjdvaXBjR21GdExQbDZWNDBoRHFjWkJVaFBWOGtOWnY4MzhaWmpQemxodE1VWUg?oc=5",
+    "date": "7 nov.",
+    "impact": "flat"
    },
    {
     "titre": "Logement : des tensions structurelles pesant sur l'offre et la mobilité. Direction Générale du Trésor. Octobre 2026.",
-    "resume": "La Direction Générale du Trésor souligne des tensions structurelles persistantes qui affectent l'offre de logements et la mobilité.",
+    "resume": "La Direction Générale du Trésor souligne des tensions structurelles persistantes freinant l'offre de logements et la mobilité.",
     "source": "SES ENS Lyon",
     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPYzg4aUIzZ2ROXy1RWmtWcS1FaThWSWtyc2FGNi1VUUZVQ0VBUXdnUWd3Yi13ZXRPankya3ZabF91dkNzOTFBdzl3ZlRYa3hiWlY1NldxMmVlSzUwNEJFQVBIdGdodlNLZFlRSXhKSXhXWkpnZE4tUEtpOEpGa1NwYkVqNFlnaGcyd1ZvbWs4LS1uNUgxbkZoT3VCQ3JLQmlwcnoyYU80bVV1MEFoU2huNmY5ZjdFc2s0R0d2ZkRFUmVoNU1LeHpZTlN2aXQtUXJsZXhKVHVMczNwRzZSN3Q0YUI1SWJ2aGowZGpfc3dQVnNyRF82a2RuNjY0NGN6Z2VTdnc?oc=5",
     "date": "7 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    },
    {
-    "titre": "Logement à Lyon : Ce qu’il faut comparer avant d’acheter dans le neuf",
-    "resume": "Pour l'achat dans le neuf à Lyon, il est crucial de comparer les prix, les aides disponibles et les prestations proposées.",
-    "source": "MySweetImmo",
-    "url": "https://www.mysweetimmo.com/2026/11/07/logement-a-lyon-ce-quil-faut-comparer-avant-dacheter-dans-le-neuf/",
+    "titre": "\"Deux fois plus de demandes\" depuis l'été dernier caniculaire: les Français veulent équiper leur logement de climatiseurs mais sont freinés par de nombreux obstacles dans les copropriétés",
+    "resume": "La demande d'installation de climatiseurs augmente fortement, mais se heurte aux contraintes réglementaires des copropriétés.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxOZ3hyVldoa2E2QXVxX3BWVEl5QXdRb0J4Y0kzYVJENjNOaUR3LUtfMnVIYlNmamZIcU4xcEZ2RXpycjhPWDlGbHBYRWYxaFB4U1BKWVdxVlptSkJUV3dGV0ZfMUZkLU1ETDUtMjhad1NLZkY3S2ZQRG1mMElkNkdTZEZBVTUycXdPWVlfckNHcWZ4Q2xXSkJQTzBDWjVETG1KakRoTzYwY3FkNklRa3VtMENnOWk2UEg3RXJhZ29Ndjl5WkxrRndlU1kyTGphVVZfbmRtRTJiSm44Q2xlYzVZdEhtenFNanhXdEV0VlE1c2U1S1NRWmpwNEp2XzkxTlJkeTBKQ1BfUUx5cm5qRmdUUzR4TVRJeWZLSGpqek1RQ0ZjZTh0RzFYakxJVXVkd2I3VjU5U0FabURPVmkyUDdpSTB1cHNlSDMzb1A1aFpKRW55OEN0WURGdUs2ZU5mTllPb2hZOFZ5OEs1VklhTEVIN0xRSQ?oc=5",
     "date": "7 nov.",
     "impact": "flat"
-   },
-   {
-    "titre": "Immobilier : +62 % de mandats exclusifs pour les élèves de Guy Hoquet",
-    "resume": "Le réseau Guy Hoquet enregistre une hausse de 62 % des mandats exclusifs pour ses agents formés.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVzhwMGEzdS1FaHBXcl9nVmFHc1hla1dIaUswRVRGSE9CNTlCUDNQOTZuY0JiSGJwcWRCTVRjaEdDbUkyelhURlJwOUVlZ2sxb0w0TTRJUXBaSWNZaVgxTWJINGNtY0kxX19OS29xaUpBaXdhSnpEdnR3VXN3S25UMENZLVI2ZEdwLXNuMUZCVVZkRC04TW5uU1FLdmp5SmplVFN3QnpCOA?oc=5",
-    "date": "7 nov.",
-    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "15.000€ d'impôts économisés : chez le notaire, une simple question permet à ce couple de faire fondre leur facture fiscale",
-    "resume": "Un couple a économisé 15 000€ d'impôts grâce à une simple question posée chez le notaire.",
-    "source": "NextPlz",
-    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNmNEY202cWt6YlZHTUdBQlFBVXdFejdobDVnTHI2eVpLRVVJNE1Celg5d1lJcHpQbG9tZVA4YXVwcUdaWS0xYU4wTjBCQTZNSjFUOHRmTjhHVXFyTlZISDZhQUpCNVJ2OVZ1LTlLaHRMRWhOcHE5eW8ySGFIM1c5X2R3c3dWVmRyNHZUbXl4b3pzNUZ2WHJreVZTYVdyRUpKb1F4cGtQcUpNQ0dMdXVsY21CUml1YlM1UGZvaG5CN2hwN1VUVDJFTlF5OC1aS2Z1b3JXUWdMeW5fOEFXbUR3V0R1RjJ0OWV2eFFWTQ?oc=5",
+    "titre": "Immobilier à Dijon : l’appartement à 2 692 € le m² en 2025, en hausse de 4,7 %",
+    "resume": "À Dijon, le prix des appartements a progressé de 4,7 % pour atteindre 2 692 €/m² en 2025.",
+    "source": "Stéphane Larue News",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSFhsVHNtMWdkMEgwc2ZyRlJka0d3VE51MHN0Slp1dGZEUHdMdmlGTmU2V3owc3FsdHhVb2puRWNzWFNuelVfOTdnV2wwdGJORHh6NTBkVmpIMVBpaUFhUUV0bXNxNXBYT3lKaGY1OXJQRk9GTXN4WkZEY3JrMmpNeGp4clVFMXBubWV3U0N1UHVZYk9nd19EOVVZbTJBUXV1Q3RjMEtn?oc=5",
     "date": "7 nov.",
-    "pourquoi": "Cela souligne l'importance de l'optimisation fiscale et du conseil notarial lors des transactions immobilières.",
-    "impact": "flat"
+    "pourquoi": "Indique une dynamique de hausse des prix dans certaines métropoles régionales, à surveiller pour le rendement locatif.",
+    "impact": "hausse"
    },
    {
-    "titre": "Vaux : la maison de retraite Notre-Dame de Lorette, vide depuis 2010, va devenir des appartements",
-    "resume": "Une ancienne maison de retraite vide à Vaux va être réhabilitée en appartements.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QQ0FNY1pwNE9tN1YxVloxM2liVWlkRTRJZEJsUlRqOWhTOUJDeWx6Q2dab2xBREZMeGJkNkhDMFRMTUc5eUpuUHBabFRZb0dHclV6a3ZHSXd0ZUdCcFYwSQ?oc=5",
+    "titre": "Rachat de crédit : la règle des 60% qui décide si vos fonds sont bloqués et change vos droits dès le 20 novembre",
+    "resume": "Une règle dite des 60 % pourrait bloquer les fonds lors d'un rachat de crédit à partir du 20 novembre.",
+    "source": "Bourse Inside",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPckU1OEJNdUJwdmd5c1dmMG1CZV94dTdoM2s4a2FpYXJGZUlweUxjdXI0eDcwR0RsUzYxSXRsU2RZZ1RrZlZwQkxTWjB5cXgtLWlPX3dFbDhsRzFIdnQ2ZGxDcnZKakNiSGVBaXZhWHZORUFIeUFwZEZsTTlaakd5YVktZ1oyMzVrbU00VUo2RnluWlVPTUl0UHpaYUVuNm80Wmp0U0ozQTV5V1dCTjlSTDBYZk9QSnM4LXVaUEhlWDlLejFPOWVQa2NDcGtKOXNoeDhYbUNqdjlHcFU?oc=5",
     "date": "7 nov.",
-    "pourquoi": "Ce type de reconversion montre des opportunités d'investissement dans la transformation d'actifs obsolètes.",
-    "impact": "hausse"
+    "pourquoi": "Cette modification réglementaire peut impacter la capacité des investisseurs à restructurer leur dette.",
+    "impact": "baisse"
    },
    {
     "titre": "Location saisonnière Courchevel : Les habitudes des vacanciers changent",
@@ -365,7 +365,7 @@
     "source": "MySweetImmo",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLTVFSGFsUUd1dTZ3UEROMEg3RFhaRlFqdGNkc3B2S2NpSVNEWFNBaVdrcXZLQVY4eDI1ZHR5eEcxMUpyRzExbi1BYk5nd2UxcFJPWEwzd2ZncmYtN3U1b0RLWUN1VHpFVDB3RmEwZnFhS3hKelc5cC1SbWFEcWhHMU1CajdpNU5ZR2hPMnRNS0RXTWpTeDVQdml5OW85ZmxHWXlKbjd0T3EyaEQ5MEE?oc=5",
     "date": "7 nov.",
-    "pourquoi": "Il faut surveiller l'évolution de la demande locative dans les zones touristiques haut de gamme.",
+    "pourquoi": "Un signal à surveiller pour l'investissement locatif en montagne, pouvant affecter la rentabilité.",
     "impact": "flat"
    }
   ]
