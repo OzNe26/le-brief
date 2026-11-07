@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T18:57:06+00:00",
+ "updatedAt": "2026-11-07T21:48:09+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -132,6 +132,18 @@
    "bitrate": 0,
    "uuid": "",
    "logoSource": "https://thumb.wikimedia.org/wikipedia/fr/thumb/f/ff/Logo_de_Mouv%27_2021.svg/langfr-330px-Logo_de_Mouv%27_2021.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "label": "NRJ",
+   "cat": "Musique",
+   "name": "Nrj Hits",
+   "url": "https://streaming.nrjaudio.fm/ou7xugf3s5gi?origine=playernrj&aw_0_req.userConsentV2=&aw_0_1st.station=NRJ-Hits",
+   "logo": "logos/nrj.png",
+   "homepage": "https://www.nrj.fr/webradios/mur-des-radios/nrj-hits",
+   "codec": "AAC+",
+   "bitrate": 128,
+   "uuid": "36eba167-5c51-4421-98f0-d2cda24be928",
+   "logoSource": "https://thumb.wikimedia.org/wikipedia/fr/thumb/c/ca/Nrj2014.png/330px-Nrj2014.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
  ],
  "podcasts": [
@@ -892,7 +904,5 @@
    ]
   }
  ],
- "errors": [
-  "radio NRJ : <urlopen error [Errno -2] Name or service not known>"
- ]
+ "errors": []
 }
