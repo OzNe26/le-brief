@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-08T15:41:38+00:00",
-  "resume": "L'actualité est marquée par les débats politiques en France sur la hausse du Smic et l'organisation de la droite pour la présidentielle. À l'international, la situation humanitaire s'aggrave à Gaza à cause des intempéries, tandis qu'Israël et la Nouvelle-Zélande cherchent à former de nouveaux gouvernements. Un réseau mondial de ports va être lancé à Marseille pour lutter contre le narcotrafic.",
+  "updatedAt": "2026-11-08T20:13:56+00:00",
+  "resume": "L'actualité est marquée par l'annonce d'une revalorisation anticipée du Smic en France au 1er décembre. À l'international, la situation politique est tendue au Paraguay suite à un scandale bancaire, tandis que l'Ukraine subit de nouvelles frappes russes sur son réseau électrique. La scène politique française est également animée par les positionnements des différents candidats en vue de l'élection présidentielle de 2027.",
   "chiffres": [],
   "items": [
    {
-    "titre": "🔴 En direct : Gadi Eisenkot officiellement chargé de former le prochain gouvernement en Israël",
-    "resume": "En Israël, Gadi Eisenkot a été officiellement chargé de former le prochain gouvernement.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/moyen-orient/20261107-isra%C3%ABl-gadi-eisenkot-rival-de-benjamin-netanyahu-sera-charg%C3%A9-de-former-le-prochain-gouvernement",
+    "titre": "Le gouvernement va accepter une revalorisation anticipée du Smic au 1er décembre",
+    "resume": "Le gouvernement français va avancer la revalorisation du Smic au 1er décembre, portant son montant net au-delà de 1 500 euros.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/politique/video-le-gouvernement-va-accepter-une-revalorisation-anticipee-du-smic-au-1er-decembre_VN-202611080395.html",
+    "date": "8 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Crise bancaire au Paraguay : le président destitué Santiago Peña placé en détention préventive",
+    "resume": "Au Paraguay, une crise bancaire majeure a entraîné la destitution et l'incarcération préventive du président Santiago Peña.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPbG5OcV92cW5wNVRhVUFNQzFBMm1mLWQ2SlR5UllkeHdYTWpBZFhvNzFLRVB4RUJTYlFrZU03LUdDaThBVFBwbDJRY3k0ckVSSGF1V21IQmFFZElzNVlGeVhONGFrV1ppMDl5QkgyUU5XRDhKeXBTazQ1UEV5Qzh5eXNJTmVsdVFPSHlITWplM0tYRnNMajdvelJ4eUR1dFNwX1NHVEt2OXViSHQ3NkpuZ0RuNE45MVFFeC1tOWNaaXJ6UzZVblREcXloMXI5XzdGNXNfZURVajNkaTVyVU9nb1BSTE85OF9SWWJubVdTc0dHdmcyT29aZWtDemRweWpWLUZpZnhDdGktZG1tZllHXzhn0gGXAkFVX3lxTE81N0dEUndrSTVQZ3F1Ri1FRXhJTjZtV1FVU3gwODBvY2dQeEh5YnZvZWtGOWZCX0pLZWZRRHFqR3NacmlzamhzdFJ2aWRJXzZiVWRKdlgzTXppREV1Uzdyd1ZWbjJZTmthWFUybWFXc0dUYXRIcDlWWmk2M3Jhc281QThFUmF1NG05MVlaSFF4Sm9vcFZXZnVjMmhGRzJmUTlRNHFYemVPRWptQTdXd2JCUFRmZU9iUXltRFFiMWVsZU95NUVtcEZLUENsSmVlNFJQdmxLTTI0anN5QXBUNVlMeGhnVW43SEt5X2lYLVIzN3FaVC1SSC1WU0Q5MHhua19qMEd6azIzbWlBdi1URy1wWmNwWG9LQQ?oc=5",
     "date": "8 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "\"Pour augmenter les salaires, il faut qu'on crée plus de richesses\", assure Arnaud Péricard, porte-parole d'Horizons",
-    "resume": "En France, le débat sur une éventuelle hausse du Smic se poursuit à la veille d'une conférence sociale, opposant partisans d'une revalorisation et ceux alertant sur les risques économiques.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-pour-augmenter-les-salaires-il-faut-qu-on-cree-plus-de-richesses-assure-arnaud-pericard-porte-parole-d-horizons_VN-202611080315.html",
+    "titre": "Guerre en Ukraine : Des centaines de milliers d’Ukrainiens sans électricité, l’Europe invitée aux pourparlers",
+    "resume": "Des centaines de milliers d'Ukrainiens sont privés d'électricité après de nouvelles frappes russes ciblant les infrastructures énergétiques.",
+    "source": "20 Minutes",
+    "url": "https://www.20minutes.fr/monde/ukraine/4261341-20261108-guerre-ukraine-centaines-milliers-ukrainiens-electricite-europe-invitee-pourparlers?at_medium=display&at_campaign=149",
+    "date": "8 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Attentat en Pologne : \"J'ai vu des personnes tomber à un mètre de moi\", une témoin raconte",
+    "resume": "Un attentat à Cracovie, en Pologne, a fait six morts et quinze blessés ce samedi.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/attentat-en-pologne-j-ai-vu-des-personnes-tomber-a-un-metre-de-moi-une-temoin-raconte_8273690.html#xtor=RSS-3-[lestitres]",
+    "date": "8 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Présidentielle 2027 : Raphaël Glucksmann affirme avoir refusé Matignon après la dissolution de 2024",
+    "resume": "Raphaël Glucksmann, candidat à la présidentielle de 2027, affirme avoir refusé le poste de Premier ministre après la dissolution de 2024.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/11/08/presidentielle-2027-raphael-glucksmann-affirme-avoir-refuse-matignon-apres-la-dissolution-de-2024_6808468_6205049.html",
     "date": "8 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "Dans la bande de Gaza, des dizaines de milliers de déplacés privés d'abri à cause de pluies diluviennes",
-    "resume": "Dans la bande de Gaza, des dizaines de milliers de personnes déplacées sont privées d'abri après l'inondation de leurs tentes par des pluies torrentielles.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/monde/palestine/gaza/dans-la-bande-de-gaza-des-milliers-de-deplaces-prives-d-abri-a-cause-d-importantes-intemperies_8273447.html#xtor=RSS-3-[lestitres]",
+    "titre": "GPT-6 Astra répare Qwen sans le réentraîner, PostgreSQL 19 prend du retard à cause de l’IA, OpenAI industrialise la chasse aux failles de Linux : on vous raconte la semaine Cyberguerre",
+    "resume": "Dans le secteur de l'intelligence artificielle, un nouveau modèle d'OpenAI serait capable de corriger les failles d'un autre modèle sans réentraînement.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/cyberguerre/2369365-gpt-6-astra-repare-qwen-sans-le-reentrainer-postgresql-19-prend-du-retard-a-cause-de-lia-openai-industrialise-la-chasse-aux-failles-de-linux-on-vous-raconte-la-semaine-cyberguerre.html",
     "date": "8 nov.",
     "impact": "flat",
-    "categorie": "Monde"
-   },
-   {
-    "titre": "Un réseau de 14 ports mondiaux va être lancé pour lutter contre le narcotrafic",
-    "resume": "Un réseau de 14 ports mondiaux va être lancé pour améliorer la lutte contre le narcotrafic, notamment en utilisant l'intelligence artificielle pour traquer les cargaisons.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/societe/drogue/un-reseau-de-quatorze-ports-va-etre-lance-pour-lutter-contre-le-narcotrafic_8273384.html#xtor=RSS-3-[lestitres]",
-    "date": "8 nov.",
-    "impact": "flat",
-    "categorie": "Monde"
-   },
-   {
-    "titre": "Présidentielle 2027: Laurent Wauquiez demande un \"candidat unique\" de la droite \"avant Noël\" et appelle les candidats à se rencontrer",
-    "resume": "Laurent Wauquiez appelle les candidats de droite à la présidentielle à s'accorder sur un nom unique avant Noël pour éviter la division.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-2027-laurent-wauquiez-demande-un-candidat-unique-de-la-droite-avant-noel-et-appelle-les-candidats-a-se-rencontrer_AD-202611080305.html",
-    "date": "8 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Six personnes abattues dans la rue, un suspect aux idées \"ultranationalistes\", trois corps retrouvés chez lui... Ce que l'on sait de l'attentat en Pologne",
-    "resume": "La Pologne est sous le choc après un attentat à Cracovie où un homme aux idées d'extrême droite a tué six personnes dans la rue.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/monde/europe/ce-que-l-on-sait-de-l-attentat-en-pologne-qui-a-fait-six-morts-et-quinze-blesses-dans-le-centre-de-cracovie_8273087.html#xtor=RSS-3-[lestitres]",
-    "date": "8 nov.",
-    "impact": "flat",
-    "categorie": "Monde"
+    "categorie": "Tech"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-08T15:41:38+00:00",
-  "resume": "Binance France fermera les comptes de ses utilisateurs le 31 décembre, provoquant des départs de fonds vers d'autres plateformes. Le marché crypto montre des signes de prudence avec des sorties importantes d'ETF Bitcoin américains et un cours du BTC oscillant sous les 76 000 $. Par ailleurs, la plateforme Binance fait face à des difficultés internes suite à un piratage massif et au départ de son directeur financier.",
+  "updatedAt": "2026-11-08T20:13:56+00:00",
+  "resume": "Binance traverse une crise majeure suite à un piratage massif de 6,3 milliards de dollars, entraînant le départ de son directeur financier et la fermeture annoncée de sa branche française. Malgré un contexte instable, le cours du Bitcoin se maintient autour des 76 000 dollars tandis que les ETF Bitcoin américains subissent d'importants retraits. Ethereum fait face à des doutes techniques internes et à une pression vendeuse sur ses ETF.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,8 +93,24 @@
   ],
   "items": [
    {
+    "titre": "Hack Binance : Comment OKX protège votre compte jusqu’à 500 000 €",
+    "resume": "Binance a subi un piratage historique de 6,3 milliards de dollars attribué à la Corée du Nord, poussant le directeur financier à la démission.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/hack-binance-comment-okx-protege-votre-compte-jusqua-500-000-e/",
+    "date": "8 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Bitcoin reste solide : Pourquoi 76 000 $ est le niveau qui compte maintenant",
+    "resume": "Le Bitcoin fait preuve de résilience en se stabilisant autour de 76 000 dollars malgré les turbulences du marché et l'incertitude politique.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/bitcoin-reste-solide-pourquoi-76-000-est-le-niveau-qui-compte-maintenant/",
+    "date": "8 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Binance France annonce la fermeture des comptes de ses utilisateurs le 31 décembre",
-    "resume": "Binance France a annoncé la fermeture définitive des comptes de ses utilisateurs pour le 31 décembre.",
+    "resume": "Binance France a annoncé la fermeture définitive des comptes de ses utilisateurs pour le 31 décembre, provoquant une migration vers d'autres plateformes.",
     "source": "TradingView",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lMTFvRG0zNnpkQTh2bjUwQnhHM0dtOWRmSFhLZE1DWk40bldNWURiNmFiQUg5bTEwRnVLSUpKM3FRMTVhZEFhX3RieWoyOEVqZ01RZUt4azNwUDMxWnBGbDhObW9RcFhzczh0RGl4aw?oc=5",
     "date": "8 nov.",
@@ -102,80 +118,73 @@
    },
    {
     "titre": "Les investisseurs retirent 1,28 milliard de dollars des ETF Bitcoin en une semaine",
-    "resume": "Les ETF Bitcoin aux États-Unis ont enregistré des retraits nets massifs de 1,28 milliard de dollars en une semaine, leur pire performance depuis juin.",
+    "resume": "Les ETF Bitcoin américains ont enregistré leur pire semaine depuis juin, avec 1,28 milliard de dollars de sorties nettes.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/les-investisseurs-retirent-128-milliard-de-dollars-des-etf-bitcoin-en-une-semaine/",
     "date": "8 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le directeur financier de Binance quitte son poste après le piratage",
-    "resume": "Le directeur financier de Binance a démissionné peu de temps après un piratage de 6,3 milliards de dollars subi par la plateforme.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/le-directeur-financier-de-binance-quitte-son-poste-apres-le-piratage/",
-    "date": "8 nov.",
-    "impact": "baisse"
-   },
-   {
     "titre": "La mise à niveau Glamsterdam d’Ethereum pourrait casser la chaîne, préviennent les développeurs",
-    "resume": "Des développeurs alertent sur un risque de dysfonctionnement des smart contracts lors de la prochaine mise à niveau d'Ethereum.",
+    "resume": "Des développeurs d'Ethereum alertent sur le fait que la prochaine mise à niveau, Glamsterdam, pourrait perturber certains contrats intelligents existants.",
     "source": "BeInCrypto FR",
     "url": "https://fr.beincrypto.com/ethereum-glamsterdam-coupure-chaine-developpeurs-alertent/",
     "date": "8 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Moscou : la bourse russe ouvrira un marché Bitcoin, Ether et USDT le 1er décembre",
-    "resume": "La bourse de Moscou prévoit d'ouvrir un marché dédié au Bitcoin, à l'Ether et à l'USDT dès le 1er décembre.",
-    "source": "Cryptonaute",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yTm5NS3ZfZTRHaUlZZWt6dWpnbW5TNTFnU004cVM5bmtQNXFSTnYzQVRxNkJha2J5U1h2YlNsOVJtWDREMTk2c1lhMm1qUEhTMkctUUszbDRSeENlRzc1MDBIVDhtc1lvWWNKTnZFV0NNMjF3bXFlaGVB?oc=5",
+    "titre": "Après les élections américaines, Galaxy voit se réduire les chances d’une grande loi crypto",
+    "resume": "Suite aux élections américaines, les perspectives d'une réglementation crypto claire (Clarity Act) s'éloignent avec la victoire démocrate au Congrès.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/apres-les-elections-americaines-galaxy-voit-se-reduire-les-chances-dune-grande-loi-crypto/",
     "date": "8 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Le hack du wallet Keplr touche les utilisateurs connectés avec Google et Apple",
-    "resume": "Un piratage a touché le wallet Keplr, affectant les utilisateurs s'étant connectés via leurs comptes Google ou Apple.",
-    "source": "BeInCrypto",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVHFLdzBzalBwOU9lQXRGVjNkUlhib2J0cnNPZVpYUlV3c1AteGg3ajZpbm9wa1lxQm9QdXU3Z2xrUWtydnY2RHZtNkgwa2c0SGV3TGZuRGR6OFJrZ1VBbFU0RjA3SG92RHJFd3hjT0QtLTJIUlpkaldGUWs0Z0ZzazRSWF9JRUFLeFVPcA?oc=5",
-    "date": "8 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
+    "titre": "Ethereum : sorties d'ETF spot ETH en hausse après les midterms US",
+    "resume": "Les sorties de fonds des ETF spot Ethereum augmentent après les élections de mi-mandat aux États-Unis.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yT1NLQjgya2xGOEJMSUlja2N3N3NxanJ0d2Z3RGJWTVhqeUJCZWIzamh0eEJ4RkRkX2VSS0xjQ3VMbVBOc2pBVFA0ZlZRQklFN1BxSWtvYTlVNEdsaHMxN25Xc2dRdw?oc=5",
+    "date": "8 nov.",
+    "pourquoi": "Cela signale un désintérêt ou une méfiance accrue des investisseurs institutionnels pour l'ETH à court terme.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Minage Bitcoin : 375 jours sans record, Core Scientific mise sur l'IA",
+    "resume": "L'entreprise de minage Core Scientific se tourne vers l'IA après plus d'un an sans nouveau record de minage.",
+    "source": "Actu Crypto .info",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb2VzU0djYk81bXk0a19rV2dadzBURTBuUjJCUEx0b1pfN0Vac0hENmRvSDY1dGtyS01FMGptbmxpREcycmkwWUw5UlR6c0VEYllPcmJaTDB5NnE5WkhxQ3dEWE9ON0c4V2hBbjZJcElsV1A5eTRjamIyUVlkbDRnMDl1OVdTM2tHaXlVLVY0WHM4TTdQQ1RvVVp3?oc=5",
+    "date": "8 nov.",
+    "pourquoi": "Ce changement stratégique montre la difficulté croissante du minage de Bitcoin et la recherche de diversification des revenus.",
+    "impact": "flat"
+   },
+   {
     "titre": "Deux mineurs solo de Bitcoin battent des chances infimes et remportent 230 000 $",
-    "resume": "Deux mineurs solo de Bitcoin ont réussi à valider des blocs, remportant chacun environ 230 000 dollars.",
+    "resume": "Deux mineurs de Bitcoin en solo ont réussi à valider des blocs, remportant chacun environ 230 000 dollars.",
     "source": "BeInCrypto",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlNSM0ZSd2h3RXIxUUtJRXVKQ3A4bGE3Q0xONlZDb3hnU0d4Wjl3aEtmMWRBdlBuc1ZaMjY3dGNlQmd0aG45aGMwaDVyRV9OSVVacFZtM1VCT2lJUjYwN2VMUzJBWE5oOWlveTJveTcyNVVoZ0VHRnBMaDZaTmlJOENB?oc=5",
     "date": "8 nov.",
-    "pourquoi": "Cela montre que le minage individuel reste possible malgré une concurrence féroce, impactant potentiellement le sentiment des petits acteurs du secteur.",
+    "pourquoi": "Cet événement rare rappelle que la chance joue encore un rôle dans le minage, malgré la domination des grands pools.",
     "impact": "flat"
    },
    {
     "titre": "Chainlink : la réserve achète 94 500 LINK, sorties d’ETF",
-    "resume": "La réserve de Chainlink a acheté 94 500 LINK, malgré des sorties constatées sur les ETF.",
+    "resume": "La réserve de Chainlink a acheté 94 500 LINK, alors que les ETF associés subissent des sorties.",
     "source": "CryptoTicker.io",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWEU3S0MxVWxEYXpFX2ZuWF9ib3ZQZWpHcVlmVVU5bVdjWWdfODZ2YVNHMkJDNnZ5S3FCQktvRXVVd1VVTy1uZkkwN0xsdnZmSG4xUzFqZFpKT3R1QjZzNFl5N1ZKWXdvVFJOQkZHVHNCQzh5WjZDazBPa3ZhQmtrQQ?oc=5",
     "date": "8 nov.",
-    "pourquoi": "Cet achat important par l'entité du projet peut indiquer une confiance interne, à surveiller pour le cours du LINK.",
+    "pourquoi": "Cela indique une accumulation par le projet lui-même, pouvant contrer la pression vendeuse institutionnelle.",
     "impact": "hausse"
-   },
-   {
-    "titre": "Ces maisons finlandaises bénéficient de chauffage gratuit grâce aux mineurs de bitcoin (à condition que le BTC reste au-dessus de 70 000 $)",
-    "resume": "Des maisons finlandaises utilisent la chaleur générée par le minage de Bitcoin, rentable si le cours reste au-dessus de 70 000 $.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQTQwaUxVQktiWTV0LU13SzRtUDZPSlgzREFSc19NZDBfdnRRWFJEOWtlZm16SDNmQUtsU1ZMdnN6aUJDblFIT29id0phdzJLV2hiR0xFYUJYOU52N2FlOFJjM1piYml1QU5pUVBZbVN6TERsd0xVWGk5cFI0YUZpTkF0dy1WRGVic2RQb2FRbHJRLWxldlBjR0ZzS3N3WFh6ZHBacjJtTkl3ODhubUhXTGFDRk5EMnpCT2IxMVI4N205bEEyQUFBOThVRkVCSUM0Zk13?oc=5",
-    "date": "8 nov.",
-    "pourquoi": "Cette initiative illustre des cas d'usage concrets et écologiques du minage, liant sa rentabilité à un seuil de prix précis.",
-    "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-08T15:41:38+00:00",
-  "resume": "Wall Street a clôturé en hausse, portée par des espoirs de reprise, tandis que le CAC 40 a rebondi grâce au repli des cours du pétrole. L'attention des investisseurs se tourne vers la publication prochaine de l'indice des prix à la consommation (IPC) américain, crucial pour la suite. Le secteur de l'intelligence artificielle montre des signes d'essoufflement face aux inquiétudes réglementaires.",
+  "updatedAt": "2026-11-08T20:13:56+00:00",
+  "resume": "La semaine boursière à venir sera marquée par la publication de l'inflation américaine (IPC) et les discours de responsables de la Fed, alors que les marchés espèrent une reprise. L'IA reste sous pression après un récent repli, poussant certains analystes à privilégier les actions européennes face à Wall Street. Plusieurs dirigeants d'entreprises américaines ont profité de la période pour vendre ou acheter des actions de leur société.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -205,49 +214,49 @@
   "items": [
    {
     "titre": "Le sort du Dow Jones dépendra de l’IPC ce vendredi : Nouvelle chute en vue ?",
-    "resume": "La tendance future du Dow Jones est suspendue à la publication de l'IPC américain ce vendredi, une donnée clé pour l'inflation.",
+    "resume": "L'indice Dow Jones est sous pression avant la publication de l'indice des prix à la consommation (IPC) ce vendredi, une donnée cruciale pour la Fed.",
     "source": "Investing.com France",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSGxkLS1OWGl6WlpmX0tTYVFrajJ1d2JrZ3BORTlqemxOSkVWUGVheDRKdkJiOF9HWE5Fczl3REF1YXJYYjlqdWQtZ0V0X1pkUXNzRDZ3bEJDa1ZqMmc1aHpXa2Jnc09pTDhkbXoyOFBIai1DLUNRUWdNMmRMbi14SUVfenhXU0pXUll5N2hIdW5IVHRDMFB3U0pNejU4VkRNZWx4WHZGQlZFbVJybVF3eEdScnBZVUp3aFlLeXJ1cHd2Sm9UTDl0cw?oc=5",
     "date": "8 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Clôture Wall Street : les marchés jouent la reprise",
-    "resume": "Les marchés américains ont terminé la séance dans le vert, les investisseurs misant sur une reprise économique.",
-    "source": "Boursier.com",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSlBsczZfTk9HQy1tYmVvdkp4MjkyejVlZXBwZEkwR1ZKR3R1MzJYc29yQV9wWS1rVl9SNFoxdnB3YXVxcERGY2NHV3RpcWlRalhZTS15Zl9kM2pSdUpsNHVJbTRVbFItSXNTTDRUbnFOaG1kblNyOFpKeVlDNzFoLXRlWTdPc0RBN1pydWRBQmRtOFQ5T3hUM2cxVlB5STNWV0FpUEptd2x1RjRFQ0E?oc=5",
-    "date": "8 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "CAC 40 : rebond grâce au repli du pétrole, les taux restent sous pression",
-    "resume": "La Bourse de Paris a enregistré un rebond, favorisée par la baisse des prix du pétrole, bien que les taux restent sous pression.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX05yY0tNSnFBVVREdG5Zak1LYWhkYXUyZVBBSkFiUWFvTlk4ZkJzMHcwSVpSN2tiYUtUVEVOblJfcDJEZENMUzNYMEEyNU54aW1FQ19pR01tWTZQWDJJejNnbGhTUy1sdDF5T2RhM2RRMGJ6Uk5VNXF4dE5iMlJkWUZmdWE2YmZGY2N5Y1pHakdPTUxWNzhYOXRlTHdNeEhmTnROS0JuYlFaTVE?oc=5",
-    "date": "8 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Alors que l’IA s’essouffle, BCA mise sur les actions européennes face à Wall Street",
-    "resume": "BCA suggère de privilégier les actions européennes face à Wall Street, estimant que le secteur de l'IA s'essouffle.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/alors-que-lia-sessouffle-bca-mise-sur-les-actions-europeennes-face-a-wall-street-3683732",
+    "titre": "États-Unis : 165 000 emplois créés, la Fed se rapproche d’une nouvelle hausse des taux",
+    "resume": "Aux États-Unis, la création de 165 000 emplois pourrait inciter la Réserve fédérale à relever à nouveau ses taux d'intérêt.",
+    "source": "Tunisie Numerique",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONUpSWjgyNnJwaURDdmhpWnNnc2J6UDE5bmpKQjF0RmhpZXpXU0ZtOHBycWlpa00zdVlmOW53SHBNUmt0c1E1UDc3bTZMbjd4X2dMSE5KazdwZmV6YnlBbUVsVVBzZFlKa2xmY0dNSHp3QXZiSFlLSXJMZ0lIcUc1TDU1UnBQX2xZLXlPdjhQWlJjek0?oc=5",
     "date": "8 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Les actions liées à l'IA sous pression : l'élection américaine accentue les inquiétudes concernant la réglementation",
-    "resume": "Les valeurs liées à l'intelligence artificielle sont sous pression, l'élection américaine ravivant les craintes sur la réglementation.",
-    "source": "Epoch Times",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMEZQWWRkZHAzTVhkVC1XeEh2cnFPU0dGMWJlS01HdXY1enM4LTQwZ3FmZFFzek1HU3BQZnIxVW52elRCNnpEMkNhVGtSd3I0SDVDcFkwMUI3RnBrUkxyaHRvRVdVVmlNclI5UUpXcEMyYl91MHJ5bjZZUG1wclhiN3p4Y25GNDN2eW9CNWM2MnZzdnNXV0ZidFJhcjhaOWlSRkFWSFRmOEh0TXd4UHVkdnRCNzlKaFl3MVduZlhmNUtfUnhkbmNiZllJYjJOMUlQUHVxV3BpMzhROHFNS201ZVl3cDh3dw?oc=5",
+    "titre": "Le boom des investissements dans l’IA est-il durable après le repli de jeudi ?",
+    "resume": "La durabilité du boom des investissements dans l'intelligence artificielle est remise en question après le récent repli du secteur.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/le-boom-des-investissements-dans-lia-estil-durable-apres-le-repli-de-jeudi--3683739",
     "date": "8 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "De 275 milliards de dollars de capitalisation boursière à moins de 60 milliards en cinq années… Comment Nike a connu une véritable descente aux enfers à Wall Street (-80%)",
-    "resume": "Nike connaît une chute massive de sa capitalisation boursière, perdant plus de 80 % de sa valeur en cinq ans à Wall Street.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/actualites/informations-societes/de-275-milliards-de-dollars-de-capitalisation-boursiere-a-moins-de-60-milliards-en-cinq-annees-comment-nike-a-connu-une-veritable-descente-aux-enfers-a-wall-street-80-1172473.html",
+    "titre": "Berkshire Hathaway en vue après l'accélération des rachats d'actions : quelle suite ?",
+    "resume": "Berkshire Hathaway, la société de Warren Buffett, attire l'attention suite à l'accélération de ses rachats d'actions.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rT2otTDJ3ejN4Ui13SG12NXZLYVAxTlU0WlREa2diLU9KaldYWkdSX0IwbGZpdVVpUUxDY3VWQkhPbjVXbUwxSURCRW5tSGRGMjZLcWJWejNPM0hON0YzZDQzN3hWdw?oc=5",
+    "date": "8 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Stellantis chute sous 4,80 € : jusqu’où peut descendre l’action ?",
+    "resume": "Le constructeur automobile Stellantis voit son action chuter sous le seuil des 4,80 euros.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSDFxQlJaY3pMMU5zNzdfNnlEamZZdkdMdVB3ZTlxYW1Vc1NVQmt2bGpYcFc1cmpnWU9qUU5CR0d3ZUVUWVItbXFMNTRmRnVDUXVFNzVXNWJHX2s4NFpuWkMyclc4WmNFSGFYZXZIcWRBbTNhd0ZJcGM5V050cjVPekJtM0IyNWd2LXlNV2dSUVdEUnpZYUhCZXE2UmxqUmgtZ1kzbTFXMnFsYVB6?oc=5",
+    "date": "8 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Les actions d'On, soutenue par Federer, s'effondrent alors que la croissance du marché des vêtements de sport",
+    "resume": "L'action de la marque On, soutenue par Roger Federer, s'effondre face au ralentissement de la croissance du marché des vêtements de sport.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPZExSQmZFQVlaMm5wbms3MTFsclV5ZG5tZFNxcjlvTGVIckVtLUgtckJDaUJWdU9vSzMwV2RpZ2gzZGRvY1ZhMlF1NUFRcXJSdUpuMFUxMkRBTnNycVdBbnFLNnZFV0VqQUxZZGExaVY4YVJwN3NJQ3BRWjR5THRoaEt1SG9JbDVNc0ZGZXRSVWJwVnF5a2kyRDRJWXdDdDNILWJUaWFyc1ZDODhzMl9IeWRGZzBIem8ySndxNEgwRVN2NjczLVE5N3RMSk1vTHRIel9MZHhhaml5MFJNMTZvSXFPU3JZaGhJWnZncGlHVVphYWpHb1FydHE1cVNNM2w2X0otVG90UzFJNElHV2YtRHRMdEdFajVpUWtERzNmakxNcE1XalRjVGhFTG9nNTN3R3fSAbcCQVVfeXFMTVJjQUM5OW85U3VrZGtpd3Ruak1jMGE0MGJQSW51RXAwS2ZBV0Vrd0Zwc0M0MEVtdmZyWUJaT1VadDY3eUhyeVQ5SDM5ZWM1Q2VkYWFQNTM3OFZjckFSdW1iUk5neWxvYnpQUFNfZGY3ZThPTGhhYUQ3c2RFSjZJTXVMa0gwYU13RlJMUUEyeXZsaHZwSTgtc3hSQ2dXRDJTcnFSVnBPVlpQRG9OOXNsbkx0M1ZNOU1waFFKRy1FOXlIUFVHSTh4bkowVFE3aGtQUW9qWENnUWlpMmZJV1hTU0tYQzdzYlZ5cHdQRGFIMTQtV1RiZ1hIaW9oVTIwcjR5R2pZNGw5ZHBXYnVoTTNDNGdfaU9GcXB5RDUzNU9KU3pIUTZqMmFQTXVyRlY5b3VGZDJMOXBnejA?oc=5",
     "date": "8 nov.",
     "impact": "baisse"
    }
@@ -256,117 +265,117 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
+    "titre": "Un administrateur de Caterpillar achète des actions pour 620.390$",
+    "resume": "Un administrateur de Caterpillar a acheté pour plus de 620 000 dollars d'actions de l'entreprise.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/insider-trading-news/un-administrateur-de-caterpillar-achete-des-actions-pour-620390-93CH-3683717",
+    "date": "8 nov.",
+    "pourquoi": "Cet achat important par un initié peut signaler une confiance dans les perspectives du géant industriel.",
+    "impact": "hausse"
+   },
+   {
     "titre": "L’action Gogo bondit de 79 % en un mois grâce au signal de Juste Valeur",
-    "resume": "L'action Gogo a bondi de 79 % en un mois, signalée par un outil de juste valeur.",
+    "resume": "L'action Gogo a bondi de 79 % en un mois, suite à un signal de juste valeur.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/investment-ideas/laction-gogo-bondit-de-79--en-un-mois-grace-au-signal-de-juste-valeur-93CH-3683712",
     "date": "8 nov.",
-    "pourquoi": "Cela montre le potentiel de hausse rapide sur des petites capitalisations technologiques suite à des signaux d'analyse technique ou fondamentale.",
+    "pourquoi": "Cela montre l'impact potentiel des outils d'analyse sur les petites capitalisations.",
     "impact": "hausse"
    },
    {
     "titre": "Ce bassin d'eau chaude bleutée attire près d'un million de visiteurs par an... Joyau touristique islandais, le Blue Lagoon prépare son entrée en Bourse à Reykjavík",
-    "resume": "Le Blue Lagoon islandais prépare son entrée en Bourse à Reykjavík.",
+    "resume": "Le Blue Lagoon, célèbre site touristique islandais, prépare son introduction en Bourse à Reykjavík.",
     "source": "BFM Bourse",
     "url": "https://www.tradingsat.com/actualites/informations-societes/ce-bassin-d-eau-chaude-bleutee-attire-pres-d-un-million-de-visiteurs-par-an-joyau-touristique-islandais-le-blue-lagoon-prepare-son-entree-en-bourse-a-reykjavik-1172973.html",
     "date": "8 nov.",
-    "pourquoi": "Une IPO dans le secteur du tourisme de luxe est à surveiller, pouvant indiquer l'appétit des investisseurs pour des actifs de niche.",
+    "pourquoi": "C'est une opportunité de diversification dans le secteur du tourisme de luxe.",
     "impact": "flat"
-   },
-   {
-    "titre": "Le Bitcoin reste sous 76 000 $ alors que Binance ferme des comptes en Europe",
-    "resume": "Le Bitcoin reste sous les 76 000 $ alors que Binance ferme des comptes en Europe.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/cryptocurrency-news/le-bitcoin-reste-sous-76-000--alors-que-binance-ferme-des-comptes-en-europe-3683688",
-    "date": "8 nov.",
-    "pourquoi": "Les actions réglementaires sur les plateformes d'échange peuvent influencer directement le cours des crypto-actifs et le sentiment du marché.",
-    "impact": "baisse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-08T15:41:38+00:00",
-  "resume": "La hausse continue des taux de crédit immobilier entraîne une baisse des prix dans plusieurs grandes villes françaises comme Lyon et Nantes. Les experts anticipent une poursuite de cette correction du marché ancien, tandis que de nouvelles normes DPE se profilent pour 2027. Face à la difficulté d'obtenir un prêt, certains investisseurs se tournent vers des solutions alternatives comme l'achat de conteneurs.",
+  "updatedAt": "2026-11-08T20:13:56+00:00",
+  "resume": "Le marché immobilier français tourne au ralenti, marqué par une baisse des volumes de ventes et des prix qui commencent à reculer dans plusieurs grandes villes comme Lyon, Nantes ou Bordeaux. Cette tendance est alimentée par la remontée continue des taux de crédit immobilier, certains acteurs anticipant même un passage imminent au-dessus de certains seuils. Face à cette conjoncture difficile, les professionnels observent une forme d'hibernation du marché.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Immobilier : le marché a basculé, les prix chutent déjà de 5% à Lyon et Nantes à cause des taux de crédit",
-    "resume": "Les prix immobiliers chutent de 5 % à Lyon et Nantes, directement impactés par la remontée des taux d'intérêt.",
-    "source": "Bourse Inside",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPM3E2M3lVaHhLOWpjX0xGSkFCRW9ybGFCcXFZRWJzSFRsX0VZb1pGaDAxbGFDTnRhd211U0g4RFFYdjFyT096aTc2aUxpMGtCWmdXUTd2RGdPTVRDUGhVZ3RKZUxXcURJcEJmRUlRMmNtdmFEQy12aTNFeXRiMkhLelF4MjZSQno4MUtzTTI4T2x4eUF5R3p3amkyb011X3VSSW01Y29lZi0tM3pwTWZJNThwMTQ3MU9YNHZwRnR1a3dZVmdwd01oYTRFMjNfQXVGU3Zz?oc=5",
+    "titre": "\"Mieux vaut perdre un peu aujourd'hui que beaucoup demain\": -4 à 5% à Nantes et Lyon, -1% à Paris... La baisse des prix immobiliers débute doucement face à la remontée des taux d'intérêt",
+    "resume": "La hausse des taux d'intérêt entraîne une baisse des prix immobiliers, avec des reculs de 4 à 5 % observés à Lyon et Nantes, et de 1 % à Paris.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNN3BfTFhNOG9wek16Q2JYQ2U3aE02dGlHbXFJRWgyZ2ctUEpZckVpdWdYRkhiQ1JXYS00cWhlYVFUMUpVX1RTR1RTRGtZMmFJWTA4YURNTnktclEzYWFZZFdfV2o4YnN6bTVSRzFoWjlkYmZLaWpMV2FSeUlzSE9DbVA5TTN2eGppeHVUeEZFZ1NsLTZMQWFQTFktZ2NNMG9PWm9nM1RvSzVVMU5SVTlFVFZkU3FSWVlvUnNvb19VWTlOMFRzTXdZa21USFVsbkVHeUhjcVEyNFR6d3hINkJwMnBVLU5xVlJYSFh6bENVSU1HTEpUSDRZMktaTW5mZ1I1bW5uQlJ4X0FQT2xnYTJ5X3VrZWtSTEFqU1d5NzZBRXNxVmREUWduTTEwaVVtVTBQcHRVdGk3S1l5aFpMMUtVREx1eVFzTG1ZbjFyMWNYYng3TTZxTGhuYVV5VzE5blpPcERR?oc=5",
     "date": "8 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Immobilier : le spectre des taux à 5%",
-    "resume": "Le marché craint une possible remontée des taux de crédit jusqu'à atteindre le seuil des 5 %.",
-    "source": "Figaro Immobilier",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVk5XazEtRVhvRTVtdmNJWlk4YzNEalkzNlFEamJKT19lRHBnN2xxRUxXbWJ6SWZNTUt1ZkRaOGEyYmtVbVJhSWtJR2RvVy03T2JaNDNsc0k5UmlWWGhaZHFVcUFuYTd5TkltWXpaNjdQdTEwcmtfUmhJdTQteGIta3ZSRU11RTViM2c?oc=5",
+    "titre": "Crédit immobilier : en novembre, les taux repassent (vraiment) au-dessus de...",
+    "resume": "En novembre, les taux de crédit immobilier poursuivent leur progression et repassent concrètement au-dessus de certains paliers.",
+    "source": "PAP",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ3lvcG94blpnNkpCd3hmX1JMZFhBdDJQeDduc1RkQWk5OGprZE9IRkFjNk9sWVBWWUVxNmVTZzdYZlRDWWUxZVlsYUI0bmlSeWZ0YUNoRTJaSklaN3FtdmJwSDY3UWZJX2d2RXJHaTA3WjE5TjlpWkIxM3pDMmVLeGFQc0JWNUZTbkpwX1RvczlRaEVYNWpPQkR6YjlkVTlIU3BDOFJ0Z1J1X2M?oc=5",
+    "date": "8 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "RENT 2026 : « Le marché est en hibernation », Loïc Cantin (FNAIM)",
+    "resume": "Selon la FNAIM, le marché immobilier est en hibernation, prévoyant une chute des ventes à 900 000 en 2026 et un secteur neuf en grande difficulté.",
+    "source": "MySweetImmo",
+    "url": "https://www.mysweetimmo.com/2026/11/08/marche-immobilier-en-hibernation-fnaim/",
     "date": "8 nov.",
     "impact": "baisse"
    },
    {
     "titre": "Immobilier ancien : Marc Touati prévoit une nouvelle baisse des prix d’au moins 10 %",
-    "resume": "L'économiste Marc Touati prévoit une baisse supplémentaire d'au moins 10 % des prix dans l'immobilier ancien.",
+    "resume": "L'économiste Marc Touati anticipe une nouvelle baisse des prix dans l'immobilier ancien, estimée à au moins 10 %.",
     "source": "lejdd.fr",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOak05Z0FoRHdvRHBhcWRiYjZoYW9DOU9KTlNFZU5JcHVEZFpjOGxiMHBEcFNjRVk1cDcydm81VzFvNl9PVlJfREhka28ySHpDb09VYTBRR3kyb3Q0N2dzX1dXcjd1bWNVTl9aM2RtcFkyNU5mbUUyM2t3aDdXTFJZRWpmT0kxbzFJdnZQM19fb3pYd2w5M20yR25ld24wajNTX3laSy1hcGJpdjR6Vzd6N1AxYXVmdFU?oc=5",
     "date": "8 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Marché immobilier en Île-de-France : le Val-de-Marne enregistre la plus forte hausse en matière de ventes d’appartements anciens (+14 %)",
+    "resume": "Contrairement à la tendance générale, le Val-de-Marne enregistre une hausse significative de 14 % des ventes d'appartements anciens.",
+    "source": "Le Particulier",
+    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQRF9hLVI2UHpnb1drcVhLWVl4YVR3bTJxVHVEc0N4dWdJblBUb2ZFQzc0czJTLTB2azZfYll1bFZaMWE4LWhpb0xCaDRoWkpPVldESElva1M1d2V0LXZOeGlhVVd0bHhiRWRTRTFtdDVCdEJRd0pwSVJHZVVyczRSTzU3X1pKRDFfdno3ZjJETEZYWkpQUnB1VU1qd0JRQnlBU2FKT3hLRWwyNVRQa1QxSFVBWElndkxiTzFmeDVVZkVnZnYzY0hDcmdMdWhQV21yUTRHWkhFTlpFcHFyaXVMYUlQSWNFUzlSZ0luVkhnUDFFbDQtSmVOMTVrSk95eWtLY1ZBM0hQVXhLcEUxcUQydE5ZQjVBa1ZpN2RZZGRwVnV2MUtJ?oc=5",
+    "date": "8 nov.",
+    "impact": "hausse"
+   },
+   {
     "titre": "DPE 2027 : 6 nouveautés et une nouvelle mention A0 pour les logements",
-    "resume": "Une nouvelle réforme du DPE pour 2027 introduira six changements et une note A0 pour les logements les plus performants.",
+    "resume": "Le Diagnostic de Performance Énergétique (DPE) va évoluer en 2027 avec six nouveautés et la création d'une mention A0 pour les logements.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZGlUemJaSk5wdTllalI2TS1aQUNxaHpsQ01mMWlQYUo5NVpZaUpKZlViUmtwQzNIblhJMnNVaHF3TFRqSm05UUpCQVJkVHdnQjR2dmFkWTZJRXlpemdRVnVqYl9CRVFYWHE4ZW9DTGF0X3RfTUNHZ3VtbFRSMm5ZejdsOW5md190YllkM2NsTS1iWTI4Rl9ObFE4M1BQckVySHpZc3M3TnViRFJNYUJkZDdmQ0tlUQ?oc=5",
     "date": "8 nov.",
     "impact": "flat"
-   },
-   {
-    "titre": "« Mieux vaut vendre moins cher que d'attendre deux ans et de stresser » : les conseils d'un expert pour gérer un prêt relais quand les taux des crédits immobiliers s'envolent",
-    "resume": "Pour gérer un prêt relais dans ce contexte de taux élevés, un expert conseille de vendre rapidement, même à un prix inférieur.",
-    "source": "Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPdHYzOVNLUDY1Q2gxRXdhaXhCVldWVmFqSThiMlZJckRyVER4UEthYUF0R0dJeGtrNS1jUC1jTU5Cbk1OMkp1WkZndEdxMWozVzNmUl9nZGNzYVlrN3RlT2ROdFc1Q191M3VSTDhOS0dKWGZVQVFBNW55SC03akxpd213VVN6YnZSclpGZ0trajhXTWpjekV5Tk95UVBWVVlGY0V6ZE1TT1JUSFNCRndKX2RIemdsUjhDNGJyNHJWM3JDbTlNV1J5LVZNdS1vMEVPa3VBRUhYT2JzcmIyX2lTMTV4RTFpMDcwd3hzSWlSOHM1aEVBLUVVOTJsRmNHTGZOVlNrazNGQmt1Vl9jWWhuRkJLQmpVUjZTZ0hlU2RUNldETV9EUTFjMzVkM0tEZHNzU3Rza0s0Z0NaTEluLUg0VQ?oc=5",
-    "date": "8 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Les prix grimpent de 3,4 % en octobre : retraites, loyers, Livret A, ce que l'Insee met en mouvement",
-    "resume": "L'Insee rapporte une hausse des prix de 3,4 % en octobre, influençant directement le calcul des loyers et du rendement du Livret A.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWdnNWUF81c1dZbEVMTkV6LW1vdXNNcnJfWXpaaENzTzlWQ3pKdjZJczl6SWdFdVhvYldFb1V0azZ2Y21CUHFXVDdpeXVIejFNOWYtTzVHaHpON3VfUXJF?oc=5",
-    "date": "8 nov.",
-    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Ville moyenne : ce qui fait tenir un rendement brut de 10 % jusqu'à la revente",
-    "resume": "Un rendement brut de 10 % peut être maintenu dans certaines villes moyennes jusqu'à la revente.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aOWJJU2I3bXN2c1NyQTJ1Z2RvTEFuNlMzT24wdG5RMWw3d2JSUkdtQVhIYnpSWkdzU1BGLWtoRzBsc2NVVC11STlsSmRQUU55VXpXd2lvQ1d1NHBKZzdfV3ZzenhNbDdKR2czWTl2Y2s3UQ?oc=5",
+    "titre": "\"On va faire une plus-value quoi qu'il arrive\" : le prêt social location-accession, un tremplin fiscal vers la propriété immobilière",
+    "resume": "Le prêt social location-accession permet de devenir propriétaire avec des avantages fiscaux et une plus-value potentielle.",
+    "source": "franceinfo",
+    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeHJVbjAtWVU2TXNsZVdQNUdnb2Yxemk1U1FzbzlzVlhMamhqbjMwajR4S2dDak03allISnZDYTFnaFgtbXBlcUotbzJrdF9WYWVVdEI3ODM1VTNGNWEzRTd5angzdVUwd1hCWWRqOTR1UFdyNUROekIyV2oxbHFhQzU3SndOTkQ5Rm0zY2ZQdkwyLTZtRmN3QkNLNC1XSmNDRzRXX1JpOHlISU9WS3BMbDJDdjVXN1pQaExTblctNHhRVU80TFNzeWQtSWFoakVXVnBhTXBqbmliUEY3M3g3emxyZFZYOHcxNlVyTXFSWW1vT0d6MHZzeXJqeWdUTGFjalhpNjl4LUJTZE4wcW14NXlhcUw?oc=5",
     "date": "8 nov.",
-    "pourquoi": "Cela indique des opportunités de rendement locatif élevé hors des grandes métropoles, à condition de bien sélectionner la localisation.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Une famille de quatre personnes vit dans un conteneur de 6 mètres : sans crédit à rembourser, voici ce que les parents ont pu changer",
-    "resume": "Une famille vit dans un conteneur de 6 mètres pour éviter de contracter un crédit immobilier.",
-    "source": "Demotivateur",
-    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPV0NTOHJqNHJyM2llSEJNeXd3a2lFbWxwcUpRX3dIM2lOQkJFeVlETk04MGFySUtrRnNENGpSYS1uUWY5NUtOUmFWZXJWTnR0SlU2enp5SDM0STJlOXZWQXZISWFKbDNkbndmQTV4MzFma0p3bjRib3lucXk2TmlicWJCXzNBdWRiQ2VsN3IzZzFfcEc0NkNsSy1NS29SRU9RSUdDaVp4RDVmVGxPV0hGbUw1eG84M1FPbDc5Mk1oRzR2NDhscklnRVUwYUNOUXBxUXRuRjJEZUhUN3BPUVlZalNsdlVPWGRsRWd2TDQ3TTlDTjgzaU50Yy1VVTd2QVQyUEtRRA?oc=5",
-    "date": "8 nov.",
-    "pourquoi": "Ce signal illustre l'émergence de modes de vie alternatifs face à la difficulté d'accès au crédit classique.",
-    "impact": "flat"
+    "pourquoi": "Utile pour surveiller les dispositifs d'accession aidée qui peuvent soutenir la demande dans certains secteurs.",
+    "impact": "hausse"
    },
    {
     "titre": "Canicule, inondation, argile : 4 vérifications pour juger le risque climatique d'un logement",
-    "resume": "Quatre points de vérification sont proposés pour évaluer le risque climatique d'un logement.",
+    "resume": "Quatre vérifications clés sont recommandées pour évaluer le risque climatique d'un logement (canicule, inondation, argile).",
     "source": "Actual Immo",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZnhNTDFmaVAzeEFFNV85WU9MT3pxSGJTQ2ZJQW9MY2NpWW5RWDctajdlOGxKeG1fODdJZ0U1amNqX0Y2bUZLS1BHejFndWhoMWJjaFZFLXhFQkNldnMyeHdROE1sLXc?oc=5",
     "date": "8 nov.",
-    "pourquoi": "La prise en compte des risques climatiques devient cruciale pour la valorisation à long terme d'un actif immobilier.",
+    "pourquoi": "La prise en compte des risques climatiques devient cruciale pour la valorisation à long terme des actifs immobiliers.",
     "impact": "baisse"
+   },
+   {
+    "titre": "Ville moyenne : ce qui fait tenir un rendement brut de 10 % jusqu'à la revente",
+    "resume": "Dans les villes moyennes, certains investissements parviennent à maintenir un rendement brut de 10 % jusqu'à la revente.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aOWJJU2I3bXN2c1NyQTJ1Z2RvTEFuNlMzT24wdG5RMWw3d2JSUkdtQVhIYnpSWkdzU1BGLWtoRzBsc2NVVC11STlsSmRQUU55VXpXd2lvQ1d1NHBKZzdfV3ZzenhNbDdKR2czWTl2Y2s3UQ?oc=5",
+    "date": "8 nov.",
+    "pourquoi": "Indique que des opportunités de rendement élevé existent encore hors des grandes métropoles pour les investisseurs avertis.",
+    "impact": "hausse"
    }
   ]
  }
