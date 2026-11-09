@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-09T06:26:07+00:00",
+"updatedAt": "2026-11-09T12:14:58+00:00",
 "events": [
 {
 "d": "2026-11-09T22:05:00+01:00",
@@ -130,6 +130,15 @@
 "sub": "WMT · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
 "imp": 2,
 "tick": "WMT"
+},
+{
+"d": "2026-11-19T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats d'Alibaba",
+"sub": "BABA · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "BABA"
 },
 {
 "d": "2026-12-09T20:00:00+01:00",
