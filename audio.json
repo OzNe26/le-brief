@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T21:48:04+00:00",
+ "updatedAt": "2026-11-09T01:24:14+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -53,12 +53,12 @@
    "label": "Europe 1",
    "cat": "Info",
    "name": "Europe 1",
-   "url": "https://stream.europe1.fr/europe1.aac",
+   "url": "https://europe1.lmn.fm/europe1.mp3",
    "logo": "logos/europe-1.png",
    "homepage": "https://www.europe1.fr/",
-   "codec": "AAC",
+   "codec": "MP3",
    "bitrate": 128,
-   "uuid": "dfcef843-6bf9-40f6-b3fe-2b224df86e48",
+   "uuid": "51775b57-e11a-40ef-8894-38b07d80bb73",
    "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Europe1_FLAT.png/330px-Europe1_FLAT.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
@@ -77,12 +77,12 @@
    "label": "Radio Classique",
    "cat": "Éco & musique",
    "name": "Radio Classique",
-   "url": "https://str0.creacast.com/classique1",
+   "url": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3",
    "logo": "logos/radio-classique.png",
-   "homepage": "https://www.radioclassique.fr/",
+   "homepage": "",
    "codec": "MP3",
    "bitrate": 128,
-   "uuid": "d1aa02d7-e611-4208-b38b-da21bc236cd8",
+   "uuid": "8890f793-36f4-4218-8f53-3d34a75db66a",
    "logoSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Logo_Radio_Classique.svg/langfr-330px-Logo_Radio_Classique.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
