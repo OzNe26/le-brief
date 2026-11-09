@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-09T11:32:22+00:00",
-  "resume": "L'actualité est marquée par la candidature surprise du judoka Teddy Riner à l'élection présidentielle française de 2027. Dans le secteur technologique, Binance France demande à ses clients de retirer leurs cryptomonnaies avant la fin de l'année, tandis qu'Orange intègre plusieurs IA dans sa nouvelle application. Sur le plan économique et social, le gouvernement français réunit les partenaires sociaux dans un contexte de colère sociale et de débats sur la revalorisation du Smic.",
+  "updatedAt": "2026-11-09T16:06:26+00:00",
+  "resume": "Le gouvernement a annoncé une hausse du Smic de 1,6 % au 1er décembre, dans un contexte de colère sociale persistante et de mobilisation lycéenne. Parallèlement, le prix de référence du gaz va augmenter de 5,8 % et la Cour des comptes suggère de geler les avancements des fonctionnaires pour réduire le déficit. À l'international, des négociations sur l'Ukraine sont prévues à Abou Dhabi, tandis que l'ancien comédien Russell Brand a été condamné à plus de 10 ans de prison.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Teddy Riner annonce être candidat à l’élection présidentielle de 2027, poussé par la « colère » sociale et l’envie de « fédérer » les Français",
-    "resume": "Le triple champion olympique de judo Teddy Riner a annoncé sa candidature à l'élection présidentielle de 2027, motivé par la colère sociale et le désir de fédérer les Français.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/11/09/teddy-riner-annonce-etre-candidat-a-l-election-presidentielle-pousse-par-la-colere-sociale-et-l-envie-de-federer-les-francais_6808643_823448.html",
-    "date": "9 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Des frais mensuels seront appliqués dès le 29 novembre: les clients de Binance France doivent retirer leurs cryptos avant le 31 décembre au risque qu'elles soient \"converties\" ou \"transférées\" par l'entreprise",
-    "resume": "Binance France, faute d'agrément, impose à ses clients de retirer leurs actifs cryptos avant le 31 décembre, sous peine de conversion ou de transfert par l'entreprise.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/crypto/des-frais-mensuels-seront-appliques-des-le-29-novembre-les-clients-de-binance-france-doivent-retirer-leurs-cryptos-avant-le-31-decembre-au-risque-qu-elles-soient-converties-ou-transferees-par-l-entreprise_AV-202611090474.html",
+    "titre": "Le gouvernement annonce une hausse du smic de 1,6 % à partir du 1ᵉʳ décembre",
+    "resume": "Le gouvernement revalorisera le Smic de 1,6 % à partir du 1er décembre, portant son montant net à environ 1502 euros, une mesure jugée insuffisante par les syndicats.",
+    "source": "Le Monde Économie",
+    "url": "https://www.lemonde.fr/economie/video/2026/11/09/le-gouvernement-annonce-une-hausse-du-smic-de-1-6-a-partir-du-1-decembre_6808661_3234.html",
     "date": "9 nov.",
     "impact": "flat",
     "categorie": "Économie"
    },
    {
-    "titre": "EN DIRECT - Colère sociale : Lecornu réunit syndicats et patronat à Matignon, la hausse du Smic au cœur des débats",
-    "resume": "Le gouvernement français réunit syndicats et patronat à Matignon pour une conférence sociale, avec la hausse du Smic comme sujet central face à la grogne sociale.",
-    "source": "TF1 Info",
-    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUGFaTFpjWTFaRFFZSm1zdHhEWVlmV3VOU2tFa0xsZjZ1MDNLU1V4Z2hYOTdieXM1Y2kybmRlMEZWMllXZ3FoVXNmem9PZkhlRW5YdmVfTEtHY1hXN1c3Y0lxdy1nVnJRN0kzNWx6Q3hHMWlBVHhLSkNMbE95ZGZxVjZxYzFKOGpRMUFQSi1kUUQ5V1Z2Mk9LVXV2a0JDbHZnSnVmamlsZktEVU9FUmh4enFyQUJnQjdMYU1vZGI0T1hzblRsb1VSLVhsNGFSVnhqOF9WT1hoSk55dEFFMnMzaF9wYjZMckhxRHNKa2Q0OUd6RU80VHNuZzJhVzBEUjBOM1RMLVlSdXgya2NJQ2lpQlNBaHdLSVRWSnF2d3QwT1Ewc0k?oc=5",
-    "date": "9 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Orange change complètement son application et intègre GPT, Claude, Gemini et Mistral",
-    "resume": "Orange a lancé une nouvelle version de son application mobile qui intègre désormais les intelligences artificielles GPT, Claude, Gemini et Mistral.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/tech/2370453-orange-change-completement-son-application-et-integre-gpt-claude-gemini-et-mistral.html",
-    "date": "9 nov.",
-    "impact": "flat",
-    "categorie": "Tech"
-   },
-   {
-    "titre": "La COP31 s'ouvre sur un appel à mettre en œuvre les décisions des précédents sommets",
-    "resume": "La COP31 s'est ouverte avec un appel à mettre en œuvre les décisions précédentes sur l'électrification et le financement face à l'urgence climatique.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/antalya-doit-introduire-l-action-climatique-dans-la-vie-des-gens-la-cop31-s-ouvre-sur-un-appel-a-mettre-en-uvre-les-decisions-des-precedents-sommets_8274299.html#xtor=RSS-3-[lestitres]",
+    "titre": "EN DIRECT, guerre en Ukraine : la délégation ukrainienne est en route pour Abou Dhabi, où des négociations avec les représentants américains et russes sont prévues mardi et mercredi",
+    "resume": "Une délégation ukrainienne se rend à Abou Dhabi pour des négociations prévues mardi et mercredi avec des représentants américains et russes.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/international/live/2026/11/09/en-direct-guerre-en-ukraine-la-delegation-ukrainienne-est-en-route-pour-abou-dhabi-ou-des-negociations-avec-les-representants-americains-et-russes-sont-prevues-mardi-et-mercredi_6808609_3210.html",
     "date": "9 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Hausse de la TVA, gel des prestations sociales ou suppression de l'abattement de 10% des retraités... Les propositions choc de la Cour des comptes pour économiser jusqu'à 38 milliards d'euros dès 2027",
-    "resume": "La Cour des comptes propose des mesures drastiques, comme la hausse de la TVA ou le gel des prestations sociales, pour économiser jusqu'à 38 milliards d'euros d'ici 2027.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/economie-social/hausse-de-la-tva-gel-des-prestations-sociales-ou-suppression-de-l-abattement-de-10-des-retraites-les-propositions-choc-de-la-cour-des-comptes-pour-economiser-jusqu-a-38-milliards-d-euros-des-2027_AV-202611090460.html",
+    "titre": "Fonction publique : la Cour des comptes avance la piste explosive du gel des avancements et des promotions pour réduire le déficit",
+    "resume": "La Cour des comptes propose de geler les avancements et promotions des fonctionnaires pour économiser 3,8 milliards d’euros d’ici 2027 et redresser les finances publiques.",
+    "source": "Le Monde Économie",
+    "url": "https://www.lemonde.fr/politique/article/2026/11/09/fonction-publique-la-cour-des-comptes-avance-la-piste-explosive-du-gel-des-avancements-et-des-promotions-pour-reduire-le-deficit_6808669_823448.html",
+    "date": "9 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Vie chère : Le prix de référence du gaz augmentera (encore) de 5,8 % en décembre",
+    "resume": "Le prix de référence du gaz pour les particuliers augmentera de 5,8 % en décembre, marquant une quatrième hausse mensuelle consécutive.",
+    "source": "20 Minutes",
+    "url": "https://www.20minutes.fr/economie/4261706-20261109-vie-chere-prix-reference-gaz-augmentera-encore-5-8-decembre?at_medium=display&at_campaign=149",
     "date": "9 nov.",
     "impact": "flat",
     "categorie": "Économie"
+   },
+   {
+    "titre": "L'ex-comédien britannique Russell Brand condamné à 10 ans et six mois de prison pour viol et agressions sexuelles",
+    "resume": "L'ancien comédien et animateur britannique Russell Brand a été condamné au Royaume-Uni à 10 ans et six mois de prison pour viol et agressions sexuelles.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/people/l-ex-comedien-britannique-russell-brand-condamne-a-10-ans-et-six-mois-de-prison-pour-viol-et-agressions-sexuelles_AD-202611090626.html",
+    "date": "9 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Sans prévenir, Microsoft s’est mis à bloquer des mails de petites structures vers Hotmail et Outlook : voici comment y remédier",
+    "resume": "Depuis le 5 novembre, Microsoft bloque les courriels envoyés par de petites structures vers Hotmail et Outlook si elles n'utilisent pas le protocole de sécurité DMARC.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/cyberguerre/2370747-sans-prevenir-microsoft-sest-mis-a-bloquer-des-mails-de-petites-structures-vers-hotmail-et-outlook-voici-comment-y-remedier.html",
+    "date": "9 nov.",
+    "impact": "flat",
+    "categorie": "Tech"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-09T11:32:22+00:00",
-  "resume": "Le marché des cryptomonnaies connaît une forte correction, le Bitcoin chutant sous les 74 000 dollars, entraînant plus d'un milliard de dollars de liquidations. Binance annonce la fermeture de ses services en France pour la fin de l'année, tandis que le Sénat américain demande des documents à l'entreprise et à Tether. Les investisseurs surveillent de près les prochaines données sur l'inflation américaine.",
+  "updatedAt": "2026-11-09T16:06:26+00:00",
+  "resume": "Le marché crypto connaît une forte baisse, le Bitcoin chutant sous les 75 000 dollars et entraînant les altcoins dans son sillage. Parallèlement, Coinbase et Ripple ont obtenu des licences bancaires fédérales aux États-Unis, marquant une avancée réglementaire majeure. Avalanche se positionne sur la tokenisation d'actions à Wall Street, tandis que Binance annonce l'application de frais et la fermeture de ses services en France pour la fin d'année.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,50 +93,50 @@
   ],
   "items": [
    {
-    "titre": "La plate-forme de crypto Binance ferme le 31 décembre en France : ce que vous devez faire si vous avez de l’argent dessus",
-    "resume": "La plateforme Binance cessera ses activités en France le 31 décembre, obligeant ses clients à retirer leurs fonds avant cette date.",
-    "source": "Le Parisien",
-    "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQMEt6cWRwaDVBX0FHOVlNX2t1aG9tZlFrTzU2ZlE4MFpjdF81LXJXblJ5YU1QbmdzOWprOVdvUW1kZUMteGZocE0tV3pYSEpyenBjTjdtRDlUejM4TV9ybjFZM0FZNjRJREsyeHBBXzdPREJTTzlKZ0dqSk9CSmZzY2k2amFDa1BfNjlDWEJtV3RaUkpaTGhtcTRBQTc3NDllVm5fRHBhY0tDS2NLRGJNT2w1bkV6TG9jcHFtamlmUjBMN2dWWDlqa0lNWm1Vd3VoXzJKTFBNOFo0TzlUajU0LXVPMzY0REd3aXFoMkduT1BSZHE2T2xlZlZka0VVeEtpeC1DYTNwSXhyc2hXQ21KbkpGa1VtRlZXMW1sQmFFLTJTUQ?oc=5",
+    "titre": "Bitcoin sous 75 000 dollars, Nvidia lâche 6 % quand la tech rebondit",
+    "resume": "Le cours du Bitcoin est repassé sous la barre des 75 000 dollars, affecté par le recul du secteur technologique et de Nvidia.",
+    "source": "Mediaterranee.com",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjVRUmxyajFoM0k2RWllbmdRY0NXUVhqTWZfS1QyX3doSFdudUYtelo0TWo5Rk1YRjBpR2dZTDdGOHhFRldYMVBaTnBqN3JBWVluTW1hUXVOaFYtei1YTXZNWDEyOE56MXB1alBtNDE2TnVSSlR4WGFQMGVmT2w1YW5vdklQTXpHSXFPSWFSN29qVUxyZG5EbnR2dkticXF2UkRORVlOZm8tVVkx?oc=5",
+    "date": "9 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Après Ripple, Coinbase obtient à son tour sa licence bancaire fédérale aux USA",
+    "resume": "Coinbase a obtenu une licence bancaire fédérale aux États-Unis, rejoignant Ripple dans le cercle restreint des entreprises crypto régulées comme banques fiduciaires.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/coinbase-national-trust-company-licence-bancaire-federale-occ/",
+    "date": "9 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Crypto : Ethereum prépare deux solutions pour protéger ses smart contracts",
+    "resume": "Une prochaine mise à jour d'Ethereum, nommée Glamsterdam, pourrait perturber le fonctionnement de nombreux smart contracts en raison de nouvelles règles de calcul des frais de gas.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/crypto-ethereum-prepare-deux-solutions-pour-proteger-ses-smart-contracts/",
+    "date": "9 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le NYSE choisit Avalanche pour ses actions tokenisées : quel impact pour l’AVAX ?",
+    "resume": "La Bourse de New York a sélectionné la blockchain Avalanche pour le règlement des transactions de sa future plateforme d'actions tokenisées.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/bourse-new-york-nyse-avalanche-actions-tokenisees-avax/",
+    "date": "9 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Des frais mensuels seront appliqués dès le 29 novembre: les clients de Binance France doivent retirer leurs cryptos avant le 31 décembre au risque qu'elles soient \"converties\" ou \"transférées\" par l'entreprise",
+    "resume": "Binance France informe ses clients que des frais mensuels seront appliqués fin novembre et qu'ils doivent retirer leurs fonds avant le 31 décembre sous peine de conversion ou transfert.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPeEF0UXpJS0luTXh0ZllJZ0szZy15YmIxcVRHc3BSbWlLbzJVUXZsOGRjU29GeWdzRTNfNlF2aWQ4aTBWbEpBdnN6U0VzcGZqMG1UVEx2UTVmdkJocDdwMWhVOXZvVmhFcWc2RTUzVjE2QXhrSTdKOGowaHJ1U1F5WDVNUksxWk1oUTdxUTUzQ1hVZlZqZ1NZc3V2QXBwVUVtblFvSE1EYnkxdHg3UVBnaDlsVXFWNC0zOWFVWE9faWc1Z1hoa3Q4SU9CN01yN0t0NEpKR3U2a29wUEt4bGpJVm50TENtY3lvRnNWOG9yOUZxdnJsSkdfV1BGRE5iTDlSdV91RHBYeHBLMjc4V3VJcUY3LTBBazVnX3pCNklhZnZJdzBWTEcxT0JzS0pVQjcwS2xjb1FHWVdybG0zWDFZQURSaWZlX1kzb2ZSQnppRkhVMXY2ZDdUMEJrSkdkdGM0dE1OSUk2ZmRTV0pwTEgw?oc=5",
     "date": "9 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Bitcoin : chute sous 74 000 dollars, retour aux niveaux d’août",
-    "resume": "Le cours du Bitcoin a fortement reculé, repassant sous la barre des 74 000 dollars et effaçant ses gains récents.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQjI3NEV0RVZocWZiZVhDNFR2OXV0bnVYeXp0STFVbFlHUDhOMjhNaUo1Xy1qMlYzcnhyOU5KX3M3XzlTX3FQQUlSd2NObWNUVlVIZ2VxYjctbUNrUDNsalZpejFycmlFNWR4dlotak91NnF1Zkl6bF9BVWhvM3BJQUYxRld2ZmtDMDJ6RDJQLXpIOFBBb2JsekZzSFhkR2ExUlNpZkdn?oc=5",
-    "date": "9 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Crypto : 1 milliard de dollars de liquidations en 24 heures - Bitcoin sous les 75 000 dollars",
-    "resume": "La baisse généralisée du marché a provoqué la liquidation de plus d'un milliard de dollars de positions en 24 heures.",
-    "source": "Cryptoast",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOEpFYk9SOTYyRkh4RzdUUlZBVTZpYnlfekRLZDBFbjMwc00zWG9XUk5ZalRHYjRmZnFmSXpuU3lyTlNjNU5qdFM4QzNjYXREWEd1bmx4UEVNc29tUTNJM0txNkdhc3ZTYjY1NEZWLU1mV2lkN0dsczlhbHNteTlidFNOT1VEUE43WkR4RTB6Q0pIcldCMk53bWJMam9ibXVBWXZVbkhCa0VxRTdWaERLbQ?oc=5",
-    "date": "9 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Binance, Tether et les cryptos de Trump dans le viseur du Sénat américain",
-    "resume": "Le Sénat américain exige des documents de Binance et Tether dans le cadre d'enquêtes en cours.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/binance-tether-documents-senat-americain-4-janvier-2027/",
-    "date": "9 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Les ETF Bitcoin enregistrent 1,3 milliard de dollars de sorties nettes, leur plus forte décollecte hebdomadaire depuis fin juin",
-    "resume": "Les ETF Bitcoin ont enregistré leur plus importante décollecte hebdomadaire depuis juin, avec 1,3 milliard de dollars de sorties nettes.",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92cnUwYTFnS2pBZnpxT25qMUw3RWNwYXMtODRuMGhtd1ZkVjNqWTU3QTBxZ0NyUjZiRG4zeUpvdURaVXJzWDB2M1hQUFdQbzJGY0t3WVl1TDNlT3RHdllRR0tQSW9aM3JsMDZvNkd4SQ?oc=5",
-    "date": "9 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Inflation américaine mardi : pourquoi la Fed pourrait remonter ses taux en décembre",
-    "resume": "Les chiffres de l'inflation américaine attendus mardi pourraient influencer la prochaine décision de la Fed sur les taux d'intérêt.",
+    "titre": "Économie : Les paiements en stablecoins atteignent 482 milliards de dollars en neuf mois",
+    "resume": "L'utilisation des stablecoins pour les paiements a fortement progressé, atteignant 482 milliards de dollars sur neuf mois, malgré une offre stagnante.",
     "source": "Journal du Coin",
-    "url": "https://journalducoin.com/economie/inflation-americaine-cpi-octobre-fed-hausse-taux-decembre-bitcoin/",
+    "url": "https://journalducoin.com/actualites/paiements-stablecoins-atteignent-milliards-dollars/",
     "date": "9 nov.",
     "impact": "flat"
    }
@@ -145,37 +145,37 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "DWF Labs révèle que 13 des 15 tokens versant des gains aux détenteurs surpassent Bitcoin cette année",
-    "resume": "DWF Labs observe que la majorité des tokens avec des mécanismes de gains surpassent le Bitcoin cette année.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/dwf-labs-rachats-tokens-depassent-bitcoin/",
+    "titre": "Schwab ajoute solana, avalanche et chainlink à sa plateforme crypto",
+    "resume": "La plateforme Schwab a ajouté le support pour Solana, Avalanche et Chainlink.",
+    "source": "Investing.com France",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdWhRMjYzcjFZbzBhT3kxb2JsU1dINVgzdWxLSVJfM1FqcUZuRGw0ZV9mUEtBUExyYW5aekl0aG1IdF9NQ3htaVZDSndjSnZjTHRGNUhCUlVGbEhaVEtsZm9aOEFPM1VSdk81SUV2eXRSaGV1aXRQVTNXbExNdDFkSHFyQlZNLW9vZGFGYndlWC1WVlp3Y0JYR28yWUZwZWozLTd5OUlocFJLcEJaRnlDd3RRejBYU2N3LUZuVUUydw?oc=5",
     "date": "9 nov.",
-    "pourquoi": "Cela signale un intérêt pour les altcoins offrant un rendement actif, à surveiller pour diversifier hors des leaders du marché.",
+    "pourquoi": "Cela indique une adoption institutionnelle croissante pour ces altcoins spécifiques, potentiellement favorable à leur liquidité.",
     "impact": "hausse"
    },
    {
-    "titre": "3 déblocages de tokens à surveiller lors de la deuxième semaine de novembre 2026",
-    "resume": "Plus de 623 millions de dollars de tokens seront débloqués la deuxième semaine de novembre 2026.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/token-deblocages-deuxieme-semaine-novembre-2026/",
+    "titre": "Les ETF spot sur le Bitcoin ont enregistré 1,282 milliard de dollars en sorties nettes au cours de la semaine",
+    "resume": "Les ETF Bitcoin au comptant ont enregistré des sorties nettes massives de 1,282 milliard de dollars en une semaine.",
+    "source": "PortalCripto",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbzdleS1md2hBTFpQZW5mT29kTWNuWmo0bUIwVFI2Nm15R1A4UFFSb1VINlMxX1lERFRFZm1XNHpHdUJ2a1A5R3g1bURvX2hYU3BxZXRsa1NNSmk0Qm81YVhoaExaNnBZR1MxZmUwQlNOSjZzZzJyOWRIdjNPLVAxNGJNd2Z6cEFLdWV5RzI1eEZ4d2dnNjZYMjJRRUVid0RDYUZPLVdBdjdfSDdlUTFFXzdWY0xfUkg0MldOSVQzNlZ0OWdVZ3NTWUthbTFTVTRGdGdBQWZ1QQ?oc=5",
     "date": "9 nov.",
-    "pourquoi": "L'augmentation de l'offre circulante pour des projets comme Allora ou Aztec pourrait créer une pression vendeuse sur ces actifs.",
+    "pourquoi": "Ces flux sortants importants signalent une baisse de l'intérêt ou une prise de profit des investisseurs institutionnels, pesant sur le cours du BTC.",
     "impact": "baisse"
    },
    {
-    "titre": "Les jetons adossés à l’or brillent dans un marché crypto en baisse et défient le recul du Bitcoin et de l’Ethereum la semaine dernière",
-    "resume": "Les jetons adossés à l'or progressent malgré la baisse générale du marché crypto.",
-    "source": "Benzinga France",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObnRIQV9FMWhlNEdib08zTmctbXkwVDdJZ3ZPaVBUTGcxMGdKVkNzcXB0WTByQmxrTU4zNFhvN3JDQm4wb2REU3RpOXFIWlVMNVdtclduRXdNZ3BTUV82N2xFQjFhZnNrZEQ0Tk8tamxmOW9TYkhEa1l6LUc4M215TUhtZHRPbl9PT2VHQXlYNmpWWVNPS3ZfX0NWb3ltZTYwcVRoSVhjQUFRX1RPNjBtcUxQWG9hWW5MNlhiMGJKSEJKSEtzTW81UjQycy0yS09INkJVcXNTMVZ2OWhMQTZQajRFelJlZlBRZ3pXZko1aWJhdGxUYnNn?oc=5",
+    "titre": "DWF Labs révèle que 13 des 15 tokens versant des gains aux détenteurs surpassent Bitcoin cette année",
+    "resume": "Une analyse montre que 13 des 15 tokens avec des mécanismes de création de valeur active surperforment le Bitcoin cette année.",
+    "source": "BeInCrypto FR",
+    "url": "https://fr.beincrypto.com/dwf-labs-rachats-tokens-depassent-bitcoin/",
     "date": "9 nov.",
-    "pourquoi": "Ces actifs peuvent servir de refuge au sein de l'écosystème crypto lors des périodes de forte volatilité.",
+    "pourquoi": "Cela souligne l'importance des modèles économiques des tokens (tokenomics) dans la performance des altcoins.",
     "impact": "hausse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-09T11:32:22+00:00",
-  "resume": "Le CAC 40 et Wall Street tentent de rebondir, portés par le secteur technologique et l'intelligence artificielle. Cependant, Nvidia pèse sur la tendance américaine en raison de craintes sur sa gouvernance. Par ailleurs, les investisseurs restent attentifs à l'évolution des taux d'intérêt et du dollar.",
+  "updatedAt": "2026-11-09T16:06:26+00:00",
+  "resume": "Wall Street et le CAC 40 progressent, soutenus par la baisse des prix du pétrole et un rebond du secteur technologique. Cependant, l'action Nvidia chute lourdement suite à l'ouverture d'une enquête sur son PDG. De nombreuses entreprises continuent de publier leurs résultats trimestriels, avec des fortunes diverses.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,187 +204,169 @@
   ],
   "items": [
    {
-    "titre": "Le CAC 40 repart de l'avant dans le sillage du rebond technologique mondial",
-    "resume": "L'indice parisien repart à la hausse, soutenu par la reprise globale des valeurs technologiques.",
-    "source": "Idéal Investisseur",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenRlSlgwTjJwdmk3azF4NWV6b0JLWFNUMktFWGxjSUVCZFh6eWlpMzVONGxFejBXRlh0WnlUa08wc05UYnZrajBmMkVHMU1SQ2lTWUF4Y1Y1Uy1IQkFmQjB5RGhPWm9odWhLM1o0NWpxMUdTQVZEMjJDRGRHNmJweDFUaWtNSmRBZkJleElTU2hFYmlVaEV3OFprQlJKUDJsRi05N2dIOVc0aWtrZE90ZktGWXJfY0xOS3FhcGw3MmtQT3p3Q1ptYXlfalVPenc?oc=5",
-    "date": "9 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "«Un scénario d'espionnage hollywoodien rejeté»... Alors que son patron a eu une liaison dangereuse avec une femme suspectée d'être une espionne chinoise, Nvidia chute de 4,5% à Wall Street, l'avenir de sa gouvernance…",
-    "resume": "Le titre Nvidia chute lourdement suite à des révélations sur une liaison de son patron avec une espionne chinoise présumée, créant de l'incertitude.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/actualites/informations-societes/un-scenario-d-espionnage-hollywoodien-rejete-alors-que-son-patron-a-eu-une-liaison-dangereuse-avec-une-femme-suspectee-d-etre-une-espionne-chinoise-nvidia-chute-de-45-a-wall-street-l-avenir-de-sa-gouvernance-s-obscurcit-1173403.html",
+    "titre": "Les bourses en direct | Wall Street ouvre en nette hausse, Nvidia chute de plus de 6%, le pétrole accélère à la baisse",
+    "resume": "L'action Nvidia recule de plus de 6% après l'annonce d'une enquête concernant son PDG, Jensen Huang.",
+    "source": "L'Echo",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcmlGeXBQdGtXZkREM0hhQXJqRXBfbERHMXRHZ19KOGFPaEZxMzVtbWlkSFl3b0VaT1BkdVFsSlFxWFpFOWlERVR6Ukwtd2h4NTZKWlhreVBGUi14a2ltZ2paVi1aQ0ZuZGJwS2ZlNmpqM2otS3VLYkdnS3lVMHJyMDhMZjk3ak5haFdUMmVPOGJoUFphT3pvNTh2cmUwSzducXA2ZE9IV3IwSldKZ2JyMmFNbkcyQlRmVmNETm5GUHRNYjRseXU0NEt0SHhOZHpoOUtYWjBzc3hOQW5URW5xMm03WmtWdWdZMEtBZzh0VWRkb0ZpNko4UmpHOUhIN2c?oc=5",
     "date": "9 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Evercore ISI relève son objectif de cours sur Apple grâce au potentiel de Siri IA",
-    "resume": "Apple voit son objectif de cours relevé, les analystes misant sur le potentiel de l'IA via Siri.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/analyst-ratings/evercore-isi-releve-son-objectif-de-cours-sur-apple-grace-au-potentiel-de-siri-ia-93CH-3684534",
+    "titre": "Wall Street reprend des couleurs, entre rebond des puces et chute du pétrole",
+    "resume": "Les indices américains rebondissent, profitant d'une accalmie sur les prix du pétrole et de la tech.",
+    "source": "Option Finance",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVW5jenBHaWtoTG9MTEI3N0N0YkZ2aE9FbVBrWWpkcDF3eWdmYTdvMG1OUS12WU5XNmIxUjVZWVY1UGcwU29xZzRKSVlqb0xnQlVxYS03eGhoZXRUVEZzamdSZDdyYTFGVFdBTVZSTndpcGJJS3IyaVNIaXlXbGxHMU9KWGY1N2Q4T0hyV1NyYUV0ZnQ3cHkySWxOVEpMVG96M09RM2plM0pxQlVQVHRvTGVNdGVmSkVZVUtLam9kLTh0ZGdtalU3a0NQTWhzbGRCMVNDbGFJczdTUl9oa0x3aERkMA?oc=5",
     "date": "9 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Le dollar se maintient à un plus haut, porté par les anticipations de hausse des taux de la Fed",
-    "resume": "Le dollar américain se maintient à un niveau élevé, soutenu par les anticipations de hausse des taux de la Fed.",
-    "source": "Boursenews.ma",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTzdST3hjaE1FVktfSFUyZWtfYXJxX2Nva2xFcjBUeVpTNnpjNnA2YXM5dkFxdGlNNGtzUUR5b19aMG5nWG1JRnVoTV9sdlZQMTIzTDA1S2wwbllwQldUWTk4bEptRzlSeHJrcUpsUFNYMmg0ODVwU0lwQVpPZlItTkM1dDlUNzVFQzRLY0VtNnJUYXpoOTBKMy1LaTQzeWNnUWc1azY1cHVjZ2QxNEdTRTdrRmQ2c00tejIyZE5ldmxvSDZaM2hWYlZudkxGU2M?oc=5",
+    "titre": "Le Cac 40 accélère la cadence dans le sillage de la forte hausse des indices à New York, Nvidia emporté par l'ouverture d'une enquête sur son PDG Jensen Huang",
+    "resume": "Le CAC 40 accélère sa hausse, suivant la tendance positive observée à New York.",
+    "source": "Investir Les Echos",
+    "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOdkFDLUdvQTVSM2JMbW5JWURTNmJOSHFab01sUWY0UUc2bTFxOTAxY2lyc2NwalRHZlVLdU1wYTg0S2piWk5JTTZGSVhKMXFQYTVWdUpTbS1DekxzM3RtSlZGY2k4SlQ5bjZxNVdrUmEtTFV4SmJRa0FyWHpKZVdTR0lySDRid3BYOWRpaExLN3VpZmlibnd2b25fRU1GcGVGRUVFcmpqMkJlOUp1aWhqUlEzNzkybERjS3RjdVJLckxUMmZKZkM3and3b01TTjhiOUZZQUpUZURkZGwzRUlfa2o3N1huWXVPQm5fSnhLUzJGQjlaRy1HY2dqcEZzejUzQzNlamQwT1dBWHdDWUhKeEFJZEZyaXFoSV9BTkRoTXE0Wkg0bkJIaWhweGl0SThxSEwycXNUS1hDaVBXSmdyWTRNXzdORXVtRHc?oc=5",
+    "date": "9 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Take-Two affronte un test de résultats à 10 jours du lancement de GTA 6",
+    "resume": "Take-Two s'apprête à publier ses résultats à l'approche du lancement très attendu de GTA 6.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/earnings/taketwo-affronte-un-test-de-resultats-a-10-jours-du-lancement-de-gta-6-93CH-3685788",
     "date": "9 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Credit Agricole SA : Un géant bancaire italien sous influence française, Crédit Agricole veut fusionner sa filiale transalpine avec Banco BPM pour créer la 3e banque du pays",
-    "resume": "Crédit Agricole souhaite fusionner sa filiale italienne avec Banco BPM pour créer un acteur bancaire majeur en Italie.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/credit-agricole-FR0000045072/actualites/credit-agricole-un-geant-bancaire-italien-sous-influence-francaise-credit-agricole-veut-fusionner-sa-filiale-transalpine-avec-banco-bpm-pour-creer-la-3e-banque-du-pays-1173392.html",
+    "titre": "CNH Industrial dépasse les attentes de bénéfices au T3 2026, l’action bondit",
+    "resume": "Le titre CNH Industrial grimpe après avoir dépassé les attentes de bénéfices pour le troisième trimestre.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/transcripts/cnh-industrial-depasse-les-attentes-de-benefices-au-t3-2026-laction-bondit-93CH-3685749",
     "date": "9 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Hannover Rück : solides bénéfices au troisième trimestre 2026",
-    "resume": "Le réassureur Hannover Rück publie des bénéfices solides pour le troisième trimestre 2026.",
+    "titre": "Occidental : les résultats du T3 mettent le plan de trésorerie à l’épreuve",
+    "resume": "Les résultats d'Occidental Petroleum mettent à l'épreuve sa stratégie de gestion de trésorerie.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/hannover-ruck--solides-benefices-au-troisieme-trimestre-2026-93CH-3684420",
+    "url": "https://fr.investing.com/news/earnings/occidental--les-resultats-du-t3-mettent-le-plan-de-tresorerie-a-lepreuve-93CH-3685786",
     "date": "9 nov.",
-    "impact": "hausse"
+    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Le cours du BTC vise 73 000 $ dans la volatilité de Nvidia : trois choses à savoir sur le Bitcoin cette semaine",
-    "resume": "Le Bitcoin vise les 73 000 $ dans un contexte de volatilité liée à Nvidia.",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yTm9jUks2MmppRks2RTlUOGFEV2pBdEotSk1OSVNvTC1rRi1qbG9LOTZRSG5rS1FkT0d2X2V6UjZ5bWoxS3ZqRFRGVE52ek42WHBlVFJrQ3RhVEtHT0pWLVlSV09sd0ZGOHlJZEpfbw?oc=5",
+    "titre": "LEGRAND : «Il est temps d'appuyer sur le bouton 'acheter'»…Emballé par l'hypercroissance de ses produits pour les data centers, UBS voit Legrand prendre plus de 30% en Bourse",
+    "resume": "UBS recommande l'achat de Legrand, anticipant une forte croissance liée aux data centers.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/legrand-FR0010307819/actualites/legrand-il-est-temps-d-appuyer-sur-le-bouton-acheter-emballe-par-l-hypercroissance-de-ses-produits-pour-les-data-centers-ubs-voit-legrand-prendre-plus-de-30-en-bourse-1173429.html",
     "date": "9 nov.",
-    "pourquoi": "Cela montre une corrélation potentielle entre la crypto et les grandes valeurs tech. À surveiller pour les investisseurs crypto.",
+    "pourquoi": "Cela signale un potentiel de hausse pour le secteur des équipements électriques industriels lié à l'infrastructure IA.",
     "impact": "hausse"
    },
    {
-    "titre": "NTT va céder l’intégralité de sa participation de 4,9% dans NEC pour jusqu’à 250 milliards de ¥",
-    "resume": "NTT va céder l'intégralité de sa participation de 4,9% dans NEC.",
+    "titre": "Le PDG de California Resources achète pour 37.307$ d’actions",
+    "resume": "Le PDG de California Resources a acheté pour environ 37 000 dollars d'actions de sa société.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/ntt-va-ceder-lintegralite-de-sa-participation-de-49-dans-nec-pour-jusqua-250-milliards-de--93CH-3684389",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-california-resources-achete-pour-37307-dactions-93CH-3685676",
     "date": "9 nov.",
-    "pourquoi": "Cette vente massive pourrait influencer le cours de NEC et signaler une réallocation stratégique pour NTT.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Mitsui OSK annonce des résultats T2 solides et un rachat d’actions",
-    "resume": "Mitsui OSK annonce de bons résultats et un programme de rachat d'actions.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/earnings/mitsui-osk-annonce-des-resultats-t2-solides-et-un-rachat-dactions-93CH-3684343",
-    "date": "9 nov.",
-    "pourquoi": "Les rachats d'actions soutiennent souvent le cours du titre. Utile pour le secteur du transport maritime.",
+    "pourquoi": "Un achat d'initié peut indiquer une confiance de la direction dans les perspectives futures de l'entreprise.",
     "impact": "hausse"
    },
    {
-    "titre": "Ajinomoto relève ses prévisions pour le S1 2026 grâce à la forte demande ABF",
-    "resume": "Ajinomoto relève ses prévisions grâce à la forte demande pour l'ABF.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/ajinomoto-releve-ses-previsions-pour-le-s1-2026-grace-a-la-forte-demande-abf-93CH-3684458",
+    "titre": "LECTRA : Après son décrochage boursier de fin octobre, le spécialiste des solutions pour l'industrie Lectra reprend son programme de rachat d'actions",
+    "resume": "Lectra relance son programme de rachat d'actions après une baisse de son cours fin octobre.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/lectra-FR0000065484/actualites/lectra-apres-son-decrochage-boursier-de-fin-octobre-le-specialiste-des-solutions-pour-l-industrie-lectra-reprend-son-programme-de-rachat-d-actions-1173418.html",
     "date": "9 nov.",
-    "pourquoi": "L'ABF est crucial pour les semi-conducteurs, indiquant une demande sous-jacente forte dans la tech.",
+    "pourquoi": "Les rachats d'actions peuvent soutenir le cours et témoignent d'un excédent de trésorerie.",
     "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-09T11:32:22+00:00",
-  "resume": "Les taux d'emprunt immobilier poursuivent leur hausse, pénalisant l'accès au crédit pour les profils les plus modestes. Le marché immobilier français fait face à des perspectives contrastées, entre craintes de baisse des prix et tensions locatives persistantes. Du côté des placements, le secteur des SCPI enregistre une baisse de sa collecte et un recul du prix de ses parts.",
+  "updatedAt": "2026-11-09T16:06:26+00:00",
+  "resume": "Les taux de crédit immobilier poursuivent leur hausse en novembre, atteignant des seuils symboliques. Parallèlement, les prix de l'immobilier commencent à reculer dans plusieurs grandes villes françaises. Le marché des SCPI montre des signes de ralentissement avec une collecte et des prix de parts en baisse.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Les taux moyens en octobre confirment la poursuite de la hausse des taux fixes",
-    "resume": "Les chiffres d'octobre confirment la continuité de la hausse des taux d'intérêt sur les prêts fixes.",
-    "source": "Zonebourse Suisse",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZWc0M2ctb1UtWjBIR0RFWmFhSjhuLW9yUkRvcnhkZ19MMW5HREd3cjBtVzZ2TWp6QU9QWENna0MtYkdUb2pnZWRtZ1lVNGtoZWF6TzFERHdZOWl0Q2RFeXBVbkptRHRSTl9QbFJQS0diX3RvSGNpV1FGazNnbDhPSzN6ZmR2TFBfRnZjQlVhRmNCVW56NnRoMzQ5Q2ppMFNVa0pvY1JJcnVua1ROaGxjVFpNWWpiZGN1Tm1pbi16enRyTHRQcTc1bTRPSVNWLUxKclQ4Tg?oc=5",
+    "titre": "Crédit immobilier : les taux d'emprunt sur 20 ans passent un seuil symbolique en novembre",
+    "resume": "Les taux d'emprunt immobilier sur 20 ans continuent de grimper et franchissent un nouveau seuil en novembre.",
+    "source": "Batiactu",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdWJ2T3RHSnR0bW05WUt4dzh5VnNxbERFODBmRmYwREJXcVFBLUw0X2RRSjJVWk1JUXMzNFllbG1tbkI5dG9Wck9DbHhEVU4tZXZCOHZTVXZMelhHeXV4ai1fYlZNLXY2Q3JhSHlhUkZibXhYNFpmRWFOVWhvaUJmbkNIcTYyeHJjWndLcVBqMksxRVl5YU1V?oc=5",
     "date": "9 nov.",
-    "impact": "hausse"
+    "impact": "baisse"
+   },
+   {
+    "titre": "Immobilier : les prix commencent à chuter dans plusieurs grandes villes, voici les baisses les plus fortes",
+    "resume": "Une baisse des prix immobiliers est observée dans plusieurs grandes métropoles, avec des chutes parfois significatives.",
+    "source": "Econostrum.info",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5eHNUcDIzRVhrZjFlVnpGSUZtUDlBWmY3WVBTMjZhQW9uWEdZSmxWSVBqenVMVlQzcmFGamJia0puNmtWU0pQa1hmR29VZmEwMzF4Q1pSNUZpLUpSdjJWMXRGcWVJY2M4bnpvOTJieXFUeThCaUJ4LVBqUQ?oc=5",
+    "date": "9 nov.",
+    "impact": "baisse"
    },
    {
     "titre": "SCPI 2026 : collecte en baisse et prix des parts en recul",
-    "resume": "Le marché des SCPI traverse une période de ralentissement marquée par une diminution de la collecte et une baisse de la valeur des parts.",
+    "resume": "Le secteur des SCPI fait face à une diminution de la collecte et à une correction à la baisse du prix de certaines parts.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdngyR1VtMmVvVEFTYzRyLW5SUnBZcm1Rd09ESnZYTjJmSy1LMzZXejdSSTlEbmFaZ085eWp3RHQ0ZlFHam1jMXpRb3B4QUJ3aFllc1FVckdHelB4amNtQmZnSVpqRXQ3SnVCam0zenowaGRhRzVvQ1A0a2RJWWYzdS1FcFU3cjRTSEFZQjloaDV6UTlwclRlUUJVcHFtMGdjVW41LXhYejk3bkMxMVd0WEtPUklScklfZ3VN?oc=5",
     "date": "9 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Immobilier : Paris et sa banlieue sous tension locative en 2026",
+    "resume": "La région parisienne reste confrontée à une forte tension locative, compliquant l'accès au logement.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVJxWnV5R3NMWU55bkZRck1kNlVFczk2eDdUdmhTRVdrcmMyTUhGejkzUHRfYUtMSmlhcFcwcXhqRU85NzZwZDBXaWQycDZyVFlRV3lMMnJ3QmU2RjhDajVHbDdqcHROc3Y3bW5zVC1VS1hEY1JuR3dNLWJUX0hKSW9STmxfRDZXU243cWxJcWpfcXAtREgzMlhQYktKcUdoNnZSd2Y0bzNTcDEyZHFNRUZfRQ?oc=5",
+    "date": "9 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Immobilier : Les crédits aux promoteurs progressent, ceux des ménages restent à la traîne - Hespress Français",
+    "resume": "Les banques accordent plus facilement des crédits aux promoteurs immobiliers qu'aux particuliers, dont la demande reste faible.",
+    "source": "Hespress Français - Actualités du Maroc",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVXBPQzk2clBndGkxRWpJVWtxRUprMWFicS1xSVd2UUNtbGRIUUREbGVyNUFlV2k4N0pRSWo0X1p2X1p5SjluSlZxT1laT1hTb1c4QkJ0Q2N4LVNPSy1qdGVyZGRxNUdLNGhlUkliWmJtMXBWYkdKeHI1VmhZZHpyNXhjQVdIek1GY0xNa1BqNl9TNmdwRDNVY1pKcUQ4b01zSTI0ZGJBZFFFMXF3cFg2aENZRDU0eVUyZnRNT29raw?oc=5",
+    "date": "9 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Menaces sur le LMNP : retour à la case départ",
-    "resume": "Le régime fiscal du LMNP (Loueur en Meublé Non Professionnel) fait face à de nouvelles incertitudes menaçant son cadre actuel.",
+    "resume": "Le régime fiscal avantageux du Loueur Meublé Non Professionnel (LMNP) pourrait être remis en cause prochainement.",
     "source": "La Revue politique et Parlementaire",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04S1lLdHc3cjlqRnV4XzB1bmdfZDU3TGJNQ1MzY2t0M2NIWlVuSTFPcHB5Ukd1ejRMLVhRSWw2OHpOUWtlLWRKakd0aDl4Tmtja3oyMEloSlN0WlljTmxCclo3eXhZMVd2aU9NamFhR29yVThkeklRbUVnSERtaEk?oc=5",
     "date": "9 nov.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Immobilier : Nantes, Lyon, Grenoble… chute des prix de 10 % d’ici fin 2027 ?",
-    "resume": "Certaines grandes villes françaises, telles que Nantes, Lyon ou Grenoble, redoutent une correction des prix allant jusqu'à 10 % d'ici fin 2027.",
-    "source": "Crédit News",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQczFkNVRsTk5nNmU5S0F2ZFk3TmtuRXF0TzVxN3g3Yi1IZnJ3WURHb1ZySXlacDhUd2Jfc3BRLTJKWm5GR3owMXBBVWtSSXVUTTlGa1ZUaUVkcTd4aFNqZ1dDUzJfN25vMkVtTHJLek4yWks1dnNONU1pcFVSclI1RlpXZFY5RWJRd0V6TDhNb1hFeTExX3Zqaw?oc=5",
-    "date": "9 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Revolut décroche sa licence bancaire française : Livret A, crédit immobilier, PEA... voici ce que vous allez enfin pouvoir faire avec votre compte",
-    "resume": "Revolut obtient sa licence bancaire en France, ouvrant la voie à de nouveaux services comme le crédit immobilier et le Livret A.",
-    "source": "Bourse Inside",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOM0NyN0tLSWRWQ0ZSUHF2QnI0amVONm1CaEFBVDc4YUl2Y20tOHl3dEpTN3pxSlByVXFCRFl3Wkl3eURaNTR3WVJmWWE2LS04R25mbV9RYnJfd3AtN0R2aXJqMHRrckNrdFBnMkVyb09DTmR4QXNrdHMzWkZYWnl4dWM4QXg1WENMLWR2WE1Wdk9CX3ZmX0NaR2RjZkxLOWV3X08zRS1ZQk5kQnVoMEhYbkFNazIxamlnUlVVUlNITGZKR1k4UkZLZXREYVJfc0JlVzFDSGVleUFyVnlBTHBBZHk3elFwSHdTR0hYQXl0NThwNHl0UjZzUW9YdTR5M3lHWFVn?oc=5",
-    "date": "9 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Immobilier : Paris et sa banlieue sous tension locative en 2026",
-    "resume": "La région parisienne reste confrontée à de fortes tensions sur son marché locatif en cette année 2026.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUktGTlpZWUFKTDNSTElCVHp4b0FiYkNyUVdiY3BhTGxEM0tSQlhRN3ZMTUNObC1pRFRYTnE1aklEajdlMlE2NWY1TE5Pd2R3ZGFVejFWYnFOQUVlZERWOHAwenR0bFE5OWNPN1cxRFZOdTV6T3ItZXVqT3VjbGxhejZaX1RrZG5YNWluOTZ0UVFrb1VYODhxWVNqUVlqSHZPVFEyY3NWUE5fcFVnUnYtRnBjRVU?oc=5",
-    "date": "9 nov.",
-    "impact": "hausse"
    }
   ],
   "par": "ia",
-  "modele": "gemini-flash-lite-latest",
+  "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Immobilier à Nîmes : l’appartement s’achète 2 243 € le m² en 2025, +5,9 % en un an",
-    "resume": "Le marché immobilier à Nîmes affiche un prix au mètre carré de 2 243 € en 2025, en progression de 5,9 % sur un an.",
-    "source": "Stéphane Larue News",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjhqaEZlNDlnay03NGpxVmIxTnk5TDItdG9YYWhOb0J1d1V4dkNDanM2anY0bTAxNm9oeHVlcmg5TnM1RWZLbnVXeDRHazNTbWZ2ck1LSDBWeS1UazBaRkROM0FSbHJnZjZHWkhZR2NJYVJtZ0VOOThuTXBpMW1KRHF0TTgtSmRsWDM4TVVPY2d0RUJjN2x2YmRocDA2ZzRmR1JMSXMzYUY?oc=5",
+    "titre": "La Première Brique lance un marché secondaire pour revendre des participations en crowdfunding immobilier",
+    "resume": "La Première Brique crée un marché secondaire pour l'échange de parts de crowdfunding immobilier.",
+    "source": "J'aime les startups",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOem83QmJudnJJZUxHUUpGYWdBbUNSOUpfLXJ1RTktUlY3clBCQ0c1R2pWMU0zSDNLeFhfcTNXVzFkY0xJSVVCWS1kYWtwQUJQb1J2NWQwbTJUekYtTWx5emp1SnRsYXRNSmhVOU1VZm4tVFdJUkpvT29rX09iU29GUGZSMlJ6T09yX0NLTzl4Z1B6a0VwbnZxNVBqZlZMUzQ?oc=5",
     "date": "9 nov.",
-    "pourquoi": "Utile pour suivre la dynamique des villes moyennes du Sud. À surveiller pour analyser la résistance des prix hors métropoles principales.",
+    "pourquoi": "Cela pourrait améliorer la liquidité de ce type d'investissement, un point crucial à surveiller pour les investisseurs.",
     "impact": "hausse"
    },
    {
-    "titre": "Immobilier à Bordeaux : les prix affichés reculent de 4,6 % en trois ans",
-    "resume": "À Bordeaux, les prix affichés pour les biens immobiliers reculent de 4,6 % sur une période de trois ans.",
-    "source": "Bouger à Bordeaux",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc2NlN0RJaHhDU2NScVdLcGtBYW9ySjhPNHJJMmV3SFV2SC1VS01fSGVORlg2Rk5kUzFMYnNxTHpTNlZDX0NhQmVMam9ub0cwQ250VDFRLU4tczQzUzVrRXJGSkN1RmpQVV84a0toTHNNc1pnYmM5UUNpMlo2RFZiU2lRWW5RcEdDQ2lxbGN2UWpqT05WMVdKelBsVXp6eE9CRnoyY25xZUhIc0hpNFBFR0ln?oc=5",
+    "titre": "Immobilier : Pretto atteint la rentabilité neuf ans après sa création",
+    "resume": "Le courtier Pretto annonce avoir atteint la rentabilité neuf ans après son lancement.",
+    "source": "Maddyness",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRTRFd0hUWE83QVByMVV2b2I1am56MFpJSXJPanV0c3JRZzV3SzRZa1owWFRsRWd6WS1IR0hsZ1dITng3UXVPc0pDVHlwMmg3V2t0eDUzM2lxUDhFTTNqNnZLU3FuUTI3NDkzSmlNUXRUTmMyVVp6X2EtMGRfNFBEeEdCTGJjdXlZa2ZDMkJWcnYtZV93OGhjVFZSM3VZQ0taRVlYQURwbDg?oc=5",
     "date": "9 nov.",
-    "pourquoi": "Permet de mesurer l'ampleur de la correction post-Covid dans les grandes métropoles régionales prisées. À suivre pour identifier un point bas potentiel.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Financement de la rénovation énergétique : 3 dispositifs Domofinance pour les copropriétés",
-    "resume": "Domofinance introduit trois nouveaux dispositifs spécifiquement dédiés au financement de la rénovation énergétique en copropriété.",
-    "source": "Mon Immeuble",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWDUzNDNOdGN2bngxS3UwRks4MXBaOW9KNzJvM0s1aEVzVFJJNHpldWM0WW00ZlBvdDFrSkNHTmdLZEZMMVJLaktGYWJqcGxPNEdKMGpfMTJKVllPcEtwQlAxdERya0Z1WnpJbl9wN0I4M0kyN2owTzQtdG1ya0RELVhTNzkyWkRQS3NoSWxYUkltVEJUcHlUR1UtOURxR3h0VU5XR3M0TThZYkp1bVhFMzRhYnlCUW9Da1Y5eEUzMA?oc=5",
-    "date": "9 nov.",
-    "pourquoi": "Concerne le marché de la rénovation et l'impact du DPE sur la valeur des immeubles collectifs. À surveiller pour le financement des travaux en copropriété.",
+    "pourquoi": "Cela signale une consolidation des acteurs du courtage en ligne malgré un marché du crédit difficile.",
     "impact": "flat"
    },
    {
-    "titre": "RENT 2026 : Viagimmo veut former une nouvelle génération de viagéristes",
-    "resume": "Viagimmo annonce vouloir former une nouvelle génération de professionnels spécialisés dans la vente en viager lors du salon RENT 2026.",
-    "source": "Journal de l'Agence",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORjF2c1hnQjhXN0RTbnlBRFFJeDNWbEJXZ1JEWmRNNl9Wc3ZvTEp5Smp6dEFsM1ZMTkE1LXJfdVktSmFlVWdpVHhManVkRGM0MUVlYW0wVlZsOEtQR19wbXN2VUxZc2lydk94UGxFc1dwZU5td0tqRzlpbjgyTngtSnAzVUtfUlZVVGpmQUEwUzE4Rl9jdmhMMy1yTkFHSDlWSHp6M0JZUlFDX0xHQ0R3?oc=5",
+    "titre": "Immobilier à Nîmes : l’appartement s’achète 2 243 € le m² en 2025, +5,9 % en un an",
+    "resume": "À Nîmes, le prix des appartements a progressé de 5,9 % en un an pour atteindre 2 243 €/m².",
+    "source": "Stéphane Larue News",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjhqaEZlNDlnay03NGpxVmIxTnk5TDItdG9YYWhOb0J1d1V4dkNDanM2anY0bTAxNm9oeHVlcmg5TnM1RWZLbnVXeDRHazNTbWZ2ck1LSDBWeS1UazBaRkROM0FSbHJnZjZHWkhZR2NJYVJtZ0VOOThuTXBpMW1KRHF0TTgtSmRsWDM4TVVPY2d0RUJjN2x2YmRocDA2ZzRmR1JMSXMzYUY?oc=5",
     "date": "9 nov.",
-    "pourquoi": "Met en lumière le développement du marché du viager face au vieillissement de la population. À surveiller comme alternative d'investissement immobilier géré.",
-    "impact": "flat"
+    "pourquoi": "Cette donnée montre que certaines villes moyennes continuent de voir leurs prix grimper à contre-courant de la tendance nationale.",
+    "impact": "hausse"
    }
   ]
  }
