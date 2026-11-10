@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-10T06:12:16+00:00",
+"updatedAt": "2026-11-10T12:06:19+00:00",
 "events": [
 {
 "d": "2026-11-10T08:30:00-05:00",
@@ -26,24 +26,6 @@
 "imp": 2
 },
 {
-"d": "2026-11-12T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Cisco Systems",
-"sub": "CSCO · après la clôture de Wall Street · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "CSCO"
-},
-{
-"d": "2026-11-12T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Applied Materials",
-"sub": "AMAT · après la clôture de Wall Street · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "AMAT"
-},
-{
 "d": "2026-11-13T08:30:00-05:00",
 "allday": false,
 "cat": "macro",
@@ -58,69 +40,6 @@
 "title": "Prix à la production (PPI)",
 "sub": "🇺🇸 États-Unis · prévu 0.4% · précédent 1.3%",
 "imp": 3
-},
-{
-"d": "2026-11-13T12:00:00+01:00",
-"allday": true,
-"cat": "resultats",
-"title": "Résultats de Mitsubishi UFJ Financial",
-"sub": "MUFG · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "MUFG"
-},
-{
-"d": "2026-11-17T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Home Depot (The)",
-"sub": "HD · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "HD"
-},
-{
-"d": "2026-11-17T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Disney",
-"sub": "DIS · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "DIS"
-},
-{
-"d": "2026-11-17T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Nvidia",
-"sub": "NVDA · après la clôture de Wall Street · trimestre clos Oct/2026",
-"imp": 3,
-"tick": "NVDA"
-},
-{
-"d": "2026-11-18T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Palo Alto Networks",
-"sub": "PANW · après la clôture de Wall Street · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "PANW"
-},
-{
-"d": "2026-11-19T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Walmart",
-"sub": "WMT · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "WMT"
-},
-{
-"d": "2026-11-19T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Alibaba",
-"sub": "BABA · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "BABA"
 },
 {
 "d": "2026-12-09T20:00:00+01:00",
@@ -139,5 +58,16 @@
 "imp": 3
 }
 ],
-"errors": []
+"errors": [
+"Nasdaq 2026-11-10 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-11 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-12 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-13 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-16 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-17 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-18 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-19 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-20 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-23 : HTTP Error 403: Forbidden"
+]
 }
