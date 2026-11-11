@@ -1,142 +1,142 @@
 {
  "general": {
-  "updatedAt": "2026-11-10T20:23:31+00:00",
-  "resume": "L'actualité est marquée par l'officialisation de la candidature d'Éric Zemmour à l'élection présidentielle de 2027 et la poursuite de la mobilisation lycéenne en France, émaillée de violences. Sur le plan économique, Daniel Kretinsky prend le contrôle de Fnac Darty tandis que Nvidia chute en bourse suite à un scandale d'espionnage. À l'international, des pourparlers ont débuté entre la Russie et l'Ukraine, et la situation politique reste tendue en Israël après l'investiture du nouveau Parlement.",
+  "updatedAt": "2026-11-11T07:17:56+00:00",
+  "resume": "L'actualité est marquée par des tensions sociales en Espagne sur le logement et des développements politiques aux États-Unis et en France. Sur le plan technologique, OpenAI et Orange avancent sur l'intelligence artificielle, tandis que Nvidia est secoué par un scandale. En Ukraine, les combats se poursuivent parallèlement à des tentatives de négociations.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Eric Zemmour, leader du parti d'extrême droite Reconquête, officialise sa candidature à l'élection présidentielle de 2027",
-    "resume": "Éric Zemmour a annoncé officiellement sa candidature pour l'élection présidentielle de 2027 lors du journal télévisé de TF1.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/elections/presidentielle/eric-zemmour-leader-du-parti-d-extreme-droite-reconquete-officialise-sa-candidature-a-la-presidentielle_8276858.html#xtor=RSS-3-[lestitres]",
-    "date": "10 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Nvidia : le scandale d’espionnage fait chuter de plus de 6 % à Wall Street l’entreprise américaine, qui perd sa place de deuxième capitalisation mondiale",
-    "resume": "L'action Nvidia a fortement baissé à Wall Street après des révélations sur une affaire d'espionnage, faisant perdre à l'entreprise sa place de deuxième capitalisation mondiale.",
-    "source": "Le Monde International",
-    "url": "https://www.lemonde.fr/economie/article/2026/11/10/nvidia-le-scandale-d-espionnage-fait-chuter-de-plus-de-6-a-wall-street-l-entreprise-americaine-qui-perd-sa-place-de-deuxieme-capitalisation-mondiale_6808895_3234.html",
-    "date": "10 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Mobilisation étudiante : la tension monte d’un cran entre bloqueurs et présidents d’université",
-    "resume": "La mobilisation des étudiants et lycéens se poursuit en France, marquée par des tensions croissantes et l'agression d'une élue à Chelles.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
-    "date": "10 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Le milliardaire tchèque Daniel Kretinsky remporte son OPA sur Fnac Darty",
-    "resume": "Le milliardaire tchèque Daniel Kretinsky est devenu l'actionnaire majoritaire du groupe Fnac Darty suite à la réussite de son offre publique d'achat.",
-    "source": "Le Monde Économie",
-    "url": "https://www.lemonde.fr/economie/article/2026/11/10/le-milliardaire-tcheque-daniel-kretinsky-remporte-son-opa-sur-fnac-darty_6808902_3234.html",
-    "date": "10 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "EN DIRECT, guerre en Ukraine : un militaire américain soupçonné d’espionnage au profit de la Russie arrêté au Royaume-Uni",
-    "resume": "Des négociations entre la Russie et l'Ukraine ont commencé aux Émirats arabes unis, alors qu'un militaire américain soupçonné d'espionnage a été arrêté au Royaume-Uni.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/international/live/2026/11/10/en-direct-guerre-en-ukraine-un-militaire-americain-soupconne-d-espionnage-au-profit-de-la-russie-arrete-au-royaume-uni_6808609_3210.html",
-    "date": "10 nov.",
+    "titre": "Une première depuis 2012: une grève générale en Espagne pour défendre l'accès au logement en pleine campagne électorale",
+    "resume": "Une grève générale paralyse l'Espagne pour réclamer un meilleur accès au logement, à l'approche d'élections législatives.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/international/une-premiere-depuis-2012-une-greve-generale-en-espagne-pour-defendre-l-acces-au-logement-en-pleine-campagne-electorale_AD-202611110222.html",
+    "date": "11 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Le nouveau Parlement israélien siège pour la première fois, le président Isaac Herzog appelle au compromis pour former un gouvernement",
-    "resume": "Le nouveau Parlement israélien a tenu sa première séance dans un climat politique incertain, aucun camp n'ayant de majorité claire pour former un gouvernement.",
+    "titre": "L'ÉDITO ÉCO - Nvidia: tromper sa femme, une rupture pour les actionnaires?",
+    "resume": "L'entreprise Nvidia perd sa place de deuxième capitalisation mondiale suite à un scandale d'espionnage présumé impliquant son patron.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/video-l-edito-eco-nvidia-tromper-sa-femme-une-rupture-pour-les-actionnaires_VN-202611110148.html",
+    "date": "11 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "OpenAI lance une \"Control Room\" pour interrompre ses modèles désalignés en 35 secondes maximum en cas de problème de sécurité",
+    "resume": "OpenAI a créé une 'Control Room' capable d'arrêter rapidement ses modèles d'IA en cas de problème de sécurité.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/tech/intelligence-artificielle/open-ai-lance-une-control-room-pour-interrompre-ses-modeles-desalignes-en-35-secondes-maximum-en-cas-de-probleme-de-securite_AV-202611110081.html",
+    "date": "11 nov.",
+    "impact": "flat",
+    "categorie": "Tech"
+   },
+   {
+    "titre": "Négociations Ukraine-Russie : suite et fin des pourparlers mercredi, après des \"changements\" salués par Volodymyr Zelensky",
+    "resume": "Le président ukrainien Volodymyr Zelensky annonce la poursuite des pourparlers avec la Russie, évoquant des mesures de désescalade.",
     "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/en-israel-le-president-isaac-herzog-appelle-au-compromis-pour-former-un-gouvernement-en-inaugurant-le-nouveau-parlement_8276426.html#xtor=RSS-3-[lestitres]",
-    "date": "10 nov.",
+    "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-negociations-ukraine-russie-suite-et-fin-des-pourparlers-mercredi-apres-des-changements-salues-par-volodymyr-zelensky_8277323.html#xtor=RSS-3-[lestitres]",
+    "date": "11 nov.",
     "impact": "flat",
     "categorie": "Monde"
+   },
+   {
+    "titre": "L'ÉDITO POLITIQUE DE GUILLAUME DARET - Éric Zemmour officiellement candidat: pour quoi faire?",
+    "resume": "Éric Zemmour a officiellement annoncé sa candidature pour l'élection présidentielle française de 2027.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-l-edito-politique-de-guillaume-daret-eric-zemmour-officiellement-candidat-pour-quoi-faire_VN-202611110168.html",
+    "date": "11 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "\"Saint Lucky Luke\": les secrets du nouvel album des aventures du cowboy solitaire",
+    "resume": "Le personnage de bande dessinée Lucky Luke fête ses 80 ans avec la sortie d'un nouvel album intitulé 'Saint Lucky Luke'.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/people/video-saint-lucky-luke-les-secrets-du-nouvel-album-des-aventures-du-cowboy-solitaire_VN-202611110146.html",
+    "date": "11 nov.",
+    "impact": "flat",
+    "categorie": "Culture"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-10T20:23:31+00:00",
-  "resume": "Le Bitcoin subit une forte pression baissière, touchant un plus bas en 11 semaines sous l'effet d'une inflation américaine plus élevée que prévu et de craintes sur les taux. Parallèlement, plusieurs entreprises cotées et ETF Bitcoin enregistrent des sorties de capitaux importantes. Sur le plan de la sécurité, des failles sur iOS et des piratages de plateformes inquiètent la communauté.",
+  "updatedAt": "2026-11-11T07:17:56+00:00",
+  "resume": "Le Bitcoin et l'Ethereum subissent une forte baisse, repassant sous des seuils clés suite à des données d'inflation américaines plus élevées que prévu. Parallèlement, la pression réglementaire s'intensifie, poussant des plateformes comme Binance à couper les ponts avec certains concurrents. Malgré ce contexte morose, de grandes institutions financières s'associent pour lancer un nouveau stablecoin.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
-    "valeur": "≈ 74 695 $",
-    "variation": "−0,89 % (24 h)",
+    "valeur": "≈ 73 648 $",
+    "variation": "−0,20 % (24 h)",
     "sens": "baisse"
    },
    {
     "label": "Ethereum (ETH)",
-    "valeur": "≈ 2 118 $",
-    "variation": "−0,83 % (24 h)",
-    "sens": "baisse"
+    "valeur": "≈ 2 058 $",
+    "variation": "+0,22 % (24 h)",
+    "sens": "hausse"
    },
    {
     "label": "Solana (SOL)",
-    "valeur": "≈ 86,02 $",
-    "variation": "−0,83 % (24 h)",
+    "valeur": "≈ 82,65 $",
+    "variation": "−0,84 % (24 h)",
     "sens": "baisse"
    },
    {
     "label": "XRP (XRP)",
-    "valeur": "≈ 1,10 $",
-    "variation": "+0,15 % (24 h)",
-    "sens": "hausse"
+    "valeur": "≈ 1,06 $",
+    "variation": "−0,08 % (24 h)",
+    "sens": "flat"
    }
   ],
   "items": [
    {
-    "titre": "Le Bitcoin chute à son plus bas niveau en 11 semaines après une inflation d'octobre plus élevée que prévu.",
-    "resume": "Le cours du Bitcoin a chuté à son niveau le plus bas depuis 11 semaines suite à l'annonce d'une inflation américaine d'octobre dépassant les prévisions.",
-    "source": "Quartz en Français",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZlhodFM3a1R2TUZsX21kV3dETnVPcFZBS3hnUlZIUGIzb3VISF9NcF96cUN0N0VGRk5IZmVxNV9hM3NTLTdGVTB1RUNZSlMyUWJXbVVnbDY3YWQ1Ui1OS2tQN2dVUEZQbzlZeEdnM0FveURwbGZtaDZPT1J4eE84UG5oRmpzekxRekVZLUhaZw?oc=5",
-    "date": "10 nov.",
+    "titre": "Bitcoin à 73 700 $, plus bas depuis août : les 3 chiffres du matin après l’inflation américaine",
+    "resume": "Le cours du Bitcoin a chuté sous les 74 000 dollars, atteignant son plus bas niveau depuis août, après l'annonce d'une inflation américaine persistante.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/bitcoin-73700-dollars-plus-bas-aout-inflation-americaine-fed-etf/",
+    "date": "11 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Bitcoin : 14 entreprises réduisent leurs réserves de 108 247 BTC",
-    "resume": "Quatorze sociétés cotées en bourse ont vendu ou transféré plus de 108 000 bitcoins depuis le début de l'année 2026, représentant environ 8 milliards de dollars.",
+    "titre": "MEXC : Binance coupe les ponts quatre jours après le couperet du Trésor américain",
+    "resume": "Binance bloque désormais les transferts vers et depuis la plateforme MEXC, suite à des actions du Trésor américain.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/exchanges/binance-bloque-mexc-fincen-transferts-depots-geles/",
+    "date": "11 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Crypto : Goldman Sachs, Citi et Deutsche Bank s’offrent un stablecoin à 270 millions de dollars",
+    "resume": "Des géants bancaires comme Goldman Sachs et Citi investissent 270 millions de dollars pour créer un stablecoin commun.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/crypto-goldman-sachs-citi-et-deutsche-bank-soffrent-un-stablecoin-a-270-millions-de-dollars/",
+    "date": "11 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Le prix d’Ethereum chute de 20 %, mais les stakers refusent de vendre",
+    "resume": "Le prix de l'Ethereum a dégringolé de 20 %, mais la majorité des stakers conservent leurs positions sans vendre.",
+    "source": "BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiTFZKYUp6SXZRaWZJZHktRnZzczJFa2NBWWNRQVpQYjZWUnBVeFdtanIwLXZOTEhwdG13U0prc3pIcHd4ajJaQzdLWnF4TDNTcGhqeFBjLU9iWEd2bGR1X3dPcjBRUktxd3FTYVlsUFQwbzBrYWc?oc=5",
+    "date": "11 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Stablecoins : les Français font le plein en autodétention selon Chainalysis",
+    "resume": "En France, l'adoption des stablecoins en auto-détention a explosé de 192 %, signe d'une méfiance accrue envers les plateformes centralisées.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/stablecoins-france-autodetention-chainalysis-europe-ouest/",
+    "date": "11 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Chine : La banque centrale prépare une enquête sur les activités de Solana",
+    "resume": "La banque centrale chinoise envisage d'enquêter sur les activités de Solana dans le pays.",
     "source": "Cointribune",
-    "url": "https://www.cointribune.com/bitcoin-14-entreprises-reduisent-leurs-reserves-de-108-247-btc/",
-    "date": "10 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "ETF Bitcoin : trois séances de retraits, IBIT de BlackRock en tête",
-    "resume": "Les ETF Bitcoin américains connaissent une série de trois séances consécutives de retraits nets, BlackRock en tête.",
-    "source": "Actu Crypto .info",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd2FldkRFV0hYT0o4eTFyUGx6RFpkMU13MldfSWJkMGpoaTJuUXJhd2YzVW9md1pzQUt0bEo2REQ4V2laT2RhNnduZTZjYnhHdEswSFJPZmh6M3F6MndyYTdCM0d4dGRudmNjTks3UjUyQS1ERGRuaWpGX1IyaS1JTmlsQWU5enMxajUw?oc=5",
-    "date": "10 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Binance avertit qu’une faille d’iOS pourrait exposer les clés des portefeuilles crypto",
-    "resume": "Binance alerte sur une faille de sécurité critique dans iOS qui pourrait exposer les clés privées des portefeuilles crypto stockés sur iPhone.",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aZjBHMGt3LVVTbzg2cWpUamtNb3hRaXZGOThPenVEMUJBRms1MEVvMmtiY0pCRFV5LXNwRWxYYW1yX3VwaTMxZW5HazdvNElTYzJjUUFoREQyUGZZMGJRVW91b3BfNloyNTZDNXVkUQ?oc=5",
-    "date": "10 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "\"Si vous n’avez pas retiré vos crypto-actifs au 31 décembre 2026...\" : Binance France prévient ses utilisateurs avant qu'il ne soit trop tard",
-    "resume": "Binance France informe ses utilisateurs qu'ils doivent retirer leurs actifs avant le 31 décembre 2026 sous peine de frais.",
-    "source": "Les Numériques",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWE9Dd1oyazk1REdEXzhrU2JHb052T1d6RC1LOTBFM3lWbWRHdV9BQmU5LXZHcDRmWEYxNllJMkRJbFIwOS1xWjdCU3dvampNVjBuODVFWjZTSU15eHRLdlV6cTJNTXNmT0R4Q2Q2YTV6WXhqS1JKdXNtQjh4ZVVnWVVsLTNLd3pIamRqMUcySGw2ZjY5ZXd3NmZIMmRuNUZxcDdpQl9vUFdYaFFiaDFvU2Ixa3hNVFBrcGRhZzEyOUNFZW5TbmQyUkFjdkN0SXo1eVVoRE5SV1FSWXlZNFNLYThDZ2tIcXdEM2ZLQ3dRSQ?oc=5",
-    "date": "10 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Piratée 2 fois en 3 semaines, la blockchain Initia perd plus de 3 millions de dollars",
-    "resume": "La blockchain Initia a suspendu son réseau après avoir subi deux piratages en trois semaines, pour une perte totale de 3,3 millions de dollars.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/initia-init-piratee-deuxieme-fois-trois-semaines-blockchain-arret/",
+    "url": "https://www.cointribune.com/chine-la-banque-centrale-prepare-une-enquete-sur-les-activites-de-solana/",
     "date": "10 nov.",
     "impact": "baisse"
    }
@@ -145,170 +145,169 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Les Français sortent leurs stablecoins des plateformes : +192 % d’auto-détention en un an",
-    "resume": "L'auto-détention de stablecoins par les utilisateurs français a augmenté de 192 % en un an.",
+    "titre": "L'offre en circulation de l'USDT a reculé de 6,6 milliards de dollars en 60 jours",
+    "resume": "L'offre en circulation de l'USDT a diminué de 6,6 milliards de dollars en deux mois.",
     "source": "Cryptoast",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZFZLQ1FHLVpwd1RNWVNnRnpWa002WUhzbXlZQklfbHl0bmpsRmdoeEhrX0N6TElXQi1IU08tTUZPTXFOSl93QUhaWmZfX004dmxZa1JBQlZRWlhrbHo3cVduaUNzbmJjUUl6dFlfbFhCS0FwOHNlY0dwWVpnRExQdy1xSQ?oc=5",
-    "date": "10 nov.",
-    "pourquoi": "Cela indique une méfiance croissante envers les plateformes centralisées et une volonté de sécuriser soi-même ses actifs numériques.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Crypto : Visa ajoute la blockchain Monad à son réseau de règlement en stablecoins",
-    "resume": "Visa intègre la blockchain Monad à son programme de règlement en stablecoins pour améliorer la confidentialité.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/crypto-visa-ajoute-la-blockchain-monad-a-son-reseau-de-reglement-en-stablecoins/",
-    "date": "10 nov.",
-    "pourquoi": "L'adoption par un géant du paiement valide la technologie blockchain et pourrait stimuler l'utilisation des stablecoins.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Kalshi et Polymarket captent 91 % des échanges sur les marchés de prédiction",
-    "resume": "Kalshi et Polymarket dominent 91 % du volume des marchés de prédiction, atteignant un trimestre record.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/kalshi-polymarket-echanges-marches-prediction/",
-    "date": "10 nov.",
-    "pourquoi": "Ce secteur est en pleine croissance ; une telle concentration pourrait attirer l'attention des régulateurs.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Bitcoin sous les 74 000 dollars : Strategy repasse dans le rouge",
-    "resume": "La société MicroStrategy est repassée en moins-value latente sur ses avoirs en Bitcoin.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/bitcoin/bitcoin-sous-74000-dollars-strategy-rouge/",
-    "date": "10 nov.",
-    "pourquoi": "Le prix moyen d'achat de leurs BTC est supérieur au cours actuel, un indicateur psychologique pour le marché.",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOejJkcnlqZzBoeEtyMnB4MURtLUF1aTlEbXZ4WEF2dXBKWjZDWXhGRlJJU2dZNjFlWll0SS1LMGhuZ2ktYmJhdF9oeGZlQ1dvNXRtbnVTajN0N21FRVhpS3hwdU9TbjY1N0t0VTRjdXJMS1RuU3ZheWp4aXRHOXZ1ZlA0VXNnQnBDR1o4?oc=5",
+    "date": "11 nov.",
+    "pourquoi": "Cela indique une réduction de la liquidité globale disponible pour acheter des cryptos, ce qui peut peser sur l'ensemble du marché.",
     "impact": "baisse"
+   },
+   {
+    "titre": "Bitcoin : Ark Invest allège son ETF BTC et mise sur Nvidia et SoFi",
+    "resume": "Ark Invest a réduit ses positions dans son propre ETF Bitcoin pour investir dans Nvidia et SoFi.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/bitcoin-ark-invest-allege-son-etf-btc-et-mise-sur-nvidia-et-sofi/",
+    "date": "10 nov.",
+    "pourquoi": "Ce mouvement montre un arbitrage d'un grand investisseur institutionnel au profit d'actions technologiques, au détriment direct de l'exposition crypto.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Kraken lance les options BTC et ETH en Europe sous licence MiFID",
+    "resume": "Kraken propose désormais le trading d'options sur Bitcoin et Ethereum en Europe.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/kraken-lance-les-options-btc-et-eth-en-europe-sous-licence-mifid/",
+    "date": "10 nov.",
+    "pourquoi": "L'arrivée de produits dérivés réglementés offre de nouveaux outils de couverture et de spéculation pour les investisseurs sophistiqués sur ETH et BTC.",
+    "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-10T20:23:31+00:00",
-  "resume": "Wall Street a reculé aujourd'hui, plombé par des chiffres de l'inflation américaine plus élevés que prévu qui font craindre de nouvelles hausses de taux. À l'inverse, la Bourse de Paris a terminé en légère hausse, soutenue par la baisse des cours du pétrole. Nvidia poursuit sa chute suite à une affaire d'espionnage présumé touchant son patron, perdant sa place de deuxième capitalisation mondiale au profit de Microsoft.",
+  "updatedAt": "2026-11-11T07:17:56+00:00",
+  "resume": "Plusieurs entreprises ont publié des résultats trimestriels variés, influençant le cours de leurs actions. Le secteur technologique reste dynamique, notamment grâce à la demande en puces pour l'IA, malgré des restrictions commerciales. Par ailleurs, de nombreux dirigeants d'entreprises ont procédé à des ventes ou des achats de leurs propres actions.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
-    "valeur": "≈ 179 $",
-    "variation": "−4,27 % (séance)",
+    "valeur": "≈ 169 $",
+    "variation": "−5,47 % (séance)",
     "sens": "baisse"
    },
    {
     "label": "Apple (AAPL)",
-    "valeur": "≈ 351 $",
-    "variation": "+2,43 % (séance)",
-    "sens": "hausse"
+    "valeur": "≈ 349 $",
+    "variation": "−0,62 % (séance)",
+    "sens": "baisse"
    },
    {
     "label": "Microsoft (MSFT)",
-    "valeur": "≈ 545 $",
-    "variation": "+2,75 % (séance)",
-    "sens": "hausse"
+    "valeur": "≈ 533 $",
+    "variation": "−2,20 % (séance)",
+    "sens": "baisse"
    },
    {
     "label": "Tesla (TSLA)",
-    "valeur": "≈ 378 $",
-    "variation": "+5,54 % (séance)",
+    "valeur": "≈ 380 $",
+    "variation": "+0,46 % (séance)",
     "sens": "hausse"
    }
   ],
   "items": [
    {
-    "titre": "Wall Street recule alors que les chiffres élevés de l'inflation attisent les craintes d'une hausse des taux",
-    "resume": "Les actions américaines ont baissé suite à l'annonce d'une inflation plus forte qu'anticipé, ravivant les craintes d'un resserrement monétaire de la Fed.",
-    "source": "Boursorama",
-    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTnVSZmFESW9xLWUzU0daMDlmSklwc1JUcTU1WW9jQ01NQXFEWF9yYklNLUt5aFpyN1NPSUF5S1hXRWJwdm1vc2JfNFFNZHRQa2dEeFhpQUdNMFBtblpfOUlaZFEwUW5Rc1RZZzZmRnBMeGVZeXo4WEI3NDFkQXA5bFJUdXVOcnhqZUpXZkJLam1PanpicklRcVZ4MmtPSDZSZDNjUTJhaU9sZDJsQkQ1UWotQWxBZndhZGxrX1g3emhqVWdwbmJUUVVQZnE5c2thTE04UUlkRDlnQ0JuTzlhNzY1STItM1MyT0ZsOVZOYlFSckZPbjVOUjBndmJDVzQxcm9NQjBBVElNM3YwOUVaTERqU1Q3QWda0gGYAkFVX3lxTE5OdVJmYURJb3EtZTNTR1owOWZKSXBzUlRxNTVZb2NDTU1BcURYX3JiSU0tS3loWnI3U09JQXlLWFdFYnB2bW9zYl80UU1kdFBrZ0R4WGlBR00wUG1uWl85SVpkUTBRblFzVFlnNmZGcEx4ZVl5ejhYQjc0MWRBcDlsUlR1dU5yeGplSldmQktqbU9qemJySVFxVngya09INlJkM2NRMmFpT2xkMmxCRDVRai1BbEFmd2FkbGtfWDd6aGpVZ3BuYlRRVVBmcTlza2FMTThRSWREOWdDQm5POWE3NjVJMi0zUzJPRmw5Vk5iUVJyRk9uNU5SMGd2YkNXNDFyb01CMEFUSU0zdjA5RVpMRGpTVDdBZ1o?oc=5",
-    "date": "10 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Plus de 400 milliards de dollars de capitalisation partie en fumée, un second rang mondial cédé à Microsoft… Nvidia poursuit sa chute, ébranlé par l'affaire d'espionnage présumé qui touche son patron",
-    "resume": "Nvidia continue de dégringoler en Bourse, affecté par des soupçons d'espionnage visant son dirigeant, et cède son rang de deuxième plus grande entreprise mondiale à Microsoft.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/actualites/informations-societes/plus-de-400-milliards-de-dollars-de-capitalisation-partie-en-fumee-un-second-rang-mondial-cede-a-microsoft-nvidia-poursuit-sa-chute-ebranle-par-l-affaire-d-espionnage-presume-qui-touche-son-patron-1173550.html",
-    "date": "10 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "La Bourse de Paris a terminé en petite hausse, entre repli des cours du pétrole et inflation américaine",
-    "resume": "Le CAC 40 a fini la séance en petite hausse, trouvant un équilibre entre le repli des prix du brut et les données sur l'inflation aux États-Unis.",
-    "source": "France 24",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOU0thOU9FUXFJSU95QTJtb0pkYTAxTEs1T2xnRlhnNldSQVZLNzhmVXAzX2xuX1huR3VsYUhSdWRuMW1CcmpwbzJNN1Y4MzktWGYwTVA2RThWblkxNVZqdnlHcVpCYnlkWUVxYndxYVlIVkN4b0xUNllQbDNGWUdabzhHU0Fla3ZrelptSl93MjF4bEgyd3ZWV2haVWEzcFA2UDA3SERkZkNWeGlWYkUzOHFXVXA5djdBbVpCRl9PTVNTV0NtN1JQRmNjNFMtdzBwWFM1LWk4bVlmUW9ucllKNHQwemRvUHVnYnlUNnJocmszaTZoN0dxT0tYNWZEYnc?oc=5",
-    "date": "10 nov.",
+    "titre": "Resonac relève ses prévisions de bénéfices grâce à la demande en puces IA",
+    "resume": "Resonac a relevé ses prévisions de profits, porté par la forte demande de puces destinées à l'intelligence artificielle.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/earnings/resonac-releve-ses-previsions-de-benefices-grace-a-la-demande-en-puces-ia-3689516",
+    "date": "11 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "La dette des cartes de crédit aux États-Unis atteint un record de 1.290 milliards $",
-    "resume": "La dette liée aux cartes de crédit aux États-Unis a atteint un niveau record, dépassant les 1 290 milliards de dollars.",
+    "titre": "Les prévisions de bénéfices 2027 de Siemens Energy déçoivent malgré une année record",
+    "resume": "Siemens Energy a annoncé des prévisions décevantes pour 2027, éclipsant une année record et provoquant la déception des investisseurs.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economy-news/la-dette-des-cartes-de-credit-aux-etatsunis-atteint-un-record-de-1290-milliards--3688707",
-    "date": "10 nov.",
+    "url": "https://fr.investing.com/news/earnings/les-previsions-de-benefices-2027-de-siemens-energy-decoivent-malgre-une-annee-record-3689455",
+    "date": "11 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le conseil d’administration de TSMC approuve un investissement d’1 milliard $ dans Anthropic et OpenAI",
+    "resume": "Le conseil d'administration de TSMC a validé un investissement d'un milliard de dollars dans les start-ups d'IA Anthropic et OpenAI.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/le-conseil-dadministration-de-tsmc-approuve-un-investissement-d1-milliard--dans-anthropic-et-openai-93CH-3689422",
+    "date": "11 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Des revenus multipliés par plus de 150 à 685 milliards de dollars d'ici à 2030, plus de 30 milliards de cash généré… Goldman Sachs vante la trajectoire financière d'Anthropic avant son IPO",
-    "resume": "Goldman Sachs anticipe une croissance exponentielle des revenus d'Anthropic avant son introduction en Bourse, prévoyant 685 milliards de dollars de revenus d'ici 2030.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/actualites/informations-societes/des-revenus-multiplies-par-plus-de-150-a-685-milliards-de-dollars-d-ici-a-2030-plus-de-30-milliards-de-cash-genere-goldman-sachs-vante-la-trajectoire-financiere-d-anthropic-avant-son-ipo-1173554.html",
-    "date": "10 nov.",
-    "impact": "flat"
+    "titre": "Vestas affine ses prévisions 2026 après des bénéfices trimestriels décevants",
+    "resume": "Le fabricant d'éoliennes Vestas a ajusté ses objectifs pour 2026 après avoir enregistré des bénéfices trimestriels inférieurs aux attentes.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/earnings/vestas-affine-ses-previsions-2026-apres-des-benefices-trimestriels-decevants-3689500",
+    "date": "11 nov.",
+    "impact": "baisse"
    },
    {
-    "titre": "Occidental dépasse les prévisions du T3 2026, l’action en hausse",
-    "resume": "Occidental Petroleum a publié des résultats supérieurs aux attentes pour le troisième trimestre, entraînant une hausse de son action.",
+    "titre": "Brenntag affiche une forte croissance de ses bénéfices au T3 2026",
+    "resume": "Brenntag a fait état d'une croissance significative de ses bénéfices au cours du troisième trimestre 2026.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/occidental-depasse-les-previsions-du-t3-2026-laction-en-hausse-93CH-3688788",
-    "date": "10 nov.",
+    "url": "https://fr.investing.com/news/transcripts/brenntag-affiche-une-forte-croissance-de-ses-benefices-au-t3-2026-93CH-3689515",
+    "date": "11 nov.",
     "impact": "hausse"
+   },
+   {
+    "titre": "CAC 40, Nasdaq… En Bourse, l’Histoire prouve qu’il ne faut jamais vendre dans la panique et manquer les meilleures séances",
+    "resume": "Une analyse historique suggère aux investisseurs de ne pas céder à la panique lors des baisses de marché pour éviter de manquer les rebonds.",
+    "source": "Capital.fr",
+    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNll1b0xLWkN0QkRIY05JVnNlaWxLclM2Y2lQWHlxYURhb0pIb2Rnb3hncXgxZzVXTWxqbGdJX1FYLUZjOHFPMWdKT3A2V1d5ZlItdTh1RmlYYUxyMjltN1o0TlVoZmVsaFg5UXlMb1V4eHJSOEdLTVNqSk9VWkdrUm5QYjhpcVktRzVrRkxYbzhUSWNra29jYmVQVWFWTUhjSkdYMlVBT3dfWGJVQkFZQTk1cE5leWY2WkZxeVdhXzlZSXFQb19Cekl4c0UxenBIYzBnVzljRkJUNmg2QmR6ZWZ2aTY1b2dZQU5JY2x4M3Z0N2I0WC1vakFQc1c?oc=5",
+    "date": "11 nov.",
+    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Dorel Industries : la perte du T3 2026 se réduit, le titre bondit de 13%",
-    "resume": "L'action Dorel Industries a bondi de 13% après avoir annoncé une réduction de sa perte au troisième trimestre.",
+    "titre": "Ganfeng Lithium : les prix du lithium de plus en plus difficiles à prévoir",
+    "resume": "Ganfeng Lithium souligne la difficulté croissante à prévoir l'évolution des prix du lithium.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/dorel-industries--la-perte-du-t3-2026-se-reduit-le-titre-bondit-de-13-93CH-3688675",
-    "date": "10 nov.",
-    "pourquoi": "Ce signal montre qu'une restructuration réussie peut fortement doper une petite capitalisation. À surveiller pour les investisseurs en quête de retournement.",
+    "url": "https://fr.investing.com/news/stock-market-news/ganfeng-lithium--les-prix-du-lithium-de-plus-en-plus-difficiles-a-prevoir-93CH-3689429",
+    "date": "11 nov.",
+    "pourquoi": "Cela signale une volatilité persistante dans le secteur des matériaux pour batteries, crucial pour les véhicules électriques.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Matrimony.com : le bénéfice du T2 2027 bondit, l’action gagne 6,3%",
+    "resume": "L'action Matrimony.com a bondi de 6,3% suite à l'annonce d'une forte hausse de son bénéfice trimestriel.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/transcripts/matrimonycom--le-benefice-du-t2-2027-bondit-laction-gagne-63-93CH-3689502",
+    "date": "11 nov.",
+    "pourquoi": "C'est le signe qu'une petite capitalisation peut réagir fortement à de bons fondamentaux, offrant des opportunités hors des sentiers battus.",
     "impact": "hausse"
    },
    {
-    "titre": "Les marges de raffinage du diesel en Europe du Nord chutent de plus de 7%",
-    "resume": "Les marges de raffinage du diesel en Europe du Nord ont chuté de plus de 7%.",
+    "titre": "Le PDG de WW International achète des actions pour 137.625$",
+    "resume": "Le PDG de WW International a acheté pour plus de 137 000 dollars d'actions de sa propre société.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/commodities-news/les-marges-de-raffinage-du-diesel-en-europe-du-nord-chutent-de-plus-de-7-93CH-3688790",
-    "date": "10 nov.",
-    "pourquoi": "Cela indique une baisse de rentabilité pour les raffineurs européens, impactant le secteur énergétique. À surveiller pour les actions pétrolières.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Lakeland Financial relève son autorisation de rachat d’actions à 90 millions $",
-    "resume": "Lakeland Financial a augmenté son programme de rachat d'actions à 90 millions de dollars.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/sec-filings/lakeland-financial-releve-son-autorisation-de-rachat-dactions-a-90-millions--93CH-3688761",
-    "date": "10 nov.",
-    "pourquoi": "Un rachat d'actions accru signale souvent que la direction estime le titre sous-évalué, ce qui peut soutenir le cours de cette banque régionale.",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-ww-international-achete-des-actions-pour-137625-93CH-3689386",
+    "date": "11 nov.",
+    "pourquoi": "Un achat d'initié de cette taille peut indiquer une confiance de la direction dans le redressement ou la sous-évaluation de l'entreprise.",
     "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-10T20:23:31+00:00",
-  "resume": "Les taux de crédit immobilier continuent de grimper en novembre, pesant sur le pouvoir d'achat des ménages malgré des prix parfois en baisse. Le marché immobilier ralentit dans plusieurs régions et les acheteurs retrouvent du pouvoir de négociation, tandis que les SCPI sont bousculées par la hausse des taux. Près de la moitié des logements français sont exposés à au moins un risque climatique majeur.",
+  "updatedAt": "2026-11-11T07:17:56+00:00",
+  "resume": "Les taux de crédit immobilier continuent de grimper en novembre 2026, dépassant parfois les 4 % sur les longues durées. Face à cette hausse, les prix des logements reculent dans plusieurs grandes villes françaises comme Nice ou Bordeaux, redonnant du pouvoir de négociation aux acheteurs. Le marché des SCPI est de nouveau bousculé par l'augmentation des taux d'intérêt.",
   "chiffres": [],
   "items": [
    {
     "titre": "Crédit immobilier : les taux grimpent encore en novembre 2026",
-    "resume": "Les taux de crédit immobilier poursuivent leur ascension en novembre 2026, freinant l'accès à la propriété.",
+    "resume": "Les taux de crédit immobilier poursuivent leur ascension en novembre 2026.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0FXMGo5azhrRkNtU2VpcGpMclc1MExOS2psTG1iZ0o3MUVjLXZPT3dNTnJ4NHFHY2pUbEU1UmR2MGVrb2thclZWbFpZcnFHQV9wdmI3aVNHcG1mV0RlcVdmejF4RkVEdkFEbmQ2R2hoT1hqTzRISjY4X2VyTlJaX2FfWWdCVG5mYk1mOGNLQkV0ZjlJYTVqNnNDS3R4T3QyU0pxV2VzMlBQakJ3YWc?oc=5",
     "date": "10 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Immobilier à Bordeaux : les prix baissent de 4,6 % en trois ans, les acheteurs retrouvent des marges de négociation",
+    "resume": "À Bordeaux, les prix immobiliers ont baissé de 4,6 % en trois ans, permettant aux acheteurs de mieux négocier.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXk3NmtpYUpLNUdJWWtrdEp5eVpaQko0UEFrOEV3TEVGTEJrUElTWEx1NWc2aWxTSGNxT0xFdE9nSURJOFM3Z2hjT0VCeHdfMGZ5UHJfSk1hWmdFQjNOMDk4ci05czdNTkpLUnhsUWxhT1dkeDk1dUlkLWJrWkpqN0poWTFPelZLU3NYdnVqWVVScjZ0dnAzZFFoeER4dGtIQ0pnXzAwLXM3TUpXWVM4SEQ1NA?oc=5",
+    "date": "10 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "Les placements en SCPI bousculés à nouveau par la hausse des taux d’intérêt",
-    "resume": "La hausse des taux d'intérêt perturbe à nouveau le marché des SCPI, affectant ces placements collectifs.",
+    "resume": "La hausse des taux d'intérêt perturbe à nouveau le marché des placements en SCPI.",
     "source": "Le Figaro",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNTNXVklnay1QN3U2WFNGaTlSNzFLX2I5R0RFR1FZa0REUGRYU0pHQnpwdmpOajZvRldFSDdrMC12djhVelFSU3FUbmkzVS16Q1lRWTlFMVJob2h6dFBWUjNVbWRxZXVyUXRQOHo0MERNczI3Z2o2NHZhbGJzd0YwUTlVQXp4bWx0QjZXblhIQ1ZBNDVaNmR0NFdpZklMQk8zQmk0QkFEZVlFU0h0X0NvSktyOTlVdVpqWHc?oc=5",
     "date": "10 nov.",
@@ -316,39 +315,59 @@
    },
    {
     "titre": "Argiles, crues, feux : l'Insee classe 43 % des logements exposés à au moins un risque climatique",
-    "resume": "L'Insee révèle que 43 % des logements en France font face à des risques climatiques comme l'érosion ou les inondations.",
+    "resume": "L'Insee révèle que 43 % des logements sont exposés à au moins un risque climatique, comme le retrait des argiles ou les inondations.",
     "source": "Actual Immo",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YSVhXQkY2TFBHYXlhc3dVSWNGTDVpM1NwbDNsZWZuWDlNbnROR1V2NFlXcFB3Y1hjUnZhRnVSUkZVQVktaWEyXzdNMzdOaGEyaE9XeTlyR3lEcDZyNVBfT05sZzIwX3ZseTIwcFFWd0Q1UQ?oc=5",
     "date": "10 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Immobilier à Bordeaux : les prix baissent de 4,6 % en trois ans, les acheteurs retrouvent des marges de négociation",
-    "resume": "À Bordeaux, les prix ont chuté de 4,6 % en trois ans, permettant aux acquéreurs de mieux négocier.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTXk3NmtpYUpLNUdJWWtrdEp5eVpaQko0UEFrOEV3TEVGTEJrUElTWEx1NWc2aWxTSGNxT0xFdE9nSURJOFM3Z2hjT0VCeHdfMGZ5UHJfSk1hWmdFQjNOMDk4ci05czdNTkpLUnhsUWxhT1dkeDk1dUlkLWJrWkpqN0poWTFPelZLU3NYdnVqWVVScjZ0dnAzZFFoeER4dGtIQ0pnXzAwLXM3TUpXWVM4SEQ1NA?oc=5",
+    "titre": "Immobilier : vers un coup de rabot sur plusieurs avantages fiscaux dès 2027 ?",
+    "resume": "Le gouvernement envisage de réduire plusieurs avantages fiscaux liés à l'immobilier à partir de 2027.",
+    "source": "blog.myimmobilier.com",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWt3ZUFnU0NUSnZhelBYbmtDUEtBN1Ztdk1xaEZDT2Ftcjd2eVhYM2plX2xfM2hweU0wa2Z1ZXNXMTdWNnZDSlg2S044dFhvNmRVX2Q2R0hrQlFjcHFzRElqSnZ5S1lXYlRsYTFsTUxOZ2xsb0h0T0hMeVpvSHJtRll4b3NWaUwtajh6YkRBTW9nYnNGeGN4QkNFNnh6YWJnbWtqanUtTQ?oc=5",
     "date": "10 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "LMNP en 2026 : l’État a réduit les avantages fiscaux, mais la location meublée reste rentable",
-    "resume": "Malgré une réduction des avantages fiscaux par l'État, la location meublée non professionnelle (LMNP) conserve sa rentabilité.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5weXg3OThJaGdGYjlLY0l4UFMzLVJrczB4NERmY1NXODhPUnNraE1zUHF1VE1BU01OaWJVUkY5dTVaT25SR05YRUNiMEdvUQ?oc=5",
+    "titre": "Pouvoir d’achat immobilier 2026 : les prix effacent le gain des taux stables",
+    "resume": "En 2026, la stagnation des taux ne suffit pas à compenser la hausse des prix, érodant le pouvoir d'achat immobilier.",
+    "source": "Mon Immeuble",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ0pSc3B2azFDb3dEWmF1cHBRekdxVl9xbmZSWEhtTUdiUjIzVURxUkk0a0E3X2ZPN2JFRmNRRENoQWlFWFpVVnVEWVNFWGV3MEpzYUV2ZFdnNkNHZ1NRa1o1ckgxWHE0WjIwMzA0NlQ1NUU2cTEwRzRpQnB0cVJTbXBvN29HOGZvV2h4RnA5MWVtUHVERHFsTzJfY2F1UGx0UklkdzIzbzFubnc?oc=5",
     "date": "10 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Annonces immobilières : SeLoger et Leboncoin attaqués devant l’Autorité de la concurrence",
-    "resume": "Les plateformes SeLoger et Leboncoin sont visées par une action devant l'Autorité de la concurrence concernant les annonces.",
-    "source": "l'Informé",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcWNxN0JWTDFCVXBpS1ZDcXpHQjd2bDR4TFgtUE82Yl9PLTRiRmExV1NDdF8ybGd6LUhVcFhPWUZEVXpNbFI1el9vLXpKaFZZQ0p6Tmxodm01NFZuTlllRzhNVnRxTUl5WFZQYVJMUEJGenVoSDdSdEpxaHFTd3JCcmN1aXVrcTZxVlQxV1ZsaHpBeXk2Q2hFVWhmWV9ZQjhGdFZGeEthSHdlLWRrYUpJb3NUR3NONjlTZEd0N0l5UFljbUpxMWhQTzZTR1QwT1RhVE4wSmJGNTB3dw?oc=5",
-    "date": "10 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
-  "niche": []
+  "niche": [
+   {
+    "titre": "SCPI CORUM R Start : première acquisition en Norvège, avec un rendement immobilier de 8",
+    "resume": "La SCPI CORUM R Start réalise sa première acquisition en Norvège avec un rendement de 8 %.",
+    "source": "FranceTransactions.com",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVFtak1GRzcwd0lYNzU2Ml8wS180ODNhdGNuQXlXak1fMDRGYWw4OEdkaC1NcEVEcEZSQlRNT3BpNC1uNy1USHlyVnFhZTR6T3JjQjZVeGdzRmh1cFU4b3NyQkdWRm5MTi1xc1pqS29sNnlPanRBa0kyeFFVZUtKX2NycEtEaVJFdHlYbnVwdnduWXgzX0Y5Y1dYMzhjazJUSldCa1RZR2FaUTFF?oc=5",
+    "date": "10 nov.",
+    "pourquoi": "Cela montre une stratégie de diversification géographique hors zone euro pour chercher du rendement.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Les revenus de Paref décrochent malgré la hausse des loyers",
+    "resume": "Les revenus de Paref décrochent malgré l'augmentation des loyers.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWl9vLUQ2RVlfOHY5V0toNjJyTUowemxTYmRqd1ZIRTRFajhoNlo3T0poelRtUHJTR2IwMC01NTl3MU8yd1dXeGRodFNtdEZCNzdTQ3A4cXUtTGVzZlByRFFQdlVIT1N3S0JYdldDZFduMGJpbnRnQ2JOS0dKMlJKMzNZZElDSlhDb2Q2MDlFSlhhZF93SFItT0dJaHo2OGIzaWw3anlvUVFtaXd3NGpSUW90dFNBaTFUcmttV3drYXN0eGVCQlAtTXhfeUtmcTlHY0xIckptOWbSAdgBQVVfeXFMTVpfby1ENkVZXzh2OVdLaDYyck1KMHpsU2JkandWSEU0RWo4aDZaN09KaHpUbVByU0diMDAtNTU5dzFPMndXV3hkaHRTbXRGQjc3U0NwOHF1LUxlc2ZQckRRUHZVSE9Td0tCWHZXQ2RXbjBiaW50Z0NiTktHSjJSSjMzWWRJQ0pYQ29kNjA5RUpYYWRfd0hSLU9HSWh6NjhiM2lsN2p5b1FRbWl3dzRqUlFvdHRTQWkxVHJrbVd3a2FzdHhlQkJQLU14X3lLZnE5R2NMSHJKbTlm?oc=5",
+    "date": "10 nov.",
+    "pourquoi": "Il faut surveiller la gestion interne et le taux d'occupation de cette foncière, au-delà de la simple tendance des loyers.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "LMNP en 2026 : l’État a réduit les avantages fiscaux, mais la location meublée reste rentable",
+    "resume": "Malgré la réduction de certains avantages fiscaux par l'État, la location meublée (LMNP) reste rentable en 2026.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5weXg3OThJaGdGYjlLY0l4UFMzLVJrczB4NERmY1NXODhPUnNraE1zUHF1VE1BU01OaWJVUkY5dTVaT25SR05YRUNiMEdvUQ?oc=5",
+    "date": "10 nov.",
+    "pourquoi": "Ce statut conserve son attractivité pour les investisseurs particuliers cherchant à optimiser leur fiscalité locative.",
+    "impact": "flat"
+   }
+  ]
  }
 }
