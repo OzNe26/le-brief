@@ -1,22 +1,6 @@
 {
-"updatedAt": "2026-11-10T22:25:05+00:00",
+"updatedAt": "2026-11-11T06:16:59+00:00",
 "events": [
-{
-"d": "2026-11-10T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Inflation sous-jacente (CPI)",
-"sub": "🇺🇸 États-Unis · prévu 0.2% · précédent 0.3%",
-"imp": 3
-},
-{
-"d": "2026-11-10T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Inflation (CPI) sur un mois",
-"sub": "🇺🇸 États-Unis · prévu 0.3% · précédent 0.6%",
-"imp": 3
-},
 {
 "d": "2026-11-12T08:30:00-05:00",
 "allday": false,
@@ -59,7 +43,6 @@
 }
 ],
 "errors": [
-"Nasdaq 2026-11-10 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-11 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-12 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-13 : HTTP Error 403: Forbidden",
@@ -68,6 +51,7 @@
 "Nasdaq 2026-11-18 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-19 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-20 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-23 : HTTP Error 403: Forbidden"
+"Nasdaq 2026-11-23 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-24 : HTTP Error 403: Forbidden"
 ]
 }
