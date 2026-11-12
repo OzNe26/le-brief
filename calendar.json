@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-11T22:38:35+00:00",
+"updatedAt": "2026-11-12T06:20:05+00:00",
 "events": [
 {
 "d": "2026-11-12T08:30:00-05:00",
@@ -43,7 +43,6 @@
 }
 ],
 "errors": [
-"Nasdaq 2026-11-11 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-12 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-13 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-16 : HTTP Error 403: Forbidden",
@@ -52,6 +51,7 @@
 "Nasdaq 2026-11-19 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-20 : HTTP Error 403: Forbidden",
 "Nasdaq 2026-11-23 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-24 : HTTP Error 403: Forbidden"
+"Nasdaq 2026-11-24 : HTTP Error 403: Forbidden",
+"Nasdaq 2026-11-25 : HTTP Error 403: Forbidden"
 ]
 }
