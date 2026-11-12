@@ -1,30 +1,39 @@
 {
  "general": {
-  "updatedAt": "2026-11-12T16:05:29+00:00",
-  "resume": "La journée est marquée par la démission surprise du patron de Nvidia suite à des scandales personnels, provoquant une chute de l'action. En politique française, plusieurs candidats à la présidentielle de 2027 détaillent leurs programmes sur les services publics. À l'international, des émissaires américains tentent d'inclure les Européens dans les discussions sur la guerre en Ukraine.",
+  "updatedAt": "2026-11-12T20:25:19+00:00",
+  "resume": "L'actualité est marquée par le départ surprise du PDG de Nvidia, Jensen Huang, et les dégâts causés par la dépression Charles dans le sud de la France. Aux États-Unis, un démocrate est devenu le premier sénateur noir élu dans le Mississippi depuis près de 150 ans. En France, la course à la présidentielle de 2027 s'intensifie avec le grand oral de plusieurs candidats sur les services publics.",
   "chiffres": [],
   "items": [
    {
-    "titre": "États-Unis : le patron de Nvidia Jensen Huang démissionne suite aux scandales",
-    "resume": "Jensen Huang, directeur général de Nvidia depuis 33 ans, a démissionné après la révélation de relations extraconjugales.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-%C3%A9tats-unis-le-patron-de-nvidia-jensen-huang-d%C3%A9missionne-suite-aux-scandales",
+    "titre": "Le Tech Flash : Nvidia, Jensen Huang quitte ses fonctions, par Julien Thibaud - 12/11",
+    "resume": "Jensen Huang, le PDG emblématique du géant des puces d'intelligence artificielle Nvidia, a annoncé sa démission ce jeudi.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-le-tech-flash-nvidia-jensen-huang-quitte-ses-fonctions-par-julien-thibaud-12-11_VN-202611120898.html",
     "date": "12 nov.",
     "impact": "flat",
-    "categorie": "Économie"
+    "categorie": "Tech"
    },
    {
-    "titre": "Guerre en Ukraine : les émissaires américains affirment \"des libérations de prisonniers\"",
-    "resume": "Des émissaires américains ont rencontré Vladimir Poutine pour l'exhorter à intégrer les pays européens aux pourparlers de paix sur l'Ukraine.",
+    "titre": "Inondations, routes coupées : les dégâts de la dépression Charles dans les Alpes-Maritimes et le Var",
+    "resume": "La dépression Charles a provoqué de fortes intempéries dans les Alpes-Maritimes et le Var, entraînant des inondations, des éboulements et des fermetures de routes.",
+    "source": "franceinfo",
+    "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/cannes/en-images-inondations-routes-coupees-degats-le-passage-de-la-depression-charles-dans-les-alpes-maritimes-et-le-var-3448560.html#xtor=RSS-3-[lestitres]",
+    "date": "12 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Mississippi : les démocrates remportent un siège au Sénat",
+    "resume": "Le démocrate Scott Colom a remporté un siège au Sénat dans le Mississippi, une première historique pour un candidat noir dans cet État depuis près de 150 ans.",
     "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-guerre-en-ukraine-les-%C3%A9missaires-am%C3%A9ricains-affirment-des-lib%C3%A9rations-de-prisonniers",
+    "url": "https://www.france24.com/fr/%C3%A9missions/questions-directes/20261112-mississippi-les-d%C3%A9mocrates-remportent-un-si%C3%A8ge-au-s%C3%A9nat",
     "date": "12 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Présidentielle 2027 : Edouard Philippe puis Jean-Luc Mélenchon, derniers candidats interviewés dans notre opération \"Nos services publics\", attendus à partir de 17h10",
-    "resume": "Plusieurs candidats à l'élection présidentielle française de 2027 présentent leurs propositions concernant l'accès et la qualité des services publics.",
+    "titre": "Présidentielle 2027 : revivez les interviews de huit des principaux candidats dans le cadre de l'opération \"Nos services publics\"",
+    "resume": "Huit candidats déclarés à l'élection présidentielle de 2027 ont présenté leurs propositions sur l'avenir des services publics lors d'une journée spéciale.",
     "source": "franceinfo",
     "url": "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-education-sante-transports-suivez-les-interviews-de-huit-candidats-dans-le-cadre-de-l-operation-nos-services-publics_8276135.html#xtor=RSS-3-[lestitres]",
     "date": "12 nov.",
@@ -32,39 +41,30 @@
     "categorie": "France"
    },
    {
-    "titre": "Dépression Charles: un homme porté disparu, emporté par les eaux à Nice, après de fortes pluies",
-    "resume": "De fortes pluies ont touché la Côte d'Azur, provoquant la disparition d'un homme emporté par les eaux à Nice.",
+    "titre": "\"Ce qui se passe chez Rockstar dépasse les murs du studio\": à une semaine de la sortie de \"GTA 6\", les salariés du studio sont appelés à voter pour se syndiquer",
+    "resume": "À une semaine de la sortie très attendue de GTA VI, les employés du studio Rockstar en Angleterre sont appelés à voter pour la création d'un syndicat.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/cote-d-azur/depression-charles-un-homme-porte-disparu-emporte-par-les-eaux-a-nice-apres-de-fortes-pluies_AD-202611120678.html",
-    "date": "12 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "New York : effondrement meurtrier d'un immeuble à Brooklyn",
-    "resume": "L'effondrement d'un immeuble à Brooklyn, New York, a causé la mort d'au moins huit personnes et fait de nombreux blessés.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261112-new-york-effondrement-meurtrier-d-un-immeuble-%C3%A0-brooklyn",
-    "date": "12 nov.",
-    "impact": "flat",
-    "categorie": "Monde"
-   },
-   {
-    "titre": "Plagiat par IA: des humoristes dénoncent le vol de leurs sketchs par des avatars hypersexualisés sur Instagram et Tiktok",
-    "resume": "Des humoristes dénoncent le plagiat de leurs sketchs sur les réseaux sociaux par des avatars hypersexualisés générés par intelligence artificielle.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/societe/video-plagiat-par-ia-des-humoristes-denoncent-le-vol-de-leurs-sketchs-par-des-avatars-hypersexualises-sur-instagram-et-tiktok_VN-202611120660.html",
+    "url": "https://www.bfmtv.com/tech/gaming/ce-qui-se-passe-chez-rockstar-depasse-les-murs-du-studio-a-une-semaine-de-la-sortie-de-gta-6-les-salaries-du-studio-sont-appeles-a-voter-pour-se-syndiquer_AD-202611120868.html",
     "date": "12 nov.",
     "impact": "flat",
     "categorie": "Tech"
+   },
+   {
+    "titre": "Elle est alimentée par trois éoliennes en mer Méditerranée et fait déjà rouler des bus et des bateaux: la plus grande usine française d’hydrogène vert a été inaugurée dans l’Aude",
+    "resume": "La plus grande usine française de production d'hydrogène vert, alimentée par des éoliennes en mer, a été inaugurée dans l'Aude.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/entreprises/energie/elle-est-alimentee-par-trois-eoliennes-en-mer-mediterranee-et-fait-deja-rouler-des-bus-et-des-bateaux-la-plus-grande-usine-francaise-d-hydrogene-vert-a-ete-inauguree-dans-l-aude_AD-202611120884.html",
+    "date": "12 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-12T16:05:29+00:00",
-  "resume": "Le marché des cryptomonnaies subit une forte pression, le Bitcoin reculant sous les 72 000 dollars, entraînant d'importantes liquidations. Ce mouvement est accentué par la démission surprise du PDG de Nvidia, qui secoue l'ensemble des marchés financiers. Parallèlement, les ETF Bitcoin américains enregistrent des sorties de capitaux massives pour la cinquième séance consécutive.",
+  "updatedAt": "2026-11-12T20:25:19+00:00",
+  "resume": "Le marché des cryptomonnaies subit une forte pression baissière, le Bitcoin et l'Ethereum chutant respectivement sous les 72 000 et 2 000 dollars, principalement influencés par la démission surprise du PDG de Nvidia. Parallèlement, les ETF Bitcoin américains enregistrent des sorties massives de capitaux pour la cinquième séance consécutive. Malgré ce contexte morose, Binance annonce avoir totalement remboursé les clients victimes d'un piratage historique.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -94,7 +94,7 @@
   "items": [
    {
     "titre": "Démission de Jensen Huang : l’action Nvidia plonge de 13% à Wall Street",
-    "resume": "Jensen Huang, PDG de Nvidia, a démissionné avec effet immédiat, provoquant une chute de 13 % de l'action à Wall Street et déstabilisant les marchés.",
+    "resume": "La démission immédiate de Jensen Huang, PDG de Nvidia, a provoqué une chute de l'action et déstabilisé l'ensemble des marchés, y compris les cryptomonnaies.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/economie/demission-jensen-huang-action-nvidia-plonge-13/",
     "date": "12 nov.",
@@ -102,7 +102,7 @@
    },
    {
     "titre": "Bitcoin sous les 72 000 dollars : 656 millions de liquidations en 24 heures",
-    "resume": "Le cours du Bitcoin est passé sous les 72 000 dollars, entraînant 656 millions de dollars de liquidations en 24 heures, majoritairement des positions longues.",
+    "resume": "Le Bitcoin est passé sous la barre des 72 000 dollars, entraînant la liquidation forcée de 656 millions de dollars de positions, majoritairement acheteuses.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/bitcoin/liquidations-bitcoin-72-000-dollars-656-millions/",
     "date": "12 nov.",
@@ -110,27 +110,48 @@
    },
    {
     "titre": "ETF Bitcoin : 1,44 milliard de dollars quittent les fonds en cinq séances",
-    "resume": "Les ETF Bitcoin au comptant aux États-Unis ont enregistré une sortie nette de 1,44 milliard de dollars sur cinq séances de bourse.",
+    "resume": "Les ETF Bitcoin au comptant aux États-Unis font face à une désaffection, avec 1,44 milliard de dollars de sorties nettes en cinq jours de bourse.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/bitcoin/etf-bitcoin-1-44-milliard-dollars-quittent/",
     "date": "12 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Bitcoin : Glassnode alerte sur le manque de liquidités et la fuite des capitaux",
-    "resume": "Glassnode alerte sur une baisse des liquidités et un recul de la demande institutionnelle pour le Bitcoin.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/bitcoin-glassnode-alerte-sur-le-manque-de-liquidites-et-la-fuite-des-capitaux/",
+    "titre": "Les clients de Binance victimes d’un hack de 6,3 milliards de dollars sont entièrement remboursés, selon l’exchange",
+    "resume": "Binance affirme avoir entièrement couvert les 6,3 milliards de dollars dérobés lors d'un précédent piratage, remboursant ainsi les utilisateurs affectés.",
+    "source": "BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNW9RTnY2NmJBdVJmMVZ0R3F2bEthbTFlZHl2REZLVUhvMTVzaDBGbFQxZ3VKZ3VTcHIwdWpfeHEzVHpxQXVRYWoyd3hHaEVDb0RqeEwtVDAzM2EyV2hpZDlVNmRSTkdqNVhFZERNdkRZTW9fSGctVzFxcUJfZ3RScU9zX3BZdVU?oc=5",
     "date": "12 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    },
    {
-    "titre": "Crypto : OKX et le propriétaire du NYSE lancent leur bourse d’actions tokenisées",
-    "resume": "OKX et le propriétaire du NYSE prévoient de lancer une plateforme d'actions et d'ETF tokenisés accessible 24h/24 aux États-Unis.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/crypto-okx-nyse-actions-tokenisees/",
+    "titre": "Crypto : Wall Street (DTCC) choisit Solana pour tokeniser ses actifs",
+    "resume": "La DTCC, infrastructure clé des marchés américains, a choisi la blockchain Solana pour la tokenisation de ses actifs financiers.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/crypto-wall-street-dtcc-choisit-solana-pour-tokeniser-ses-actifs/",
     "date": "12 nov.",
     "impact": "hausse"
+   },
+   {
+    "titre": "« Un problème au niveau d'iOS » : Binance alerte sur une faille de l’iPhone qui menace tous les portefeuilles crypto",
+    "resume": "Binance alerte sur une faille de sécurité critique dans iOS qui pourrait compromettre la sécurité des portefeuilles cryptos sur iPhone.",
+    "source": "01net.com",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNk53aGcxSWg3QnAtZWJtb21IUFlFZHZKUUllSjJSZm45YzVTX1FzM241VWpRUTZjNWZ5WjFWbWx4azFGYUpsYjBLUXlvU3FBYWlXWmh3cVhYbjNaSTM3VDF4RVlONVBxRDVfN3ZVbE8xU2VWeThPSmdFT1FMdGU1NHh2ZnphT2FtZFBEcUhRdnNITWhsSE1RNExha2hwS3lIUGw3NXpXRUNDU1JNOWpvUEFrNkhSdF8xWXJiZ01wUVpYLUNKU1N0aGJHNmxmTVl6WFIzOXFtWEtPTTdSRlpF?oc=5",
+    "date": "12 nov.",
+    "impact": "flat"
+   }
+  ],
+  "par": "ia",
+  "modele": "gemini-3.1-flash-live-preview",
+  "niche": [
+   {
+    "titre": "Ethereum post-quantique : Ethlabs veut la bascule en 2027, et non 2029",
+    "resume": "Ethlabs pousse pour avancer la transition d'Ethereum vers la cryptographie post-quantique à 2027 au lieu de 2029.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/ethereum/ethereum-post-quantique-ethlabs-bascule-2027-non/",
+    "date": "12 nov.",
+    "pourquoi": "Cela concerne la sécurité à long terme du réseau Ethereum face aux futures capacités de calcul, un enjeu pour la confiance des investisseurs.",
+    "impact": "flat"
    },
    {
     "titre": "La banque de Russie autorise les échanges de crypto à partir du 22 novembre",
@@ -138,44 +159,23 @@
     "source": "PortalCripto",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1A5cmlwYWxRSTc0WEdSdktCeWJTVmRfVTUxTVdpM2VRdWxxWXRjMGZESHpCSDg2TlA4eWVuWThsdnctNHZJdW44T2gyaUlvNHFJYkdJcy10cUl5MUd0aU8td3ZPXzlBekM1ZzNCbkZnTUdtX2tRZ0dDZVlWd2YwZE1yY2NyQTN2REV0d0NlblpfRXZjZE5IdnpLSHV6YThXUjNpakpKUVVCdw?oc=5",
     "date": "12 nov.",
+    "pourquoi": "Cette ouverture réglementaire pourrait potentiellement apporter de la liquidité et de nouveaux utilisateurs au marché.",
     "impact": "hausse"
-   }
-  ],
-  "par": "ia",
-  "modele": "gemini-3.1-flash-live-preview",
-  "niche": [
-   {
-    "titre": "Strategy sera retirée des indices MSCI à la date du 30 novembre - Qu'est-ce que cela implique ?",
-    "resume": "La Bitcoin Treasury Strategy sera retirée des indices MSCI le 30 novembre car considérée comme non opérationnelle.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/strategy-sera-retiree-indices-msci-date-30-novembre/",
-    "date": "12 nov.",
-    "pourquoi": "Cela pourrait forcer des fonds indiciels à vendre l'actif, impactant potentiellement son cours.",
-    "impact": "baisse"
    },
    {
     "titre": "L’offre de stablecoins chute de 14,2 milliards de dollars, sa plus forte baisse sur 30 jours depuis juin 2022",
-    "resume": "L'offre de stablecoins a chuté de 14,2 milliards de dollars, sa plus forte baisse mensuelle depuis juin 2022.",
+    "resume": "L'offre totale de stablecoins a enregistré une baisse de 14,2 milliards de dollars, la plus forte sur 30 jours depuis juin 2022.",
     "source": "TradingView",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZ3VyT205cmFwZGVacm53dzJWcXBDbUR5Um5yOE1Jdk02ZGhSbWlRR0VoT2ZFbnJZN0oxVS1Gd29QLUpwemx2V3pBV05lUUNmSG5BN21ldDhWazY0UkNJM3ZTWlNpbWMzeGRKMGdITQ?oc=5",
     "date": "12 nov.",
-    "pourquoi": "Une réduction de l'offre de stablecoins indique souvent une baisse de la liquidité disponible pour acheter des cryptos.",
+    "pourquoi": "Une réduction de l'offre de stablecoins indique souvent une baisse de la liquidité disponible pour acheter d'autres cryptos, signalant une prudence accrue.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Un autre mineur de bitcoin en solo décroche près de 230 000 dollars",
-    "resume": "Un mineur solo a découvert un bloc Bitcoin, remportant environ 230 000 dollars.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/un-autre-mineur-de-bitcoin-en-solo-decroche-pres-de-230-000-dollars/",
-    "date": "12 nov.",
-    "pourquoi": "Cela montre que le minage individuel reste possible malgré la concurrence des grands pools.",
-    "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-12T16:05:29+00:00",
-  "resume": "La démission surprise du PDG de Nvidia a provoqué une chute du titre et pèse lourdement sur l'ouverture de Wall Street. En Europe, la Bourse de Paris tente de résister face aux incertitudes politiques. Sur le front macroéconomique, le dollar américain atteint son plus haut niveau depuis avril 2025.",
+  "updatedAt": "2026-11-12T20:25:19+00:00",
+  "resume": "La Bourse de Paris a terminé en légère hausse, tandis que Wall Street a rebondi grâce au secteur de l'énergie malgré les difficultés persistantes de Nvidia. L'inflation américaine persistante alimente les craintes de nouvelles hausses de taux par la Fed, ce qui soutient le dollar et pèse sur l'argent. Plusieurs entreprises ont vu leur cours chuter lourdement après la publication de résultats décevants, à l'image d'Enovix ou Dye & Durham.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,145 +204,136 @@
   ],
   "items": [
    {
-    "titre": "NVIDIA : Il incarnait l'ADN de Nvidia... Jensen Huang quitte l'entreprise qu'il a cofondée, l'action chute de 14% à Wall Street",
-    "resume": "Le PDG et cofondateur de Nvidia, Jensen Huang, a démissionné suite à un scandale, entraînant une chute de l'action de 14% à Wall Street.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/nvidia-US67066G1040/actualites/nvidia-il-incarnait-l-adn-de-nvidia-jensen-huang-quitte-l-entreprise-qu-il-a-cofondee-l-action-chute-de-14-a-wall-street-1173657.html",
-    "date": "12 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Marchés des changes : Le dollar au plus haut depuis avril 2025",
-    "resume": "Le dollar américain s'apprécie fortement et atteint son niveau le plus élevé depuis avril 2025 sur les marchés des changes.",
-    "source": "Boursenews.ma",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLXVQa2IxcVBidmNZQmkxQmZEVkN1bTJSaHJIaDRjUmNTUDZFU1lOYTZmM09nM1AwTS1lT1g5bWlUeXdoR1dacVZTNTF3NGpMaFNOX01GY2NUYXdJUWhycXJaekpBaFFaazNrbjFnUEpEV05oSElINjZGazhPb3g1WHRBQm9BcjNneVdJX3VFUk5TRmVieGhV?oc=5",
+    "titre": "Wall Street rebondit grâce à la hausse des valeurs énergétiques ; les difficultés de Nvidia s'aggravent",
+    "resume": "Les marchés américains progressent, portés par l'énergie, mais Nvidia continue de peser sur la tendance.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPWlVLbGF6Yk9tZW56U1FqdzZfMmphdkJoVGtQY3dpOHVDanljSGFFdnJ3WFQ0dVpHZG9sUjJXOFBDZHJOQjB4bHRoaS1uNUNPdGkwa2Y5UmZ5emMyLVpVUGZzWTF1NkVFbTJvYS1BMnJUcmxNeFU1SndUbm8wSklZRG9RS1ltcVFjMmtqbDlwSWlIbVlXajE4alNsTC1ac0c4U19WYW83bXNQeldmdDBDRzdKa1BGOWVOZkVXcEYyaDl2d0pNQWRyb1lFbVRMcElnemo1T293bmgxRXlFR2dpWVF0Mk1WMi1HcjlvdUJqeFVHZjUzLURKSGFQZlZyYW5PaV9IWFpGQ0dCdkVSWGMtLdIBkAJBVV95cUxPWlVLbGF6Yk9tZW56U1FqdzZfMmphdkJoVGtQY3dpOHVDanljSGFFdnJ3WFQ0dVpHZG9sUjJXOFBDZHJOQjB4bHRoaS1uNUNPdGkwa2Y5UmZ5emMyLVpVUGZzWTF1NkVFbTJvYS1BMnJUcmxNeFU1SndUbm8wSklZRG9RS1ltcVFjMmtqbDlwSWlIbVlXajE4alNsTC1ac0c4U19WYW83bXNQeldmdDBDRzdKa1BGOWVOZkVXcEYyaDl2d0pNQWRyb1lFbVRMcElnemo1T293bmgxRXlFR2dpWVF0Mk1WMi1HcjlvdUJqeFVHZjUzLURKSGFQZlZyYW5PaV9IWFpGQ0dCdkVSWGMtLQ?oc=5",
     "date": "12 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "La Bourse de Paris est-elle définitivement plombée par le risque politique ?",
-    "resume": "La Bourse de Paris est confrontée à des incertitudes persistantes liées au risque politique, ce qui pourrait impacter sa performance.",
-    "source": "Le Figaro Bourse",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeGQ0Um1XVG0xOTFVNGNsYTNKNDlLYmZuRVFzbWhfbW9UVGhlNm9LTEhnSlZRNjViNk94QkFqWXI2Szd3NnFXclFwd3hQU2RsdHk5WmN4WnlDYjNib3FnUDYtMVVjYkcxMmc3dE1fSXlJTmdMWC1RVDNaZWJXRDJUakgwRFBJV2hwYUFCcDBKNWlweEQ1eXhUZUJEdnZoVzRhUTRMWTJfclozYXcwaGQxTzdYQmFGWWZNbkhYa2MzMTB2UQ?oc=5",
+    "titre": "La Fed juge probable de nouvelles hausses de taux pour lutter contre l’inflation",
+    "resume": "La Réserve fédérale américaine envisage de nouvelles augmentations de taux pour contrer une inflation persistante.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/economy-news/la-fed-juge-probable-de-nouvelles-hausses-de-taux-pour-lutter-contre-linflation-3693657",
     "date": "12 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Allianz relève ses prévisions de bénéfices après un chiffre d’affaires T3 2026 supérieur aux attentes",
-    "resume": "Allianz a relevé ses prévisions de bénéfices pour l'année après avoir publié un chiffre d'affaires supérieur aux attentes pour le troisième trimestre.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/allianz-releve-ses-previsions-de-benefices-apres-un-chiffre-daffaires-t3-2026-superieur-aux-attentes-93CH-3693271",
+    "titre": "La Bourse de Paris termine en légère hausse",
+    "resume": "Le marché parisien a clôturé la séance sur une note légèrement positive.",
+    "source": "France 24",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQejhzYXRhM051M0dVRUtjU1VTWmphcGF5dWdRd2JUTmxmWGh3T1pHN19WSVhKdE9raTZqSEQwWTFvQU9JVWhkUXFheTlkQ0NlUklmQjFyV0hvQ1Btd2dEUXZoVTlTVmRBVDR0TnJOLTNscXE5Z3A5Zkx5dTJ1aTdmSVNmdWwxR0t1ZG5LOFBYb2I3OUR2Y1FrcHI1c0tYU1dlVzdGT3VGYjJXZw?oc=5",
     "date": "12 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Fiera Capital rate ses estimations du T3 2026, l’action chute de 14%",
-    "resume": "L'action Fiera Capital a dégringolé de 14% après que l'entreprise a manqué ses estimations de résultats pour le troisième trimestre.",
+    "titre": "Pourquoi l’action Corteva s’effondre-t-elle aujourd’hui ?",
+    "resume": "L'action Corteva plonge suite à des prévisions pessimistes de son dirigeant concernant la crise au Brésil.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/fiera-capital-rate-ses-estimations-du-t3-2026-laction-chute-de-14-93CH-3693375",
+    "url": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-corteva-seffondretelle-aujourdhui--93CH-3693693",
     "date": "12 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Nexxen dépasse les prévisions de chiffre d’affaires au T3 2026, le titre bondit de 11,8%",
-    "resume": "Nexxen a dépassé ses prévisions de chiffre d'affaires au troisième trimestre, provoquant un bond de son titre de 11,8%.",
+    "titre": "Compte rendu d’appel aux résultats : le chiffre d’affaires d’Enovix au T3 2026 dépasse les attentes, mais l’action chute de 21%",
+    "resume": "Malgré un chiffre d'affaires supérieur aux attentes, le titre Enovix a dévissé de 21%.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/nexxen-depasse-les-previsions-de-chiffre-daffaires-au-t3-2026-le-titre-bondit-de-118-93CH-3693338",
+    "url": "https://fr.investing.com/news/transcripts/compte-rendu-dappel-aux-resultats--le-chiffre-daffaires-denovix-au-t3-2026-depasse-les-attentes-mais-laction-chute-de-21-93CH-3693680",
     "date": "12 nov.",
-    "impact": "hausse"
+    "impact": "baisse"
+   },
+   {
+    "titre": "L’argent chute de plus de 3 % alors que les anticipations de hausse des taux de la Fed alimentent l’envolée du dollar américain",
+    "resume": "Le cours de l'argent recule de plus de 3%, pénalisé par la vigueur du dollar face aux anticipations de taux.",
+    "source": "www.tmgm.com",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGVPZjlvU21XSHJHallIM1NjaGlGWFVGTEJkRzlWQ0o5TFk4enVobjhlSEZsOWVmMGdteTZWMEpnT0RXRFEzakluam5Gc1dUbFpHV1NBbUstZ1FSWUc5cktMWjFHRndMQ0RxZ2hqQ2ZSZ0p3MHhHOU54SUo0cEF6TVV6d1d3cDlTbndELV95bFRGdUNqazRYQnV0VkswQXI1T0NJS3R6ejMza0dfTFYtYVRMX2lnZEc5ZUlfSjZmcmtJMVE3NkZOWUFB?oc=5",
+    "date": "12 nov.",
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "L’action Quest Diagnostics atteint un record historique à 261,58 USD",
-    "resume": "L'action Quest Diagnostics a atteint un record historique à 261,58 USD.",
+    "titre": "Algorhythm rembourse 2,0 M$ de dette convertible et prévoit de poursuivre sa réduction",
+    "resume": "Algorhythm a remboursé 2 millions de dollars de dette convertible.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/laction-quest-diagnostics-atteint-un-record-historique-a-26158-usd-93CH-3693384",
+    "url": "https://fr.investing.com/news/company-news/algorhythm-rembourse-20-m-de-dette-convertible-et-prevoit-de-poursuivre-sa-reduction-93CH-3693704",
     "date": "12 nov.",
-    "pourquoi": "Ce signal montre une dynamique très forte pour ce leader des diagnostics médicaux, à surveiller pour le secteur de la santé.",
+    "pourquoi": "Cela réduit la pression financière sur l'entreprise et diminue le risque de dilution future pour les actionnaires. Secteur technologique à surveiller.",
     "impact": "hausse"
    },
    {
-    "titre": "L’action Medical Properties Trust atteint un plus bas sur 52 semaines à 1,71 $",
-    "resume": "L’action Medical Properties Trust a touché un plus bas sur 52 semaines à 1,71 $.",
+    "titre": "Le PDG d’Eagle Bancorp Stephen Curley achète des actions pour 149.581$",
+    "resume": "Le PDG d'Eagle Bancorp a acheté des actions de sa propre société pour près de 150 000$.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/laction-medical-properties-trust-atteint-un-plus-bas-sur-52-semaines-a-171--93CH-3693340",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-deagle-bancorp-stephen-curley-achete-des-actions-pour-149581-93CH-3693700",
     "date": "12 nov.",
-    "pourquoi": "Indique des difficultés persistantes pour ce REIT spécialisé dans les hôpitaux, un secteur sensible aux taux.",
-    "impact": "baisse"
+    "pourquoi": "Un achat d'initié de cette taille peut signaler une confiance de la direction dans l'avenir du titre bancaire.",
+    "impact": "hausse"
    },
    {
-    "titre": "Les options de NetEase anticipent un mouvement de 5,3% pour les résultats du 19 novembre",
-    "resume": "Les options sur NetEase anticipent un mouvement de 5,3% pour les résultats du 19 novembre.",
+    "titre": "Toppoint Holdings procède à un regroupement d’actions 1-pour-5 après suspension à la NYSE",
+    "resume": "Toppoint Holdings va procéder à un regroupement d'actions de 1 pour 5.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/les-options-de-netease-anticipent-un-mouvement-de-53-pour-les-resultats-du-19-novembre-93CH-3693328",
+    "url": "https://fr.investing.com/news/sec-filings/toppoint-holdings-procede-a-un-regroupement-dactions-1pour5-apres-suspension-a-la-nyse-93CH-3693620",
     "date": "12 nov.",
-    "pourquoi": "Permet d'anticiper la volatilité attendue sur cette tech chinoise et d'ajuster sa stratégie d'options.",
+    "pourquoi": "Cette opération technique vise souvent à augmenter artificiellement le cours pour éviter une radiation de la cote.",
     "impact": "flat"
-   },
-   {
-    "titre": "Team Inc. bondit après des gains de marges au T3 2026",
-    "resume": "Team Inc. bondit après des gains de marges au troisième trimestre 2026.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/team-inc-bondit-apres-des-gains-de-marges-au-t3-2026-93CH-3693285",
-    "date": "12 nov.",
-    "pourquoi": "Une amélioration de la rentabilité opérationnelle sur une petite capitalisation peut signaler un redressement durable.",
-    "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-12T16:05:29+00:00",
-  "resume": "Le marché immobilier neuf traverse une crise historique avec une chute brutale des ventes au troisième trimestre 2026. Parallèlement, les prix reculent dans la majorité des grandes villes françaises et les transactions globales ralentissent face à la hausse des taux de crédit. Le secteur des SCPI montre également des signes de tension avec un volume important de parts bloquées à la vente.",
+  "updatedAt": "2026-11-12T20:25:19+00:00",
+  "resume": "Le marché immobilier neuf traverse une crise historique avec une chute brutale des ventes, tandis que les prix commencent à baisser dans plusieurs grandes villes et en Wallonie. Les taux de crédit élevés continuent de freiner les transactions et d'impacter le pouvoir d'achat des ménages. Le gouvernement refuse d'assouplir les conditions d'octroi de prêt malgré la pression du secteur.",
   "chiffres": [],
   "items": [
    {
     "titre": "Immobilier: les ventes dans le neuf atteignent un nouveau plancher «historique» au 3e trimestre",
-    "resume": "Les ventes de logements neufs ont atteint un nouveau plancher historique au troisième trimestre, confirmant l'enfoncement des promoteurs dans la crise.",
+    "resume": "Les ventes de logements neufs ont atteint un nouveau plancher historique au troisième trimestre 2026, confirmant une crise profonde dans le secteur de la promotion.",
     "source": "Le Figaro",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd0VuRFljOXk2VnJYaTBYZ3B6REd5V19JR3BpMWxmWS1iNHlYTG12SVF2QmhwY0RNeUVlWWE3azNWTUNuTmxxdy0zRVNMMThrc1ZBYS1Wd0ZWWlhSc0dRd3Z2eEJyWGpNb3VYSy1pWEs5eF9SRGd2NDE0dDNSRm4ySjNINS1wcWxPU21PZTBYLUYtMmZ5dERjOHpoUFBGYU9Ka2Z6aW9HN3NHN1dKWVNLTjNBRkt5QVVlR1RSZDI3UkZEbGxTS3NyN3hvZjZ3RVVo?oc=5",
     "date": "12 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Immobilier neuf : les prix reculent dans huit grandes villes sur dix",
-    "resume": "Les prix de l'immobilier neuf reculent dans huit grandes villes sur dix, marquant un retournement de tendance.",
-    "source": "Immo Matin",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXR3a19XMzhFU3N2eGdUbXhTOFdBbGRpbWd3VlNiOENNVUowM1gxM01IQ0tOR0RzbS0yZS0yYVYycmNsbENlVXpFZ3J6WG5YdEk0WFV1OTN1bnJNVW03X0lydDB3VDE1RTRZQlZjeHhYRV85bnlQZ0ZBYnFRWkV6VEktMzhpMk5LcVdQNjM3b0V2bVBWTjF5VkxyWERsQU9mWmlKNjR4bnlsSTNqLWd0Z3A5cWk4ekN1Z0NNM09R?oc=5",
+    "titre": "Immobilier : le marché a basculé, les prix chutent déjà de 5% à Lyon et Nantes à cause des taux de crédit",
+    "resume": "Sous l'effet des taux de crédit, les prix de l'immobilier amorcent une baisse significative, chutant déjà de 5% dans des villes comme Lyon et Nantes.",
+    "source": "Bourse Inside",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPM3E2M3lVaHhLOWpjX0xGSkFCRW9ybGFCcXFZRWJzSFRsX0VZb1pGaDAxbGFDTnRhd211U0g4RFFYdjFyT096aTc2aUxpMGtCWmdXUTd2RGdPTVRDUGhVZ3RKZUxXcURJcEJmRUlRMmNtdmFEQy12aTNFeXRiMkhLelF4MjZSQno4MUtzTTI4T2x4eUF5R3p3amkyb011X3VSSW01Y29lZi0tM3pwTWZJNThwMTQ3MU9YNHZwRnR1a3dZVmdwd01oYTRFMjNfQXVGU3Zz?oc=5",
     "date": "12 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Immobilier : les transactions ralentissent sur fond de hausse des taux d’intérêt",
-    "resume": "Le volume global des transactions immobilières ralentit, pénalisé par la hausse continue des taux d'intérêt.",
-    "source": "Le Monde.fr",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN2J0aktlSDU3NjFJWUFCcWhRWVcxa0JQT0ZoaUFsSnF4MUpfUFVFeWtJb2I2MmRmRkNWRXN0Skl5NDNKX0RfcFgtNFZxSHpjS0NkUkEzbnQ5ZjZMWlJsUHhvQk9QY1dobzc2MnVXeEJ5NWtQdS04aDJTamVTaWthbVBMYXNYaUJKZ2ZySDBSZEd2WTViNjRqemVMM3JnbWJUMUxLR0ZJdURlX3djZ0hEc0I2ZkF4Q0lvb2hvanhKdkxPbzJjUHBQTjQ2RW4tY1hhTEVzazRmak4tN1RRODJsTg?oc=5",
+    "titre": "«La crise immobilière sera plus brutale que celle de 2022» : pourquoi le gouvernement refuse d’assouplir la contrainte pour obtenir un crédit",
+    "resume": "Le gouvernement maintient les conditions strictes d'accès au crédit immobilier, refusant d'assouplir les normes malgré les craintes d'une crise brutale.",
+    "source": "Figaro Immobilier",
+    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdU5heFVwaHdyMFAzU0pPcVRWZEhacG1IS3c3eGpCTE5McTU1T2RFZVNUNkNWbG9zZ1FPZXJmWWh4Vm5GazFzY0plZU8tYVQ2d1JSWTN4ZHJBU0ZhbFRfSUpKSWktVVpYeDZvc0lrTVViaGxTczd6ZG5PdWZMR19FNWZQVFNpaEFjcnF2WnZ1X21USlp4VFY0T1lVcnBaRTEtOFl2eHgyckJNUEpGRGNQcU1RdlFmbzU0Q3NFY0w4RF9xUkFOelJwSUNTNUlQbi1VR1huT1RURTJ2aWJ4UDZUdlVVYnU1OU8zXzhCcVZPRkUyYWVMc3RCWHFBZk5iZVZ4Vzl4QTIyWWlZRG1rYTZzeGx2dw?oc=5",
     "date": "12 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    },
    {
     "titre": "2 milliards d’euros de parts de SCPI bloquées faute d’acheteurs, faut-il vendre les vôtres ?",
-    "resume": "Le marché des SCPI se tend, avec 2 milliards d'euros de parts actuellement bloquées faute d'acheteurs.",
+    "resume": "Le marché des parts de SCPI est grippé, avec 2 milliards d'euros bloqués en attente d'acheteurs, posant la question de la liquidité de ce placement.",
     "source": "Capital.fr",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNlZIUkRjYVpsNUNnNC1ib0lMVEpSYUdwamx2b294U2tJVktVN0UyaHh3d2Q3NXdnY0FnWXBzbmFBam5Ta19IeXgxbFFwVkIxREVsMU5KaXdwN0V2dURma2dpVGRNQzVCWW5VbEltdE1ERG12bEpMRzM1bjdQVG8yUE9hSEd3Y1Z2QWl2d2dJeElqMHQ4Q0Z5WS1qRmxrUTFXQnlJWFZOX0paMFEtQmM0TQ?oc=5",
     "date": "12 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Crédit immobilier : les ménages modestes empruntent désormais à 4,07 % sur 25 ans",
-    "resume": "Les conditions d'emprunt se durcissent, notamment pour les ménages modestes qui empruntent désormais à plus de 4 % sur 25 ans.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWlNUUNkQ1k5aXltb21QeGNlN1RTbGptbjRtajhQQVNPNmhvcy1YUWVZbmM3cFFqVHRJdkNTMVRpa0Z4cU9xdHdrSmRBWEYxeV9IQV9UQVA5WHQ5c1FyS01RVnBtXzhEbDhUYUxsMTRyb2F1WEl2NE90Q2V5a0dZYk9ZZ2F6UmtVeUxncnZtZ2ltb2hTTlN6endVcGFCbnptdUFZc3pQb2EwV3Jj?oc=5",
+    "titre": "Budget 2027 : LMNP, PTZ parentalité, ce que la commission des finances du Sénat propose de changer",
+    "resume": "La commission des finances du Sénat propose des modifications fiscales concernant le statut LMNP et le PTZ dans le cadre du budget 2027.",
+    "source": "Capital.fr",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT210UUJHWER4b1BVNjc4dHNfWmxyYjlQbjY2VlZVaUlwVmZPMGFwamh0SEY4T2NUV2ZIMFZxMTVzRWtneVNSekJqTzJrbnFibnZ6SjFzREFTNEFiT2NjNDRSa01tVDB2Z3VsQUpPaHVVOGlaQXRWT0daMy1odTV6UFhySEpZOC04c3NoLXBBaERyTDhiNVJPMUx1b01nZklDM0RuSEhSQmxIMzhNajVlV0xFWmZMUEtsVkFDV2wzaF9XZ0V5dVlqZ3VHWVl3bVNhbUE?oc=5",
     "date": "12 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    },
    {
-    "titre": "Relance logement : l'examen du projet de loi en séance à l'Assemblée nationale avancé au 16 novembre",
-    "resume": "L'examen du projet de loi pour la relance du logement est avancé au 16 novembre à l'Assemblée nationale, pouvant modifier le cadre réglementaire.",
-    "source": "Immo Matin",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYTI0aldEMnlBN05BM3BtaWhVVk9XbmEyLXQ4VWhNRmx6aHJFNFRLdkFJbXRpRjVTU1R3S00xbW5rVTREeEpYc05pRmppV2lJRTZPVURxajQ3NXdnaHNIbGhyczYydmgxOEZ3UGFiZ29yT3lGaExQN2JZY1g4VlNyT3BzUmxZay1tTXZhMkVJSHVIWGJ5TmV4QzNJdnNDSG5WVjl4dEE3NllYVXhycGxKSEUyVEZsNlBIQmdLSlRycld3NXBvQjYxNE54MlJxMGlIckUzaU9B?oc=5",
+    "titre": "Crédit immobilier : ce qui va changer dès le 1er juillet 2027 pour l'assurance de prêt",
+    "resume": "De nouvelles règles concernant l'assurance de prêt immobilier devraient entrer en vigueur au 1er juillet 2027, modifiant le paysage du crédit.",
+    "source": "MoneyVox",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRG9JTlNoSF9Ub280T2tSZTkwdktIN05OQWtTQXNaWnREMnlhTTZ6ZUI3d3g5NWhOX1Fkbnkzcm1YV0lBYmFKWXNYTG41RW1fdXVkMmFFXzBxUkl6VkpwU2dpcVJhTEd1dlNfRGVOVzJfaHdMeFFkN1BNRkgtRWZCMjhjSm1BSEd4ZkhLZjV3VmlISEZEZ2t5TGtPU1ZaUmZhbE8yakd4MjVkdk9NMWNIdEUwQnhTeU1iWlBuSjVvQVNYaG9adW5kOXBSZw?oc=5",
     "date": "12 nov.",
     "impact": "flat"
    }
@@ -351,31 +342,31 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Dispositif Jeanbrun : les 5 changements que réclament les promoteurs pour relancer l’investissement locatif",
-    "resume": "Les promoteurs demandent cinq ajustements sur le dispositif Jeanbrun pour relancer l'investissement locatif.",
-    "source": "Yahoo Finance France",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdTIyREhhVGNDM0stX3BpamN2RTdHNmc4dngwWERtN0hhWXNWMU5Gdk5yMGkzWTVlZDUyOWowWmJCcHZPSzZjb3FmSldiV3dxR1kteGxRTjh5amJNN3ZXTHZqNXFKS3RZVnZlQi1zaGR1dTJ2WnNlc1p1b2pySnBZVEpsWURxeWV3STlWT2N6NFg3b2J6WW9TUzNTbFZNOFA0WFJCSzd3?oc=5",
+    "titre": "« Un marché qui respire » : à Thouars, les prix de l’immobilier entament une baisse après dix ans de hausse - Ouest-France",
+    "resume": "À Thouars, les prix de l'immobilier baissent après une décennie de hausse.",
+    "source": "Ouest-France",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQNnZPQVBDZ1pPYWtyUk1jWVFXYVF5ZS1KMkNVMXY5eHhoQWJEZWQ4QjNfZnkxejJBbkVNbWcwSkJ0VjlGMjR2c3pJVnBQUVVIUHh1R1ltMk9nMTc0SW1BRnJ3U1R4TnotSjRmOTVFODRlcHJPWDJOS0hqUTZYUUNDSS1tcm1oRDBjdFBsZlFrbDU4ZEwyVG1FZFE1MnAxUXlVUTlPRER1SE9GTmRvWWRWY3hZN0g1dUktSHJNX3JCNG10aFQzclA0WGJ1MW82MlM5a2JESTVnZlh5U1A4dHM3YXh0cnFjYUdZRTFTTTM0MXRDazZTX1NmaFB5aXI5OVdsUTlhSXlCSnk1OE1fX21wQlJ3?oc=5",
     "date": "12 nov.",
-    "pourquoi": "Utile pour surveiller l'évolution de la fiscalité locative et les futures opportunités d'investissement dans le neuf.",
-    "impact": "flat"
-   },
-   {
-    "titre": "RENT 2026 - IA immobilière : « Les petites structures ont un avantage compétitif », Olivier Le Gallo (Capifrance, Optimhome)",
-    "resume": "L'intelligence artificielle est perçue comme un avantage compétitif pour les petites structures immobilières.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQzBXanRkUlctLTJjTGhwbUtNN3VlUC1URjZmeDdZVjdGcUw3U3BDdjVueWp1Wk02Sl9lOTdJLUQyUlp5azJhLXlidVVUMnprXzZzUm5DblNycDRocjFDOTg0N0VBWmp1T1kyd1k2VVd3NjFSMGtrdGlyN1FOUWltZ1gwOFUtNkRTZUJXa1lZbXM?oc=5",
-    "date": "12 nov.",
-    "pourquoi": "Indique une possible transformation technologique du secteur, à surveiller pour l'efficacité des acteurs de la transaction.",
-    "impact": "flat"
+    "pourquoi": "Cela illustre que le retournement de marché touche aussi les villes moyennes, offrant potentiellement des opportunités de rendement si les prix d'achat diminuent.",
+    "impact": "baisse"
    },
    {
     "titre": "Immobilier de l'État : l'administration mise davantage sur la location au privé face à l'essoufflement des ventes",
-    "resume": "L'État français privilégie désormais la location au privé plutôt que la vente de son patrimoine immobilier.",
+    "resume": "L'État privilégie désormais la location au privé pour son parc immobilier face à la difficulté de vendre.",
     "source": "Acteurs Publics",
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeU4xeDUwMXczSnFHTC1zX2NKUEV6Qy1uX25LVHlmZUUyVWZMQjJ6WWtMd0lYU1pMR3BYa2I1Rl9EcXhSZ3VnSnV6R0xfVlhfVWpDWWRMOHJheUk2VGVYWjI3SmVEc18xTTRiOTlGSFFwYVQtOURPU0VsWmVlNEpuMVEwUnNMZlNzeDh0NFY2Vm1lcjFxNERtZFRiTDJxTlozS1dXcU1MUjhLMEJpSWFaR2JSdHN5bG03U1dUblIyVmVXMzYzQ0E1Nk9JbGhIYzd5?oc=5",
     "date": "12 nov.",
-    "pourquoi": "Révèle une stratégie de gestion d'actifs publics et pourrait dynamiser le marché locatif de prestige ou de bureaux.",
+    "pourquoi": "Ce changement de stratégie pourrait dynamiser le marché locatif privé sur certains segments recherchés par l'administration.",
     "impact": "hausse"
+   },
+   {
+    "titre": "MyNotary et Orpi : les contrats immobiliers deviennent une mine de données pour les agences",
+    "resume": "Orpi et MyNotary utilisent les contrats pour générer des données exploitables par les agences.",
+    "source": "Journal de l'Agence",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDNsbXVmUEJ3V2dPQnpEZnZ3MHgtYmxVZ1RZdVhnbkRna3FxVVlOYlJWbVFDbF9kSHpIUWFhdlJlVVJzb0JnQW5obmFrN2R0RkdMbTAzSFpMVFNETEw2bkJyd2x1OFNNMnh4OVBzc2Z0TU9TZTZuUDFtb0FWODdXdmxKdlBrQ3k1RThhbkZ0MFNoOWxmMDFObktnMWJyZk1ncUFKWVVLSDI4SVBEaTJhT0xGejRmeXI5VEdlS1lsVERHS2N1YjhFbG02aC1GUUJrWVE?oc=5",
+    "date": "12 nov.",
+    "pourquoi": "L'exploitation de la data pourrait optimiser la gestion et la performance des acteurs de l'intermédiation immobilière.",
+    "impact": "flat"
    }
   ]
  }
