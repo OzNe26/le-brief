@@ -1,5 +1,5 @@
 {
-"updatedAt": "2026-11-12T12:13:56+00:00",
+"updatedAt": "2026-11-12T18:04:01+00:00",
 "events": [
 {
 "d": "2026-11-12T08:30:00-05:00",
@@ -8,6 +8,24 @@
 "title": "Inscriptions hebdomadaires au chômage",
 "sub": "🇺🇸 États-Unis · prévu 194K · précédent 189K",
 "imp": 2
+},
+{
+"d": "2026-11-12T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Cisco Systems",
+"sub": "CSCO · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "CSCO"
+},
+{
+"d": "2026-11-12T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats d'Applied Materials",
+"sub": "AMAT · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "AMAT"
 },
 {
 "d": "2026-11-13T08:30:00-05:00",
@@ -26,6 +44,114 @@
 "imp": 3
 },
 {
+"d": "2026-11-13T12:00:00+01:00",
+"allday": true,
+"cat": "resultats",
+"title": "Résultats de Mitsubishi UFJ Financial",
+"sub": "MUFG · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "MUFG"
+},
+{
+"d": "2026-11-13T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Sumitomo Mitsui Financial",
+"sub": "SMFG · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "SMFG"
+},
+{
+"d": "2026-11-17T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats d'Home Depot (The)",
+"sub": "HD · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "HD"
+},
+{
+"d": "2026-11-17T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Disney",
+"sub": "DIS · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "DIS"
+},
+{
+"d": "2026-11-17T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Nvidia",
+"sub": "NVDA · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 3,
+"tick": "NVDA"
+},
+{
+"d": "2026-11-18T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de TJX Companies (The)",
+"sub": "TJX · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "TJX"
+},
+{
+"d": "2026-11-18T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Palo Alto Networks",
+"sub": "PANW · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "PANW"
+},
+{
+"d": "2026-11-19T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Walmart",
+"sub": "WMT · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "WMT"
+},
+{
+"d": "2026-11-19T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats d'Alibaba",
+"sub": "BABA · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
+"imp": 2,
+"tick": "BABA"
+},
+{
+"d": "2026-11-24T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats d'Analog Devices",
+"sub": "ADI · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "ADI"
+},
+{
+"d": "2026-11-24T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Dell Technologies",
+"sub": "DELL · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "DELL"
+},
+{
+"d": "2026-11-25T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Deere & Company",
+"sub": "DE · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "DE"
+},
+{
 "d": "2026-12-09T20:00:00+01:00",
 "allday": false,
 "cat": "banques",
@@ -42,16 +168,5 @@
 "imp": 3
 }
 ],
-"errors": [
-"Nasdaq 2026-11-12 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-13 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-16 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-17 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-18 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-19 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-20 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-23 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-24 : HTTP Error 403: Forbidden",
-"Nasdaq 2026-11-25 : HTTP Error 403: Forbidden"
-]
+"errors": []
 }
