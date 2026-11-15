@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T06:37:53+00:00",
+ "updatedAt": "2026-11-15T22:13:03+00:00",
  "assets": [
   {
    "id": "BTC",
@@ -7,18 +7,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 64383.99,
+    "price": 65200.0,
     "ch": {
-     "1j": 0.36475448168356017,
-     "7j": -13.984300101641335,
-     "30j": -21.113171446061074,
-     "1an": -2.405913489522704
+     "1j": 1.636788776305531,
+     "7j": -12.894127354129726,
+     "30j": -20.11335082344511,
+     "1an": -1.1689949553744583
     },
-    "sma20": 75123.1255,
-    "sma50": 79824.42820000001,
-    "sma200": 72973.6372,
-    "rsi": 20.608612347109855,
-    "vol": 42.42837949004649,
+    "sma20": 75163.926,
+    "sma50": 79840.7484,
+    "sma200": 72977.71725,
+    "rsi": 23.730321957267037,
+    "vol": 43.060512753238605,
     "support": 62006.0,
     "resistance": 81971.0,
     "hi52": 87395.67,
@@ -28,7 +28,7 @@
     "why": [
      "sous sa moyenne 50 jours",
      "sous sa moyenne 200 jours (tendance de fond négative)",
-     "RSI bas (21) : zone de survente, rebond technique possible"
+     "RSI bas (24) : zone de survente, rebond technique possible"
     ],
     "spark": [
      81491.04,
@@ -60,37 +60,37 @@
      71460.0,
      68314.0,
      64150.0,
-     64383.99
+     65200.0
     ]
    },
    "news": [
     {
-     "titre": "Chute du Bitcoin : et si l'IPO d'Anthropic était la vraie coupable ?",
-     "source": "Cryptoast",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPekxKNkpVZG1fWTBEa1RkdnAzQW43LU1ZckFlZ2dUalZwZDd6b1puVmNtN2FFZzZQZzRkaTQtYk1NLTI1dmlvbC1pcTBwNUgyRm1Ualpmd2pGY0ZsVEZKcVUza3hJTmU0a3JMQVcxR1ZFSTBxM2VOZllwekRfTWVrZDlkS2xlYU9SUUE?oc=5",
-     "ts": "2026-11-15T06:32:39+00:00"
+     "titre": "Binance vend 1,77 milliard en bitcoin ? Le post viral sans données",
+     "source": "Pasquale Pillitteri",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNek5oYjljRzJXZG8xNzluWFBrQzhpM2tEUVkyY2ZndTJiVm5YSlhxb21HRzhTaHptX1Y0aGlOaERPRXlqZ0VmekhkRnN3ZGtRekFNQ0dsMXZ0RnF5Y09zZDlkcGxpbG96enF2bXI5clBsWDJFSkVxTFpYbFZZYlZ4VU8wRW1yTTc2Njlzd0hjRkQ4Vnc?oc=5",
+     "ts": "2026-11-15T21:02:02+00:00"
     },
     {
-     "titre": "Week-end noir pour Bitcoin et les altcoins : 2 milliards de dollars liquidés",
-     "source": "Journal du Coin",
-     "url": "https://journalducoin.com/bitcoin/week-end-noir-bitcoin-altcoins-2-milliards-liquides/",
-     "ts": "2026-11-15T06:17:27+00:00"
+     "titre": "Bitcoin : Michael Saylor laisse présager un nouvel achat de Strategy",
+     "source": "Cointribune",
+     "url": "https://www.cointribune.com/bitcoin-michael-saylor-laisse-presager-un-nouvel-achat-de-strategy/",
+     "ts": "2026-11-15T20:30:00+00:00"
     },
     {
-     "titre": "Le Bitcoin glisse vers 60.000$ alors que les sorties d’ETF et les liquidations s’intensifient",
-     "source": "Investing.com France",
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcklUS3Uwbkh1R2NGWW9CaFZ4ZFlhSnBNNzEwaFRQQmxYc0RrcXZTZEU0MDV3TmFUZ2kxWXhFaXZPcVBnOG51STd4eW9LdzBwa1Y2a2w1VFhBTjRqZTBxTmVKU0piTE51aC1DM1RIdDhzdW5IUG1weGpsenI5a2lkSGVrRzFtbU1aQU55NVNEdER3eUZMbzdrazVpN1VUVmQ0aEhQbWh6MUtNNHVrVUE0V2pmTjEtYnJBSWRSSE9iTnVSQ0lteldhbFdTR3VUbmtxUW94WjFYYTRSRDZMOTQ4bQ?oc=5",
-     "ts": "2026-11-15T05:40:00+00:00"
+     "titre": "BTC price range on Nov 14, 2026 at 11pm EST? | Marchés de prédiction",
+     "source": "Coinbase",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ETjJ2S1hQbloxNGtDRHU5OUxTNURGaEQzdGlSSlB5ZWpyMmhFdXA3RmhNbVhmdUVEcm1UbmszOXJ2bTBJTWVOcnRpUGNTbUZGZWxHQ2NOTjgxZGlJOC1hbmluOW1RMWNCVzJ2ZEx3?oc=5",
+     "ts": "2026-11-15T19:43:19+00:00"
     },
     {
-     "titre": "Le Bitcoin s'est effondré à 62 000 $ cette nuit – Que s'est-il passé ?",
-     "source": "Cryptoast",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTG5kbWtTWUk2UWh1c0YyYW5iWG5pdE1xSHhuNnVkTUhUME5ZeW9URkZWRWpMMnpPc3ZnWWVvQW5OdlhYWC1xLTFqRlJoa3F5OVRxNk1rZ3pjUy1WOG1mUkNSejQ0RG04ZDFibDVKamFBN0M4TXBwZFdOdWFqNkNONnV2WHRrS1NxQlVMQQ?oc=5",
-     "ts": "2026-11-15T05:32:23+00:00"
+     "titre": "Couple séquestré et forcé de virer 900.000 euros en bitcoins : un homme écroué pour un crypto-rapt dans les Yvelines",
+     "source": "TF1 Info",
+     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQR0VpdmpuUDh2NDlBTEI2WHFVN2VZMmU0dmNSVDc1VjBqbm1DS2lwaGo1amVaY05jOFR6MFdzTlRkTURlSlpXTVhKNHhoczFTdDVwYXZxTWFfMUpuYzVHOGMxeGhEeDNFR3c5OWhDN0NhbHhQdk5UdXYwYUpMbkhCRzdqZlRSVGw2RXFQc1RmY3M0bmV4MXRPMFRvMnEyS2RfOXl3MVNsRGtuVmxXWjRCRXRKMVpyME43WjVLM19ObTJaQ2FjZFNoeC11UE1Fdm9pWWtzWmZxZldsbzJuZ1RSVFlmM1VqcmNpT0JFR0IyMHRMbDRIMDJ5QzMzWnlnby1jZFNB?oc=5",
+     "ts": "2026-11-15T19:41:10+00:00"
     }
    ],
    "logo": "logos/assets/btc.svg",
-   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -14,0 % et sur 30 jours -21,1 %. À surveiller : le support autour de 62 006 $ et la résistance vers 81 971 $ (plus bas et plus haut des 20 dernières séances). RSI bas (21) : zone de survente, rebond technique possible. Côté actu : « Chute du Bitcoin : et si l'IPO d'Anthropic était la vraie coupable ? » (Cryptoast)."
+   "text": "Le signal technique est mitigé : Bitcoin évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -12,9 % et sur 30 jours -20,1 %. À surveiller : le support autour de 62 006 $ et la résistance vers 81 971 $ (plus bas et plus haut des 20 dernières séances). RSI bas (24) : zone de survente, rebond technique possible. Côté actu : « Binance vend 1,77 milliard en bitcoin ? Le post viral sans données » (Pasquale Pillitteri)."
   },
   {
    "id": "ETH",
@@ -98,18 +98,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 1791.85,
+    "price": 1824.64,
     "ch": {
-     "1j": 1.2802396563418528,
-     "7j": -15.775149709042713,
-     "30j": -26.06476476559083,
-     "1an": -7.498322234267718
+     "1j": 3.1336197151254908,
+     "7j": -14.233875137487894,
+     "30j": -24.71178523977322,
+     "1an": -5.805585669299463
     },
-    "sma20": 2164.6105,
-    "sma50": 2379.5346,
-    "sma200": 2143.8795,
-    "rsi": 21.685957034447156,
-    "vol": 56.5962047852923,
+    "sma20": 2166.25,
+    "sma50": 2380.1904,
+    "sma200": 2144.04345,
+    "rsi": 25.01826110511341,
+    "vol": 57.81312688460083,
     "support": 1711.08,
     "resistance": 2450.0,
     "hi52": 2807.34,
@@ -119,7 +119,7 @@
     "why": [
      "sous sa moyenne 50 jours",
      "sous sa moyenne 200 jours (tendance de fond négative)",
-     "RSI bas (22) : zone de survente, rebond technique possible"
+     "RSI bas (25) : zone de survente, rebond technique possible"
     ],
     "spark": [
      2402.82,
@@ -151,37 +151,37 @@
      2019.74,
      1929.88,
      1769.2,
-     1791.85
+     1824.64
     ]
    },
    "news": [
     {
-     "titre": "Krach de l’Ethereum : l’ether à 63 % sous son record",
+     "titre": "Ethereum : 8,83 milliards $ de pertes, BitMine face à un pari colossal",
+     "source": "Cointribune",
+     "url": "https://www.cointribune.com/ethereum-883-milliards-de-pertes-bitmine-face-a-un-pari-colossal/",
+     "ts": "2026-11-15T18:00:00+00:00"
+    },
+    {
+     "titre": "Binance détient le moins d’ethereum depuis 2021",
+     "source": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRTFhVmJ5OGZmZWZSOFBGVDdDbGtkVENTYl9XSGVWN2R6M1JsTEJMNVpwYWZiZ2RBOUJSdW1fWmhSc21UUGRhemx0MnRpMUp1cnFGb0d3T0JyZXVqeXRlaWtmYzRVaEN4Y1h4TnZ6M1lKbWtIaDNJdlhnSENfcFJGQVZQYTI?oc=5",
+     "ts": "2026-11-15T15:55:40+00:00"
+    },
+    {
+     "titre": "Prévision Ethereum : réserve Binance à 2,9 M d’ETH",
      "source": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejcwSWRtNndDbS14c3FxbVItVXNFcjRuNHdoVE1TRjVQekMzbTZ0ZmVwcEZSeE9JNTZoRFZ1ODVJODA4cnVLcmZFVkllM0hkOWRtNXVIc1N3YXQwc01UaGppR3hZT09pa2RGQ0tUOGtJY0liVXdMU1JubU5HczR5QWkwdEVrV3dlbnVORmxnMElhYzVMakt2UjV1aHJIZDdvV2hYRg?oc=5",
-     "ts": "2026-11-15T05:31:23+00:00"
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTkpPR2xkeEtjM2ZtSGJiS243eFI0TDBVTjNSaGR4QlYwUTNBOVg2ZVdDT0hQTmIydjV2c012akhsWFZOcWpVeVdPaUhTZjdBUWJuYkcyZENKUmxzTzBiY2c2MklYSjFPOE9YUVFZSDcyb3VLa05kdWRUcTgwMGFZRldjTkxPaHVmQWhqUXhmcGY5N05fS2ZsQS1iRlpjUQ?oc=5",
+     "ts": "2026-11-15T11:25:35+00:00"
     },
     {
-     "titre": "Ethereum affiche un recul de 10% face à la domination des vendeurs",
-     "source": "Investing.com France",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMHI1QTd5X3ItQWNBZExPVkxJMzNqeGVSZ2xZcVMzT2FsbWM3Q0RWaWdMM3hiUzZyeWVTVmw0OWFhMGdqbnhhOG1SZ09ObGJVQ2loQlV6ODJnd1dGZ3VjWjlpQXdRNm4xZU5Dd1U0UjZmUmJfMGxsSm5UZmQxelpHQnpHdDgtODhBR1k2c3pCN3duSi15YXgxYUNVbUVXNm0tQkNMOHZjR2hOVGR5OEVPWFhRaU1jN3IydXgzeWZGQTI?oc=5",
-     "ts": "2026-11-15T01:04:00+00:00"
-    },
-    {
-     "titre": "Indice peur et cupidité crypto à 13 : ETH et SOL reculent",
-     "source": "Admirals",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSEgwRERwVmpkSzBOSEFVajZlLUxXZjQ4Rnh3bjY4cFRxZ0Zwb055b2Z5ZnktbnlnUF9fSE1BTDNYWFdVY0ZleG41X3dQcTQxOXFFNVlGVl8wampQZmx3Y1RWdGpLb0gtMzQwOFcxNHRKQXBxWlRkN215eUR1N2NxSjVucGpKVS1MNUlvMG9yUHNZQ3JuanoxZ0p6SnRYODdQSnd1MEJJcjI1TDlBTV9ja2hSYTFwdTN2?oc=5",
-     "ts": "2026-11-14T20:31:37+00:00"
-    },
-    {
-     "titre": "Cours de l’Ethereum à 1 830 dollars : au plus bas depuis juillet, la Fondation vend 7 500 ETH",
-     "source": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IMHJlYTBNTDE2ZXNVblVlZkFlQzZsWExFZ2hjNDJobzhGQnJ0TEhjMUYyWi1mZjlPdnFZZHQ3M3NhWkxiSzB2eDRFQjBaYVI5X2trdlJPdHotTV8wS3Jvb3N0M1B6TkppLU56bTh3?oc=5",
-     "ts": "2026-11-14T19:38:28+00:00"
+     "titre": "Cours Ethereum : Ethereum,, sous 1 800 $ face à une correction crypto",
+     "source": "Actu Crypto .info",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObTBKNFEtcmRtWFdXZ0VIaWsweXNfbGxYYWVwcW94aUEzdURZLVM3S0VRVWd5WVhKQjB1MnlRck9fRFRueEJPNVU4RmJ0RzlYcjhGUDJtazVSajRFd0xMLWNWSUpOWXdjeWdBNTZqZzZOc09xNTVwWC1TYTNkSDVEQ2x2TjZvQllwRTRyQXN1TXVSUVpSa2c?oc=5",
+     "ts": "2026-11-15T09:19:10+00:00"
     }
    ],
    "logo": "logos/assets/eth.svg",
-   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -15,8 % et sur 30 jours -26,1 %. À surveiller : le support autour de 1 711 $ et la résistance vers 2 450 $ (plus bas et plus haut des 20 dernières séances). RSI bas (22) : zone de survente, rebond technique possible. Côté actu : « Krach de l’Ethereum : l’ether à 63 % sous son record » (CryptoTicker.io)."
+   "text": "Le signal technique est mitigé : Ethereum évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -14,2 % et sur 30 jours -24,7 %. À surveiller : le support autour de 1 711 $ et la résistance vers 2 450 $ (plus bas et plus haut des 20 dernières séances). RSI bas (25) : zone de survente, rebond technique possible. Côté actu : « Ethereum : 8,83 milliards $ de pertes, BitMine face à un pari colossal » (Cointribune)."
   },
   {
    "id": "SOL",
@@ -189,18 +189,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 70.41,
+    "price": 72.22,
     "ch": {
-     "1j": 0.18497438816162948,
-     "7j": -18.63877975502659,
-     "30j": -32.589755864049785,
-     "1an": -13.702659639661729
+     "1j": 2.7603870233352312,
+     "7j": -16.547261382019883,
+     "30j": -30.856869315461942,
+     "1an": -11.484250520897177
     },
-    "sma20": 88.804,
-    "sma50": 101.8932,
-    "sma200": 88.8372,
-    "rsi": 15.066053371623752,
-    "vol": 54.69442701069075,
+    "sma20": 88.8945,
+    "sma50": 101.9294,
+    "sma200": 88.84625,
+    "rsi": 19.83093274441231,
+    "vol": 56.212580118098955,
     "support": 67.41,
     "resistance": 103.85,
     "hi52": 124.95,
@@ -210,7 +210,7 @@
     "why": [
      "sous sa moyenne 50 jours",
      "sous sa moyenne 200 jours (tendance de fond négative)",
-     "RSI bas (15) : zone de survente, rebond technique possible"
+     "RSI bas (20) : zone de survente, rebond technique possible"
     ],
     "spark": [
      103.47,
@@ -242,31 +242,31 @@
      81.72,
      78.19,
      70.28,
-     70.41
+     72.22
     ]
    },
    "news": [
     {
-     "titre": "Indice peur et cupidité crypto à 13 : ETH et SOL reculent",
-     "source": "Admirals",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSEgwRERwVmpkSzBOSEFVajZlLUxXZjQ4Rnh3bjY4cFRxZ0Zwb055b2Z5ZnktbnlnUF9fSE1BTDNYWFdVY0ZleG41X3dQcTQxOXFFNVlGVl8wampQZmx3Y1RWdGpLb0gtMzQwOFcxNHRKQXBxWlRkN215eUR1N2NxSjVucGpKVS1MNUlvMG9yUHNZQ3JuanoxZ0p6SnRYODdQSnd1MEJJcjI1TDlBTV9ja2hSYTFwdTN2?oc=5",
-     "ts": "2026-11-14T20:31:37+00:00"
+     "titre": "La baleine Hyperliquid qui a perdu 10 millions de dollars parie maintenant sur Solana",
+     "source": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13M0t4c0c3MHY0TUVJSUZhZFAxZWpyaC11ZC1XLWJyWDBtOWprV1dlblZMU2xxOUNKeGtBYU0yQUsxSWNwWFZ0Q2dLOVFlU0djQ1lxZ0Q3c2lPX1BMM2dpSlF1ZU10NjFwb3RCYjE5alNIY1dIQlJF?oc=5",
+     "ts": "2026-11-15T12:59:43+00:00"
     },
     {
-     "titre": "Le cours Solana passe sous 75 $ dans le repli du marché crypto",
+     "titre": "Le cours Solana sous pression : les niveaux techniques à suivre",
      "source": "Actu Crypto .info",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV2lQZ0gtdy1RRWpYWExLLXA5QWo1X01MdnMyYjJzRUdhZG5rWFFFM0VaaExMOWZGeUU5Q1ByWkFWX0FuSFlPY1c3dTRTY3NrbnlVQ3NTQXJ1N05BeVl5LXVnaUJhakJoRHlaS3otLV9iVzZYRFdfTWRDb0otczNJWnBZc3RIX1NneHRIbm9QRUhxUXRHR2xLWU1Bb18yUQ?oc=5",
-     "ts": "2026-11-14T15:25:50+00:00"
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTGhHbFIzTlJPclZVUk1kb1Jab1g2RWlkOWhDSHF6anR2d0FXdHF2OHcwQklCUktpSGNBVHVLTi1GNDlnbTVQYUNLZFFMY3BhSUwwVUgyMWFXYzUxNllMcE5aQlA3UDdtNlpnM0tudGplQUFRNEhhaUl3YjhCYXFOS2hNdw?oc=5",
+     "ts": "2026-11-15T09:19:10+00:00"
     },
     {
-     "titre": "Panne FAA : les États-Unis ont cloué tous leurs avions au sol pendant cinq heures",
-     "source": "Journal du Coin",
-     "url": "https://journalducoin.com/technologies/panne-faa-etats-unis-avions-cloues-au-sol-cinq-heures/",
-     "ts": "2026-11-14T06:35:41+00:00"
+     "titre": "Krach crypto : le cours Solana sous 60 dollars ?",
+     "source": "CryptoTicker.io",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcmhkRVdJT2hmdlc2a0JjR25DODFfSDlZdk5yVVQtbmlxMnMzMFVVcXlzMWpPVW9VZll4RkFGaW1pc1ZWczVuTTRrUFNBcnhneGlaenRwbHUtZEl6Q29Pdm5LQ1RBLTdLbFh2ZGY5cWFTNGstZmxEYTJGRmlSYXlWSWRSU0h5SE54cFNxUURiTUxDbzJzVEVtdm1peElrVDBTWUZ4aVhmOWc?oc=5",
+     "ts": "2026-11-15T07:10:53+00:00"
     }
    ],
    "logo": "logos/assets/sol.svg",
-   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -18,6 % et sur 30 jours -32,6 %. À surveiller : le support autour de 67,41 $ et la résistance vers 103,85 $ (plus bas et plus haut des 20 dernières séances). RSI bas (15) : zone de survente, rebond technique possible. Côté actu : « Indice peur et cupidité crypto à 13 : ETH et SOL reculent » (Admirals)."
+   "text": "Le signal technique est mitigé : Solana évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -16,5 % et sur 30 jours -30,9 %. À surveiller : le support autour de 67,41 $ et la résistance vers 103,85 $ (plus bas et plus haut des 20 dernières séances). RSI bas (20) : zone de survente, rebond technique possible. Côté actu : « La baleine Hyperliquid qui a perdu 10 millions de dollars parie maintenant sur Solana » (BeInCrypto)."
   },
   {
    "id": "XRP",
@@ -274,18 +274,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 0.9582,
+    "price": 0.9669,
     "ch": {
-     "1j": 4.790026246719159,
-     "7j": -13.923823212360753,
-     "30j": -26.93861990087686,
-     "1an": -28.49253731343283
+     "1j": 5.7414698162729705,
+     "7j": -13.142292490118578,
+     "30j": -26.275257338924906,
+     "1an": -27.843283582089562
     },
-    "sma20": 1.1641249999999999,
-    "sma50": 1.3015940000000001,
-    "sma200": 1.2552815,
-    "rsi": 24.37910491290478,
-    "vol": 60.48380836364669,
+    "sma20": 1.16456,
+    "sma50": 1.3017679999999998,
+    "sma200": 1.255325,
+    "rsi": 25.83012419194172,
+    "vol": 61.593957504786665,
     "support": 0.893,
     "resistance": 1.3444,
     "hi52": 1.6999,
@@ -295,7 +295,7 @@
     "why": [
      "sous sa moyenne 50 jours",
      "sous sa moyenne 200 jours (tendance de fond négative)",
-     "RSI bas (24) : zone de survente, rebond technique possible"
+     "RSI bas (26) : zone de survente, rebond technique possible"
     ],
     "spark": [
      1.2941,
@@ -327,37 +327,37 @@
      1.0413,
      1.011,
      0.9144,
-     0.9582
+     0.9669
     ]
    },
    "news": [
     {
-     "titre": "Le prix du XRP s'effondre à son plus bas niveau depuis novembre 2024 alors que les capitaux quittent la crypto",
-     "source": "CoinDesk",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU1VoQ1JwUmRfWmU1elpvb2JTektDdWJBZEJOcHdodDU5ek1GRy1jLURaaFpfN2pVOEZtRzNHX2hTWnNBWjJQVTNTaUJBRlh6OGhQaTRycXEzLURsZHNZREpONkIzNkJMYUdKWEZCUHdsZDVBSmJVMS04bEVVYjdVTEp6WDJHX3FzMEwwS3daVHUyN1EzSzc5MC1CRTRxdG5zQXc5R2JuSElGYlFVYzRtLVg2MWdvQQ?oc=5",
-     "ts": "2026-11-14T21:50:00+00:00"
+     "titre": "Cryptomonnaies: XRP au plus bas depuis deux ans, les ETF fuient",
+     "source": "Bitcoin News",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZXIzdVJyTENoWjBKNUNuMnRFOVp5cUVjOW5XUUlSbmdBTl9DNDVQRlYwSERRYWx2bjVQRERoWHNlN3RldnR6ck1Wc0VkQ2FQckIzUDVmdFVMS0dVT2l2b0dSQUNJRFMxc3E5QjB1MnlKRTRiWUwtTnZOdHVsSFBGNl9Bc3E3ZjlTMmo5eEN2ZWYxM0pSeTQwNm9acGlTSG1WSWl0eFo3X24?oc=5",
+     "ts": "2026-11-15T20:15:24+00:00"
     },
     {
-     "titre": "Le XRP passe sous 1 dollar, le pire est-il encore à venir ?",
-     "source": "Cointribune",
-     "url": "https://www.cointribune.com/le-xrp-passe-sous-1-dollar-le-pire-est-il-encore-a-venir/",
-     "ts": "2026-11-14T18:30:00+00:00"
-    },
-    {
-     "titre": "Prévision XRP : hors du top 5, sixième derrière l’USDC",
-     "source": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcWNueEMtWjVRRk81QXNiNG9FVkdIT1NqMmVNUERpc2taUXg4RWNJc3FMbUpCMzVEc01SOEhDMGRYbTMxSC03Zkp3NmozLUhPbS1vdmRzYXozeUptVG5oX0dtTU9GeF8xNTFydS1Femg5cFI2ZXVPQm1VQXkwakhIVW1B?oc=5",
-     "ts": "2026-11-14T17:27:55+00:00"
-    },
-    {
-     "titre": "Le cours XRP perd 1 $, le support proche peut-il contenir la pression ?",
+     "titre": "Cours XRP à 0,87 euro et le marché conserve une forte aversion",
      "source": "Actu Crypto .info",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNTIxbVNJQWNTb3pURl9DbGRPUXRPQmptbTl1X2pXOVRaZWlZS1JwLUw5R2hVOUFSUU54Z3QtcmtlWC1nLWJ6YVM4T3ZOMjFqWWtBOTNsU2laRVNHY1NreVhyc1pETXBZZmNGbXZSYVNVZHcxSVI5OU5oV0lIclJFdGZTWXJIZDR5V2Zj?oc=5",
-     "ts": "2026-11-14T14:50:19+00:00"
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYU9JWFM4b1lkbWdZNzJOMzNheV85cGVFdTRkblFjNGI2T1E5Z2FQUmRIdG5QNDE4cHQwSVFDbE5MdFJ2UmFrbGo3dFRzZ25Yd2E0VGFkR0t3OU01S0doN1RST2N5SXgwdUIyY2NKZmNZTi04Nlhxb0VuaVNlMDhRbnVhd18tUVpwY2VYdExB?oc=5",
+     "ts": "2026-11-15T09:53:04+00:00"
+    },
+    {
+     "titre": "Krach crypto : le cours XRP à 0,89 dollar",
+     "source": "CryptoTicker.io",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb2g2WlJlMGNlTDBPZHFjcTRWNnNFeWdYSU5ERVVvc0dwcDlFcFk0VzV5SEhqX1hMZTctUnBvNGxheHdFdFdXREpzd2h3Vks3YnpuVHA1SGdlZXh1d2ZzMllDX3BmNG9EQkVOclI2cnNKb2hkZHFSMkFFazVxSmpaTDkzTFd1WTRvV2k4NENVUjJ0QTA0dmJYX092alBUQWY2S0pCZjkzWFl3VWRv?oc=5",
+     "ts": "2026-11-15T08:47:47+00:00"
+    },
+    {
+     "titre": "Une chute du cours du XRP à 0,7 $ est-elle imminente ? Voici l’avis d’un expert",
+     "source": "The Coin Republic",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ3NzNUF1aXh3eTYwSnJvTHBTQzZmY2lueFZPUjc3cGFGZ0xXVnAzbWlGVklmMkI4YldZUER0N0s2RldSNksxTW1meWtyQzQ2V19CS2dUOGF1emk1Q0xZZTZoNkJ4b2FiQWZyVWJmMzZIeXZtOHJvMnFXY0RwTGdoa01NSXNndGVQSHNOWGY5cTVfVkpCMVBqb3NUbXB3MEhJdTdaeU9Db0tqODNsUWRhdlJwYkZNYkxmT28w0gHAAUFVX3lxTE9fXzdxMHJQQW5yOUV3R2ZFOFg4YTVhOVNma3p3TndQTmdjbktPdHdHSHZORjQzdUtoM0ZBV01iRkNjaGc4NzRlTE1ZVUJPMm5tTk9jamlzNjVrUENST1J5QTVTT2RnV1hGLWpEMjZFa1B5TjhSWDk1dTc2ejV6ajdQM0xsc05VTG1ZN3BFYUxoVnhMT2VveENRb1VQbTJzMEplaTRkNlZlbzRVMk9HMG9JcDd5MnlybnlueGljdUswZg?oc=5",
+     "ts": "2026-11-14T22:30:37+00:00"
     }
    ],
    "logo": "logos/assets/xrp.svg",
-   "text": "Le signal technique est mitigé : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -13,9 % et sur 30 jours -26,9 %. À surveiller : le support autour de 0,8930 $ et la résistance vers 1,3444 $ (plus bas et plus haut des 20 dernières séances). RSI bas (24) : zone de survente, rebond technique possible. Côté actu : « Le prix du XRP s'effondre à son plus bas niveau depuis novembre 2024 alors que les capitaux quittent la crypto » (CoinDesk)."
+   "text": "Le signal technique est mitigé : XRP évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -13,1 % et sur 30 jours -26,3 %. À surveiller : le support autour de 0,8930 $ et la résistance vers 1,3444 $ (plus bas et plus haut des 20 dernières séances). RSI bas (26) : zone de survente, rebond technique possible. Côté actu : « Cryptomonnaies: XRP au plus bas depuis deux ans, les ETF fuient » (Bitcoin News)."
   },
   {
    "id": "BNB",
@@ -365,18 +365,18 @@
    "type": "crypto",
    "source": "Binance",
    "data": {
-    "price": 591.09,
+    "price": 594.65,
     "ch": {
-     "1j": 1.5793091596494335,
-     "7j": -13.735934968841669,
-     "30j": -18.083926938108043,
-     "1an": -3.4135102454328603
+     "1j": 2.191098126825919,
+     "7j": -13.216386217364029,
+     "30j": -17.590565148701465,
+     "1an": -2.8317918886238136
     },
-    "sma20": 685.927,
-    "sma50": 724.8638000000001,
-    "sma200": 658.44705,
-    "rsi": 24.249661044589487,
-    "vol": 50.19392735256544,
+    "sma20": 686.105,
+    "sma50": 724.935,
+    "sma200": 658.46485,
+    "rsi": 25.57868080890728,
+    "vol": 50.55968813984764,
     "support": 566.0,
     "resistance": 762.2,
     "hi52": 809.99,
@@ -386,7 +386,7 @@
     "why": [
      "sous sa moyenne 50 jours",
      "sous sa moyenne 200 jours (tendance de fond négative)",
-     "RSI bas (24) : zone de survente, rebond technique possible"
+     "RSI bas (26) : zone de survente, rebond technique possible"
     ],
     "spark": [
      718.02,
@@ -418,37 +418,37 @@
      656.97,
      630.31,
      581.9,
-     591.09
+     594.65
     ]
    },
    "news": [
     {
-     "titre": "Justice américaine autorisée à récupérer 1,2 Md$ de cryptos volées à Binance",
-     "source": "Bitcoin News",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTV9KOUVLbFdRQ0FTVF9wX0ZqaXQ2SmEyT1lSWm4zWDZ6UmQ1X0tEam04RWR1S0Z3MmZkRHVWQkFvblJfLUtIeWtTb0l6THZKT2xtWG91SmFBc2JXNDFFS1A3b2JHdzVpeEZWcDlqNWlGRW5pZEhjNHlOcEFoUHA5YkhKcENiVndhVXFlWElZQlU5TVoySlBrNEtkMHB3bzlyWms3QUkwMUxrZVBfbFNIWWV1SjhQS2xncmdsUXYwWGU1TkE?oc=5",
-     "ts": "2026-11-14T22:47:00+00:00"
+     "titre": "Binance vend 1,77 milliard en bitcoin ? Le post viral sans données",
+     "source": "Pasquale Pillitteri",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNek5oYjljRzJXZG8xNzluWFBrQzhpM2tEUVkyY2ZndTJiVm5YSlhxb21HRzhTaHptX1Y0aGlOaERPRXlqZ0VmekhkRnN3ZGtRekFNQ0dsMXZ0RnF5Y09zZDlkcGxpbG96enF2bXI5clBsWDJFSkVxTFpYbFZZYlZ4VU8wRW1yTTc2Njlzd0hjRkQ4Vnc?oc=5",
+     "ts": "2026-11-15T21:02:02+00:00"
     },
     {
-     "titre": "Cours du BNB sous 600 dollars : -23 % depuis le piratage",
-     "source": "CryptoTicker.io",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9saVJ2aW9CRC04SXJGV1RVZDN6b0RTMHBGZ2NacC0zQUVxRjdvREJTZWhpc2lxY0tselJBYmF1ZGRrRjNMTXZzck10YXRMSks2ZmJxcl9odWpVWmhNRG0zdnY5NWo?oc=5",
-     "ts": "2026-11-14T19:13:20+00:00"
+     "titre": "Quitter Binance pour OKX : Le guide pour transférer vos cryptos",
+     "source": "Cointribune",
+     "url": "https://www.cointribune.com/quitter-binance-pour-okx-le-guide-pour-transferer-vos-cryptos/",
+     "ts": "2026-11-15T20:00:00+00:00"
     },
     {
-     "titre": "BNB chute de 4,44 % dans un vaste mouvement de vente sur les cryptos, pas un événement propre à BNB",
-     "source": "CoinMarketCap",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15MzFUVVJiSjRaX1laazl2UE5MZzBjbmlVZGlzVkowMXVqWU1tWm1aei12a3dreC1aWENkdFJINUg3eFI4VzQwa2FWcGRIU3BqTU1jelZLYXA3TXF1TFdwSklxUThvNWlTb1Vacm0tWjRydERK?oc=5",
-     "ts": "2026-11-14T17:05:00+00:00"
+     "titre": "Qu’est-ce qui explique la baisse de Bitcoin ? CZ évoque 6 raisons possibles",
+     "source": "BeInCrypto FR",
+     "url": "https://fr.beincrypto.com/bitcoin-chute-cz-six-raisons/",
+     "ts": "2026-11-15T18:59:46+00:00"
     },
     {
-     "titre": "Cryptomonnaies : après le piratage spectaculaire de Binance, comment continuer à investir dans le bitcoin et l’Ethereum sans exposer son épargne aux cyberattaques",
-     "source": "Challenges",
-     "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOdXR0T0FVVFp2ZWJ5OFgtUlltQ2c2UG1zekdiX0tUelI3bHRMREo2UXRxVGhmN2txMlktemM5WUIya1VReFprdjdZOTlUa2duemowOElfVTF3MjFDRE9NdWh1OWNuQm5kRVVCbnVHYXl2dXVaNklNaFlvdFMtWGgwWlNHMW9PYzFtU3FPMTlURnhnSkRmU1ZhdnlPLW1CcW12Zm5wQ0RudC0weEhUc0taYnY4MkctaXpxUzRMZ0Y2YVNHV2RKMXhkcjI4NXg3ZnBKZ0JvWVd1QjNCSG94ZU8wNFU1RWhGNnpEdUhrV0ctQnpVcE5yRFVaMXgwMWhLUmdwQVkxZDRscHRfa3lHMmt0ZFhkcXFiVkVsTURYSmhxOGx0WDFVam9Xak1VdUtmclhoYmZIRGdBaw?oc=5",
-     "ts": "2026-11-14T17:00:00+00:00"
+     "titre": "Binance détient le moins d’ethereum depuis 2021",
+     "source": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRTFhVmJ5OGZmZWZSOFBGVDdDbGtkVENTYl9XSGVWN2R6M1JsTEJMNVpwYWZiZ2RBOUJSdW1fWmhSc21UUGRhemx0MnRpMUp1cnFGb0d3T0JyZXVqeXRlaWtmYzRVaEN4Y1h4TnZ6M1lKbWtIaDNJdlhnSENfcFJGQVZQYTI?oc=5",
+     "ts": "2026-11-15T15:55:40+00:00"
     }
    ],
    "logo": "logos/assets/bnb.svg",
-   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -13,7 % et sur 30 jours -18,1 %. À surveiller : le support autour de 566,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (24) : zone de survente, rebond technique possible. Côté actu : « Justice américaine autorisée à récupérer 1,2 Md$ de cryptos volées à Binance » (Bitcoin News)."
+   "text": "Le signal technique est mitigé : BNB évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -13,2 % et sur 30 jours -17,6 %. À surveiller : le support autour de 566,00 $ et la résistance vers 762,20 $ (plus bas et plus haut des 20 dernières séances). RSI bas (26) : zone de survente, rebond technique possible. Côté actu : « Binance vend 1,77 milliard en bitcoin ? Le post viral sans données » (Pasquale Pillitteri)."
   },
   {
    "id": "NVDA",
@@ -514,32 +514,32 @@
    },
    "news": [
     {
-     "titre": "NVIDIA Cours Action NVDA, Cotation Bourse NASDAQ",
+     "titre": "Jensen Huang envisage un retour à la tête de Nvidia",
+     "source": "Investing.com FR",
+     "url": "https://fr.investing.com/news/stock-market-news/jensen-huang-envisage-un-retour-a-la-tete-de-nvidia-3696702",
+     "ts": "2026-11-15T20:39:40+00:00"
+    },
+    {
+     "titre": "Jensen Huang voudrait redevenir PDG de Nvidia, quel impact sur l’action ?",
+     "source": "BeInCrypto",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HckdjRkZXa3NkZGlReFd0dDRDQkRoVGhCZGRRMFNjVDl4eDFROXhzOWcyNEpCZk1QQ2EzWWlLY21jVVBIN1FQRjRYUGgyaU9TYkxweFVTaTBIWldzTVlsc185SmtrWGptRkctQjJrbVR6UQ?oc=5",
+     "ts": "2026-11-15T19:47:21+00:00"
+    },
+    {
+     "titre": "Bessent appelle à une refonte radicale de la direction de Nvidia",
+     "source": "Investing.com FR",
+     "url": "https://fr.investing.com/news/stock-market-news/bessent-affirme-que-nvidia-a-besoin-dune-refonte-majeure-de-sa-direction-3696669",
+     "ts": "2026-11-15T15:39:58+00:00"
+    },
+    {
+     "titre": "La semaine à venir à Wall Street-Les résultats de Nvidia et l'introduction en bourse d'Anthropic constituent d",
      "source": "Boursorama",
-     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FY3p6cDdaTUwxUFkxZjNJcjdVd1YtTnJocUg0eEJhYjBhTUNsemQtbWVaMFh3TVVKRFBuQ203c2ZyNzdDMVpoOXU2YXpTNjg?oc=5",
-     "ts": "2026-11-15T04:35:35+00:00"
-    },
-    {
-     "titre": "Jensen Huang démissionne : Nvidia chute de 9,5 %",
-     "source": "Daily Beirut",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRDhGTUs3RjFCUVAtY0syNlFEYVV1aEVib18tdEx3ejRTYkR6NFhDcVJNcjVtRXgxMVhtWjR1b18zdmd1b1VFQVhSa3FQYmRrRVRudXp5U1hUa2dNMWJfYTMxaDJfeTAzWFE1Tl9Ca3A2cjhqSHdWUU5CclltbnZKQ1hMVXY5a3ctSDRSMkd5cE1PVTNUaWRtbHBFRHZfM3kzMk11WVprYjE0T29EdGc?oc=5",
-     "ts": "2026-11-15T02:07:53+00:00"
-    },
-    {
-     "titre": "NVIDIA : Le départ de Jensen Huang, cofondateur de Nvidia, prive l'intelligence artificielle de son «banquier central»",
-     "source": "BFM Bourse",
-     "url": "https://www.tradingsat.com/nvidia-US67066G1040/actualites/nvidia-le-depart-de-jensen-huang-cofondateur-de-nvidia-prive-l-intelligence-artificielle-de-son-banquier-central-1173755.html",
-     "ts": "2026-11-14T11:26:19+00:00"
-    },
-    {
-     "titre": "Wall Street aujourd'hui : le Nasdaq cède 1,22 %, Nvidia secouée par le départ de Jensen Huang",
-     "source": "Coin Academy",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObkZxdl8zWjJFRFJZUHpkUzVPaVVJTzNmUE1HT2lrRU9vUGF6cDVQYXlYLVFNenZCdUZoRjFKaXpBcklUT3Y2QjRHeXpONEkyZFkwclFxbENkdjc0TGpLQkhiYTcwWXRsdmc0QmpHVFlDTklKaGJTWTBkS0xhRkpzaHRFYzBFdE9zVnkzd2pmTy1jYmFQcmdTRUhvRQ?oc=5",
-     "ts": "2026-11-14T08:18:00+00:00"
+     "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOU201am5FX20yMDB1TjZmZGU1U3NMd2pJaDFGcHFUMkRUaG5penBUREtDdEhLaGxkYzZMd1BEYjhSM3U2VHVXLUlQWDRHQmJSMGZ1cDFuMWx6MFJFRkJnLVl0czdIaGF1NUotUThMSWdEbTdOSnVLLS1zUWg4amlZUjN2ZzQ3YVZRZ2RLQlZXcXVYUWlWc2pPczIzSlZlWTVjNU1ub0NJV1IxWjBYaGRpVTZOSDI1YmJWRk5BOTRhVTBxM1BMNk1kWWVOQTNaWUVfS0Q4dzRhMGNJQ01mOVJ1UVJ3MnNka0l3OUt2NGNvLVBLNm14aFU4ZTlaMlltM1M4RlhkQzdObi14bTRNX1FBUjNQTGdCbXBYdWtMWFN2X1FIejVMTTBnTXR6RDZsanVTVkdoMnlnV0tyeU5SSWtBel9xaVVwWjBnaE1yTzZNNkVTdkRFOFJFRkdnQ3RBc3Ny0gHmAkFVX3lxTFB3Rl9ZNl8tYi1ObklCTkg2cUNZM3NDMFdWTW1oS1ZwSFFEMThGem5remlzZFVhRDFhaW1rbTlFM1ZVSDVCSEFSOXNJNkNLX2M5UkxuTHU1WWJRNWhIdDc4ODB3MW5yR0Y1UDBjTUJLQTFZZXpaMDV6MmtUQjZldWJvNll2YXNveGFZQ2ZoX3VQS096dVJBZFVyanQ1QkR3VVFmUWpXMkw4Zk1hdi1mcGM0QTFCdmlObWUybnk2bWpoa0xCNHIzZDZrRV9zVjZfZHNSTVdtUExpUTlSN0tjMjF3QmUyTkVRMXFaazdYZzRGRkJaWUxLZ0hNeDdkMmF6a3VNbUNoWEFsZVJOdnZTQURPbGI0clJoRkE4YW5TRm1XeDUybnZBbm1DZzdLOHY0WmZKUWtFNFphMEJtSlRCNDQ0aFd2SnVELTdTSGdKd3RrS1NNVTBiWV9RVE9jYlNNZkRoUFlXY1E?oc=5",
+     "ts": "2026-11-15T14:00:55+00:00"
     }
    ],
    "logo": "logos/assets/nvda.svg",
-   "text": "Le signal technique est mitigé : Nvidia évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -18,6 % et sur 30 jours -30,4 %. À surveiller : le support autour de 148,80 $ et la résistance vers 222,19 $ (plus bas et plus haut des 20 dernières séances). RSI bas (25) : zone de survente, rebond technique possible. Côté actu : « NVIDIA Cours Action NVDA, Cotation Bourse NASDAQ » (Boursorama)."
+   "text": "Le signal technique est mitigé : Nvidia évolue sous sa moyenne 50 jours, sous sa moyenne 200 jours (tendance de fond négative). Sur 7 jours le cours fait -18,6 % et sur 30 jours -30,4 %. À surveiller : le support autour de 148,80 $ et la résistance vers 222,19 $ (plus bas et plus haut des 20 dernières séances). RSI bas (25) : zone de survente, rebond technique possible. Côté actu : « Jensen Huang envisage un retour à la tête de Nvidia » (Investing.com FR)."
   },
   {
    "id": "AAPL",
@@ -607,19 +607,25 @@
      "titre": "APPLE Cours Action AAPL, Cotation Bourse NASDAQ",
      "source": "Boursorama",
      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CNEk1My1WQlM4QzdlX0c3NW9LUnVTa2dCSzQ1S0Z4dHI3MjdhSzA1UTBSSWotOUhwNXJXV2Q4SFBQc0ZkSDJ6UG9rWU9ZcDA?oc=5",
-     "ts": "2026-11-15T06:14:38+00:00"
+     "ts": "2026-11-15T07:12:48+00:00"
     },
     {
-     "titre": "Evercore explique pourquoi Apple est bien placé pour dominer les agents IA personnels",
-     "source": "Investing.com FR",
-     "url": "https://fr.investing.com/news/stock-market-news/evercore-explique-pourquoi-apple-est-bien-place-pour-dominer-les-agents-ia-personnels-3696545",
-     "ts": "2026-11-15T01:38:04+00:00"
-    },
-    {
-     "titre": "Black Friday montre connectée : les prix des Apple Watch, Garmin Fenix et Google Pixel Watch fondent plus vite que les calories",
+     "titre": "Quels AirPods d’Apple choisir selon votre budget ? Le comparatif de la gamme 2026",
      "source": "Frandroid",
-     "url": "https://www.frandroid.com/bons-plans/3305637_black-friday-montre-connectee-les-prix-des-apple-watch-garmin-fenix-et-google-pixel-watch-fondent-plus-vite-que-les-calories",
-     "ts": "2026-11-14T15:55:32+00:00"
+     "url": "https://www.frandroid.com/guide-dachat/1995260_quels-modele-dairpods-choisir-notre-selection",
+     "ts": "2026-11-15T18:02:10+00:00"
+    },
+    {
+     "titre": "Black Friday montre connectée : les meilleures offres sur les Apple Watch, Garmin Fenix et Google Pixel Watch",
+     "source": "Frandroid",
+     "url": "https://www.frandroid.com/bons-plans/3305637_black-friday-montre-connectee-les-meilleures-offres-sur-les-apple-watch-garmin-fenix-et-google-pixel-watch",
+     "ts": "2026-11-15T15:15:34+00:00"
+    },
+    {
+     "titre": "Black Friday smartphone : notre sélection des meilleures promotions sur le Galaxy S26 Ultra, le Pixel 11 Pro et l’iPhone 17",
+     "source": "Frandroid",
+     "url": "https://www.frandroid.com/bons-plans/3304227_black-friday-smartphone-notre-selection-des-meilleures-promotions-sur-le-galaxy-s26-ultra-le-pixel-11-pro-et-liphone-17",
+     "ts": "2026-11-15T09:20:32+00:00"
     }
    ],
    "logo": "logos/assets/aapl.svg",
@@ -688,32 +694,32 @@
    },
    "news": [
     {
-     "titre": "Conquête spatiale : SpaceX réalise encore un exploit technique avec sa mégafusée Starship",
+     "titre": "Fusion SpaceX Tesla : l'enjeu de la place au S&P 500",
+     "source": "Admirals",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNU3JVM29SQk9JTGxCTnA3YmQtV0daV21tVXlzeG9vclRBeG1lUTBPMWFiLVNMVjZMemNWZTNxXzJlWnpuVmtyUE1vd2tGOVVGd09GVmRKVlNsN1J5bm5KNGtteVBnYzNkV0ZOWVZnbEI5REliUno5SnZvRC02U1dCQl9kUTM4RjFrUHc?oc=5",
+     "ts": "2026-11-15T11:27:39+00:00"
+    },
+    {
+     "titre": "SpaceX rattrape l'étage supérieur de sa mégafusée Starship, une première et une prouesse technique",
+     "source": "RFI",
+     "url": "https://www.rfi.fr/fr/science/20261115-spacex-rattrape-l-%C3%A9tage-sup%C3%A9rieur-de-sa-m%C3%A9gafus%C3%A9e-starship-une-premi%C3%A8re-et-une-prouesse-technique",
+     "ts": "2026-11-15T13:59:46+00:00"
+    },
+    {
+     "titre": "Elon Musk menace l’Union européenne de lui couper l’accès à Starlink ? Pas exactement",
      "source": "20 Minutes",
-     "url": "https://www.20minutes.fr/high-tech/sciences/4262922-20261115-conquete-spatiale-spacex-realise-encore-exploit-technique-megafusee-starship?at_medium=display&at_campaign=149",
-     "ts": "2026-11-15T05:31:15+00:00"
+     "url": "https://www.20minutes.fr/monde/4262304-20261115-elon-musk-menace-union-europeenne-couper-acces-starlink-exactement?at_medium=display&at_campaign=149",
+     "ts": "2026-11-15T13:17:36+00:00"
     },
     {
-     "titre": "Space X: pour la première fois, l'entreprise parvient à rattraper l'étage supérieur de sa mégafusée Starship",
-     "source": "BFMTV",
-     "url": "https://www.bfmtv.com/international/video-space-x-pour-la-premiere-fois-l-entreprise-parvient-a-rattraper-l-etage-superieur-de-sa-megafusee-starship_VN-202611140411.html",
-     "ts": "2026-11-14T22:17:04+00:00"
-    },
-    {
-     "titre": "Pour la première fois, SpaceX parvient à rattraper l'étage supérieur de sa mégafusée Starship",
-     "source": "BFMTV",
-     "url": "https://www.bfmtv.com/sciences/pour-la-premiere-fois-space-x-parvient-a-rattraper-l-etage-superieur-de-sa-megafusee-starship_AD-202611140405.html",
-     "ts": "2026-11-14T22:10:42+00:00"
-    },
-    {
-     "titre": "Après l'échec du premier étage, SpaceX tente de rattraper le second étage de sa fusée Starship",
-     "source": "France 24",
-     "url": "https://www.france24.com/fr/am%C3%A9riques/20261114-apr%C3%A8s-l-%C3%A9chec-du-premier-%C3%A9tage-spacex-tente-de-rattraper-le-second-%C3%A9tage-de-sa-fus%C3%A9e-starship",
-     "ts": "2026-11-14T20:38:41+00:00"
+     "titre": "SpaceX parvient pour la première fois à récupérer l'étage supérieur de sa mégafusée Starship",
+     "source": "franceinfo",
+     "url": "https://www.franceinfo.fr/sciences/espace/spacex-parvient-pour-la-premiere-fois-a-recuperer-l-etage-superieur-de-sa-megafusee-starship_8283233.html#xtor=RSS-3-[lestitres]",
+     "ts": "2026-11-15T10:24:22+00:00"
     }
    ],
    "logo": "logos/assets/tsla.svg",
-   "text": "Le signal technique est mitigé : Tesla évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +1,3 % et sur 30 jours +5,3 %. À surveiller : le support autour de 338,15 $ et la résistance vers 414,23 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Conquête spatiale : SpaceX réalise encore un exploit technique avec sa mégafusée Starship » (20 Minutes)."
+   "text": "Le signal technique est mitigé : Tesla évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +1,3 % et sur 30 jours +5,3 %. À surveiller : le support autour de 338,15 $ et la résistance vers 414,23 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Fusion SpaceX Tesla : l'enjeu de la place au S&P 500 » (Admirals)."
   },
   {
    "id": "MSFT",
@@ -778,32 +784,32 @@
    },
    "news": [
     {
-     "titre": "Panne mondiale chez Microsoft : Le service est désormais complètement rétabli",
-     "source": "20 Minutes",
-     "url": "https://www.20minutes.fr/high-tech/4262875-20261114-panne-mondiale-chez-microsoft-service-desormais-completement-retabli?at_medium=display&at_campaign=149",
-     "ts": "2026-11-14T16:18:06+00:00"
+     "titre": "MICROSOFT Cours Action MSFT, Cotation Bourse NASDAQ",
+     "source": "Boursorama",
+     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qVl8taWpqb3ZoZnNzWmJTVDE0c08zY2JqSGh3VFJnekVaSzg2Mm8xWThrTDBCWHFDY2cyN3o3V3hoWFU5OWVFOGFmOEN6TjQ?oc=5",
+     "ts": "2026-11-15T06:53:34+00:00"
     },
     {
-     "titre": "La panne mondiale chez Microsoft est définitivement terminée",
-     "source": "20 Minutes",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPczJ4QmVXeS1RMHFKUmVBdUNsamNKRk9JNHJSZVFEZnN4OXdYZ1FmYTZzMU5TakxzdkRHX1Iwbzl6WGlqNGJmdjZqV2pTcTZyNHBqWEJudV9raUhjOVo4VWMxdnQ5bU1hWnVObGZldUIzSkNIQ0RBNkYzem1PQkxQNkx1X3pZSl9PbDF0SnU5ZXVLeHZQT3ZRUEtYNUxhTmxlaGluS1ZxYzlCOEM4ZFo3OHlmV2dmV2cyeTJIbg?oc=5",
-     "ts": "2026-11-14T16:18:00+00:00"
+     "titre": "Microsoft bloque des mails sans prévenir, Google fait prouver la sécurité de Signal par 80 agents, OpenAI installe un bouton stop sur ses IA : on vous raconte la semaine Cyberguerre",
+     "source": "Numerama",
+     "url": "https://www.numerama.com/tech/2374157-microsoft-bloque-des-mails-sans-prevenir-google-fait-prouver-la-securite-de-signal-par-80-agents-openai-installe-un-bouton-stop-sur-ses-ia-on-vous-raconte-la-semaine-cyberguerre.html",
+     "ts": "2026-11-15T17:10:00+00:00"
     },
     {
-     "titre": "Outlook et Teams rétablis : Microsoft explique sa panne mondiale de près de 38 heures",
+     "titre": "Méta, Google, Microsoft ... L'Europe sous perfusion technologique ?",
+     "source": "France 24",
+     "url": "https://www.france24.com/fr/vid%C3%A9o/20261115-m%C3%A9ta-google-microsoft-l-europe-sous-perfusion-technologique",
+     "ts": "2026-11-15T14:01:24+00:00"
+    },
+    {
+     "titre": "Microsoft en panne pendant 20 heures, Claude écrit un OS en 8 jours, Orange fusionne ses applications et GTA 6 se télécharge sans l'acheter : le récap de l'actu tech de cette semaine",
      "source": "Frandroid",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd1dsU2tZOFN0QkxLT1lHR3h2Z2dLMDA0TzJoQmpGb3NVa3ZaVk8tcl9yWk05NVVpTGhUQ1pFdnhGck1JdjF3MXUteWpmMTQzWFZzbTN0S3UyUEFaMkZXQVZfRUdlS2k4Q0tKU1c0R2EyRTJlelJGSmF6TDZoQVlfWkhXb1ZxMnNtb3cwZXlMTjlBT1RqMWxNMkVlSDBZVHlZbXdKY2lmeUxia3laeFRSNlQ4U3pNSm1mQkUtcVNqLXZQX2x0NjFTdFhCTWw4aU9T?oc=5",
-     "ts": "2026-11-14T14:32:17+00:00"
-    },
-    {
-     "titre": "Microsoft annonce le rétablissement total de ses services après la panne mondiale survenue jeudi",
-     "source": "franceinfo",
-     "url": "https://www.franceinfo.fr/internet/panne-informatique-mondiale/microsoft-annonce-le-retablissement-total-de-ses-services-apres-la-panne-mondiale-survenue-jeudi_8282405.html#xtor=RSS-3-[lestitres]",
-     "ts": "2026-11-14T14:20:33+00:00"
+     "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPMmVtWGxLZmhrenRIdVZNYmZrTE5lWUNHUktoMk1qVWlUcXNsNTh3eHJwdjVQVUN3dDZXdjNRWVl4eWNCX1Z4VFplQ09kQUVPWXZtQmJMZWdCVnB2TThXWDV0Q05pdXA5QXIxVmRDSHJNRThLdkFsbi04eVJKZFgxcEx5NXdPMmFScjJYcTNpbFR0U3czZ0Nzc1hpc2NfOUlxOWZ1aU0wNHlzNHRiQUxjWG5MTTRhMG5rVWUxTTU1RGg5aTFsNXZwMS14a0tVcVgwRlN1SG81LW5MQjdYcm5aZGhoMF9KQjMtb3pEbkRQNXNCWlhkbzhncXBrbU9oMmZQbkFtUEV0THIwejRJcXA5RnJVaS13VXNWMnYw?oc=5",
+     "ts": "2026-11-15T13:34:56+00:00"
     }
    ],
    "logo": "logos/assets/msft.svg",
-   "text": "La tendance technique est plutôt positive : Microsoft évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -5,7 % et sur 30 jours +1,2 %. À surveiller : le support autour de 504,96 $ et la résistance vers 559,15 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Panne mondiale chez Microsoft : Le service est désormais complètement rétabli » (20 Minutes)."
+   "text": "La tendance technique est plutôt positive : Microsoft évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait -5,7 % et sur 30 jours +1,2 %. À surveiller : le support autour de 504,96 $ et la résistance vers 559,15 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « MICROSOFT Cours Action MSFT, Cotation Bourse NASDAQ » (Boursorama)."
   },
   {
    "id": "AMZN",
@@ -868,32 +874,32 @@
    },
    "news": [
     {
-     "titre": "Quasi une vente à perte : Amazon liquide ses stocks Samsung ce dimanche",
-     "source": "20 Minutes",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYW5hUUVVemxxdENTODVzOThIY045YkRFQm5kUzU3MWxfTGJQS0dmaC14dWdudkVLdks0b2xDWlFQR2lhSlllOUJqSlFSLUZtWU9oUTJQcFBrYzR6QlVKVXoyVU5FSHNPd1dqUkhrTHJUTklwNFI5dzFGUExHMURFSzZSTDE4X1ZTV3VhSkdxWGw0TVY4aUpCQkpOcVMtYll6U0VjVC10TlJDaUhSMmZr?oc=5",
-     "ts": "2026-11-14T19:47:00+00:00"
+     "titre": "Lancement Amazon Leo : 40 satellites sur Vulcan",
+     "source": "Admirals",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmFsUXNCd2pRVzBrM0pDSXVYalM2WW5rM2ptQWJ3SWY3NEREczRMNFQzeTE0NGwybXJvUUtCOVhNd2ZhNnh1WTVCM3RTSWlFbDRmaENlbGVJeFFIbF9qMjRuV3dYTmJSZXBnVXBXWmRPQW8zUzNJOUpHWEIyNXQ2RnFaN05LQ1BkR3lvNFhtdkluaHctVzZJQkNWYmN6VmM?oc=5",
+     "ts": "2026-11-15T11:27:39+00:00"
     },
     {
-     "titre": "Black Friday Week-End du 14-15 novembre : notre direct pour suivre les meilleures offres de la deuxième semaine du Black Month",
+     "titre": "Black Friday en direct : suivez ici les dernières offres de la deuxième semaine du Black Month",
      "source": "Frandroid",
-     "url": "https://www.frandroid.com/bons-plans/3303871_black-friday-2026-la-grande-braderie-de-la-tech-continue-ce-week-end-voici-les-meilleures-offres-du-samedi-14-novembre",
-     "ts": "2026-11-14T16:54:25+00:00"
+     "url": "https://www.frandroid.com/bons-plans/3303871_black-friday-2026-notre-direct-pour-suivre-les-meilleures-offres-de-la-deuxieme-semaine-du-black-month",
+     "ts": "2026-11-15T19:00:26+00:00"
     },
     {
-     "titre": "Cette brosse à dents électrique améliore le brossage des dents pour moins de 80 euros pendant le Black Friday",
-     "source": "Frandroid",
-     "url": "https://www.frandroid.com/bons-plans/3320637_cette-brosse-a-dents-electrique-ameliore-le-brossage-des-dents-pour-moins-de-80-euros-pendant-le-black-friday",
-     "ts": "2026-11-14T16:20:00+00:00"
+     "titre": "Au Pérou, Léon XIV appelle à écouter le \"cri de la terre et le cri des pauvres\" en Amazonie",
+     "source": "France 24",
+     "url": "https://www.france24.com/fr/am%C3%A9riques/20261115-p%C3%A9rou-l%C3%A9on-xiv-arrive-%C3%A0-cusco-%C3%A0-3-400-m-d-altitude-un-mois-apr%C3%A8s-son-op%C3%A9ration",
+     "ts": "2026-11-15T18:21:14+00:00"
     },
     {
-     "titre": "Incendies en Amazonie: un État du Brésil déclare l'état d'urgence environnemental",
-     "source": "RFI",
-     "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261114-incendies-en-amazonie-un-%C3%A9tat-du-br%C3%A9sil-d%C3%A9clare-l-%C3%A9tat-d-urgence-environnemental",
-     "ts": "2026-11-14T15:07:07+00:00"
+     "titre": "Confrontée à un El Niño historique, l’Amazonie brésilienne en état d’urgence environnemental",
+     "source": "Le Monde",
+     "url": "https://www.lemonde.fr/planete/article/2026/11/15/confrontee-a-un-el-nino-historique-l-amazonie-bresilienne-en-etat-d-urgence-environnemental_6811024_3244.html",
+     "ts": "2026-11-15T14:30:41+00:00"
     }
    ],
    "logo": "logos/assets/amzn.svg",
-   "text": "La tendance technique est plutôt positive : Amazon évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +0,2 % et sur 30 jours +6,0 %. À surveiller : le support autour de 229,36 $ et la résistance vers 275,34 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Quasi une vente à perte : Amazon liquide ses stocks Samsung ce dimanche » (20 Minutes)."
+   "text": "La tendance technique est plutôt positive : Amazon évolue au-dessus de sa moyenne 50 jours, au-dessus de sa moyenne 200 jours (tendance de fond positive). Sur 7 jours le cours fait +0,2 % et sur 30 jours +6,0 %. À surveiller : le support autour de 229,36 $ et la résistance vers 275,34 $ (plus bas et plus haut des 20 dernières séances). Côté actu : « Lancement Amazon Leo : 40 satellites sur Vulcan » (Admirals)."
   }
  ],
  "errors": [],
@@ -906,47 +912,47 @@
    "style": "Le prudent",
    "emoji": "🛡️",
    "modele": "gemini-3.1-flash-live-preview",
-   "updatedAt": "2026-11-15T06:38:11+00:00",
-   "global": "Le marché actuel montre des signes de faiblesse marqués, particulièrement dans le secteur crypto où la plupart des actifs évoluent sous leurs moyennes mobiles à 200 jours, signalant une tendance baissière de fond. La volatilité reste forte et les récentes chutes rappellent brutalement les risques de pertes en capital. Du côté des actions technologiques, la prudence est également de mise avec des corrections sévères pour certains titres, même si quelques-uns résistent mieux.",
+   "updatedAt": "2026-11-15T22:13:22+00:00",
+   "global": "Le marché actuel montre des signes de faiblesse marqués, avec de nombreux actifs sous leur moyenne mobile à 200 jours, signalant une tendance de fond baissière. La volatilité reste élevée sur les cryptomonnaies, tandis que les actions technologiques présentent des profils plus variés. La prudence est de mise face à cette correction généralisée, et il convient de surveiller si les supports actuels tiennent. Je reste méfiant face aux rebonds de court terme dans un contexte d'incertitude globale.",
    "assets": {
     "BTC": {
-     "avis": "Mon avis : La tendance de fond est clairement baissière, le cours se situant sous sa moyenne mobile à 200 jours, avec une volatilité qui reste élevée. Les récentes liquidations massives et la forte baisse mensuelle incitent à la plus grande prudence.",
+     "avis": "Mon avis : Le Bitcoin subit une correction sévère, s'éloignant de sa moyenne mobile à 200 jours avec une volatilité notable. Bien que le RSI indique une zone de survente, la tendance de fond reste baissière à moyen terme.",
      "tendance": "baissier"
     },
     "ETH": {
-     "avis": "Mon avis : Avec un cours nettement inférieur à sa moyenne mobile à 200 jours et un RSI très bas, la pression vendeuse domine largement. La forte volatilité et l'éloignement de son record historique confirment un risque important.",
+     "avis": "Mon avis : La situation sur l'Ethereum est préoccupante, le cours étant nettement sous ses moyennes mobiles de 50 et 200 jours. La forte baisse mensuelle et la volatilité élevée incitent à la plus grande prudence.",
      "tendance": "baissier"
     },
     "SOL": {
-     "avis": "Mon avis : La situation graphique est très dégradée, le titre s'enfonçant sous sa moyenne mobile à 200 jours avec une volatilité considérable. L'indice de peur extrême et la chute libre sur un mois justifient une surveillance attentive des risques.",
+     "avis": "Mon avis : Solana affiche la plus forte baisse mensuelle de notre liste et évolue sous sa moyenne 200 jours. Malgré un RSI très bas, la tendance reste lourdement négative et le risque de volatilité est important.",
      "tendance": "baissier"
     },
     "XRP": {
-     "avis": "Mon avis : Cet actif affiche la pire performance annuelle de la sélection et évolue sous sa tendance de long terme. La volatilité est la plus élevée de la liste, ce qui en fait un actif particulièrement risqué actuellement.",
+     "avis": "Mon avis : Cet actif affiche une performance annuelle très négative et reste sous sa moyenne mobile à 200 jours. La volatilité est la plus forte du groupe, ce qui confirme un profil de risque élevé.",
      "tendance": "baissier"
     },
     "BNB": {
-     "avis": "Mon avis : Le passage sous la moyenne mobile à 200 jours et les actualités judiciaires concernant Binance créent un climat d'incertitude majeur. La baisse est marquée et le risque de nouvelles secousses n'est pas négligeable.",
+     "avis": "Mon avis : Le BNB n'échappe pas à la tendance baissière, évoluant sous sa moyenne 200 jours après une chute significative sur un mois. Le signal reste fragile malgré un léger rebond journalier.",
      "tendance": "baissier"
     },
     "NVDA": {
-     "avis": "Mon avis : La récente démission du dirigeant a provoqué un décrochage brutal, ramenant le cours sous sa moyenne mobile à 200 jours. La forte correction mensuelle montre que même les géants ne sont pas à l'abri d'une volatilité soudaine.",
+     "avis": "Mon avis : Nvidia connaît une correction brutale, passant sous sa moyenne mobile à 200 jours avec une forte volatilité. La tendance de fond s'est rapidement détériorée ce mois-ci.",
      "tendance": "baissier"
     },
     "AAPL": {
-     "avis": "Mon avis : Apple fait preuve de résilience, se maintenant au-dessus de sa moyenne mobile à 200 jours avec une volatilité plus modérée. C'est l'un des rares actifs à afficher une tendance haussière à court et long terme dans ce contexte.",
+     "avis": "Mon avis : Apple se distingue en restant au-dessus de sa moyenne mobile à 200 jours avec une volatilité plus modérée. C'est l'un des rares actifs à afficher une tendance haussière stable sur la période.",
      "tendance": "haussier"
     },
     "TSLA": {
-     "avis": "Mon avis : Le cours oscille autour de sa moyenne mobile à 200 jours, indiquant une tendance incertaine et neutre. La volatilité reste forte, liée aux actualités de SpaceX, ce qui demande de rester vigilant.",
+     "avis": "Mon avis : Le cours de Tesla oscille autour de sa moyenne mobile à 200 jours, rendant la tendance de fond incertaine. La volatilité reste élevée, appelant à la vigilance.",
      "tendance": "neutre"
     },
     "MSFT": {
-     "avis": "Mon avis : Malgré une récente panne mondiale, le titre préserve sa tendance haussière de long terme au-dessus de sa moyenne mobile à 200 jours. Sa volatilité est relativement contenue par rapport aux autres actifs.",
+     "avis": "Mon avis : Microsoft maintient une tendance de fond haussière, son cours restant bien au-dessus de la moyenne mobile à 200 jours. La volatilité est relativement contenue par rapport aux autres actifs.",
      "tendance": "haussier"
     },
     "AMZN": {
-     "avis": "Mon avis : La tendance de fond reste haussière, le cours évoluant au-dessus de ses moyennes mobiles de court et long terme. La volatilité est présente mais gérable, soutenue par les périodes commerciales fortes.",
+     "avis": "Mon avis : Amazon confirme sa tendance haussière en évoluant au-dessus de sa moyenne mobile à 200 jours. La performance mensuelle positive montre une certaine résilience face au marché.",
      "tendance": "haussier"
     }
    }
@@ -958,47 +964,47 @@
    "style": "Le technicien",
    "emoji": "📐",
    "modele": "ministral-14b-latest",
-   "updatedAt": "2026-11-15T06:38:36+00:00",
-   "global": "Le marché affiche une correction technique généralisée, avec des RSI en zone de survente pour les actifs crypto et une pression vendeuse marquée sur les valeurs tech. Les moyennes mobiles 50 et 200 jours agissent comme résistances claires, surtout pour les cryptos, tandis que les supports tiennent à peine. Le momentum reste négatif sur le court terme, avec des volumes élevés confirmant la tendance baissière. Les actions tech, bien que moins impactées, montrent des signes de fatigue après des performances récentes contrastées. L'environnement reste incertain, avec des actualités macroéconomiques et sectorielles qui pèsent sur la confiance. Les supports récents semblent fragiles, et une stabilisation nécessiterait un rebond technique net ou des catalyseurs externes positifs.",
+   "updatedAt": "2026-11-15T22:13:37+00:00",
+   "global": "Le marché affiche une dynamique baissière généralisée sur le court terme, avec des RSI en zone de survente (surtout pour les crypto) et des moyennes mobiles 50 et 200 jours clairement au-dessus des prix actuels. Les volumes restent élevés, signe d’une pression vendeuse persistante. Seul le secteur tech (AAPL, TSLA) résiste mieux, mais avec des signaux mitigés. À surveiller : les niveaux de support proches pour les crypto et les résistances des moyennes mobiles pour les actions tech. L’aversion au risque domine, alimentée par des rumeurs (Binance, ETF crypto) et des actualités techniques (SpaceX, Microsoft). Les mouvements récents manquent de momentum haussier clair, sauf pour Apple, qui semble en consolidation latérale.",
    "assets": {
     "BTC": {
-     "avis": "Mon avis : Le Bitcoin reste en survente extrême avec un RSI à 21, loin sous ses moyennes mobiles 50 et 200 jours, ce qui confirme la pression vendeuse. Le support à 62 000 $ semble crucial, mais la résistance à 81 971 $ bloque toute reprise significative. Mon avis : La liquidation massive de 2 milliards de dollars et les actualités négatives renforcent le biais baissier à court terme. Une stabilisation au-dessus de 64 384 $ serait un premier signal de retournement, mais rien n’est acté pour l’instant.",
+     "avis": "Mon avis : Bitcoin reste piégé sous ses moyennes mobiles 50 et 200 jours, avec un RSI à 24 (survente extrême) et un support clé à 62k testé. La résistance à 81k semble inaccessible sans rebond technique fort. Les actualités (Binance, Saylor) sont trop contradictoires pour déclencher un mouvement clair. À court terme, le risque de rebond technique vers 65k est réel, mais fragile sans confirmation de volume.",
      "tendance": "baissier"
     },
     "ETH": {
-     "avis": "Mon avis : L’Ethereum, avec un RSI à 22 et un prix sous ses deux moyennes mobiles, confirme sa tendance baissière. Le support à 1 711 $ est testé, mais la résistance à 2 450 $ reste hors de portée sans un rebond technique fort. Mon avis : La chute de 26 % sur un mois et les actualités négatives (krach, domination des vendeurs) plaident pour une poursuite de la baisse. Un rebond au-dessus de 1 800 $ serait nécessaire pour envisager une inversion.",
+     "avis": "Mon avis : Ethereum perd du terrain face à ses supports, avec un RSI à 25 et une moyenne 50 jours à 2380$ (loin du prix). La résistance à 2450$ semble hors de portée sans inversion du momentum. Les actualités (pertes de BitMine, Binance) renforcent la pression sur le secteur. Un test du support à 1711$ serait un signal baissier fort.",
      "tendance": "baissier"
     },
     "SOL": {
-     "avis": "Mon avis : Solana, avec un RSI à 15 (zone de survente extrême) et un prix sous ses moyennes mobiles, affiche une dynamique très faible. Le support à 67,41 $ est testé, mais la résistance à 103,85 $ semble lointaine sans catalyseur. Mon avis : La baisse de 32 % sur un mois et l’indice peur/cupidité à 13 confirment un marché en panique. Une stabilisation au-dessus de 70 $ serait un premier signe de répit, mais le biais reste baissier.",
+     "avis": "Mon avis : Solana est le plus faible techniquement, avec un RSI à 20 (survente) et un gap baissier face à ses moyennes. Le support à 67$ est critique : sa rupture confirmerait une tendance baissière accentuée. La baleine Hyperliquid parie sur un rebond, mais sans volume, ce signal manque de crédibilité. À éviter sans signe de retournement du momentum.",
      "tendance": "baissier"
     },
     "XRP": {
-     "avis": "Mon avis : Le XRP, avec un RSI à 24 et un prix sous ses moyennes mobiles, reste en correction technique. Le support à 0,89 $ est crucial, mais la résistance à 1,34 $ bloque toute reprise. La baisse de 26 % sur un mois confirme la tendance. Mon avis : Les actualités négatives (capitaux en fuite, pire niveau depuis novembre 2024) renforcent le biais baissier. Un rebond au-dessus de 1,00 $ serait nécessaire pour envisager une inversion, mais rien n’est garanti.",
-     "tendance": "baissier"
-    },
-    "BNB": {
-     "avis": "Mon avis : Le BNB, avec un RSI à 24 et un prix sous sa moyenne 50 jours, reste sous pression. Le support à 566 $ est testé, mais la résistance à 762,20 $ semble inaccessible sans rebond technique. La baisse de 18 % sur un mois confirme la tendance. Mon avis : Les actualités liées à Binance (récupération de fonds volés) pèsent sur le moral. Une stabilisation au-dessus de 590 $ serait un premier signal positif, mais le biais reste neutre à baissier.",
+     "avis": "Mon avis : XRP stagne près de son support à 0,89$, avec un RSI à 26 et une moyenne 50 jours à 1,30$. La résistance à 1,34$ semble inaccessible sans catalyseur fort. Les actualités (ETF, aversion au risque) pèsent sur le court terme. Un rebond vers 1,10$ est possible, mais le momentum reste faible.",
      "tendance": "neutre"
     },
+    "BNB": {
+     "avis": "Mon avis : BNB teste son support à 566$, avec un RSI à 26 et une moyenne 50 jours à 725$. La résistance à 762$ est loin, et le volume reste faible pour un rebond. L’actualité Binance (vente de BTC) nuirait indirectement à BNB. À surveiller : une confirmation de cassure sous 566$ pour activer une tendance baissière.",
+     "tendance": "baissier"
+    },
     "NVDA": {
-     "avis": "Mon avis : Nvidia, avec un RSI à 25 et un prix sous ses moyennes mobiles 50 et 200 jours, affiche une correction technique marquée. Le support à 148,80 $ est testé, mais la résistance à 222,19 $ bloque toute reprise. La baisse de 18 % sur une semaine confirme la pression vendeuse. Mon avis : La démission de Jensen Huang et les actualités négatives renforcent le biais baissier. Un rebond au-dessus de 165 $ serait nécessaire pour envisager une inversion, mais le momentum reste faible.",
+     "avis": "Mon avis : Nvidia chute sous ses moyennes mobiles, avec un RSI à 25 et un support à 148,80$. La résistance à 222$ semble hors de portée sans retournement du momentum. L’actualité (retour de Jensen Huang) est trop incertaine pour influencer le court terme. Le risque de consolidation baissière vers 130$ est élevé.",
      "tendance": "baissier"
     },
     "AAPL": {
-     "avis": "Mon avis : Apple, avec un RSI à 61 et un prix au-dessus de ses moyennes mobiles, affiche une dynamique plus stable que les autres tech. Le support à 325,33 $ semble solide, et la résistance à 360,83 $ pourrait être testée en cas de rebond. Mon avis : La tendance sur 30 jours reste haussière (+6,8 %), et les actualités sur l’IA personnelle soutiennent le moral. Une cassure sous 340 $ changerait la donne, mais pour l’instant, le biais reste neutre à haussier.",
+     "avis": "Mon avis : Apple résiste mieux, avec un RSI à 61 et un prix au-dessus de sa moyenne 50 jours. Le support à 325$ semble solide, et la résistance à 360$ pourrait être testée. Le momentum reste latéral, mais moins baissier que le reste du marché. Un rebond vers 370$ est possible, mais sans catalyseur fort.",
      "tendance": "neutre"
     },
     "TSLA": {
-     "avis": "Mon avis : Tesla, avec un RSI à 54 et un prix légèrement sous sa moyenne 50 jours, montre une dynamique contrastée. Le support à 338,15 $ est crucial, mais la résistance à 414,23 $ bloque toute reprise significative. La baisse de 1,8 % sur un jour est mineure dans un contexte global baissier. Mon avis : Les actualités positives sur SpaceX soutiennent le moral, mais le momentum reste faible. Une cassure sous 350 $ renforcerait le biais baissier, tandis qu’un rebond au-dessus de 400 $ relancerait l’optimisme.",
+     "avis": "Mon avis : Tesla stagne près de sa résistance à 414$, avec un RSI à 54 et un support à 338$. Le prix reste au-dessus de sa moyenne 200 jours, signe de résilience relative. L’actualité SpaceX pourrait soutenir le moyen terme, mais le court terme manque de clarté. À surveiller : une cassure sous 370$ pour activer une tendance baissière.",
      "tendance": "neutre"
     },
     "MSFT": {
-     "avis": "Mon avis : Microsoft, avec un RSI à 49 et un prix au-dessus de sa moyenne 200 jours, affiche une dynamique plus résiliente. Le support à 504,96 $ semble solide, et la résistance à 559,15 $ pourrait être testée en cas de rebond. La baisse de 5,7 % sur une semaine est limitée. Mon avis : La panne mondiale récente a pesé, mais le biais reste neutre. Une cassure sous 510 $ changerait la donne, tandis qu’un rebond au-dessus de 530 $ confirmerait une reprise technique.",
+     "avis": "Mon avis : Microsoft teste son support à 505$, avec un RSI à 49 (neutre) et une moyenne 50 jours à 519$. La résistance à 559$ semble inaccessible sans rebond technique. L’actualité (blocage de mails, IA) est neutre pour le court terme. Un rebond vers 530$ est possible, mais le momentum reste faible.",
      "tendance": "neutre"
     },
     "AMZN": {
-     "avis": "Mon avis : Amazon, avec un RSI à 57 et un prix au-dessus de ses moyennes mobiles, affiche une dynamique stable. Le support à 229,36 $ semble solide, et la résistance à 275,34 $ pourrait être testée en cas de rebond. La tendance sur 30 jours reste légèrement haussière (+6 %). Mon avis : Les actualités sur les liquidations de stocks sont neutres, et le momentum reste positif. Une cassure sous 250 $ serait un signal baissier, mais pour l’instant, le biais reste neutre à haussier.",
+     "avis": "Mon avis : Amazon consolide près de sa résistance à 275$, avec un RSI à 57 et un support à 229$. Le prix reste au-dessus de sa moyenne 200 jours, signe de force relative. L’actualité (lancement Leo, Black Friday) est neutre pour le court terme. Un test de 280$ est possible, mais sans confirmation de volume.",
      "tendance": "neutre"
     }
    }
@@ -1010,48 +1016,48 @@
    "style": "Le stratège",
    "emoji": "🌍",
    "modele": "openai/gpt-oss-120b",
-   "updatedAt": "2026-11-15T06:38:43+00:00",
-   "global": "Le marché montre une nette divergence : la cryptosphère reste sous forte pression avec des baisses marquées et des volumes de liquidation, tandis que les actions technologiques affichent des signaux plus mitigés. Apple tient bon grâce à son positionnement IA, mais Nvidia subit un revers notable après la démission de son PDG. Les nouvelles autour de Binance et de la justice américaine ajoutent de l’incertitude aux cryptos. Globalement, la prudence reste de mise face à ces dynamiques contrastées.",
+   "updatedAt": "2026-11-15T22:13:44+00:00",
+   "global": "Le marché montre une nette faiblesse sur les cryptomonnaies, où la plupart des actifs évoluent sous leurs moyennes mobiles et affichent des RSI très bas. Du côté des actions, les géants technologiques affichent des performances contrastées : Apple et Amazon restent au-dessus de leurs moyennes, tandis que Nvidia reste sous pression malgré un possible changement de direction à la tête. L’ensemble reflète un contexte d’incertitude où les nouvelles spécifiques (rumeurs de ventes, changements de direction) pèsent davantage que les fondamentaux.",
    "assets": {
     "BTC": {
-     "avis": "Mon avis : La chute du Bitcoin s’accompagne d’un volume de liquidation de 2 milliards de dollars et d’un RSI très bas, indiquant un sur‑vente persistant. Le support à 62 000 $ reste la prochaine zone clé, mais la pression vendeuse demeure dominante.",
+     "avis": "Mon avis : Le Bitcoin évolue bien en dessous de ses moyennes mobiles 50 et 200, avec un RSI de 24 qui indique un fort sur‑vente. Les rumeurs de vente massive de Binance sont non confirmées, tandis que le signal d’achat de Michael Saylor reste limité face à la tendance technique.",
      "tendance": "baissier"
     },
     "ETH": {
-     "avis": "Mon avis : L’ether a perdu 63 % de son record, avec un RSI de 22 et un cours bien en dessous de ses moyennes mobiles, signe d’une forte dynamique baissière. Le support à 1 711 $ constitue la prochaine barrière à surveiller.",
+     "avis": "Mon avis : L’Ethereum reste sous ses moyennes mobiles, son RSI à 25 montre un état de sur‑vente et le volume en hausse n’est pas suffisant pour renverser la tendance. Les pertes importantes et la diminution des avoirs de Binance renforcent le sentiment baissier.",
      "tendance": "baissier"
     },
     "SOL": {
-     "avis": "Mon avis : Solana recule sous les 75 $, son RSI à 15 reflète un sur‑vente important et le prix reste bien en dessous de la MM50. Le support à 67,41 $ est la cible immédiate, la tendance reste baissière.",
+     "avis": "Mon avis : Solana se situe bien en dessous de ses moyennes mobiles, son RSI à 20 confirme une pression forte. Même si une baleine réinvestit après une perte, le cadre technique reste très défavorable.",
      "tendance": "baissier"
     },
     "XRP": {
-     "avis": "Mon avis : Le XRP a franchi la barrière du dollar, son RSI à 24 et son cours sous la MM50 traduisent une pression vendeuse continue. Le support à 0,89 $ est la prochaine zone de défense, la perspective demeure baissière.",
+     "avis": "Mon avis : XRP évolue sous ses moyennes mobiles avec un RSI de 26, signe de sur‑vente, et les ETF qui fuient accentuent l’aversion du marché. Le cours au plus bas depuis deux ans confirme la dynamique baissière.",
      "tendance": "baissier"
     },
     "BNB": {
-     "avis": "Mon avis : Le BNB est sous les 600 $ après le piratage et la récupération de 1,2 Md$ par la justice américaine, son RSI à 24 et son cours sous la MM50 accentuent la faiblesse. Le support à 566 $ est la première ligne de défense.",
+     "avis": "Mon avis : Le BNB reste sous ses moyennes mobiles 50 et 200, son RSI de 26 indique une situation de sur‑vente. Les rumeurs de vente massive de Binance et les migrations vers d’autres plateformes nourrissent le sentiment négatif.",
      "tendance": "baissier"
     },
     "NVDA": {
-     "avis": "Mon avis : Nvidia a chuté de 9,5 % après la démission de Jensen Huang, son RSI à 25 et son cours sous les moyennes mobiles renforcent la dynamique baissière. Le support à 148,8 $ constitue le prochain plancher à observer.",
+     "avis": "Mon avis : Nvidia se trouve bien en dessous de ses moyennes mobiles, son RSI à 25 montre une forte faiblesse. Le possible retour de Jensen Huang à la direction pourrait apporter un soutien, mais le cadre technique reste baissier.",
      "tendance": "baissier"
     },
     "AAPL": {
-     "avis": "Mon avis : Apple bénéficie d’une analyse favorable d’Evercore sur l’IA, son RSI à 61 et son cours au-dessus de la MM50 soutiennent une stabilité neutre voire légèrement haussière. La résistance à 360,83 $ reste à surveiller.",
-     "tendance": "neutre"
+     "avis": "Mon avis : Apple se maintient au-dessus de ses moyennes mobiles, son RSI à 61 indique une dynamique modérée. Les actualités produits sont neutres, ce qui laisse la tendance haussière se confirmer.",
+     "tendance": "haussier"
     },
     "TSLA": {
-     "avis": "Mon avis : Tesla profite des succès de SpaceX, son cours reste au-dessus de la MM50 et le RSI à 54 montre un équilibre entre acheteurs et vendeurs. La tendance se maintient neutre à court terme, avec une résistance à 414,23 $.",
-     "tendance": "neutre"
+     "avis": "Mon avis : Tesla évolue au-dessus de ses moyennes mobiles, son RSI à 54 reflète une stabilité relative. Les développements liés à SpaceX et la possible inclusion au S&P 500 soutiennent une perspective haussière.",
+     "tendance": "haussier"
     },
     "MSFT": {
-     "avis": "Mon avis : Après la panne mondiale résolue, Microsoft voit son cours légèrement au-dessus de la MM50 avec un RSI proche de 50, ce qui suggère une stabilité neutre. Le support à 504,96 $ reste la première zone de vigilance.",
+     "avis": "Mon avis : Microsoft se situe juste au-dessus de sa moyenne mobile 50, avec un RSI proche de 50, ce qui indique une position neutre. Les informations sur les problèmes de messagerie n’entraînent pas de changement de tendance clair.",
      "tendance": "neutre"
     },
     "AMZN": {
-     "avis": "Mon avis : Amazon profite de la liquidation de stocks Samsung et du Black Friday, son cours au-dessus de la MM50 et un RSI de 57 indiquent une dynamique neutre à la hausse. La résistance à 275,34 $ constitue le prochain obstacle.",
-     "tendance": "neutre"
+     "avis": "Mon avis : Amazon reste au-dessus de ses moyennes mobiles, son RSI à 57 montre une dynamique positive. Les annonces de satellites et le Black Friday renforcent l’optimisme à court terme.",
+     "tendance": "haussier"
     }
    }
   },
@@ -1062,48 +1068,48 @@
    "style": "Le contrarien",
    "emoji": "🔄",
    "modele": "qwen/qwen3.8-27b",
-   "updatedAt": "2026-11-15T06:38:48+00:00",
-   "global": "Le marché crypto est en plein effondrement psychologique, avec des RSI sous 25 qui traduisent une capitulation massive plutôt qu'un simple repli, ce qui est souvent le terreau des retournements à moyen terme. En parallèle, le secteur technologique montre une divergence frappante : si Nvidia s'effondre sur des rumeurs de direction, les valeurs défensives comme Apple et Amazon restent sereines, suggérant que la peur est concentrée sur les actifs à forte spéculation. L'euphorie a laissé place à une terreur irrationnelle dans le crypto, tandis que la prudence sélective domine la tech. Il est tentant de vendre tout ce qui baisse, mais l'histoire nous rappelle que les creux se forment dans le sang et les larmes, pas dans la sérénité.",
+   "updatedAt": "2026-11-15T22:13:49+00:00",
+   "global": "Le marché est pris dans une panique généralisée, avec des RSI qui s'approchent du sol pour la plupart des actifs majeurs, signalant une peur excessive rarement durable. Cette chute brutale, particulièrement visible sur les cryptos et le secteur technologique, pourrait créer un terrain favorable pour un rebond si l'enthousiasme renaît. En tant que contrarien, je reste prudent car la peur peut durer plus longtemps que la capacité de survivre, mais les signaux de survente sont clairs. Il est trop tôt pour affirmer un retournement, mais l'attentisme est de mise en attendant que la volatilité se calme.",
    "assets": {
     "BTC": {
-     "avis": "Mon avis : avec un RSI à 21 et une chute de 21 % sur un mois, le marché exprime une panique extrême qui dépasse souvent la réalité fondamentale. Cette peur intense est historiquement un signal d'accumulation pour les patients, car elle purge les positions spéculatives fragiles.",
-     "tendance": "neutre"
+     "avis": "Mon avis : Le RSI à 24 indique une survente marquée, ce qui suggère que la peur a peut-être dépassé la raison dans cette chute. L'absence de données fiables sur les ventes de Binance nourrit la panique, mais l'histoire montre que Bitcoin a souvent rebondi après de telles phases de doute.",
+     "tendance": "haussier"
     },
     "ETH": {
-     "avis": "Mon avis : à 63 % sous son record et avec un RSI à 22, Ethereum subit un rejet violent qui pourrait être exagéré par la corrélation avec Bitcoin. La volatilité élevée suggère que les vendeurs sont épuisés, ouvrant la porte à un rebond technique si la pression vendue s'essouffle.",
-     "tendance": "neutre"
+     "avis": "Mon avis : Avec un RSI de 25 et une baisse de plus de 20% sur un mois, le marché semble craindre un effondrement structurel qui n'est pas confirmé par les faits. Cette aversion extrême pour le risque pourrait se retourner si la stabilité revient.",
+     "tendance": "haussier"
     },
     "SOL": {
-     "avis": "Mon avis : un RSI à 15 est un niveau d'extrême faiblesse rare, indiquant que la peur a atteint des sommets où les ventes deviennent mécaniques. Bien que la tendance de fond soit baissière, ce niveau de capitulation est souvent le point de départ des plus forts retours techniques.",
-     "tendance": "baissier"
+     "avis": "Mon avis : Un RSI de 20 est un signal d'alerte fort de survente, montrant que la peur de la volatilité de Solana est à son paroxysme. Bien que le risque soit réel, l'excès de pessimisme crée souvent des opportunités pour ceux qui restent calmes.",
+     "tendance": "haussier"
     },
     "XRP": {
-     "avis": "Mon avis : passer sous la barre symbolique du dollar avec un RSI à 24 montre une dépréciation continue, mais la peur semble déjà bien intégrée dans le prix. L'absence de catalyseur positif majeur laisse le terrain libre pour un rebond sur simple excès technique.",
-     "tendance": "baissier"
+     "avis": "Mon avis : La fuite des ETF et la chute à des plus bas historiques témoignent d'une aversion pour le risque qui semble disproportionnée par rapport aux fondamentaux. Le marché pourrait être en train de sur-réagir à la peur, préparant le terrain pour un rebond.",
+     "tendance": "haussier"
     },
     "BNB": {
-     "avis": "Mon avis : la chute liée au piratage et aux questions juridiques a probablement sur-réagi, comme le montre l'écart important avec la moyenne mobile de 200 jours. La peur de la censure ou des pertes est émotionnelle, tandis que la valeur d'usage de la plateforme reste intacte.",
-     "tendance": "baissier"
+     "avis": "Mon avis : La baisse de 17% sur un mois et le RSI à 26 suggèrent que la peur liée aux rumeurs sur Binance est excessive. La tendance baissière actuelle pourrait s'inverser si la confiance des utilisateurs revient malgré le bruit médiatique.",
+     "tendance": "haussier"
     },
     "NVDA": {
-     "avis": "Mon avis : la chute brutale suite aux rumeurs sur Jensen Huang est typique des réactions irrationnelles aux nouvelles de direction dans les techs à forte capitalisation. Un RSI à 25 après une baisse de 30 % sur un mois suggère que le marché a peut-être sur-réagi à une nouvelle qui n'a pas encore d'impact financier immédiat.",
-     "tendance": "baissier"
+     "avis": "Mon avis : Un RSI de 25 après une chute de 30% sur un mois indique que le marché a peut-être sur-réagi aux inquiétudes sur la direction de l'entreprise. Cette peur extrême pourrait se transformer en opportunité si les fondamentaux restent solides.",
+     "tendance": "haussier"
     },
     "AAPL": {
-     "avis": "Mon avis : alors que le reste du secteur tech panique, Apple reste stable avec un RSI neutre à 61, ce qui montre une résilience face à la peur ambiante. Cette solidité relative attire les capitaux en fuite des actifs plus risqués, renforçant son statut de valeur refuge dans la tech.",
-     "tendance": "haussier"
+     "avis": "Mon avis : Le RSI à 61 montre une force relative, mais la position près de la résistance suggère que l'euphorie pourrait être limitée. Il n'y a pas de signal de surachat extrême, donc le sentiment est plutôt neutre.",
+     "tendance": "neutre"
     },
     "TSLA": {
-     "avis": "Mon avis : Tesla navigue à contre-courant de la peur crypto avec un RSI neutre, soutenu par les réussites de SpaceX qui détournent l'attention des doutes sur la voiture électrique. La stabilité relative face aux turbulences du marché général suggère que les investisseurs cherchent des actifs tangibles et innovants plutôt que des jetons.",
-     "tendance": "haussier"
+     "avis": "Mon avis : Avec un RSI de 54 et une performance stable sur un mois, le marché semble indécis entre la peur et l'enthousiasme. L'absence de signal extrême rend toute prédiction risquée, donc je reste prudent.",
+     "tendance": "neutre"
     },
     "MSFT": {
-     "avis": "Mon avis : malgré la panne mondiale, le cours reste proche de sa moyenne mobile de 50 jours, montrant que le marché ne retient pas la peur à long terme pour un acteur essentiel de l'infrastructure. La résilience du prix indique que la confiance dans la capacité de réparation et de service reste solide.",
-     "tendance": "haussier"
+     "avis": "Mon avis : Le RSI à 49 indique une neutralité totale, sans signe de peur ou d'euphorie excessive. Le marché semble attendre plus de clarté, ce qui justifie une position neutre.",
+     "tendance": "neutre"
     },
     "AMZN": {
-     "avis": "Mon avis : Amazon affiche une stabilité rassurante avec un RSI à 57, loin des extrêmes de peur observés dans le crypto. Cette solidité technique, combinée à des opérations commerciales solides, suggère que les investisseurs privilégient la sécurité des revenus récurrents face à l'incertitude.",
-     "tendance": "haussier"
+     "avis": "Mon avis : Un RSI de 57 et une hausse modérée sur un mois suggèrent un sentiment positif mais pas euphorique. La tendance est stable, sans signal de survente ou de surachat marquant.",
+     "tendance": "neutre"
     }
    }
   }
