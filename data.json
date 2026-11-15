@@ -1,59 +1,59 @@
 {
  "general": {
-  "updatedAt": "2026-11-15T11:19:40+00:00",
-  "resume": "L'actualité est marquée par des tensions géopolitiques persistantes, notamment entre l'Ukraine et la Russie, ainsi qu'au Moyen-Orient. En France, de fortes intempéries ont touché l'Hérault et le gouvernement a annoncé des revalorisations salariales dans un contexte social tendu. Sur le plan technologique, SpaceX a franchi une nouvelle étape dans la récupération de sa fusée Starship.",
+  "updatedAt": "2026-11-15T15:44:52+00:00",
+  "resume": "L'actualité est marquée par des tensions géopolitiques au Moyen-Orient et en Ukraine, ainsi que par des mouvements sociaux en France. Sur le plan technologique, le Black Friday approche et SpaceX a réalisé une prouesse technique. En France, la cyberattaque contre une filiale de La Poste a touché des millions de personnes.",
   "chiffres": [],
   "items": [
    {
-    "titre": "L'Iran revendique des frappes de drones contre une base américaine au Bahreïn",
-    "resume": "L'Iran a revendiqué des frappes de drones contre une base militaire américaine située au Bahreïn.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/moyen-orient/20261115-iran-revendique-frappes-drones-contre-base-am%C3%A9ricaine-au-bahre%C3%AFn",
+    "titre": "L'Iran fait état de deux pétroliers en feu dans le détroit d'Ormuz",
+    "resume": "Deux pétroliers ont pris feu dans le détroit d'Ormuz, et l'un d'eux, transportant une très grande quantité de brut, a coulé.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/monde/iran/crise-dans-le-detroit-d-ormuz/l-iran-fait-etat-de-deux-petroliers-en-feu-dans-le-detroit-d-ormuz_8283602.html#xtor=RSS-3-[lestitres]",
     "date": "15 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Zelensky veut consulter les Ukrainiens sur d'éventuelles concessions territoriales",
-    "resume": "Le président ukrainien Volodymyr Zelensky envisage de consulter la population sur d'éventuelles concessions territoriales en échange d'une adhésion à l'OTAN.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261115-zelensky-veut-consulter-les-ukrainiens-sur-d-%C3%A9ventuelles-concessions-territoriales",
-    "date": "15 nov.",
-    "impact": "flat",
-    "categorie": "Monde"
-   },
-   {
-    "titre": "Les revalorisations du smic et des « bas salaires » des fonctionnaires coûteront « un peu plus de 1 milliard d’euros » aux finances publiques, selon le gouvernement",
-    "resume": "Le gouvernement français estime que la hausse du Smic et des bas salaires des fonctionnaires coûtera plus d'un milliard d'euros aux finances publiques.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/11/15/les-revalorisations-du-smic-et-des-bas-salaires-des-fonctionnaires-couteront-un-peu-plus-de-1-milliard-d-euros-aux-finances-publiques-selon-le-gouvernement_6811009_823448.html",
-    "date": "15 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Starship : SpaceX réussit pour la première fois à récupérer l'étage supérieur",
-    "resume": "SpaceX a réussi pour la première fois à récupérer l'étage supérieur de sa mégafusée Starship après un vol test.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261115-starship-spacex-r%C3%A9ussit-pour-la-premi%C3%A8re-fois-%C3%A0-r%C3%A9cup%C3%A9rer-l-%C3%A9tage-sup%C3%A9rieur",
+    "titre": "\"Des courriers ont pu être lus\" : ce que l'on sait de la cyberattaque contre Maileva, filiale de La Poste, qui a conduit au vol de données de 22 millions de personnes",
+    "resume": "Maileva, une filiale de La Poste, a été victime d'une cyberattaque massive entraînant le vol de données personnelles de 22 millions d'individus.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-courriers-ont-pu-etre-lus-ce-que-l-on-sait-de-la-cyberattaque-contre-maileva-filiale-de-la-poste-qui-a-conduit-au-vol-de-donnees-de-22-millions-de-personnes_8283266.html#xtor=RSS-3-[lestitres]",
     "date": "15 nov.",
     "impact": "flat",
     "categorie": "Tech"
    },
    {
-    "titre": "Routes inondées, une centaine d'automobilistes mis en sécurité... Les images des intempéries dans l'Hérault",
-    "resume": "De fortes précipitations ont provoqué d'importantes inondations dans l'Hérault, piégeant des centaines d'automobilistes.",
-    "source": "franceinfo",
-    "url": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/une-septuagenaire-disparue-au-volant-de-sa-voiture-activement-recherchee-a-montpellier-apres-les-orages-de-la-nuit-une-centaine-d-automobilistes-mis-en-securite-3449907.html#xtor=RSS-3-[lestitres]",
+    "titre": "EN DIRECT, guerre en Ukraine : les restrictions d’accès à Starshield persistent et empêchent Kiev de se protéger des attaques russes, dit Volodymyr Zelensky",
+    "resume": "Le président ukrainien Volodymyr Zelensky rapporte que des restrictions d'accès à Starshield entravent la défense du pays face aux nombreuses attaques russes.",
+    "source": "Le Monde International",
+    "url": "https://www.lemonde.fr/international/live/2026/11/15/en-direct-guerre-en-ukraine-les-restrictions-d-acces-a-starshield-persistent-et-empechent-kiev-de-se-proteger-des-attaques-russes-dit-volodymyr-zelensky_6810982_3210.html",
+    "date": "15 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Manifestations du 14 novembre : entre 106 000 et 200 000 personnes ont défilé, des heurts dans plusieurs villes",
+    "resume": "De larges manifestations ont eu lieu en France le 14 novembre, rassemblant entre 100 000 et 200 000 personnes et donnant lieu à des heurts dans plusieurs villes.",
+    "source": "Linternaute.com",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMGRfWmhoZ1hnbjBEQUVtU0J0UENFZ252Z05jckdDaUpUSTBtaWlQRldZWmJIZ19qYzRQcXdEVVFnNi0zZXJ3TEI2dnU5VWxWYV9jQUZzQTY3UnBqOW8wdzYxTVZMWExwdi1SbWtTVFdDVjBvdmFPZGU3MXl0T0N0ZzlXWld1azFUWTVRbTFMcVdkMEZzaE4teS1DbXNzelVoVjI1LU1Ha2FhQ0N3QnowZ3VlaHpTUGhyckExeTBPMjhnZ1ltalVYOFJhQktaclBHd3ozaHVRZm9IV25aZVQ5V0dCb25yeW1MMjdQcVpwU085Z1hmTk1zZGdn?oc=5",
     "date": "15 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "68 ans dès 2030 et jusqu'à 72 ans à terme: la Grèce se prépare à un nouveau recul spectaculaire (et automatique) de l'âge de départ à la retraite",
-    "resume": "En raison du vieillissement de sa population, la Grèce pourrait repousser l'âge légal de départ à la retraite à 68 ans dès 2030.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/economie-social/68-ans-des-2030-et-jusqu-a-72-ans-a-terme-la-grece-se-prepare-a-un-nouveau-recul-spectaculaire-et-automatique-de-l-age-de-depart-a-la-retraite_AV-202611150164.html",
+    "titre": "SpaceX rattrape l'étage supérieur de sa mégafusée Starship, une première et une prouesse technique",
+    "resume": "SpaceX a réussi pour la première fois à rattraper l'étage supérieur de sa mégafusée Starship après un vol spatial.",
+    "source": "RFI",
+    "url": "https://www.rfi.fr/fr/science/20261115-spacex-rattrape-l-%C3%A9tage-sup%C3%A9rieur-de-sa-m%C3%A9gafus%C3%A9e-starship-une-premi%C3%A8re-et-une-prouesse-technique",
+    "date": "15 nov.",
+    "impact": "flat",
+    "categorie": "Tech"
+   },
+   {
+    "titre": "La hausse de 1,6 % du smic et des « bas salaires » des fonctionnaires coûtera « un peu plus de 1 milliard d’euros », selon le gouvernement",
+    "resume": "Le gouvernement français estime que la revalorisation du smic et des bas salaires des fonctionnaires représentera un coût supérieur à un milliard d'euros.",
+    "source": "Le Monde.fr",
+    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPeS1RdGhJZ1pKSmZEdDJLYlJRc3dnYS1aOElTY0hDUmpkeER3MDBTb0hxa2lic1NRT1JCRWxDREtsQ2c3QWFYTlQzazh4bnIzbjhMVFdONFY4RHFKNk9heXFzQUZXYkpub3VaYWlzd19RbFMzMVBuSXMtYmFhNXFTVDdCakZMMWd0YnhsZ2JPaDlLaXU4UTBmMzBCY1NxSXU1ODVyVWtaQVVyYThfSDM1STBYekw5V3hCZ1p2R1VWV2hfT1JKWFBkRUZBNXpRempoQUpYbnZaX3hCbDBaWEVFdERYd1ZhRXlTOW1WbjJPOXBCeF95WkwtanV4ZExDd1JuUjlhZXZDMU16Wk50dmpsVFg5ZVhHTDlOVWY1dmRzOWFuVGhRTEZ4SngxQTRDanMwS01oNk1qQXRGQVM3YzktRzZNRVRHQjNybXk4?oc=5",
     "date": "15 nov.",
     "impact": "flat",
     "categorie": "Économie"
@@ -63,8 +63,8 @@
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-15T11:19:40+00:00",
-  "resume": "Le marché des cryptomonnaies subit une forte correction, le Bitcoin chutant vers les 62 000 dollars et entraînant les altcoins dans sa baisse. Ce mouvement s'accompagne de liquidations massives de positions longues et de sorties importantes des ETF Bitcoin américains. Parallèlement, l'attention se porte sur l'introduction en bourse prochaine d'Anthropic et sur des tensions réglementaires aux États-Unis.",
+  "updatedAt": "2026-11-15T15:44:52+00:00",
+  "resume": "Le marché des cryptomonnaies subit une forte correction, le Bitcoin chutant vers les 62 000 dollars et entraînant les altcoins dans sa baisse. Ce mouvement est accentué par des liquidations massives de positions longues et des sorties importantes de capitaux des ETF Bitcoin américains. En parallèle, la pression réglementaire persiste aux États-Unis autour des produits dérivés et des marchés prédictifs.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -94,97 +94,88 @@
   "items": [
    {
     "titre": "Week-end noir pour Bitcoin et les altcoins : 2 milliards de dollars liquidés",
-    "resume": "Le Bitcoin a chuté à 62 000 dollars, provoquant la liquidation de près de 2 milliards de dollars de positions, principalement à l'achat.",
+    "resume": "Le marché crypto connaît un week-end difficile avec une chute du Bitcoin à 62 000 $ et des pertes de 10 à 15 % pour les altcoins, provoquant près de 2 milliards de dollars de liquidations.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/bitcoin/week-end-noir-bitcoin-altcoins-2-milliards-liquides/",
     "date": "15 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Marché crypto : pourquoi les altcoins chutent plus que Bitcoin ?",
-    "resume": "Les altcoins enregistrent des pertes plus importantes que le Bitcoin dans ce contexte de baisse généralisée du marché.",
-    "source": "Actu Crypto .info",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd2tON2RCM0dFcC02TFlPeEFvZHJzMUZUWFJpRzVMenducjZRZE9hT1JwRmluTFJBa1lVVFF4V21qenJxaF8wdTl1bjdNamZkTjhzNU0xUGdfdHVVcGpPMlU2ZmwtaXlmaTZlUTJnY1NORUlUVkw1MGdGTC1pY244bEw3bEZ5dllqeEdlQmNRdWZUTGFIdHE5eXRVaGNNVm9VdlduZzJIcWx0NkV3?oc=5",
+    "titre": "Plus d’un milliard de dollars ont quitté les ETF américains sur le bitcoin en cinq jours",
+    "resume": "Les ETF Bitcoin américains ont enregistré des sorties de capitaux dépassant un milliard de dollars sur une période de cinq jours.",
+    "source": "Economie Matin",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9la09hRXFhdm12SVRNNWZRTzJzQnFjWE9UUTVvX3hYaXhHSzhtc0RXUnI0azJPUVFRbEFEZkozZmc1cURVSUZjd0hDUElaZmxaSHE0U2hqR2pXSXR0ajk5d01fZ2llVXNzcGxpSzFsTk0wZzdRYnFYdS1oWW5Edzg?oc=5",
     "date": "15 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "ETF Bitcoin perdent 2,35 milliards de dollars en deux semaines alors que BlackRock mène les sorties",
-    "resume": "Les ETF Bitcoin américains ont enregistré des sorties de capitaux massives, totalisant 2,35 milliards de dollars en deux semaines.",
-    "source": "FinanceFeeds",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLXg3REozYzBQRXNNbjduRTJBWF90SUNUWXlfeERucHM3azRkYTF2MzlSVTlTbVNGS2xoMVhDeE14OElTWjJuLVFMa21CTFY0ZFhPMVhYNlNhSS03Q0JVb0JHcnlJZVBHSGFNZzBPRHpIRWJWMXA0ODFHYlNRb2h6SHhJX1RIOHpEeVM3aGhjbw?oc=5",
-    "date": "15 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Trois événements clés cette semaine qui pourraient influencer les actions IA et la crypto",
-    "resume": "La semaine s'annonce volatile avec les résultats de Nvidia, les décisions de la Fed et l'IPO d'Anthropic qui pourraient influencer la crypto.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/nvidia-anthropic-ipo-fed-minutes-ia-chute/",
-    "date": "15 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Marchés prédictifs : la Louisiane coupe Kalshi et Polymarket, la CFTC riposte",
-    "resume": "En Louisiane, la justice a bloqué l'accès aux marchés prédictifs Kalshi et Polymarket, provoquant une réaction de la CFTC.",
+    "titre": "Perpétuels sur actions : la SEC vole au secours de la CFTC face à Cboe et Citadel",
+    "resume": "La SEC soutient la CFTC face à Cboe et Citadel concernant l'interdiction des contrats à terme perpétuels sur actions proposés par des plateformes comme Coinbase et Kraken.",
     "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/louisiane-cftc-marches-predictifs-kalshi-polymarket-coupes/",
+    "url": "https://journalducoin.com/economie/perpetuels-actions-sec-soutient-cftc-cboe-citadel-2/",
     "date": "15 nov.",
     "impact": "flat"
    },
    {
     "titre": "Kava Lend vidé : 3,8 millions de dollars volés et un jeton KAVA à son plus bas historique",
-    "resume": "La plateforme Kava Lend a été victime d'un vol de 3,8 millions de dollars, entraînant son jeton à un plus bas historique.",
+    "resume": "La plateforme Kava Lend a été victime d'un piratage entraînant le vol de 3,8 millions de dollars, provoquant une chute historique de son jeton KAVA.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/defi/kava-lend-hack-kava-plus-bas-historique/",
     "date": "15 nov.",
     "impact": "baisse"
+   },
+   {
+    "titre": "Trump Media face à 1 milliard de dollars de dette : le pari Bitcoin se retourne",
+    "resume": "Trump Media fait face à des difficultés financières avec une dette d'un milliard de dollars, alors que la majorité de ses avoirs en Bitcoin est immobilisée.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/trump-media-1-milliard-dette-bitcoin-30-novembre/",
+    "date": "15 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Binance rétablit les retraits sur 87 réseaux après un piratage",
+    "resume": "Binance a rétabli les retraits sur 87 réseaux différents suite à la résolution d'un incident de sécurité.",
+    "source": "IDNFinancials",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDJIZlB0VjQ2OGNFTnl5ajVwLWhySmtoX1dIQzRwVGFQU1ZSV1ZCZEU1b0RJcC1YSFpUYk5qOUd4eEdodG9NcFRtUDVERWR2SnVCbTYzNlFDemowNC1SbWQ0QUdFMnN5elZOdUo3YTZ3SFJHM040R2EzQjlwUE9qWTFnTjFDemlSRjJYYWNlVE55bHZMbWRZbEpSbVhWMmJJaDZfZDBXdWdEUnEyOXgxZVNsRUJjamhQbWZqSEEyNC1fWVFLZF91SU5R?oc=5",
+    "date": "15 nov.",
+    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "En Allemagne, les douanes pourront saisir des bitcoins dès 2027",
-    "resume": "Une réforme en Allemagne permettra aux douanes de saisir des cryptomonnaies suspectes dès 2027, même sans procédure pénale.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/allemagne-douanes-saisie-bitcoin-origine-suspecte-2027/",
+    "titre": "Ces mineurs Bitcoin ont divisé leur hashrate par deux, leurs revenus IA ont doublé",
+    "resume": "Certains mineurs de Bitcoin ont réduit leur puissance de calcul de moitié tout en doublant leurs revenus grâce à l'intelligence artificielle.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yWUtDaXRCQ1ZCeU1KS2wxaGI1NWg4RG1lTDlhV01RczlTam4tdUU4eGo1a2QyMUF5MXZBUF9EcTJ5ak9HbzRnN2VkbzE3cDBXWlc5SEtsQjZ5Qk1tY2dGMkEwakcyajJ6UUJOSw?oc=5",
     "date": "15 nov.",
-    "pourquoi": "Cela signale un renforcement de la surveillance réglementaire en Europe, impactant potentiellement la confidentialité et la détention d'actifs.",
+    "pourquoi": "Cela montre une stratégie de diversification des revenus pour les entreprises de minage, ce qui pourrait influencer la sécurité du réseau Bitcoin et attirer l'attention sur le secteur de l'IA.",
     "impact": "flat"
    },
    {
-    "titre": "Trump Media face à 1 milliard de dollars de dette : le pari Bitcoin se retourne",
-    "resume": "Trump Media fait face à une dette d'un milliard de dollars avec une grande partie de ses avoirs en Bitcoin immobilisés.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/bitcoin/trump-media-1-milliard-dette-bitcoin-30-novembre/",
+    "titre": "En Allemagne, les douanes pourront saisir des bitcoins dès 2027",
+    "resume": "Une réforme adoptée en Allemagne permettra aux douanes de saisir des cryptomonnaies suspectes dès 2027, même sans procédure pénale.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/allemagne-douanes-saisie-bitcoin-origine-suspecte-2027/",
     "date": "15 nov.",
-    "pourquoi": "La pression financière sur cette entreprise pourrait la contraindre à vendre du Bitcoin, influençant son cours.",
-    "impact": "baisse"
+    "pourquoi": "Cette mesure augmente le risque réglementaire pour les détenteurs de crypto en Allemagne et pourrait inspirer d'autres pays européens.",
+    "impact": "flat"
    },
    {
-    "titre": "Bitcoin : après 16 ans, le réveil de 100 BTC minés en 2010 fait craindre une vente de plusieurs millions d'euros",
-    "resume": "Un portefeuille contenant 100 BTC minés en 2010 s'est réveillé après 16 ans d'inactivité.",
-    "source": "Bourse Inside",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdEdBWWQyRjE1eTRWbndmbkdsLVBGME02RTlYVXVQODI1aW00TGVYeVdmRmlSLW9idHF4aXdheTNPUFc2YzFDd1V6TjF6eXVJOFMzY3Q3X0NwS0dkQ3hJbUpkazEtdGNHb281ZTNzMUhJTWdfZkZfRXhpM2tCckRTRHNuVUpBbU9UdXVQekk2MjV0alNDYnlQUGlNMW9QUHBpcjdMejZfc0gzWFZQNlhnUDJEbjJrX040cVRoaVhYVm9YbVB3dW5WZDBMNE1VdzVBLURhWjVENA?oc=5",
-    "date": "15 nov.",
-    "pourquoi": "Le mouvement de pièces de l'ère Satoshi génère des craintes de vente massive, pouvant impacter le prix du Bitcoin.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Prévision bitcoin : l’indice de la peur à 13",
-    "resume": "L'indice de peur sur le marché du Bitcoin est tombé à 13.",
+    "titre": "Prévision Ethereum : réserve Binance à 2,9 M d’ETH",
+    "resume": "Les réserves d'Ethereum sur la plateforme Binance s'élèvent à 2,9 millions d'ETH.",
     "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HNVJFbnlNelVPdFJ4UU1oWUZ3RTd3T25XTjFmNURNRDJiWUdKcHN0UzJQbTlnNWUxRTEtaHN0Qkl2R3l5aUlCVklNQWlNRFhmY1B1VWcxZHNGZ2JQdTI5czF6ZWhVUmNjQ0kxeWNKZGw3TDhXSjJNTWxWU2s?oc=5",
-    "date": "14 nov.",
-    "pourquoi": "Ce niveau de peur extrême peut indiquer un sentiment de marché très négatif ou une potentielle opportunité d'achat selon l'analyse contrarienne.",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTkpPR2xkeEtjM2ZtSGJiS243eFI0TDBVTjNSaGR4QlYwUTNBOVg2ZVdDT0hQTmIydjV2c012akhsWFZOcWpVeVdPaUhTZjdBUWJuYkcyZENKUmxzTzBiY2c2MklYSjFPOE9YUVFZSDcyb3VLa05kdWRUcTgwMGFZRldjTkxPaHVmQWhqUXhmcGY5N05fS2ZsQS1iRlpjUQ?oc=5",
+    "date": "15 nov.",
+    "pourquoi": "Le niveau des réserves sur les échanges est un indicateur de la pression de vente potentielle sur l'Ether.",
     "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-15T11:19:40+00:00",
-  "resume": "L'actualité boursière est marquée par des prises de bénéfices de dirigeants d'entreprises technologiques américaines et des perspectives prudentes pour les actions européennes. Le secteur de l'intelligence artificielle reste sous pression avant les résultats de Nvidia, tandis que le Bitcoin connaît un repli. En Europe, le CAC 40 affiche une tendance haussière sur la semaine malgré des disparités.",
+  "updatedAt": "2026-11-15T15:44:52+00:00",
+  "resume": "La semaine à venir à Wall Street sera marquée par les résultats de Nvidia et l'introduction en bourse d'Anthropic. Le S&P 500 montre des signes de rebond hebdomadaire fragile, tandis que les investisseurs s'interrogent sur la diversification réelle des ETF mondiaux et américains. De nombreux dirigeants d'entreprises américaines ont procédé à des ventes d'actions importantes ces dernières heures.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,136 +204,145 @@
   ],
   "items": [
    {
-    "titre": "Nvidia sans patron avant ses résultats du 17 novembre : le poids méconnu de l'action dans votre ETF monde",
-    "resume": "Le marché attend avec impatience les résultats de Nvidia le 17 novembre, soulignant l'influence massive de l'action sur les indices mondiaux.",
-    "source": "Selectra",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYVBoRzVUNnIxeWtoVWtKMmNkZ2RJVTlOMWpLZWxGLUN3b1p6ZnJJWVZVLUs0c0xISm0xd0ZFc2t3NWswNkpHdm4tc0x4M0R6TkZnLWNqQWpIajFyUEM2TVU5T1VremZTeTg0SUtIZ1plTzVkc20wVlZCRGo0d1hVOU9YUnFWc0J3Q2RSMENKNjA?oc=5",
+    "titre": "La semaine à venir à Wall Street-Les résultats de Nvidia et l'introduction en bourse d'Anthropic constituent d",
+    "resume": "L'attention des investisseurs se tourne vers les prochains résultats financiers de Nvidia et l'introduction en bourse attendue d'Anthropic.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxOU201am5FX20yMDB1TjZmZGU1U3NMd2pJaDFGcHFUMkRUaG5penBUREtDdEhLaGxkYzZMd1BEYjhSM3U2VHVXLUlQWDRHQmJSMGZ1cDFuMWx6MFJFRkJnLVl0czdIaGF1NUotUThMSWdEbTdOSnVLLS1zUWg4amlZUjN2ZzQ3YVZRZ2RLQlZXcXVYUWlWc2pPczIzSlZlWTVjNU1ub0NJV1IxWjBYaGRpVTZOSDI1YmJWRk5BOTRhVTBxM1BMNk1kWWVOQTNaWUVfS0Q4dzRhMGNJQ01mOVJ1UVJ3MnNka0l3OUt2NGNvLVBLNm14aFU4ZTlaMlltM1M4RlhkQzdObi14bTRNX1FBUjNQTGdCbXBYdWtMWFN2X1FIejVMTTBnTXR6RDZsanVTVkdoMnlnV0tyeU5SSWtBel9xaVVwWjBnaE1yTzZNNkVTdkRFOFJFRkdnQ3RBc3Ny0gHmAkFVX3lxTFB3Rl9ZNl8tYi1ObklCTkg2cUNZM3NDMFdWTW1oS1ZwSFFEMThGem5remlzZFVhRDFhaW1rbTlFM1ZVSDVCSEFSOXNJNkNLX2M5UkxuTHU1WWJRNWhIdDc4ODB3MW5yR0Y1UDBjTUJLQTFZZXpaMDV6MmtUQjZldWJvNll2YXNveGFZQ2ZoX3VQS096dVJBZFVyanQ1QkR3VVFmUWpXMkw4Zk1hdi1mcGM0QTFCdmlObWUybnk2bWpoa0xCNHIzZDZrRV9zVjZfZHNSTVdtUExpUTlSN0tjMjF3QmUyTkVRMXFaazdYZzRGRkJaWUxLZ0hNeDdkMmF6a3VNbUNoWEFsZVJOdnZTQURPbGI0clJoRkE4YW5TRm1XeDUybnZBbm1DZzdLOHY0WmZKUWtFNFphMEJtSlRCNDQ0aFd2SnVELTdTSGdKd3RrS1NNVTBiWV9RVE9jYlNNZkRoUFlXY1E?oc=5",
     "date": "15 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Les actions européennes risquent de sous-performer de 10% en 2027",
-    "resume": "Les actions européennes pourraient sous-performer de 10% d'ici 2027 selon certaines prévisions.",
+    "titre": "S&P 500 : un rebond hebdomadaire fragile à Wall Street",
+    "resume": "L'indice S&P 500 a enregistré un rebond hebdomadaire, qui reste toutefois considéré comme fragile à Wall Street.",
+    "source": "Actu Crypto .info",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbjNYNkhpUE81a2VkV3hwUEJfcGt5bko3a0lXbVIxLXNjZDZiNWpUVTgybUIxMzY5TDdwcTBPOV84YmRFMUtPQnFwZkF5bWdzVUpNX2dxb05GRkhGOEJVblBCTEttUkxKMGI4dGFFRHQ4bFRWdktKUWJmX00xeGhWYkxGR2VpUXg3bUlEVS1Nc3V1V0gzM2c?oc=5",
+    "date": "15 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "ETF World, S&P 500 et Nasdaq : êtes-vous moins diversifié que vous ne le pensez ?",
+    "resume": "Une analyse suggère que les investisseurs via des ETF World, S&P 500 ou Nasdaq pourraient être moins diversifiés qu'ils ne le pensent.",
+    "source": "https://www.leconseilpatrimoine.fr/",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaHlGZllyN0gySVl5RU1vY1hlWERSWGtxV3lCY1ctRzFnd3pzTEZCamM0eS0yWk9sUnBwSnBFejlJMzZaendZYktYNFJOVTB6SFVWZE1kU2xEQVhzeE9BUVJxZ01TYWVBendhNTJtZThhR0tsaDQ0U0w0RmtRNEV0M0Jab3VwTUNyOVNEQkswS0RyM3kzdWgxaVpn?oc=5",
+    "date": "15 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Le directeur des opérations de Fortinet vend pour 9,39 millions $ d’actions",
+    "resume": "Le directeur des opérations de Fortinet a vendu pour près de 9,4 millions de dollars d'actions de l'entreprise.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/les-actions-europeennes-risquent-de-sousperformer-de-10-en-2027-3696604",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-directeur-des-operations-de-fortinet-vend-pour-939-millions--dactions-93CH-3696621",
     "date": "15 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le Bitcoin glisse vers 60.000$ alors que les sorties d’ETF et les liquidations s’intensifient",
-    "resume": "Le Bitcoin recule vers les 60 000$, pénalisé par des sorties de capitaux des ETF et des liquidations.",
+    "titre": "Le PDG de Synopsys, Sassine Ghazi, cède des actions pour 5,47 M$",
+    "resume": "Le PDG de Synopsys, Sassine Ghazi, a cédé des actions pour un montant total de 5,47 millions de dollars.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/cryptocurrency-news/le-bitcoin-glisse-vers-60000-alors-que-les-sorties-detf-et-les-liquidations-sintensifient-3696563",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-synopsys-sassine-ghazi-cede-des-actions-pour-547-m-93CH-3696651",
     "date": "15 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le président de Moderna vend des actions pour environ 11,7 millions $",
-    "resume": "Le président de Moderna a vendu des actions pour environ 11,7 millions de dollars.",
+    "titre": "Le directeur financier de Datadog vend des actions pour 5,46 millions $",
+    "resume": "Le directeur financier de Datadog a vendu des actions de la société pour une valeur de 5,46 millions de dollars.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/le-president-de-moderna-vend-des-actions-pour-environ-117-millions--93CH-3696585",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-de-datadog-vend-des-actions-pour-546-millions--93CH-3696603",
     "date": "15 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "La BCE ne peut pas remplacer une politique budgétaire saine, avertit Knot",
-    "resume": "Un membre de la BCE avertit que l'institution ne peut se substituer à des politiques budgétaires saines.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/la-bce-ne-peut-pas-remplacer-une-politique-budgetaire-saine-avertit-knot-3696588",
-    "date": "15 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Alors que GTA 6 sort dans quelques jours, faut-il acheter l'action de son éditeur Take-Two à la Bourse de New York?",
-    "resume": "L'action de l'éditeur de GTA 6 est sous surveillance à l'approche de la sortie du jeu.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/actualites/informations-societes/alors-que-gta-6-sort-dans-quelques-jours-faut-il-acheter-l-action-de-son-editeur-take-two-a-la-bourse-de-new-york-1173449.html",
-    "date": "15 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Compte-titres : jusqu'à quelle date vendre pour compter en 2026 ?",
-    "resume": "La date limite de vente pour la fiscalité 2026 est précisée.",
-    "source": "Mediaterranee.com",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOUwxZ1pWMkRNYVliOGN2dG5YTWg2RzR6ckl0WTlTRzVlYUYybHFOZERwSDBpZjl4eHVXcFktQldyb3A4SDlhbVpHVkVnZkhoVzIxd0RCRGJPbS11OGxaektWTmRqMk5tUFd3VmtpZ05ncnNMM2pOZ1RYdnRwWXl5aWVwOFVMVUUwSXVjU0NqQnk5ZTN5cnIyZ0hFV3ROVHRPMkMydzZB?oc=5",
+    "titre": "Les investisseurs de Savara se préparent avant une décision clé de la FDA",
+    "resume": "Les investisseurs de Savara anticipent une décision cruciale de la FDA.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/earnings/les-investisseurs-de-savara-se-preparent-avant-une-decision-cle-de-la-fda-93CH-3696665",
     "date": "15 nov.",
-    "pourquoi": "Crucial pour la gestion fiscale des plus-values sur compte-titres.",
+    "pourquoi": "Cette décision réglementaire pourrait fortement impacter le cours de l'action de cette biotech.",
     "impact": "flat"
    },
    {
-    "titre": "L’essor des centres de données IA en Irlande contesté en justice",
-    "resume": "Le développement des centres de données IA en Irlande fait face à des contestations judiciaires.",
+    "titre": "Driven Brands : résultats attendus dans un contexte de retraitements comptables",
+    "resume": "Driven Brands s'apprête à publier ses résultats dans un contexte de retraitements comptables.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/lessor-des-centres-de-donnees-ia-en-irlande-conteste-en-justice-3696596",
+    "url": "https://fr.investing.com/news/earnings/driven-brands--resultats-attendus-dans-un-contexte-de-retraitements-comptables-93CH-3696664",
     "date": "15 nov.",
-    "pourquoi": "Impacte le secteur technologique et l'infrastructure IA en Europe.",
-    "impact": "baisse"
+    "pourquoi": "Les ajustements comptables peuvent masquer la performance réelle et influencer la confiance des investisseurs.",
+    "impact": "flat"
    },
    {
-    "titre": "Le PDG d’EquipmentShare, Jabbok Schlacks, achète pour 444.504$ d’actions",
-    "resume": "Le PDG d’EquipmentShare achète des actions de sa société pour plus de 444 000$.",
+    "titre": "HRT Financial LP vend 12,05M$ et achète 16,61M$ de l’United States Oil Fund",
+    "resume": "HRT Financial LP a effectué d'importants mouvements d'achat et de vente sur l'United States Oil Fund.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-dequipmentshare-jabbok-schlacks-achete-pour-444504-dactions-93CH-3696601",
+    "url": "https://fr.investing.com/news/insider-trading-news/hrt-financial-lp-vend-1205m-et-achete-1661m-de-lunited-states-oil-fund-93CH-3696641",
     "date": "15 nov.",
-    "pourquoi": "Signal d'achat d'un dirigeant sur une valeur moins visible.",
+    "pourquoi": "Ces transactions importantes indiquent une activité spéculative ou de couverture sur le marché pétrolier via cet ETF.",
+    "impact": "flat"
+   },
+   {
+    "titre": "L’action Bumble s’envole de 68% après le signal de Juste Valeur d’InvestingPro",
+    "resume": "L'action Bumble a fortement progressé suite à un signal de juste valeur.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/investment-ideas/laction-bumble-senvole-de-68-apres-le-signal-de-juste-valeur-dinvestingpro-93CH-3696607",
+    "date": "15 nov.",
+    "pourquoi": "Cela montre l'influence potentielle des outils d'analyse financière sur les cours de petites capitalisations.",
     "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-15T11:19:40+00:00",
-  "resume": "Les prix immobiliers reculent dans la majorité des grandes villes françaises, tandis que les taux d'intérêt pèsent de plus en plus sur le budget des ménages. Le débat politique s'anime autour de propositions fiscales comme la suppression des frais de notaire ou une taxation accrue des résidences secondaires. Des dispositifs comme l'Éco-PTZ en copropriété ou le BRS évoluent pour soutenir l'accession et la rénovation.",
+  "updatedAt": "2026-11-15T15:44:52+00:00",
+  "resume": "Malgré un contexte difficile, l'envie de devenir propriétaire persiste chez les Français, bien que les prix affichent une baisse dans plusieurs grandes villes. Le marché locatif présente des tendances contrastées, avec des loyers en hausse en banlieue parisienne mais stables à Paris. Par ailleurs, des évolutions réglementaires et fiscales potentielles sont évoquées par des acteurs politiques et des think tanks.",
   "chiffres": [],
   "items": [
    {
     "titre": "Prix immobiliers 2026 : baisse dans 8 grandes villes sur 11",
-    "resume": "Une baisse des prix immobiliers est observée dans 8 des 11 plus grandes villes de France pour l'année 2026.",
+    "resume": "Les prix de l'immobilier reculent dans huit grandes villes françaises sur onze, confirmant une tendance à la baisse.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaERxa2FtN0piNXJBbEJJOURrcUpEcGR6V1pRSjh5dEx3REZXZWFuVWtuY3paR3diMkxQMXhUSVhBRC05UTFFTi1MSXdXdlRtakVWaURYczJ2b291ZDZ3SmpGZC1wNkNnUTZFa1hUMnpsQmRFVUxaYjlUQ0FhT1NSUlhuaWVLeEFEbXFmZUF6OHgxamxLU0ZEWGhldGo4VkNvSVZuS1oxMEUxeGkwNW9fWVFtYkE?oc=5",
     "date": "15 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Les prêts immobiliers augmentent, l’hypothèque engloutit plus de 30% du salaire",
-    "resume": "La hausse des taux de prêts immobiliers entraîne une augmentation du coût de l'hypothèque, qui absorbe désormais plus de 30% des salaires.",
-    "source": "БНР Новини",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYkNYUlFNSUU1TzBUa3hJT3pWUU0zNkRqMUdNMlJ1TXA5Q0VMekhRYWZLeUFwOU1nRkFXbklaLXI4OW1sNHVxckJ4a096R3UwVTVxTzcyZ3pZSU5GbG85bGJneThtQWRoYVpfaEZxMUlOWGp4QUVjQTBlQWt2eWVOLUxBai15T2g5c0l1dlY4dUJsZUpQeFZkSUE2dnY2UUZPajh2Q00tT24zLXJrd3prUGVJYXg3cmJZ?oc=5",
+    "titre": "RENT 2026 – Achat immobilier : « Même dans un contexte compliqué, les Français recherchent de la propriété », David Benbassat (Bien'ici)",
+    "resume": "Selon David Benbassat de Bien'ici, l'attachement à la propriété immobilière reste fort en France, même face aux difficultés actuelles du marché.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVmtFMkFIS1NKaDBlRDJiWGxMNUU4NHFsSllZaE9icDZpdmNPcU1qS3hQdTZ1VWxXT3UwZ0o4Y2JSNGdGTHNUYmFabTVxVElNZmxVMHJlQW5Yb1BkZGlUQ0I3MDViTXBiS0k3dFI3dDBoaTBBS2dDLVJMNDB6dDVKTHpTcWdSLTlOa3h1Tjd2RmRKd3BZTjJJQU15VQ?oc=5",
     "date": "15 nov.",
-    "impact": "baisse"
+    "impact": "flat"
+   },
+   {
+    "titre": "Location Île-de-France : loyers stables à Paris, hausse en banlieue",
+    "resume": "En Île-de-France, les loyers se stabilisent à Paris mais continuent de progresser en banlieue.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNTJTdDRfLU0wZkd1MjhvU2lLdHE1Y3JnQkRVMVVtV202MWdKcFZLS0N5U1AxUmRoYlhxWU5fb01KYUs5a1ZURVdjLUx2eklnTl9pRTlrVkstUll4Nl9nNE15S0RxY3dfR2lNUlJRQVhrNWtiYW9OT0JVYWR2WjV2bkNlc1BwYjV4bUlnM0xQdEI3REtxWjNnWHVWV3ZCVGRTa255cnR0VjhETkRsVC1RbXRJLXQ?oc=5",
+    "date": "15 nov.",
+    "impact": "hausse"
    },
    {
     "titre": "Suppression des frais de notaire, retour de la taxe d’habitation… Les idées des think tanks pour refonder la politique du logement en 2027",
-    "resume": "Des think tanks proposent de supprimer les frais de notaire et de rétablir la taxe d'habitation pour réformer la politique du logement en 2027.",
+    "resume": "Des think tanks proposent des réformes pour 2027, incluant la suppression des frais de notaire et le retour de la taxe d'habitation.",
     "source": "Challenges",
     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZF95eHpRSlUxa2kwdDhWYlBLUVlCTzJlcFRmUEtZYnJxS1dHWXdMUi1IbGdpX0EtVkY1dHBMcVJXcHhGdjBzV25IUGdjd3A1eG5NLXV1OWVFVFBabnYxczd2STduLWxjWU9PNXM0OEgxY3pvN3dNR1poVUg5VnVHZUNqdG5DLWZUSXlKQVltYzlWS1U5ZDRRVTUwcUdFM3d5elpINmRqcDRGaTNfMGRfcHVoQVB3ZDNiMGFqOXh2a0xVQk9EWU45ekUzc2FpLVE2QmRxVjhyUlJlbG1iRGtycEJGU3J3RVMwZXA1RWV5d1RUNGY2czZuSFNpZC02eV82Z3BCZEtxSW9XS2c?oc=5",
     "date": "15 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Réquisitions, taxe foncière progressive, résidences secondaires en sursis… Comment Mélenchon veut administrer la propriété privée",
-    "resume": "Certains projets politiques envisagent des mesures strictes comme la réquisition de logements ou une taxe foncière progressive sur la propriété privée.",
-    "source": "Figaro Immobilier",
-    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPLXg2dVJxODhjNjlQZXBTakZkcDRwc3gwT0VfNlVZYXUwMTllT1JzQklIc3o2MU5ZODJUSVA1NTdzSjNHTWdPSnZsT01YQjBrYlM5Y0ljSlNDNzU3QVBWWEs3REJIc01WQl83alJUVFQ5d3FpLWY5eF9nYUlUM292TUZEZkVxZmdSdDNucWM1OGdUaG9MaDRDcFRqQy1nTzlrSm9IOHVkR3hDb3V0cnFUZHdoNlpHd3NydklIOUdIWGE1TTVpT0Fpc05EZWxHYnV0YjFobDk0bWlXT1ZkMkVzSnh1SHBWc2k2Z3JTY3NLcVJUM2RvSHpNU1Y1R2J1NVFzNHFDQQ?oc=5",
+    "titre": "Vincent Jeanbrun (Logement) : « Grâce aux opérations d'intérêt local, un projet immobilier pourra gagner jusqu'à trois ans",
+    "resume": "Le ministre du Logement, Vincent Jeanbrun, annonce des opérations d'intérêt local pour accélérer les projets immobiliers jusqu'à trois ans.",
+    "source": "l'Opinion",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbldpNjRZRHRrRElYVk5abUlIRVlLdFd4ZHpfcWNaTVRoYWt3cmRYMzBKVFVWekd3UVlnTGQ3Y1hKSUZodlRNWUFGVHlWbnhkdzBIMDdWZ2x0MzI5RWJFN05paWJ0LW9VNnYwYjduMThkS3F0cTFjbHltVmdhV29kVWlaamFTelhtdTliOGVqNHJka0JqX0pwREdEQWo5WlY4VHY1NGpUSUxTeFNtdWFEU1MwVDE2OHd5RjdleGxDQUZudHcyb0t3S0N6X2tndWlvY3EyQ3prOVJNeHBhSHhr?oc=5",
     "date": "15 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    },
    {
     "titre": "Éco-PTZ copropriété : conditions, montant et durée du prêt collectif à taux zéro",
-    "resume": "Le prêt collectif à taux zéro (Éco-PTZ copropriété) permet de financer des travaux de rénovation énergétique sous certaines conditions de montant et de durée.",
+    "resume": "L'Éco-PTZ copropriété est détaillé comme un prêt collectif à taux zéro pour financer des travaux de rénovation énergétique.",
     "source": "Capital.fr",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaVktTUY1emxZSzVEVDFLUjgzaFlUWGVEV01sSVpFdjFQMWgyOVFuWktaMWxic3J1eHBsemU3UlRSTTliVHZaWHV1bENfa3JxWEpHdnE3Nm5KcWhyM01TWEY2RkJtRk9jak5RMzJPZ1VfSktyYTlsVzlfVkJ3Q2VxaDJEc09HZ1NMelpBTE5ESFV4dS1wN0R3NVROS3B5LVJGbnhZc25pdVpoanY1SmxsdlVoQ1RjMjRfc3JF?oc=5",
-    "date": "15 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Résidence secondaire vendue en 2026 : les 4 étapes pour calculer l'impôt sur la plus-value",
-    "resume": "Le calcul de l'impôt sur la plus-value pour la vente d'une résidence secondaire en 2026 suit un processus spécifique en quatre étapes.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAweS1COC04NU1sblpKVEJPVS1PNVIxYkVnb1VJUHpkUE9xU0EwdHQ0Qm9wS1hYMW9SMmxxcEFWWVlqU1hTMkhuZk4yUXV6V3R5UG5nd294Wk84Q1pydHExV0dhWVV1WGltMFNzeTZxMzN2em8?oc=5",
     "date": "15 nov.",
     "impact": "flat"
    }
@@ -351,31 +351,31 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Dans les Alpes, un marché immobilier au sommet",
-    "resume": "Le marché immobilier dans les Alpes affiche une forte vitalité.",
-    "source": "Le Temps",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUjlXRlZ5TUhKdzlNZUY5SmZLQ3o2YUx2ekhpZG9PT1UyTHF6MDJLUlNzczlFUTBMU1dTajZ4YnRmMTk2TEFVZkNuZGZNNjYxbVN5V2lQU1JXc0R5NVpES1NsWERSYmFwOUlST1dfNVBMTTJvWEUyMk1XeGpXQmNMT080MVlfUQ?oc=5",
+    "titre": "RENT 2026 – Immobilier et viager : « Le marché va être explosif », Sophie Richard (Viagimmo)",
+    "resume": "Sophie Richard de Viagimmo prévoit un marché du viager « explosif » prochainement.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLVh4YXhNM0hSVExjRGMtN2ZUcDAxMGItYjVIRmdYLVd5SHdXLW96NWdVTmduTm85WDJVRmdtN2owTFNNYngtX1laVUJoT0FNZmlCYzYyR21ZaEpZXzB2MTZmZ2tSd2Z1cWVzQVNaVG5PTFFWMVZ2dkZDZUhIUGM1bHlqeUZweklRMGhEdHYtb2Iwb1hUOV9j?oc=5",
     "date": "15 nov.",
-    "pourquoi": "Cela signale une attractivité persistante pour les biens en montagne, potentiellement pour l'investissement locatif saisonnier.",
+    "pourquoi": "Cela signale une opportunité de diversification pour les investisseurs s'intéressant à l'acquisition de la nue-propriété.",
     "impact": "hausse"
    },
    {
-    "titre": "Logement en BRS livré en retard : les 4 recours de l'acquéreur face à l'opérateur",
-    "resume": "Les acquéreurs en Bail Réel Solidaire (BRS) disposent de recours en cas de retard de livraison.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRaE1uby1OOXJGWHNXdTZRcGRya2Y3eG02M3JnYjJzYXl5U2dKY0xYWlJ3M19HQ1lkeVFBMUhiX25jUWxUYUFUWW0xOEJhMUFDQzJuQy10UFZxcHlGNTZfV29wb2Vqa0wzUm0zVjVTVGtPUQ?oc=5",
+    "titre": "Dans les Alpes, un marché immobilier au sommet",
+    "resume": "Le marché immobilier dans les Alpes est décrit comme étant « au sommet ».",
+    "source": "Le Temps",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUjlXRlZ5TUhKdzlNZUY5SmZLQ3o2YUx2ekhpZG9PT1UyTHF6MDJLUlNzczlFUTBMU1dTajZ4YnRmMTk2TEFVZkNuZGZNNjYxbVN5V2lQU1JXc0R5NVpES1NsWERSYmFwOUlST1dfNVBMTTJvWEUyMk1XeGpXQmNMT080MVlfUQ?oc=5",
     "date": "15 nov.",
-    "pourquoi": "Ce dispositif d'accession sociale se développe et il est crucial de connaître la protection juridique des acheteurs face aux opérateurs.",
-    "impact": "flat"
+    "pourquoi": "Cela indique une forte valorisation des biens en haute montagne, à surveiller pour les investissements locatifs saisonniers.",
+    "impact": "hausse"
    },
    {
-    "titre": "En Australie, les nouveaux prêts immobiliers aux investisseurs chutent de 30,6 % en un trimestre",
-    "resume": "En Australie, les nouveaux prêts aux investisseurs immobiliers ont chuté de plus de 30% en un trimestre.",
-    "source": "Economie Matin",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeWxzakkwcnV2RzBxVVBhZjUxNkUza3pKUTRpTG53MEhUS1NlY2dXQS14NnJWU2dYOV9DOUJWRlRfMEFRbWw3bUVWLU5PdzBoOVhzNzJlS0hERmtSWlVSaUlPbGVYeEhqWDlqTzBkOTBpdlEyRk5zNUw5bVRsVHBvWVd0dEgwMUFYYXZTU29VOXdPQ09tbnM1Tzl3cw?oc=5",
+    "titre": "Résidence secondaire vendue en 2026 : les 4 étapes pour calculer l'impôt sur la plus-value",
+    "resume": "Les étapes de calcul de l'impôt sur la plus-value pour la vente d'une résidence secondaire en 2026 sont rappelées.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAweS1COC04NU1sblpKVEJPVS1PNVIxYkVnb1VJUHpkUE9xU0EwdHQ0Qm9wS1hYMW9SMmxxcEFWWVlqU1hTMkhuZk4yUXV6V3R5UG5nd294Wk84Q1pydHExV0dhWVV1WGltMFNzeTZxMzN2em8?oc=5",
     "date": "15 nov.",
-    "pourquoi": "Ce signal international montre un refroidissement brutal de l'investissement locatif, à surveiller comme indicateur de tendance globale.",
-    "impact": "baisse"
+    "pourquoi": "Cette information est cruciale pour optimiser la fiscalité lors de l'arbitrage d'un patrimoine immobilier.",
+    "impact": "flat"
    }
   ]
  }
