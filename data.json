@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-16T16:44:18+00:00",
-  "resume": "L'actualité est marquée par la possible fusion bancaire entre UniCredit et Commerzbank autorisée par Bruxelles, tandis que plusieurs pays européens projettent d'envoyer des migrants au Rwanda. En France, Gérard Depardieu a été condamné pour agressions sexuelles et le procès d'un triple narchomicide à Marseille a rendu son verdict. Côté tech, Microsoft a détaillé l'origine d'une panne mondiale et Robert Pattinson a été annoncé comme le nouveau James Bond.",
+  "updatedAt": "2026-11-16T20:25:07+00:00",
+  "resume": "La France se prépare à une journée de grèves et de manifestations ce mardi 17 novembre, touchant la fonction publique et les transports. Sur le plan politique, Emmanuel Macron dresse un bilan contrasté de ses dix années au pouvoir, tandis que le débat pour la présidentielle de 2027 s'anime. À l'international, la guerre en Ukraine reste au cœur de l'actualité avec des discussions diplomatiques et des informations sur le déploiement de soldats.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Bruxelles autorise le rachat de Commerzbank par UniCredit, au nom du renforcement du secteur bancaire européen",
-    "resume": "La Commission européenne a validé le rachat de l'allemande Commerzbank par l'italienne UniCredit, y voyant un moyen de renforcer le secteur bancaire européen.",
-    "source": "Le Monde International",
-    "url": "https://www.lemonde.fr/economie/article/2026/11/16/bruxelles-autorise-le-rachat-de-commerzbank-par-unicredit-au-nom-du-renforcement-du-secteur-bancaire-europeen_6812172_3234.html",
+    "titre": "Grève dans la fonction publique, perturbations dans les transports, manifestations… A quoi s'attendre pour la mobilisation du 17 novembre ?",
+    "resume": "Une journée nationale de grève et de manifestations est prévue ce mardi 17 novembre, à l'appel de plusieurs syndicats, entraînant des perturbations dans les transports et la fonction publique.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/societe/manifestations/greves-dans-la-fonction-publique-mouvement-lyceen-manifestations-a-quoi-s-attendre-pour-la-mobilisation-du-17-novembre_8284415.html#xtor=RSS-3-[lestitres]",
+    "date": "16 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Renault va supprimer plus d’un millier de postes en France pour être plus compétitif face à la concurrence chinoise",
+    "resume": "Le constructeur automobile Renault envisage de supprimer plus de 1 000 postes en France via un plan de départs volontaires, tout en prévoyant la création de 2 000 emplois à terme.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/economie/article/2026/11/16/renault-va-supprimer-plus-d-un-millier-de-postes-en-france-pour-etre-plus-competitif-face-a-la-concurrence-chinoise_6812360_3234.html",
     "date": "16 nov.",
     "impact": "flat",
     "categorie": "Économie"
    },
    {
-    "titre": "Cinq pays de l’UE, dont l’Allemagne, dévoilent leur projet de centre pour migrants au Rwanda",
-    "resume": "Cinq pays de l'Union européenne, dont l'Allemagne, ont dévoilé un projet commun visant à créer un centre au Rwanda pour y envoyer les migrants expulsés d'Europe.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/international/article/2026/11/16/cinq-pays-de-l-ue-dont-l-allemagne-devoilent-leur-projet-de-centre-pour-migrants-au-rwanda_6812167_3210.html",
+    "titre": "En direct, guerre contre l’Ukraine – Selon RFI, des soldats français opèrent en territoire ukrainien",
+    "resume": "Des informations indiquent que des soldats français seraient actuellement présents sur le territoire ukrainien dans le cadre du conflit avec la Russie.",
+    "source": "Le Temps",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcXV5S2x3UGVrNTJiY1B0MlhmQTdEcUZHMy1xclpCcEYwSk12QTBERTllZWg2RFJWaGFFZ203c2l6S0lKcVJGR0JNMktfc2F0eDV5akV5SHRKbjdLOEJaMzJRVE1Cakp1cmdqWWtFVU0xS3ZWaTJvVEFzNVZWTFIzLTBlM3NIVEl3bUpuRlN6QUt6bFdyOGRDQXhfZDdpNFV5UWt4NWlBV25kWTJEOU9zY3hMMXlTckJuZlRVb1VjTGhPSUY4aHA4ZF9IY2ZjZlEyWDdnS3Q2Qm5GR1JLd3djTlB3?oc=5",
     "date": "16 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Bug caché pendant plus de trois mois, saturation des serveurs, défaillance en cascade... Comment les services de Microsoft sont tombés partout dans le monde pendant près de 38 heures",
-    "resume": "Microsoft a expliqué qu'une combinaison de bugs et de saturation des serveurs était à l'origine de la panne mondiale ayant affecté ses services pendant 38 heures.",
+    "titre": "\"J’ai fait de mon mieux\" malgré des \"erreurs\": dix ans après l'annonce de sa candidature, Emmanuel Macron revient sur ses années au pouvoir",
+    "resume": "À six mois de la fin de son mandat, le président Emmanuel Macron a publié un message sur X pour marquer les dix ans de sa première candidature, reconnaissant avoir commis des erreurs.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/tech/microsoft/bug-cache-pendant-plus-de-trois-mois-saturation-des-serveurs-defaillance-en-cascade-comment-les-services-de-microsoft-sont-tombes-partout-dans-le-monde-pendant-pres-de-38-heures_AV-202611160640.html",
+    "url": "https://www.bfmtv.com/politique/elysee/j-ai-fait-de-mon-mieux-malgre-des-erreurs-dix-ans-apres-l-annonce-de-sa-candidature-emmanuel-macron-revient-sur-ses-annees-au-pouvoir_AD-202611160839.html",
+    "date": "16 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Maileva : nouvelle cyberattaque contre une société française",
+    "resume": "Maileva, une filiale de La Poste, a été victime d'une cyberattaque au cours de laquelle les coordonnées de 22 millions de clients ont été dérobées.",
+    "source": "France 24",
+    "url": "https://www.france24.com/fr/%C3%A9missions/info-%C3%A9co/20261116-maileva-nouvelle-cyberattaque-contre-une-soci%C3%A9t%C3%A9-fran%C3%A7aise",
     "date": "16 nov.",
     "impact": "flat",
     "categorie": "Tech"
    },
    {
-    "titre": "France : Depardieu condamné pour agressions sexuelles, les victimes soulagées mais perplexes",
-    "resume": "L'acteur Gérard Depardieu a renoncé à son procès en appel et a été définitivement condamné pour agressions sexuelles, présentant ses excuses aux victimes.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261116-france-depardieu-condamn%C3%A9-pour-agressions-sexuelles-les-victimes-soulag%C3%A9es-mais-perplexes",
-    "date": "16 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Cinéma: Robert Pattinson est le nouveau James Bond",
-    "resume": "Amazon MGM Studios a officialisé le choix de l'acteur britannique Robert Pattinson pour incarner le prochain James Bond au cinéma.",
+    "titre": "\"Trop identifié\", \"excellent comédien\", \"choix trop évident\"... Robert Pattinson dans le rôle de James Bond divise les fans",
+    "resume": "L'annonce du choix de Robert Pattinson pour succéder à Daniel Craig dans le rôle de James Bond suscite des réactions mitigées parmi les fans de la franchise.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/culture/video-cinema-robert-pattinson-est-le-nouveau-james-bond_VN-202611160653.html",
+    "url": "https://www.bfmtv.com/culture/cinema-series/trop-identifie-excellent-comedien-choix-trop-evident-robert-pattinson-dans-le-role-de-james-bond-divise-les-fans_AN-202611160794.html",
     "date": "16 nov.",
     "impact": "flat",
     "categorie": "Culture"
-   },
-   {
-    "titre": "Procès de l'assassinat du frère d'Amine Kessaci : deux figures du narcobanditisme marseillais condamnées à la perpétuité",
-    "resume": "Deux figures du narcobanditisme marseillais ont été condamnées à la réclusion criminelle à perpétuité pour un triple homicide commis en 2020.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/faits-divers/justice-proces/proces-de-l-assassinat-du-frere-d-amine-kessaci-deux-figures-du-narcobanditisme-marseillais-condamnees-a-la-perpetuite_8285081.html#xtor=RSS-3-[lestitres]",
-    "date": "16 nov.",
-    "impact": "flat",
-    "categorie": "France"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-16T16:44:18+00:00",
-  "resume": "Le marché des cryptomonnaies connaît une forte correction, le Bitcoin chutant vers les 62 000 dollars, entraînant d'importantes liquidations. Cette baisse est accentuée par les incertitudes macroéconomiques, notamment la politique monétaire américaine et les tensions dans le secteur technologique. Malgré la chute, certains acteurs institutionnels comme MicroStrategy continuent d'accumuler des bitcoins.",
+  "updatedAt": "2026-11-16T20:25:07+00:00",
+  "resume": "Le marché des cryptomonnaies connaît une forte correction, le Bitcoin chutant vers les 62 000 dollars, entraînant d'importantes liquidations. Malgré la baisse, des acteurs institutionnels comme Strategy continuent d'accumuler du Bitcoin. Parallèlement, Solana officialise sa sortie de version bêta après sept ans.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -94,72 +94,81 @@
   "items": [
    {
     "titre": "Le Bitcoin chute jusqu'à 62 000 $ alors que les liquidations de paris à effet de levier s'accélèrent.",
-    "resume": "Le cours du Bitcoin a lourdement chuté, atteignant les 62 000 dollars, provoquant une accélération des liquidations de positions à effet de levier.",
+    "resume": "Le cours du Bitcoin a chuté jusqu'à 62 000 dollars, provoquant une accélération des liquidations forcées sur les positions à effet de levier.",
     "source": "Quartz en Français",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWFFjazRWT2pFNjEwZjlnSEVSYVFON0Z1eE5sQzlyaXc0LThJSUF4VVlyYTlQb0huUVJJS1Y4ZXJDYUoteGNCenp0YmhOSHd1MjVpRG0yTWEyU1BQZjI0dDdDYkp3SGJ6X2MweVhOVVlHRDZDdG9TSXE2cERxaTV0WEpHaUNYUQ?oc=5",
     "date": "16 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Bitcoin : la chute à 62 000 dollars provoque 2 milliards de dollars de liquidations",
-    "resume": "La chute brutale du Bitcoin a entraîné la liquidation de plus de 2 milliards de dollars de positions sur le marché crypto en 24 heures.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR1JVVFhhc1pIbTBfUHlNUEkyRmJodmxtT3FFVk8zYklwU0JuWmhVUEdGU0dKdWNBSmpIWFUxOGlOS1VabTdJbWtwZG91a0FSbkJmaU9LNXdSeXVHMlJBeDBmV1BJa1BxdmxEZS02dGJjYk1VOVI5ampRQXljSmREN0t6SE5HVkppTlNIYk9tQVI1cDBtRXZXTnZRVFZVN2o4aVVaR2ZB?oc=5",
-    "date": "16 nov.",
-    "impact": "baisse"
-   },
-   {
     "titre": "Bitcoin : Strategy achète 485 BTC de plus et porte sa réserve à 850 849",
-    "resume": "MicroStrategy a profité de la baisse pour acquérir 485 bitcoins supplémentaires, portant sa réserve totale à plus de 850 000 BTC.",
+    "resume": "La société Strategy a profité de la baisse sous les 65 000 dollars pour acheter 485 Bitcoins supplémentaires, portant sa réserve totale à 850 849 BTC.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/bitcoin/bitcoin-strategy-achete-reserve-850-849/",
     "date": "16 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Solana 1.0 : le réseau sort officiellement de sa version beta",
-    "resume": "Le réseau Solana est officiellement sorti de sa version bêta avec le lancement de la version 1.0 du protocole.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/solana-1-0-mainnet-fin-version-beta-sol/",
+    "titre": "Solana 1.0 : la blockchain enterre son étiquette beta après presque sept ans",
+    "resume": "La blockchain Solana a officiellement supprimé l'étiquette « mainnet beta » portée depuis près de sept ans, marquant le passage symbolique à la version 1.0.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/solana/solana-1-0-blockchain-enterre-etiquette-beta/",
     "date": "16 nov.",
-    "impact": "hausse"
+    "impact": "flat"
+   },
+   {
+    "titre": "IPO Anthropic jeudi : pourquoi la crypto retient son souffle",
+    "resume": "L'introduction en bourse d'Anthropic prévue jeudi est surveillée par le marché crypto, certains analystes craignant qu'elle n'aspire de la liquidité.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/economie/ipo-anthropic-jeudi-crypto-souscription-france/",
+    "date": "16 nov.",
+    "impact": "baisse"
    },
    {
     "titre": "Lighter : 10,39 millions de dollars sortis du protocole, les retraits suspendus",
-    "resume": "L'échange décentralisé Lighter a suspendu les retraits après la sortie suspecte de 10,39 millions de dollars due à la fuite d'une clé API.",
+    "resume": "L'échange décentralisé Lighter a suspendu les retraits après qu'une fuite de clé API a permis le vol de 10,39 millions de dollars en USDC.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/defi/lighter-10-39-millions-dollars-sortis-protocole/",
     "date": "16 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Ethereum : Vitalik Buterin mise désormais sur leanPCS pour accélérer la résistance quantique",
-    "resume": "Vitalik Buterin propose l'approche leanPCS pour améliorer la résistance quantique d'Ethereum sans alourdir les blocs.",
+    "titre": "Dogecoin : Le DOGE s’effondre de 48 %, jusqu’où peut-il tomber ?",
+    "resume": "Le Dogecoin s'est effondré de près de 48 % depuis son sommet de septembre, cassant un support technique important autour de 0,059 dollar.",
     "source": "Cointribune",
-    "url": "https://www.cointribune.com/ethereum-vitalik-buterin-mise-desormais-sur-leanpcs-pour-accelerer-la-resistance-quantique/",
+    "url": "https://www.cointribune.com/dogecoin-le-doge-seffondre-de-48-jusquou-peut-il-tomber/",
     "date": "16 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "3 déblocages de tokens à surveiller lors de la troisième semaine de novembre 2026",
-    "resume": "Plus de 548 millions de dollars en tokens, dont CRO, ZRO et ARB, seront débloqués cette semaine.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/token-deblocages-troisieme-semaine-novembre-2026/",
+    "titre": "Hyperliquid : Les revenus rebondissent à 191 millions de dollars, portés par l’USDC",
+    "resume": "Hyperliquid a enregistré 191 millions de dollars de revenus trimestriels, dont la moitié provient du rendement de ses réserves en USDC.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/hyperliquid-revenus-rebondissent-usdc/",
     "date": "16 nov.",
-    "pourquoi": "L'augmentation de l'offre circulante de ces actifs spécifiques pourrait exercer une pression à la baisse sur leurs cours.",
-    "impact": "baisse"
+    "pourquoi": "Cela montre la rentabilité des protocoles de trading décentralisés et l'importance des revenus issus des stablecoins dans leur modèle économique.",
+    "impact": "hausse"
    },
    {
-    "titre": "Cours du Dogecoin : 91 satoshis, au plus bas face au bitcoin depuis janvier 2021",
-    "resume": "Le Dogecoin est tombé à son plus bas niveau face au Bitcoin depuis janvier 2021.",
-    "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUHd6SWtmRUpDek5SMTREaThyUjdhbFZ3LWlyaWRLSEhwekJYbjgtRWdmM3pQSm9yeXF3aUZ5REVPeXh6OFgzeTlJT19RWko0TUpNUkVyM2xFSm1KUFl3RmZxdHZvdG81TG16QjRKdlU0ZDBfdXhTX1Y1b0RHYXFLQjdkLURTT1cxYnVUVWIwTGZOQWFoT2c?oc=5",
+    "titre": "Les 3 altcoins à surveiller pour la troisième semaine de novembre 2026",
+    "resume": "Les tokens RAIN, Midnight (NIGHT) et PIEVERSE affichent les plus fortes hausses hebdomadaires sur CoinGecko.",
+    "source": "BeInCrypto FR",
+    "url": "https://fr.beincrypto.com/trois-altcoins-surveiller-troisieme-semaine-novembre-2026/",
     "date": "16 nov.",
-    "pourquoi": "Ce signal montre une sous-performance marquée du Dogecoin par rapport à la principale cryptomonnaie.",
+    "pourquoi": "Signale un intérêt spéculatif sur des altcoins à faible capitalisation malgré la tendance baissière du marché global.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "3 déblocages de tokens à surveiller lors de la troisième semaine de novembre 2026",
+    "resume": "Trois déblocages de tokens sont prévus pour la troisième semaine de novembre 2026.",
+    "source": "BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX1V4SE5yZGtsQjBJSVY5WFdZMzg0Sm13VTY0SFU3ZzBNbUtycmZidE8zQ0tlUTNSbFA2RE1ib0hrVGJFekFfU2RfUEdVcUY1MFR0X29Zc29wOXJuN2pkSzBCSS11dU5mY0pQdndsZmJ4ODYwWmJmT2QxNkxUOTZjQw?oc=5",
+    "date": "16 nov.",
+    "pourquoi": "L'augmentation de l'offre en circulation pour ces actifs spécifiques pourrait entraîner une pression vendeuse à court terme.",
     "impact": "baisse"
    },
    {
@@ -168,23 +177,14 @@
     "source": "Clubic",
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPclh5VzQtdjN5elp2XzJDeWljQTY0eE5taEIyY2xBeXpRRjlLVnhsQ2RScldDT2t1Q1pWaDZ1blJocGs0RHZ1X3lUXzctQnVEOTBVeWNaRG5vUEJSME5teVJKWS1TZUtxMDJBT1NFeGwzSWhVWmlfTExhaTZHMGdZaUVVQUtKclVEbmVJTlVtaHI0RGJ2bWZfY2FTYi05RzduSG83d2ZHcHAzQ2ZWY2dPOHotT2pfa0dqZ2loc3RWU2Q4ZUQ5dzRSa09SeWtSRUlzMld6N0lpT0U3b1RrTG9YWEV3?oc=5",
     "date": "16 nov.",
-    "pourquoi": "Cela souligne un risque de sécurité critique pour les investisseurs utilisant ces dispositifs de stockage à froid.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Budget 2027 au Sénat vendredi : les 3 amendements crypto qui peuvent revenir par la fenêtre",
-    "resume": "Le Sénat français pourrait réintroduire des amendements fiscaux sur les cryptos dans le budget 2027.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/budget-2027-senat-amendements-crypto-stablecoins-wallets-exit-tax/",
-    "date": "16 nov.",
-    "pourquoi": "Des taxes sur les stablecoins ou une exit tax pourraient modifier la stratégie fiscale des investisseurs français.",
-    "impact": "flat"
+    "pourquoi": "Souligne un risque de sécurité critique pour la conservation personnelle, pouvant affecter la confiance dans ce type de matériel.",
+    "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-16T16:44:18+00:00",
-  "resume": "Wall Street ouvre en baisse, pénalisée par le recul des valeurs technologiques liées à l'intelligence artificielle. Les investisseurs affichent leur prudence avant la publication des résultats très attendus de Nvidia. Le dollar américain poursuit sa dynamique haussière face aux autres devises.",
+  "updatedAt": "2026-11-16T20:25:07+00:00",
+  "resume": "Wall Street recule, plombée par le secteur technologique et la nervosité entourant l'intelligence artificielle avant les résultats de Nvidia. L'euro et la livre sterling baissent face au dollar, soutenus par les perspectives de taux élevés aux États-Unis. Plusieurs actions individuelles ont touché des plus bas sur 52 semaines dans un contexte de marché morose.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,50 +213,50 @@
   ],
   "items": [
    {
-    "titre": "Les actions chutent alors que Nvidia entraîne les titres d'IA à la baisse avant les résultats.",
-    "resume": "Les actions du secteur de l'IA reculent, entraînant Wall Street à la baisse dans l'attente des résultats financiers de Nvidia.",
+    "titre": "Le Dow chute de plus de 500 points et le Nasdaq perd 2,2 % alors que Nvidia entraîne les actions IA à la baisse.",
+    "resume": "Le Dow Jones et le Nasdaq chutent lourdement, entraînés par le repli de Nvidia et des craintes sur le secteur de l'IA.",
     "source": "Quartz en Français",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUkc4QVluc3EyM3owajRhWHA0SVFSU0xrU2FwY2ctZUNWeWVnU3F5M0hGalcxNG1XN0xrR3Q1MzN4OTlvamswRXdlYlRaT2Z0SURFbGNuSlRNZGFQNU93M1BwVVNpeFdTVWFLbHduaDhnX2hoTHAweWJBVHhBekVGQg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQkVGLTJoR3pqN1JnWHAxSmpRRWlXUFY2UDd5ZEJGR21UcXJ5RUpTRGl5TS1tZFZQcnZNYkRONzhFNmZJSnF4QUppdGhNR2UzT00zZGMxVlR4SVA2Q3cwaTdNRjBGR2hDcTF0Umk4TUtBYjhYdnZCYnQ4QzI4Nm5YTnhsQmJMRjl3YkRYWnY5MXhkWXk3UkF6ZjdlWFE5Z3U4?oc=5",
     "date": "16 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Dollar américain : la dynamique haussière se poursuit sur fond de réévaluation des perspectives de la Fed – MUFG",
-    "resume": "Le dollar américain continue de se renforcer, soutenu par une réévaluation des perspectives concernant la politique monétaire de la Réserve fédérale.",
-    "source": "www.tmgm.com",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPclNBX0RmYS1LVEZ6OHIwa0dfb3BEZmRrYlVRWDFrWngtcU5nM0JLY3paTE5xMnA1VmJTZmo1MmUtR242eFBNRnNnTVBiRzNLT2lJcWNuN19TcjY1Q3hxZkZ1UXBLeVJybTNYSk81b3N4SFdzWDQ4eDJRSmNVTWt4OXZVTlZUVVU4Q05Fei1VUWlYczRTTHRZQ3BwZ3RhVWV6dXpldkdyS2E3LU9BVlRSVkxQZ2x1QW5HdkVTSjVB?oc=5",
+    "titre": "Wall Street chute sur fond de nervosité autour de l’IA avant les résultats de Nvidia et l’introduction en bourse d’Anthropic",
+    "resume": "La nervosité monte à Wall Street avant la publication des résultats de Nvidia et l'introduction en bourse d'Anthropic.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQXzMzSjVBWjhuQzdQcEx3ZldLbi00YXZaZTFnNThBTmpTT3FwdkZ4YU05Nm9XSjUyS0s2OExycllSN2R3em1pMFpZallzXzR6Qk5LakVuUEtWNU1pQkJiZFNfYUZELTVYYkFfN3hvM1FERjI2NUxXNFdUZURmeEJ5YkRVeW11OV9GNmlkQVg4T2tUd3RaeXhDaEQ0Y04yUTZPT0dlemx2UWxLY05XWVFNZExrVjk1YldKcTBIdmE4LTBnMmRia2d5SGo3YU94aGwtRFB1QXRaOW5ITkdaeW1IZ3dJXzNEZ0o3ekoySUpmVQ?oc=5",
+    "date": "16 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "L'inflation américaine donne des ailes au billet vert, sous 1,10 dollar pour un euro...",
+    "resume": "L'inflation américaine renforce le dollar, poussant l'euro sous le seuil de 1,10 dollar.",
+    "source": "Fortuneo",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1llTVlFY0swVnc5NmdyMzNQcHJxbnhXV0wtMmpabkpwVWpkWk1qOW52a05mZFhfXzhfa3ktWFV2WHliaXdxRzdfeUJ6TDBJTkFHeXM2RmJVSGhkaUdKbmM0bkdZRmlNNlRoOENVcGdzdDI0bEl6S1hqdGFDaUVvaXowWTNQUmRpU0diS2tuYzMzODNXNnV5YXdqUjF3LWV6Z19ta01CMmZtQ1JiX1ZZUXd2OVpOd3VPbnZOdldFbEhWUnpSSWcwZtIBzgFBVV95cUxNYUJKVjczcVRieXhPTU81ZHk1M2VwaXp3eEZpdVRwNnZ4SlhReTB6SWFpaWg3T04yN1VCM0hfRndKRzJrYmlUQ2kxQ1pqNG9PVFdYN0xwUVRZN0Y0UldCbVRNazZrTnhwbWtiYTlnNUNfb0FtRHJqbjhqQmlqTXE0SDBhbUxBMUc3Mktxc3BUeW50bUF1b0NqYVBiR0VJQ2x2YWVING81b2dGU0N1M3l0Qm5EdDd2UFRmdndOaGxOeVVsUE9wdzJmTXpJd1M3dw?oc=5",
+    "date": "16 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Tesla Inc va investir 3 milliards € pour agrandir son usine de Berlin",
+    "resume": "Tesla prévoit d'investir 3 milliards d'euros pour étendre son usine située près de Berlin.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/tesla-inc-va-investir-3-milliards--pour-agrandir-son-usine-de-berlin-93CH-3698723",
     "date": "16 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Advantage Energy bondit de 23% après une offre de rachat de Canadian Natural à 2,53 milliards $CA",
-    "resume": "L'action Advantage Energy grimpe de 23% suite à une offre d'acquisition de Canadian Natural pour 2,53 milliards de dollars canadiens.",
+    "titre": "L’action Boeing Co atteint un plus bas sur 52 semaines à 164,96 USD",
+    "resume": "Le titre Boeing poursuit sa chute et atteint un nouveau plus bas sur 52 semaines à 164,96 USD.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/advantage-energy-bondit-de-23-apres-une-offre-de-rachat-de-canadian-natural-a-253-milliards-ca-3698635",
+    "url": "https://fr.investing.com/news/company-news/laction-boeing-co-atteint-un-plus-bas-sur-52-semaines-a-16496-usd-93CH-3698804",
     "date": "16 nov.",
-    "impact": "hausse"
+    "impact": "baisse"
    },
    {
-    "titre": "Apollo investit 2,5 milliards $ dans Focus Financial à 21 milliards $",
-    "resume": "Apollo investit 2,5 milliards de dollars dans Focus Financial, valorisant la société à 21 milliards de dollars.",
+    "titre": "Les actions de Robinhood et Schwab reculent face à l’expansion de Kalshi",
+    "resume": "Les actions des courtiers Robinhood et Schwab reculent face à la concurrence croissante de la plateforme Kalshi.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/apollo-investit-25-milliards--dans-focus-financial-a-21-milliards--3698613",
-    "date": "16 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Tyson Foods Inc rate ses prévisions au T4 mais l’action bondit",
-    "resume": "Tyson Foods dépasse les attentes malgré des prévisions manquées pour le quatrième trimestre, provoquant une hausse de son action.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/tyson-foods-inc-rate-ses-previsions-au-t4-mais-laction-bondit-93CH-3698546",
-    "date": "16 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Le cours de l'action Summit chute après le refus de la FDA américaine d'approuver un médicament contre le canc",
-    "resume": "Le titre Summit Therapeutics chute après le refus de la FDA d'approuver un de ses médicaments contre le cancer.",
-    "source": "Boursorama",
-    "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPVUFTVzlOZFlNZV8xSGx4TW9LeFJrVUpMYUl6MkNvdjFnRUQ1RUlUcnU3a2N6RHRCc2ZlUUY1UW55S3B3UzVja0Ytenhhd2FqbHdPT2FmV0p5aHlJOU5fSTVaelJlN2hNWnN4LVExRHNXT1BMUGpSZUY3ZGZvSld1OFRleFA1OFpZd1NOZ2t0UXJqeDF2WEVoNlZsclVCQlBaS1RSNC1ZOEE1bHdnQkhvN0k1Sm9Ec2hHVVdGZ2pPY0dDYlk4UlBWUHdyUWYtV2hRU3FnN0dYa0dQcHhqLVRubEZXSTJqRFYxSGpYcnlQYnd3NTExV2hIeVE2NmtKUzRmbGtoWTFoNm1xY2dlVmJ0S09LWnpIMzRZVXhQSkZ1U0pvOWJQWGtn0gGsAkFVX3lxTE1yRnM5ZFlGR0tiamZqVDZMNFliOTh1emN1bWsySUZPWjdyanlydlRVaDBHWkZaQVFjenprc0h0TTFSWVpjb09LdkhlWW5WU3I3eEpsQWpBQV9hRkJVNzZVMWp6RlRlVTVsVy1qYl9aRU5UQ3dwUkw2MUVuc25QMmJ5ZFpIZkFSejBRd1ZXbEZfcEFqRmRFR3ktN3d1YXZqSlVjRTlQS1cwb0xOaVROd0xZYjVFempGLUtldVFGWmxYSlV1RmtaSVFWV2YyeDhUbklLSnhEcHFqWEpueG90UHUwcVhES2pITWxvZmh1U0c4eGwxQlZzTlNIcERiREdnb0s0OFdqNmFwLWx1WVBzdG5vZ0JUSDRrYTZyQUVIcjJxNHpKd1RiMmJHNWljWQ?oc=5",
+    "url": "https://fr.investing.com/news/stock-market-news/les-actions-de-robinhood-et-schwab-reculent-face-a-lexpansion-de-kalshi-3698809",
     "date": "16 nov.",
     "impact": "baisse"
    }
@@ -265,82 +265,82 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Le PDG de WEC Energy Group vend des actions pour 3,1 millions $",
-    "resume": "Le PDG de WEC Energy Group a vendu des actions pour un montant de 3,1 millions de dollars.",
+    "titre": "Les marges de raffinage du diesel en Europe du Nord chutent de plus de 5%",
+    "resume": "Les marges de raffinage du diesel en Europe du Nord enregistrent une baisse de plus de 5%.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-wec-energy-group-vend-des-actions-pour-31-millions--93CH-3698620",
+    "url": "https://fr.investing.com/news/commodities-news/les-marges-de-raffinage-du-diesel-en-europe-du-nord-chutent-de-plus-de-5-93CH-3698775",
     "date": "16 nov.",
-    "pourquoi": "Les ventes importantes de dirigeants peuvent parfois signaler un manque de confiance interne, à surveiller pour le secteur de l'énergie.",
+    "pourquoi": "Cela signale une possible faiblesse de la demande industrielle ou un surplus d'offre, impactant le secteur énergétique.",
     "impact": "baisse"
    },
    {
-    "titre": "L’action Zoom pourrait bouger de 8,3% lors des résultats du 23 novembre",
-    "resume": "L'action Zoom pourrait connaître une variation de 8,3% lors de l'annonce de ses résultats le 23 novembre.",
-    "source": "Investing.com France",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUzkxRTJfelBEMzNzdXJMYW9SNVZNV3JmT25Xby1YRHV3XzFuZXlfRmJiX2Q1MDdPeVZ6VmlGLUpZN2ZpVl9qWkNTRlJGMlUyYlNWa3ctZHQyN2JfM0RpZ0l1Yi05ZDREb2FBZ1JpWGRPdXg5Q0NRN2xiVm4tbFBDQ3RFeDRyc0I4MVFFSmJmQWhCZUpXSmtpLWdIYjE0bkRIZTd3MnI0Z2NhTnhsWEN1MExia1llaWc2V3Q1MFZBWWpkNXlUNHUzbg?oc=5",
+    "titre": "Le PDG de MKS Instruments vend des actions pour 2,2 millions $",
+    "resume": "Le PDG de MKS Instruments a vendu des actions de l'entreprise pour un montant de 2,2 millions de dollars.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-mks-instruments-vend-des-actions-pour-22-millions--93CH-3698758",
     "date": "16 nov.",
-    "pourquoi": "Une volatilité implicite élevée indique que le marché anticipe un mouvement important, offrant des opportunités pour les traders sur options.",
-    "impact": "flat"
+    "pourquoi": "Les ventes de dirigeants peuvent parfois être perçues comme un signal négatif sur les perspectives à court terme de la société.",
+    "impact": "baisse"
    },
    {
-    "titre": "Merck KGaA acquiert Rapid Micro Biosystems pour 0,75$ par action",
-    "resume": "Merck KGaA acquiert Rapid Micro Biosystems pour 0,75 dollar par action.",
+    "titre": "Pacific Empire Minerals clôture un placement privé de 1 M$ CA",
+    "resume": "Pacific Empire Minerals a finalisé un placement privé de 1 million de dollars canadiens.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/merck-kgaa-acquiert-rapid-micro-biosystems-pour-075-par-action-93CH-3698488",
+    "url": "https://fr.investing.com/news/company-news/pacific-empire-minerals-cloture-un-placement-prive-de-1-m-ca-93CH-3698810",
     "date": "16 nov.",
-    "pourquoi": "Cette petite acquisition montre une consolidation continue dans le secteur des sciences de la vie et des équipements de laboratoire.",
-    "impact": "hausse"
+    "pourquoi": "Cette levée de fonds permet à une petite société minière de financer ses opérations, à surveiller pour le secteur des matériaux.",
+    "impact": "flat"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-16T16:44:18+00:00",
-  "resume": "Le marché immobilier français reste sous pression avec des taux de crédit qui remontent et des prix du neuf en baisse dans plusieurs villes. Le gouvernement examine un projet de loi pour relancer la construction et la location, tandis que des propositions politiques émergent pour supprimer les frais de notaire des jeunes acheteurs. L'investissement locatif peine à redémarrer malgré le lancement d'un simulateur fiscal officiel.",
+  "updatedAt": "2026-11-16T20:25:07+00:00",
+  "resume": "Les taux de crédit immobilier affichent une remontée généralisée, atteignant par exemple 3,49 % sur 25 ans, tandis que l'accès au financement reste difficile pour certains acheteurs. Le marché du neuf connaît une baisse des prix dans plusieurs villes, mais les ventes chutent fortement. Le gouvernement et des personnalités politiques proposent diverses mesures, comme l'exonération des frais de notaire pour les jeunes ou un nouveau statut pour les bailleurs privés, pour relancer le secteur.",
   "chiffres": [],
   "items": [
    {
     "titre": "Crédits immobiliers : une remontée généralisée des taux dans un contexte de tensions obligataires",
-    "resume": "Les taux de crédit immobilier connaissent une nouvelle hausse généralisée dans un contexte de tensions sur les marchés obligataires.",
+    "resume": "Les taux de crédit immobilier connaissent une hausse généralisée dans un contexte de tensions sur les marchés obligataires.",
     "source": "ANIL",
     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWWsySzVpSm9TZjNYeGY5WURKT3NhMmNzRVIweTRvZGkyVGN2MHVBSVFMRXQteFRIOEYyLW5RaW52M014akFCZmc5WUpQY05jTnVRQ2RHdndrTW84eW1zTnFqOFR3YkEtSngtc2VxUHd2Q2Y4dEZjN0ROSERwNnItUUpJd3BTZ1hRc3JEaW1YZU9QempmMzJKbmRZVHJKNUZpdWc4T2xPVlI3anRzZHBBaHl3YVB0M1VRSFZWeTkwVERUNVlQcEhyM1R1YVJ3d3d3aHdYeG0zS2NEUF9aZE8yNExCOGJTOW9xdEJ1M2MwV2NodmtRS18xQ3VJWGpjd09VMUE?oc=5",
     "date": "16 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Immobilier neuf : prix en baisse dans 8 villes sur 10, Paris -7,45 %",
-    "resume": "Les prix de l'immobilier neuf reculent dans 8 villes sur 10, avec une chute marquée de 7,45 % à Paris.",
-    "source": "Mediaterranee.com",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY3RiR2tLS212NlI1RFh4Z0JBbGZ4R19fWV9VSU9qM1h6dG01ZUZCUm1lYWRnOHgzSFVhS0NFMXdQMzVWNFlHeHVYc1ozR1psOXB1TGRyMEFrYTV5UFlMQmRZNVlremZlNU10aElvTVFhVGpzdzA4T2R4TmZLREI3dnNkM0VmX2t4aVdRTjZlYzJhTjZac2ZGdkpvVVZXdXdqeEdQTWtUMA?oc=5",
+    "titre": "Immobilier neuf 2026 : ventes en chute de 24 %, alerte pour 2027",
+    "resume": "Les ventes de logements neufs s'effondrent de 24 % en 2026, entraînant des inquiétudes pour l'année 2027.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR1Rla1A4aGJsUmU0bl9fcVZuQzJpMm9NWmcyNk5OMmZZMkZ6MHdnTjZhOWtSWG1mOHFxODdHRGpaTFpKdXdpVmo0UGxMN3Q1NU9faXlVX214elpTQXoxdEg1SXI3d1BGVGNTZ2RkQUdzeTQtVDBVa29vNGN4NVpBeEd2NzdkdERyWE1pc0g0eDYzSzZ3RVUtTS01ZTljWG1QRHNmajN4WlFCZ2I3MEc1MXo5RUg?oc=5",
     "date": "16 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Crise du logement : le projet de loi examiné ce lundi à l’Assemblée nationale",
-    "resume": "L'Assemblée nationale examine un projet de loi visant à créer un choc de l'offre pour relancer la construction et la rénovation.",
-    "source": "Sud Ouest",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMS12dC00THo1MkVwSnlONHZSRHE5eEtlS3BKeFBLcFplY2cyaW9nbjV0NERlTE4wcG5rc0h4blZWbnpkYVlCM0RkWnAtUm9kUjRVWVNIM185MnJ3bXFrM1h0SEJ4UzN6dXQxXzJySWhfU01QVzU1WjI0MnQtbS1MWlUwVFQ1VjNteTRIWi1KTk1DelB3endRZUN4WWhYcHo3YVNOTHdNVmJXM2VyWmFLVUJfZDhiSHZtZ0p0ek05Q0xGeS00QjRWLS0yUzQ?oc=5",
+    "titre": "Fonds immobiliers grand public au 3ème trimestre 2026 : les SCPI collectent encore, la valeur des parts recule",
+    "resume": "Au troisième trimestre 2026, les SCPI continuent d'attirer des capitaux, mais la valeur de leurs parts diminue.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOY3g0UlNlSWdxUEh5a2dRSl9ELWl4T0J4dUN1Z245U1FHYmR4a2JmVnB4aVczT2x6TWZoTkd4NWlyN3ZxQWJ1WXR1VUMzQUhxTlhyVmdSSE9EZXRGbmdlclF1Q3FaU3ZRbThxWkFQa0t2cGJZQUdzbkNUQ2NpZkJLZElHZUVQMGtpYU9VUFFxUnJlQ2JRTWhuSXdLaWdBLVBnM2xuYjdaNUM4UWlQYTVJVnRNMHVoaFI3OTVwQzNIT3UwVDg5VjBXYWtFREhiRnJjNGF3UmU2bEh2TUJ2MC1YSXFOVkxGdUtGOGdsNFMzVU8zLThwMExFVmhmOWF5NUdlVFQxRTFiclRTTlV6SXVIYmNxbVVKcE9f?oc=5",
+    "date": "16 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Vous avez moins de 35 ans ? Édouard Philippe veut supprimer vos «frais de notaire» pour acheter un logement",
+    "resume": "Une proposition politique vise à supprimer les frais de notaire pour les acheteurs de moins de 35 ans afin de soutenir leur pouvoir d'achat immobilier.",
+    "source": "Capital.fr",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM0NndVB6RlFlSFI2MlIzcGY5ZWlPMVlVTHVSN2ctSEFIT0UtRG9VYzBlR2ExWmJKQ0liTE1jLV9UaEpNdE9CdjBubERKNTQtRVFfMGR0dGYzbWo3QUhvWXJvRUZyWTdQY3cxWmctWlpWWTRjXzRLc0ZlVThLQVJMNFlUZ2d0U0pZUTRpS1hETEtZc3NrX3Y1MXVqZC05TjlJWXRlZDFxSDJCa3lfNEpnWXZrTmw2cEtKaUVydU1XZXlaaGNneUVmeEQxaVYyRjJXZzNtMnZEMWtCWlZwRWc?oc=5",
+    "date": "16 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Passoires thermiques F et G : cette dérogation surprise qui annule l'interdiction de location initialement prévue pour 2028",
+    "resume": "Une dérogation surprise pourrait annuler l'interdiction de location prévue pour 2028 concernant les logements classés F et G au DPE.",
+    "source": "Bourse Inside",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMEdsdVZodjNTWUQ3LWRJZXdwdDdkTVVKSUloaGRRQVlyRGV5cW9EaTY2TGVqOTBtcXRfeXFCN1BnQ28tSGhOUmdVN25RWUljVVJHdTRhUldGTEJIUmpZanYtSXlSQnFSNlVSSnhOMnNuaU1FVGdBczdzNThtWUlUZVIwdGJyVWE5eFZjOFY4ZVJPSF95NjRodkFwR0pvdFRUeXZUU2JOSjc0eWhZRHpFMXdPYWtxTzItMktXa1RsaXBLX3VMR3lSeDhBOGM5cWo0MnlYaHlrRGpKeUlGYm5JS3dVTGc3Ykc3N0NCTw?oc=5",
     "date": "16 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Il veut supprimer les frais de notaires pour les moins de 35 ans, bâtir 4 millions de logements en 10 ans: Édouard Philippe détaille son programme pour répondre à la crise immobilière",
-    "resume": "Édouard Philippe propose de supprimer les frais de notaire pour les moins de 35 ans et de construire 4 millions de logements en 10 ans.",
-    "source": "BFM",
-    "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxONXpmNk1DVDhOMTVJNGl2aFhKcXFMbDEtX0VmUnhWb3hBRlNRa01UdkU4WUNqRzRsVjFKUHVBUVdsa0NKZnBJeUlIV29ha2ZBMnoxQXVNWVhBQnB5QWc5Y3htb3kwcWRGaVRoTkdrWXJIOEhnRDVNWEJoV01lU3ZEUzBTRXJaWnh2NkprVlRLbTk5TXNZZDA1a3FUMDNheDlTQWhaV3d4aWZ3T1E4WkxlbFo4VnlaQ2FkV21DcFRtRTJ0c0UwZDVpM1hiZnFXa2F1TG1RVUJNUlR2aGltalF6bUN3cC00Sk1JU3M3RWNIeWhiUDUwSlJkU2dZSWQyTlc5SXRudE55aTRkdE1SWjFuVFlQenRnNkpySkp2WFBWT3FuQ2M3Yy0tVVF0ZncwZXVtUFo0ZHlJT1hKS2FxUXRNZUF0d2d0eTdaZXNnQ3pKSU15dnZVUWc?oc=5",
-    "date": "16 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Des logements classés F ou G pourraient être remis à la location dès 2028: l'Assemblée nationale examine un projet de loi du gouvernement décrié par les associations de locataires et la gauche",
-    "resume": "Une dérogation pourrait permettre de remettre en location des logements classés F ou G dès 2028, malgré l'interdiction initiale.",
-    "source": "BFM",
-    "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQWmNWcWRvVHdzaGxVSEhxeXhndWhPUVlWMkZjTXVpMUdNTFdDclRnV1JVYzhpVW5MRE5DUEJkY3h2UTBneDd1Y1NEQmhrd1pSbk5BdUFnZFcxVklIb2xWeHpqNFRwWnMzN3h2SFRQRHFjdWtsUWg1bGFVTUJhb1VkcnVJWjQxV1pudDE5RnZ1T3RkbHhISzNGVFAwNEp2XzVzN1lUSmhCLTlkOU1CRlFrbUp3bUEzUWdpdkVoZC1fNG1uTHVkOXk5LTdMUGlmVXRxN3g4SkZZNktHYzgyVGliR2NSX2V3MDVVOS1LX2JXMmRfMlhsRGYwZS01bV9ZRkxaVVIxLTg4Zl9YZmNfUzdGR0FMUFVOSTkwa1hLYkIxcmZ4NUx0Q081ZEdMWXA2RnRmOUx6N1VHYVczNU01bkxDeUlHYmhZWmt2TVBoMVlYa3MySVZldFQtY0RnbU1QX1FueWt3?oc=5",
-    "date": "16 nov.",
-    "impact": "hausse"
-   },
-   {
     "titre": "Combien d’impôt économiser en achetant un logement à louer ? Le gouvernement lance un simulateur officiel",
-    "resume": "Le gouvernement a mis en ligne un simulateur officiel pour estimer les économies d'impôt liées à l'investissement locatif.",
+    "resume": "Le gouvernement a lancé un simulateur officiel pour permettre aux investisseurs d'estimer les économies d'impôt liées à l'achat d'un bien locatif.",
     "source": "Capital.fr",
     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQX0NCWDFBUEhhOVBVYW03aDlaTndJdTg0cEx2N1gxUHV4SWoyMkVlSFFqa1dtXzVTQ0dESU1Xa2d6aGlWZTk2SVlVaWw4SEhsd2ktRDkzSDgzcnFXZEozVTFBR0Z5VE5wejFDT0h1WnlYUU5EVEJDVmxYbEtUejZTS1ZjcEc3MkZDVmpnRWJEZDB3TThxd0lDY2swVVJ2bmxqSld2VHBuX2lrSUtuejBMR284SEtLeGpMbm0tQUlZN2lpT1V6Z2EtVUI2Vm1LVTg1ZVNGa0taR0k3Yk94?oc=5",
     "date": "16 nov.",
@@ -351,31 +351,31 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
+    "titre": "Taux immobilier novembre 2026 à Saint-Jean-de-Védas : 4 %",
+    "resume": "À Saint-Jean-de-Védas, le taux immobilier s'établit à 4 % en novembre 2026.",
+    "source": "Orpi",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWpZWTRjY2FIUzExSHB6aGMzLW5lTnZtbnQ3QWxYWjBvaTAxeVFtSE9FYzljdmJqWWpYd01ETS1SQXphYW5yS3BoNlhiQUZwU2M1a0wzeEVYTk5MNzNlQ1BVWnF3Z1cwU1cyNkhEZ2pVYWdtelFDbGRIZVFqMi1ac0V3VXpaTFhrTDJWVmFJVTluNUtmdUhN?oc=5",
+    "date": "16 nov.",
+    "pourquoi": "Cette donnée locale précise illustre concrètement la hausse des taux et permet de comparer avec les moyennes nationales.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Seuil de l’IFI : à partir de combien paye-t-on l’impôt sur le patrimoine immobilier ?",
+    "resume": "Le seuil de l'Impôt sur la Fortune Immobilière (IFI) est rappelé dans un contexte de variation des prix.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQeUpXal9HMkVVX0VaMFlSRXJFajBNMnJRMXhQenA1d3ZMS0R0S1ZQR2pNVDREYVNaQ2tPOTVrczlYaGxaVkFjUkRNc1lET0JXUXE0aV9fbWpPQXFQaFVTdUxxZlUyLXJtSWtvWnBzM1JsUVNLM1FndGdqX0dKcms3VThNZkNkWDNadnk5a09WZ2t6blpzNFF4aFZMckRlS0x1NWNYNnE0cEpQSHRJamVGdzFfSm11Y0JzVUI1Z2lCWXJISE5NbFhRX2tYTjZYdEVicEJqNUhrM05WWFc3cVllVXZralBBRGRWdkdyWnVzTzBSYVJLZHfSAfYBQVVfeXFMUHlKV2pfRzJFVV9FWjBZUkVyRWowTTJyUTF4UHpwNXd2TEtEdEtWUEdqTVQ0RGFTWkNrTzk1a3M5WGhsWlZBY1JETXNZRE9CV1FxNGlfX21qT0FxUGhVU3VMcWZVMi1ybUlrb1pwczNSbFFTSzNRZ3Rnal9HSnJrN1U4TWZDZFgzWnZ5OWtPVmdrem5aczRReGhWTHJEZUtMdTVjWDZxNHBKUEh0SWplRncxX0ptdWNCc1VCNWdpQllySEhOTWxYUV9rWE42WHRFYnBCajVIazNOVlhXN3FZZVV2a2pQQURkVnZHclp1c08wUmFSS2R3?oc=5",
+    "date": "16 nov.",
+    "pourquoi": "Utile pour les investisseurs dont le patrimoine approche le seuil d'imposition, impactant directement leur rendement net.",
+    "impact": "flat"
+   },
+   {
     "titre": "Icade: +6,5 % en une semaine, faut-il croire au rebond de la foncière?",
     "resume": "L'action de la foncière Icade a progressé de 6,5 % en une semaine.",
     "source": "Boursorama",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOa2xEWDA3Qlh1dkpJN1hqS1Z4Q2g3T2JndS10YUM2MGZYRE5JTVV3WjBIN3oyaVFsUmlGSHZqNS12ODQwRVFqWHBRQVJfR1V3MnVUM3hUUTY1c2tOVEpJbkFkbTFYRTgxOXVodFhjLWllSkNsZ0FURFl0MTY4cEhrM0xVRlEyeFFxTnFEek1MVjh1eEdDNGxCNzVSYzE0OVZORDA2ek4zT2Q4ejVBZGdzU2pQSlZlcVJTODNSY2xFZHJ0UEwtRGVQdERxbEExcU8wc0R0eHVneWJFMTZJNFBV0gHfAUFVX3lxTE5rbERYMDdCWHV2Skk3WGpLVnhDaDdPYmd1LXRhQzYwZlhETklNVXdaMEg3ejJpUWxSaUZIdmo1LXY4NDBFUWpYcFFBUl9HVXcydVQzeFRRNjVza05USkluQWRtMVhFODE5dWh0WGMtaWVKQ2xnQVREWXQxNjhwSGszTFVGUTJ4UXFOcUR6TUxWOHV4R0M0bEI3NVJjMTQ5Vk5EMDZ6TjNPZDh6NUFkZ3NTalBKVmVxUlM4M1JjbEVkcnRQTC1EZVB0RHFsQTFxTzBzRHR4dWd5YkUxNkk0UFU?oc=5",
     "date": "16 nov.",
-    "pourquoi": "Cela pourrait signaler un regain d'intérêt pour les foncières cotées (SIIC) après une période difficile. À surveiller pour les investisseurs en bourse.",
+    "pourquoi": "Ce signal peut indiquer un regain d'intérêt pour les foncières cotées, à surveiller par rapport au marché physique.",
     "impact": "hausse"
-   },
-   {
-    "titre": "Immobilier : Ces 5 villes où les maisons se vendent à moins de 1 100 €/m²",
-    "resume": "Des maisons se vendent à moins de 1 100 €/m² dans cinq villes françaises.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzVlpjcWJyaFJLemY3M25TTVZVTVdSLVM3NExvbllpTHdOWlpPd3NrX3pGOG9obmtvakgteDhMejZiXzBmWWNFd0FGQ29pTXpWMWdHcFlCZlo5ankwTjV6ZFQwUWliZEprT2NQbFlLWkFxY1NvZnJKNy16SUpsM3c?oc=5",
-    "date": "16 nov.",
-    "pourquoi": "Utile pour dénicher des marchés de niche avec un ticket d'entrée faible, potentiellement pour du rendement locatif.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Taxe logements vacants Paris 2027 : jusqu’à 60 %, faut-il vendre ?",
-    "resume": "La taxe sur les logements vacants pourrait atteindre 60 % à Paris en 2027.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdlFBMWNsRm1PRFl1V3hJMGlQZHRUbEtlR1RveXQzbWd0a2xuWmZiWDZObTQ3SzdCa1J3NjlsYXluYWJqS2hCR0tVNm15c2R2ak5JcTNLeFZIdTRKMm9LVEkyRTJEeUxmQ2ljdFJTUkN0WHlqWERlamxxM0xyaFdnM3NvQXZPVXcxd0hyZmF1TmxiRmo5S2FZemg5R0Z3ODI2YXdldFVsV1ZjOE11QUlWUDE4RQ?oc=5",
-    "date": "16 nov.",
-    "pourquoi": "Cette forte hausse de la fiscalité pourrait inciter des propriétaires à vendre, augmentant l'offre sur ce marché.",
-    "impact": "baisse"
    }
   ]
  }
