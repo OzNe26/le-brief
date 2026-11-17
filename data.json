@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-17T07:23:46+00:00",
-  "resume": "La journée est marquée par une forte mobilisation dans la fonction publique française et des débats politiques tendus sur les retraites et le pouvoir d'achat. À l'international, la guerre en Ukraine s'intensifie avec des frappes ciblées sur des infrastructures, tandis que des rumeurs de sommet entre Donald Trump et Kim Jong-un émergent. Dans le secteur technologique, Nvidia présente un nouveau GPU malgré le départ de son dirigeant et Apple fait face à un procès en France pour obsolescence programmée.",
+  "updatedAt": "2026-11-17T11:27:41+00:00",
+  "resume": "La journée est marquée par la présentation du projet de réforme des retraites du Rassemblement national et par des tensions persistantes entre la France et la Russie concernant l'Ukraine. En économie, la Commission européenne abaisse ses prévisions de croissance pour la France, tandis que le secteur de la tech voit Intel poursuivi par ses actionnaires et SFR lancer une nouvelle box. Le commerce en ligne est également actif avec la fin du Singles' Day et des pannes signalées chez Boulanger.",
   "chiffres": [],
   "items": [
    {
-    "titre": "DIRECT. Colère sociale: entre 250.000 et 360.000 manifestants attendus partout en France, Sophie Binet appelle à un \"maximum de grèves\"",
-    "resume": "Une importante journée de grève et de manifestations touche la fonction publique en France, les syndicats réclamant des hausses de salaires face à l'inflation.",
-    "source": "BFM",
-    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPRFk2MEZnYmFqV0txX1BHOUt1dVR3QVJzLUdhUjBnYXZoM1dlNDFPNUFtWkpvMHZLVzY3TWxjWVpFbGZuVFMtV19lS0twVzVWRzU3T1BPaTdDcHJOMWNrM1lHWW95SHV4T1NkOHB3Vkl4RkdyemJIa2x2aTNwYi1TSmM1RllsV2NtWDZPcGUzQmVBeW9MQkpCR3EwVERvVFdsLS1ETlZMX09Ob1ZQektGUllRNUptZHFNU2QtaWpuMFJ4Q0ZVWm0zNFI1eEZuV2FxQ1J6VF8tWC1VNkphT0JiMnFiU2pZOWhsaEdUN0JXbFlIZkhxczVib1M2VzZKZWt3ZmlIUjZOUGIyOFluUWU0eXFJTnlINHBsclFkaFZSTFM?oc=5",
+    "titre": "Le RN souhaite \"diviser par deux\" le déficit du système des retraites d'ici 2032",
+    "resume": "Le Rassemblement national a dévoilé son projet de réforme des retraites, prévoyant un départ entre 60 et 62 ans et l'introduction d'une part de capitalisation.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/politique/video-le-rn-souhaite-diviser-par-deux-le-deficit-du-systeme-des-retraites-d-ici-2032_VN-202611170490.html",
     "date": "17 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "La Russie frappe deux ponts majeurs à Kiev, l'Ukraine cible à nouveau la Crimée",
-    "resume": "Le conflit en Ukraine se poursuit avec des attaques russes sur des ponts à Kiev et des frappes ukrainiennes contre le pont de Crimée.",
+    "titre": "Soldats français déployés en Ukraine: Moscou y voit une «participation directe» au conflit",
+    "resume": "Moscou considère la présence de soldats français en Ukraine pour des missions de formation comme une participation directe au conflit.",
     "source": "RFI",
-    "url": "https://www.rfi.fr/fr/europe/20261117-la-russie-frappe-deux-ponts-majeurs-%C3%A0-kiev-l-ukraine-cible-%C3%A0-nouveau-la-crim%C3%A9e",
+    "url": "https://www.rfi.fr/fr/europe/20261117-soldats-fran%C3%A7ais-d%C3%A9ploy%C3%A9s-en-ukraine-moscou-y-voit-une-participation-directe-au-conflit",
     "date": "17 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "« Inside Deutsche Bank » : les secrets inavouables du géant bancaire révélés par 15 millions de documents confidentiels",
-    "resume": "Une enquête journalistique internationale révèle, grâce à 15 millions de documents, que Deutsche Bank aurait facilité des opérations douteuses pour des oligarques russes et Jeffrey Epstein.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/17/inside-deutsche-bank-les-secrets-inavouables-du-geant-bancaire-reveles-par-15-millions-de-documents-confidentiels_6812911_4355770.html",
+    "titre": "Seulement 0,6% de croissance en 2027: Bruxelles dégrade fortement ses prévisions pour la France et anticipe une inflation encore élevée",
+    "resume": "La Commission européenne a fortement dégradé ses prévisions de croissance pour la France, anticipant seulement 0,6% en 2027.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/seulement-0-6-de-croissance-en-2027-bruxelles-degrade-fortement-ses-previsions-pour-la-france-et-anticipe-une-inflation-encore-elevee_AV-202611170486.html",
     "date": "17 nov.",
     "impact": "flat",
     "categorie": "Économie"
    },
    {
-    "titre": "Sans Jensen Huang, Nvidia présente quand même son prochain GPU record",
-    "resume": "Nvidia a dévoilé Rubin HPC, un GPU surpuissant prévu pour 2028, peu après la démission de son PDG historique Jensen Huang.",
+    "titre": "Intel traîné en justice par ses actionnaires, la firme est accusée d’avoir minimisé l’impact des faibles ventes de PC",
+    "resume": "Intel fait face à une action en justice de la part d'actionnaires qui l'accusent d'avoir minimisé l'impact de la baisse des ventes de PC.",
     "source": "Frandroid",
-    "url": "https://www.frandroid.com/marques/3325663_sans-jensen-huang-nvidia-presente-quand-meme-son-prochain-gpu-record",
+    "url": "https://www.frandroid.com/marques/intel/3325947_intel-traine-en-justice-par-ses-actionnaires-la-firme-est-accusee-davoir-minimise-limpact-des-faibles-ventes-de-pc",
     "date": "17 nov.",
     "impact": "flat",
     "categorie": "Tech"
    },
    {
-    "titre": "Le Sénat rejette la désindexation des retraites sur l'inflation prévue dans le budget de la Sécurité sociale",
-    "resume": "Le Sénat a rejeté la proposition gouvernementale de désindexer les pensions de retraite sur l'inflation dans le cadre du budget de la Sécurité sociale.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/economie/budget/le-senat-rejette-la-desindexation-des-retraites-sur-l-inflation-prevue-dans-le-budget-de-la-securite-sociale_8286014.html#xtor=RSS-3-[lestitres]",
+    "titre": "La Commission européenne resserre l’étau sur Temu, le géant chinois de l’e-commerce, pour non respect des normes de l’UE",
+    "resume": "La Commission européenne accentue la pression sur le site d'e-commerce Temu, accusé de vendre des produits illégaux et dangereux.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-commission-europeenne-resserre-l-etau-sur-temu-le-geant-chinois-de-l-e-commerce-pour-non-respect-des-normes-de-l-ue_6812960_3234.html",
     "date": "17 nov.",
     "impact": "flat",
-    "categorie": "France"
+    "categorie": "Économie"
    },
    {
-    "titre": "GTA 6 donne un aperçu de sa météo particulièrement réaliste avec six nouvelles images",
-    "resume": "Le jeu vidéo GTA 6, dont la sortie est imminente, a dévoilé de nouvelles images mettant en avant le réalisme de sa météo dynamique.",
+    "titre": "Le site Boulanger tombe en panne en plein Black Friday : ce que l’on sait",
+    "resume": "Le site marchand Boulanger a subi une panne importante ce mardi, rendant ses pages produits inaccessibles en pleine période de promotions.",
     "source": "Numerama",
-    "url": "https://www.numerama.com/pop-culture/2375909-gta-6-devoile-six-nouvelles-images-et-donne-un-apercu-de-sa-meteo-particulierement-realiste.html",
+    "url": "https://www.numerama.com/tech/2376611-le-site-boulanger-tombe-en-panne-en-plein-black-friday-ce-que-lon-sait.html",
     "date": "17 nov.",
     "impact": "flat",
-    "categorie": "Culture"
+    "categorie": "Tech"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-17T07:23:46+00:00",
-  "resume": "Le marché des cryptomonnaies subit une pression baissière, le Bitcoin oscillant autour des 65 000 dollars dans un contexte macroéconomique incertain marqué par des craintes sur les taux et les résultats de Nvidia. Malgré des sorties massives des ETF Bitcoin, certains analystes restent optimistes à long terme. Par ailleurs, la sécurité est mise à l'épreuve par plusieurs piratages et la découverte d'un malware affectant de nombreux sites.",
+  "updatedAt": "2026-11-17T11:27:41+00:00",
+  "resume": "Le marché des cryptomonnaies connaît une période de volatilité, le Bitcoin se stabilisant autour de 65 000 dollars après une récente chute. Malgré la baisse des cours, de grandes entreprises comme Strategy et Strive continuent d'accumuler du Bitcoin, tandis que les produits financiers liés à l'Ether attirent des investissements institutionnels. Parallèlement, le secteur est marqué par des cyberattaques sophistiquées et des développements réglementaires importants aux États-Unis.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,80 +93,89 @@
   ],
   "items": [
    {
-    "titre": "Ce n’est pas un crash crypto, les paris sur la hausse des taux de la Fed pèsent sur tous les marchés",
-    "resume": "La chute généralisée des marchés, incluant le Bitcoin, l'or et les actions, est attribuée à l'augmentation des anticipations de hausse des taux par la Réserve fédérale américaine.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/crash-crypto-paris-fed-taux/",
-    "date": "16 nov.",
+    "titre": "\"Un coup de pouce orange\": le géant américain Strategy achète 485 bitcoins à 33 millions de dollars, profitant de la chute de la reine des cryptomonnaies",
+    "resume": "La société Strategy a profité de la baisse du marché pour acquérir 485 bitcoins supplémentaires pour un montant de 33 millions de dollars.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOMjVJREVGMWNDc2x4ZC1leHZxUGlrN3NXZEhnbF9iRUdoX1JWTU5BRnprVEh5M0NpYnVQaXRrR0FZZ3N1aHNhT2NBR1ZPbVBETkVDalAydndNb0N1cHFkVUlodExWcFpqUHlGeFQ5enI3d2U4QVJjRV81cnNfTG00a1JPT2lFSEM1b1hVcVhGUVk0aER2QTRhVDhlSWllNmxvcWtibVE2MXM5Vkh4czRINGliSkoyNjJuejdNUTFDWjIzcTA0aXlyVW9rRmJLcFBkaGdKcmRrdVlFRXd6ZHZVQmpnNXo4aU9hZnBHWGs4cUZ4dlU3dmVnNFJCZHN6WmxIcHlqWWk5UnNQZWE2Z2FyUUxnWl9scnJSd0I5Q3pWSzFkamRMQjJPMThXZzdIa1RQ?oc=5",
+    "date": "17 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Stablecoins : 12 milliards envolés en 30 jours, la pire saignée depuis Terra-Luna",
+    "resume": "Une importante vague de retraits a touché les stablecoins, avec 12 milliards de dollars sortis en un mois, signalant une possible prise de profits par les traders.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/stablecoins-12-milliards-envoles-30-jours-pire-depuis-terra-luna/",
+    "date": "17 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Goldman Sachs fait état de 1,22 milliard de dollars d’ETF Ether alors que le nombre d’actions ETHA bondit",
+    "resume": "Goldman Sachs a déclaré détenir 1,22 milliard de dollars en ETF Ether, témoignant d'un intérêt institutionnel croissant pour la deuxième cryptomonnaie.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sWnBiekd3QXhwOWp6ODFFd1BsTnRzakNwcjltaUV6ZVlyTm9VWVVZaUsxMTdfUmF5MUY2U0hUUTU3QUg4em5YeHNub2lZcWxySXdINmdCMWtlY1BMeVRDMDQza2l5QnNLN01CRHdSaw?oc=5",
+    "date": "17 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Ledger, HSBC, Zoom et 175 autres sites ciblés par un malware de substitution d'adresse crypto",
+    "resume": "Une cyberattaque d'envergure a ciblé 178 organisations, dont Ledger et HSBC, en utilisant un malware pour remplacer les adresses de portefeuilles crypto.",
+    "source": "BeInCrypto FR",
+    "url": "https://fr.beincrypto.com/optimizely-attaque-registre-hsbc-crypto-malware/",
+    "date": "17 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Backpack : la CFTC agrée la première bourse de dérivés sur blockchain des États-Unis",
+    "resume": "La CFTC a agréé Backpack comme première bourse de dérivés sur blockchain aux États-Unis, permettant le trading de contrats perpétuels 24h/24.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/exchanges/backpack-cftc-premiere-bourse-derives-blockchain-etats-unis/",
+    "date": "17 nov.",
+    "impact": "hausse"
+   },
+   {
     "titre": "ETF Bitcoin: -1,07 Md$ en une semaine, -2,35 Md$ en deux semaines",
-    "resume": "Les ETF Bitcoin ont enregistré des sorties nettes importantes, totalisant plus d'un milliard de dollars en une semaine et plus de deux milliards sur deux semaines.",
+    "resume": "Les ETF Bitcoin ont enregistré d'importantes sorties de capitaux, totalisant plus de 2 milliards de dollars sur les deux dernières semaines.",
     "source": "Bitcoin News",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUEkwUkZjUnNZRjFqVGhuX2l5MmdyUGRwWGxmTlEyT0pfLXM4dFlfSW93Mk50cmxFaENmbHpONDNwaU5aTW05dGRJSFVpemJKV0RRQk43eWNTSVFBY1R6TnFvWkNmX1ZHN2IyTXBzMGNHbmpzQl9xbU1JR2s4ZkZUZlR2RGJoTzRFVmdwM21iUG1TQnB4M3pqQXY2TU1FRV9NRlE?oc=5",
     "date": "17 nov.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Optimjack : 178 sites dont Ledger ont servi un malware voleur de cryptos pendant 17 heures",
-    "resume": "Un malware nommé Optimjack a infecté 178 sites, dont celui de Ledger, pendant 17 heures, permettant de substituer des adresses de cryptomonnaies lors de transactions.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/optimjack-ledger-178-sites-malware-crypto/",
-    "date": "17 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Solana 1.0 : la blockchain enterre son étiquette beta après presque sept ans",
-    "resume": "La blockchain Solana a officiellement quitté sa phase bêta après sept ans, sans changement technique pour les utilisateurs, marquant une étape symbolique de maturité.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/solana/solana-1-0-blockchain-enterre-etiquette-beta/",
-    "date": "16 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Crypto : 6,45 millions de dollars siphonnés d’un multisig Gnosis Safe",
-    "resume": "Un coffre multisig Gnosis Safe a été victime d'un siphonnage de 6,45 millions de dollars en raison de permissions mal configurées dans un module.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/gnosis-safe-crypto-6-45-millions-dollars/",
-    "date": "17 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Crypto : Tether Gold (XAU₮) décroche un audit sans réserve de KPMG",
-    "resume": "Tether Gold a obtenu un audit sans réserve de KPMG, confirmant la présence physique de plus de 520 000 onces d'or adossées à son jeton XAU₮.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/economie/crypto-tether-gold-audit-kpmg/",
-    "date": "17 nov.",
-    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "3 déblocages de tokens à surveiller lors de la troisième semaine de novembre 2026",
-    "resume": "Trois déblocages de tokens sont prévus pour la troisième semaine de novembre 2026.",
-    "source": "BeInCrypto",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX1V4SE5yZGtsQjBJSVY5WFdZMzg0Sm13VTY0SFU3ZzBNbUtycmZidE8zQ0tlUTNSbFA2RE1ib0hrVGJFekFfU2RfUEdVcUY1MFR0X29Zc29wOXJuN2pkSzBCSS11dU5mY0pQdndsZmJ4ODYwWmJmT2QxNkxUOTZjQw?oc=5",
+    "titre": "XRP : La Banque Nationale du Canada investit dans un ETF Bitwise",
+    "resume": "La Banque Nationale du Canada a révélé détenir des parts dans l'ETF XRP de Bitwise.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/xrp-la-banque-nationale-du-canada-investit-dans-un-etf-bitwise/",
     "date": "17 nov.",
-    "pourquoi": "Ces événements augmentent l'offre en circulation, ce qui peut potentiellement impacter le cours des actifs concernés.",
+    "pourquoi": "Cela indique une adoption institutionnelle, même modeste, pour le XRP au-delà des États-Unis. À surveiller pour l'action du prix du XRP.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Shiba Inu atteint son prix le plus bas depuis mai 2021 : le meme coin est-il mort ?",
+    "resume": "Le meme coin Shiba Inu (SHIB) a atteint son prix le plus bas depuis mai 2021.",
+    "source": "BeInCrypto FR",
+    "url": "https://fr.beincrypto.com/shiba-inu-prix-plus-bas-deux-mille-vingt-et-un/",
+    "date": "17 nov.",
+    "pourquoi": "Ce signal montre une désaffection marquée pour certains meme coins. Utile pour évaluer le sentiment de risque sur le secteur des altcoins spéculatifs.",
     "impact": "baisse"
    },
    {
-    "titre": "Ethereum : l’EIP-8037 de Vitalik Buterin veut freiner l’explosion de l’état du réseau",
-    "resume": "Vitalik Buterin soutient l'EIP-8037 pour augmenter le coût de création de nouveaux comptes sur Ethereum.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/ethereum/eip-8037-ethereum-vitalik-buterin-freiner-explosion/",
-    "date": "16 nov.",
-    "pourquoi": "Cette proposition vise à limiter la croissance de l'état du réseau, ce qui pourrait influencer les frais de gaz et l'évolutivité d'Ethereum.",
-    "impact": "flat"
+    "titre": "Trezor : fuite des données de 27 000 commandes en lien à son partenaire d'expédition",
+    "resume": "Le fabricant de portefeuilles Trezor a annoncé une fuite de données concernant 27 000 commandes.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/trezor-fuite-donnees-commandes-lien-partenaire-expedition/",
+    "date": "17 nov.",
+    "pourquoi": "Cette faille de sécurité chez un partenaire logistique peut affecter la confiance dans les solutions de garde à froid. Impact potentiel sur la réputation de la marque.",
+    "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-17T07:23:46+00:00",
-  "resume": "Les analystes ont ajusté de nombreuses recommandations sur des actions américaines, tandis que Morgan Stanley et Barclays prévoient une hausse du S&P 500 pour 2027. Chevron est proche d'un accord d'acquisition majeur et Dassault Systèmes affiche ses ambitions de croissance à long terme. Le Bitcoin reste stable sous les 65 000 dollars.",
+  "updatedAt": "2026-11-17T11:27:41+00:00",
+  "resume": "Les marchés boursiers européens, dont le CAC 40, reculent dans l'attente des résultats de Nvidia, tandis que le dollar grimpe face à la perspective d'un resserrement monétaire de la Fed. L'optimisme pour les actions européennes est pourtant à son plus haut depuis février, malgré des prévisions d'inflation persistante en zone euro. Plusieurs entreprises comme Amer Sports relèvent leurs prévisions, contrastant avec les difficultés de Stellantis ou Deutsche Bank.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -195,50 +204,50 @@
   ],
   "items": [
    {
-    "titre": "Prévision S&P 500 2027 : Morgan Stanley et Barclays à 8 700",
-    "resume": "Morgan Stanley et Barclays anticipent une forte progression de l'indice S&P 500, visant les 8 700 points d'ici 2027.",
-    "source": "Admirals",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORVdCZWJ0TkZyeEo4MERoaFlUam9lZ2RvY3E3cXQ1MExGa0phQnJmQUZTRkhNMzRIVDdFRk5kSjlaQ0d6OVB6M3YyU09zZ2pNY1BmazczVEt0dGxNNkc1LXZaX3VvbTdvVkxUbmgzUk5GRHFScC0wcjdXc3NRYWNmLVRXZlYweVA5c3RLNjRBOHBZWllGRjVmTkNnaVFlQndMR1Y0OHFZbzQ2dw?oc=5",
-    "date": "17 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Chevron proche d’un accord de 5 milliards $ pour Beacon Offshore Energy",
-    "resume": "Chevron finalise un accord de 5 milliards de dollars pour acquérir Beacon Offshore Energy, renforçant sa présence dans le secteur.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/chevron-proche-dun-accord-de-5-milliards--pour-beacon-offshore-energy-3699391",
-    "date": "17 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "HSBC relève la note de Cisco Systems Inc sur les perspectives de croissance de l’IA",
-    "resume": "HSBC a relevé sa recommandation sur Cisco Systems, misant sur le potentiel de croissance lié à l'intelligence artificielle.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/analyst-ratings/hsbc-releve-la-note-de-cisco-systems-inc-sur-les-perspectives-de-croissance-de-lia-93CH-3699425",
-    "date": "17 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Dassault Systèmes vise une croissance à deux chiffres d’ici 2029",
-    "resume": "Dassault Systèmes a annoncé viser une croissance à deux chiffres de son activité à l'horizon 2029.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/dassault-systemes-vise-une-croissance-a-deux-chiffres-dici-2029-3699386",
-    "date": "17 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "JPMorgan abaisse sa recommandation sur Tyson Foods à neutre en raison de la valorisation",
-    "resume": "JPMorgan a abaissé sa note sur Tyson Foods, estimant que la valorisation actuelle de l'action est déjà élevée.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/analyst-ratings/jpmorgan-abaisse-sa-recommandation-sur-tyson-foods-a-neutre-en-raison-de-la-valorisation-93CH-3699449",
+    "titre": "CAC 40 : la Bourse chute, les résultats de Nvidia auront de lourdes répercussions sur tout le secteur de l’IA",
+    "resume": "Le CAC 40 et les valeurs technologiques reculent, le marché anticipant un impact majeur des prochains résultats de Nvidia sur le secteur de l'intelligence artificielle.",
+    "source": "Yahoo Finance France",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTTZ3OGNnZG1XQXp3bmxCTm5MbHFsdnJnV1dNT0tjMUFlMlkwTThxcHB3ZzB3M3lUSDhjbC1qS2l6MXJvb3Z2Ymh2eC1LbExkcFZNd1lVMjVHd3ZFOVU2dEtpbkJyR19vUnlfeXpkWmQ0YzhFM2gzMXoxSFZKeUl1c01TNmNyeFlkYnhFNk1HOG1EUm8?oc=5",
     "date": "17 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le Bitcoin reste sous les 65.000$ malgré les achats de Strategy",
-    "resume": "Malgré des achats continus de la part de MicroStrategy, le cours du Bitcoin ne parvient pas à franchir la barre des 65 000 dollars.",
+    "titre": "Le dollar au sommet de 19 mois grâce au spectre d'un resserrement de la Fed",
+    "resume": "Le dollar atteint un sommet de 19 mois, soutenu par la possibilité que la Réserve fédérale américaine accélère son resserrement monétaire.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYm9vT3VwaFFwS3FEdWJRa1VRYWlYMEVYaHpuT0FKbGlpWUR1elQ1dlVnUmFlc21seHdmWWVybEN1Q2hzU1k5MWZpR05OaWdGMTdwaERXUDE4RnFKTFRiZkFud2gzcVpzaE1rSlFfbEZZM2tybEFTWjdhbnp3ZnhtZFJNX1ZWREJNajdySWl0S3M5NEFvNFhBSjVPYy05dGRPa2RIZm9iZklmbFZuaEtzei1EcnJCN0luQkI3Y1JCdHNBSEczTDB3Q0ZwY3d1Y2JELWo0SVkwemE2ZWhpLTd1eDhKTklyMlFKZExnNWdB0gHuAUFVX3lxTE9ib29PdXBoUXBLcUR1YlFrVVFhaVgwRVhoem5PQUpsaWlZRHV6VDV2VWdSYWVzbWx4d2ZZZXJsQ3VDaHNTWTkxZmlHTk5pZ0YxN3BoRFdQMThGcUpMVGJmQW53aDNxWnNoTWtKUV9sRlkza3JsQVNaN2FuendmeG1kUk1fVlZEQk1qN3JJaXRLczk0QW80WEFKNU9jLTl0ZE9rZEhmb2JmSWZsVm5oS3N6LURyckI3SW5CQjdjUkJ0c0FIRzNMMHdDRnBjd3VjYkQtajRJWTB6YTZlaGktN3V4OEpOSXIyUUpkTGc1Z0E?oc=5",
+    "date": "17 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Deutsche Bank : Elle voulait gagner toujours plus d'argent avec les riches Russes... La très embarrassante enquête qui fait chuter Deutsche Bank en Bourse",
+    "resume": "L'action Deutsche Bank chute suite à des révélations sur une enquête concernant ses liens d'affaires avec de riches clients russes.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/deutsche-bank-DE0005140008/actualites/deutsche-bank-elle-voulait-gagner-toujours-plus-d-argent-avec-les-riches-russes-la-tres-embarrassante-enquete-qui-fait-chuter-deutsche-bank-en-bourse-1173905.html",
+    "date": "17 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Amer Sports dépasse les attentes du T3 et relève ses prévisions annuelles",
+    "resume": "Amer Sports a dépassé les attentes au troisième trimestre et a revu à la hausse ses prévisions pour l'ensemble de l'année.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/cryptocurrency-news/le-bitcoin-reste-sous-les-65000-malgre-les-achats-de-strategy-3699411",
+    "url": "https://fr.investing.com/news/earnings/amer-sports-depasse-les-attentes-du-t3-et-releve-ses-previsions-annuelles-93CH-3699851",
+    "date": "17 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "L’action Stellantis NV touche de nouveaux plus bas historiques après la dégradation d’Oddo BHF",
+    "resume": "Le titre Stellantis a touché de nouveaux plus bas historiques après une dégradation de la part d'Oddo BHF.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/laction-stellantis-nv-touche-de-nouveaux-plus-bas-historiques-apres-la-degradation-doddo-bhf-93CH-3699698",
+    "date": "17 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "La Commission européenne prévoit une inflation supérieure à 3% dans la zone euro jusqu’en 2027",
+    "resume": "La Commission européenne anticipe une inflation supérieure à 3% dans la zone euro jusqu'en 2027.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/economic-indicators/la-commission-europeenne-prevoit-une-inflation-superieure-a-3-dans-la-zone-euro-jusquen-2027-3699735",
     "date": "17 nov.",
     "impact": "flat"
    }
@@ -247,118 +256,90 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Smart Eye AB affiche un EBIT positif grâce à la hausse des revenus de redevances",
-    "resume": "Smart Eye AB a enregistré un résultat d'exploitation positif grâce à l'augmentation de ses revenus de redevances.",
+    "titre": "Zinzino AB : la croissance des bénéfices au T3 2026 propulse l’action de 7 %",
+    "resume": "L'action Zinzino AB a bondi de 7% après l'annonce d'une croissance de ses bénéfices au troisième trimestre.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/smart-eye-ab-affiche-un-ebit-positif-grace-a-la-hausse-des-revenus-de-redevances-93CH-3699415",
+    "url": "https://fr.investing.com/news/transcripts/zinzino-ab--la-croissance-des-benefices-au-t3-2026-propulse-laction-de-7--93CH-3699693",
     "date": "17 nov.",
-    "pourquoi": "Cela indique une rentabilité améliorée pour cette petite valeur technologique, à surveiller pour le secteur des logiciels spécialisés.",
+    "pourquoi": "Cela signale une dynamique positive pour cette petite capitalisation, à surveiller dans le secteur de la vente directe.",
     "impact": "hausse"
    },
    {
-    "titre": "GEA Group AG émet une obligation convertible de 300 millions d’euros à échéance 2031",
-    "resume": "GEA Group AG a émis une obligation convertible de 300 millions d'euros à échéance 2031.",
+    "titre": "Sinochem réduit sa participation dans Pirelli & C SPA à 13,5%",
+    "resume": "Sinochem a réduit sa participation dans le fabricant de pneus Pirelli à 13,5%.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/gea-group-ag-emet-une-obligation-convertible-de-300-millions-deuros-a-echeance-2031-93CH-3699427",
+    "url": "https://fr.investing.com/news/stock-market-news/sinochem-reduit-sa-participation-dans-pirelli--c-spa-a-135-93CH-3699799",
     "date": "17 nov.",
-    "pourquoi": "Cette opération de financement peut influencer le cours de l'action en raison de la dilution potentielle future ou de la réduction des coûts de la dette.",
-    "impact": "flat"
+    "pourquoi": "Ce désengagement d'un actionnaire majeur peut influencer le cours de Pirelli et modifier sa gouvernance.",
+    "impact": "baisse"
    },
    {
-    "titre": "Eramet divisée par deux en novembre : opportunité ou piège ?",
-    "resume": "L'action Eramet a vu sa valeur divisée par deux au cours du mois de novembre.",
+    "titre": "Le président de NetSol Technologies Inc achète pour 17.120$ d’actions",
+    "resume": "Le président de NetSol Technologies Inc a acheté pour 17.120$ d'actions de sa propre entreprise.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/eramet-divisee-par-deux-en-novembre--opportunite-ou-piege--3699290",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-president-de-netsol-technologies-inc-achete-pour-17120-dactions-93CH-3699714",
     "date": "17 nov.",
-    "pourquoi": "Une telle chute pour une valeur minière peut signaler des difficultés sectorielles profondes ou constituer un point d'entrée pour certains investisseurs.",
-    "impact": "baisse"
+    "pourquoi": "Les achats d'initiés sont souvent perçus comme un signal de confiance dans les perspectives de la société.",
+    "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-17T07:23:46+00:00",
-  "resume": "Le marché immobilier français reste marqué par l'incertitude des acteurs et des prix qui ne baissent pas, tandis que le budget 2027 et la prochaine élection présidentielle alimentent les débats sur la fiscalité et les aides comme le PTZ. Face à la crise du logement, certaines collectivités locales prennent des initiatives sans attendre l'État. En parallèle, des situations complexes apparaissent, comme la mise en vente de biens squattés ou des risques de ventes aux enchères en cas de désaccord familial.",
+  "updatedAt": "2026-11-17T11:27:41+00:00",
+  "resume": "Le marché immobilier français fait face à des incertitudes persistantes, alimentées par la crainte d'une nouvelle contraction des crédits malgré des taux à 3,49 % en octobre. Les débats budgétaires sur la fiscalité du LMNP et les propositions des candidats à la présidentielle 2027 concernant le logement créent un climat d'attentisme chez les acheteurs. Localement, des initiatives émergent face à la crise, tandis que Paris cherche de nouvelles recettes fiscales pour éviter d'augmenter la taxe foncière.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Immobilier : pourquoi les prix ne baissent pas",
-    "resume": "Malgré la crise, les prix de l'immobilier en France ne connaissent pas de baisse significative.",
-    "source": "l'Opinion",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWUZDMzBiOURFVmxuSEFCSkdfbzlxN09iVDNmM2hlWmRBQW1FSjRrMTE5OHJKRDIybkJnN3hGMXFGQ0loNXdFTmp2R0FXX2RRZGlXUlE5czJDVFV0OGI4eUVrZGFnVjQ5ZHF5TjdqVEQ1MVd6eU1tckM2dXR3OEk2aElTbw?oc=5",
-    "date": "16 nov.",
+    "titre": "Crédit immobilier : les taux atteignent 3,49 % en octobre",
+    "resume": "Les taux de crédit immobilier se sont établis en moyenne à 3,49 % pour le mois d'octobre.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN2EzMi1ORVF6dFRvX2VGVkd3ZzgtTncyakxSSlU0V1F1REM0U0xIQUFTVFJyNTkyaTAxcjdFWXJVWHlWQ3diSF90dW8zQ19nbTk1MVZ3WVFrT3h2a2ZuR3RGQkdsM2JMbW9XalZibl9iSUJfS2xuMDBfS1JMTHRDYWxpS2JzMVJTSEpPbkdNLWRzV2QwZ1BSRENrSzFxU0xJTjRLYWRRQWFFaEwyQkE?oc=5",
+    "date": "17 nov.",
     "impact": "flat"
    },
    {
-    "titre": "\"J'ai jamais vu autant de gens incertains\" : le secteur immobilier de Franche-Comté en attente de meilleurs lendemains",
-    "resume": "En Franche-Comté, le secteur immobilier est paralysé par une incertitude sans précédent chez les acheteurs et vendeurs.",
-    "source": "ici.fr",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZm5kMGpucnBQcG5yUkhLYTJaV01BallMNFpVZ1RpWjRuZEFiYlVhcTVtdnBrYU1wRndieU03YnRvYVFzTS1nTjBvMzFUOUxtTm5wemFaUkVTTFJCNURjTXFJZXlhRWg1UVpvdjhRVkRKX3F5NWJ6Y3hNMlBvQ2tFOGNUOENCZncxZjN6R01HNXVTekdkUjUwbmpfVjdOYlFpOHpZbWs4M0RWVjZYZkhYX3hQX2ZSV0tvbi1Jc3FsSTlLTVljS25Rd1ROTEJuNkhRNkhsU01pd29DRWFUVzRkLS1fVEQycGVsOGlVQTBPUTI0cVAySHgybXYxNTlHY2NwMnN3SDQ4OUc?oc=5",
+    "titre": "Crédits immobiliers : ces chiffres qui laissent craindre une nouvelle phase de contraction",
+    "resume": "De nouveaux indicateurs laissent présager une possible période de contraction pour l'octroi de prêts immobiliers.",
+    "source": "L'Alsace",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTmFkSWkzOEQySzhzS3owYzFwdVRDT19tZWJ0UHdvTFRVVnhMUTgxT3luTDUtQ0h0VEJndlo4SFNjV05MU2Zqd201TmcwMFV3WVRxbWl2dE8wLTJ1cHlLaVowSTBWc2szSDY0emc5MUNhUUVYaG9aRVNRcmVSR0d6a1NwSUdZQmU5TURibHBMaTkxR0p6ZEJsMDdtdHNIMEdjaG1kZldoRTFrR1pkYlNQX3RGRUJodjFxa1V2UkhGVnp6V20xMUlsWDVIQ2JSWGZYX0hoS3l1MWtSUQ?oc=5",
     "date": "17 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "PTZ et Budget 2027 : les règles à vérifier avant achat",
-    "resume": "Les futures règles du Prêt à Taux Zéro (PTZ) dans le budget 2027 sont à surveiller attentivement avant tout projet d'achat.",
-    "source": "https://www.leconseilpatrimoine.fr/",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ25hSUtjVUFKcF9lMF9rMTREN3VRMzRNNTc5c3dBd25oTFNFWVFfb01xWkdxdDA2d2xsaWlyVktrQ2ViT3k2amJDQkYtMWpJWkF0elI2cndmSk4yWnNySktOZ05WcUVpemZoVVY5WFNrME9jbjhsOEZuekZrWXg4TTFoZ1diN0NoQkZWc0N6bU13NG5lUGdJU19tVVZDRFU?oc=5",
-    "date": "16 nov.",
-    "impact": "flat"
+    "titre": "Budget 2027 : « Abîmer le statut du loueur en meublé non professionnel, une erreur historique », Édouard Morlot (UNIS)",
+    "resume": "Le secteur immobilier s'inquiète d'une réforme potentielle du statut LMNP dans le budget 2027, jugée néfaste pour l'investissement locatif.",
+    "source": "MySweetImmo",
+    "url": "https://www.mysweetimmo.com/2026/11/17/lmnp-reforme-budget-2027-erreur-historique-edouard-morlot-unis/",
+    "date": "17 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Immobilier : la présidentielle 2027 freine les achats",
+    "resume": "L'approche de l'élection présidentielle de 2027 semble inciter les acheteurs à la prudence, freinant le volume des transactions.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLTJ4QTlzWndjM0pmN3NYNmRpR2ktVVJvQkdlTmRKeEVlVmRXclQ5bjdPaDJGbnFBdmpMWFpVS3MwU2pnT1FBRE1KOVZZeTdUS3FSam9BMW8wOWN2WElYVWkySFdXUmEyU1prQlo2QUxOUFFFdTl5Z2lIb3daS0pQcXhoU3UtVTZWS0NhZ1FjYmNxYU1RR0U0OV9XckNJbGdYZWhjaHhDUktzQnNhVkd1aF9nX0M?oc=5",
+    "date": "17 nov.",
+    "impact": "baisse"
    },
    {
     "titre": "Taxe sur les logements, stationnement… Ces nouvelles recettes que chasse la Ville de Paris pour éviter d’augmenter la taxe foncière",
-    "resume": "La Ville de Paris cherche de nouvelles recettes fiscales, notamment sur les logements, pour éviter d'augmenter la taxe foncière.",
+    "resume": "La Ville de Paris envisage de nouvelles taxes, notamment sur les logements, pour compenser la stabilité de la taxe foncière.",
     "source": "Le Parisien",
     "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPVjZOVG5ub3p6UktDWEZabzkyV2VpVDdMdU1wWDFRMlBQX2tmam9CUHlzcndvc0w4bjRESGFUaU1kd29jUTdhMjVaWU1jLWtzblBKZ0FZdlNfbDNvUHRNQTF5QTYtQ0JiNGV4dTJPQkk2aEdEVXQ4YWZnVTkzTFBFSXNCX013TEZGZXlpRm1LU3RiY3ZQUFZobTYzZ3RKX2M1anhvQ2hTRFlQMWJRdnc0LV9xUU4yNWxkaFduc2tUNEh2eDZ2dkpoQnZHV3NWWTh2NTZ6Wl9PSlZqRktLUjNOR3NKOHBTU3U0ZzV3b2c1S1AzUWxJeDhrYndlYkRfbWV3dXVPUGdiNER2QWhpcGpWM2dNMk1DZ0FNZU93cjh5VWIzRjloWURnNWxaRjVTQQ?oc=5",
     "date": "17 nov.",
     "impact": "flat"
    },
    {
-    "titre": "La suppression des frais de notaires s’invite (encore) dans la campagne électorale",
-    "resume": "La suppression des frais de notaire redevient un sujet de débat dans le cadre de la campagne électorale.",
-    "source": "Figaro Immobilier",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdWdLejdkRW8yNUhkZ21Pd2Y5VTh4SG9KTU9Rc0hYMENPTDVFWkdsWEIyckdXRnNjTDllLTc1bkJNcDk1a1JuN3hnWXNzT1c4bU1jc19zQ1pyVFI4VzlCMGEtckZsQUZhYVJKc2V6VGU3aktibFdUaWhwTzVsMkdmV1JlNEIyVF9EcGRnc2c0dTZ5RjduMHNzaUtKSnFoYTFJQVU4RDR6R1hWUnNzNTJ2UTRyT0lkc3VVQi1lOGYySkpLeWdBaklj?oc=5",
+    "titre": "Immobilier Paris : 9 passoires thermiques sur 10 pourraient être rénovées sans chantier dans tout l’immeuble",
+    "resume": "À Paris, l'immense majorité des logements considérés comme des passoires thermiques pourraient être rénovés individuellement.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaDd2SEVCYWZLNTRpZE9YcTc5V0NVajlRdHFrN2tvVDYtUjR2U2k2VFExdzUxaWd0Q2xJdDBXWUlWV2JWZGpjS182Snk2M3h6LXlZNUQtU0VDVEI4NTd1S3dzbWs3ZGVIamItM3JBbzJidDZsRjlHQUEwMWtUY1pRNVJmLXBhVUdkS1JubHU5OHhvQ241LWpOa1VnQ1RaY21FSW1TRFYtX0dpZTg5RUVDeEZ1UFRwMzF3UzlwVS1EYUpJM1F2WEVtcmFJaU5yN09leDlSOFFoUUdfRk03Rmc?oc=5",
     "date": "17 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "\"Impossible de le visiter\" car \"occupé illégalement\" : une agence immobilière met en vente un appartement... squatté",
-    "resume": "Une agence immobilière propose à la vente un appartement occupé illégalement et impossible à visiter.",
-    "source": "L'Indépendant",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYWZLVF9UcjlkdGtGZnJVTUx5RmFPTzBoVEM5YXNUanU1TGdWNUxLeE5hVUE3LUdPangzSll6Q1JibE10b3QzTXQ5QTRqZjFuZGJ2cGczQ3NIWHdiMnZmWVdaUDNJSmdQT3MwYUNZR0F0aW9pZTRzaUg5X3k5MjRLSFA1ZzR1V0ZTaXFrTjdfUXlJZWtKQnZvLVFBMUQ4cjFIZ1h0anhkeUZ0clpKNUxWMFVadzBLS0F4NDRac180YkZaOGVOU0NNM1JFV2x5U19WOGJYcF9fbmFKRi1fSDFIR1JMSWk3MEtIcnUzamtoaC0?oc=5",
-    "date": "17 nov.",
-    "impact": "baisse"
+    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
-  "niche": [
-   {
-    "titre": "Une église désacralisée à 107 500 € sur Leboncoin : 4 étapes avant d'en faire un logement",
-    "resume": "Une église désacralisée est mise en vente pour 107 500 € sur Leboncoin.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oaTRPd1dNZWVVb3V6N2FHVzgxUFVsTEozMUo3WkUyckNJSmRJTEJxbkJBUEZxNmdBV25pNkExWmhJYXV5SXAzMzVSZUpZM2RYOXlMdllR?oc=5",
-    "date": "17 nov.",
-    "pourquoi": "Cela montre des opportunités de transformation atypiques à bas coût, à condition de maîtriser les étapes de conversion en logement.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Une notaire alerte les parents dont les enfants ne s'entendent pas : la maison familiale risque d'être vendue aux enchères",
-    "resume": "Une notaire alerte sur le risque de vente aux enchères de la maison familiale en cas de mésentente entre héritiers.",
-    "source": "Figaro Immobilier",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0tHRUNBeXNPT1VHQ0R0aHZMeWhJOXFYU2FWY3oxWm9RSktyb2pSZkNLbXVXbnJ0bEwzUmFuZHhRSXEzZzRYeEJkbEVoLURId3pFN0JCNDh3eW01SGNzQ21sT1Zici1rX0FjMFhCRHozU0ZDZGd4MlJ1VlpscVVRa1lTM1dKYzl1REI4U1VwemVDUnJVWHpRaHNyVF9Md2dkU3UydEZ3S3ZzSUZXaGFzYXBPU1dySkk?oc=5",
-    "date": "17 nov.",
-    "pourquoi": "Pour un investisseur, cela souligne l'importance de la structuration patrimoniale (type SCI) pour éviter le blocage et la vente forcée.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Mobili-Jeune : les 5 conditions pour toucher l'aide au loyer pendant l'alternance - www.actual-immo.fr",
-    "resume": "L'aide Mobili-Jeune propose 5 conditions pour soutenir le paiement du loyer des alternants.",
-    "source": "www.actual-immo.fr",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42OS1TVzlGSnY0U1JndFJocTFvcDJmeTgyLTN5S21OVVdEbGYycUtzOEZ6ckR1aDNzNFdhSnMwTlVhSW4tVHJYX2dGY1U3Z3NBMFE?oc=5",
-    "date": "16 nov.",
-    "pourquoi": "Cette aide peut sécuriser les revenus locatifs des propriétaires louant à des jeunes en formation.",
-    "impact": "flat"
-   }
-  ]
+  "niche": []
  }
 }
