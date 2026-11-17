@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T16:09:16+00:00",
+ "updatedAt": "2026-11-17T19:15:19+00:00",
  "radios": [
   {
    "label": "franceinfo",
@@ -590,6 +590,13 @@
    "spotify": "",
    "episodes": [
     {
+     "title": "Voiture : comment l'électrique brise son plafond de verre",
+     "date": "2026-11-17T16:27:41+00:00",
+     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6afc800e35c678c2f9dab428/media.mp3",
+     "duration": "17:30",
+     "desc": "Après une hausse significative cet été, l’engouement pour la voiture électrique se confirme à l’automne. La hausse des prix du carburant semble pousser les français vers l’électrique, un marché qui stagnait depuis des chiffres pourtant prometteurs en 2023 . De…"
+    },
+    {
      "title": "DZ Mafia : le procès sous haute tension d'un triple assassinat",
      "date": "2026-11-16T17:23:36+00:00",
      "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6afb34a678aa9711d518fe74/media.mp3",
@@ -623,13 +630,6 @@
      "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6af3447df0bd631dcaa942e0/media.mp3",
      "duration": "19:39",
      "desc": "Depuis des décennies, la France vit au-dessus de ses moyens. Sa dette publique atteint près de 3 600 milliards d’euros, soit 119% de son PIB. Crise financière de 2008, pandémie mondiale, guerre en Ukraine… L’économie française est fortement touchée par les évé…"
-    },
-    {
-     "title": "Scandale du périscolaire : sur le terrain, la situation a-t-elle changé ?",
-     "date": "2026-11-09T16:29:16+00:00",
-     "audio": "https://sphinx.acast.com/p/acast/s/code-source/e/6af1f438b6f318089679f540/media.mp3",
-     "duration": "20:44",
-     "desc": "Vincent Mongaillard, reporter pour Le Parisien, signe un second reportage en immersion dans le secteur du périscolaire. Au moyen d’un CV arrangé, le journaliste devient animateur, sans aucune formation ni expérience. Son constat est criant : vu de l’intérieur,…"
     }
    ]
   },
@@ -860,46 +860,46 @@
    "spotify": "",
    "episodes": [
     {
-     "title": "L’IPO d’Anthropic, le test grandeur nature de l’IA en Bourse – 17/11",
-     "date": "2026-11-17T16:05:53+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/d3e236cd-db00-4de1-8cbe-0a0bb31402f2/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=d3e236cd-db00-4de1-8cbe-0a0bb31402f2&category=Business%2CNews&episode_published_at=2026-11-17T16%3A05%3A53&episode_title=L%E2%80%99IPO+d%E2%80%99Anthropic%2C+le+test+grandeur+nature+de+l%E2%80%99IA+en+Bourse+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:07:07",
-     "desc": "Ce mardi 17 novembre, Nicolas Domnesques, conseiller en gestion de patrimoine, créateur de contenu « Nicolas Finance », s'est penché sur l'introduction en Bourse d'Anthropic, la valorisation de l'entreprise, et la stratégie pour investir sur Anthropic, dans l'…"
+     "title": "Le point sur le portefeuille trading – 17/11",
+     "date": "2026-11-17T17:36:53+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/9d04fd14-bd99-4b78-958d-ee11ccafa014/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=9d04fd14-bd99-4b78-958d-ee11ccafa014&category=Business%2CNews&episode_published_at=2026-11-17T17%3A36%3A53&episode_title=Le+point+sur+le+portefeuille+trading+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:01:41",
+     "desc": "Ce mardi 17 novembre, retrouvez le portefeuille trading en replay sur BFM Business."
     },
     {
-     "title": "Mythomètre : \"Le chômage en France s'est quasi stabilité au T3, c'est un bon signe\", FAUX répond Thibault Prébay – 17/11",
-     "date": "2026-11-17T16:03:51+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/e1fd9576-17b0-45d0-9e27-c8d5b2b139e7/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=e1fd9576-17b0-45d0-9e27-c8d5b2b139e7&category=Business%2CNews&episode_published_at=2026-11-17T16%3A03%3A51&episode_title=Mythom%C3%A8tre+%3A+%22Le+ch%C3%B4mage+en+France+s%27est+quasi+stabilit%C3%A9+au+T3%2C+c%27est+un+bon+signe%22%2C+FAUX+r%C3%A9pond+Thibault+Pr%C3%A9bay+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:06:29",
-     "desc": "Mythomètre : \"Le chômage en France s'est quasi stabilité au T3 : c'est un bon signe\""
+     "title": "L'intégrale de BFM Bourse du mardi 17 novembre",
+     "date": "2026-11-17T17:15:22+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/17ec2cba-974e-4e5b-aac2-9a5ae70dde32/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=17ec2cba-974e-4e5b-aac2-9a5ae70dde32&category=Business%2CNews&episode_published_at=2026-11-17T17%3A15%3A22&episode_title=L%27int%C3%A9grale+de+BFM+Bourse+du+mardi+17+novembre&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "01:45:40",
+     "desc": "Ce mardi 17 novembre, Antoine Larigaudrie, journaliste BFM Business, Adrien Henry, analyste marché chez Kepler Cheuvreux, Romain Burnand, gérant chez Moneta, Victor Lequillerier, économiste et vice-président du think tank \"BSI Economics\", Nicolas Domnesques, c…"
+    },
+    {
+     "title": "On refait la séance : Deutsche Bank recule, rattrapée par son passé sulfureux après la publication d’une enquête – 17/11",
+     "date": "2026-11-17T17:01:42+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/bb5904f4-65c5-42bc-8e77-b75b85d044f0/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=bb5904f4-65c5-42bc-8e77-b75b85d044f0&category=Business%2CNews&episode_published_at=2026-11-17T17%3A01%3A42&episode_title=On+refait+la+s%C3%A9ance+%3A+Deutsche+Bank+recule%2C+rattrap%C3%A9e+par+son+pass%C3%A9+sulfureux+apr%C3%A8s+la+publication+d%E2%80%99une+enqu%C3%AAte+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:10:21",
+     "desc": "Ce mardi 17 novembre, Adrien Henry, analyste marché chez Kepler Cheuvreux, Andrea Tueni, sales trader chez Saxo Banque, et Antoine Larigaudrie, journaliste BFM Business, ont débriefé la séance du jour, dans l'émission BFM Bourse présentée par Guillaume Sommere…"
     },
     {
      "title": "Les seuils techniques incontournables sur les marchés et les valeurs – 17/11",
-     "date": "2026-11-17T15:54:13+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/eb7339e0-e1a0-4fbf-acf8-407ca2c68c0f/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=eb7339e0-e1a0-4fbf-acf8-407ca2c68c0f&category=Business%2CNews&episode_published_at=2026-11-17T15%3A54%3A13&episode_title=Les+seuils+techniques+incontournables+sur+les+march%C3%A9s+et+les+valeurs+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:03:42",
+     "date": "2026-11-17T16:52:20+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/976d292e-8c4b-4f81-a464-434693d0afab/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=976d292e-8c4b-4f81-a464-434693d0afab&category=Business%2CNews&episode_published_at=2026-11-17T16%3A52%3A20&episode_title=Les+seuils+techniques+incontournables+sur+les+march%C3%A9s+et+les+valeurs+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:00:43",
      "desc": "Ce mardi 17 novembre, retrouvez Alerte Trader en replay sur BFM Business."
     },
     {
-     "title": "L'éco du monde : Indicateur du jour, les ventes au détail US – 19/11",
-     "date": "2026-11-17T15:37:43+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/89fa0edf-a26c-44d2-acfb-e2452afe7fb6/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=89fa0edf-a26c-44d2-acfb-e2452afe7fb6&category=Business%2CNews&episode_published_at=2026-11-17T15%3A37%3A43&episode_title=L%27%C3%A9co+du+monde+%3A+Indicateur+du+jour%2C+les+ventes+au+d%C3%A9tail+US+%E2%80%93+19%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:04:55",
-     "desc": "Ce mardi 17 novembre, Victor Lequillerier, économiste et vice-président du think tank \"BSI Economics\", a abordé les ventes au détail américaines conformes aux attentes, l’éventualité d’une hausse des taux de la Fed en décembre, ainsi que la montée en ton des É…"
+     "title": "Le Club : La plus forte rotation sectorielle en 25 ans sur les marchés – 17/11",
+     "date": "2026-11-17T16:51:23+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/76121343-79e1-4246-b9ca-4fc26a02ed04/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=76121343-79e1-4246-b9ca-4fc26a02ed04&category=Business%2CNews&episode_published_at=2026-11-17T16%3A51%3A23&episode_title=Le+Club+%3A+La+plus+forte+rotation+sectorielle+en+25+ans+sur+les+march%C3%A9s+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:29:47",
+     "desc": "Ce mardi 17 novembre, Thibault Prebay, auteur, économiste indépendant, Alexandre Tixier, analyste pour le site BFM Bourse, et Ronan Blanc, gérant obligataire chez Montpensier Arbevel, étaient les invités de l'émission BFM Bourse présentée par Guillaume Sommere…"
     },
     {
-     "title": "Valeur ajoutée : Ils apprécient Raiffeisen International – 17/11",
-     "date": "2026-11-17T15:27:41+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/19bc6118-99ca-4df7-a6d5-bee983e85dfd/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=19bc6118-99ca-4df7-a6d5-bee983e85dfd&category=Business%2CNews&episode_published_at=2026-11-17T15%3A27%3A41&episode_title=Valeur+ajout%C3%A9e+%3A+Ils+appr%C3%A9cient+Raiffeisen+International+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:02:49",
-     "desc": "Ce mardi 17 novembre, Romain Burnand, gérant chez Moneta, était l'invité de l'émission BFM Bourse présentée par Guillaume Sommerer. BFM Bourse est à voir ou écouter du lundi au vendredi sur BFM Business."
-    },
-    {
-     "title": "Dassault Systèmes sanctionné en pleine Journée Investisseurs – 17/11",
-     "date": "2026-11-17T15:20:42+00:00",
-     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/c7d4b954-a2cd-4f59-913c-5dbee1a9feee/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=c7d4b954-a2cd-4f59-913c-5dbee1a9feee&category=Business%2CNews&episode_published_at=2026-11-17T15%3A20%3A42&episode_title=Dassault+Syst%C3%A8mes+sanctionn%C3%A9+en+pleine+Journ%C3%A9e+Investisseurs+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
-     "duration": "00:09:12",
-     "desc": "Ce mardi 17 novembre, Adrien Henry, analyste marché chez Kepler Cheuvreux, s'est penché sur Vusion lançant une OPA sur son rival suédois Pricer, la fuite de 15 millions de documents chez Deutsche Bank, ainsi que les valeurs et secteurs à suivre pour la fin d'a…"
+     "title": "La Data Room : 18% = le taux de chômage des moins de 25 ans en Chine – 17/11",
+     "date": "2026-11-17T16:44:51+00:00",
+     "audio": "https://altice.simplecastaudio.com/0b04dddb-f962-4716-b77e-4d3c588b47f5/episodes/33255972-7c42-4d11-8fd1-16719e7fdbb8/audio/128/default.mp3?aid=rss_feed&awCollectionId=0b04dddb-f962-4716-b77e-4d3c588b47f5&awEpisodeId=33255972-7c42-4d11-8fd1-16719e7fdbb8&category=Business%2CNews&episode_published_at=2026-11-17T16%3A44%3A51&episode_title=La+Data+Room+%3A+18%25+%3D+le+taux+de+ch%C3%B4mage+des+moins+de+25+ans+en+Chine+%E2%80%93+17%2F11&feed=dCzX0hyl&network=291091218710&podcast_title=BFM+Bourse",
+     "duration": "00:02:31",
+     "desc": "Ce mardi 17 novembre, retrouvez la Data room en replay sur BFM Business."
     }
    ]
   }
