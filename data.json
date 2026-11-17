@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-17T11:27:41+00:00",
-  "resume": "La journée est marquée par la présentation du projet de réforme des retraites du Rassemblement national et par des tensions persistantes entre la France et la Russie concernant l'Ukraine. En économie, la Commission européenne abaisse ses prévisions de croissance pour la France, tandis que le secteur de la tech voit Intel poursuivi par ses actionnaires et SFR lancer une nouvelle box. Le commerce en ligne est également actif avec la fin du Singles' Day et des pannes signalées chez Boulanger.",
+  "updatedAt": "2026-11-17T16:00:12+00:00",
+  "resume": "La journée est marquée par une mobilisation sociale en France, avec des manifestations et des grèves touchant divers secteurs. À l'international, la tension monte entre la Russie et la France au sujet de l'Ukraine, tandis que Donald Trump s'inquiète d'une menace iranienne. Dans le secteur technologique, la sortie imminente de GTA 6 et les promotions du Black Friday attirent l'attention.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Le RN souhaite \"diviser par deux\" le déficit du système des retraites d'ici 2032",
-    "resume": "Le Rassemblement national a dévoilé son projet de réforme des retraites, prévoyant un départ entre 60 et 62 ans et l'introduction d'une part de capitalisation.",
+    "titre": "Colère sociale et baisse du pouvoir d'achat: \"Tout est une contrainte\", confie Pierre-Paul, éducateur",
+    "resume": "Une nouvelle journée de mobilisation nationale a lieu en France à l'appel de l'intersyndicale, rassemblant des centaines de milliers de manifestants pour protester contre la baisse du pouvoir d'achat.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/politique/video-le-rn-souhaite-diviser-par-deux-le-deficit-du-systeme-des-retraites-d-ici-2032_VN-202611170490.html",
+    "url": "https://www.bfmtv.com/societe/manifestations/video-colere-sociale-et-baisse-du-pouvoir-d-achat-tout-est-une-contrainte-confie-pierre-paul-educateur_VN-202611170702.html",
     "date": "17 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "Soldats français déployés en Ukraine: Moscou y voit une «participation directe» au conflit",
-    "resume": "Moscou considère la présence de soldats français en Ukraine pour des missions de formation comme une participation directe au conflit.",
-    "source": "RFI",
-    "url": "https://www.rfi.fr/fr/europe/20261117-soldats-fran%C3%A7ais-d%C3%A9ploy%C3%A9s-en-ukraine-moscou-y-voit-une-participation-directe-au-conflit",
+    "titre": "EN DIRECT, guerre en Ukraine : la Russie dénonce une « participation directe » de la France au conflit",
+    "resume": "La Russie accuse directement la France de participer au conflit en Ukraine, suite à des informations révélant la présence de militaires français sur le sol ukrainien.",
+    "source": "Le Monde.fr",
+    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNMUFWU2xKUU9vSzRkTGh4TGhiS0NJUmt4SnozNnJLelFBUzVfVEJMWFJzRVFVQXJ6c0dzSFFueGZBMWtmVjhsZVB0Wkd0bFZScjZEMldBUGxwam1ienEwUTJMUzh3SUFtWU9pclVXWEpFX3NFdC1uMjdHYjhvTG9YdXFYaXJTM0FHWE1FNmY3eno5bDBURGxVRjRPV1piVmV5YmJSa3VsN0R1NmVHcGdIUlZ3UlpPeGhtUzluV0xraV92bWNPbjV6Q05ILW1BS1ZwZFItbjV2bTg1RUEzU21IdmpYMFN1MUNUNGJUaFB6U0FQY21fdy1DMkJR?oc=5",
     "date": "17 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Seulement 0,6% de croissance en 2027: Bruxelles dégrade fortement ses prévisions pour la France et anticipe une inflation encore élevée",
-    "resume": "La Commission européenne a fortement dégradé ses prévisions de croissance pour la France, anticipant seulement 0,6% en 2027.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/seulement-0-6-de-croissance-en-2027-bruxelles-degrade-fortement-ses-previsions-pour-la-france-et-anticipe-une-inflation-encore-elevee_AV-202611170486.html",
-    "date": "17 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Intel traîné en justice par ses actionnaires, la firme est accusée d’avoir minimisé l’impact des faibles ventes de PC",
-    "resume": "Intel fait face à une action en justice de la part d'actionnaires qui l'accusent d'avoir minimisé l'impact de la baisse des ventes de PC.",
-    "source": "Frandroid",
-    "url": "https://www.frandroid.com/marques/intel/3325947_intel-traine-en-justice-par-ses-actionnaires-la-firme-est-accusee-davoir-minimise-limpact-des-faibles-ventes-de-pc",
-    "date": "17 nov.",
-    "impact": "flat",
-    "categorie": "Tech"
-   },
-   {
-    "titre": "La Commission européenne resserre l’étau sur Temu, le géant chinois de l’e-commerce, pour non respect des normes de l’UE",
-    "resume": "La Commission européenne accentue la pression sur le site d'e-commerce Temu, accusé de vendre des produits illégaux et dangereux.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-commission-europeenne-resserre-l-etau-sur-temu-le-geant-chinois-de-l-e-commerce-pour-non-respect-des-normes-de-l-ue_6812960_3234.html",
-    "date": "17 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Le site Boulanger tombe en panne en plein Black Friday : ce que l’on sait",
-    "resume": "Le site marchand Boulanger a subi une panne importante ce mardi, rendant ses pages produits inaccessibles en pleine période de promotions.",
+    "titre": "Sortie de GTA 6 en direct : toutes les informations, les astuces et les chiffres",
+    "resume": "Le jeu vidéo très attendu GTA 6 sort ce jeudi sur les consoles de nouvelle génération, treize ans après le précédent opus.",
     "source": "Numerama",
-    "url": "https://www.numerama.com/tech/2376611-le-site-boulanger-tombe-en-panne-en-plein-black-friday-ce-que-lon-sait.html",
+    "url": "https://www.numerama.com/pop-culture/2375431-sortie-de-gta-6-en-direct-toutes-les-informations-les-astuces-et-les-chiffres.html",
     "date": "17 nov.",
     "impact": "flat",
     "categorie": "Tech"
+   },
+   {
+    "titre": "Donald Trump dit \"prendre très au sérieux\" une possible menace d'attaque iranienne à Washington",
+    "resume": "Le président américain Donald Trump prend au sérieux des informations faisant état d'un possible projet d'attentat iranien à la bombe sale à Washington.",
+    "source": "France 24",
+    "url": "https://www.france24.com/fr/am%C3%A9riques/20261117-donald-trump-dit-prendre-tr%C3%A8s-au-s%C3%A9rieux-une-possible-menace-d-attaque-iranienne-%C3%A0-washington",
+    "date": "17 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Black Friday en direct : les promos s’accumulent déjà chez Amazon, Boulanger, Fnac ce mardi (EN DIRECT)",
+    "resume": "À l'approche du Black Friday, les grandes enseignes de e-commerce multiplient déjà les promotions sur de nombreux produits.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/tech/2374925-black-friday-en-direct-amazon-fnac-boulanger-accelerent-voici-les-meilleures-promos-de-ce-mardi.html",
+    "date": "17 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Ce que l’on sait des cinq pays européens qui veulent expulser des migrants au Rwanda",
+    "resume": "Cinq pays européens, dont l'Allemagne et le Danemark, projettent de créer au Rwanda un centre pour regrouper les migrants expulsés de l'Union européenne.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/international/europe/grece/video-ce-que-l-on-sait-des-cinq-pays-europeens-qui-veulent-expulser-des-migrants-au-rwanda_VN-202611170706.html",
+    "date": "17 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-17T11:27:41+00:00",
-  "resume": "Le marché des cryptomonnaies connaît une période de volatilité, le Bitcoin se stabilisant autour de 65 000 dollars après une récente chute. Malgré la baisse des cours, de grandes entreprises comme Strategy et Strive continuent d'accumuler du Bitcoin, tandis que les produits financiers liés à l'Ether attirent des investissements institutionnels. Parallèlement, le secteur est marqué par des cyberattaques sophistiquées et des développements réglementaires importants aux États-Unis.",
+  "updatedAt": "2026-11-17T16:00:12+00:00",
+  "resume": "Le marché des cryptomonnaies connaît une période d'incertitude, le Bitcoin oscillant sous les 65 000 dollars face à des sorties de capitaux importantes des ETF. Malgré la baisse des cours, certains investisseurs institutionnels et grandes entreprises profitent de l'occasion pour accumuler des actifs comme le Bitcoin ou l'Ethereum. Parallèlement, la régulation progresse aux États-Unis avec l'approbation d'une première bourse de dérivés crypto sur la blockchain.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,52 +93,52 @@
   ],
   "items": [
    {
-    "titre": "\"Un coup de pouce orange\": le géant américain Strategy achète 485 bitcoins à 33 millions de dollars, profitant de la chute de la reine des cryptomonnaies",
-    "resume": "La société Strategy a profité de la baisse du marché pour acquérir 485 bitcoins supplémentaires pour un montant de 33 millions de dollars.",
-    "source": "BFM",
-    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOMjVJREVGMWNDc2x4ZC1leHZxUGlrN3NXZEhnbF9iRUdoX1JWTU5BRnprVEh5M0NpYnVQaXRrR0FZZ3N1aHNhT2NBR1ZPbVBETkVDalAydndNb0N1cHFkVUlodExWcFpqUHlGeFQ5enI3d2U4QVJjRV81cnNfTG00a1JPT2lFSEM1b1hVcVhGUVk0aER2QTRhVDhlSWllNmxvcWtibVE2MXM5Vkh4czRINGliSkoyNjJuejdNUTFDWjIzcTA0aXlyVW9rRmJLcFBkaGdKcmRrdVlFRXd6ZHZVQmpnNXo4aU9hZnBHWGs4cUZ4dlU3dmVnNFJCZHN6WmxIcHlqWWk5UnNQZWE2Z2FyUUxnWl9scnJSd0I5Q3pWSzFkamRMQjJPMThXZzdIa1RQ?oc=5",
+    "titre": "BlackRock’s IBIT a mené une sortie de 2,35 milliards de dollars des ETF Bitcoin : les investisseurs abandonnent-ils le BTC trop tôt",
+    "resume": "Les ETF Bitcoin au comptant ont enregistré une sortie massive de 2,35 milliards de dollars, signalant une possible perte de confiance à court terme de certains investisseurs.",
+    "source": "Benzinga France",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTDVrTUxFVndTTmNhR2ExSkNXRUxxdG9uRFZIX093Wk1XMXBudEYxNjB0eXFuZWptLXprdllXTlZaRXpQZWphTUdTS20yXzRFUURMZFRCYmdiRzZlMGFpdEppZjFGaTA4cTQtZHRESWctRHJtR3JnQVBUcDJRRGo4Y1NiTTRUS3RrMjB4c0l5TVNiM1c2eXJyel9iQklCc29yQ01oNnZ6SXVYM2U5MXhyT0RyWHY3ejVtSWJsS0RkTHNXN2dMenpjVFozeWhzOWtBVHBfMGkwQ1lPTFc1Q2w1MlI0YWUtZnpUZVhrblBNbEE?oc=5",
+    "date": "17 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "La CFTC approuve la première bourse de dérivés crypto aux États-Unis",
+    "resume": "La CFTC a approuvé la première bourse de dérivés crypto aux États-Unis, marquant une étape importante pour l'intégration réglementaire des actifs numériques.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HR2dtbi02WjU5Q082bGlyOFM3YXlUQlZVbjJoUTVSZU01X19QSzcyVm5VWEN4eU5BaVdPOTJ4Tm11R2gtaVI1bWcyWkpHYWtZeDVZTC0wRmhTdVJwWmJsbEVFaEVjaGg2SHBaSw?oc=5",
     "date": "17 nov.",
     "impact": "hausse"
    },
    {
+    "titre": "Solana à 1 100 dollars d'ici 2031 grâce aux actions tokenisées",
+    "resume": "Les analystes de Bitwise prédisent que le Solana pourrait atteindre 1 100 dollars d'ici 2031, sous réserve du développement des actions tokenisées.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/solana-1100-dollars-2031-grace-actions-tokenisees/",
+    "date": "17 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Stablecoins : 12 milliards envolés en 30 jours, la pire saignée depuis Terra-Luna",
-    "resume": "Une importante vague de retraits a touché les stablecoins, avec 12 milliards de dollars sortis en un mois, signalant une possible prise de profits par les traders.",
+    "resume": "La capitalisation des stablecoins a chuté de 12 milliards de dollars en un mois, indiquant que les traders préfèrent encaisser leurs gains plutôt que de rester positionnés.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/actualites/stablecoins-12-milliards-envoles-30-jours-pire-depuis-terra-luna/",
     "date": "17 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Goldman Sachs fait état de 1,22 milliard de dollars d’ETF Ether alors que le nombre d’actions ETHA bondit",
-    "resume": "Goldman Sachs a déclaré détenir 1,22 milliard de dollars en ETF Ether, témoignant d'un intérêt institutionnel croissant pour la deuxième cryptomonnaie.",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sWnBiekd3QXhwOWp6ODFFd1BsTnRzakNwcjltaUV6ZVlyTm9VWVVZaUsxMTdfUmF5MUY2U0hUUTU3QUg4em5YeHNub2lZcWxySXdINmdCMWtlY1BMeVRDMDQza2l5QnNLN01CRHdSaw?oc=5",
+    "titre": "\"Un coup de pouce orange\": le géant américain Strategy achète 485 bitcoins à 33 millions de dollars, profitant de la chute de la reine des cryptomonnaies",
+    "resume": "La société Strategy a profité de la baisse du cours pour acquérir 485 bitcoins supplémentaires pour un montant de 33 millions de dollars.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOMjVJREVGMWNDc2x4ZC1leHZxUGlrN3NXZEhnbF9iRUdoX1JWTU5BRnprVEh5M0NpYnVQaXRrR0FZZ3N1aHNhT2NBR1ZPbVBETkVDalAydndNb0N1cHFkVUlodExWcFpqUHlGeFQ5enI3d2U4QVJjRV81cnNfTG00a1JPT2lFSEM1b1hVcVhGUVk0aER2QTRhVDhlSWllNmxvcWtibVE2MXM5Vkh4czRINGliSkoyNjJuejdNUTFDWjIzcTA0aXlyVW9rRmJLcFBkaGdKcmRrdVlFRXd6ZHZVQmpnNXo4aU9hZnBHWGs4cUZ4dlU3dmVnNFJCZHN6WmxIcHlqWWk5UnNQZWE2Z2FyUUxnWl9scnJSd0I5Q3pWSzFkamRMQjJPMThXZzdIa1RQ?oc=5",
     "date": "17 nov.",
-    "impact": "hausse"
+    "impact": "flat"
    },
    {
-    "titre": "Ledger, HSBC, Zoom et 175 autres sites ciblés par un malware de substitution d'adresse crypto",
-    "resume": "Une cyberattaque d'envergure a ciblé 178 organisations, dont Ledger et HSBC, en utilisant un malware pour remplacer les adresses de portefeuilles crypto.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/optimizely-attaque-registre-hsbc-crypto-malware/",
+    "titre": "La mise à niveau Glamsterdam d'Ethereum risque de perturber jusqu'à 15 000 applications automatisées",
+    "resume": "Une prochaine mise à niveau d'Ethereum, nommée Glamsterdam, pourrait perturber le fonctionnement de 15 000 applications automatisées.",
+    "source": "CoinDesk",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbWVJQ2tBUld2b3d4RzNjc0lDX2JSSldtR2F6UmpsTEdYVFpwUlVRMDBtLWc0NXFFdUE0VzJyTWhOV3NrOHRGUDRPUkNxN1JpS2REZzlKaWFlcjE0YXgxVTAzOTNvM1RiVmFMV3VVZXJLOE1yNzNldkZvR3RubUdrWk1BUS1Ma3dFTGhCUld2elMzS0NBS1ptX1BxVlVINlVPeF9ldk9Sdm4zdHpGU1pNU3Vn?oc=5",
     "date": "17 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Backpack : la CFTC agrée la première bourse de dérivés sur blockchain des États-Unis",
-    "resume": "La CFTC a agréé Backpack comme première bourse de dérivés sur blockchain aux États-Unis, permettant le trading de contrats perpétuels 24h/24.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/exchanges/backpack-cftc-premiere-bourse-derives-blockchain-etats-unis/",
-    "date": "17 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "ETF Bitcoin: -1,07 Md$ en une semaine, -2,35 Md$ en deux semaines",
-    "resume": "Les ETF Bitcoin ont enregistré d'importantes sorties de capitaux, totalisant plus de 2 milliards de dollars sur les deux dernières semaines.",
-    "source": "Bitcoin News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUEkwUkZjUnNZRjFqVGhuX2l5MmdyUGRwWGxmTlEyT0pfLXM4dFlfSW93Mk50cmxFaENmbHpONDNwaU5aTW05dGRJSFVpemJKV0RRQk43eWNTSVFBY1R6TnFvWkNmX1ZHN2IyTXBzMGNHbmpzQl9xbU1JR2s4ZkZUZlR2RGJoTzRFVmdwM21iUG1TQnB4M3pqQXY2TU1FRV9NRlE?oc=5",
-    "date": "17 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    }
   ],
   "par": "ia",
@@ -150,32 +150,32 @@
     "source": "Cointribune",
     "url": "https://www.cointribune.com/xrp-la-banque-nationale-du-canada-investit-dans-un-etf-bitwise/",
     "date": "17 nov.",
-    "pourquoi": "Cela indique une adoption institutionnelle, même modeste, pour le XRP au-delà des États-Unis. À surveiller pour l'action du prix du XRP.",
+    "pourquoi": "Cela montre un début d'adoption institutionnelle pour le XRP, actif à surveiller suite à cette exposition d'une grande banque.",
     "impact": "hausse"
    },
    {
+    "titre": "Clapp Finance lance des lignes de crédit crypto pour entreprises : prêts crypto aux entreprises à partir de 1 % TAEG",
+    "resume": "Clapp Finance lance des lignes de crédit crypto pour entreprises à partir de 1 % TAEG.",
+    "source": "Toutleski.com",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNF9Id1E4Y3VOa0VRc3B0RXFmQUhHRUF6YTliek90VmxRc0tMUk9KZWFFejBuVUNZeExxSUdxdWtuckZPWlhzcURzaTJYMnhFdnFTVnd2SnNFNnRfQklSM0RDTU1xcUdncThoZ3FWS0ZFSzZHU3cxV2llMUxubUhhVmtLaHUtSDUwNTYw?oc=5",
+    "date": "17 nov.",
+    "pourquoi": "Cette offre de prêt à faible taux pourrait stimuler l'adoption de la crypto par les entreprises pour leurs besoins de financement.",
+    "impact": "flat"
+   },
+   {
     "titre": "Shiba Inu atteint son prix le plus bas depuis mai 2021 : le meme coin est-il mort ?",
-    "resume": "Le meme coin Shiba Inu (SHIB) a atteint son prix le plus bas depuis mai 2021.",
+    "resume": "Le Shiba Inu a atteint son prix le plus bas depuis mai 2021, formant un 'Death Cross'.",
     "source": "BeInCrypto FR",
     "url": "https://fr.beincrypto.com/shiba-inu-prix-plus-bas-deux-mille-vingt-et-un/",
     "date": "17 nov.",
-    "pourquoi": "Ce signal montre une désaffection marquée pour certains meme coins. Utile pour évaluer le sentiment de risque sur le secteur des altcoins spéculatifs.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Trezor : fuite des données de 27 000 commandes en lien à son partenaire d'expédition",
-    "resume": "Le fabricant de portefeuilles Trezor a annoncé une fuite de données concernant 27 000 commandes.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/trezor-fuite-donnees-commandes-lien-partenaire-expedition/",
-    "date": "17 nov.",
-    "pourquoi": "Cette faille de sécurité chez un partenaire logistique peut affecter la confiance dans les solutions de garde à froid. Impact potentiel sur la réputation de la marque.",
+    "pourquoi": "Ce signal technique baissier sur un memecoin populaire pourrait indiquer une désaffection durable des investisseurs pour ce type d'actif.",
     "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-17T11:27:41+00:00",
-  "resume": "Les marchés boursiers européens, dont le CAC 40, reculent dans l'attente des résultats de Nvidia, tandis que le dollar grimpe face à la perspective d'un resserrement monétaire de la Fed. L'optimisme pour les actions européennes est pourtant à son plus haut depuis février, malgré des prévisions d'inflation persistante en zone euro. Plusieurs entreprises comme Amer Sports relèvent leurs prévisions, contrastant avec les difficultés de Stellantis ou Deutsche Bank.",
+  "updatedAt": "2026-11-17T16:00:12+00:00",
+  "resume": "Wall Street et le CAC 40 reculent aujourd'hui, les investisseurs restant prudents dans l'attente des résultats financiers de Nvidia. Home Depot pèse sur le Dow Jones, tandis que le secteur du luxe plombe l'indice parisien. En macroéconomie, la production industrielle américaine a progressé en octobre, portée par l'automobile et l'intelligence artificielle.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,134 +204,143 @@
   ],
   "items": [
    {
-    "titre": "CAC 40 : la Bourse chute, les résultats de Nvidia auront de lourdes répercussions sur tout le secteur de l’IA",
-    "resume": "Le CAC 40 et les valeurs technologiques reculent, le marché anticipant un impact majeur des prochains résultats de Nvidia sur le secteur de l'intelligence artificielle.",
-    "source": "Yahoo Finance France",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTTZ3OGNnZG1XQXp3bmxCTm5MbHFsdnJnV1dNT0tjMUFlMlkwTThxcHB3ZzB3M3lUSDhjbC1qS2l6MXJvb3Z2Ymh2eC1LbExkcFZNd1lVMjVHd3ZFOVU2dEtpbkJyR19vUnlfeXpkWmQ0YzhFM2gzMXoxSFZKeUl1c01TNmNyeFlkYnhFNk1HOG1EUm8?oc=5",
+    "titre": "Wall Street recule avant les résultats de Nvidia et l’introduction en bourse d’Anthropic",
+    "resume": "Les marchés boursiers américains affichent un repli, l'attention se concentrant sur la publication prochaine des résultats de Nvidia.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQzNzX2UwOXZoaHhzQ3lyeFRRT0NkbUdlckR6NDY0cHJRR25UamhIUDk3VkVmQWlab3VyWU0wVXhPX1djUWVsYnk3UmtkdjkyQTNXeE5EekE1amZTYUpvNmhKMS12VFF1MUZEWms4NU42cGtZWWFyajIxeWQ5VjM3QWRCRVlabjZGUWIzOTNLRVhoUElhNDluc1ZkUm9aZWVnWndjOVREU2tqT1ZQLWhOYnZvTG5LUmpicXpUbDNnZ3hodGFuVHluWGdqdnRHdm9lbkpTTzVadjdHbFZqLWFGSm9aMk4?oc=5",
     "date": "17 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le dollar au sommet de 19 mois grâce au spectre d'un resserrement de la Fed",
-    "resume": "Le dollar atteint un sommet de 19 mois, soutenu par la possibilité que la Réserve fédérale américaine accélère son resserrement monétaire.",
-    "source": "Boursorama",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYm9vT3VwaFFwS3FEdWJRa1VRYWlYMEVYaHpuT0FKbGlpWUR1elQ1dlVnUmFlc21seHdmWWVybEN1Q2hzU1k5MWZpR05OaWdGMTdwaERXUDE4RnFKTFRiZkFud2gzcVpzaE1rSlFfbEZZM2tybEFTWjdhbnp3ZnhtZFJNX1ZWREJNajdySWl0S3M5NEFvNFhBSjVPYy05dGRPa2RIZm9iZklmbFZuaEtzei1EcnJCN0luQkI3Y1JCdHNBSEczTDB3Q0ZwY3d1Y2JELWo0SVkwemE2ZWhpLTd1eDhKTklyMlFKZExnNWdB0gHuAUFVX3lxTE9ib29PdXBoUXBLcUR1YlFrVVFhaVgwRVhoem5PQUpsaWlZRHV6VDV2VWdSYWVzbWx4d2ZZZXJsQ3VDaHNTWTkxZmlHTk5pZ0YxN3BoRFdQMThGcUpMVGJmQW53aDNxWnNoTWtKUV9sRlkza3JsQVNaN2FuendmeG1kUk1fVlZEQk1qN3JJaXRLczk0QW80WEFKNU9jLTl0ZE9rZEhmb2JmSWZsVm5oS3N6LURyckI3SW5CQjdjUkJ0c0FIRzNMMHdDRnBjd3VjYkQtajRJWTB6YTZlaGktN3V4OEpOSXIyUUpkTGc1Z0E?oc=5",
+    "titre": "Le Cac 40 perd plus de 1 %, lesté par le luxe, les marchés se préparent aux comptes de Nvidia",
+    "resume": "Le CAC 40 recule de plus de 1 %, affecté par la mauvaise performance des actions du secteur du luxe.",
+    "source": "Investir Les Echos",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeFZLdnkxNlZ0SFJzVDJ1X0k3cWQ0empQMUpOX0VWc1J6Y2dhRlluYzIyWWRWTHNfdFhZVXRnTC1GQWNFRXNyYmVmYmx0blk2S2NGb1R0QzM0RERYSzcxaENjUkhZbktqdnMzSFMtanVONUxDRGtqWUx6WDRzek5oNHVQcVY2X0JTS1I4Zk9EWHFlYzhac1VUb09odm8zRVdoQVJnSHpVNEZzSzFWR2NHeERkaVc4VDdpZV9wVEphcmlMRUl6bVVsQnc1bHNOdk1UeGdkdWFjYjNFVFZNUm1fdWNyMnlIVHRzWVNzSVNxMzVVUQ?oc=5",
+    "date": "17 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le Dow Jones chute de 337 points alors que Home Depot pèse et le Nasdaq reste stable avant les résultats de Nvidia.",
+    "resume": "L'action Home Depot chute, entraînant une baisse significative de l'indice Dow Jones.",
+    "source": "Quartz en Français",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSDduTjdCQ3h3QWxJTXhLTW1FandmVWEyUENRc0JjMGhxMld1Z3dTUFM1TFZQV1hHVUU4Zk9XS3BERGVKUDhCMFUtM3VKMVRJTXJHMzJsakFpZnVBcUJ2NHRCM285U05tQ1NpMXZ0NFV1ZGJ3akNsZ3NpWnlxNWJuZGNEa1g3VHMzQjd3MS1zZw?oc=5",
+    "date": "17 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "La production industrielle américaine progresse en octobre grâce aux véhicules et à l’IA",
+    "resume": "La production industrielle aux États-Unis a augmenté en octobre, soutenue par les secteurs des véhicules et de l'IA.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/economy-news/la-production-industrielle-americaine-progresse-en-octobre-grace-aux-vehicules-et-a-lia-93CH-3700946",
     "date": "17 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Deutsche Bank : Elle voulait gagner toujours plus d'argent avec les riches Russes... La très embarrassante enquête qui fait chuter Deutsche Bank en Bourse",
-    "resume": "L'action Deutsche Bank chute suite à des révélations sur une enquête concernant ses liens d'affaires avec de riches clients russes.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/deutsche-bank-DE0005140008/actualites/deutsche-bank-elle-voulait-gagner-toujours-plus-d-argent-avec-les-riches-russes-la-tres-embarrassante-enquete-qui-fait-chuter-deutsche-bank-en-bourse-1173905.html",
-    "date": "17 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Amer Sports dépasse les attentes du T3 et relève ses prévisions annuelles",
-    "resume": "Amer Sports a dépassé les attentes au troisième trimestre et a revu à la hausse ses prévisions pour l'ensemble de l'année.",
+    "titre": "Transcript d’appel aux résultats : SimilarWeb Ltd dépasse les prévisions du T3 2026, l’action bondit de 16%",
+    "resume": "L'action SimilarWeb bondit de 16 % après avoir dépassé ses prévisions de résultats pour le troisième trimestre.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/earnings/amer-sports-depasse-les-attentes-du-t3-et-releve-ses-previsions-annuelles-93CH-3699851",
+    "url": "https://fr.investing.com/news/transcripts/transcript-dappel-aux-resultats--similarweb-ltd-depasse-les-previsions-du-t3-2026-laction-bondit-de-16-93CH-3700728",
     "date": "17 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "L’action Stellantis NV touche de nouveaux plus bas historiques après la dégradation d’Oddo BHF",
-    "resume": "Le titre Stellantis a touché de nouveaux plus bas historiques après une dégradation de la part d'Oddo BHF.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/laction-stellantis-nv-touche-de-nouveaux-plus-bas-historiques-apres-la-degradation-doddo-bhf-93CH-3699698",
+    "titre": "L'action Alibaba affiche une dangereuse croix de la mort avant les résultats",
+    "resume": "L'analyse technique signale une configuration baissière dite « croix de la mort » sur l'action Alibaba avant ses résultats.",
+    "source": "Invezz",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVzJBTEk3WDBaS2JiUFZoS1o2TEFKRjlSVDVhc0lfSkJWXzV4aUhzZ21fUkxNak5WaGk0U0x2UEJJc1V3RnRrOXVsNGVKYWhTdTk0eUk4aHpySFJ1aFZ0bWM3c20zVDNZOEtZczJ2akgxbkNRRG5QTWt6eVJxVHd5b0VkXzVDQjFuUlFFLWhuandua1RhZzFsOEx2X0p1bktORThxTUN3QlRQbmNLYmlndENBU1hvM2hJdXNlWQ?oc=5",
     "date": "17 nov.",
     "impact": "baisse"
-   },
-   {
-    "titre": "La Commission européenne prévoit une inflation supérieure à 3% dans la zone euro jusqu’en 2027",
-    "resume": "La Commission européenne anticipe une inflation supérieure à 3% dans la zone euro jusqu'en 2027.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economic-indicators/la-commission-europeenne-prevoit-une-inflation-superieure-a-3-dans-la-zone-euro-jusquen-2027-3699735",
-    "date": "17 nov.",
-    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Zinzino AB : la croissance des bénéfices au T3 2026 propulse l’action de 7 %",
-    "resume": "L'action Zinzino AB a bondi de 7% après l'annonce d'une croissance de ses bénéfices au troisième trimestre.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/zinzino-ab--la-croissance-des-benefices-au-t3-2026-propulse-laction-de-7--93CH-3699693",
+    "titre": "VUSION (ex-SES IMAGOTAG) : À la veille de sa journée investisseurs, Vusion sort de son chapeau une offre de rachat de son concurrent suédois Pricer… pour amortir l'après-Walmart?",
+    "resume": "Vusion envisage de racheter son concurrent suédois Pricer.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/vusion-ex-ses-imagotag-FR0010282822/actualites/vusion-ex-ses-imagotag-a-la-veille-de-sa-journee-investisseurs-vusion-sort-de-son-chapeau-une-offre-de-rachat-de-son-concurrent-suedois-pricer-pour-amortir-l-apres-walmart-1173941.html",
     "date": "17 nov.",
-    "pourquoi": "Cela signale une dynamique positive pour cette petite capitalisation, à surveiller dans le secteur de la vente directe.",
-    "impact": "hausse"
+    "pourquoi": "Cette opération pourrait impacter le secteur des étiquettes électroniques et la stratégie de Vusion après son contrat avec Walmart.",
+    "impact": "flat"
    },
    {
-    "titre": "Sinochem réduit sa participation dans Pirelli & C SPA à 13,5%",
-    "resume": "Sinochem a réduit sa participation dans le fabricant de pneus Pirelli à 13,5%.",
+    "titre": "Musalem (Fed) signale plusieurs hausses de taux avant le printemps 2027",
+    "resume": "Un gouverneur de la Fed prévoit plusieurs hausses de taux d'ici le printemps 2027.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/sinochem-reduit-sa-participation-dans-pirelli--c-spa-a-135-93CH-3699799",
+    "url": "https://fr.investing.com/news/economy-news/musalem-fed-signale-plusieurs-hausses-de-taux-avant-le-printemps-2027-3700786",
     "date": "17 nov.",
-    "pourquoi": "Ce désengagement d'un actionnaire majeur peut influencer le cours de Pirelli et modifier sa gouvernance.",
+    "pourquoi": "Cela pourrait influencer les rendements obligataires et les secteurs sensibles aux taux, comme la technologie ou l'immobilier.",
     "impact": "baisse"
    },
    {
-    "titre": "Le président de NetSol Technologies Inc achète pour 17.120$ d’actions",
-    "resume": "Le président de NetSol Technologies Inc a acheté pour 17.120$ d'actions de sa propre entreprise.",
+    "titre": "Fubotv Inc dépasse ses objectifs de flux de trésorerie au T4 2026, l’action en hausse",
+    "resume": "Fubotv dépasse ses objectifs de flux de trésorerie au quatrième trimestre.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/le-president-de-netsol-technologies-inc-achete-pour-17120-dactions-93CH-3699714",
+    "url": "https://fr.investing.com/news/transcripts/fubotv-inc-depasse-ses-objectifs-de-flux-de-tresorerie-au-t4-2026-laction-en-hausse-93CH-3700937",
     "date": "17 nov.",
-    "pourquoi": "Les achats d'initiés sont souvent perçus comme un signal de confiance dans les perspectives de la société.",
+    "pourquoi": "Une meilleure santé financière pour cette petite capitalisation du streaming pourrait attirer l'attention des investisseurs.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Le PDG de Lineage Cell Therapeutics achète 37.098$ d’actions LCTX",
+    "resume": "Le PDG de Lineage Cell Therapeutics a acheté des actions de sa propre entreprise.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-de-lineage-cell-therapeutics-achete-37098-dactions-lctx-93CH-3700726",
+    "date": "17 nov.",
+    "pourquoi": "Les achats d'initiés sont souvent perçus comme un signal de confiance dans les perspectives futures de la société.",
     "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-17T11:27:41+00:00",
-  "resume": "Le marché immobilier français fait face à des incertitudes persistantes, alimentées par la crainte d'une nouvelle contraction des crédits malgré des taux à 3,49 % en octobre. Les débats budgétaires sur la fiscalité du LMNP et les propositions des candidats à la présidentielle 2027 concernant le logement créent un climat d'attentisme chez les acheteurs. Localement, des initiatives émergent face à la crise, tandis que Paris cherche de nouvelles recettes fiscales pour éviter d'augmenter la taxe foncière.",
+  "updatedAt": "2026-11-17T16:00:12+00:00",
+  "resume": "Les taux de crédit immobilier ont atteint 3,49 % en octobre, mais des disparités subsistent selon les revenus. Le marché locatif pourrait être impacté par des discussions budgétaires sur le statut LMNP et le remplacement du Pinel par le dispositif Jeanbrun. En vue de la présidentielle 2027, plusieurs personnalités politiques avancent des propositions sur le logement, comme la création d'une banque publique ou la suppression des frais de notaire.",
   "chiffres": [],
   "items": [
    {
     "titre": "Crédit immobilier : les taux atteignent 3,49 % en octobre",
-    "resume": "Les taux de crédit immobilier se sont établis en moyenne à 3,49 % pour le mois d'octobre.",
+    "resume": "En octobre, le taux moyen des crédits immobiliers s'est établi à 3,49 %.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN2EzMi1ORVF6dFRvX2VGVkd3ZzgtTncyakxSSlU0V1F1REM0U0xIQUFTVFJyNTkyaTAxcjdFWXJVWHlWQ3diSF90dW8zQ19nbTk1MVZ3WVFrT3h2a2ZuR3RGQkdsM2JMbW9XalZibl9iSUJfS2xuMDBfS1JMTHRDYWxpS2JzMVJTSEpPbkdNLWRzV2QwZ1BSRENrSzFxU0xJTjRLYWRRQWFFaEwyQkE?oc=5",
     "date": "17 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Crédits immobiliers : ces chiffres qui laissent craindre une nouvelle phase de contraction",
-    "resume": "De nouveaux indicateurs laissent présager une possible période de contraction pour l'octroi de prêts immobiliers.",
-    "source": "L'Alsace",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTmFkSWkzOEQySzhzS3owYzFwdVRDT19tZWJ0UHdvTFRVVnhMUTgxT3luTDUtQ0h0VEJndlo4SFNjV05MU2Zqd201TmcwMFV3WVRxbWl2dE8wLTJ1cHlLaVowSTBWc2szSDY0emc5MUNhUUVYaG9aRVNRcmVSR0d6a1NwSUdZQmU5TURibHBMaTkxR0p6ZEJsMDdtdHNIMEdjaG1kZldoRTFrR1pkYlNQX3RGRUJodjFxa1V2UkhGVnp6V20xMUlsWDVIQ2JSWGZYX0hoS3l1MWtSUQ?oc=5",
-    "date": "17 nov.",
-    "impact": "baisse"
-   },
-   {
     "titre": "Budget 2027 : « Abîmer le statut du loueur en meublé non professionnel, une erreur historique », Édouard Morlot (UNIS)",
-    "resume": "Le secteur immobilier s'inquiète d'une réforme potentielle du statut LMNP dans le budget 2027, jugée néfaste pour l'investissement locatif.",
+    "resume": "Le président de l'UNIS alerte sur une possible réforme du statut de Loueur en Meublé Non Professionnel (LMNP) dans le cadre du budget 2027, la jugeant néfaste pour l'investissement.",
     "source": "MySweetImmo",
     "url": "https://www.mysweetimmo.com/2026/11/17/lmnp-reforme-budget-2027-erreur-historique-edouard-morlot-unis/",
     "date": "17 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Immobilier : la présidentielle 2027 freine les achats",
-    "resume": "L'approche de l'élection présidentielle de 2027 semble inciter les acheteurs à la prudence, freinant le volume des transactions.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLTJ4QTlzWndjM0pmN3NYNmRpR2ktVVJvQkdlTmRKeEVlVmRXclQ5bjdPaDJGbnFBdmpMWFpVS3MwU2pnT1FBRE1KOVZZeTdUS3FSam9BMW8wOWN2WElYVWkySFdXUmEyU1prQlo2QUxOUFFFdTl5Z2lIb3daS0pQcXhoU3UtVTZWS0NhZ1FjYmNxYU1RR0U0OV9XckNJbGdYZWhjaHhDUktzQnNhVkd1aF9nX0M?oc=5",
+    "titre": "Gabriel Attal veut aider les Français à devenir propriétaires avec une \"banque publique du logement\": comment ça marcherait?",
+    "resume": "Gabriel Attal propose la création d'une banque publique du logement pour faciliter l'accès à la propriété.",
+    "source": "RMC",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObVA4ajVuSFR3QjJfTEQtdkFzbWlYRWtaZXNnZ2MzODVnUDBaMmJINnB6R3EydkdiVExvdTlHNGFlOG5yaUtVOFhqdXdqdWhuaTBLVnFKM1Z4SncyTWt6UGpERUdueEZNNXdXb0gxSGdra2NBUjdOR09qNGw3NnRiU1VkQk1ROHlpTzdiLUh0NGEwaENIcjZzU0xSZHE0ZmxWQlU0UHpQeEVYM2VZX3RNR3BCOTlWaGhGZFR1QzR0ejVBZ3ZWMHB4UjdfOTRHeUJ6bG9DM0daUl9WYWRycHNvanQ4Y0tLeDJQaE9ZdzFrX1BsUktKRzRpdldkakJxMDlSSDJrMG9xdFVoX2pkVzF3eg?oc=5",
     "date": "17 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    },
    {
-    "titre": "Taxe sur les logements, stationnement… Ces nouvelles recettes que chasse la Ville de Paris pour éviter d’augmenter la taxe foncière",
-    "resume": "La Ville de Paris envisage de nouvelles taxes, notamment sur les logements, pour compenser la stabilité de la taxe foncière.",
-    "source": "Le Parisien",
-    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPVjZOVG5ub3p6UktDWEZabzkyV2VpVDdMdU1wWDFRMlBQX2tmam9CUHlzcndvc0w4bjRESGFUaU1kd29jUTdhMjVaWU1jLWtzblBKZ0FZdlNfbDNvUHRNQTF5QTYtQ0JiNGV4dTJPQkk2aEdEVXQ4YWZnVTkzTFBFSXNCX013TEZGZXlpRm1LU3RiY3ZQUFZobTYzZ3RKX2M1anhvQ2hTRFlQMWJRdnc0LV9xUU4yNWxkaFduc2tUNEh2eDZ2dkpoQnZHV3NWWTh2NTZ6Wl9PSlZqRktLUjNOR3NKOHBTU3U0ZzV3b2c1S1AzUWxJeDhrYndlYkRfbWV3dXVPUGdiNER2QWhpcGpWM2dNMk1DZ0FNZU93cjh5VWIzRjloWURnNWxaRjVTQQ?oc=5",
+    "titre": "Crédit immobilier : pourquoi les ménages modestes paient 0,54 point de plus que les plus aisés",
+    "resume": "Les ménages modestes subissent des taux de crédit supérieurs de 0,54 point par rapport aux plus aisés.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pdUJ4bkRHM3loZXQ3X0F1OC11V18tc282bTN5ZjZhNFo4SlhnejhSZFVBMzJiQmhURWRFOVVTRlc0Skp4NWVLUnYzbjE3SXl4UEdTVXVVMjI4aEF0YjhjUzJ0OWdmODZQSHdYMnNfUQ?oc=5",
+    "date": "17 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Investissement locatif : calculez votre nouvelle économie d'impôt avec le simulateur officiel du dispositif Jeanbrun qui remplace le Pinel",
+    "resume": "Un simulateur officiel permet de calculer l'économie d'impôt liée au dispositif Jeanbrun, qui succède au Pinel pour l'investissement locatif.",
+    "source": "Bourse Inside",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNa3VUVjd6T2dLSkltS0JhTnRpQk12ajZRWXdTU3lubWpTZG5uLWtsWkczbkFQRGR6bEt1bkNRaTVTWnQ5Y2EyT3l4Y052ck9yVzQ2aVd5NWJKWTF4S3NONGpQZ0JDNjhhTW91NVY4ZXZ1ME1wT1hJX09ENExJbmMxSXQtOVRGTTk3ZkR3QXFlMVc5ekFIclVfUGFmbmdmbHYzZW0ybXgyc0RVcW0tR3NXemVXUkNiVFNQcW15ZG1McnYzQmFvWldOM1VGQjlseWE4eTFNRmRUd2xNemNMcHBoaTZzWjA0cVdRNFktWEUzRDQtSngzaHBTYldDTQ?oc=5",
     "date": "17 nov.",
     "impact": "flat"
    },
    {
     "titre": "Immobilier Paris : 9 passoires thermiques sur 10 pourraient être rénovées sans chantier dans tout l’immeuble",
-    "resume": "À Paris, l'immense majorité des logements considérés comme des passoires thermiques pourraient être rénovés individuellement.",
+    "resume": "À Paris, 90 % des logements considérés comme des passoires thermiques pourraient être rénovés sans nécessiter de travaux sur l'ensemble de l'immeuble.",
     "source": "MySweetImmo",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaDd2SEVCYWZLNTRpZE9YcTc5V0NVajlRdHFrN2tvVDYtUjR2U2k2VFExdzUxaWd0Q2xJdDBXWUlWV2JWZGpjS182Snk2M3h6LXlZNUQtU0VDVEI4NTd1S3dzbWs3ZGVIamItM3JBbzJidDZsRjlHQUEwMWtUY1pRNVJmLXBhVUdkS1JubHU5OHhvQ241LWpOa1VnQ1RaY21FSW1TRFYtX0dpZTg5RUVDeEZ1UFRwMzF3UzlwVS1EYUpJM1F2WEVtcmFJaU5yN09leDlSOFFoUUdfRk03Rmc?oc=5",
     "date": "17 nov.",
@@ -340,6 +349,34 @@
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
-  "niche": []
+  "niche": [
+   {
+    "titre": "Taxe sur les logements, stationnement… Ces nouvelles recettes que chasse la Ville de Paris pour éviter d’augmenter la taxe foncière",
+    "resume": "La Ville de Paris cherche à créer de nouvelles recettes fiscales, notamment sur les logements, pour éviter de relever la taxe foncière.",
+    "source": "Le Parisien",
+    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPVjZOVG5ub3p6UktDWEZabzkyV2VpVDdMdU1wWDFRMlBQX2tmam9CUHlzcndvc0w4bjRESGFUaU1kd29jUTdhMjVaWU1jLWtzblBKZ0FZdlNfbDNvUHRNQTF5QTYtQ0JiNGV4dTJPQkk2aEdEVXQ4YWZnVTkzTFBFSXNCX013TEZGZXlpRm1LU3RiY3ZQUFZobTYzZ3RKX2M1anhvQ2hTRFlQMWJRdnc0LV9xUU4yNWxkaFduc2tUNEh2eDZ2dkpoQnZHV3NWWTh2NTZ6Wl9PSlZqRktLUjNOR3NKOHBTU3U0ZzV3b2c1S1AzUWxJeDhrYndlYkRfbWV3dXVPUGdiNER2QWhpcGpWM2dNMk1DZ0FNZU93cjh5VWIzRjloWURnNWxaRjVTQQ?oc=5",
+    "date": "17 nov.",
+    "pourquoi": "Cela pourrait augmenter la pression fiscale sur les propriétaires parisiens via d'autres taxes locales. À surveiller pour la rentabilité nette.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Immobilier : Vous pensez gagner trop pour le BRS ? Vérifiez",
+    "resume": "L'accès au Bail Réel Solidaire (BRS) pourrait concerner plus de ménages qu'ils ne le pensent, selon une incitation à vérifier son éligibilité.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaFNVR3RUS1NMUzBwUEtFREQta2RPRGtKelY0VlJmZE1LZHJBQmJTV0U5SDEzUlZwbWhYV3daN0VrRVk1S1FINDB6VHVyOWZ1VWx0NFRDd3dPdUd4SmxKWlBtUDdYcGE3X0FyWTVtU0Rjd3lqMTFRZ3EzWGdwdEVxZ19aLUNPRTBSOExFcVFNZzNWRFF4dldVOHB5NA?oc=5",
+    "date": "17 nov.",
+    "pourquoi": "Ce dispositif permet d'acheter les murs en dissociant le foncier, réduisant le coût d'acquisition. Utile pour les stratégies d'achat en zone tendue.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Annonce immobilière : le vendeur est-il engagé dès qu’un acquéreur accepte le prix affiché ?",
+    "resume": "Une question juridique se pose sur l'engagement immédiat du vendeur dès qu'un acheteur accepte le prix affiché dans une annonce.",
+    "source": "Journal de l'Agence",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2t3cEhCbzZJWTJnRllDYXV4Sm95QWdWRnhqOXE2bmtPS0tFUHlQOTZMSlI4aXAyOFlGVHNoMVhiUUtiNW5PNzdWUWI1QVFXRExMdUwzcUE0ZnUyNVhQNktIMWZUTkJ0RGtCVlZubWhQWFVxR0JIZHZXd2J5V1dVenBrMHdCelk5eEhTQ3hXQXR1SXJvUFdtNHd4S3ViU2ptTTJtWVVBRk50UjJFbXk4elVXUkU5VWhWWFFoU2lUdFFPQlFpS2hr?oc=5",
+    "date": "17 nov.",
+    "pourquoi": "Clarifier ce point sécurise le processus d'achat et évite les déconvenues lors de la phase de négociation.",
+    "impact": "flat"
+   }
+  ]
  }
 }
