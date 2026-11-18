@@ -1,49 +1,6 @@
 {
-"updatedAt": "2026-11-17T22:37:59+00:00",
+"updatedAt": "2026-11-18T06:22:37+00:00",
 "events": [
-{
-"d": "2026-11-17T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Ventes au détail hors auto",
-"sub": "🇺🇸 États-Unis · prévu 0.4% · précédent 0.9%",
-"imp": 3
-},
-{
-"d": "2026-11-17T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Ventes au détail",
-"sub": "🇺🇸 États-Unis · prévu 0.1% · précédent 0.8%",
-"imp": 3
-},
-{
-"d": "2026-11-17T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Home Depot (The)",
-"sub": "HD · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "HD"
-},
-{
-"d": "2026-11-17T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Disney",
-"sub": "DIS · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "DIS"
-},
-{
-"d": "2026-11-17T22:05:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Nvidia",
-"sub": "NVDA · après la clôture de Wall Street · trimestre clos Oct/2026",
-"imp": 3,
-"tick": "NVDA"
-},
 {
 "d": "2026-11-18T14:00:00-05:00",
 "allday": false,
@@ -113,6 +70,15 @@
 "sub": "DE · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
 "imp": 2,
 "tick": "DE"
+},
+{
+"d": "2026-12-01T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de CrowdStrike",
+"sub": "CRWD · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "CRWD"
 },
 {
 "d": "2026-12-09T20:00:00+01:00",
