@@ -1,12 +1,12 @@
 {
  "general": {
-  "updatedAt": "2026-11-19T07:22:31+00:00",
-  "resume": "L'actualité est marquée par un sommet historique en Chine réunissant les dirigeants américain, russe et chinois pour discuter des crises internationales. En France, la sortie très attendue du jeu vidéo GTA VI suscite l'enthousiasme, tandis que plusieurs départements sont en vigilance orange pour inondations. Sur le plan économique, l'entreprise d'IA Anthropic fait une entrée en Bourse très remarquée.",
+  "updatedAt": "2026-11-19T11:33:36+00:00",
+  "resume": "L'actualité est marquée par un sommet historique à Shenzhen réunissant les dirigeants américain, russe et chinois pour discuter de la paix mondiale. En France, la sortie mondiale de GTA 6 fait sensation, tandis que la Haute Autorité de santé encadre la pratique de l'aide à mourir. Le Black Friday se poursuit avec de nombreuses promotions sur les produits technologiques.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Rencontre entre Trump, Poutine, et Xi : suivez l'entretien inédit entre les trois présidents en Chine",
-    "resume": "Les présidents américain, russe et chinois se rencontrent à Shenzhen pour un sommet tripartite inédit consacré aux crises internationales.",
+    "titre": "Rencontre entre Trump, Poutine et Xi : les trois dirigeants ont adopté \"une déclaration de paix\" à l'issue d'un sommet inédit, rapportent le Kremlin et les médias chinois",
+    "resume": "Donald Trump, Vladimir Poutine et Xi Jinping se sont réunis lors d'un sommet inédit en Chine, adoptant une déclaration commune pour préserver la paix mondiale.",
     "source": "franceinfo",
     "url": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/direct-rencontre-donald-trump-vladimir-poutine-xi-jinping-suivez-l-entretien-inedit-entre-les-trois-presidents-en-chine_8288564.html#xtor=RSS-3-[lestitres]",
     "date": "19 nov.",
@@ -14,57 +14,57 @@
     "categorie": "Monde"
    },
    {
-    "titre": "EN DIRECT, sortie de « GTA VI » : les premières impressions et réactions",
-    "resume": "Le jeu vidéo Grand Theft Auto VI est officiellement sorti sur PlayStation 5 et Xbox Series, générant de vives réactions chez les joueurs.",
-    "source": "Le Monde Pixels",
-    "url": "https://www.lemonde.fr/pixels/live/2026/11/19/en-direct-sortie-de-gta-vi-les-premieres-impressions-et-reactions_6813247_4408996.html",
+    "titre": "GTA 6 : records, astuces et secrets dans Leonida, toutes les infos après 24 heures de jeu (EN DIRECT)",
+    "resume": "Vingt-quatre heures après son lancement, le jeu vidéo GTA 6 est disponible mondialement et enregistre déjà des audiences historiques malgré quelques bugs.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/pop-culture/2375431-sortie-de-gta-6-en-direct.html",
     "date": "19 nov.",
     "impact": "flat",
     "categorie": "Tech"
    },
    {
-    "titre": "Anthropic valorisé à 1 500 milliards de dollars",
-    "resume": "La société spécialisée en intelligence artificielle Anthropic fait ses débuts en Bourse avec une valorisation atteignant 1 500 milliards de dollars.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-anthropic-valorise-a-1-500-milliards-de-dollars_VN-202611190228.html",
-    "date": "19 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Quatre départements en vigilance orange \"pluie-inondation\", la Haute-Corse en alerte pour un risque de crues",
-    "resume": "Météo-France a placé quatre départements, dont les Landes et le Pas-de-Calais, en vigilance orange pour risques de pluie-inondation ou de crues.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/meteo/inondations/meteo-france-place-les-landes-en-vigilance-orange-pluie-inondation-quatre-departements-concernes-au-total_AV-202611190181.html",
+    "titre": "La Haute autorité de santé publie le « mode d’emploi » de l’aide à mourir",
+    "resume": "La Haute Autorité de santé a publié 60 recommandations pour définir les protocoles médicaux et encadrer la pratique de l'aide à mourir en France.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/societe/article/2026/11/19/la-haute-autorite-de-sante-publie-le-mode-d-emploi-de-l-aide-a-mourir_6813279_3224.html",
     "date": "19 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "La guerre au Moyen-Orient va laisser une \"trace durable\" sur le marché mondial de l'énergie, qui ne retrouvera pas sa situation d'avant-crise, prévient l'Agence internationale de l'énergie",
-    "resume": "L'Agence internationale de l'énergie prévient que la guerre au Moyen-Orient perturbe durablement le marché mondial de l'énergie.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/entreprises/energie/la-guerre-au-moyen-orient-va-laisser-une-trace-durable-sur-le-marche-mondial-de-l-energie-qui-ne-retrouvera-pas-sa-situation-d-avant-crise-previent-l-agence-internationale-de-l-energie_AD-202611190194.html",
+    "titre": "Midterms 2026: Elon Musk dit se sentir «un peu idiot» d'avoir dépensé autant d'argent dans les élections",
+    "resume": "Elon Musk a exprimé des regrets après avoir dépensé près d'un demi-milliard de dollars pour soutenir des candidats républicains lors des élections de mi-mandat.",
+    "source": "RFI",
+    "url": "https://www.rfi.fr/fr/am%C3%A9riques/20261119-midterms-2026-elon-musk-un-peu-idiot-avoir-d%C3%A9pens%C3%A9-argent-%C3%A9lections",
     "date": "19 nov.",
     "impact": "flat",
-    "categorie": "Économie"
+    "categorie": "Monde"
    },
    {
-    "titre": "190,4 millions de dollars: un Van Gogh devient la quatrième œuvre la plus chère jamais vendue aux enchères",
-    "resume": "Une toile de Van Gogh, peinte à Auvers-sur-Oise, a été vendue aux enchères à New York pour 190,4 millions de dollars.",
+    "titre": "Ils sont dépendants aux énergies fossiles, vont doubler leur capacité totale d'ici la fin de la décennie: comment les centres de données vont produire 70% d'émissions carbone en plus d'ici 2030",
+    "resume": "L'Agence internationale de l'énergie alerte sur la forte hausse des émissions carbone des centres de données, majoritairement dépendants des énergies fossiles.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/culture/190-4-millions-de-dollars-un-van-gogh-devient-la-quatrieme-uvre-la-plus-chere-jamais-vendue-aux-encheres_AD-202611190185.html",
+    "url": "https://www.bfmtv.com/tech/intelligence-artificielle/ils-sont-dependants-aux-energies-fossiles-vont-doubler-leur-capacite-totale-d-ici-la-fin-de-la-decennie-comment-les-centres-de-donnees-vont-produire-70-d-emissions-carbone-en-plus-d-ici-2030_AV-202611190496.html",
     "date": "19 nov.",
     "impact": "flat",
-    "categorie": "Culture"
+    "categorie": "Tech"
+   },
+   {
+    "titre": "Une partie des APL, les prêts d'Action Logement aux salariés... Pour financer sa retraite par capitalisation, le RN propose de puiser dans les aides au logement",
+    "resume": "Le Rassemblement national propose de modifier l'affectation de certaines aides au logement pour financer un fonds de capitalisation pour les retraites.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/immobilier/une-partie-des-apl-les-prets-d-action-logement-aux-salaries-pour-financer-son-fonds-de-capitalisation-pour-les-retraites-le-rn-propose-de-reorienter-des-aides-au-logement_AV-202611190504.html",
+    "date": "19 nov.",
+    "impact": "flat",
+    "categorie": "France"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-19T07:22:31+00:00",
-  "resume": "Le marché des cryptomonnaies subit une pression baissière, le Bitcoin glissant sous les 63 000 dollars face aux craintes de hausse des taux de la Fed. Ethereum montre également des signes de faiblesse avec des sorties de capitaux de ses ETF. En parallèle, Binance a obtenu une ordonnance judiciaire mondiale pour geler des fonds volés.",
+  "updatedAt": "2026-11-19T11:33:36+00:00",
+  "resume": "Le marché des cryptomonnaies subit une pression à la baisse, le Bitcoin reculant face aux craintes de nouvelles hausses de taux de la Fed et à d'importantes sorties de capitaux des ETF spot. Parallèlement, la plateforme Binance tente de récupérer des fonds massifs après un piratage, tandis que l'introduction en bourse d'Anthropic génère de l'enthousiasme, y compris pour des versions tokenisées.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,50 +93,50 @@
   ],
   "items": [
    {
-    "titre": "Bitcoin chute à 63.500$ face aux craintes de hausse des taux",
-    "resume": "Le cours du Bitcoin est repassé sous le seuil des 63 500 dollars, pénalisé par les craintes des investisseurs concernant une possible augmentation des taux d'intérêt.",
-    "source": "Investing.com France",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0pGWDlZb0ZQbjR0YndiNV9JVmNydGJ5QWJ0SE1WTTJYY1g2ekl3MjhpVmpVcWQ0TEl0SlQ4R1BXc1Y2UFdXSERqYlBSclNqR3p4enN1TVFuZVFFSXIyYm5qRUJrQWZySEY4aTQ4bTN1RmZOcVk3Y3RlUXZKZ25rV1RKYVlCTlppTmxXbkNuUk1wT21fcGhlclVFYmdDcmloNjhZM2hJZFNTNVlqWmo3bl9zZ0hFMEk?oc=5",
+    "titre": "Minutes de la Fed : des hausses de taux en vue, l’IA inquiète, Bitcoin trinque",
+    "resume": "Les minutes de la Fed indiquent une quasi-unanimité pour de futures hausses de taux, ce qui pèse sur le cours du Bitcoin.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/economie/minutes-fed-hausses-taux-ia-inflation-bitcoin/",
     "date": "19 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Binance obtient une ordonnance de gel mondiale de 6,5 milliards de dollars",
-    "resume": "Binance a annoncé avoir obtenu une ordonnance de gel mondiale portant sur 6,5 milliards de dollars afin de tenter de récupérer des fonds dérobés lors d'un piratage.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/binance-obtient-ordonnance-gel-mondial-6-milliards-dollars/",
+    "titre": "Bitcoin : Les ETF spot lâchent 306 millions de dollars, Ethereum suit",
+    "resume": "Les ETF Bitcoin spot américains ont enregistré une sortie nette de 306 millions de dollars en une seule séance.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/bitcoin-etf-lachent-millions-dollars-ethereum/",
+    "date": "19 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Après le piratage de 6,3 milliards $, Binance lance une traque judiciaire mondiale contre 26 000 adresses",
+    "resume": "Binance a obtenu une ordonnance judiciaire mondiale pour geler 6,5 milliards de dollars d'actifs suite à un piratage massif.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/apres-le-piratage-de-63-milliards-binance-lance-une-traque-judiciaire-mondiale-contre-26-000-adresses/",
     "date": "19 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Le prix d'Ethereum risque de chuter à $1,500 alors que les sorties d'ETF s'accumulent",
-    "resume": "Le prix de l'Ethereum pourrait chuter vers 1 500 dollars, une tendance alimentée par l'accumulation des sorties de capitaux hors des ETF dédiés.",
-    "source": "Invezz",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQlNQNmlnOE1oTGNFM005WEh3bk5RS0pWd1EzUG9KdjNvZW9HSy1oWF8zUFRBUzBZaGJFRHJBRENiamJtQVc1aTFzanBialRGRmpSVzdvLXJMWDJ0eXFmdXpwYi1DcmxnOVZEOE9kNWEzMWpjZU9sdjBzUnFNWG0xWFd5ZkZ0VS15OHNybWVGWVZIRzhiaW1kMVctS1RJZUxLX3BWSUkxaHJQa2J2eGpuNnMwcjRrd25XaXgxZmN1eFhrVHRLa3BWbkhRdw?oc=5",
-    "date": "19 nov.",
-    "impact": "baisse"
-   },
-   {
     "titre": "IPO Anthropic à 83 $ : l’action tokenisée débarque sur BNB Chain dès ce soir",
-    "resume": "L'action tokenisée de la société d'IA Anthropic va être lancée sur la BNB Chain suite à son introduction en bourse, suite à une initiative de CZ.",
+    "resume": "L'action de la société d'IA Anthropic va être tokenisée sur la BNB Chain dès sa première cotation boursière.",
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/economie/ipo-anthropic-83-dollars-action-tokenisee-bnb-chain/",
     "date": "19 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "La domination de Bitcoin recule mais l’argent ne va pas vers les altcoins",
-    "resume": "Bien que la domination du Bitcoin diminue, les capitaux ne se dirigent pas vers les altcoins mais se réfugient plutôt vers le stablecoin USDT.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/dominance-bitcoin-baisse-dominance-usdt-altcoins/",
+    "titre": "Crypto : Ledger confirme des wallets piégés à Berlin et Dubaï",
+    "resume": "Ledger confirme la découverte de hardware wallets piégés en Allemagne, après des cas initiaux en Asie.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/crypto-ledger-wallets-pieges-berlin-dubai/",
     "date": "19 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Crypto-actifs : le CCSF demande six protections supplémentaires pour les particuliers",
-    "resume": "Le Comité consultatif du secteur financier (CCSF) sollicite la mise en place de six mesures de protection supplémentaires pour les particuliers investissant dans les crypto-actifs.",
-    "source": "Economie Matin",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRElxcjgwWWljTlJtT1lFU2VydFBjWUpDLUhYWXdmWmFXZkw2SXZwaHo3aFpaaEVZT3ZzcU9tUkRrZ255MzV6b2Q2clUyc2lHNTdCVTZ0QW5WMHVNQjA3TzJMZkt5QVNnZUgzOWtVVEJDOXlpdUkxUjBrN3RCa2dlc1pXOGVScExVdVQ3eGxPRjItNnBO?oc=5",
+    "titre": "Crypto : le CCSF, hébergé à la Banque de France, veut brider la pub et encadrer le staking",
+    "resume": "En France, le CCSF recommande d'encadrer strictement la publicité pour les cryptos ainsi que les activités de staking et de prêt.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/ccsf-banque-de-france-publicite-crypto-staking-defi/",
     "date": "19 nov.",
     "impact": "flat"
    }
@@ -145,37 +145,37 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Les fonds d’Abu Dhabi détiennent 1 milliard de dollars dans l’ETF Bitcoin de BlackRock",
-    "resume": "Des fonds d’Abu Dhabi détiennent pour un milliard de dollars de l’ETF Bitcoin de BlackRock.",
-    "source": "FinanceFeeds",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTjVZU2ZEcEQ0RDB5TGxONE1MRTNCbHFoRzQxMEo4ektEVnRCOGM0WE11ZmxLUmJHWm9HWFpqa3NrMmVpNVhYOHI3cERHSkVSWHB0dmpxSVlGMXVlclNtVjk2aTdTNjI3aDJVd1VRQjR2b2NEeVMwWWExM24zdEJHeGtDNjFYeGhScV9kSnFZR2tLQQ?oc=5",
+    "titre": "S&P Global maintient son évaluation de stabilité du stablecoin USDT au niveau le plus bas",
+    "resume": "S&P Global maintient la note de stabilité de l'USDT au niveau le plus bas.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/sp-global-maintient-evaluation-stabilite-stablecoin-usdt-niveau-plus-bas/",
     "date": "19 nov.",
-    "pourquoi": "Cela montre un intérêt croissant des investisseurs institutionnels du Moyen-Orient pour le Bitcoin via des produits réglementés. Surveiller la pérennité de ces flux.",
+    "pourquoi": "Cela concerne le stablecoin le plus utilisé, l'USDT. Il faut surveiller si cette évaluation affecte la confiance des investisseurs et la liquidité du marché.",
+    "impact": "flat"
+   },
+   {
+    "titre": "OKX distribue 206 000 $ en Bittensor (TAO) : jusqu'à 900 € à récupérer par personne",
+    "resume": "OKX distribue environ 206 000 $ en Bittensor (TAO) via un airdrop.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/okx-distribue-206-000-en-bittensor-tao-jusqua-900-e-a-recuperer-par-personne/",
+    "date": "19 nov.",
+    "pourquoi": "Cet événement peut influencer le volume d'échange et le cours du token TAO à court terme.",
     "impact": "hausse"
    },
    {
-    "titre": "Mineurs de Bitcoin : six sociétés cotées ont vendu la moitié de leurs réserves pour financer l'IA",
-    "resume": "Six sociétés de minage de Bitcoin cotées ont vendu la moitié de leurs réserves pour financer des projets liés à l'IA.",
-    "source": "Coin Academy",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUlhseDhqN0NLSEFjc25DTTNMZlhTVGlMeUEyOVhFcG5BM3E4SkJyTkptcjVxWVFZVW5MLUh1NjRDbnNqZ1JVS2JfeTdNLVZCeEhmNGZEMXhQMUJiWVE0S1hLdWNSLU9OWlZndkZZNFBjYl9WM1JleTY4ZXlBVkRQTExBNDh5ME5lWHVqSU1McTF0bDRfem5lX0FOZXk?oc=5",
-    "date": "18 nov.",
-    "pourquoi": "Cette vente massive réduit la pression acheteuse potentielle des mineurs sur le marché du Bitcoin. Elle indique aussi un pivot stratégique vers l'IA.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "IBIT représente 87% des sorties de capitaux des ETF bitcoin en novembre",
-    "resume": "L'ETF IBIT représente 87 % des sorties de capitaux des ETF Bitcoin au cours du mois de novembre.",
-    "source": "Cryptopolitan",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1mUG56NnRQUDhyZHl6MVZhdlE0WktiWkpjYmlhUmNDZnZnLXpsTzgybnRLSW92cHpSM2JtSS1VR3NPOHhpbEY2U0lIMmg4cU5pMldlczBmZHJLVF84Q0l6dGpBb2w2TXZFQXl3eVliYjVMa3d1XzZBN2ZhTQ?oc=5",
-    "date": "18 nov.",
-    "pourquoi": "Cela indique une concentration massive des mouvements de vente sur le principal ETF Bitcoin, ce qui peut amplifier la volatilité du cours.",
+    "titre": "Bitcoin : L’action Strategy (MSTR) menacée d’une chute de 76 % à 23 dollars",
+    "resume": "Un analyste prévoit une chute potentielle de 76 % pour l'action MicroStrategy (MSTR).",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/bitcoin-action-strategy-chute-23-dollars/",
+    "date": "19 nov.",
+    "pourquoi": "MSTR est fortement corrélée au Bitcoin ; une telle baisse pourrait signaler ou amplifier un sentiment négatif sur la crypto.",
     "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-19T07:22:31+00:00",
-  "resume": "Les craintes de nouvelles hausses de taux aux États-Unis pèsent sur le moral des investisseurs, affectant notamment le Bitcoin. Le secteur technologique asiatique lié à l'IA subit une forte correction, tandis que Novartis affiche des ambitions de croissance à long terme. En Europe, UniCredit et l'Allemagne progressent vers un accord concernant Commerzbank.",
+  "updatedAt": "2026-11-19T11:33:36+00:00",
+  "resume": "Les marchés boursiers sont en légère hausse, soutenus par le secteur technologique et l'anticipation de l'introduction en Bourse d'Anthropic. Plusieurs entreprises publient des résultats trimestriels qui influencent fortement leurs cours, tandis que les investisseurs restent attentifs aux futures décisions de la Fed et de la BCE sur les taux.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,169 +204,178 @@
   ],
   "items": [
    {
-    "titre": "États-Unis : la Fed envisage de relever à nouveau ses taux face à l’inflation",
-    "resume": "La Réserve fédérale américaine envisage de relever à nouveau ses taux directeurs pour contrer une inflation persistante.",
-    "source": "Tunisie Numerique",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeHN5NFF1dmkycGNrX0ZweDFzWlE2TXpNOUhCSllLalpLZEVUaS1CRHF0b1BRSjloLUVhNm5QZlRzTUZiMzB1OUFqWGFDRXAtQnFnWGdvajZKU2c0Wmw1MGxBMnkyWGo3M3BsS2JUdHNIMnlMZUlnRl9RZEczbDBxX3p4X0ZtQ0VvNnVUdXo1bUNESUV0ZEVYUmFremRWVFlwQzUtc2VaZm16RTJx?oc=5",
-    "date": "19 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Les actions taïwanaises chutent de 4,6% dans la débâcle de l’IA",
-    "resume": "Les actions technologiques taïwanaises ont lourdement chuté, entraînées par un mouvement de panique dans le secteur de l'intelligence artificielle.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/les-actions-taiwanaises-chutent-de-46-dans-la-debacle-de-lia-3703935",
-    "date": "19 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "UniCredit et l’Allemagne s’accordent sur le rachat de Commerzbank",
-    "resume": "Un accord se dessine entre UniCredit et l'État allemand pour le rachat de la banque Commerzbank.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/unicredit-et-lallemagne-saccordent-sur-le-rachat-de-commerzbank-93CH-3703930",
+    "titre": "L'action n'est pas encore cotée mais gagnerait déjà 24% sur le «marché gris»... Anthropic affole les compteurs à l'aPPR (ex Pinault Printemps)oche de son entrée en fanfare au Nasdaq",
+    "resume": "L'entreprise d'IA Anthropic s'apprête à entrer au Nasdaq, avec une valorisation déjà en forte hausse sur le marché gris.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/actualites/informations-societes/l-action-n-est-pas-encore-cotee-mais-gagnerait-deja-24-sur-le-marche-gris-anthropic-affole-les-compteurs-a-l-approche-de-son-entree-en-fanfare-au-nasdaq-1174094.html",
     "date": "19 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Novartis vise une croissance annuelle de 5% jusqu’en 2031 et une marge de 40% d’ici 2029",
-    "resume": "Le géant pharmaceutique Novartis a dévoilé des objectifs de croissance annuelle de 5% jusqu'en 2031 et vise une rentabilité accrue.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/novartis-prevoit-une-croissance-annuelle-des-ventes-de-5-jusquen-2031-3703925",
+    "titre": "SOITEC : Le boom de la photonique permet à Soitec de renouer avec des prévisions annuelles après une parenthèse d'un an et demi, l'action s'envole à Paris",
+    "resume": "L'action Soitec grimpe à Paris suite à la reprise de ses prévisions annuelles, portée par la demande en photonique.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/soitec-FR0013227113/actualites/soitec-le-boom-de-la-photonique-permet-a-soitec-de-renouer-avec-des-previsions-annuelles-apres-une-parenthese-d-un-an-et-demi-l-action-s-envole-a-paris-1174085.html",
     "date": "19 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Bitcoin chute à 63.500$ face aux craintes de hausse des taux",
-    "resume": "Le cours du Bitcoin a reculé vers les 63 500$, pénalisé par la perspective de taux d'intérêt durablement élevés.",
+    "titre": "Saipem SpA : un chiffre d’affaires T3 2026 supérieur aux attentes fait bondir l’action de 7 %",
+    "resume": "Le titre Saipem bondit après l'annonce d'un chiffre d'affaires supérieur aux attentes pour le troisième trimestre.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/cryptocurrency-news/bitcoin-chute-a-63500-face-aux-craintes-de-hausse-des-taux-3703938",
+    "url": "https://fr.investing.com/news/transcripts/saipem-spa--un-chiffre-daffaires-t3-2026-superieur-aux-attentes-fait-bondir-laction-de-7--93CH-3704400",
+    "date": "19 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "La Fed prépare les marchés à de nouvelles hausses de taux, l'IA devient un sujet d'inquiétude",
+    "resume": "La Réserve fédérale américaine prépare les investisseurs à de nouvelles augmentations de taux, créant de l'inquiétude.",
+    "source": "Idéal Investisseur",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQM0NwU1hjLXU4anBGOWllYjdRNWpiRTZRZVhfcGpjYnhUOFdZcVpVRjB3a2xkM1BwVVlqbW81Q3FvVEs3VmJnYlZtNFBuUDlHTEhlRjA2NkZpR1pOQjRwZ0hwdEZOYm1BUkRGNkJ1Y1RJN2lPVzkyLU5XR045eHF3NVZSendCdldCWk42dVZtaVhuVkRGaXVnUEJWRW81ZzNpYl82SGdoRUpKOWNBYTFWRlBGZjN0ZUU0dnBROGFLcVBxVm8yQTVMeFY5Q0taNko2ZnJCSkE3X0RoS3NNeS02MkhWMA?oc=5",
     "date": "19 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Bernstein abaisse la note de Michelin en raison de pressions sur les prix",
-    "resume": "L'action Michelin est sous pression après que Bernstein a abaissé sa recommandation, citant des difficultés sur les prix.",
+    "titre": "Le chiffre d’affaires de Youdao Inc chute au T3 2026, l’action perd 8,7%",
+    "resume": "Youdao Inc voit son action chuter lourdement après avoir annoncé une baisse de ses revenus au troisième trimestre.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/analyst-ratings/bernstein-abaisse-la-note-de-michelin-en-raison-de-pressions-sur-les-prix-93CH-3703926",
+    "url": "https://fr.investing.com/news/transcripts/le-chiffre-daffaires-de-youdao-inc-chute-au-t3-2026-laction-perd-87-93CH-3704340",
     "date": "19 nov.",
     "impact": "baisse"
+   },
+   {
+    "titre": "Bernstein relève son objectif de cours sur Palo Alto Networks grâce à un solide ARR",
+    "resume": "Palo Alto Networks progresse grâce à la révision à la hausse de son objectif de cours par Bernstein, citant de solides revenus récurrents.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/analyst-ratings/bernstein-releve-son-objectif-de-cours-sur-palo-alto-networks-grace-a-un-solide-arr-93CH-3704317",
+    "date": "19 nov.",
+    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Husqvarna dépose une plainte antidumping contre les robots tondeuses chinois",
-    "resume": "Husqvarna accuse des concurrents chinois de dumping sur le marché des robots tondeuses.",
+    "titre": "BMO atteint l’utilité quantique en apprentissage automatique avec IBM",
+    "resume": "BMO collabore avec IBM pour utiliser l'informatique quantique dans l'apprentissage automatique.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/husqvarna-depose-une-plainte-antidumping-contre-les-robots-tondeuses-chinois-93CH-3703934",
+    "url": "https://fr.investing.com/news/company-news/bmo-atteint-lutilite-quantique-en-apprentissage-automatique-avec-ibm-93CH-3704380",
     "date": "19 nov.",
-    "pourquoi": "Cela pourrait influencer la concurrence et les marges dans le secteur des équipements de jardinage. À surveiller pour Husqvarna et ses rivaux.",
+    "pourquoi": "Cela montre l'intégration concrète de technologies de pointe dans le secteur bancaire, à surveiller pour l'innovation dans les services financiers.",
     "impact": "flat"
    },
    {
-    "titre": "La filiale italienne de Deutsche Bank AG aurait dissimulé jusqu’à 800 millions d’euros de pertes",
-    "resume": "La filiale italienne de Deutsche Bank aurait dissimulé d'importantes pertes.",
+    "titre": "La PDG d’Advanced Micro Devices Inc cède des actions pour 35,5M$",
+    "resume": "La PDG d'Advanced Micro Devices (AMD) a vendu des actions pour un montant de 35,5 millions de dollars.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/la-filiale-italienne-de-deutsche-bank-ag-aurait-dissimule-jusqua-800-millions-deuros-de-pertes-93CH-3703851",
+    "url": "https://fr.investing.com/news/insider-trading-news/la-pdg-dadvanced-micro-devices-inc-cede-des-actions-pour-355m-93CH-3704257",
     "date": "19 nov.",
-    "pourquoi": "Cette information pourrait impacter la confiance envers la banque allemande et le secteur bancaire européen. À surveiller pour l'action Deutsche Bank.",
-    "impact": "baisse"
+    "pourquoi": "Les ventes importantes par des dirigeants peuvent parfois signaler un sentiment interne sur la valorisation actuelle du titre.",
+    "impact": "flat"
    },
    {
-    "titre": "Les actions sud-coréennes du divertissement bondissent jusqu’à 30% grâce à un accord commercial avec la Chine",
-    "resume": "Les actions du divertissement sud-coréen bondissent suite à un accord commercial avec la Chine.",
+    "titre": "UGI chute après des prévisions pour 2027 inférieures aux attentes",
+    "resume": "L'action UGI baisse suite à des prévisions pour 2027 jugées décevantes.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/les-actions-sudcoreennes-du-divertissement-bondissent-jusqua-30-grace-a-un-accord-commercial-avec-la-chine-3703838",
+    "url": "https://fr.investing.com/news/earnings/ugi-chute-apres-des-previsions-pour-2027-inferieures-aux-attentes-93CH-3704259",
     "date": "19 nov.",
-    "pourquoi": "Ce signal montre l'impact direct des relations diplomatiques sur des secteurs spécifiques. À surveiller pour les investisseurs exposés aux marchés asiatiques.",
-    "impact": "hausse"
+    "pourquoi": "Cela illustre l'impact des perspectives à long terme sur le cours actuel d'une valeur du secteur de l'énergie.",
+    "impact": "baisse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-19T07:22:31+00:00",
-  "resume": "Les députés ont voté des mesures pour assouplir le statut de bailleur privé et relancer l'investissement locatif, notamment via le dispositif Jeanbrun. Parallèlement, la confiance des Français dans le marché immobilier recule face aux difficultés d'accès au crédit. À Paris, les prix des studios ont explosé de près de 300 % en 25 ans.",
+  "updatedAt": "2026-11-19T11:33:36+00:00",
+  "resume": "La confiance des Français envers le crédit immobilier est au plus bas, tandis que les prix de l'immobilier ancien baissent dans les grandes villes. Malgré un marché locatif tendu, les députés votent des mesures pour assouplir le statut du bailleur privé. Le volume des ventes dans l'ancien devrait rester élevé dans les années à venir.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Projet de loi logement : le statut de bailleur privé grandement assoupli dans l'espoir de relancer l'investissement locatif pour les particuliers",
-    "resume": "Dans l'espoir de relancer l'investissement locatif, les députés ont voté un assouplissement significatif du statut de bailleur privé.",
-    "source": "BFM",
-    "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQeDYyV2xvTmFJMmVDWjJmUl91N2NGZ1JqN3gweUhhSFJFdjRjdkJJQmJEQTE3ajhHUjdCTmtZVWkzNTFyNFJyZ1hFbVU4Z0o2TW5UWDR0eFBiX1Zpb2F4bzgtTjhkVTVHeXdCZnotVjk0bVM5R0l2VjUzV1YyeEpILUY1NGllcVJfQlVQeDR5dnFzMk9Kb1NObVNUVWs5T0F4M2VEWVRFTndlWkpnVGlfZ0xtSGkyd2pDd3N4VU1kQTRya1dtcmpTNGRnVVRqRENSWDVvSmxvQ2dNemYtQnMtOHl4ME01QnB4R1lHOE9Bc2FJQmdUQjM4bWh6Sldud0g2TGplbTRvSFZORVNpbEx2aUhTc2lqTHUxbDZBQ1o4X3FTRHhXZTc0Y2tXRldGd2RFb0hSa3BaRjgxSloxYTdJ?oc=5",
-    "date": "18 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Immobilier : Le crédit inquiète, la confiance des Français décroche",
-    "resume": "L'inquiétude concernant le crédit immobilier entraîne une baisse de la confiance des Français envers le marché.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2tXc05FYUhlcE5yUGRSc2ZYU3hwV3Y0OTFYVGNtS3BfLVBJODB0cC0xY19CbXpRVlZBRnhwU2gwd0JvaWV6Z000YVdISW9tTzR6RlpIakM3Z1YxT2ljbThOMURPQmYyRGxnb1lTSUJ2LThjR2N3ZExEa0hSdTVHM09nVQ?oc=5",
+    "titre": "Crédit immobilier : 81% des Français jugent le moment défavorable pour emprunter",
+    "resume": "Une très large majorité de Français (81%) considère que la période actuelle n'est pas propice pour contracter un prêt immobilier.",
+    "source": "Tout Sur Mes Finances",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFh0WTRGdHRhSzlobkFQN2hmc2tVbzdWZWRWeVFBaksxS3FPY1N1cHZFM0lFN2t3VlQyX09lX3ByblBDdUU1NjNzWVp1Z05YdkY2V1JTZVJzcVFpY0VWVk5xMWY5Y2EyRGs2dnNIQnFlUjhoZGxHbGRGQkxvZTNRVURqZXJOYl9HcmY3ekY1VUo4NnJURjhuV0twZGlkb2NGanZXMFpKTFFkaXN3dUNibU5vSmpZUDdSQTZyb1ZTWlhIa3c?oc=5",
     "date": "19 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "« Les prix des studios ont augmenté de 299 % depuis 1999 » : pourquoi les prix immobiliers ont quadruplé à Paris en 25 ans",
-    "resume": "À Paris, le prix des studios a été multiplié par quatre depuis 1999, affichant une hausse de 299 %.",
-    "source": "Challenges",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdFBzODZRdk1yOC1zbFFPQkR5WEc1WEcxR1hfcWVOOUtlQTNZV21wNlU5UjFzbndRd2JtcHV2V3QtUzJJRDNwcHhFV2tIMFZfSHFCWmE5Z1IzSUpGRUJqRUNJUHJmd05ETlZ3OWdRUnpKMXB1VW8xWVBwa3Zwb1RlSTMyVzloREJmSjM0OEhmSERVcm9MeDFfVG9MNHJsdXNMSWZTNDc0MnFCVWdfRWZtNEJIbk1EY1BQU0JmdXhpb05XNzJMNndOMzduNWdkb25KRmhldDlLZktseXhCOVVMSHBDemlvVWRNUEktdmFTdw?oc=5",
+    "titre": "Immobilier : les prix en baisse dans les grandes villes",
+    "resume": "Les prix de l'immobilier affichent un repli dans les grandes agglomérations françaises.",
+    "source": "Empruntis",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNEtkNTJzZXlXVTRfRUZjbmR1bGpRcFNKLU52cnozdUpxbnlTRWRDbG8wYlZRWExKamRaSzZ2OEhUbFYtYzduQ3ZhWnF2NmtVSTFfWlRjUVB4OU0wV2JrVUdiOEtReHltY0psSnMxZVltdjVIc05fZzgyT0U4aUtIaklodGk2VzlRd0h0RDBBYWw?oc=5",
     "date": "19 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Immobilier : Les députés votent pour assouplir le statut du bailleur privé dans le projet de loi logement",
+    "resume": "Dans le cadre du projet de loi logement, les députés ont voté en faveur d'un assouplissement du statut de bailleur privé.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWEFtOF81MXBfeGUwU2tJUDZ0Mmx2OTRQN3pKQWRTTm9tRTUwYmJtb2RMQUYwYXlhekdSZEFDNE5Rb01sQXdxRUFBVVcxWGdLTXpRQXlJT3BfUUZteDBvNE9EYTdRQ3otSy1mU2FvWmtkTVVjc2xBREM3akpOWUVxcHBXdTZUaExRUnJoR1BwSVFORmxma2V3?oc=5",
+    "date": "18 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Dispositif Jeanbrun : SCPI, travaux, location à un proche, ce que les députés ont voté",
-    "resume": "Le dispositif Jeanbrun, voté par les députés, précise les modalités concernant les SCPI, les travaux et la location aux proches.",
-    "source": "Capital.fr",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ1JlRDh3bEpwN1p1QlJOa2c5eXBfNXdRdkJ6UWJ2RVF1U0NOMTRqMEIydU92T1h1QU9yaGRidGpBXzh6Vi1FaWR3azFSRWZfU2RJbGZ2Wk9QSnN6NDlLVUN4dFFZd013ME9vVVoyc2RRbVhlZnZUTEQwQnc2MzBLVWNQa3AxVTdIaHRrQXk4RWZfSkVGR09FRWRQMkwxdnMxOWxMWVRNTHhVbW1SRGswd3ZIazJMMDhuT0ZrZ1JjaHY?oc=5",
-    "date": "18 nov.",
+    "titre": "Immobilier ancien : 900 000 ventes attendues en 2027, les acheteurs prêts à faire des concessions",
+    "resume": "Le marché de l'ancien devrait maintenir un volume de transactions important, avec 900 000 ventes anticipées pour 2027.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkJOMHFFVU5EM3dyb0sxMTJQRkpqRFl6Qm9sMTY5X1E0ZU16WDNMb0lEM2lBcmZnYWF5aGhiVDFjVW5ZZGJJZGZiNlhZYmRGM1JnWVE4SDBhNmY5VVpjakRVRGV2TDBmOTd5MnZ6R1B3ZDJMbHhTNzN1bEZGQ1BjN0ZaU01XMnVYRmNVODVEUkFVTDA4dV9Ga2ZPUHNTYndmeHN5dXFpNS0tc3lqWGNBUXY2QTg?oc=5",
+    "date": "19 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Vos parents peuvent vous donner 200 000 € de plus sans droits de donation pour acheter un logement neuf : voici la date limite",
-    "resume": "Une mesure temporaire permet de recevoir 200 000 € supplémentaires de ses parents sans droits de donation pour l'achat d'un logement neuf.",
-    "source": "Figaro Immobilier",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdVdQZWxSVE1FSnhCZnRXZUFIR3B5Nm9mWFloU3lKRFl5bTZpS205Qm9pTHZzMDJqZmhvTXEteHZIVmdVNWJzbG9JaDhNTEVoMjZOZDZ3Vzc4NlY5V3RacjVVOTlLYUVoWDA2bjJUd0ROeG9CLXNzMkh4NXU3OVNhVUNHVHh1ODBvYTRrY1k0MERIcGhfcmlYak4tRXRHeWF3blAxNjVwR3JkVzNkT2hUb19ZTQ?oc=5",
+    "titre": "\"Entre 5 et 8 appels par bien\" : l'emballement des prix pour la location immobilière ne freine pas la demande à Alès",
+    "resume": "La forte demande locative, observée par exemple à Alès, entraîne une hausse rapide des loyers.",
+    "source": "Actu.fr",
+    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOUxMaVF6cTVtb19rN20zOXdyMHJ6MzY2OGh2VW13ZkgyZzU2ekRhbTB3dTBUdEhGZ1RVTmpzTGRHZDlCaXhjaVpYMTZSdm5aclZDcG81OWJLMW42MmlGZVY0VGRGUGNOeUxaVlduVVN3U2dnaWYtdGpWZnpSS0k3Zm9VYXgyajV3SXFUSFVwczBFMkp6OERGUTVrMFFwQlQ4ak1YNHRwRkpPYnJvVUJXVU5CRXE5X3VIbHJZNXBqRzcyWF9WUWVBaExtSnRNZ3hUYWxUMFNOVVlCT0NPU0VHbnV2cEtTN0pyMnY0MHdUamZzeDlMb0E?oc=5",
     "date": "19 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "L’immobilier de bureaux continuera de ralentir au moins jusqu’à la fin 2026",
-    "resume": "Le ralentissement du marché de l'immobilier de bureaux devrait se poursuivre au moins jusqu'à la fin de l'année 2026.",
-    "source": "L'Agefi",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZi1aU20xc1g1eHpYbThoRFI0Nm96VGMzelN6aW5peTFaeGhYRmxwcmgtSGMxMzFFUWQxNEFFM1NvdEJfVGdNRW10dE5oVWxPQzdoVU8zVnVqSHZMNElpajNDbkczYXNlOW1kLW9feFBDcEZsY2NpWG5wcFRpdUtLS0RYYnd2VlA5Rks3cGdWbWZBLVZoc01fTVNzTDBmUldrNFk0TkFFNjhXTU9IMThkbU5KWk5mQUU?oc=5",
-    "date": "18 nov.",
-    "impact": "baisse"
+    "titre": "Encadrement des loyers : la prolongation reste en suspens pour 1,2 million de locataires",
+    "resume": "L'avenir du dispositif d'encadrement des loyers reste incertain pour plus d'un million de locataires.",
+    "source": "MoneyVox",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONXN5M2Z0M2d2MzBoUk4wYmxhUjE2aWRDbkFDZGVpMFV3aEEyRnZTVlU0dWJpNWtlVUJkaGdnRk9MZGpXb0huWkhVRUtlSWduUndQdmJEa0lMNzVWVGh3b053M01RSmpGc1p1NTR6M2xETFhBUnJITEo0VGZILURWdE9EU3hPUDdTaGRHcjZvS1ZmMzdvbllhcDhBMHo4VUhxcktzVVRVVWcza2RNQkJ6UmY2NFZISHBSQnhiSWVNc29oaF9ZMXNrenZ2WThzVWhSM3VnVE53?oc=5",
+    "date": "19 nov.",
+    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
+    "titre": "Suppression des « frais de notaire » pour les moins de 35 ans : quelles taxes Édouard Philippe veut-il réellement exonérer ?",
+    "resume": "Une proposition politique vise à supprimer les frais de notaire pour les acheteurs de moins de 35 ans.",
+    "source": "News de Conso",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU1JOSWF0Vjhwa2hfbzU3TW1IaUpZcW5VV051UG1INWhEY1N1VjY4NHUxUUJrMjIxQTJlWHhxd1hOOVJEbDdrd2pkMENRV3lJYnBIc3diOG9xZHhIdEstTXBzbFV2d1dOd2EtdXNPQjBOVnhCR1ptN2xDdjZPbEQ1ME1OYjJnMU5GZWYwNHpHbnczMm9aaDhlYlhjNFlKS2d0WlJha1lvLURWdUxfTFh3WmhVbGttQkoyaTRJb1pVY2JTNWRKSUJtNkQ1NXlycGFiTjkzRXBoV19VdWhLbGJpcEZjckl5QQ?oc=5",
+    "date": "19 nov.",
+    "pourquoi": "Cela pourrait stimuler la demande des primo-accédants et dynamiser le marché des petites surfaces.",
+    "impact": "hausse"
+   },
+   {
     "titre": "Immobilier : les acheteurs étrangers plébiscitent le Nord",
-    "resume": "Les acheteurs étrangers manifestent un intérêt croissant pour le marché immobilier du Nord.",
+    "resume": "Les investisseurs étrangers montrent un intérêt croissant pour le marché immobilier du Nord de la France.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeVhsTElSREh0aUx0WTJBdXkwbnFaaWRrTGtjWEo3c3dmRjVFaVRPcVVPYUdtcWVYRW1pWWxpaEtiNWctSURUNU5udlJaZVpBa2JmMXJMb2JWVkpKZkd1akJ4S183bV9IQkFtdG1FZDQ1WnllSnVJTkpaaTBLdzZreFV6d0N6anBVRno2ckFTMkNrY19NTVBVWlY3Z3VnOUZaZ0ZCdmpmUFdhTkRySnJBS1duaG8?oc=5",
     "date": "19 nov.",
-    "pourquoi": "Cela indique une demande géographique spécifique qui pourrait soutenir les prix dans cette région, à surveiller pour les investisseurs locaux.",
+    "pourquoi": "Ce signal indique une attractivité régionale spécifique à surveiller pour d'éventuelles plus-values.",
     "impact": "hausse"
    },
    {
-    "titre": "\"Entre 5 et 8 appels par bien\" : l'emballement des prix pour la location immobilière ne freine pas la demande à Alès",
-    "resume": "À Alès, la forte demande locative génère entre 5 et 8 appels par bien, malgré la hausse des prix.",
-    "source": "Actu.fr",
-    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOUxMaVF6cTVtb19rN20zOXdyMHJ6MzY2OGh2VW13ZkgyZzU2ekRhbTB3dTBUdEhGZ1RVTmpzTGRHZDlCaXhjaVpYMTZSdm5aclZDcG81OWJLMW42MmlGZVY0VGRGUGNOeUxaVlduVVN3U2dnaWYtdGpWZnpSS0k3Zm9VYXgyajV3SXFUSFVwczBFMkp6OERGUTVrMFFwQlQ4ak1YNHRwRkpPYnJvVUJXVU5CRXE5X3VIbHJZNXBqRzcyWF9WUWVBaExtSnRNZ3hUYWxUMFNOVVlCT0NPU0VHbnV2cEtTN0pyMnY0MHdUamZzeDlMb0E?oc=5",
+    "titre": "Vos parents peuvent vous donner 200 000 € de plus sans droits de donation pour acheter un logement neuf : voici la date limite",
+    "resume": "Une exonération de droits de donation jusqu'à 200 000 € est possible pour l'achat d'un logement neuf avant une date limite.",
+    "source": "Figaro Immobilier",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdVdQZWxSVE1FSnhCZnRXZUFIR3B5Nm9mWFloU3lKRFl5bTZpS205Qm9pTHZzMDJqZmhvTXEteHZIVmdVNWJzbG9JaDhNTEVoMjZOZDZ3Vzc4NlY5V3RacjVVOTlLYUVoWDA2bjJUd0ROeG9CLXNzMkh4NXU3OVNhVUNHVHh1ODBvYTRrY1k0MERIcGhfcmlYak4tRXRHeWF3blAxNjVwR3JkVzNkT2hUb19ZTQ?oc=5",
     "date": "19 nov.",
-    "pourquoi": "Ce signal montre une tension locative persistante dans certaines villes moyennes, offrant des opportunités de rendement.",
+    "pourquoi": "Cette mesure fiscale peut soutenir le secteur de la construction neuve et faciliter l'apport personnel.",
     "impact": "hausse"
    },
    {
-    "titre": "Fiscalité locale : le CPO veut limiter la dépendance aux ventes immobilières",
-    "resume": "Le CPO suggère de réduire la dépendance des finances locales aux transactions immobilières.",
-    "source": "Zoom Invest",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTzRoRGZlMFJGb3A5UUNQc2hXejZrZlZJZC1lQ1d2RjhYaXo1RTd2OEpMMmhRdUw3QVpwVWNJSWtfNkVUUDBvWGFYa2VLT2d4eXI5OUJxWjBSRndYeGp1dnlaRWdJczhsWWZRMXN4UVk2RG0xVnF2ejc3UVlqSVg2bHh6a0tBcE9tcXR3dnhENFNZQzVoTUd5VlFJQzh0VU4zdXBjWEhXTDlCdTd2M2pacGpOdUlYeTF4Z193eDI1YjUzOG12Z2FjZHJGNnI?oc=5",
-    "date": "18 nov.",
-    "pourquoi": "Une modification de la fiscalité locale pourrait impacter les coûts de détention ou de transaction pour les propriétaires.",
-    "impact": "flat"
+    "titre": "Investissement locatif : les députés votent l’article 4 du dispositif Relance logement",
+    "resume": "Les députés ont voté un article du dispositif 'Relance logement' concernant l'investissement locatif.",
+    "source": "Politique Matin",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdFUtWlFyZzQ0Vlp1amFkbTc5RnQzbkZULUwwRTlpREdVTjV1WEVWTUhlY1NpZjhqVzl0ZkVNTHdCQkhTQ0l5bWdXVFA3S0tudlR4RzE1LUgzRExQcS1fam9lNHJIUUJKQWJaaHRlbDFDQzdIUWdlZ1JmRS1HdWhfOWVvRUNDcmhwVWx5azdyU3dyX0Z0LXI5bVZMMmwxUVZHMFQxZXhza1FLdw?oc=5",
+    "date": "19 nov.",
+    "pourquoi": "Cela pourrait modifier les avantages fiscaux liés à l'investissement locatif neuf.",
+    "impact": "hausse"
    }
   ]
  }
