@@ -1,32 +1,6 @@
 {
-"updatedAt": "2026-11-19T22:35:09+00:00",
+"updatedAt": "2026-11-20T06:22:29+00:00",
 "events": [
-{
-"d": "2026-11-19T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Inscriptions hebdomadaires au chômage",
-"sub": "🇺🇸 États-Unis · prévu 198K · précédent 200K",
-"imp": 2
-},
-{
-"d": "2026-11-19T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats de Walmart",
-"sub": "WMT · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
-"imp": 2,
-"tick": "WMT"
-},
-{
-"d": "2026-11-19T13:00:00+01:00",
-"allday": false,
-"cat": "resultats",
-"title": "Résultats d'Alibaba",
-"sub": "BABA · avant l'ouverture de Wall Street · trimestre clos Sep/2026",
-"imp": 2,
-"tick": "BABA"
-},
 {
 "d": "2026-11-24T13:00:00+01:00",
 "allday": false,
@@ -80,6 +54,24 @@
 "sub": "SNOW · après la clôture de Wall Street · trimestre clos Oct/2026",
 "imp": 2,
 "tick": "SNOW"
+},
+{
+"d": "2026-12-03T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Royal Bank Of Canada",
+"sub": "RY · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "RY"
+},
+{
+"d": "2026-12-03T13:00:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Toronto Dominion Bank (The)",
+"sub": "TD · avant l'ouverture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "TD"
 },
 {
 "d": "2026-12-09T20:00:00+01:00",
