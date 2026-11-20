@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-20T11:34:13+00:00",
-  "resume": "Dominique de Villepin a annoncé sa candidature à l'élection présidentielle de 2027. Le Pas-de-Calais est de nouveau touché par d'importantes inondations, tandis que les tensions persistent entre l'Iran et les États-Unis. En économie, la croissance du Danemark est portée par Novo Nordisk, et l'AMF requiert une amende contre LCL.",
+  "updatedAt": "2026-11-20T16:00:21+00:00",
+  "resume": "L'actualité est marquée par l'intensification des frappes russes en Ukraine et des tensions en Pologne, tandis qu'en France, la politique s'anime avec des candidatures pour la présidentielle de 2027. Le secteur technologique voit le lancement de la bande originale de GTA 6 et des mouvements boursiers pour l'IA Anthropic. Sur le plan social, des appels à la grève et des manifestations sont annoncés en France pour les salaires.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Présidentielle 2027 en France: Dominique de Villepin annonce officiellement sa candidature",
-    "resume": "L'ancien Premier ministre Dominique de Villepin a officiellement annoncé sa candidature pour l'élection présidentielle française de 2027.",
-    "source": "RFI",
-    "url": "https://www.rfi.fr/fr/france/20261120-pr%C3%A9sidentielle-2027-en-france-dominique-de-villepin-annonce-officiellement-sa-candidature",
-    "date": "20 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Guerre en Iran: la désinformation s’intensifie après les nouvelles frappes américaines",
-    "resume": "Les tensions s'intensifient au Moyen-Orient entre l'Iran et les États-Unis suite à des frappes américaines et des actions de désinformation.",
-    "source": "RFI",
-    "url": "https://www.rfi.fr/fr/podcasts/les-dessous-de-l-infox-la-chronique/20261120-guerre-en-iran-la-d%C3%A9sinformation-s-intensifie-apr%C3%A8s-les-nouvelles-frappes-am%C3%A9ricaines",
+    "titre": "Guerre en Ukraine : des frappes de missiles et de drones russes font au moins neuf morts, dont sept à Kiev",
+    "resume": "La Russie a mené des frappes massives de missiles et de drones contre l'Ukraine, causant au moins neuf morts, alors que la France plaide pour une adhésion de l'Ukraine à l'OTAN.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-un-missile-russe-tombe-dans-le-sud-est-de-la-pologne-sans-faire-de-blesse_8292080.html#xtor=RSS-3-[lestitres]",
     "date": "20 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Pluie-inondation : dans le Pas-de-Calais, toujours placé en vigilance orange, des routes et maisons sous les eaux",
-    "resume": "Le département du Pas-de-Calais subit de nouvelles inondations importantes après de fortes précipitations, entraînant des crues supérieures à celles des années précédentes.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/planete/article/2026/11/20/pluie-inondation-dans-le-pas-de-calais-toujours-place-en-vigilance-orange-des-routes-et-maisons-sous-les-eaux_6813624_3244.html",
+    "titre": "La Pologne signale la chute de missiles russes sur son territoire",
+    "resume": "La Pologne a signalé la chute de deux missiles russes sur son territoire frontalier de l'Ukraine, un incident qualifié de provocation par le Premier ministre polonais.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/meteo/video-la-pologne-signale-la-chute-de-missiles-russes-sur-son-territoire_VN-202611200646.html",
+    "date": "20 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Dominique de Villepin annonce sa candidature à l'élection présidentielle, évoquant une \"décision lourde, difficile\"",
+    "resume": "Dominique de Villepin a annoncé sa candidature à l'élection présidentielle de 2027, se positionnant en dehors de l'esprit partisan.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/elections/dominique-de-villepin-annonce-sa-candidature-a-l-election-presidentielle-evoquant-une-decision-lourde-difficile_8292431.html#xtor=RSS-3-[lestitres]",
     "date": "20 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "C'est l'économie européenne la plus dynamique en 2026: grâce à son champion Novo Nordisk, la croissance du Danemark devrait dépasser 4% cette année (mais les consommateurs et les entreprises en profitent peu)",
-    "resume": "Grâce aux exportations de Novo Nordisk, la croissance économique du Danemark devrait dépasser les 4 % cette année, surpassant les autres économies européennes.",
+    "titre": "Nouvelle étape dans la course aux centres de données spatiaux: Blue Origin, la start-up de Jeff Bezos, placera en orbite autour de la Terre les satellites IA de Google",
+    "resume": "Google s'associe à Blue Origin, la société de Jeff Bezos, pour déployer des centres de données spatiaux équipés d'intelligence artificielle en orbite terrestre.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/c-est-l-economie-europeenne-la-plus-dynamique-en-2026-grace-a-son-champion-novo-nordisk-la-croissance-du-danemark-devrait-depasser-4-cette-annee-mais-les-consommateurs-et-les-entreprises-en-profitent-peu_AV-202611200520.html",
-    "date": "20 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "LCL accusé d'avoir fait payer 26 millions d'euros de frais évitables à ses clients: l'AMF réclame 4 millions d'euros d'amende",
-    "resume": "L'Autorité des marchés financiers réclame une amende de 4 millions d'euros contre LCL, accusant la banque d'avoir imposé des frais évitables à ses clients.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/entreprises/assurance-banque/lcl-accuse-d-avoir-fait-payer-26-millions-d-euros-de-frais-evitables-a-ses-clients-l-amf-reclame-4-millions-d-euros-d-amende_AD-202611200522.html",
-    "date": "20 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "GTA 6 : un énorme bug fait planter le jeu sur PS5 chez plusieurs joueurs",
-    "resume": "Le lancement du jeu GTA 6 sur PS5 est perturbé par un bug majeur empêchant certains joueurs d'y accéder, malgré des critiques globalement positives.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/pop-culture/2379775-gta-6-un-enorme-bug-fait-planter-le-jeu-sur-ps5-chez-plusieurs-joueurs.html",
+    "url": "https://www.bfmtv.com/tech/innovation/nouvelle-etape-dans-la-course-aux-centres-de-donnees-spatiaux-blue-origin-la-start-up-de-jeff-bezos-placera-en-orbite-autour-de-la-terre-les-satellites-ia-de-google_AV-202611200682.html",
     "date": "20 nov.",
     "impact": "flat",
     "categorie": "Tech"
+   },
+   {
+    "titre": "Une intersyndicale lance un nouvel appel à la grève et à la mobilisation le 1er décembre, les salariés du privé invités à défiler avec ceux du public",
+    "resume": "Une intersyndicale appelle à la grève le 1er décembre pour dénoncer la situation salariale dans la fonction publique, invitant le secteur privé à se joindre au mouvement.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/societe/manifestations/une-intersyndicale-de-la-fonction-publique-lance-un-nouvel-appel-a-la-greve-et-a-la-mobilisation-le-1er-decembre_8292254.html#xtor=RSS-3-[lestitres]",
+    "date": "20 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Après une introduction en Bourse record, l'action d'Anthropic chute de 9 %",
+    "resume": "Après une introduction en Bourse record, l'action de la start-up d'intelligence artificielle Anthropic a chuté de 9 % lors de sa deuxième journée de cotation à Wall Street.",
+    "source": "France 24",
+    "url": "https://www.france24.com/fr/%C3%A9co-tech/20261120-apr%C3%A8s-une-introduction-en-bourse-record-l-action-d-anthropic-chute-de-9",
+    "date": "20 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-20T11:34:13+00:00",
-  "resume": "Le Bitcoin et l'Ethereum ont fortement chuté, atteignant des plus bas depuis plusieurs mois, entraînant le marché des altcoins dans leur baisse. Cette tendance baissière est accentuée par des sorties massives de capitaux des ETF Bitcoin et une aversion globale pour le risque. En parallèle, la pression réglementaire s'intensifie aux États-Unis et en Europe, tandis que le secteur de l'IA connaît une forte volatilité malgré l'introduction en Bourse record d'Anthropic.",
+  "updatedAt": "2026-11-20T16:00:21+00:00",
+  "resume": "Le Bitcoin a chuté sous les 60 000 dollars, entraînant avec lui la plupart des altcoins et subissant d'importantes sorties de capitaux des ETF. Parallèlement, Christine Lagarde appelle à une réglementation européenne rapide pour les actifs tokenisés, tandis que la mise à jour Glamsterdam d'Ethereum est reportée à 2027. Les mineurs de Bitcoin se tournent de plus en plus vers l'intelligence artificielle.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,98 +93,98 @@
   ],
   "items": [
    {
-    "titre": "Le bitcoin tombe à un plus bas depuis juillet, plombé par l'aversion au risque",
-    "resume": "Le cours du Bitcoin est tombé sous les 62 000 dollars, atteignant son niveau le plus bas depuis juillet, plombé par une fuite des investisseurs vers des actifs moins risqués.",
-    "source": "ABC Bourse",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazdrR2RBaHlrQ3BFbndDRFN0bXdJc29YdFVMWWtuNm5jUWw3QlFzaTZNSV9LNzV2T2NrYmdKOGczTE40OFozQWcxdWtFeFpIREpQNENOVFlZXzhjVDdScU5rNS1JNW9TS1VCd05ObXRXd1NPZGxCTWVLb05pZnVHRl9FUm54WTl0UUYxQlpTWlVobWNvRXA5MEhCUGM1ektiZFZwQThfZzE3OHpxZVZzaXBQdHg3blNrTGc?oc=5",
+    "titre": "Le bitcoin passe sous le seuil des 60 000 dollars",
+    "resume": "Le cours du Bitcoin est passé sous le seuil symbolique des 60 000 dollars, marquant une baisse continue.",
+    "source": "Zonebourse",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmRsNHh0LTNHenhDUVU2M3lPR0dkVjdURWJHVTJWRXNqcldGSDhlRTRiRFNEQ0dnN3VjVnZ6N0R6dnBFejB5bWt2Mk1fdVk1eEQ3TE00MGpZTjlwZS1nS28wOUNRaVJvMWhKczdOVWNPeldHWlk2a1VZQlVzeG10OTltZmYxbUZiQ1pVaE5qWTVMb1BheU1Hekk0cFFWWWpOXzNhV3FyNFpFaERTQzJR?oc=5",
     "date": "20 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "L’ETF Bitcoin de BlackRock enregistre une sortie record de 541 millions de dollars en une journée",
-    "resume": "L’ETF Bitcoin de BlackRock a enregistré une sortie de fonds record de plus de 541 millions de dollars sur une seule journée, signalant un désengagement institutionnel.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/blackrock-bitcoin-etf-sortie-record/",
+    "titre": "Les ETF au comptant sur le Bitcoin enregistrent 582 millions de dollars de sorties nettes le troisième jour consécutif",
+    "resume": "Les ETF Bitcoin au comptant ont enregistré des sorties nettes massives de 582 millions de dollars pour la troisième journée consécutive.",
+    "source": "portalcripto.com.br",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb0RrT190RXRyYVhzXzliNTJCX0ZDYUMxYnRNNXh6LWE3dzA0ckJBdHhIS1BxSmdUZ2pVOHJKd285Y0NYOF81VWIzTkt2aGpXbEFfZDlTQWlnTlBWMGVtMFFxZ0l1V0xHaUR3aGtTYjFSb280SUpUd1pPRDgwV29yeEtyTzdkRnZQNkwwV1h5N05hNVZqcDlYRllRMnBidUVEb2RXMndwS21WaWlKLTBpSnlJM08zUDd6ZERCQTU4STM0M0RXR0sycGZUT0lQZ3FiR2dCaVhRbjFnbU5oTjZva0hDaw?oc=5",
     "date": "20 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Cours de l’Ethereum à 1 735 dollars : plus bas niveau journalier depuis juillet, les ETF continuent de vendre",
-    "resume": "L'Ethereum suit la tendance baissière et passe sous les 1 800 dollars, touchant également son plus bas niveau journalier depuis juillet sur fond de ventes continues des ETF.",
-    "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BTDRLdDB5QTNzYW9ZTzhIa1hBZ041TklPMXhzNkVtNjNZdV9SNzllSTRSTW85WGZWSnNMMlZQUTlVTWpNeHdMd3pFUnRlNmVnU3ZyakJnUlZReFpwYlVZNmt5cndhNkJwRlZDSHNOakpGVks1?oc=5",
-    "date": "20 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Altcoins : ETH, BNB et SOL perdent 10 % en une semaine, XRP résiste, SKY s’effondre",
-    "resume": "Les principales cryptomonnaies comme l'Ether, le BNB et le Solana ont perdu environ 10 % de leur valeur en une semaine.",
+    "titre": "Actifs tokenisés : Pourquoi Christine Lagarde veut que l’Europe fixe ses règles dès maintenant",
+    "resume": "Christine Lagarde exhorte l'Europe à établir des règles communes pour le marché des actifs tokenisés, qui connaît une croissance rapide.",
     "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/point-altcoins-eth-bnb-sol-10-pourcent-xrp-sky/",
-    "date": "20 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "IPO Anthropic : une levée record de 81,34 milliards de dollars",
-    "resume": "L'entreprise d'intelligence artificielle Anthropic a réalisé une entrée en Bourse historique, levant plus de 81 milliards de dollars, sans toutefois rassurer durablement le secteur technologique.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/ipo-anthropic-levee-record-81-milliards-dollars/",
+    "url": "https://journalducoin.com/actualites/actifs-tokenises-cristine-lagarde-europe-fixe-regles/",
     "date": "20 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Perpétuels aux États-Unis : la CFTC fixe la règle du jeu à Hyperliquid, Binance.US entre dans la file",
-    "resume": "La CFTC américaine impose des règles strictes aux plateformes de trading onchain comme Hyperliquid, les obligeant à s'enregistrer officiellement.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/defi/perpetuels-etats-unis-cftc-hyperliquid-binance-us/",
+    "titre": "Ethereum repousse sa mise à jour face à une hausse massive des coûts",
+    "resume": "La mise à jour Glamsterdam d'Ethereum est repoussée à janvier 2027 en raison d'une forte augmentation des coûts.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/ethereum-repousse-sa-mise-a-jour-face-a-une-hausse-massive-des-couts/",
+    "date": "20 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Les mineurs de bitcoin misent sur l'IA",
+    "resume": "Les mineurs de Bitcoin diversifient leurs activités en investissant dans le secteur de l'intelligence artificielle.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON2NUazdpSmtvZTQ5Y1ZPc0R1OEI2cEM4UkZwNmg5SURKYUZ2NVBrRWVjM0FwMGdNbmlhcVRuUDczakxFQno3cVA0ZXZ2LTFzQmFBdmt2MHVCbFF0N0ZhQXR5eVp0SUQwUmVXSkZ6WnNDaE9OakxQeVUtdjlpNFJGUzI1U0hleGdDT2ZnS0NNdVhTR3JZVS1QLXo3cFhmZ2MzR2k5VzR1S01pRE04QjZrZDZLYzRTRHpLTzNiN0tGZ2pVbTdlVkd0S2Fzd2Q?oc=5",
     "date": "20 nov.",
     "impact": "flat"
+   },
+   {
+    "titre": "Des fonds liés au piratage de Bybit ont transité par Sky : Quel risque pour ses stablecoins ?",
+    "resume": "Une enquête révèle que des fonds issus du piratage de Bybit ont transité par le protocole Sky, adossant les stablecoins DAI et USDS.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/actualites/piratage-bybit-transite-sky-risque-stablecoins/",
+    "date": "20 nov.",
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Fraude fiscale crypto : un rapport de l’Assemblée veut ficher vos wallets dès 5 000 euros",
-    "resume": "Un rapport de l'Assemblée nationale française propose de rendre obligatoire la déclaration des portefeuilles crypto dépassant 5 000 euros.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/fraude-fiscale-crypto-rapport-assemblee-wallets-5000-euros/",
+    "titre": "Coinbase ouvre des options crypto propulsées par Deribit aux clients particuliers hors des États‑Unis",
+    "resume": "Coinbase propose désormais des options crypto aux clients particuliers hors des États-Unis, en partenariat avec Deribit.",
+    "source": "Invezz",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQd2pwVmxvaGpVLXZSMllpMGNGczFCNmNBZWl5NDR2UU9RWTFRejZNb09wZXR2clNQSkRsaXdWdG1RQ2tDYXhUR2lWMzI0TjBReHhzd0JpbHFpYlZaWGtYM1lMY3dLWWNfU1VTWU5FMFlKYWdpbERCMU1ZTFUtZDg5NVhrbldNX2VlUGtUNVFmVHVmWW5aMWJQTzZrYTlPdURIVHQxbEdDeU44YWhZWkUyTjJUTkNFSEdwQ3FFblVUaDJtZ21jNlhScTduTGhTWlptY2lKQm1pZGlwcUNGS2c?oc=5",
     "date": "20 nov.",
-    "pourquoi": "Cela pourrait impacter la fiscalité et les obligations déclaratives des investisseurs français. À surveiller pour anticiper de nouvelles contraintes administratives.",
+    "pourquoi": "Cela pourrait augmenter le volume de trading de produits dérivés pour les particuliers à l'international. Surveiller l'adoption de ces nouveaux instruments.",
     "impact": "flat"
    },
    {
-    "titre": "Le token Wrapped Monero plonge de 99 % alors qu’un portefeuille lié à l’émetteur vend 13,5 millions de dollars",
-    "resume": "Le token Wrapped Monero a perdu 99 % de sa valeur suite à une vente massive de 13,5 millions de dollars par un portefeuille lié à l'émetteur.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMS1zV2RDUHVPenpLNmpYN0hIRThqajlDX2NHdGtwNDRGWE9XSXhlQXZzdmxqRTFIYkpKWEgyaktrOGpYSFpMa3dSZGo0aVduLVFjRjBMWjRuTG5GY2VBSXJGTExhSlZFM2RwU0UzSVd2bVJkWVF6bXpTOFAzdUMwbm82NnpRd1EzbE40OHVsV1NMZkc1eEE5SkxON0RPNWp6YXJMLVRZNmhxeV9XMGZpRVNONHFmOHpuUGJPbVdWWTBqUQ?oc=5",
+    "titre": "La pénurie d’offre de XRP sur Binance dépasse les niveaux de juillet, selon un analyste de CryptoQuant",
+    "resume": "Une pénurie d'offre de XRP est signalée sur Binance, dépassant les niveaux de juillet.",
+    "source": "BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRHlFTTZIMndoWDYxZElaVnFOUXBmak1qY1F5RHRVY3BJMm9mUGZfMV9hbXYtUVJsQ0NjMFFOdXc5Vk5wS3djQUtCWFRwZnpmbDNuQ1lkTk1QakdPdGx4a2taNVJtbnE2Qkc3ZzZQU051WXJJc1FSeEhoYnFuLVNsTTl3ZXpnWk0?oc=5",
     "date": "20 nov.",
-    "pourquoi": "Illustre le risque de liquidité extrême sur certains actifs synthétiques ou de niche. Utile pour rappeler l'importance de l'audit des émetteurs.",
-    "impact": "baisse"
+    "pourquoi": "Une offre restreinte sur une plateforme majeure peut influencer le cours du XRP à court terme si la demande persiste.",
+    "impact": "hausse"
    },
    {
-    "titre": "Sky (ex-MakerDAO) : 1,5 milliard de dollars quittent les réserves d’USDS après un rapport sur les flux nord-coréens",
-    "resume": "Le protocole Sky (ex-MakerDAO) a vu 1,5 milliard de dollars quitter ses réserves d'USDS après des révélations sur des flux financiers nord-coréens.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/defi/sky-usds-reserves-1-5-milliard-coree-du-nord/",
+    "titre": "Bitcoin : Les grands investisseurs reviennent après neuf mois de ventes",
+    "resume": "Les grands investisseurs américains ont acheté pour 4,11 milliards de dollars de Bitcoin via les ETF au troisième trimestre 2026.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/bitcoin-les-grands-investisseurs-reviennent-apres-neuf-mois-de-ventes/",
     "date": "20 nov.",
-    "pourquoi": "Met en lumière les risques de réputation et de conformité dans la DeFi. Le maintien du peg de l'USDS est à surveiller de près.",
-    "impact": "flat"
+    "pourquoi": "Malgré la baisse récente, cela montre un intérêt institutionnel soutenu sur le moyen terme pour le Bitcoin.",
+    "impact": "hausse"
    },
    {
-    "titre": "La prochaine grande mise à niveau d’Ethereum est reportée à 2027 en raison des applications qu’elle perturberait",
-    "resume": "La prochaine mise à niveau majeure du réseau Ethereum a été repoussée à 2027 pour éviter de perturber les applications existantes.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV1F2dWJDbnpvT3dWbHJFRzJTazdoT2oyTFl4dXRScUV0T0d6b1QtZ3NKVUhxRi00YWdvODlhSmRlNXJ4RnprNExMSkZTYS1SaHJNaDhLLXhkWUJvS0xlVnJ6YUdjTEVET0QzZ29lRjNUcHNEWDBiOGtibjh6LVRkQmlEYmRQcG1JbHczWDhPWVM2SXBYSExpUU5vR3VkZFVYSncyMG15NF9fbXJkeHV5UDg5aVM?oc=5",
+    "titre": "Budget 2027 : faudra-t-il déclarer au fisc ses portefeuilles crypto de plus de 5 000 euros ?",
+    "resume": "Le budget 2027 pourrait imposer la déclaration des portefeuilles crypto de plus de 5 000 euros au fisc français.",
+    "source": "Cryptoast",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSUFCMzliNWtGUlJIZVNFazJ5c2l1TWFxc1BQZm1NWWl6SFZPOHluU1hHWExiS01vcFNjak9FUm84SXA4M1lvanNjUW90c0JnT0hxejdHbEN2ajNwVjhQZjA1NllOby1aUXh3eFBKcDJuYUhyT2piM1h3c2Zxc3VjYXNOX0M?oc=5",
     "date": "20 nov.",
-    "pourquoi": "Ce retard pourrait influencer la roadmap de scalabilité d'Ethereum et l'attractivité de ses concurrents à court terme.",
+    "pourquoi": "Cette mesure fiscale pourrait impacter la gestion de portefeuille des investisseurs français détenant des montants significatifs.",
     "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-20T11:34:13+00:00",
-  "resume": "Les marchés boursiers mondiaux, notamment le CAC 40 et Wall Street, reculent fortement, plombés par une déroute du secteur de l'intelligence artificielle. Les craintes concernant le maintien de taux d'intérêt élevés par la Fed pèsent également sur le sentiment général. Plusieurs entreprises comme Ubisoft, Elior et Vallourec subissent de lourdes chutes suite à des publications décevantes ou des perspectives prudentes.",
+  "updatedAt": "2026-11-20T16:00:21+00:00",
+  "resume": "Wall Street évolue sans direction claire, marquée par un nouveau repli du secteur de l'intelligence artificielle qui pèse sur le Nasdaq. Nvidia recule et perd sa place de troisième entreprise américaine au profit d'Alphabet, tandis qu'Anthropic connaît des débuts boursiers difficiles. En Europe, Ubisoft poursuit sa chute après l'annonce de nouvelles pertes semestrielles.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,50 +213,50 @@
   ],
   "items": [
    {
-    "titre": "Le CAC 40 décroche de 1,44 % en milieu de matinée, emporté par la déroute mondiale des valeurs IA",
-    "resume": "Le CAC 40 chute lourdement, entraîné par un mouvement de vente massif affectant le secteur technologique mondial lié à l'intelligence artificielle.",
-    "source": "Idéal Investisseur",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSWpYR1JjOEE1c0hPZ29ULXZlcnA2VDNoRDlMMXRrRDAxaEVjN0NnQjNHbFhiSmpzSERQazJ3NTNreE9HUktpdEhwUjIxQUpNMWduXzRubEJIRDFEQXhsVGllUnRoZEpRSHVXZGc3LUVSNzVVQk42R2ZjZ1JTVTJwV29MTk5nTUZjWlQzUjFOeURQdHVNbm1FM2Zsd0NrMTRlUzZaV3NPM3RTUmJFR2pUSHlJNzNOWUhRZmJKelMtX1NfMUdMSmg2QjNiRnJQRVpKWkI5RnhCM244Xzd0bzJQODJqTGxqYnplRmc?oc=5",
+    "titre": "Wall Street sans direction claire, l'IA s'enfonce encore",
+    "resume": "Les indices américains affichent une tendance incertaine, pénalisés par la baisse continue des valeurs liées à l'intelligence artificielle.",
+    "source": "France 24",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUm04ZWpUcWwzckQ2UVZpQmFrZDRPdEF1QV93WmxCazc5ZVF5U0NtbmlpcmJlczVTLWxCalQtbTVRdFhtUUh6SGVFNlpLX2V1QmYxTzNmXzFtZC0zWW4tWTl1Q0RZUVVzT05jTUJ6bXFoRENvMS1jWVlpOWxmc2FaMmw2MDg4YTNMNnFmZVdUYnNRdExmU2RHRFR2VXhic19sTHVJN1d2M0xVVUI5?oc=5",
     "date": "20 nov.",
-    "impact": "baisse"
+    "impact": "flat"
    },
    {
-    "titre": "UBISOFT ENTERTAIN : Menace sur les objectifs annuels, concurrence de GTA 6, stress sur le bilan et le cash du groupe… L'angoisse revient sur Ubisoft, qui chute de 11% en Bourse",
-    "resume": "L'action Ubisoft s'effondre, atteignant son plus bas niveau depuis 2011, face aux craintes sur ses objectifs financiers et la concurrence future de GTA 6.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/ubisoft-entertain-FR0000054470/actualites/ubisoft-entertain-menace-sur-les-objectifs-annuels-concurrence-de-gta-6-stress-sur-le-bilan-et-le-cash-du-groupe-l-angoisse-revient-sur-ubisoft-qui-chute-de-11-en-bourse-1174174.html",
-    "date": "20 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Les analystes attendaient bien mieux de Vallourec pour le quatrième trimestre, l'action du fabricant de tubes sans soudure en baisse de 15%",
-    "resume": "Vallourec voit son titre plonger après avoir publié des résultats pour le quatrième trimestre inférieurs aux attentes des analystes.",
-    "source": "Investir Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOamtrRE4xRGJzZjVKblk3NHlrakh3RDdDNm9WbVJMcmNWOGRPdlM1c1ZYdzdrR2RnX2paNlZ3dE9LZ2FINENQZTlhSTV5dG1KQ0R6cnQzamRfLTZ4SkRIUkNDLVdRaGlqcUlSRlZNaE9kNG5yMTdBV21jVFRDU2JtV0l1WWw3T0kwYVRhSnRlUmZoMXdzN2w5ZXZwUmNNUERfR3RheHRNZUZnZkhTRVFzRGFIRUUwMHlVVVRfWWFDamRSVW9FUEhvdDN2WFpaekp2QzJoQzR2Wld3d2VfRTdqTkV0S3JLSWliMVRfQWw3c0F5N0dzTWZUQ2QyRGh6V3FLbUt5NTVDVWZha2pFRE1TVHlKb3hYbHNJMktHQzFSTzFCQlhHRFVudXR0Z3E1N2RRWFJ5S3hnZDlTTHRrWGc?oc=5",
-    "date": "20 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Alerte résultats : les actions Elior Group en baisse après un recul des bénéfices",
-    "resume": "Elior Group enregistre une baisse significative de son action en raison d'un recul de ses bénéfices et de perspectives de marge jugées prudentes.",
+    "titre": "Nvidia chute sous Alphabet et devient la 4e entreprise américaine",
+    "resume": "Nvidia cède du terrain et se fait doubler par Alphabet en termes de capitalisation boursière, devenant la quatrième société américaine.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/alerte-resultats--les-actions-elior-group-en-baisse-apres-un-recul-des-benefices-93CH-3706330",
+    "url": "https://fr.investing.com/news/stock-market-news/nvidia-chute-sous-alphabet-et-devient-la-4e-entreprise-americaine-3707312",
+    "date": "20 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Lendemain de fête difficile pour Anthropic, dont l'action chute de 9% après une entrée en Bourse historique à Wall Street",
+    "resume": "Après une introduction en Bourse très attendue, l'action Anthropic chute lourdement de 9 %.",
+    "source": "BFM Bourse",
+    "url": "https://www.tradingsat.com/actualites/informations-societes/lendemain-de-fete-difficile-pour-anthropic-dont-l-action-chute-de-9-apres-une-entree-en-bourse-historique-a-wall-street-1174189.html",
+    "date": "20 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Ubisoft poursuit sa chute en Bourse après de nouvelles pertes au premier semestre",
+    "resume": "Le titre Ubisoft continue de dégringoler suite à la publication de pertes pour le premier semestre.",
+    "source": "La Libre.be",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNc1hvVmhtSUMzSzZkNERnNXUyd2d4WFZ3LVljeDlsclVZY2ZQenJOTzVNSEFPbGh3N19ucjlVQlRCM1ZMQ0VWWVVWTzluQjBkbkNWM0lDbWtwS1JHWmUwNHlQRDRuMVZHWW43S256SmFYcUZuZEpjMTd4bmV4MGRldUJqUnBjQ2VRSHBWMktoWFFmb19zWUU4Qnh5V0RhVjlLMkl6ZFA2bzBJYmVNSVVyU0M0ODN5MUR5b0VvaG5JYUp1cjd6ajE1MngwRkp2aDMySjYxTmpPYlFTcko4M2Y5bV9LUWs3VF9CZkRaWmJIT3Z5UnNh?oc=5",
     "date": "20 nov.",
     "impact": "baisse"
    },
    {
     "titre": "L'or s'écroule en même temps que Bitcoin : taux de la Fed et dollar fort en coupables communs ?",
-    "resume": "Le cours de l'or et celui du Bitcoin connaissent une baisse simultanée, potentiellement affectés par la vigueur du dollar et la politique monétaire de la Fed.",
+    "resume": "Le cours de l'or et celui du Bitcoin enregistrent une baisse simultanée, potentiellement influencés par la force du dollar et la politique de la Fed.",
     "source": "Cryptoast",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBNZkJsc2gyZEdBLTQyUUd2M0Q4SWdqOENSeExLZFRlQUJhNEZMdmJHWWJlTUVOZE5ZeHliYlZXeXdiVHdpSHhKY2R6aW5MTGU0ckhyS0ZhX1hneXd1TnBDRUtlbVhuRmVVQ2JyZkY5WkxhR0NkdHhBRE9EWE1ndw?oc=5",
     "date": "20 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Raymond James relève son objectif de cours sur Walmart Inc après de solides résultats",
-    "resume": "Walmart voit son objectif de cours relevé par Raymond James après l'annonce de solides résultats financiers.",
+    "titre": "Frontline Ltd dépasse les prévisions du T3 2026 grâce à l’essor des pétroliers",
+    "resume": "Frontline Ltd dépasse les attentes pour le troisième trimestre, portée par la bonne dynamique du secteur des pétroliers.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/analyst-ratings/raymond-james-releve-son-objectif-de-cours-sur-walmart-inc-apres-de-solides-resultats-93CH-3706527",
+    "url": "https://fr.investing.com/news/transcripts/frontline-ltd-depasse-les-previsions-du-t3-2026-grace-a-lessor-des-petroliers-93CH-3707283",
     "date": "20 nov.",
     "impact": "hausse"
    }
@@ -265,86 +265,86 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Un directeur d’ITT Inc achète des actions pour 501.560$",
-    "resume": "Un directeur d'ITT Inc a acheté des actions de sa propre entreprise pour un montant de 501 560 dollars.",
+    "titre": "L’action Plug Power Inc atteint un plus bas sur 52 semaines à 0,98 $",
+    "resume": "L'action Plug Power tombe à un plus bas sur 52 semaines, atteignant 0,98 $.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/un-directeur-ditt-inc-achete-des-actions-pour-501560-93CH-3706470",
+    "url": "https://fr.investing.com/news/company-news/laction-plug-power-inc-atteint-un-plus-bas-sur-52-semaines-a-098--93CH-3707313",
     "date": "20 nov.",
-    "pourquoi": "Cet achat d'initié peut signaler une confiance de la direction dans les perspectives futures de l'entreprise industrielle ITT.",
+    "pourquoi": "Ce signal souligne les difficultés persistantes dans le secteur de l'hydrogène vert. À surveiller pour évaluer le moral des investisseurs sur les énergies renouvelables spéculatives.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Cenergy Hold relève ses prévisions 2026 après neuf mois solides",
+    "resume": "Cenergy Hold relève ses prévisions pour 2026 après neuf mois de solides performances.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/transcripts/cenergy-hold-releve-ses-previsions-2026-apres-neuf-mois-solides-93CH-3707262",
+    "date": "20 nov.",
+    "pourquoi": "Indique une dynamique positive dans les infrastructures énergétiques. Utile pour identifier des acteurs industriels européens en croissance.",
     "impact": "hausse"
    },
    {
-    "titre": "BTIG abaisse la note de Bill Com Holdings Inc à neutre suite à un accord d’acquisition",
-    "resume": "BTIG abaisse la recommandation sur Bill Com Holdings à 'neutre' suite à l'annonce d'un accord d'acquisition.",
+    "titre": "Boxlight reçoit un avis de radiation du NASDAQ malgré ses efforts de financement",
+    "resume": "Boxlight reçoit un avis de radiation du NASDAQ malgré ses tentatives de financement.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/analyst-ratings/btig-abaisse-la-note-de-bill-com-holdings-inc-a-neutre-suite-a-un-accord-dacquisition-93CH-3706523",
+    "url": "https://fr.investing.com/news/company-news/boxlight-recoit-un-avis-de-radiation-du-nasdaq-malgre-ses-efforts-de-financement-93CH-3707116",
     "date": "20 nov.",
-    "pourquoi": "Pour les investisseurs dans la fintech Bill Com, cela indique que le potentiel de hausse lié à la spéculation sur un rachat est désormais limité.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Zaklady Azotowe W Tarnowie affiche un EBITDA en hausse de 88% sur neuf mois au T3 2026",
-    "resume": "Zaklady Azotowe W Tarnowie rapporte un EBITDA en hausse de 88% sur neuf mois au troisième trimestre 2026.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/zaklady-azotowe-w-tarnowie-affiche-un-ebitda-en-hausse-de-88-sur-neuf-mois-au-t3-2026-93CH-3706373",
-    "date": "20 nov.",
-    "pourquoi": "Cette forte croissance opérationnelle concerne une entreprise du secteur chimique, à surveiller pour d'éventuels signes de reprise dans cette industrie.",
-    "impact": "hausse"
+    "pourquoi": "Illustre le risque élevé sur les micro-caps technologiques en difficulté de financement. Un signal de prudence pour les investisseurs sur ce segment.",
+    "impact": "baisse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-20T11:34:13+00:00",
-  "resume": "L'encadrement des loyers est prolongé jusqu'en 2028, malgré les critiques du ministre du Logement. Les perspectives du marché immobilier français pour 2026-2027 affichent des baisses de prix dans plusieurs grandes villes et un pessimisme majoritaire chez les Français. Face aux difficultés d'accès au crédit, des alternatives comme la vente à terme ou l'investissement en SCPI diversifiées sont mises en avant.",
+  "updatedAt": "2026-11-20T16:00:21+00:00",
+  "resume": "Le marché immobilier français reste sous pression avec un accès au crédit difficile et un pessimisme marqué des ménages. Le projet de loi logement avance au Parlement, actant notamment la prolongation de l'encadrement des loyers jusqu'en 2028. En parallèle, les SCPI diversifiées et paneuropéennes sont mises en avant comme des placements d'avenir.",
   "chiffres": [],
   "items": [
    {
+    "titre": "Immobilier : pouvoir d'achat, accès à l'emprunt, incertitudes politiques… la grande déprime des Français",
+    "resume": "Le moral des Français concernant l'immobilier est au plus bas, plombé par la baisse du pouvoir d'achat, les difficultés d'emprunt et l'incertitude politique.",
+    "source": "Les Echos",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMGF1Q2tKOXN3THBhcDQzQ2lueFFPaHNlMkdKdDJ6eTAxcU5QTnZaUTFkb2FFUkJfVXVtR21Rc2UzTVU3TmlEM1Q1bzR6T1huV09wYnlyRWFZZTd0djhCUFktOXMzdTlsRE5VZzFHdHl1Wks1SDdYSV9aS0RqeVFiYnVNNVhZUzN1UDUya3dKczZLZkRmVHI4UzZEMTdCeGE2QkU2bnNSd0tQNDZFNVNIaUpKLUpHTjlhU2RubU9XTk1DWnhwSEpDNEUtZVluU2pvTS1VMHNmTmpHODhJQ0pwemlEaUJSdw?oc=5",
+    "date": "20 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Crédit immobilier : 1 dossier sur 8 refusé à cause des 35 %",
+    "resume": "L'accès au crédit immobilier reste compliqué, avec un dossier sur huit refusé en raison du non-respect du taux d'endettement maximal de 35 %.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rZUZsaGxsVDJTRWNjd0FmbVdJWHJReHdka09HY2V2eEpKYzNuTldWLXB5dWl0cVpYa0x5cWdLX0RQNElPaVhNQ0lxeHE4SWVpS1RKYlBiN0RxTEY2UnFUakM1cU95dTR0d1ZBRnc5Yms0eGN2NFlYczJuTFg?oc=5",
+    "date": "20 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "Immobilier : L’encadrement des loyers prolongé jusqu’en 2028, ce qui change",
-    "resume": "Le dispositif d'encadrement des loyers est officiellement prolongé pour une durée de deux ans, soit jusqu'en 2028.",
+    "resume": "L'encadrement des loyers va être prolongé jusqu'en 2028, une mesure qui limite les revenus locatifs potentiels pour les investisseurs dans les zones concernées.",
     "source": "MySweetImmo",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZFc4N3JHTi1LdWpmNThJWG1fTU9IOXN4TWFuT3pDdVUwMlZKUjgxeWNrUjhaLXlJMEtlYzc0RktNeDktU1lDa1JWWW9hRWdZRTFLUDdUZTNnM0pyN3ZhRnU4QzJSclJET3pxMEd0aTFvV0J2QmtVLVhqcmhxNTBGWWpn?oc=5",
     "date": "20 nov.",
     "impact": "flat"
    },
    {
+    "titre": "Logement : les députés achèvent l’examen du projet de loi",
+    "resume": "Les députés ont terminé l'examen du projet de loi logement, traitant de sujets clés comme les passoires thermiques et le logement social, avant un vote final prévu prochainement.",
+    "source": "MySweetImmo",
+    "url": "https://www.mysweetimmo.com/2026/11/20/projet-loi-logement-vote-novembre-2026/",
+    "date": "20 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Où placer en 2027 ? Priorité aux SCPI diversifiées et paneuropéennes !",
+    "resume": "Pour les années à venir, les experts recommandent de privilégier les SCPI diversifiées à l'échelle européenne pour optimiser les rendements.",
+    "source": "Investir Les Echos",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdkJLekpfQVRWX2JmejhpajNtblFJWE1zS1NTQmg4M3NNTnotV3Jfcjg1RkpGTFVWRFhEUnhZNkNHMk5QNGZMUnBqcjNoVXFfR3pKZ2R1aEtRQ1lTeWRXbHhNYjJFcUV4bEdrMGRKczJuQjhUbWIyenl0VkRIekZSbk1Zb0d5eEV2VFkweGQ4T1E4dlhORXJVcHVKemY3TnVtRWFCb2YtU2tuRXl4dk1wanlDWEo5cmNxUkhqalE0Mi1MdG8?oc=5",
+    "date": "20 nov.",
+    "impact": "hausse"
+   },
+   {
     "titre": "Immobilier : les prix baissent dans 8 grandes villes en 2026",
-    "resume": "Des prévisions indiquent une baisse des prix immobiliers dans huit grandes villes françaises à l'horizon 2026.",
+    "resume": "Une baisse des prix de l'immobilier est observée dans huit grandes villes françaises pour l'année 2026, confirmant le ralentissement du marché.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaWgwMzZ5SmJBR1VqVU1QVEJja2tQaDBzNkJvbTY1NUpuN0xyWXhfSFBWamJKM2VseTB0UlVPelBwaXdmcTYwbjRNcndiMi1HbHR5UEd6RW5IbWJTbXlYRnlpQjlQdnhIZklsV1B0djJjclpMUmtvTVgtbXU4R1lvY1Q0Rk1lRnJld2RzcUI3MU5kNHNVdGNPRVJYM0dhRUZOZDJtZGg1eTNhYXRydW4yYzZLQl9CaVgtWGhhMGZZZWp2UEZzY3Rxdjg0eEpxbWxJREpHaEptLVRJclk?oc=5",
     "date": "20 nov.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Immobilier : 79 % des Français pessimistes sur le marché",
-    "resume": "Une large majorité de Français (79 %) se déclare pessimiste concernant l'évolution actuelle du marché immobilier.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb3h2R3NfNTR1eG9UZ1FrWVVmZnNOUzBtWWlxZzZvXzhsWE9EQ1l5OUtkdVA4VzFvNzdacXBLdDdhX1hwcGZLMVdoWktTakFtaEcxamJUNEVKRjUzMm1faU1LTFNlVUtRN1NhUGpxUnV4VmpLZFBIblpmWjFudmdvajBQcklJV1JGNldJaUVYMThUWEFjYXhOdG1uWWRrY1ozUDNxdkdwUElmWGxidENCbEZ4NmRPT3BuNmFvWHZQNnZXNF8wX0tFMkVkTkg0YVFDbXk4cG51SQ?oc=5",
-    "date": "20 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Où placer en 2027 ? Priorité aux SCPI diversifiées et paneuropéennes !",
-    "resume": "Pour les investissements à l'horizon 2027, les experts recommandent de privilégier les SCPI diversifiées et actives à l'échelle européenne.",
-    "source": "Investir Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdkJLekpfQVRWX2JmejhpajNtblFJWE1zS1NTQmg4M3NNTnotV3Jfcjg1RkpGTFVWRFhEUnhZNkNHMk5QNGZMUnBqcjNoVXFfR3pKZ2R1aEtRQ1lTeWRXbHhNYjJFcUV4bEdrMGRKczJuQjhUbWIyenl0VkRIekZSbk1Zb0d5eEV2VFkweGQ4T1E4dlhORXJVcHVKemY3TnVtRWFCb2YtU2tuRXl4dk1wanlDWEo5cmNxUkhqalE0Mi1MdG8?oc=5",
-    "date": "20 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Logement : l'élection présidentielle de 2027 freine déjà les projets immobiliers",
-    "resume": "L'incertitude liée à l'élection présidentielle de 2027 commence déjà à freiner certains projets immobiliers.",
-    "source": "Empruntis",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb0RKR0Zwc1UzaWxqNWdxMWdVN0hINExfeFJRZVFHZEZEZGFmcDdiVUx0cEo3QkFPeXp2WjNReDBsSEZDWXh3T193Q3QtZF9kZXJzdW5qMUN4a2c0NkV4SDczZVdScWx4eEVjb2ZZajlISFJyc0lOQlFmd09VdzVjZjFKalQxcVhlU0lKSVNYUVhDcEt6MkgtYTFETnlsdDM1d0hwT1N0dHRnaW1KLXE3bXdISkxLMUlVT1Bod1o4ekM1X1YwZ1pvQmhKNnhJV1E?oc=5",
-    "date": "20 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Viager, vente à terme : Comment acheter sans prêt bancaire ?",
-    "resume": "La vente à terme est présentée comme une solution pour acquérir un bien immobilier sans recourir à un prêt bancaire classique.",
-    "source": "MySweetImmo",
-    "url": "https://www.mysweetimmo.com/2026/11/20/viager-vente-a-terme-comment-acheter-sans-pret-bancaire/",
-    "date": "20 nov.",
-    "impact": "flat"
    }
   ],
   "par": "ia",
@@ -352,29 +352,29 @@
   "niche": [
    {
     "titre": "Crowdfunding immobilier : 12 millions d’euros collectés en 2 ans pour We Are Olivia",
-    "resume": "La plateforme We Are Olivia a collecté 12 millions d’euros en crowdfunding immobilier sur deux ans.",
+    "resume": "Une plateforme de crowdfunding immobilier a collecté 12 millions d’euros en deux ans pour un opérateur spécifique.",
     "source": "MySweetImmo",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JbldnZnRSS2pkc0VRUXUzeFJIbnhtcG84Q1B6LUJSR2Z0Zk9fZWRKMGwtbkFhUi05VGs2T3lnQUJha2RELV9uLUZ5VFMzYVdVeEtVenU3VEJfLWFWWDNWWEY5eDlPQnljbXFFY1NKSDhHQkFTR21V?oc=5",
     "date": "20 nov.",
-    "pourquoi": "Cela montre la vitalité du financement participatif immobilier comme alternative de placement ou de financement de projets.",
+    "pourquoi": "Cela montre le dynamisme du financement participatif pour des projets ciblés, offrant des alternatives de placement à surveiller.",
     "impact": "hausse"
    },
    {
-    "titre": "Achat d’un propre : rembourser le prêt avec les loyers perçus implique de récompenser la communauté",
-    "resume": "Rembourser un prêt personnel avec des loyers perçus peut obliger à récompenser la communauté.",
-    "source": "Éditions Francis Lefebvre",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQanpBVlU5SVhoNEQ3UU1ZeEE5VGdobkV1anBkMXgxb3ZpUFZLcXZvX2NHMEFWZVo2TExtWnhZOGlKTXhxdkFadU9USU9HaktTYl9rWFl0OWJtbWNMaTlfNk1ld2ZTZG85TVZpaTVyaWY5RWxURllFSmptVjYzaENRQWQ1bHQ0SU9rS2pBdWR0LWdMQ2piZG4tNDVJUWtHbUh6SkNWdElzcFJ5ZEFBVDNTMERYaVpWOXo4LXVOT0JtRFJWb2Z3NnJVX0g0RkJKdjRoaWl6RkJPNU4?oc=5",
+    "titre": "Chauffage au gaz : le tarif du réseau pourrait plus que doubler d'ici 2050, prévient le Trésor - www.actual-immo.fr",
+    "resume": "Le Trésor prévient que le tarif du réseau de chauffage au gaz pourrait plus que doubler d'ici 2050.",
+    "source": "www.actual-immo.fr",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TbWUybTVCRExyckt2RTFGYVJPMjhWbmI2RlJkZXhzbmcxdmRXUjBtcDBTbHRMVmxSMXFiN1VUYUR4RVJ2Z3pqak9CeDN2QkpHLXJtUFVIM3k3YndhT2Q4X3BYVXFta00?oc=5",
     "date": "20 nov.",
-    "pourquoi": "Cette précision juridique est cruciale pour la structuration patrimoniale des investisseurs mariés sous le régime de la communauté.",
-    "impact": "flat"
+    "pourquoi": "Cette hausse impacterait fortement les charges des propriétaires et locataires de logements chauffés au gaz, influençant leur valeur.",
+    "impact": "baisse"
    },
    {
-    "titre": "Ain. Le marché de l’immobilier ralentit de nouveau : des opportunités à saisir ?",
-    "resume": "Le marché immobilier dans le département de l'Ain connaît un nouveau ralentissement.",
-    "source": "Le Progrès",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkV0LVJwUVFpWXB3c1BwV2J2cU5tUXAxQy1CSG1XeXkxaDhVNUtHVkNrRklncS15V25naWhLakN1SUZtMFdpeDBRUEVFWGw1emNOZnpHQUxLTVNUcXV5ZHN3dGw3RVZfUnV0QmR4eWJCemVjOU44NFVLV0ZEUnRPYWJNaTV0VC1MRFYtdWgteE1qNVY0S05vQ3JhMUtTaTFUbmhFU3JYTDljcUhQQnQ3djFCU2xyZTQ?oc=5",
+    "titre": "Le patrimoine des seniors menace de faire chuter les prix de l’immobilier, Issoudun est l’une des communes les plus exposées",
+    "resume": "Le patrimoine des seniors pourrait menacer les prix immobiliers à Issoudun en raison d'un risque de ventes massives.",
+    "source": "lanouvellerepublique.fr",
+    "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPS1BRcTlmMHIzTTA0cGFNZjRFbm9LVEFUYVc4QTZPWk1kMzhQRWdIMDhJOWltaF9aM0tlVWkxOHhMcmp1MDRhVEg1enpKdlVZekhkbE9kN1lYTnNMTWNfeHF1bUdfeWlRUG10ZGtvWVQtRnVvUXlzSWpab25CaFZfQU9lb19mRU1KY3R5TjhlV0hmSkIyZ1lBczNMMnJSMmpzd1NXeWR2VGh4d2JEXzY3eTUyYUp3Y3JCNzhYZDMyOWIxM1k0WEEyWFBuOHVwSmhuTDdVcUxpYllwNFpxeEx3ZXoyZHE1VHRtUnlRTVg0X0lWb0tBM29OY0ZaQWg3US1OemdSTXJVcGxfbWM?oc=5",
     "date": "20 nov.",
-    "pourquoi": "Cela peut signaler l'apparition d'opportunités d'achat locales dans des zones moins tendues.",
+    "pourquoi": "Ce signal local illustre l'impact démographique sur des marchés spécifiques, à surveiller pour des opportunités ou des risques localisés.",
     "impact": "baisse"
    }
   ]
