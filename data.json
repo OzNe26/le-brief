@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-21T11:26:17+00:00",
-  "resume": "Le Pas-de-Calais est de nouveau touché par d'importantes inondations, entraînant l'évacuation de centaines d'habitants. L'actualité est aussi marquée par des tensions politiques en France autour de la présomption d'usage légal des armes pour la police et la condamnation d'un policier pour un tir mortel. À l'international, des annonces scientifiques majeures concernant la résolution de l'hypothèse de Riemann avec l'aide de l'IA secouent la communauté mathématique.",
+  "updatedAt": "2026-11-21T15:51:06+00:00",
+  "resume": "Plusieurs manifestations contre la vie chère et pour le droit au logement ont eu lieu en France ce samedi. Sur le plan international, les tensions persistent avec des incidents signalés en Finlande et en Ukraine, tandis que Donald Trump a acté la fin de la pièce de 1 centime. En économie, une proposition d'économies budgétaires pour l'UE et un accord commercial entre l'UE et l'Indonésie ont été annoncés.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Crues: le niveau de la Canche a atteint son maximum dans le Pas-de-Calais, des débordements sont attendus en Normandie",
-    "resume": "Le département du Pas-de-Calais subit de nouvelles crues importantes, provoquant l'évacuation de 600 à 700 personnes et plaçant plusieurs cours d'eau en vigilance orange.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/pas-de-calais/crues-le-niveau-de-la-canche-a-atteint-sont-maximum-dans-le-pas-de-calais-des-debordements-sont-attendues-en-normandie_AV-202611210270.html",
+    "titre": "Budget UE: plus de 200 milliards d'euros d'économie proposées, Paris et Berlin font la moue",
+    "resume": "Le président du Conseil européen propose plus de 200 milliards d'euros d'économies et une taxe numérique pour boucler le budget de l'UE.",
+    "source": "RFI",
+    "url": "https://www.rfi.fr/fr/europe/20261121-budget-ue-plus-de-200-milliards-d-euros-d-%C3%A9conomie-propos%C3%A9es-paris-et-berlin-font-la-moue",
+    "date": "21 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "EN DIRECT - \"Acte VI\" contre la vie chère : la manifestation s'élance à Paris, jusqu'à 30.000 personnes attendues",
+    "resume": "Pour le sixième samedi consécutif, des manifestations contre la vie chère se sont tenues en France, notamment à Paris.",
+    "source": "TF1 Info",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNYnFYUTVPeHlYZzExV2duUU5ZY3paOVluTmZWU19nak1Wd2J3Y1h5Mkt3ZlJYTGJjUFpITFZRbk1ucXZEWXJvOHFfcC1tMkIyN05iQThuNUsyTWMybkZZZlhpaHFTbHVydEp1OXdWYURhZkN1WWM1LUZkUmdzZkdBUDRIYVVteDJNRlhySjE3aUFPU1dNaDZKWV9KS25uYks5aG01M1lmbGpmd1VCdFZIazdxc2wwTlVfd05wU2xUU3doTzhZUjlCNVNBeFhaZmdGTXRFVWpWZ1cwQk4yNk5hLWJhU0FhRUZzcFFLN0VsOVI2U3RVV2Z2R1BWcGxOUF94ODlKUkN3?oc=5",
     "date": "21 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "La probable résolution de l’hypothèse de Riemann par une intelligence artificielle marque une bascule pour les mathématiques",
-    "resume": "Un chercheur d'Anthropic affirme avoir résolu l'hypothèse de Riemann, un problème mathématique célèbre, en utilisant l'intelligence artificielle Claude.",
-    "source": "Le Monde Pixels",
-    "url": "https://www.lemonde.fr/sciences/article/2026/11/21/la-probable-resolution-de-l-hypothese-de-riemann-par-une-intelligence-artificielle-marque-une-bascule-pour-les-mathematiques_6813962_1650684.html",
-    "date": "21 nov.",
-    "impact": "flat",
-    "categorie": "Tech"
-   },
-   {
-    "titre": "Police : la présomption d'usage légal des armes entérinée au Parlement",
-    "resume": "Le Parlement a définitivement adopté une loi instaurant une présomption d'usage légal des armes pour les forces de l'ordre, une mesure vivement contestée par la gauche.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/vid%C3%A9o/20261121-police-la-pr%C3%A9somption-d-usage-l%C3%A9gal-des-armes-ent%C3%A9rin%C3%A9e-au-parlement",
-    "date": "21 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Guerre en Ukraine: de nouvelles frappes russes font au moins 11 morts",
-    "resume": "De nouvelles frappes russes ont visé l'Ukraine, touchant des infrastructures énergétiques et causant au moins 11 morts, tandis que des projectiles sont tombés en Pologne.",
+    "titre": "Le \"cent\" américain, c'est fini: Donald Trump acte la fin de la production de la pièce de 1 centime de dollar",
+    "resume": "Le président américain Donald Trump a signé une loi mettant fin à la production de la pièce de 1 centime de dollar.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/international/asie/russie/video-guerre-en-ukraine-de-nouvelles-frappes-russes-font-au-moins-11-morts_VN-202611210275.html",
+    "url": "https://www.bfmtv.com/economie/international/le-penny-du-dollar-americain-c-est-fini-donald-trump-acte-la-fin-de-la-production-de-la-piece-de-1-centime_AV-202611210346.html",
     "date": "21 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Automobiliste noir tué à Sevran: un policier condamné à 18 mois de prison ferme, la famille de la victime dénonce une peine insuffisante",
-    "resume": "Un policier a été condamné à 18 mois de prison ferme pour avoir tué un automobiliste noir en 2022, une peine jugée insuffisante par la famille de la victime.",
+    "titre": "90% des exportations indonésiennes vers l'UE seront exonérées de droits de douane: Bruxelles officialise un vaste accord commercial avec Jakarta (notamment pour du textile et de l'huile de palme)",
+    "resume": "L'Union européenne a officialisé un accord commercial avec l'Indonésie, supprimant la quasi-totalité des droits de douane entre les deux zones.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/police-justice/automobiliste-noir-tue-a-sevran-un-policier-condamne-a-18-mois-de-prison-ferme-la-famille-de-la-victime-denonce-une-peine-insuffisante_AD-202611210271.html",
+    "url": "https://www.bfmtv.com/economie/international/90-des-exportations-indonesiennes-vers-l-ue-seront-exonerees-de-droits-de-douane-bruxelles-officialise-un-nouvel-accord-commercial-avec-jakarta_AD-202611210344.html",
+    "date": "21 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "EN DIRECT, guerre en Ukraine : la Finlande soupçonne un hélicoptère russe d’être entré dans son espace aérien, quelques heures après une attaque de drone sur un cargo russe en mer Baltique",
+    "resume": "La Finlande soupçonne une violation de son espace aérien par un hélicoptère russe, peu après une attaque de drone contre un cargo russe en mer Baltique.",
+    "source": "Le Monde.fr",
+    "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQVGlXOE1vc0NOVjh4NW5xVUZ0VWJxSGh6UWVaaW1WQ0ttdTgwbUdHUFByeVg1WnlTMkFIRFA4NmZFX0hCVnBxM1JyeVUyUUZMbzNIN0o2LVU3c1lMdUo1aFNkYTdwa0Z3eWMxaGJxVURONzlSREtGbzZIQXotSC1qcGJ5enVZM3k1MDk5VVNwb2xCM1dXNDh4RXVjcXBld2tXcEVJTkVITVNybWM0a09lY0V4cHMyWGkzYlNFdW1jejVJM0VkUVFTX1l2ZkNVQVh4MThvakJWUUQ5b1gtN2w1dHlmYW1MRkRDb1NXNmg2MHl2ZTEtU1NSLXVDRms4bXJpeE8yOUwxWFBmR3A1dlp1dE9SYlI4b2R4MFZkdUh3a2hHbXNDVEFCRVF2LU5wSm1tazI5ZW0yUDBIcTM5SWt3bGloX0NLNHlaRFdBOFVTQXBFMUFTTGpkbll0bkxUMFBRSkgwbExLc1lpcTh5TUtKaA?oc=5",
+    "date": "21 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Verdict au procès de Michel Zecler : l'espoir d'une \"jurisprudence\"",
+    "resume": "Trois policiers ont été condamnés à de la prison ferme pour violences aggravées lors du procès concernant le passage à tabac de Michel Zecler.",
+    "source": "France 24",
+    "url": "https://www.france24.com/fr/%C3%A9missions/une-semaine-en-france/20261121-verdict-au-proc%C3%A8s-de-michel-zecler-l-espoir-d-une-jurisprudence",
     "date": "21 nov.",
     "impact": "flat",
     "categorie": "France"
-   },
-   {
-    "titre": "GTA 6 : ça commence, accusé d’être woke, le jeu se fait torpiller par des milliers d’avis négatifs",
-    "resume": "Juste après sa sortie, le jeu vidéo GTA 6 est la cible de milliers d'avis négatifs sur Metacritic, certains l'accusant d'être 'woke'.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/pop-culture/2380577-gta-6-ca-commence-accuse-detre-woke-le-jeu-se-fait-torpiller-par-des-milliers-davis-negatifs.html",
-    "date": "21 nov.",
-    "impact": "flat",
-    "categorie": "Culture"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-21T11:26:17+00:00",
-  "resume": "Le marché des cryptomonnaies subit une forte correction, le Bitcoin chutant sous les 56 000 dollars et entraînant la majorité des altcoins dans sa baisse. Cette chute s'accompagne de liquidations massives de positions et de sorties importantes de capitaux des ETF Bitcoin américains. Malgré ce mouvement de vente généralisé, certains grands investisseurs semblent revenir sur le marché.",
+  "updatedAt": "2026-11-21T15:51:06+00:00",
+  "resume": "Le marché des cryptomonnaies subit une forte baisse, le Bitcoin chutant sous les 56 000 dollars, son plus bas niveau depuis septembre 2024. Cette correction entraîne d'importantes liquidations et touche également l'Ethereum ainsi que de nombreux altcoins. Parallèlement, les ETF Bitcoin américains enregistrent des sorties de capitaux massives en novembre.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -94,49 +94,49 @@
   "items": [
    {
     "titre": "Le Bitcoin s'effondre sous les 56 000 $ : du jamais vu depuis septembre 2024",
-    "resume": "Le cours du Bitcoin est tombé sous le seuil des 56 000 dollars, atteignant des niveaux qui n'avaient pas été observés depuis septembre 2024.",
+    "resume": "Le cours du Bitcoin est tombé sous la barre des 56 000 dollars, atteignant un niveau inédit depuis septembre 2024.",
     "source": "Cryptoast",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWkh4YU9nc2VRNkNjS2xxZDVRSGU0NHRmeEp4elgxN2pBRjZQZjhOTmF4TXEtdXV4YUt2MkpyLTNYNHB0YTQyZnM5N2YwdjZOdWlaSFRyTkZLWC1WZTRlbWhSbkY4enVaTkloTHEycE12VWFFV3BvY1Q5Y0NKNjFRWmVLbDZiMmRuUVZBUHdhYjlyNHBzUTdCZA?oc=5",
     "date": "21 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le Bitcoin plonge à 56300 $ et balaye 2,4 milliards $ de positions",
-    "resume": "La chute brutale du Bitcoin a provoqué la liquidation de 2,4 milliards de dollars de positions sur le marché.",
+    "titre": "Le marché crypto perd 150 milliards $ et s’enfonce dans le rouge",
+    "resume": "La capitalisation globale du marché crypto a diminué de 150 milliards de dollars, signalant une phase de capitulation potentielle.",
     "source": "Cointribune",
-    "url": "https://www.cointribune.com/le-bitcoin-plonge-a-56300-et-balaye-24-milliards-de-positions/",
+    "url": "https://www.cointribune.com/le-marche-crypto-perd-150-milliards-et-senfonce-dans-le-rouge/",
     "date": "21 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "ETF Bitcoin : 582 M$ de sorties, IBIT perd 541 M$ en une journée",
-    "resume": "Les ETF Bitcoin américains ont enregistré des sorties nettes de 582 millions de dollars en une seule journée, dont la majeure partie provient du fonds IBIT de BlackRock.",
-    "source": "FinanceFeeds",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTmNCMlFNYWZDNllNclFMVGtEZlFDTDJZMVh3YmpLMEhBRTRTZ21NMkNmR1VNQ1NkQVp3S3U4Y1RVZnBxSF9EemU4N2lGX2tQZjB6VEN1S1N0RHpGb2psOEZsZ2l5NnVIcUlkRjhycU14QXNsVzlVVW5PcTN6MlJZTlpaVDhCUjJWNVR5M1M4RzFzalh4ZUNCWg?oc=5",
-    "date": "21 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Bitcoin : Les grands investisseurs reviennent après neuf mois de ventes: Guest Post by Cointribune",
-    "resume": "Après neuf mois de ventes, les grands investisseurs recommencent à accumuler du Bitcoin.",
+    "titre": "Cours de l’Ethereum à 1 735 dollars : plus bas niveau journalier depuis juillet, les ETF continuent de vendre",
+    "resume": "L'Ethereum suit la tendance baissière et s'échange autour de 1 735 dollars, son plus bas niveau journalier depuis juillet.",
     "source": "CoinMarketCap",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1fcW9TNF81YUxmcjVwWXRSSk9CbXNvTmZkQ2IyR0ptZVZwLURZSk5JdTdTS3pNZFl1Sl9iV01GZFI0ZWI1RHkxbGZlTld5eWUxTVZIUE1SY1VxUzFVTmhMTEtNbjFuejFuV0s2T29BbUFOb0RFQ253XzdR?oc=5",
-    "date": "21 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "XRP sous 0,90 $ pour la première fois en 2024, les ETF en perte",
-    "resume": "Le XRP est passé sous les 0,90 dollar pour la première fois cette année, entraînant des pertes pour les ETF associés.",
-    "source": "Bitcoin News",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd2l5SEo1VFMzUDdDc3NxM2Z0YUVUMmdIeXYyMUV2a0lqd1Nmb1dtQ0VlRFN1ZU90dmQ1VXMzdlVCZGMzWWdtNkRxWkZfc1d6UUpockwyTkVrWUFwVjlGZWhENGVQYmNDaWVJcGlHcm91T3RrNXF6MU1FLUYtaHdId0xHU3BmSkhOamE0eWZsZlB1ampsS2pPRGxoQUVPdWVET3lF?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6QVhDMjVuTS0zTUhib29aT0ZLZDZjdHptZU1zREJuLWpQVjNiUjMxRFMwOUd3dDEtaURNMHViNmZpX1dkOWtBSDV5b3pfRXRCS0NDSnEybExMZlhZRVpsOWgxSmZnWE1JVGljUDNkOGE4SzU5QVlZc280cG1SQQ?oc=5",
     "date": "21 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Hack de Binance : Les pirates nord-coréens déplacent 860 millions $ d’Ethereum en 4 jours",
-    "resume": "Des pirates nord-coréens liés au hack de Binance ont déplacé environ 860 millions de dollars en Ethereum en l'espace de quatre jours.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/hack-de-binance-les-pirates-nord-coreens-deplacent-860-millions-dethereum-en-4-jours/",
+    "titre": "Sorties des ETF bitcoin : plus de 3,4 Md$ en novembre",
+    "resume": "Les ETF Bitcoin ont enregistré plus de 3,4 milliards de dollars de sorties nettes au cours du mois de novembre.",
+    "source": "CryptoTicker.io",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOWV0WnVyRlVmbkltakF3U19Rb3FKRkRxVjRUai1kbnZJRmY1S2FJY0x2ZzdlNjhtU0NMLWpOWFV3dzBmbGVxWWVnNVFNdi1OOGFldGRnWXduTlRvX254VUNqQ09tNDhROHh2WEMzOGg3c0d6R3BPWUJXVW5uRGd1RXBR?oc=5",
+    "date": "21 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le prix de XRP pourrait connaître son pire mois de l’histoire récente",
+    "resume": "Le prix du XRP pourrait enregistrer l'une des pires performances mensuelles de son histoire récente.",
+    "source": "BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53ZUNQdy1hZG9mM29JYXpoTkhtTnNwYmVCZXRxUWpRM2hwQzZXdXk1QWROX2ZQVWsxWUxZUlppMWZ3MHRLNXpHNGM0WUh6VFNVbmR3bTQxY3hSTFVrVmoxWVdWZjg?oc=5",
+    "date": "21 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Galaxy : les institutions américaines détiennent un record de 356 000 BTC, Wells Fargo en tête",
+    "resume": "Malgré la baisse des cours, les institutions américaines détiennent un record de 356 000 BTC, Wells Fargo en tête.",
+    "source": "Bitcoin News",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN0NFWEwzam9sZXJ4aHhIeDBOQTAtN21hallYSHhwRGtIZFFxT0FxVkg0eFVabEdHaFdRaWtzdmNNeUVTczJqR3RDXy1vbUlHcnFISmI3dklhUGdUWkJoNG9EcDNlRTM5U25EYWsyZlNORnlla0t5NzlMWUtUNTcwaWttbVM4STk2TmJVaTcwYVpSTVR5d2lmV2lhdTBDT28xT1U3blZ0NW1fZnkybkFyb0RJNE5TbEtkS25BQjdMRTdKS3pLZkpB?oc=5",
     "date": "21 nov.",
     "impact": "flat"
    }
@@ -150,32 +150,41 @@
     "source": "CoinMarketCap",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjeF9aWlJ6VDBNcloyRVRoVnhiWjUybHdtMEo3X3VOUTk1dEhUY1U5ZGh1Y1FkSE4xaXRkQU5RUWl1NnNxQ043QUFmTl92QkR5LTFJRGJPNkktNzhVNExEank1YlhOTHgtZFp6azFYdDBjRm43cjM0ME93?oc=5",
     "date": "21 nov.",
-    "pourquoi": "Cela montre un intérêt persistant des investisseurs de taille moyenne pour le Dogecoin, malgré une capitalisation boursière stagnante.",
+    "pourquoi": "Cela indique un intérêt d'achat pour le Dogecoin malgré une capitalisation boursière stagnante sous les 10 milliards de dollars.",
     "impact": "flat"
    },
    {
-    "titre": "LayerZero (ZRO) chute de 4,76 % sur fond de déverrouillage de tokens et de ventes massives sur les cryptos",
-    "resume": "LayerZero (ZRO) chute de 4,76 % suite à un déverrouillage de tokens.",
+    "titre": "Coup de tonnerre : Le géant crypto CoinShares vend 100 % de ses ETH: Guest Post by Cointribune",
+    "resume": "CoinShares a vendu l'intégralité de ses positions en Ethereum.",
     "source": "CoinMarketCap",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qNE52Y245bUpUOXl2bXhfY0tvU3g2SDdJOTlodmVIMkxRTUpHaXZyVjJPc0FKVVBOWFl5T282S2xBMzRteXBUeHhHM1pPVkVoS3JBZlNvUTdqR19ScFY4WnlDR2htZzBxLW10bGhNZ0tic1Nh?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rTGF3MmFFa3gxOFpzNGdhNkN2WE5TSUZwTnNtTjktQmZfc3QzWkRUMXdnRG5KX2RUSnlUa3NncUUzSjc0dDdVRGRKbEtpR2Y3X0FZWURyVXlMUDE4dXRoN09MV3RCb21KbFlFZUpQZWhZNTVTQm52eUVsX3o4QQ?oc=5",
     "date": "21 nov.",
-    "pourquoi": "L'augmentation de l'offre circulante due au déverrouillage crée une pression vendeuse sur le ZRO.",
+    "pourquoi": "Cette vente massive par un acteur institutionnel majeur pourrait accentuer la pression baissière sur l'ETH.",
     "impact": "baisse"
    },
    {
-    "titre": "Cours Solana : les ETF perdent 122,7 M$ en 30 jours",
-    "resume": "Les ETF Solana ont perdu 122,7 millions de dollars en 30 jours.",
-    "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QcWR5dVJrYTJCdzQ4WWhvNFh6UjFTbnphX2tYNHBRcS1sd0JNS0Vjay16NzctaXM0bFM1NXp2WmpfWS1DM2JpMDJlbnpNR2RKci1xbXg4bjRVVF9CaS1LZWVCdTZvYjdRRWlLbW9CSG0?oc=5",
+    "titre": "Les ETF Solana résistent à la grande vente crypto de Wall Street",
+    "resume": "Les ETF Solana affichent une certaine résilience face à la vague de vente générale.",
+    "source": "BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14aUMwWTJxckdFOWhQWW5SeWYzN1hfejBKRmZZNTNuWmxDUlFLX0tzUTNoT1RVTHpFajJWc3lBaTc5c0t6VDlQYVl3dllNTlFnbjhYZjJzQnNMNG9xZk1SZWR4LWJlSEVJVktHRWZQOHNWOTli?oc=5",
     "date": "21 nov.",
-    "pourquoi": "Ce désinvestissement signale une baisse d'intérêt institutionnel pour Solana à court terme.",
-    "impact": "baisse"
+    "pourquoi": "Cela pourrait signaler une force relative de Solana par rapport aux autres altcoins dans le contexte actuel.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Les développeurs de Bitcoin corrigent un bug « moyen » pouvant avoir retardé les transactions",
+    "resume": "Les développeurs de Bitcoin ont corrigé un bug de sévérité moyenne affectant la vitesse des transactions.",
+    "source": "CoinDesk",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGtVZWU4NFNuZEVYeVBsRF82UHJIQ1h6V3JNUTJTQU9Sb0VGb3BFSVJjS294N1BfUWNxMnEtWWhqcDVRa1lTa0VEUF9RT291UDZsTlplQ0QtU3RHMTRyWFBLQXdrU280M0lYV09JR042RmlrLXpFc0lQcTdUbHUzX2N0Z29aaV9YZUhyR0FoNWVtejFtRHJVbzNrTUl4Z1Z5dnZadlI3SE5UbmZXRWJPNnVjZDY5Ylctc2V3bFNoVVNwUWlqS2c?oc=5",
+    "date": "21 nov.",
+    "pourquoi": "Cette mise à jour technique assure la stabilité du réseau Bitcoin à long terme.",
+    "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-21T11:26:17+00:00",
-  "resume": "Le CAC 40 a connu une semaine difficile, perdant plus de 5 % et repassant sous les 8 000 points, plombé notamment par les chutes d'Ubisoft, Worldline et Vallourec. Le prix de l'or a fortement baissé, atteignant son plus bas niveau en 14 mois. Sur le plan macroéconomique, des tensions persistent au Moyen-Orient et la BCE pourrait envisager une hausse des taux.",
+  "updatedAt": "2026-11-21T15:51:06+00:00",
+  "resume": "Wall Street a connu sa pire semaine depuis avril 2025, marquée par un vent de panique chez les investisseurs. L'action Nvidia a lourdement chuté, touchant un plus bas de 17 mois, sur fond de rumeurs d'enquête de la SEC. En Europe, le budget de l'UE fait débat avec des propositions de réduction de dépenses et de nouvelles taxes.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,170 +213,142 @@
   ],
   "items": [
    {
-    "titre": "CAC40 : une baisse de 5,3 % sur la semaine, sous les 8.000 points",
-    "resume": "L'indice CAC 40 a enregistré une baisse hebdomadaire significative de 5,3 %, clôturant sous le seuil symbolique des 8 000 points.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOa1pOX012OEd3QmZtYno0ODk4STRqalhsNzAzYVV1WlMxNUQtWm9TelFkUm5pSlpGRnp1ZzI1SnVzNllIUW5jNkZMNkE5dlgyOFVZOXdYUDZGdG5UcjJNZ2wtQnBsdjBXWDFFd2JkR3liQ3pVd1dpOXRoakdoaXJXYXl4c3lpTGNJUWlvN1JMaW1pVXZBRVpiMXJvMlBkTFloZnJ4ZkRyNlFObjMzQXk2MFNCbmp3TGVuNjI4UEdDcEVjRXVheUNFbA?oc=5",
+    "titre": "Wall Street a terminé vendredi 20 novembre sa pire semaine depuis avril 2025.",
+    "resume": "La Bourse américaine a clôturé sa pire semaine depuis avril 2025, témoignant d'une forte anxiété sur les marchés.",
+    "source": "IsraelValley",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0k0Z1VZQUk3X1Z4ZUczOHVQNUkzQlhLNWJTeTMwVXdtNnBxeFIyY3BaN2xVWjFsRzlSLV9RNWx5aVhYUkgyQmNFb0NkVE9rZ1NsdVRFS3BjZEVMaDRfTUoxT1hKX1gybjN1T2VQZkQ1ZzdqbkJ0OEkyOW9CNDlVU25uWmxvUUVSbGs1UTZDQ01XVk1DbXFyeXZrMTNabUJUMFRUY2U4ZDhkX1VHN1JXMk1IZw?oc=5",
+    "date": "21 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "La SEC enquêterait sur la comptabilité de Nvidia, l'action chute de 13 %",
+    "resume": "Le titre Nvidia a dévissé de 13 % suite à des informations évoquant une possible enquête de la SEC sur sa comptabilité.",
+    "source": "Gagadget.com",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWFhU1N2UlAwNlEtZm9XS0ZYT0RwQUpVdE1RT01DSDVFR3dwQmR6M2N1MzBhM3VsY1VmLW5nODRlLXpkRHlvVDhyMkxzNDFmR2lYNDBDTzVXX2VqUjJJSURLT3lYRnNUWEdBTU94MDFaZUJMdDRkR0ZjOEF3OHdPTDRvZTZkUk5vTTlvdF9EUjBHSWxuMDdUTV9fTjI2TjZlUGZr0gGoAUFVX3lxTFBHQ3hpS010TWhSel9Bb1l3Y0dOYVRVS045eHVMQ3FCcnJkdVpSWmxISy1OSzU4MlRROV9MLTY4NE9NRkxPNEQ4LWlyU3VQV09zbkN1bEkwRTJJbnZiTWV1eUR4YXNvcUc5OEd6U0FTWENhSE44amhWbE5Pdk1PaHlJeThIUnlYRDJmTDBDLWxjdkt4NUZzd25kOFd0eExqSXo4STJjaXRoWg?oc=5",
     "date": "21 nov.",
     "impact": "baisse"
    },
    {
     "titre": "Le prix de l'or chute à son plus bas niveau en 14 mois, perdant près de 9% en une seule semaine",
-    "resume": "Le cours de l'or a dévissé de près de 9 % en une semaine, touchant un point bas inédit depuis 14 mois.",
+    "resume": "Le cours de l'or a enregistré une baisse significative de près de 9 % en une semaine, atteignant son niveau le plus bas en 14 mois.",
     "source": "Laodong.vn",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVJtYkNVWGxKSFA5YmpfdGZWMUJFRnhUQTNaRVdyVTNVRnhNb1dJcDJyeFBLU1ZEaEhHUUxDVXZSYTBqWGRCYjRqUVBJN1pWZEpEX3lHTXRHakxHd2dKZTVjQlFXaE02VmxWZUIxV2NTdUdFN2hBV0JQa2NsTV9kcnJaWXFLMlJWaWI1Zlp2cm1vejVjSXJPbW85VEJfWmlUV3F5RnpNMkZ4VzdaQURERVhfMWU?oc=5",
     "date": "21 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Ubisoft -23 %, Worldline -15,5 %, Vallourec -14,6 %… : la semaine noire qui a coûté 5,2 % au CAC 40",
-    "resume": "Plusieurs valeurs françaises comme Ubisoft, Worldline et Vallourec ont lourdement chuté, contribuant à la mauvaise performance hebdomadaire du marché parisien.",
-    "source": "Le Tribunal du Net",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeWRvOVhvY1cwTGFqUDVyejExT09rRzNHazBfRE1TbWIxUzBaTnBGZTV5TzJPelRIQVJOZWhXNDkwNTQ2MHZ6TFRoNEJmdno0clZNYUlNSkpZZ3Bsc3RYSG9odVk1NFhMLU9SQ2tTdm1lZzZ2VWs0OGstU1o3T0dEQXotSkx4ZElpYWYwX21UUlhxdHJCZXM4QzlXd2FSQ1E?oc=5",
-    "date": "21 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "L'euro se renforce alors que la BCE laisse entrevoir une hausse des taux d'intérêt",
-    "resume": "La monnaie unique européenne s'est appréciée suite à des signaux de la Banque Centrale Européenne suggérant une possible augmentation des taux d'intérêt.",
-    "source": "The Portugal News",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSFVmRkZRdWsxYmV2WTN2eWYwMi1GZmdpM1M2RlNhdl9WUVdHMm9ZazZnTG4tOUI5WEtfWExFeWRnZ0NPc2ltVU9mSDZaQlFIa3Y5My1tbHRmbEppOUNhUi0xWFdGZDdOWHBKbkM4TS1wSmVxX3dHd1dTNFhTa25RR1lPTnBGUnU2UTYwaFVOV0M2THo3NWtUa0J5OUdYSWI0Znpsd2ZRRkJEa24wTWh2aE40ZFFTUTUtWDVCWFBQWjZYcExveWtjVDFUQXdtQnY2VUYxeVVLU2k0MXJs?oc=5",
+    "titre": "Goldman relève les actions chinoises H-shares grâce à une croissance accélérée",
+    "resume": "Goldman Sachs a relevé son opinion sur les actions chinoises cotées à Hong Kong, anticipant une accélération de la croissance.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/economy-news/goldman-releve-les-actions-chinoises-hshares-grace-a-une-croissance-acceleree-3707853",
     "date": "21 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "La guerre avec l’Iran : un pétrolier touché près d’Hormuz, l’Arabie Saoudite intercepte des missiles houthis",
-    "resume": "Les tensions géopolitiques se sont intensifiées au Moyen-Orient, avec un pétrolier touché près du détroit d'Hormuz et des interceptions de missiles.",
+    "titre": "L’UE propose une taxe numérique pour financer son budget",
+    "resume": "Pour financer son budget, l'Union européenne envisage l'instauration d'une taxe numérique et une réduction des dépenses.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economy-news/la-guerre-avec-liran--un-petrolier-touche-pres-dhormuz-larabie-saoudite-intercepte-des-missiles-houthis-3707820",
+    "url": "https://fr.investing.com/news/economy-news/lue-propose-une-taxe-numerique-pour-financer-son-budget-3707841",
     "date": "21 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Intesa Sanpaolo lance une offre de 34,5 milliards d’euros sur Monte dei Paschi",
-    "resume": "Dans le secteur bancaire italien, Intesa Sanpaolo a lancé une offre d'achat d'envergure sur Monte dei Paschi pour 34,5 milliards d'euros.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/intesa-sanpaolo-lance-une-offre-de-345-milliards-deuros-sur-monte-dei-paschi-3707824",
+    "titre": "Vallourec : pourquoi l’action a chuté de 14,57 %",
+    "resume": "L'action Vallourec a subi une chute brutale de 14,57 %, pénalisant les investisseurs positionnés sur le titre.",
+    "source": "https://www.leconseilpatrimoine.fr/",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaGduc1NBVFhBdVI0V0JfMXNzaGZhUHQwOUZ5ZlRRUzV4LWFwdkZYM2RmTVZZRXVabldlR3pFNDVQMDNKaGgyYkp0bk1GWHFKQmk4dTZCb25fUUxZX2p3NXNSekUwTi1IWUFZdzF6eHZkQ0d1RUpyME4yX2dxdkNOSkJjS2x6cGdhME10R1Z5OUtGV01mazJvdzgwYjdVcWRa?oc=5",
     "date": "21 nov.",
-    "impact": "hausse"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
+    "titre": "Un administrateur de Medifast Inc achète pour plus de 1,13M$ d’actions",
+    "resume": "Un administrateur de Medifast Inc a investi plus de 1,13 million de dollars dans l'achat d'actions de sa société.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/insider-trading-news/un-administrateur-de-medifast-inc-achete-pour-plus-de-113m-dactions-93CH-3707851",
+    "date": "21 nov.",
+    "pourquoi": "Cet achat d'initié massif peut signaler une confiance forte de la direction dans les perspectives de l'entreprise, à surveiller pour le secteur de la santé.",
+    "impact": "hausse"
+   },
+   {
     "titre": "Keytrade Bank relève ses taux et prend la tête des meilleurs comptes d'épargne",
-    "resume": "Keytrade Bank augmente les taux de ses comptes d'épargne.",
+    "resume": "Keytrade Bank a augmenté ses taux, se positionnant en tête des rendements pour les comptes d'épargne.",
     "source": "L'Echo",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV0VmTEtheTVsTENzT2JZbFpaVWdxZ0phOWktRzctNGlhRHEzSW9ZQVFKUkp1VGRmcFBiYkNQbUVrWW9JTERUMzFHVENla1ZMb0VzX09KaXZnYVh0aFhTVWxpN2h2WkpjLXZFc1QzZjVMQlFtem1DZTV0ZDJ1Z1JMc0pIOEZsNlZlWVY2WHdIc01fZ0stMjRNRHI1UlFCMTBNVE1jMWFuODN0eUdQRlZMQVBJRk1tSUxYOF8wYzlNU2dCZDBSeGVsMnFsT1czS2hSX2Jta3I2U21RaU9HNXc?oc=5",
     "date": "21 nov.",
-    "pourquoi": "Cela signale une concurrence accrue pour capter les dépôts et pourrait influencer les rendements d'autres produits d'épargne en Belgique.",
+    "pourquoi": "Cela indique une pression à la hausse sur les taux d'intérêt en Belgique, impactant le secteur bancaire et l'attractivité des produits d'épargne.",
     "impact": "hausse"
    },
    {
     "titre": "Webuild (Italie) finalise le rachat de Trevi pour 339 millions €",
-    "resume": "Webuild finalise l'acquisition de Trevi pour 339 millions d'euros.",
+    "resume": "L'entreprise italienne Webuild a finalisé l'acquisition de Trevi pour un montant de 339 millions d'euros.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/company-news/litalien-webuild-finalise-le-rachat-de-trevi-pour-339-millions--3707832",
     "date": "21 nov.",
-    "pourquoi": "Cette opération de consolidation dans le secteur italien de la construction pourrait modifier la dynamique concurrentielle.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Docler Holding, directeur de Playboy Inc, achète pour 704.121$ d’actions PLBY",
-    "resume": "Un administrateur de Playboy Inc (PLBY) a acheté pour plus de 700 000 dollars d'actions.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/docler-holding-directeur-de-playboy-inc-achete-pour-704121-dactions-plby-93CH-3707826",
-    "date": "21 nov.",
-    "pourquoi": "Un achat d'initié d'une telle ampleur peut traduire une confiance de la direction dans la sous-évaluation actuelle du titre.",
+    "pourquoi": "Cette opération de consolidation dans le secteur de la construction en Italie pourrait influencer le cours des actions des entreprises concernées.",
     "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-21T11:26:17+00:00",
-  "resume": "Le marché immobilier neuf à Lyon et en grande couronne parisienne fait l'objet d'analyses comparatives pour orienter les acheteurs. L'innovation technologique progresse avec l'IA qui pourrait transformer la recherche de biens, tandis que les Champs-Élysées maintiennent leur rang mondial en immobilier commercial. Par ailleurs, des questions juridiques sur les obligations des vendeurs et la gestion des copropriétés émergent.",
+  "updatedAt": "2026-11-21T15:51:06+00:00",
+  "resume": "Les taux de crédit immobilier frôlent parfois le plafond de l'usure, tandis que les notaires anticipent un volume d'héritage massif d'ici 2040. Le marché immobilier commercial parisien maintient sa valeur sur les Champs-Élysées. En Île-de-France, la grande couronne offre des opportunités pour un premier achat d'appartement.",
   "chiffres": [],
   "items": [
    {
+    "titre": "Taux d’usure : ces dossiers de crédit immobilier qui frôlent le plafond",
+    "resume": "Certains dossiers de prêt immobilier se rapprochent dangereusement du taux d'usure, compliquant leur validation.",
+    "source": "Capital.fr",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUGJ6OXpmQ3Nld19Obk9MNzN1dU9udnBWWkJneFU2c1lQbUVRTnQyTS1yR0J2RXV4TnpvWFV3ZTNCRHBDeUdNbmo3bmtCVmF5c2pOWmFoSldjNkVWZzV1bDFzZGFhX0x2bDVTZmRka1VtU2xjVS12alZuTUl4bE4zaWo0NTFESWZYZ24yS21QNWdqdzhIdVBfblpndDc4UTkyc2dwWU1NN3puTnVXWGJ3?oc=5",
+    "date": "21 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Les notaires chiffrent à 7 558 milliards l'héritage à venir d'ici 2040 : qui en profitera ?",
+    "resume": "Les notaires estiment que 7 558 milliards d'euros seront transmis en héritage d'ici 2040, ce qui pourrait dynamiser le marché.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oZGhpRXk2b3RWNjIydXpSandlTXVNT1g2OHNoR0xKLWVPaW4xLU5PVHB4ZTRwS2xtaEZ0ekNtUnNYYTd2djlCS2JGMDRaS3FwejVSaUhJYlNQSGFjZXZYVDhfcnFBMFhCRGc?oc=5",
+    "date": "21 nov.",
+    "impact": "hausse"
+   },
+   {
     "titre": "Essonne, Val-d’Oise, Seine-et-Marne, Yvelines… Où acheter son premier appartement en grande couronne ? Découvrez notre classement exclusif",
-    "resume": "Un classement exclusif identifie les meilleurs secteurs en grande couronne parisienne (Essonne, Val-d’Oise, etc.) pour un premier achat d'appartement.",
+    "resume": "Un classement identifie les communes de grande couronne parisienne les plus attractives pour l'achat d'un premier appartement.",
     "source": "Le Parisien",
     "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOUWRXYWRjVnZCTmE3UF9LZDNqb01pMnZLV2FZUnhBc000SzBheThsMy1Ta3RWRDdKT1dDUHA2SC1ESlROYnlvTVNGWGtQQnRxOXRTaTRHZ3BGNS1zdVNWbndSazBFZXJDVnkwa3JrbTl0UGM1Q2NtbTdGb0Z4cWlZNDI5V0Z5TnFPRk10UjhGOWJWQlFyeTNjY0VKVW80Zm1IYVV0VG41WmVydDhSejd2a3N6RGxybXFxa3RoZlBYUGI1RTNmcUhtaUpWTnpWUzBHOHpPWHJhVkhxUnRaT1RBeXpoeFY5SzNtVjhHNGZRTzJOSkZMYmx4Zlg4TWFBRVZKSEJlRlJMd01ubm5WRTh3amk4blpMelBFeGtKaURYcFhRbnp5cURialFSSmVJcDdWVU1Tdg?oc=5",
     "date": "21 nov.",
     "impact": "flat"
    },
    {
+    "titre": "Immobilier commercial : Les Champs-Élysées restent la 5ᵉ artère la plus chère du monde",
+    "resume": "L'avenue des Champs-Élysées à Paris conserve sa position de cinquième artère commerciale la plus chère au monde.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSnBTZENoTTVrWXBkLTdxeDktMHI4eHZ0bDIwMGtJY2puN2F1VlFuNVZhcVdJS2l1Nk9DTVhnaERuQ3NkLWJseFBJZktQWG9NcFBpbk5nUDJUTVFDYVZ4TnRQSWxycDNOU3VhSmR2Zm9YTFNyR1d4UThrdDc0cmd3SnFfczAzaUlaMHJranhQRy1ENUstaFZnYjlydjJBMEtaMWVlaVY0OS1CVUdRbzJYT3dhSzd2dUNUZUxzTVpHLWVMd0tSdk9LWGE2MmQ?oc=5",
+    "date": "21 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Immobilier neuf à Lyon : 5 critères essentiels à comparer avant d’acheter",
-    "resume": "Cinq critères clés sont mis en avant pour comparer efficacement les offres avant d'investir dans l'immobilier neuf à Lyon.",
+    "resume": "Cinq critères clés sont recommandés pour comparer les programmes immobiliers neufs à Lyon avant d'investir.",
     "source": "Le Revenu",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWG1UOE92TUJNbnU0Q3lOMzVqUGx1ank0NlYxQ29nU3pxMVFndVpMekRjdVlEMEdON0tmRVZXQ3lvZWRZeUhKbGU5c0UtQmFpOHdjTmZWZHU5WHN6cVIwVU5lOGlOMDcxczJBcHhGOFpuWk5HVFZ1bmZrRk43dkQ1RGZYS19xNXVTUlVvbTJBYkUtdGJlZzRwUHpDVWhlSGZlZnVuR09kdmlhU0hUWjdqRndKNFM?oc=5",
     "date": "21 nov.",
     "impact": "flat"
    },
    {
-    "titre": "RENT 2026 – IA immobilière : « Les gens n'iront plus passer des heures à scroller des annonces », Franck Le Tendre (Omny)",
-    "resume": "Selon Franck Le Tendre d'Omny, l'intelligence artificielle va radicalement changer la recherche immobilière, évitant aux utilisateurs de longues heures de navigation.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzZ5c3d6VXFBSk9QRndhZVB6SGRCTGdsdkZ0ZzM4djZ6NkV6SGxzVHhQT1FibU5jd1NxZ2czRU44YUdFX2pGeTZHZEtrUlhtRGU4MmN6a1lYeWk1SVl6SUtCclRFdDl1d1I2amJHcmx6UGNYTUhtNG4yRTgxbUc2TFp4aC0zaF91V3JOSQ?oc=5",
-    "date": "21 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Immobilier commercial : Les Champs-Élysées restent la 5ᵉ artère la plus chère du monde",
-    "resume": "Les Champs-Élysées conservent leur position de cinquième artère commerciale la plus chère au monde, confirmant l'attractivité de cet emplacement premium.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSnBTZENoTTVrWXBkLTdxeDktMHI4eHZ0bDIwMGtJY2puN2F1VlFuNVZhcVdJS2l1Nk9DTVhnaERuQ3NkLWJseFBJZktQWG9NcFBpbk5nUDJUTVFDYVZ4TnRQSWxycDNOU3VhSmR2Zm9YTFNyR1d4UThrdDc0cmd3SnFfczAzaUlaMHJranhQRy1ENUstaFZnYjlydjJBMEtaMWVlaVY0OS1CVUdRbzJYT3dhSzd2dUNUZUxzTVpHLWVMd0tSdk9LWGE2MmQ?oc=5",
-    "date": "21 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "«Sans lui, notre copropriété aurait payé 425.000 euros de plus» : ce professionnel méconnu peut faire baisser la facture des travaux dans votre immeuble",
-    "resume": "L'intervention d'un professionnel spécialisé, encore peu connu, permettrait de réduire significativement le coût des travaux en copropriété.",
-    "source": "Figaro Immobilier",
-    "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNbGdzZVhScHgwY0ZaaW9IWjVfTlRQWG5QSFVHbklRSHFZV2U4b3E2RlFGMnR1dzhLYTcyZnVybWZUbEVfR0JlcW9QaTZXaXdjNUxXbnpObmwxR203Yl9YVFBSMjd0LTZRMFFzOGlLQmY4eUhXa0cyYWNCX3V3MWJLdkdfdlpJcldzUnBCM0VMWmo4ckhQTDYyd0NSVG9GN3Z5RG5KMUk5eXU5QnpDa1R6LV9VWWZUcDVvMEpQWUZ1NDJ0UE4yZXBKRnJncEEtOV9xQTRGdDZlVWxydEJJWVVpc1ljWjlVaEdqYkZ0SDVxc1k4S2tYZjluY21RQWJLVDhuQ202blhEeElBQWZxcHFOZFpUN0FtOXEtRTdHWG4yOGY?oc=5",
-    "date": "21 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Décès dans une maison ou un appartement : le vendeur doit-il le dire à l'acheteur ?",
-    "resume": "La question juridique de l'obligation pour un vendeur de signaler un décès survenu dans le logement à l'acheteur est soulevée.",
-    "source": "Reda KOHEN",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZDFpdkN3LVh2MzBFc0E3TGUxT2VvdU5ReThfaUMwd2gtUWo3N0tka2h2TWJDX2thb1ZuSWE0SEc5cDR4RFpCb0xiNDluOTFoeXFfbXlfQk9kRHVGaWJpTzhEeUNwamE4YVlaVDY3M0xEVHZsTVRaSkZiSHF6bmFSc2tqZ3B2dFhHcVVDV2I4UXZIQWEt?oc=5",
+    "titre": "Emprunter après 60 ans : aucune loi ne fixe d'âge, mais l'assurance décide presque de tout - www.actual-immo.fr",
+    "resume": "Emprunter après 60 ans est possible, mais l'assurance emprunteur devient le facteur déterminant de l'acceptation du dossier.",
+    "source": "www.actual-immo.fr",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LQVVHWXB2T21OQmRYanRYRkNJSGpUTjV2ZkNoczdCNkFVRWt5QVh2NUIwcWxMaXlxNkQ5bVdCbkNyLTlBSGtEZkFaNkx1OERRUm5aSFhZRF9haUF2TzNUdjFKalJtQQ?oc=5",
     "date": "21 nov.",
     "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
-  "niche": [
-   {
-    "titre": "Ventes domaniales immobilier : comment acheter un bien de l’État en 2026 et que faire si la vente vous échappe",
-    "resume": "Il est possible d'acheter des biens immobiliers appartenant à l'État via les ventes domaniales.",
-    "source": "Reda KOHEN",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaUhUeFJpSDBMM2ExSHZWTXg1aThZcUxYdDNLemJNZElNckN0aW1tNkwzUUQ2cFNNeXRWYWRrWjhlSlBzVXRHYWpSOVQ3T0FKLW5lZ2U5bWdsYUJWVWx4ako4bmJ3OEkwRmJ1bGpLV0d0QUpwQzY3TV93YjdvaHhlVmlMU3dwa2tyRi12b2Jkc2dUWG1kam9hb3o3dw?oc=5",
-    "date": "21 nov.",
-    "pourquoi": "Cela concerne les investisseurs cherchant des opportunités hors marché classique. Il faut surveiller les procédures spécifiques et les recours possibles en cas d'échec de la vente.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Convention d'indivision sans notaire : est-elle valable pour une maison ? Forme, durée, gérant et sortie",
-    "resume": "La validité d'une convention d'indivision sans notaire pour une maison est analysée.",
-    "source": "Reda KOHEN",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLXcxUlRhLXE0N2h3Nk1UNWJMUkxYZUN0eWNGVTY3Q2JfMVRVc0wyMm44UEVZRWhqWjc0ZURWc0hFSmtlMk42QWo3VklCV1AycXozb291UnlPVjFwR2xZWENSRGdqc1l0T0FudTVNTExSVXJxU1MyMlZpRmJ2YWVscTFDWDFyVkZ3VW82Y1YzUWR2LVB1eExPQlljZTZPREJjM1lOUFZ2SG5HWkZSWkZ2WA?oc=5",
-    "date": "21 nov.",
-    "pourquoi": "Utile pour les investissements à plusieurs (amis, famille) souhaitant réduire les frais d'acte. Il faut vérifier les conditions de forme et de durée pour sécuriser l'accord.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Maison inondée que faire avec son crédit immobilier : mensualités, indemnité d'assurance et droits de la banque",
-    "resume": "Les impacts d'une inondation sur le crédit immobilier, l'assurance et les droits de la banque sont détaillés.",
-    "source": "Reda KOHEN",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOemxKOXlaT1pxRTdBR25pQ3BhVW5DdW0temREUEF4bjNvQmt1UnBzQl9VZllJNFVJbVJuV1JkaWlHc01lUmxHYXoxYzBwdk9fZDRvSVlWSjdCckdTR1BJT3JGbGlESG1xME12RC1iallLaGV1TUhmZTBITFpJNmR5dV9rTXZpS0prbzU0ZlIzZ0FLdFlVSVRQTzJiLTIxV0ExdkhYdE4weDZWNWM?oc=5",
-    "date": "21 nov.",
-    "pourquoi": "Crucial pour la gestion des risques locatifs ou patrimoniaux dans des zones potentiellement inondables, affectant la trésorerie de l'investisseur.",
-    "impact": "baisse"
-   }
-  ]
+  "niche": []
  }
 }
