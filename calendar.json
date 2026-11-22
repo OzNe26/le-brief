@@ -1,6 +1,30 @@
 {
-"updatedAt": "2026-11-21T22:24:31+00:00",
+"updatedAt": "2026-11-22T06:13:55+00:00",
 "events": [
+{
+"d": "2026-11-23T09:45:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "PMI manufacturier (flash)",
+"sub": "🇺🇸 États-Unis · prévu 54.5 · précédent 56.0",
+"imp": 2
+},
+{
+"d": "2026-11-23T09:45:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "PMI des services (flash)",
+"sub": "🇺🇸 États-Unis · prévu 55.6 · précédent 57.9",
+"imp": 2
+},
+{
+"d": "2026-11-24T10:00:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Confiance des consommateurs",
+"sub": "🇺🇸 États-Unis · prévu 92.1 · précédent 91.7",
+"imp": 2
+},
 {
 "d": "2026-11-24T13:00:00+01:00",
 "allday": false,
@@ -18,6 +42,30 @@
 "sub": "DELL · après la clôture de Wall Street · trimestre clos Oct/2026",
 "imp": 2,
 "tick": "DELL"
+},
+{
+"d": "2026-11-25T08:30:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Inflation PCE sous-jacente",
+"sub": "🇺🇸 États-Unis · prévu 0.3% · précédent 0.3%",
+"imp": 3
+},
+{
+"d": "2026-11-25T08:30:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "PIB (estimation préliminaire)",
+"sub": "🇺🇸 États-Unis · prévu 3.5% · précédent 3.4%",
+"imp": 3
+},
+{
+"d": "2026-11-25T08:30:00-05:00",
+"allday": false,
+"cat": "macro",
+"title": "Inscriptions hebdomadaires au chômage",
+"sub": "🇺🇸 États-Unis · prévu 201K · précédent 203K",
+"imp": 2
 },
 {
 "d": "2026-11-25T13:00:00+01:00",
