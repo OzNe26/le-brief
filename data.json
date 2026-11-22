@@ -1,70 +1,70 @@
 {
  "general": {
-  "updatedAt": "2026-11-22T07:13:50+00:00",
-  "resume": "L'actualité est marquée par le Black Friday et les préparatifs de Noël, alors que la Fashion Tech voit le retour en force d'Abercrombie & Fitch. Sur le plan international, la guerre en Ukraine se poursuit avec des tensions en mer Baltique, et la COP31 peine à trouver un accord sur les énergies fossiles. En France, la politique est rythmée par les prémices de la campagne présidentielle de 2027 et des débats budgétaires.",
+  "updatedAt": "2026-11-22T15:50:42+00:00",
+  "resume": "L'actualité est marquée par l'échec des négociations climatiques de la COP31 et la poursuite des frappes russes en Ukraine. En France, la politique est agitée par des soupçons de fuites d'informations vers le Rassemblement national et les préparatifs de la présidentielle de 2027. Le secteur de la tech est rythmé par les offres du Black Friday et l'ouverture d'une enquête boursière américaine sur Nvidia.",
   "chiffres": [],
   "items": [
    {
-    "titre": "On la trouvait ringarde et démodée, on l'a même crue morte: Abercrombie & Fitch est à nouveau en plein boum, la marque a cassé son image sulfureuse et a bondi de 500% en Bourse",
-    "resume": "La marque Abercrombie & Fitch, autrefois délaissée, connaît un spectaculaire regain de popularité et a vu son cours de Bourse bondir de 500 % après avoir modernisé son image.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/luxe/on-la-trouvait-ringarde-et-demodee-on-l-a-meme-crue-morte-abercrombie-fitch-est-a-nouveau-en-plein-boum-la-marque-a-casse-son-image-sulfureuse-et-a-bondi-de-500-en-bourse_GN-202611220093.html",
-    "date": "22 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Suivez en direct le 10e vol de la fusée Ariane 6 dans sa version surpuissante pour lancer 36 satellites d’un coup",
-    "resume": "La fusée Ariane 6 s'apprête à lancer 36 satellites pour Amazon, une mission cruciale peu après l'échec d'un lancement concurrent américain.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/sciences/2375399-suivez-en-direct-le-10e-vol-de-la-fusee-ariane-6-dans-sa-version-surpuissante-pour-lancer-36-satellites-dun-coup.html",
-    "date": "22 nov.",
-    "impact": "flat",
-    "categorie": "Tech"
-   },
-   {
-    "titre": "En direct : la Finlande dénonce une attaque de drone ukrainien contre un cargo russe en mer Baltique",
-    "resume": "La Finlande a signalé une attaque de drone ukrainien contre un cargo russe en mer Baltique, affirmant le droit de l'Ukraine à se défendre.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/europe/20261122-en-direct-la-finlande-d%C3%A9nonce-une-attaque-de-drone-ukrainien-contre-un-cargo-russe-en-mer-baltique",
+    "titre": "\"Nous n'avons pas pu parvenir à un accord\" : le coprésident de la COP31 entérine l'échec final des négociations pour le climat à Antalya",
+    "resume": "La conférence de l'ONU sur le climat (COP31) s'est terminée sans accord final en Turquie, après le refus de l'Union européenne de signer un texte ne mentionnant pas explicitement la sortie des énergies fossiles.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/environnement/crise-climatique/cop-climat/direct-l-union-europeenne-s-oppose-a-l-adoption-de-la-declaration-finale-de-la-cop31-apres-pres-de-deux-jours-de-prolongations_8294819.html#xtor=RSS-3-[lestitres]",
     "date": "22 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "COP31: une nuit de négociations, un nouveau texte, mais toujours pas de mention des énergies fossiles",
-    "resume": "Les négociations de la COP31 en Turquie se prolongent, l'absence de mention explicite de la sortie des énergies fossiles dans le texte final bloquant un accord.",
-    "source": "RFI",
-    "url": "https://www.rfi.fr/fr/environnement/20261122-cop31-une-nuit-de-n%C3%A9gociations-un-nouveau-texte-mais-toujours-pas-de-mention-des-%C3%A9nergies-fossiles",
+    "titre": "EN DIRECT, guerre en Ukraine : les secours « poursuivent leurs interventions » après l’attaque d’un immeuble d’habitation par un drone russe, près de Kiev",
+    "resume": "Une attaque de drone russe a touché un immeuble résidentiel près de Kiev, causant la mort d'au moins deux personnes et la disparition de plusieurs autres.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/international/live/2026/11/22/en-direct-guerre-en-ukraine-les-secours-poursuivent-leurs-interventions-apres-l-attaque-d-un-immeuble-d-habitation-par-un-drone-russe-pres-de-kiev_6814183_3210.html",
     "date": "22 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Budget 2027: Emmanuel Macron réfléchit à convoquer le Congrès à Versailles en janvier pour instaurer une règle d'or dans la Constitution",
-    "resume": "Emmanuel Macron envisage de réunir le Congrès à Versailles en janvier afin d'inscrire une règle d'or budgétaire dans la Constitution.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/politique/elysee/budget-2027-emmanuel-macron-reflechit-a-convoquer-le-congres-a-versailles-en-janvier-pour-instaurer-une-regle-d-or-dans-la-constitution_AN-202611220140.html",
+    "titre": "Un mail du service de Hugues Moutouh, soupçonné d'avoir renseigné le RN, découvert lors d'une perquisition chez un proche de Marine Le Pen",
+    "resume": "Un mail confidentiel concernant des enquêtes sur le Rassemblement national a été découvert chez un proche de Marine Le Pen, entraînant des soupçons de fuites de la part d'un préfet.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/politique/front-national/un-mail-du-service-du-prefet-hugues-moutouh-soupconne-d-avoir-renseigne-le-rn-decouvert-lors-d-une-perquisition-chez-un-proche-de-marine-le-pen_8294915.html#xtor=RSS-3-[lestitres]",
     "date": "22 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "Avec le Black Friday, le coup d'envoi des courses de Noël à prix cassés",
-    "resume": "À l'approche du Black Friday, les commerçants lancent des promotions agressives pour attirer les consommateurs dans un contexte de pouvoir d'achat contraint.",
+    "titre": "Dans le sillage des soupçons d'espionnage chez Nvidia, le gendarme boursier américain va enquêter sur les pratiques comptables du géant des puces d'IA",
+    "resume": "Le gendarme boursier américain (SEC) a lancé une enquête sur les pratiques comptables du géant des puces d'IA Nvidia, suite à des soupçons d'espionnage.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/consommation/video-avec-le-black-friday-le-coup-d-envoi-des-courses-de-noel-a-prix-casses_VN-202611220145.html",
+    "url": "https://www.bfmtv.com/economie/international/dans-le-sillage-des-soupcons-d-espionnage-chez-nvidia-le-gendarme-boursier-americain-va-enqueter-sur-les-pratiques-comptables-du-geant-des-puces-d-ia_AD-202611220266.html",
     "date": "22 nov.",
     "impact": "flat",
-    "categorie": "Économie"
+    "categorie": "Tech"
+   },
+   {
+    "titre": "Après la condamnation des trois policiers qui l'ont agressé, Michel Zecler estime que \"des peines plus dissuasives auraient été peut-être plus efficaces\"",
+    "resume": "Trois policiers ont été condamnés à des peines de prison ferme pour l'agression du producteur de musique Michel Zecler en 2020, avec la circonstance aggravante de racisme.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/police-justice/apres-la-condamnation-des-trois-policiers-qui-l-ont-agresse-michel-zecler-estime-que-des-peines-plus-dissuasives-auraient-ete-peut-etre-plus-efficaces_AN-202611220274.html",
+    "date": "22 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Lancement de GTA 6, Codes de triches, série Harry Potter qui se fait humilier, le recap Pop Culture de la semaine",
+    "resume": "La sortie prochaine du jeu vidéo GTA 6 domine l'actualité de la pop culture cette semaine.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/tech/2380111-lancement-de-gta-6-codes-de-triches-serie-harry-potter-qui-se-fait-humilier-le-recap-pop-culture-de-la-semaine.html",
+    "date": "22 nov.",
+    "impact": "flat",
+    "categorie": "Culture"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-22T11:25:09+00:00",
-  "resume": "Le marché crypto connaît une forte volatilité, le Bitcoin peinant sous les 60 000 dollars tandis que des incidents techniques ont provoqué de brèves chutes de cours sur certaines plateformes. La pression vendeuse est alimentée par des sorties records sur l'ETF Bitcoin de BlackRock et des craintes de liquidation sur Hyperliquid. En France, une vaste escroquerie aux cryptomonnaies a mené à la mise en examen de dix personnes.",
+  "updatedAt": "2026-11-22T15:50:42+00:00",
+  "resume": "Le Bitcoin tente de se stabiliser autour des 60 000 dollars après une forte volatilité et un désengagement record de l'ETF IBIT de BlackRock. La rentabilité des mineurs s'effondre avec un hashprice tombé à un plancher critique de 26 dollars, tandis que le sentiment de marché plonge en zone de peur extrême. Parallèlement, les utilisateurs français de Binance doivent rapidement vider leurs comptes pour éviter des frais mensuels avant leur clôture.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,48 +93,48 @@
   ],
   "items": [
    {
-    "titre": "Le Bitcoin peine sous 60.000$ alors que les profits des mineurs s’effondrent",
-    "resume": "Le cours du Bitcoin reste sous pression sous le seuil des 60 000 dollars, affecté par une baisse significative de la rentabilité des mineurs.",
-    "source": "Investing.com France",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObWtlR2JwTlI3Y3llRm15OUJSYVhXRldFWmhNS21FM3c3TzNUTE92S0ctSmV6d3ZQdDhzeVAyMTFvZ1NMV2U3T2JDXzZJaEFweVRWRXhtY3pLUXd0TDlFaFhxcko0MUVTdkJPaHloV3g5aVZ2YV9pSWZidHRTdFNpd2ZEUzlXNTRDRXBrQVdlNERxcm1fRFlTeHNGRldSWHF2QlptLTBmOXplS0Y3aDBCZXNTMkw4ZjZOUDRHa1NzOWxUNExzX2M4?oc=5",
-    "date": "22 nov.",
-    "impact": "baisse"
-   },
-   {
     "titre": "Bitcoin : l’ETF IBIT de BlackRock enregistre un record de sorties avec 541,1 millions de dollars en une journée",
-    "resume": "L'ETF Bitcoin IBIT de BlackRock a enregistré un record historique de sorties de capitaux sur une seule journée, atteignant 541,1 millions de dollars.",
+    "resume": "L'ETF Bitcoin au comptant IBIT de BlackRock a essuyé un record historique de retraits nets, totalisant 541,1 millions de dollars en une seule journée.",
     "source": "Cryptonaute",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YbUZMRU92UmlyZmdwVzMycU5NMHJVWkNyMGRhZktKV0FuSkZiTTMwSGc0U1NDbC0yYWlnUGkxWDVLRHo4OGFkUTZtTU1Bc0YyY1pCbFF3cUV0TXdXMXNUb1pNQ2FIYndvMGdUZnc5MGdxMFU?oc=5",
     "date": "22 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le Bitcoin chute brièvement à 17 000 $ sur Kraken, qui maintient les transactions",
-    "resume": "Un incident technique sur la plateforme Kraken a provoqué une chute brève et anormale du Bitcoin jusqu'à 17 000 dollars avant un rétablissement.",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvRzhQbmJsaHo3UzFYVGVrYUNaLUR1NWVDSjMyTi1sVldpZ0pYdDlseDVVU0J5MEREQ0VYcnpzb1pseU85VzIwZ1loaUpKUTRKYWltSEFtejRUeHZ4VDk0eFRaa0d5dU1fX0UzRlJSdw?oc=5",
-    "date": "22 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "HYPE : la plus grosse baleine d'Hyperliquid au bord de la liquidation",
-    "resume": "Une position acheteuse massive de 80 millions de dollars sur le token HYPE est menacée de liquidation imminente sur la plateforme Hyperliquid.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/hyperliquid-baleine-hype-liquidation-80-millions/",
+    "titre": "Bitcoin : le hashprice tombe à 26 dollars, les mineurs travaillent à perte",
+    "resume": "La rémunération des mineurs de Bitcoin s'écroule à 26,16 dollars par unité de calcul, forçant les exploitants à travailler à perte et à liquider leur production.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/bitcoin-hashprice-26-dollars-mineurs-perte/",
     "date": "22 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "France : Dix suspects mis en examen pour une vaste escroquerie aux cryptos",
-    "resume": "Les autorités françaises ont mis en examen dix individus suspectés d'être impliqués dans une importante fraude mêlant cryptomonnaies et piratage informatique.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/france-dix-suspects-mis-en-examen-pour-une-vaste-escroquerie-aux-cryptos/",
+    "titre": "Binance : plus que 7 jours pour éviter les frais sur votre compte",
+    "resume": "Les clients de Binance en France disposent d'une semaine pour retirer leurs fonds, faute de quoi des frais de tenue de compte de 10 USDC mensuels leur seront prélevés.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/binance-plus-que-7-jours-pour-eviter-les-frais-sur-votre-compte/",
     "date": "22 nov.",
     "impact": "flat"
    },
    {
+    "titre": "Le Bitcoin chute brièvement à 17 000 $ sur Kraken, qui maintient les transactions",
+    "resume": "Un décrochage éclair a fait chuter brièvement le cours du Bitcoin à 17 000 dollars sur la plateforme Kraken, qui a néanmoins confirmé la validité des transactions exécutées.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBvRzhQbmJsaHo3UzFYVGVrYUNaLUR1NWVDSjMyTi1sVldpZ0pYdDlseDVVU0J5MEREQ0VYcnpzb1pseU85VzIwZ1loaUpKUTRKYWltSEFtejRUeHZ4VDk0eFRaa0d5dU1fX0UzRlJSdw?oc=5",
+    "date": "22 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Indice Crypto Fear and Greed tombe à 7 : Bitcoin, Ethereum et XRP peuvent-ils rebondir ?",
+    "resume": "L'indice de sentiment Fear and Greed s'est effondré jusqu'au niveau 7, traduisant une panique extrême sur le marché des principales cryptomonnaies.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42ZU8wdWtadHhQNjJ2QWxrcnpWeDhaU1FmczhsSC1HN2pLeXJyUUs2SmdQXzFsem9Dck92T3VxV1pQSWpYRnUtMzgwTzRoLXdZZE9ycHJLenRRUUZjb3g3MldTaHNjZw?oc=5",
+    "date": "22 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "Le deuxième hack de Chainflip en dix semaines frappe son token deux fois plus fort",
-    "resume": "Le protocole Chainflip a subi son deuxième piratage en dix semaines, entraînant la perte de divers actifs et impactant le cours de son token FLIP.",
+    "resume": "Le protocole décentralisé Chainflip a été victime d'un second piratage en dix semaines, subissant des pertes en BTC, ETH et stablecoins qui pèsent sur son jeton FLIP.",
     "source": "BeInCrypto FR",
     "url": "https://fr.beincrypto.com/chainflip-deuxieme-exploit-token-baisse/",
     "date": "22 nov.",
@@ -142,40 +142,49 @@
    }
   ],
   "par": "ia",
-  "modele": "gemini-3.1-flash-live-preview",
+  "modele": "gemini-flash-latest",
   "niche": [
    {
-    "titre": "Bitcoin : des clés mal générées ont exposé 106 millions de dollars aux voleurs",
-    "resume": "Des chercheurs ont identifié que des clés privées mal générées ont rendu vulnérables 106 millions de dollars en bitcoins face à des bots voleurs.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/bitcoin/bitcoin-bots-voleurs-universite-liege-106-millions-dollars/",
+    "titre": "JUST (JST) bondit de 4,78 % grâce au rachat, à des tokenomics améliorés",
+    "resume": "Le jeton JUST (JST) progresse de 4,78 % suite à la mise en œuvre d'un programme de rachat et à une refonte de sa politique d'émission.",
+    "source": "CoinMarketCap",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XUk43S0ZIMjhZMUFYTndwZnJuR0lmR0ZOUnhvWDRsR1hLdThKb01UQlZWeUxxcndBYTRMNnhZSlRUU2RidExpM0lLcEs4YjJoWFVlWkxDaDUzaUxIcGJyWHhidDQ2MmQ3VXVWNENSMVZER1lE?oc=5",
     "date": "22 nov.",
-    "pourquoi": "Souligne l'importance cruciale de la sécurité technique et de la génération robuste des clés pour la conservation des actifs.",
+    "pourquoi": "Ce signal concerne le jeton de gouvernance JST : il montre l'effet direct de la réduction d'offre en circulation et de l'ajustement des tokenomics sur la valorisation à court terme.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "HYPE : la plus grosse baleine d'Hyperliquid au bord de la liquidation",
+    "resume": "La position acheteuse dominante sur le token HYPE sur la plateforme Hyperliquid, pesant 80 millions de dollars, frôle la liquidation malgré un apport d'urgence de 7 millions de dollars de collatéral.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/hyperliquid-baleine-hype-liquidation-80-millions/",
+    "date": "22 nov.",
+    "pourquoi": "Cet indicateur vise le marché du token HYPE et le protocole Hyperliquid : une liquidation forcée d'une telle envergure provoquerait une vente massive en cascade.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Tokyo Tax Bureau Finds About $24.5 Million in Crypto Reporting Omissions Among 91 Users",
+    "resume": "L'administration fiscale de Tokyo a relevé près de 24,5 millions de dollars d'omissions déclaratives de gains crypto auprès de 91 contribuables.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdVVpOGNNNmpYUUVQV3FQZUgxYy03VHhjd1FHMWVnbmtYWmxrQ0theERhcDVJdGdNbzBwdWtGRjNSUlBFTFVuMUYxdW96N0lhYWZmSFdDT1V4MTZyVTJaOEk1LUhyMkhiM0RmeWswSGVIVVREMnA2TVNRSWs2bmkyay1uRDNEMFBVN09ETFU1X2xFekZJcVFOTWxsUXZXSWYyRmJ1VGtwc2YtS0dDbzVsTWlzLXRva0x0cmIyNFhOMjNZY0dDajRHaFVUNVBMbmQ2bHBOM19XaUxybEhIU3pwYXR3?oc=5",
+    "date": "22 nov.",
+    "pourquoi": "Cette mesure concerne le secteur de la conformité et de la fiscalité : elle illustre le durcissement mondial des contrôles fiscaux sur les gains d'actifs numériques, incitant à surveiller la rigueur déclarative.",
     "impact": "flat"
    },
    {
     "titre": "ETF XRP : Les investisseurs subissent -45 % de pertes",
-    "resume": "Les investisseurs détenant des ETF XRP affichent des pertes latentes moyennes de 45,3 %, la plus forte baisse parmi les grands ETF crypto.",
+    "resume": "Les investisseurs positionnés sur les ETF indexés sur le XRP enregistrent une moins-value latente moyenne de 45,3 %.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/etf-xrp-les-investisseurs-subissent-45-de-pertes/",
     "date": "22 nov.",
-    "pourquoi": "Indique un sentiment de marché très négatif et une sous-performance notable du XRP par rapport aux autres actifs majeurs.",
+    "pourquoi": "Cette donnée concerne l'actif XRP et les fonds indiciels associés : un niveau de perte latente aussi élevé peut déclencher des capitulations ou des ventes à perte pour motif fiscal.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Crypto ou épargne retraite ? Ce que révèle une enquête sur la Gen Z américaine",
-    "resume": "Une enquête révèle que 21 % des jeunes de la Gen Z américaine détiennent des cryptos, dépassant le pourcentage de ceux ayant un plan retraite d'entreprise.",
-    "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/crypto-epargne-retraite-enquete-gen-z-americaine/",
-    "date": "22 nov.",
-    "pourquoi": "Montre l'adoption croissante des cryptos comme outil d'investissement privilégié par les nouvelles générations aux USA.",
-    "impact": "hausse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-22T11:25:09+00:00",
-  "resume": "Wall Street a connu une séance difficile, lourdement pénalisée par la chute des valeurs liées à l'intelligence artificielle. L'incertitude règne sur les marchés boursiers quant à l'atteinte d'un point bas, tandis que plusieurs dirigeants d'entreprises américaines profitent de la période pour vendre leurs actions. En Europe, l'inflation suisse s'accélère, créant de nouvelles inquiétudes sur la pression des prix.",
+  "updatedAt": "2026-11-22T15:50:42+00:00",
+  "resume": "Les marchés boursiers américains ont connu une forte baisse, particulièrement dans le secteur de l'intelligence artificielle, entraînant des pertes importantes à Wall Street. En Asie, les pays soutiennent leurs marchés face à ce repli, tandis que les investisseurs s'interrogent sur la pérennité de la baisse aux États-Unis. La Banque centrale européenne a maintenu ses taux d'intérêt inchangés.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -205,49 +214,135 @@
   "items": [
    {
     "titre": "Wall Street perd des centaines de milliards de dollars en une séance, plombée par les valeurs de l'IA",
-    "resume": "Les valeurs technologiques liées à l'intelligence artificielle ont lourdement chuté à Wall Street, entraînant une perte de capitalisation boursière considérable.",
+    "resume": "Wall Street a subi de lourdes pertes, effaçant des centaines de milliards de dollars en une séance, plombée par la chute des valeurs liées à l'intelligence artificielle.",
     "source": "Le Tribunal du Net",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbVYyUVFWM1hYNlp6clZPLWlSMXEwNFVSa1drUXFzbVpxY1lxY0laQ3BZSE5GS1FqQnBIWDVndktRT3ZDRWs1dDNTTnhtRHliSUFHUzNjTHpoVVdmTUl3OVhad0VkQjZnbm9zaUZXLUMteVdmQnVzRUZJZk11ZTgxMVlYOTc3dXZWTnRhdQ?oc=5",
     "date": "22 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Bourse : le Nasdaq chute de 5,3 % et les valeurs de l’intelligence artificielle plongent - Le Média en 4-4-2",
-    "resume": "Le Nasdaq a enregistré une baisse marquée de 5,3 %, plombé par le plongeon du secteur de l'intelligence artificielle.",
-    "source": "Le Média en 4-4-2",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU3p3WHBKcXFyblN1T2dOdU9VNUwyTlZnOExKaW5obnhlb1FsdWY1TnZfVnZJbEFGQ2tXTE1GaTM4cVhUWUFNcnVoZUI0OGtUdkowWW15cVRuQlpGaExYMU9XU0h0ekNoS0U2REk3WXVaV2FCOVZsMWhHdE01dVRHUnBOVUJNeWNVZTNQSzVyc1VtTElHVl9MU1FjZkdqZUdhb2NsX3NsVko1NW8?oc=5",
-    "date": "22 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "L’inflation suisse s’accélère et la BNS s’inquiète des pressions sur les prix",
-    "resume": "La Banque Nationale Suisse s'inquiète de la hausse de l'inflation dans le pays, signalant des pressions persistantes sur les prix.",
+    "titre": "Les pays asiatiques soutiennent leurs marchés boursiers après la chute de l’IA",
+    "resume": "Les places boursières asiatiques bénéficient de mesures de soutien gouvernementales pour contrer l'impact de la correction du secteur de l'IA.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/linflation-suisse-saccelere-et-la-bns-sinquiete-des-pressions-sur-les-prix-3707952",
-    "date": "22 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "On la trouvait ringarde et démodée, on l'a même crue morte: Abercrombie & Fitch est à nouveau en plein boum, la marque a cassé son image sulfureuse et a bondi de 500% en Bourse",
-    "resume": "L'action Abercrombie & Fitch connaît un retour en grâce spectaculaire en Bourse, affichant une hausse de 500 % grâce à un changement d'image réussi.",
-    "source": "BFM",
-    "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQU2RmMC1OTU51a2s4QmloZ2QwTElNTEcwWVZkajBOZjRndEp5a01jV2xKRmswa2g1Z1U2aTl6WlJJNkxUQWdWVFdWVEhrc0VaTXNqNUFwTm1MdnhJWlhpS3BEeDhpaEpYdFpCNWI3Z21mTXNPdmhwT2phaHJsMVRDYy03Yk0yS0ticU44YkVTTXBtaHVMLWNGalpRdm11Qkp5NWt4VEpaYlpDd0ZVZjFSaGpCWlFzS2RkUTcwcU5mTDJGQnZEeEdSUDk3U1NNR19lRHpRRTBVUXQzYS1EcDFid1QxVU1Eb29jMlpXc0l6bE96UXQzSlZOb0ZfeERDSWpYaERrODlVT2RBWHp6cFpzUTVmSXBCOU1FUVhqVURBcTdiQ1RRZ3ZNNGtxcW9EWHQzM2tJR2NZV2UzQ2pTYnVv?oc=5",
+    "url": "https://fr.investing.com/news/stock-market-news/les-pays-asiatiques-soutiennent-leurs-marches-boursiers-apres-la-chute-de-lia-3707993",
     "date": "22 nov.",
     "impact": "hausse"
    },
    {
+    "titre": "La Banque centrale européenne maintient ses taux d'intérêt inchangés",
+    "resume": "La Banque centrale européenne a décidé de ne pas modifier ses taux d'intérêt directeurs.",
+    "source": "The Portugal News",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLWZtOGFucDVPNWRJaVFQSlE5RzJXWFp5c3hYa0JtSHJzcWdrZUFubTZOTXN2Si16VlNoR2VKcXZfVHVHME1vbHhTdGE0WW1iSy1SVG5VNW51dmtfakdHbDVrODJVRnNBYWk3OGYtSEl4LURRdkU0TFNCWUd3RTBpMDYxdlVaNlhaUVpXTE1PZmJ4YXJzeG5FdEFZdUJvQTg4OGpSY1pDY0JzYjZmeE1aOF9CdHhob3Q0czNrazAtQjVkLTZuekpxX2Rlaw?oc=5",
+    "date": "22 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Le Bitcoin peine sous 60.000$ alors que les profits des mineurs s’effondrent",
-    "resume": "Le cours du Bitcoin reste sous la barre des 60 000 dollars, affecté par une baisse importante de la rentabilité des mineurs.",
+    "resume": "Le cours du Bitcoin reste sous pression sous le seuil des 60 000 dollars, affecté par une baisse significative de la rentabilité des mineurs.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/cryptocurrency-news/le-bitcoin-peine-sous-60000-alors-que-la-rentabilite-miniere-seffondre-3707942",
     "date": "22 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Organon & Co publie ses résultats du T3 avant son rachat par Sun Pharma",
+    "resume": "Organon & Co a publié ses résultats du troisième trimestre avant sa prochaine acquisition par Sun Pharma.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/earnings/organon--co-publie-ses-resultats-du-t3-avant-son-rachat-par-sun-pharma-93CH-3707989",
+    "date": "22 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Abercrombie & Fitch : son action vaut onze fois plus qu’en 2017, résultats mardi",
+    "resume": "L'action Abercrombie & Fitch affiche une progression spectaculaire depuis 2017, avant la publication de ses résultats prévue mardi.",
+    "source": "Stéphane Larue News",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUGx6MXljMXNHTWRKb1pheWVzQlhtSkRvMFBWYjAxeWQyQ0RNNEpmSjE5NmZ0SjdFNWRld1hTbHl3ZXBreXYyMkcxVVVKeURDcU0xRXY1a2dOQ0JFM2VvamJFOVl1MVg3dVRoVFZRLUZiVUtrN1l4d2VTMF9CYzI0aEEyeUZuMXpIUjNfVVVDSnJFV05QSlpOcFhQVjBheU1XamNhOQ?oc=5",
+    "date": "22 nov.",
+    "impact": "hausse"
+   }
+  ],
+  "par": "ia",
+  "modele": "gemini-3.1-flash-live-preview",
+  "niche": [
+   {
     "titre": "Solaris Res chute de 51% après l’alerte de surévaluation d’InvestingPro",
-    "resume": "Le titre Solaris Res a dégringolé de 51 % suite à une alerte de surévaluation émise par la plateforme InvestingPro.",
+    "resume": "Le titre Solaris Res a chuté de 51% suite à un signal de surévaluation.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/investment-ideas/solaris-res-chute-de-51-apres-lalerte-de-surevaluation-dinvestingpro-93CH-3707972",
+    "date": "22 nov.",
+    "pourquoi": "Cela souligne l'importance des outils d'analyse de valorisation et peut indiquer une fragilité sectorielle pour les petites capitalisations minières.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Faut-il acheter le repli du cuivre ? UBS privilégie les positions longues",
+    "resume": "UBS recommande de prendre des positions longues sur le cuivre malgré son récent repli.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/fautil-acheter-le-repli-du-cuivre--ubs-privilegie-les-positions-longues-3707959",
+    "date": "22 nov.",
+    "pourquoi": "Cette recommandation pourrait influencer les cours des matières premières et des actions minières liées au cuivre.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Le directeur d’Angel Studios Inc acquiert 4,6M$ d’actions de la société",
+    "resume": "Un directeur d’Angel Studios Inc a acheté pour 4,6 millions de dollars d'actions de sa société.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-directeur-dangel-studios-inc-acquiert-46m-dactions-de-la-societe-93CH-3707978",
+    "date": "22 nov.",
+    "pourquoi": "Un achat d'initié d'une telle ampleur est souvent perçu comme un signal de confiance fort dans les perspectives de l'entreprise.",
+    "impact": "hausse"
+   }
+  ]
+ },
+ "immo": {
+  "updatedAt": "2026-11-22T15:50:42+00:00",
+  "resume": "L'encadrement des loyers est prolongé par la loi, tandis que certaines villes voient leurs loyers augmenter fortement. Le Grand Paris Express pourrait doper la rentabilité immobilière autour des futurs hubs de transport. La fiscalité pourrait évoluer avec des propositions de réforme et l'augmentation de la taxe sur les logements vacants à Paris.",
+  "chiffres": [],
+  "items": [
+   {
+    "titre": "Immobilier : parution de la loi prolongeant l’encadrement des loyers",
+    "resume": "La loi prolongeant le dispositif d'encadrement des loyers a été publiée officiellement.",
+    "source": "L'officiel des métiers",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSFJpOTFuNjZiZkpxWDZCN25QNmZHdXd5dU95NUVaWHo5N0xaZTQyaHVZX1J6ekFyR1g1eUpDQTNQczA5NU5GUXowRmNLTS04UExrbFVYSVFjMW02WVlWMmxBR3RHRGlEWWZVOE5EZUQzWFlGdXA5TXFwVVdHaks0YWJOSF95Y1pXc19Cd2VQU1o5eDJX?oc=5",
+    "date": "22 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "« Les futurs hubs devraient voir leurs prix et leurs loyers croître » : la rentabilité immobilière passe par le Grand Paris Express",
+    "resume": "Les futures gares du Grand Paris Express devraient entraîner une hausse des prix et des loyers dans les zones concernées.",
+    "source": "Challenges",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSzBkWjdpZFBhNHg5cW5lRjJhbmh1NFl1WWhiM2hjbDRuUWo4YVNYVXIzRGx2TDhuVk1QNVBYc0tZem9IQm5TaFl6eDQyeGVabS1MaWNEUzdLa0lOUG40U1RJRXdScm5YVEFHQkFQd0tDOHItRHV5WXFXSzF5eFdCaWV4cWdMWjJwaW5DWVgwNWs3SnY3OVJqZDA4Wmk0NkZubHJKYUlOZmp5czY1ellhQ3dBZFYzaVRJNThPMnhNNERvRFNQLVdHUXQ4LWtLZmZmNVVhUmx0dTdPbEVIV0F2aXQwNXVtTmpSdzNrVnhWSncwSHowZTlka2VyZDY1dw?oc=5",
+    "date": "22 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Comment Edouard Philippe veut révolutionner la fiscalité de l’immobilier",
+    "resume": "L'ancien Premier ministre Edouard Philippe propose une réforme en profondeur de la fiscalité immobilière.",
+    "source": "l'Opinion",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ2tzU3E5aHJhUVIxOEJVNEVtWXNhc084cEJfZWJBXzJlZDROVGdVNS14OWhKTUlCaUoxUXRfUGJlM3pENnNtdlppNmp5dWZST1NJUm5iZlRoSjVaNWM4aktuWC1YaWVWN05UTGdUU3BBVndkcTJPODR4TWdEdFBkbGVlV21wZ0dUcVQ2dEpEeWx6T01falVkTDQtdFdSUnVsUndPczJzbw?oc=5",
+    "date": "22 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Taxe sur les logements vacants à Paris : faut-il vendre son bien avant 2027 ?",
+    "resume": "La hausse de la taxe sur les logements vacants à Paris incite à s'interroger sur l'opportunité de vendre avant 2027.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUFU3NmF3SzloV0RueldTRkhUZFZ0UElZSVkwYWtQQmJqS2hOWjdJdTJ6YzBvTWlaMUdNVXlvMWdUWi1DNmRTMlJSREZvamtYNnM1OEpsMExndVNfU0t4aFZzeVVKTWVrWDVQT3dvUndndjI1M1hOeDJnRW41RENUYnJNc0tieXFrV0UyLVFvQ1NJeWlUZVh3OVFCQWxHTl9rWHBxOGxjckNZTlRjai1hUExKVTc?oc=5",
+    "date": "22 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Loyers 2026 : les 10 villes où les prix augmentent le plus",
+    "resume": "Malgré l'encadrement, dix villes françaises connaissent une forte hausse de leurs loyers en 2026.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSERHcnJHSDJRWkdVU2I3TFBuWG44TUoyRkhnV0RMNGlzUDBBU0tIZVlJVE9GeV84SVp4amoxcGE3NjRESjRRelM1RDBuMXpfMG5UME9QTHU1NjZSa1ZhT3VOYjdUVktBYk1TNEJCS0Nhc3ZNN1o5TUplUjlRNkJPSUxIaGFyN3N4cmZ3QWQyNXhZd2RSLUo0MlI4djBRamlNTERqQW1YNFliRG9YNlVtQXM4U29VdDVlRWFr?oc=5",
+    "date": "22 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Immobilier. Acheter un appartement en station est-il un investissement à risque ?",
+    "resume": "L'investissement locatif dans les stations de montagne est actuellement considéré comme risqué.",
+    "source": "Le Progrès",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTkluS0VXc3I1RGpQWGxKNENQZHhvRWYzT3pRSFFzYlRsMjVPOF9hckR1TlYzWmNSTURMVkkycW9Ya29OY3FUdnk4NFNFbWlUcGQ1VXAzd05Zek9PaUVOZnNJZzhkN3hQUjdhRVMwOVJLOEI5UV9BME5KV1h5T3FvTGtxOWlERW5yQy15SFJLWVRnWlJ3d0pVWVB3dktxQ2RENU5MeXJ5UEs1YlZoRmRtYnVqa0VnWXNjRnJTT1I5alQ?oc=5",
     "date": "22 nov.",
     "impact": "baisse"
    }
@@ -256,90 +351,32 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Faut-il acheter le repli du cuivre ? UBS privilégie les positions longues",
-    "resume": "UBS recommande de prendre des positions longues sur le cuivre malgré son récent repli.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/fautil-acheter-le-repli-du-cuivre--ubs-privilegie-les-positions-longues-3707959",
+    "titre": "Immobilier au Mans : la Métropole cède plusieurs biens en « vente notariale interactive », comment fonctionne ce système - Ouest-France",
+    "resume": "La Métropole du Mans utilise la vente notariale interactive pour céder des biens.",
+    "source": "Ouest-France",
+    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQdXd6bWlVVk5RSHVxN21EOHVnajV3c09uMENTVk44RlJOZEpoRjlCYnBlb05FT2ZIM1JXcVNBb3JKQVBYcmJDc3IzZmpKWXJNZUYxMmU1YVh4UWtvTks4UC1EZWZsVTVwMmVBZzVSbUlzVXVfSTFKbXA4NEVLd2tUc1NwektPdDE2NnhRTE5MQzdNUklCX1MyNnYyTXZ3bk5MMGczRHEtVjE4ZFFWVzl5c2VXeWN1aW1UaHE5S3RFMXJURlFiT1RIbUcyNUR2X25qU1lFLXlnSnVkdHF2SC1ZWDVZeFphUFYyRHZ6TGZMM3BEejE4UnhWOTJOYzJ5c0VOLXB1ajNEc2w0Sy0tSFVxYnBjMlMzaWJmZDVuUzd0VGdmQU83?oc=5",
     "date": "22 nov.",
-    "pourquoi": "Cela concerne le secteur des matières premières. Il faut surveiller si la demande industrielle soutient ce scénario de rebond.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Les ménages enchaînent sept mois d’affilée en augmentant leur investissement en bons du Trésor en septembre",
-    "resume": "Les ménages ont continué d'augmenter massivement leurs investissements en bons du Trésor en septembre.",
-    "source": "Demócrata",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRUV2T1NvZmRZYzVMMm9NTVpwQUZZTGN3VW81OFNfcTgtVlVoMjdRcVpNeGlGR3oxVzc4ZGtnYU5JXzAyYkkwcTdHdG5sYy1QUUtOOHA1ZWJ5QWRHalhPMXdTXzFEal9FbHVkYzMtcmRhT2NzcTNEamZfd2VLRTRmRlp0LU1BWjVNVXd5NzFCdEljM3ZMckhGTzJfTlNiLXRpMFowVUFVRFJVZ2NQX2YzNVkyWUdIU2h5d2w0RTlFZnhNcW11OWltYWxMaTNPWkV1emlYSVNiN0c2YVpxNzhPVkpNMNIB4wFBVV95cUxNRUV2T1NvZmRZYzVMMm9NTVpwQUZZTGN3VW81OFNfcTgtVlVoMjdRcVpNeGlGR3oxVzc4ZGtnYU5JXzAyYkkwcTdHdG5sYy1QUUtOOHA1ZWJ5QWRHalhPMXdTXzFEal9FbHVkYzMtcmRhT2NzcTNEamZfd2VLRTRmRlp0LU1BWjVNVXd5NzFCdEljM3ZMckhGTzJfTlNiLXRpMFowVUFVRFJVZ2NQX2YzNVkyWUdIU2h5d2w0RTlFZnhNcW11OWltYWxMaTNPWkV1emlYSVNiN0c2YVpxNzhPVkpNMA?oc=5",
-    "date": "22 nov.",
-    "pourquoi": "Cela montre un appétit pour les actifs sans risque, ce qui peut influencer les flux de capitaux hors du marché actions.",
+    "pourquoi": "Ce mode de vente aux enchères en ligne peut offrir des opportunités d'achat rapides, à surveiller pour les investisseurs locaux.",
     "impact": "flat"
    },
    {
-    "titre": "Tower Records Japon signale une violation de données touchant 10,2 millions de comptes",
-    "resume": "Tower Records Japon a annoncé une violation de données massive impactant plus de 10 millions de comptes.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/tower-records-japon-signale-une-violation-de-donnees-touchant-102-millions-de-comptes-3707967",
+    "titre": "RENT 2026 – « À moins de 100 lots, un agent ummobilier n'est pas rentable en gestion locative », François Moerlen (Locagestion)",
+    "resume": "Selon François Moerlen, la gestion locative n'est pas rentable pour un agent en dessous de 100 lots.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenh2bGJ1UjEtUFpTU0hlQm9xeFhBNG5kaHFBUUhHN0FCQVphRUVOYVNXV0E4MUdINnZNbVBpOTBydmRqWUpqTGxPUzFmdXlIRlVUbTFoQnV0M05aakI2aTRKN1d0cWlYZGtQbGQ4WmlIb2hfTF9OYWV0dU5pSVlTSE9MaVgtWVBJQXZla2VvbHUtb3VxZHEwaFExdVNNcTI4QWlWbWxMSQ?oc=5",
     "date": "22 nov.",
-    "pourquoi": "Cet incident pourrait affecter la confiance des consommateurs et le secteur de la distribution au Japon.",
-    "impact": "baisse"
+    "pourquoi": "Cela souligne l'importance de la taille critique pour les professionnels et pourrait impacter la qualité ou le coût de la gestion pour les propriétaires.",
+    "impact": "flat"
+   },
+   {
+    "titre": "358 millions prêtés aux énergies renouvelables en 2025, moins de 2 % de pertes : l'autre crowdfunding",
+    "resume": "Le crowdfunding dédié aux énergies renouvelables affiche une croissance et de faibles pertes.",
+    "source": "JeChange",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYXJTNHJRTFdiaXU1SVpfRG5Ca2xRa08wM2VPWU1EV2FwVVFwblBlc3FYelp3dnF2ZzF5VlJLOEN3a2FTWnN6MVNUem42dk5VM1dTaG9nMjdWQ1hhcUpCLUI1ZG1BMGRSMmZURkYxdjVRNzlZRWNMWFFQQ2V6M1Q1MXdHZzhDMUk2LVFMRDlTdWtnNllPSHNiQ1NnV0ZPRmoxeUFxRkNvWFJWYzNzWFhuYkhrdTY?oc=5",
+    "date": "22 nov.",
+    "pourquoi": "C'est une alternative de placement pour diversifier son portefeuille hors de l'immobilier traditionnel.",
+    "impact": "hausse"
    }
   ]
- },
- "immo": {
-  "updatedAt": "2026-11-22T11:25:09+00:00",
-  "resume": "L'encadrement des loyers est prolongé par la loi et de nouvelles villes pourraient voir leurs prix augmenter en 2026. La fiscalité immobilière pourrait être réformée et le DPE européen évoluera en 2027. Le Grand Paris Express et les Alpes-Maritimes attirent l'attention pour leurs prix et leur rentabilité potentielle.",
-  "chiffres": [],
-  "items": [
-   {
-    "titre": "Immobilier : parution de la loi prolongeant l’encadrement des loyers",
-    "resume": "La législation prolongeant le dispositif d'encadrement des loyers a été officiellement publiée.",
-    "source": "L'officiel des métiers",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSFJpOTFuNjZiZkpxWDZCN25QNmZHdXd5dU95NUVaWHo5N0xaZTQyaHVZX1J6ekFyR1g1eUpDQTNQczA5NU5GUXowRmNLTS04UExrbFVYSVFjMW02WVlWMmxBR3RHRGlEWWZVOE5EZUQzWFlGdXA5TXFwVVdHaks0YWJOSF95Y1pXc19Cd2VQU1o5eDJX?oc=5",
-    "date": "22 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Comment Edouard Philippe veut révolutionner la fiscalité de l’immobilier",
-    "resume": "Une proposition vise à transformer en profondeur la fiscalité appliquée au secteur immobilier.",
-    "source": "l'Opinion",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ2tzU3E5aHJhUVIxOEJVNEVtWXNhc084cEJfZWJBXzJlZDROVGdVNS14OWhKTUlCaUoxUXRfUGJlM3pENnNtdlppNmp5dWZST1NJUm5iZlRoSjVaNWM4aktuWC1YaWVWN05UTGdUU3BBVndkcTJPODR4TWdEdFBkbGVlV21wZ0dUcVQ2dEpEeWx6T01falVkTDQtdFdSUnVsUndPczJzbw?oc=5",
-    "date": "22 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "« Les futurs hubs devraient voir leurs prix et leurs loyers croître » : la rentabilité immobilière passe par le Grand Paris Express",
-    "resume": "Le développement du Grand Paris Express devrait stimuler la hausse des prix et des loyers autour des futurs hubs.",
-    "source": "Challenges",
-    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSzBkWjdpZFBhNHg5cW5lRjJhbmh1NFl1WWhiM2hjbDRuUWo4YVNYVXIzRGx2TDhuVk1QNVBYc0tZem9IQm5TaFl6eDQyeGVabS1MaWNEUzdLa0lOUG40U1RJRXdScm5YVEFHQkFQd0tDOHItRHV5WXFXSzF5eFdCaWV4cWdMWjJwaW5DWVgwNWs3SnY3OVJqZDA4Wmk0NkZubHJKYUlOZmp5czY1ellhQ3dBZFYzaVRJNThPMnhNNERvRFNQLVdHUXQ4LWtLZmZmNVVhUmx0dTdPbEVIV0F2aXQwNXVtTmpSdzNrVnhWSncwSHowZTlka2VyZDY1dw?oc=5",
-    "date": "22 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Alpes-Maritimes : à 4 825 € le m², le 06 monte sur le podium des départements les plus chers",
-    "resume": "Les prix dans les Alpes-Maritimes atteignent des sommets, plaçant le département parmi les plus onéreux de France.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UMWEwc2VvMjV5UWduQjNwempmMGN3X1BDOWhLcThTckFwWjRtOXBBZXYyMFV2amZObU9ydFBRRVhfUUpmWE5vMHgydVItRXZfbVI2ZVpfc1dHckpIQS1PcjlMRkl0eXBtNkRN?oc=5",
-    "date": "22 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Diagnostic immobilier : Ce que le DPE européen dira en plus au 1er janvier 2027",
-    "resume": "Le Diagnostic de Performance Énergétique (DPE) intégrera de nouvelles informations à l'échelle européenne dès 2027.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ2xZQmpPZXViaER0QkpnNEZaOElIWWlQV1o1S0R4Nll0YzhTV0tQN3VyOHQ2MXNENEZSOC0ydVMtX3ZXV04tOE5zRTZ5Q3h2aW45WXdUX1dGSkxRMldDQXFpQTFWVUIzZGFCUU1HN3p1YWRyMkdUMjd4M3E3WmJGdUxNMUF3RHpBNF81S2V6T0lRZ1hZRzhidlZ6eTJWZjBCcWk0Q3Z3b2Z1bFJ3WGdLMjlWdzdXUXJV?oc=5",
-    "date": "22 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Loyers 2026 : les 10 villes où les prix augmentent le plus",
-    "resume": "Les projections pour 2026 identifient dix villes où une forte progression des loyers est attendue.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSERHcnJHSDJRWkdVU2I3TFBuWG44TUoyRkhnV0RMNGlzUDBBU0tIZVlJVE9GeV84SVp4amoxcGE3NjRESjRRelM1RDBuMXpfMG5UME9QTHU1NjZSa1ZhT3VOYjdUVktBYk1TNEJCS0Nhc3ZNN1o5TUplUjlRNkJPSUxIaGFyN3N4cmZ3QWQyNXhZd2RSLUo0MlI4djBRamlNTERqQW1YNFliRG9YNlVtQXM4U29VdDVlRWFr?oc=5",
-    "date": "22 nov.",
-    "impact": "hausse"
-   }
-  ],
-  "par": "ia",
-  "modele": "gemini-3.1-flash-live-preview",
-  "niche": []
  }
 }
