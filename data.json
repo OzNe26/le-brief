@@ -1,59 +1,59 @@
 {
  "general": {
-  "updatedAt": "2026-11-24T11:34:15+00:00",
-  "resume": "L'actualité est marquée par le retour surprise de Jensen Huang à la tête de Nvidia, influencé par Donald Trump, et par l'acquisition majeure d'Insmed par Sanofi. En France, la justice ordonne un procès pour meurtre contre le policier ayant tué Nahel, tandis que le service DNS Quad9 est bloqué dans le pays. À l'international, l'UE limite les importations de voitures hybrides chinoises et la Russie est soupçonnée de vouloir placer une arme nucléaire en orbite.",
+  "updatedAt": "2026-11-24T20:26:42+00:00",
+  "resume": "Le Parlement a définitivement adopté le projet de loi de fin de gestion budgétaire pour 2026, maintenant le déficit public à 5,4 % du PIB. En politique française, les discussions s'intensifient autour du budget 2027 et des modalités de la prochaine élection présidentielle. À l'international, la guerre en Ukraine se poursuit avec des répercussions jusqu'en Libye, tandis que le Venezuela révèle l'ampleur massive de sa dette publique.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Jensen Huang de retour à la tête de Nvidia, sous l’influence de Donald Trump",
-    "resume": "Jensen Huang a été réintégré comme PDG de Nvidia par le conseil d'administration, une décision qui aurait été influencée par Donald Trump et qui a fait bondir l'action en Bourse.",
-    "source": "Le Monde International",
-    "url": "https://www.lemonde.fr/international/video/2026/11/24/jensen-huang-de-retour-a-la-tete-de-nvidia-sous-l-influence-de-donald-trump_6814742_3210.html",
-    "date": "24 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Avec le rachat à 41 milliards de dollars de l’américain Insmed, Sanofi trouve enfin l’opération qui assure son avenir",
-    "resume": "Le groupe pharmaceutique français Sanofi a annoncé le rachat de l'entreprise américaine Insmed pour un montant de 41 milliards de dollars, sécurisant ainsi son avenir.",
-    "source": "Le Figaro",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONFM5M1BnSEJ4UGh4bHBfSGUxbzVnS1dJQjhxMHdyYzhtamRMYzMtZkh2U0ctRVA0bXFyd2VNazAxbzdTd296N0EycVhoRkwwdGFYQ1VTQzNhQkV5aVN5WUFzQTZMWFNoVTFVLTA2cnhMcjZGcEVGWnNCMS1xR1N1d01MQ3p1MWpUbEU1ZXBEUFozMmEzSHJTYkJ0Y0w2eUM4ZC1SN2xxenFhWEFfVU9nZjZnNmpUWjF6NWVVVHY3d2l5WmNraXJtNHl0dUZ5bUdWOS1jN2JzeGpLbFFpQzRqakpldzBvMXpVekZnVUxXNA?oc=5",
-    "date": "24 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Mort de Nahel: un procès pour meurtre ordonné contre le policier",
-    "resume": "La cour d'appel de Versailles a confirmé le renvoi en procès pour meurtre du policier auteur du tir mortel sur le jeune Nahel à Nanterre.",
+    "titre": "Le Parlement adopte définitivement le projet de loi de fin de gestion 2026, avec un déficit public maintenu à 5,4 % du PIB",
+    "resume": "Le Parlement a définitivement validé le budget de fin de gestion pour 2026, actant un déficit public maintenu à 5,4 % du PIB.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/police-justice/video-mort-de-nahel-un-proces-pour-meurtre-ordonne-contre-le-policier_VN-202611240500.html",
+    "url": "https://www.bfmtv.com/economie/economie-social/finances-publiques/le-parlement-adopte-definitivement-le-projet-de-loi-de-fin-de-gestion-2026-avec-un-deficit-public-maintenu-a-5-4-du-pib_AD-202611240919.html",
+    "date": "24 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Présidentielle 2027 : Gabriel Attal presse Edouard Philippe de « proposer une autre modalité de départage », face à son refus de la primaire",
+    "resume": "Gabriel Attal presse Édouard Philippe d'accepter une primaire pour départager les candidats du centre et de la droite en 2027.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/politique/article/2026/11/24/presidentielle-2027-gabriel-attal-presse-edouard-philippe-de-proposer-une-autre-modalite-de-departage-face-a-son-refus-de-la-primaire_6814848_823448.html",
     "date": "24 nov.",
     "impact": "flat",
     "categorie": "France"
    },
    {
-    "titre": "L'Union européenne va plafonner les importations de voitures hybrides chinoises à partir du 1er décembre",
-    "resume": "La Commission européenne va plafonner les importations de véhicules hybrides chinois à partir du 1er décembre afin de protéger l'industrie automobile européenne.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/economie/automobile/l-union-europeenne-va-plafonner-les-importations-de-voitures-hybrides-chinoises-a-partir-du-1er-decembre_8297406.html#xtor=RSS-3-[lestitres]",
+    "titre": "Ukraine : une guerre sans frontières ?",
+    "resume": "L'Ukraine a revendiqué des attaques contre des navires russes au large de la Libye, étendant géographiquement le conflit.",
+    "source": "France 24",
+    "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261124-ukraine-une-guerre-sans-fronti%C3%A8res",
     "date": "24 nov.",
     "impact": "flat",
     "categorie": "Monde"
    },
    {
-    "titre": "Comme un air de guerre froide : la Russie s’apprêterait à placer une arme nucléaire en orbite dès décembre",
-    "resume": "Les services de renseignement occidentaux craignent que la Russie ne place un satellite équipé d'une arme nucléaire en orbite dès le mois de décembre.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/tech/2383387-comme-un-air-de-guerre-froide-la-russie-sappreterait-a-placer-une-arme-nucleaire-en-orbite-des-decembre.html",
+    "titre": "Sa dette représente 242% de son PIB: pour recevoir des aides, le Venezuela est obligé d'enfin dévoiler l'ampleur de son surendettement après des années d'opacité",
+    "resume": "Le Venezuela a dévoilé une dette publique extérieure colossale représentant 242 % de son PIB, après des années d'opacité.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/international/sa-dette-represente-242-de-son-pib-pour-recevoir-des-aides-le-venezuela-est-oblige-d-enfin-devoiler-l-ampleur-de-son-surendettement-apres-des-annees-d-opacite_AD-202611240870.html",
     "date": "24 nov.",
     "impact": "flat",
-    "categorie": "Monde"
+    "categorie": "Économie"
    },
    {
-    "titre": "C’est fait : depuis 9 heures ce mardi, le service Quad9 ne fonctionne plus en France et des dommages collatéraux sont à prévoir",
-    "resume": "Depuis ce mardi matin, le service de DNS gratuit Quad9 ne fonctionne plus en France, bloquant l'accès pour les utilisateurs ayant configuré ce service.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/tech/2383483-cest-fait-depuis-9-heures-ce-mardi-le-service-quad9-ne-fonctionne-plus-en-france-et-des-dommages-collateraux-sont-a-prevoir.html",
+    "titre": "GTA 6 : « Une surprise totale »… Une chanson de Sylvie Vartan explose les compteurs grâce au jeu vidéo",
+    "resume": "Une chanson de Sylvie Vartan connaît un regain de popularité spectaculaire suite à sa diffusion dans le jeu vidéo GTA 6.",
+    "source": "20 Minutes",
+    "url": "https://www.20minutes.fr/arts-stars/insolite/4265509-20261124-gta-6-surprise-totale-chanson-sylvie-vartan-explose-compteurs-grace-jeu-video?at_medium=display&at_campaign=149",
+    "date": "24 nov.",
+    "impact": "flat",
+    "categorie": "Culture"
+   },
+   {
+    "titre": "Des salariés d'OpenAI et d'Anthropic jugent les modèles les plus avancés trop dangereux pour être rendus publics: il faut les contrôler tant qu'il est temps, au risque de les voir stagner?",
+    "resume": "Des employés d'OpenAI et d'Anthropic s'inquiètent en interne de la dangerosité potentielle des futurs modèles d'intelligence artificielle.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/tech/intelligence-artificielle/des-salaries-d-open-ai-et-d-anthropic-jugent-les-modeles-les-plus-avances-trop-dangereux-pour-etre-rendus-publics-il-faut-les-controler-tant-qu-il-est-temps-au-risque-de-les-voir-stagner_AV-202611240850.html",
     "date": "24 nov.",
     "impact": "flat",
     "categorie": "Tech"
@@ -63,8 +63,8 @@
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-24T16:16:58+00:00",
-  "resume": "Le marché des cryptomonnaies subit une forte correction, le Bitcoin repassant sous les 60 000 dollars et entraînant l'Ether dans sa chute. Malgré ce repli, l'adoption institutionnelle se poursuit avec des initiatives bancaires en Europe et l'intégration d'actifs tokenisés dans la DeFi. Parallèlement, la justice américaine agit pour récupérer des fonds issus du piratage de Binance.",
+  "updatedAt": "2026-11-24T20:26:42+00:00",
+  "resume": "Le marché des cryptomonnaies connaît une forte correction, le Bitcoin repassant sous la barre des 60 000 dollars dans un contexte d'aversion au risque généralisée. Cette baisse est accentuée par des craintes liées aux droits de douane américains et des sorties massives de capitaux des ETF Bitcoin. Malgré cela, certains acteurs institutionnels continuent de développer des solutions de tokenisation et des produits dérivés.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -94,7 +94,7 @@
   "items": [
    {
     "titre": "Krach crypto : le bitcoin repasse sous 60 000 dollars, l'ether perd 7 %, l'actualité crypto en direct",
-    "resume": "Le marché crypto connaît une baisse significative, le Bitcoin chutant sous les 60 000 dollars et l'Ether perdant 7 %.",
+    "resume": "Le marché subit un krach important, le Bitcoin chutant sous les 60 000 dollars et l'Ether perdant 7 %.",
     "source": "CryptoTicker.io",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03TU81alpFMl9fSmkydWJqWHdONzRXUTRWQXlDRjRHLXE3UFVMZXVDUzhCM3RPeGdQUVI1N1p4cGV0cjJUM2UxTTU5eU5BZi1fRVJOWnR1TS03V2VUTWFyMjVHbGxoRUVQTlVIMDQxOEdzWWt2WlJXdFBnQQ?oc=5",
     "date": "24 nov.",
@@ -102,7 +102,7 @@
    },
    {
     "titre": "ETF Bitcoin : 570 M$ de pertes, 1,6 Md$ sortis de BlackRock en 3 jours",
-    "resume": "Les ETF Bitcoin américains enregistrent d'importantes sorties de capitaux, totalisant 570 millions de dollars de pertes en trois jours.",
+    "resume": "Les ETF Bitcoin américains enregistrent des pertes massives, avec 1,6 milliard de dollars sortis du fonds BlackRock en trois jours.",
     "source": "Bitcoin News",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcnJQUDRyZUpTZWxXVGt6WFZxdFM2TVZHYldIMjlWUngweHBYUHM4aU0zbjFxNE14ZFF3eE5yNWFMZDQtOXRCYnNqajdtSEdDY3VlXzBDeV9MNzEtU1cwMzFEcTZuUlB6ekZ5MXFybnItRGlIV2N6cmZOTVo0QUl6eGxBS0dLRzFTX0MwUmU1d095b3JZMWRFZmZFdDN1bHgzTFMtTTZWQVluQQ?oc=5",
     "date": "24 nov.",
@@ -110,35 +110,35 @@
    },
    {
     "titre": "Crypto : La BCE ouvre ses opérations de crédit aux actifs tokenisés",
-    "resume": "La Banque Centrale Européenne acceptera les actifs tokenisés comme garantie pour les opérations de crédit à partir de juin 2027.",
+    "resume": "La Banque Centrale Européenne acceptera les actifs tokenisés comme garantie pour des opérations de crédit à partir de juin 2027.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/crypto-la-bce-ouvre-ses-operations-de-credit-aux-actifs-tokenises-2/",
     "date": "24 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Une banque italienne propose un investissement en Bitcoin avec une garantie sans perte",
-    "resume": "En Italie, UniCredit propose à ses clients particuliers un certificat Bitcoin avec une garantie en capital contre les pertes.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/unicredit-italie-bitcoin-certificat-retail/",
+    "titre": "La Corée du Sud s’apprête à lever l’interdiction des ICO et à imposer des livres blancs sur les cryptomonnaies",
+    "resume": "La Corée du Sud prévoit de lever l'interdiction sur les ICO et d'imposer des livres blancs pour les cryptomonnaies.",
+    "source": "CoinMarketCap",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOGtnYWFWelI5N25CcTBXcEUtNEdaWjllNjVLdWVxR0Zfa0JFNEV0aUdYNGx5dTl0Rk16eV82cDRqQkhaTzdJZHE3UlVfcFFXX2pBcnNJTU0tMkloUWNwSEtmazh6blVrRDBuSDI2U2VsR0FhcXpNamNBcUlIZGF6WmxvcG8yRDMzZ3U0?oc=5",
     "date": "24 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Crypto : La justice américaine réclame 1,17 milliard de dollars en USDC volés à Binance",
-    "resume": "La justice américaine demande la saisie de 1,17 milliard d'USDC volés lors du piratage de la plateforme Binance.",
+    "titre": "Ethereum : l’IA devient une menace plus urgente que le quantique",
+    "resume": "L'Ethereum Foundation considère l'intelligence artificielle comme une menace de sécurité plus urgente que l'informatique quantique.",
     "source": "Journal du Coin",
-    "url": "https://journalducoin.com/actualites/crypto-justice-americaine-usdc-voles-binance/",
+    "url": "https://journalducoin.com/ethereum/ethereum-ia-menace-urgente-quantique/",
     "date": "24 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Aave intègre un fonds tokenisé de Neuberger Berman, qui gère 230 milliards de dollars",
-    "resume": "Aave intègre un fonds obligataire tokenisé de Neuberger Berman, permettant d'utiliser ces parts comme garantie pour emprunter.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/aave-horizon-integre-fonds-tokenise-hinc-neuberger-berman/",
+    "titre": "XRP : Un Golden Cross relance l’espoir, mais le seuil de 1 dollar résiste !",
+    "resume": "Le XRP montre un signal technique haussier face au Bitcoin, bien que son cours en dollars reste sous pression.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/xrp-un-golden-cross-relance-lespoir-mais-le-seuil-de-1-dollar-resiste/",
     "date": "24 nov.",
-    "impact": "hausse"
+    "impact": "flat"
    }
   ],
   "par": "ia",
@@ -146,12 +146,21 @@
   "niche": [
    {
     "titre": "Bitcoin : un mineur solo empoche 191 000 dollars suite à la résolution d'un bloc",
-    "resume": "Un mineur solo a empoché 191 000 dollars après avoir résolu un bloc Bitcoin.",
+    "resume": "Un mineur solo a validé un bloc Bitcoin, empochant environ 191 000 dollars.",
     "source": "Cryptoast",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZWd6ZEl1Y29HSlBDNWtfdnU4VWJaX3I2Wl9KZ21jTU5GRVZIVk4wSEZUTmJWX1IyY1NocmxGNm1fTWpKZTlzT2ZJMTE2NnJCOEtaMkRabUlZUVlnY1RXTjIwY0ZVSWx0akR4a0lBOXN2OUhtSGZEa3B4WUU2Tk54M1gtZHAzX2EwVG8tT2ZtQQ?oc=5",
     "date": "24 nov.",
-    "pourquoi": "Cela montre que l'activité de minage individuel reste ponctuellement très rentable malgré la concurrence industrielle. Surveiller la difficulté de minage.",
+    "pourquoi": "Cela illustre la persistance de l'activité de minage individuel malgré la concurrence industrielle. L'activité de minage reste cruciale pour la sécurité du réseau.",
     "impact": "flat"
+   },
+   {
+    "titre": "Aave intègre un fonds tokenisé de Neuberger Berman, qui gère 230 milliards de dollars",
+    "resume": "Aave intègre un fonds obligataire tokenisé de Neuberger Berman comme garantie.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/aave-horizon-integre-fonds-tokenise-hinc-neuberger-berman/",
+    "date": "24 nov.",
+    "pourquoi": "Cela montre l'interconnexion croissante entre la finance traditionnelle et la DeFi. Surveiller l'adoption de ces nouveaux types de collatéraux sur Aave.",
+    "impact": "hausse"
    },
    {
     "titre": "Crypto : 45,5 milliards de dollars d’actifs tokenisés dorment onchain",
@@ -159,32 +168,23 @@
     "source": "Journal du Coin",
     "url": "https://journalducoin.com/actualites/crypto-455-milliards-de-dollars-dactifs-tokenises-dorment-onchain/",
     "date": "24 nov.",
-    "pourquoi": "Indique un fort potentiel de croissance pour la liquidité onchain si ces actifs dormants sont activés. Surveiller les protocoles de RWA.",
+    "pourquoi": "Ce faible taux d'utilisation indique un potentiel de croissance pour la liquidité onchain si ces actifs inertes sont activés.",
     "impact": "flat"
    },
    {
-    "titre": "Le cours de Ripple montre un schéma historique ayant mené à un rallye de 200 %",
-    "resume": "Le cours de Ripple (XRP) présente un schéma technique historique ayant précédé un rallye important par le passé.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/xrp-prix-historique-pattern-200-rallye-2027/",
+    "titre": "Airdrops crypto semaine 48 : Treehouse, Doppler, Zest",
+    "resume": "Des airdrops sont annoncés pour les projets Treehouse, Doppler et Zest en semaine 48.",
+    "source": "CryptoTicker.io",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NV0M2SnJvTUpUZ0FNMkNsZVFCUFIyS3FJWElNNG4wR2VJOUNYMUJHMW5kOTFLaG9NcUJlTlYzRnUwdF9Db2ZFZTVJX3V0MEJBUUhpRWlkTmo2RkdHbVl3Mm1CcmotZHpmRzdRQVhUYXJuX3lQZ0UydVZ1X0NhMUU?oc=5",
     "date": "24 nov.",
-    "pourquoi": "Utile pour les traders techniques surveillant le XRP, bien que les performances passées ne garantissent pas l'avenir.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "BTCS vend plus de la moitié de son ether pour rembourser une dette de 43,8 millions de dollars auprès d'Aave",
-    "resume": "BTCS a vendu plus de la moitié de ses Ethers pour rembourser une dette de 43,8 millions de dollars auprès d'Aave.",
-    "source": "CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTTBzYWxHUHlRbDNUMkZLUWxQQ3NQVjdMWTY3UkJzeTNvblVNZzZocThPdkI2b0xQMXBGR29IeGowX0tsNVNqLTR0eFVBSnZzWkhuMk5hZWdvMm1OTmhwbE4tS3l3aVhFTUdsaVJZaVpVZVNBZ0RtS1MyenctYUNTdzFBM3dlVE9Kbk1aeWVMTHdpUlVuUGxpMi1uYzI4Q2hyS2gwQ0lydVFwUFJJNXYwRnJaYkdOUURWME5LanhR?oc=5",
-    "date": "24 nov.",
-    "pourquoi": "Cette vente forcée peut créer une pression baissière locale sur l'Ether et montre les risques liés à l'effet de levier.",
-    "impact": "baisse"
+    "pourquoi": "Ces événements peuvent générer de la volatilité sur les tokens concernés et attirer l'attention sur ces écosystèmes spécifiques.",
+    "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-24T16:16:58+00:00",
-  "resume": "Wall Street recule aujourd'hui, plombé par la baisse de Nvidia après son récent rallye. Les investisseurs surveillent également la macroéconomie, avec des perspectives de hausse des taux en Europe et une inflation américaine attendue. Malgré la tendance générale, plusieurs entreprises comme Kohl's ou Fossil se distinguent par de fortes hausses suite à leurs résultats ou annonces stratégiques.",
+  "updatedAt": "2026-11-24T20:26:42+00:00",
+  "resume": "La Bourse de Paris a terminé proche de l'équilibre, portée par l'envolée de Sanofi mais freinée par le secteur des semi-conducteurs. À Wall Street, Nvidia et Dell reculent avant leurs résultats, tandis que les craintes sur l'IA pèsent sur certains titres. Par ailleurs, plusieurs actions comme Roivant Sciences ou Sharkninja atteignent des records historiques.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -213,50 +213,50 @@
   ],
   "items": [
    {
-    "titre": "L'action Nvidia chute alors que les actions perdent une partie du rallye de lundi.",
-    "resume": "Le titre Nvidia chute, entraînant Wall Street dans son sillage, alors que l'enthousiasme pour l'IA s'essouffle après la forte hausse de la veille.",
-    "source": "Quartz en Français",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LMFlLLVk2c3liUDRDMDJqUWVhaTlvMGhyTmI5dXhFMXRFM0VvdWJiODNVT3JLR0h4V0VlUWlCOWdTcWpsT0pKbVB6NU5hTTgyWkVBVXdhOFJDdGFhTXBQa2pZdjl3ZDU1U1c1UHVmWllDc2FTNTlORnk2Q0loYlE?oc=5",
-    "date": "24 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Après des débuts en fanfare à Wall Street, Anthropic efface plus de la totalité de sa hausse, perd 30% par rapport à son pic et repasse sous son cours d'introduction",
-    "resume": "L'action Anthropic dégringole de 30% par rapport à son récent sommet et repasse sous son cours d'introduction en Bourse.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/actualites/informations-societes/apres-des-debuts-en-fanfare-a-wall-street-anthropic-efface-plus-de-la-totalite-de-sa-hausse-perd-30-par-rapport-a-son-pic-et-repasse-sous-son-cours-d-introduction-1174353.html",
-    "date": "24 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Kohl’s Corp dépasse les prévisions du T3 2026, l’action bondit de 12,6%",
-    "resume": "Kohl’s Corp bondit de plus de 12% après avoir publié des résultats pour le troisième trimestre supérieurs aux attentes.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/kohls-corp-depasse-les-previsions-du-t3-2026-laction-bondit-de-126-93CH-3711450",
-    "date": "24 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "La BCE devrait relever ses taux en décembre, selon Sleijpen",
-    "resume": "Un membre de la Banque Centrale Européenne estime que l'institution devrait relever ses taux en décembre.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economy-news/la-bce-devrait-relever-ses-taux-en-decembre-selon-sleijpen-3711451",
+    "titre": "La Bourse de Paris termine proche de l'équilibre, Sanofi flambe de près de 10 %",
+    "resume": "Le CAC 40 a clôturé stable, grâce à la forte hausse de Sanofi qui a compensé la faiblesse des valeurs technologiques.",
+    "source": "France 24",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdHl1NkxvR2JmdTZrV1R5MDFXNUVVcGNBNXdrdTYwVmVGSVNMRUhBeFVqY183T2tmXzlETnNiRVhYbVg4M0tYN3ZvWkJLZDFmek01RnBjUllYVlRTbF80TElVbGVLYzN2eXNqdmpuZ2NXc1JpcDZCWEVadm9xbHAtR1pQZm5aT0xla2hTXzNMcFI0MUtkX1pQXzVSWFpsR0ZCb3VxRmFsX09RYlR3Z0JiUFp3VGVGV1dyUHgzcXpOU3JFeEx4enNVZXlncnlFV0dPYW9GS053?oc=5",
     "date": "24 nov.",
     "impact": "flat"
    },
    {
-    "titre": "L’accord CrowdStrike-Zscaler à 44 milliards fait de lui le leader du zero trust",
-    "resume": "CrowdStrike et Zscaler concluent un accord de 44 milliards de dollars pour créer un leader de la sécurité informatique 'zero trust'.",
+    "titre": "Nvidia perd plus de 3 % avant l'ouverture, un jour après avoir clôturé en hausse de 30 % grâce au retour de Huang.",
+    "resume": "L'action Nvidia cède du terrain avant l'ouverture, après avoir fortement progressé la veille.",
+    "source": "Quartz en Français",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wNU05QWhJNW0xaWkzSF82am5yZHROd0V5YU50M0hfZ2h5endFbmV0OWZfRWVtNUlfdFhjc1VhY29Ja0xETTJMMnZJUllTUHdEdzBqNDYxR3RwbkJLUF9MRGJOeHhpUDJjZEhzMktXQmRxXzB5UldvcGRIZw?oc=5",
+    "date": "24 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Dell recule avant la publication de ses résultats, la durabilité de la demande en IA en point de mire",
+    "resume": "Dell enregistre une baisse avant la publication de ses résultats, les investisseurs s'interrogeant sur la pérennité de la demande en IA.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPTHVxSXVKOEt4VTZlUGRhanFCWHRVQUN3NnpSQUI5T2tvdGg4eWlpRmp2Nk41a2Zib1VlVk5uWFE0a0JRaDRPdmNINlZ3bmRKTEowVnl5aXdxS2dlN0IxcktZeFNCOWpHOWZSS0RmeTJrd3ZZeHdkR3lRcENNcHk4QVo3Q3gxTG5EckpPcVI5NmxxbTlkWDVNOGFPUXpzbHRrY1MxZTdnd05KOW9USWhGMElYV19YWW9LRzkwZ1lZVWM4T2ljRndRbHJYYkdBeHlEay1vcWNac0FPZU9WSmRNeDQyVmVnVndqNGdTbUpBUHZwR1BvdmZzbmZZX1ZZMEdWeGFFN05EdVZyTkl1cmtV0gGPAkFVX3lxTE9MdXFJdUo4S3hVNmVQZGFqcUJYdFVBQ3c2elJBQjlPa290aDh5aWlGanY2TjVrZmJvVWVWTm5YUTRrQlFoNE92Y0g2VnduZEpMSjBWeXlpd3FLZ2U3QjFyS1l4U0I5akc5ZlJLRGZ5Mmt3dll4d2RHeVFwQ01weThBWjdDeDFMbkRySk9xUjk2bHFtOWRYNU04YU9RenNsdGtjUzFlN2d3Tko5b1RJaEYwSVhXX1hZb0tHOTBnWVlVYzhPaWNGd1FsclhiR0F4eURrLW9xY1pzQU9lT1ZKZE14NDJWZWdWd2o0Z1NtSkFQdnBHUG92ZnNuZllfVlkwR1Z4YUU3TkR1VnJOSXVya1U?oc=5",
+    "date": "24 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "L’action Roivant Sciences atteint un record historique à 42,51 $",
+    "resume": "Le titre Roivant Sciences a atteint un niveau historique à 42,51 dollars.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/laccord-crowdstrikezscaler-a-44-milliards-fait-de-lui-le-leader-du-zero-trust-3711457",
+    "url": "https://fr.investing.com/news/company-news/laction-roivant-sciences-atteint-un-record-historique-a-4251--93CH-3711610",
     "date": "24 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Le cours de l'action Medtronic chute alors que la croissance des ventes ralentit et ne répond pas aux attentes.",
-    "resume": "Le cours de Medtronic baisse suite à une croissance des ventes jugée décevante et inférieure aux prévisions.",
-    "source": "fr.qz.com",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2wyOWl2d01WcGhpcEt5eXFOQjRvVHBZVDh4aTk5Y1FpYjJFTloyM1BMdlBvLTJ3YmxoVVJqbk9jSkNnaHVXNVUzRFJZS2RjUkI1cmIwcFZIT2pDOXd1NGdzamhReU1YcXNNNHZ0XzZ3NGs0MnBCbHBCdy1yQ2hCTjBsUU1JbW14ZVRwV0hn?oc=5",
+    "titre": "L'action Micron chute, un analyste redoute une surabondance de l'offre de puces mémoire",
+    "resume": "Micron chute en raison des craintes d'un analyste concernant une offre excédentaire de puces mémoire.",
+    "source": "Zonebourse Suisse",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ2IxVmtVcndUTzZvX0xNUHd1d2lZbGpEMEI2WlJxMTZ1SmQ2aXVLRGktYVJaUlJLMElaNFA1ZWNhUlU1bXMtQVptaXFJc0xyTm5zdDJMcEhna2V3X0xjbHhQMVFnREpFTmtsVmM2X1o0QzM2czhobURTNVFtWGJ3UjVKZS1BcWVIZ2pMTmJqOGNYbFNid2FfOFBpZTg2RkRvbDVuN0FBSkJ3ZmhXWVk2TzBtNkdPSmlVQ093dFl3V3JaY2h4b2FaU1hfVUNVVi1rU1hVcnUwWlJ1akw1N25n?oc=5",
+    "date": "24 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "L'action d'Anthropic tombe en dessous du prix d'introduction en bourse de 83 $ lors de la quatrième séance.",
+    "resume": "L'action Anthropic est passée sous son prix d'introduction en bourse de 83 dollars lors de sa quatrième séance.",
+    "source": "Quartz en Français",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qSVVvSEhBbnJ3MW1vaHhHMlBCb2x5dWY4YnVvS1BWWmpQajRld1VQakhwUDBReGVOWUk5MmdhV3prT243WDhTb3IxX0pkVG5MSnp3ZzBIUkdvT0MwTWFVZG1tUVp2aWxmZ0RzZkN4N2hkak5jbkZEQw?oc=5",
     "date": "24 nov.",
     "impact": "baisse"
    }
@@ -265,117 +265,117 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "L’action Fossil Group bondit après la prolongation de sa licence Michael Kors",
-    "resume": "L'action Fossil Group grimpe suite à la prolongation de son contrat de licence avec Michael Kors.",
+    "titre": "York Water augmente son dividende trimestriel de 4%, marquant 30 ans de hausse consécutive",
+    "resume": "York Water augmente son dividende trimestriel de 4%, marquant 30 années consécutives de hausse.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/laction-fossil-group-bondit-apres-la-prolongation-de-sa-licence-michael-kors-3711390",
+    "url": "https://fr.investing.com/news/sec-filings/york-water-augmente-son-dividende-trimestriel-de-4-marquant-30-ans-de-hausse-consecutive-93CH-3711603",
     "date": "24 nov.",
-    "pourquoi": "Cette annonce sécurise une part importante des revenus futurs du groupe Fossil, un signal positif pour le secteur des biens de consommation sous licence.",
+    "pourquoi": "Utile pour les investisseurs axés sur les revenus stables et croissants dans le secteur des services publics.",
     "impact": "hausse"
    },
    {
-    "titre": "Keo Capital chute de 10 % après sa mise à jour du T3 sur ses besoins de financement",
-    "resume": "Keo Capital perd 10% après avoir annoncé des besoins de financement supplémentaires lors de sa mise à jour trimestrielle.",
+    "titre": "Le PDG d’LCNB Corporation, Eric Meilstrup, achète 7.639$ d’actions",
+    "resume": "Le PDG de LCNB Corporation a acheté pour environ 7 600 dollars d'actions de sa société.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/transcripts/keo-capital-chute-de-10--apres-sa-mise-a-jour-du-t3-sur-ses-besoins-de-financement-93CH-3711394",
+    "url": "https://fr.investing.com/news/insider-trading-news/le-pdg-dlcnb-corporation-eric-meilstrup-achete-7639-dactions-93CH-3711602",
     "date": "24 nov.",
-    "pourquoi": "Cela souligne les difficultés de financement pour les petites capitalisations et l'importance de surveiller la trésorerie.",
-    "impact": "baisse"
+    "pourquoi": "Un achat d'initié peut signaler une confiance de la direction dans les perspectives de cette banque régionale.",
+    "impact": "hausse"
    },
    {
-    "titre": "BNP Paribas abaisse sa note sur Micron en raison des risques sur les plans de capacité des hyperscalers",
-    "resume": "BNP Paribas dégrade l'action Micron, s'inquiétant des plans de capacité des grands clients technologiques.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/bnp-paribas-abaisse-sa-note-sur-micron-en-raison-des-risques-sur-les-plans-de-capacite-des-hyperscalers-3711312",
+    "titre": "Les options de MongoDB signalent un mouvement de 14% avant les résultats du 1er décembre",
+    "resume": "Le marché des options anticipe un mouvement de 14% sur l'action MongoDB avant ses résultats.",
+    "source": "Investing.com France",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaUlIeFZjWGJCMTlMQWkwVTUxUlEwOE1BdFhzanRtTU9PTFByWklDTE1MR25Xb2U1MG9vY2oyYjhqSzRGcU5YblJBek1lOXlRM25yXzBOdUh5MUN4cDUxdkpkSXY1RmNWUVdEeEcyT2kwU0d5c1RSZHdub1Ezc1BNS0RSbGIxT3F3eU4xMTNVRDUzUzlUVVpNS09zTWdDeUhWWVFRTGNZSGhnNVoyU205OFJGZEVha0x4b2ZUcnBPWVYtNTRqZjh4Q2ZLdVBsQWF0dHZveXhfQnl6MkplYkFkTDZR?oc=5",
     "date": "24 nov.",
-    "pourquoi": "Cela pourrait indiquer un risque de suroffre dans le secteur des semi-conducteurs mémoire, à surveiller de près.",
-    "impact": "baisse"
+    "pourquoi": "Indique une forte volatilité attendue sur ce titre logiciel, à surveiller pour les traders.",
+    "impact": "flat"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-24T16:16:58+00:00",
-  "resume": "Les prix de l'immobilier ancien en France reculent de 1,2 % sur un an au troisième trimestre 2026, sous l'effet de la hausse des taux d'intérêt. Parallèlement, les ventes de logements neufs atteignent un nouveau point bas historique. Malgré la baisse des prix, l'accès à la propriété reste difficile pour les particuliers.",
+  "updatedAt": "2026-11-24T20:26:42+00:00",
+  "resume": "Le marché immobilier français connaît une baisse des prix dans l'ancien, tandis que les ventes de logements neufs atteignent des niveaux historiquement bas. L'Assemblée nationale a adopté un projet de loi logement qui maintient pour l'instant l'interdiction de louer les passoires thermiques. Malgré la baisse des prix, l'accès à la propriété reste difficile en raison des taux d'intérêt élevés et des exigences de revenus.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Immobilier: les prix des logements anciens reculent de 1,2 % sur un an au troisième trimestre 2026",
-    "resume": "Les prix des logements anciens en France ont baissé de 1,2 % sur un an au troisième trimestre 2026, confirmant l'accélération du recul.",
-    "source": "Le Figaro",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObWpDTGlucEdyTDNKRGtUNzVmZjBBQmtlUEJheFV0ZlZuTnZ5MHJpSzlOU0VoYmVkcURNcGhIazk0NUZReUVwTnJTdmlZd01hdDRoeVU5VW0yRGFBbjAtSTliNmNBcFhXQmxLTTRBYno3QUlIU2JBaThXUzRhTFV0YnZvenM5b09aOVVCNE9tRjlVd1Z6Q3BYemdpNjEyNlNfZXhzYU41RDdRWmJlMzdRMlkzajYwVlV5LVlxTmtJdXNHOWlHSFN6aTNOQjVHR1FueEFuZg?oc=5",
+    "titre": "La baisse des prix de l'immobilier s'accélère en France : baisse de 1,2% au 3e trimestre 2026, après -0,8% au T2 2026",
+    "resume": "La baisse des prix de l'immobilier ancien s'accélère en France, avec un recul de 1,2 % au troisième trimestre 2026.",
+    "source": "FranceTransactions.com",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbHVtU2RkeDBSaEUzSHYwWFdvUkhveEtVSXQ2TW53M3FwcEFTM3JZdDRTMlM0NlRUWWZIVVZsaElGX1ktVzMtbjZpWi02Tm9wa3NGMDBHTFhUa1ZaM2FMQmJDem5QVG5sUk9JZXVIdVFVM1NEM2NEZmp1UC1YSGNPQTJ0U2s3bmNDSGhoazlHZ3U4SXVscUVqUi02ekhPMVZw?oc=5",
     "date": "24 nov.",
     "impact": "baisse"
    },
    {
     "titre": "Immobilier : les ventes de logements neufs à des particuliers atteignent un nouveau plus bas au troisième trimestre",
-    "resume": "Le marché du neuf s'enfonce avec des ventes aux particuliers atteignant un nouveau plus bas historique au troisième trimestre.",
+    "resume": "Les ventes de logements neufs aux particuliers ont atteint un nouveau point bas au troisième trimestre.",
     "source": "Europe 1",
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFRXcDRhWEh2TFNFUTlhaHhreHpQQ2l3dHlXeU9UQ1J4VUpzSVctYkpPbWlsZDV4ZU5heXpwbVJqdGw0R3NfNnIxWFpwNGV4RjIwRkNqNXJWZG9XdEphbkUzSHV0bVpQSXB1RWRwY2wtVVBGR3hDcGZBUXBhRnVJc3dlSV9IX0VPTjVEa0V4TWlFZEZaYk9YMVo0OTVpLU13Rm5ReUM1c2NmMjJ2dzhESEhEeG5Na0dBX0JOYTFEZEVlSk5RbDNmLW1UT0wzdW04VkRpcnRnVUN0WTZKbHZLcXJ5RzNoWEVZVy000gHwAUFVX3lxTE01eW00a1ltdkxoRGFuc2tHQ25qaEVHUGsydzB2MVdnQXBjY0RpNHExWHBtallqMnBlWXhYZHcxU1ByS3ZyOUJHZE1oX1FabWpnVVBXSHJrZkZLUG5rSzRIRDQxSm9ieVN3bkRSM0dnZk9OeC1yVzFjYWtPQ2lRVWJWX19SZjZxaEsteGRQbTFmTHk1TGRNcHBjVWY1MWg5OEpkU01KbnRKdVQ4cUJHRGFLSnRDY0VlSXFUX1VSbXZVSHVYX3EyOG1jNElCYlJiYUN5bFNIa0hieC10Qmc2MlEzOTdvWGtEa0l1M0VCRHZIRQ?oc=5",
     "date": "24 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "Immobilier : Le projet de loi logement adopté, l’interdiction de louer les passoires thermiques reste en vigueur pour l’instant",
+    "resume": "L'Assemblée nationale a adopté le projet de loi logement, conservant temporairement l'interdiction de louer les passoires thermiques.",
+    "source": "MySweetImmo",
+    "url": "https://www.mysweetimmo.com/2026/11/24/loi-logement-adoptee-assemblee-dpe/",
+    "date": "24 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Il faut gagner 12.000 euros nets par mois pour acheter un simple 75 m² à Paris: même deux salaires de cadres ne suffisent pas (ailleurs c'est un peu plus abordable)",
-    "resume": "À Paris, l'achat reste extrêmement difficile, nécessitant un revenu mensuel de 12 000 euros nets pour un appartement de 75 m².",
+    "resume": "À Paris, l'achat d'un appartement de 75 m² nécessite un revenu mensuel net de 12 000 euros, excluant même certains couples de cadres.",
     "source": "BFM",
     "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNTG9ZaWtmd3lscXJTaktjelVOUGRrTlVjQzFjbjRWRHZUaGllQ1EyUVhTX2ZNTExReHU4VkRQclZXYWVueWdMRTBUZUdqb0VLcnRITjdubXlOQjh3bXFCaVMyb1ZqVmMxQVRFNVFJQmowano5dzBmRUh5M0V5MWg4SG1EUzZfdWIzUXd4RVlMMlpVZTM1SEFCMFZIWkIwUFNkeGk2VlNPOTV0bkVVNEs0RVRoTmJhM1QxVjNxTThwSkdmdlBWSjJac3J3S1NkdWJEbzdqaDR3V2FibkFsMjg2TEwzVm9Vc0FRN0VZSWFobGdva09fYmJncEl0VGhfaW16NlMzaGZKOVg0RTlGSGFyNDBRbjRKQXFxUlIzcWo4eFRnRXZCWkxQZkhrRDBxempKV0VHSXdSRnhSWlk?oc=5",
     "date": "24 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Taux immobilier Île-de-France : 3,95 % sur 20 ans en novembre",
-    "resume": "En Île-de-France, le taux immobilier moyen s'établit à 3,95 % sur 20 ans pour le mois de novembre.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLS1FSWlYQXJxM0dESGZyQ2FfVGhEd1FOc083UkRMSk9xeG1hNHFHaERVRmlBbGVOQjZWdDVXQm5ULVdLU0lBc2pMMFlDMjNDTWJldk5MZnJiRzhDd0tzcFA2Rk5NbkZXQ0RwNklVVnljb0ZjVUhLY21pY0djc3lmRHVjLW9melNyV1RETmIyTl9UbTNicEpsQXc2TUJzVEtmbDBkWGpSZFN6UFJaLUlyZnkzLXFtOFI4WWZJUFc1TjB2NXIzTVRTQQ?oc=5",
-    "date": "24 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Réseau immobilier : Keller Williams France placé en redressement judiciaire",
-    "resume": "Le réseau immobilier Keller Williams France a été placé en redressement judiciaire, illustrant les difficultés des acteurs du secteur.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjFEY284Wm5WZ3d4ZDlPOHZWQ05MTElPRlJTTTcxSDZCYndIb0JyWnFxaU00eVVXM1ZXeFVlUFN5VkcxMmJ6Y1A5WEludk9BMU9QcUZnVVFodE1TSjBEVWE5amtUUF9sa1ZKeUVRT1dQQ2FTcFo4Y1lwcnJaS0tOOVNtbW5OVzJJZnpxcHpIUQ?oc=5",
-    "date": "24 nov.",
     "impact": "baisse"
    },
-   {
-    "titre": "Dispositif Jeanbrun : les députés suppriment le seuil de travaux et ouvrent la location à un proche",
-    "resume": "Les députés ont modifié le dispositif Jeanbrun, supprimant le seuil de travaux et autorisant la location à un proche.",
-    "source": "Tout Sur Mes Finances",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSmdYSS1sbm1wZlJDbUpYY0w1cEVPRGNYRzNvOERzLXllVGpjVGwtYVZYaEUyc0F6R2h1NVB1T1BkWW1pSExwYWNSaXF6U3IwRjJ0NHV2TEVkMDByUktEalhpVE1HbzRyV3d5ZHZRUzZ6WkNMQW5xbGRDeWxQampVUGVrT1lUWkFNaUNSN0ZJNDVkV2lxX3NROHBzYkNZS1NtSXhRZWlsRVNxbFlzcHVOTThONmg1a2FwSV9Tc0MxM2pYMlJMUVMxMDB3N3NLdnpvNVRJek44cWJqME9Kd1E?oc=5",
-    "date": "24 nov.",
-    "impact": "hausse"
-   }
-  ],
-  "par": "ia",
-  "modele": "gemini-3.1-flash-live-preview",
-  "niche": [
    {
     "titre": "L’envolée des loyers maintient à 3% les rendements de l’immobilier",
     "resume": "La hausse continue des loyers permet de maintenir les rendements immobiliers autour de 3 %.",
     "source": "L'Echo",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdG9JNVdVR1VDaFVJVnliSUJ5NzctX0lvWllMUUpRTEFHR3J1YnRJbC02TG94Y1BFT25uWWR5X2g4X0VWVWtBUy13dFNDaHJGNWw1NHphZGJnRzNDM2cxMU1PSTc3YVZGdWo0S0JpY25VdEFLSWlaX1RzNkVkcXB0MEtNTW1hTTVhdW1hX3VYQlFfbEVPSVdzQl9HUzdmcVdGUDRLdGxtTnNjeUxYNG1RVTNQeVFQeGxrZ3NxSjhn?oc=5",
     "date": "24 nov.",
-    "pourquoi": "Utile pour les investisseurs locatifs ; surveiller si l'encadrement des loyers ou la baisse des prix impacte ce rendement.",
-    "impact": "flat"
+    "impact": "hausse"
+   },
+   {
+    "titre": "Réseau immobilier : Keller Williams France placé en redressement judiciaire",
+    "resume": "Le réseau immobilier Keller Williams France a été placé en redressement judiciaire.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjFEY284Wm5WZ3d4ZDlPOHZWQ05MTElPRlJTTTcxSDZCYndIb0JyWnFxaU00eVVXM1ZXeFVlUFN5VkcxMmJ6Y1A5WEludk9BMU9QcUZnVVFodE1TSjBEVWE5amtUUF9sa1ZKeUVRT1dQQ2FTcFo4Y1lwcnJaS0tOOVNtbW5OVzJJZnpxcHpIUQ?oc=5",
+    "date": "24 nov.",
+    "impact": "baisse"
+   }
+  ],
+  "par": "ia",
+  "modele": "gemini-3.1-flash-live-preview",
+  "niche": [
+   {
+    "titre": "Dispositif Jeanbrun : les députés suppriment le seuil de travaux et ouvrent la location à un proche",
+    "resume": "Les députés ont supprimé le seuil de travaux pour le dispositif Jeanbrun et autorisé la location à un proche.",
+    "source": "Tout Sur Mes Finances",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSmdYSS1sbm1wZlJDbUpYY0w1cEVPRGNYRzNvOERzLXllVGpjVGwtYVZYaEUyc0F6R2h1NVB1T1BkWW1pSExwYWNSaXF6U3IwRjJ0NHV2TEVkMDByUktEalhpVE1HbzRyV3d5ZHZRUzZ6WkNMQW5xbGRDeWxQampVUGVrT1lUWkFNaUNSN0ZJNDVkV2lxX3NROHBzYkNZS1NtSXhRZWlsRVNxbFlzcHVOTThONmg1a2FwSV9Tc0MxM2pYMlJMUVMxMDB3N3NLdnpvNVRJek44cWJqME9Kd1E?oc=5",
+    "date": "24 nov.",
+    "pourquoi": "Cela pourrait assouplir les conditions d'investissement locatif éligibles à cet avantage fiscal. Il faut surveiller les décrets d'application.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Rennes Bretagne, lanterne rouge de l’immobilier neuf en France : à qui la faute ?",
+    "resume": "Rennes Bretagne est signalée comme la lanterne rouge de l'immobilier neuf en France.",
+    "source": "Unidivers",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PaUhaNHpUOE9CajlIYk1BV1ROR1dReWhWbnVrMDdGMUFIeHFNeG9wc1AxMjk0UzFRblY2QWxhWXFQMnNqc0UxTXdhRFE3YTBTMXNMUTlpaklVWlJuaVFJ?oc=5",
+    "date": "24 nov.",
+    "pourquoi": "Ce marché local spécifique semble particulièrement en difficulté, indiquant un risque accru pour les investisseurs dans le neuf sur ce secteur.",
+    "impact": "baisse"
    },
    {
     "titre": "France : 3,1 millions de logements vacants face à la crise",
-    "resume": "La France compte 3,1 millions de logements vacants alors que la crise du logement persiste.",
+    "resume": "La France compte 3,1 millions de logements vacants.",
     "source": "Dosya Haber",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcU9WUUFhdVlaS0NHV2g0TGRMUUhKWV9DX0g1NjVTcVhDZ0tLdnBCaTdDOHZNQ1NMTnNmSmozZlFVQ1pRZzVkRDM1ZW9RaXJ6bDAzOGpEdGN5dnNuSm82VGJKQkdaaXNxM2JIa2VjbWVPSm5nUHZZN19Sa2dYNnhkRzdPQTVLUVpSUFpqVFpRdVJHaHpCazlFZk9lRW1MNHg3?oc=5",
     "date": "24 nov.",
-    "pourquoi": "Indique un potentiel de marché inexploité ou des zones de déséquilibre ; à surveiller pour d'éventuelles politiques publiques de réhabilitation.",
+    "pourquoi": "Ce chiffre important souligne un déséquilibre persistant entre l'offre et la demande, pouvant influencer les futures politiques publiques du logement.",
     "impact": "flat"
-   },
-   {
-    "titre": "Prêt sur 27 ans : 10 % de travaux suffisent, mais le différé de 2 ans coûte 16 550 € de plus",
-    "resume": "Un prêt sur 27 ans est possible avec 10 % de travaux, mais le différé de 2 ans augmente le coût total de 16 550 €.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50OFBOTGpubHl4QUY0TlNlR096Q21KSmFvdWRuVGhEMW0wV2YtMnUtUGs4emxzVi1jMFdSZXZfRU5taTJ5ZVJUS19ZUV8taGFqdlI2bnFnWVZiLVpmRFB4S0tfbw?oc=5",
-    "date": "24 nov.",
-    "pourquoi": "Concerne les stratégies de financement à long terme ; utile pour évaluer le coût réel d'un levier maximal.",
-    "impact": "baisse"
    }
   ]
  }
