@@ -1,60 +1,60 @@
 {
  "general": {
-  "updatedAt": "2026-11-23T20:25:52+00:00",
-  "resume": "L'actualité est marquée par le retour surprise de Jensen Huang à la tête de Nvidia et par des avancées dans l'intelligence artificielle avec de nouveaux outils de codage et de résolution mathématique. En France, la politique s'anime avec l'entrée de Dominique de Villepin dans la course présidentielle de 2027 et les débats autour d'une possible « règle d'or » budgétaire. À l'international, la guerre en Ukraine persiste tandis que la Cour des comptes alerte sur la soutenabilité financière du système de retraite français.",
+  "updatedAt": "2026-11-24T07:23:41+00:00",
+  "resume": "L'actualité est marquée par le retour surprise de Jensen Huang à la tête de Nvidia, ce qui a fortement stimulé Wall Street. En Europe, les ventes de voitures électriques progressent nettement, contrastant avec les difficultés persistantes de constructeurs historiques comme Volkswagen. En France, le Livret A connaît une décollecte record, tandis que le gouvernement cherche des compromis sur le budget et annonce la création de stocks stratégiques de métaux rares.",
   "chiffres": [],
   "items": [
    {
-    "titre": "EN DIRECT, Jensen Huang réintégré chez Nvidia à la surprise générale : le dirigeant accueilli sous les applaudissements de centaines de salariés",
-    "resume": "Dix jours après sa démission, Jensen Huang est réintégré comme directeur général et président de Nvidia par le conseil d'administration.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-jensen-huang-reintegre-chez-nvidia-a-la-surprise-generale-le-dirigeant-accueilli-sous-les-applaudissements-de-centaines-de-salaries_6814407_3210.html",
-    "date": "23 nov.",
+    "titre": "Nvidia : le come-back de Jensen Huang euphorise Wall Street",
+    "resume": "Dix jours après sa démission, Jensen Huang a été réintégré comme dirigeant de Nvidia, provoquant une hausse historique de la capitalisation boursière à Wall Street.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-nvidia-le-come-back-de-jensen-huang-euphorise-wall-street_VN-202611240210.html",
+    "date": "24 nov.",
     "impact": "flat",
     "categorie": "Tech"
    },
    {
-    "titre": "Présidentielle 2027 : \"Je suis au service de l'intérêt général, je ne veux pas rentrer dans une case\", affirme Dominique de Villepin, invité de franceinfo et France 2",
-    "resume": "Dominique de Villepin, ancien Premier ministre, a annoncé sa candidature pour l'élection présidentielle de 2027.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/elections/direct-presidentielle-2027-son-combat-est-le-mien-assure-raphael-glucksmann-sur-francois-ruffin-qui-s-est-retire-de-la-course-a-l-elysee_8295479.html#xtor=RSS-3-[lestitres]",
-    "date": "23 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "France: l’Élysée remet dans le débat public l’idée d’une «règle d’or budgétaire»",
-    "resume": "Emmanuel Macron envisage d'inscrire une « règle d'or » dans la Constitution pour contraindre au retour à l'équilibre des finances publiques.",
-    "source": "RFI",
-    "url": "https://www.rfi.fr/fr/%C3%A9conomie/20261123-france-l-%C3%A9lys%C3%A9e-remet-dans-le-d%C3%A9bat-public-l-id%C3%A9e-d-une-r%C3%A8gle-d-or-budg%C3%A9taire",
-    "date": "23 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Anthropic lance Claude Ship, un outil qui veut valider votre code à la place de vos collègues",
-    "resume": "Anthropic a dévoilé Claude Ship, un outil capable de relire, corriger et valider automatiquement du code informatique.",
-    "source": "Numerama",
-    "url": "https://www.numerama.com/tech/2382945-anthropic-lance-claude-ship-un-outil-qui-veut-valider-votre-code-a-la-place-de-vos-collegues.html",
-    "date": "23 nov.",
-    "impact": "flat",
-    "categorie": "Tech"
-   },
-   {
-    "titre": "Retraites : la Cour des comptes plaide pour une limitation des possibilités de départs anticipés",
-    "resume": "La Cour des comptes suggère de limiter les départs anticipés à la retraite pour assurer la pérennité financière du système.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/11/23/retraites-la-cour-des-comptes-plaide-pour-une-limitation-des-possibilites-de-departs-anticipes_6814442_823448.html",
-    "date": "23 nov.",
+    "titre": "Automobile : les ventes de voitures neuves dans l’UE augmentent, tirées par les véhicules électriques",
+    "resume": "Les immatriculations de voitures neuves dans l'Union européenne ont augmenté de 5,4 % sur dix mois, portées par les véhicules électriques qui représentent près d'un quart des ventes.",
+    "source": "Le Monde International",
+    "url": "https://www.lemonde.fr/economie/article/2026/11/24/automobile-les-ventes-de-voitures-neuves-dans-l-ue-augmentent-tirees-par-les-vehicules-electriques_6814715_3234.html",
+    "date": "24 nov.",
     "impact": "flat",
     "categorie": "Économie"
    },
    {
-    "titre": "EN DIRECT, guerre en Ukraine : après les attaques de Kiev sur deux navires russes en Libye, le gouvernement de Benghazi demande à l’ONU d’enquêter sur la présence présumée de forces ukrainiennes",
-    "resume": "Les tensions persistent en Ukraine, Kiev ayant récemment revendiqué la destruction de deux navires russes au large de la Libye.",
-    "source": "Le Monde.fr",
-    "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNZ1cwVzdJaUtFTW9hX1NLZVdMMG52bU5DeDI4Q29ac3JHTll1UFJoODRscnNxdEpEM3Q1cVlYSko3ZG92WW40NmJ4UHNBdXpuaUZuZTdqYkIyazNrWDBjNmlNVTJtU25qOUszaHB4ZDNYNGV1dFZZV3lpVGVnY1ZqUVVkTVlLbEt5MVpZRmNsaFI3QjJORFg1MWNIMEdObVUtT284WFVPZURwcmMtZnktbFJkLTBJS3VuaWFQMC03NjYyNnpUdGhCNmtwYzZweTl6QlpNR0dJUUxsdmhyY1JRUVVKMWExUjl4MG56UEFkZUNOM0pqaGcxSHlZel9FVGFydTBiMDg0Y28zQ3lLMGNDZHYtN3hiTGJTRGNpRGJSdld3Q1pXS2R0S0JjOWlicWdMbldIQ01rQTFWY1ZWM3h6eE5xdThBU21JdUhVOXhJanJ5XzljbjZzR0U5NHpUNTdqUVozbHVrWnNwQ3ZraHo0SE9QbjNTdDE4Vnc?oc=5",
-    "date": "23 nov.",
+    "titre": "Le Livret A signe pour l'instant sa pire année depuis 2008 avec une décollecte nette de plus de 9,5 milliards d'euros",
+    "resume": "Le Livret A enregistre sa pire performance depuis 2008, avec une décollecte nette de plus de 9,5 milliards d'euros depuis le début de l'année.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/patrimoine/placements-epargne/video-le-livret-a-signe-pour-l-instant-sa-pire-annee-depuis-2008-avec-une-decollecte-nette-de-plus-de-9-5-milliards-d-euros_VN-202611240232.html",
+    "date": "24 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "La France va se doter de \"stocks stratégiques\" de terres rares et \"métaux prioritaires\", annonce l'Elysée",
+    "resume": "Le gouvernement français a annoncé la création de stocks stratégiques de terres rares et de métaux prioritaires pour sécuriser l'approvisionnement des industries clés.",
+    "source": "franceinfo",
+    "url": "https://www.franceinfo.fr/economie/industrie/la-france-va-se-doter-de-stocks-strategiques-de-terres-rares-et-metaux-prioritaires-annonce-l-elysee_8296749.html#xtor=RSS-3-[lestitres]",
+    "date": "24 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "GTA 6 a réalisé le plus grand lancement de l’histoire de PlayStation",
+    "resume": "Sony a annoncé que GTA 6 a réalisé le plus grand lancement de l'histoire de la PlayStation, dépassant les performances des titres sur cinq générations de consoles.",
+    "source": "Numerama",
+    "url": "https://www.numerama.com/pop-culture/2383253-gta-6-a-realise-le-plus-grand-lancement-de-lhistoire-de-playstation.html",
+    "date": "24 nov.",
+    "impact": "flat",
+    "categorie": "Culture"
+   },
+   {
+    "titre": "Volkswagen : les syndicats face à la cure d’austérité",
+    "resume": "Volkswagen envisage des suppressions d'emplois et un gel des salaires face à la crise du secteur automobile allemand, provoquant la colère des syndicats.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/replay-emissions/good-morning-business/video-volkswagen-les-syndicats-face-a-la-cure-d-austerite_VN-202611240231.html",
+    "date": "24 nov.",
     "impact": "flat",
     "categorie": "Monde"
    }
@@ -63,192 +63,201 @@
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-23T20:25:52+00:00",
-  "resume": "Le marché des cryptomonnaies a connu un fort rebond, le Bitcoin repassant au-dessus des 64 000 dollars, stimulé par la réintégration de Jensen Huang à la tête de Nvidia. Ce mouvement haussier fait suite à une période de baisse marquée par d'importantes sorties de capitaux des ETF Bitcoin et une chute des cours. En parallèle, des acteurs majeurs comme MicroStrategy continuent d'accumuler du Bitcoin malgré la volatilité.",
+  "updatedAt": "2026-11-24T07:23:41+00:00",
+  "resume": "Le retour de Jensen Huang à la tête de Nvidia a stimulé les marchés financiers, bien que le Bitcoin peine à se maintenir au-dessus des 60 000 dollars. Les ETF Bitcoin enregistrent des sorties massives, tandis que la pression réglementaire et les craintes sur les taux persistent. Parallèlement, BitMine accumule une part significative de l'offre d'Ethereum pour le staking.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
-    "valeur": "≈ 61 478 $",
-    "variation": "+0,34 % (24 h)",
-    "sens": "hausse"
+    "valeur": "≈ 60 490 $",
+    "variation": "−1,27 % (24 h)",
+    "sens": "baisse"
    },
    {
     "label": "Ethereum (ETH)",
-    "valeur": "≈ 1 724 $",
-    "variation": "−0,03 % (24 h)",
-    "sens": "flat"
+    "valeur": "≈ 1 702 $",
+    "variation": "−0,51 % (24 h)",
+    "sens": "baisse"
    },
    {
     "label": "Solana (SOL)",
-    "valeur": "≈ 71,96 $",
-    "variation": "+1,74 % (24 h)",
-    "sens": "hausse"
+    "valeur": "≈ 71,79 $",
+    "variation": "−0,33 % (24 h)",
+    "sens": "baisse"
    },
    {
     "label": "XRP (XRP)",
-    "valeur": "≈ 0,94 $",
-    "variation": "+1,32 % (24 h)",
+    "valeur": "≈ 0,95 $",
+    "variation": "+0,88 % (24 h)",
     "sens": "hausse"
    }
   ],
   "items": [
    {
-    "titre": "Jensen Huang redevient PDG de Nvidia",
-    "resume": "Le retour de Jensen Huang comme PDG de Nvidia a provoqué une hausse de l'action et entraîné le Bitcoin au-delà des 64 000 dollars.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/nvidia-reintegre-jensen-huang-ceo/",
-    "date": "23 nov.",
-    "impact": "hausse"
+    "titre": "Le retour de Jensen Huang chez Nvidia (NVDA) propulse les marchés financiers, mais le cours Bitcoin (BTC) rechute sous les 60 000 dollars",
+    "resume": "Malgré l'impulsion positive donnée aux marchés financiers par le retour du PDG de Nvidia, le cours du Bitcoin a rechuté sous le seuil des 60 000 dollars.",
+    "source": "ConseilsCrypto.com",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOEJpeXhWOVFYalFaVW1OVkdxUlRxVVZQQmkxR3lySUFZVWlvaElkVmVyVzJvV0JrSFQ2dXlPRmR2cTlFWDA3NXhtQkFSMVhFZW1VQmxrMHhBVEw1TXFUcGIyTmxoOUlCbnFNT0UtZDFvdEF2Z1ZyajdMNWhHdms5djVsZllfTEVGOFY1WUNxeVgxWHNzYXM3cTlTdENGRmNRd3JkS2NTVdIBrAFBVV95cUxNREwtTjhwVXpDNlVqb3J4cGkzT3g4ZjZXT280Z0ZPcl9Bck01WXhDcmdjREVsZm1SSWVMaS1WNXFabWg3OVlSRG91YnlsTnFobElpRTFYNC1LbEpYUjJ2Um9wVEF0N0syUlNhRjY1SDk3SXlDRlFZdGphX3hPdFRJRlA0NHBVNmZ0ekxEdF80aUpNM3YtbHA1SlY4NFJ5ZEFHNUtmaVJoTm8tWEpa?oc=5",
+    "date": "24 nov.",
+    "impact": "baisse"
    },
    {
     "titre": "Les ETF Bitcoin perdent 1,79 Md$ en 3e plus forte sortie hebdomadaire",
-    "resume": "Les ETF Bitcoin ont enregistré leur troisième plus forte sortie hebdomadaire historique, perdant 1,79 milliard de dollars.",
+    "resume": "Les ETF Bitcoin ont connu leur troisième plus forte sortie hebdomadaire, avec un retrait total de 1,79 milliard de dollars.",
     "source": "Bitcoin News",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT19Db3dSZzd2eFJ2NU1XbHVwamlvTDlPYWo3R05BMDNaMGtmR0xCV0hWcm5wMmMxS3A3LUkyVlBOQ0pzSnFxMkJ5V1NlZjlfZW5UM0ltalV0NllKbG1IOUtRdmNlR0FqQlRHR21TWmMzZWxXUElUTnNxUlBSUm9OTE5XQzMyTm5kY1dpZUpXZDNyWGNoTEpkaEJwMHpRRzRFazczR0E3c01zYTE5U0E?oc=5",
     "date": "23 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Binance : l’ultimatum se resserre pour les clients français",
-    "resume": "Binance impose un ultimatum à ses clients français : des frais seront prélevés sur les fonds restants dès le 29 novembre avant la fermeture définitive des comptes.",
+    "titre": "Ethereum : BitMine vraiment tout proche des 5 % de l’offre d’ETH",
+    "resume": "BitMine est sur le point de détenir 5 % de l'offre totale d'Ethereum, générant des revenus substantiels grâce au staking.",
     "source": "Journal du Coin",
-    "url": "https://journalducoin.com/exchanges/binance-ultimatum-francais/",
-    "date": "23 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Strategy achète 457 bitcoins alors que les dépenses chutent de 64 % malgré des prix plus bas",
-    "resume": "MicroStrategy a profité de la baisse des prix pour acquérir 457 bitcoins supplémentaires.",
-    "source": "Yahoo Finance France",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORzlTNlhBLWI5bzNVc0h2TXNlY1Z1U05aUFkyRS1mSHk2WGo2WHJpaElsclZ4MmZQbTFLUFk0V1FmWXVwSTJRMmFidTMwZkNSVi0wUS1ER3BFZF9HOFNjSmV4YnhxZnNvNWxNUzNvOW9LRVdBUTU1cXFFNWNXMXJ4N2tubDlEYm43S1AwYmJzVERwZEJnemhGdW1n?oc=5",
-    "date": "23 nov.",
+    "url": "https://journalducoin.com/actualites/ethereum-bitmine-offre-eth/",
+    "date": "24 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Le prix de XRP remonte brièvement à 1 dollar : ce retournement va-t-il durer ?",
-    "resume": "Le cours du XRP a brièvement franchi la barre de 1 dollar avant de rapidement reperdre ce niveau.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/xrp-prix-reprend-un-dollar-retournement-perspective/",
+    "titre": "La loi GENIUS interdit le paiement d'intérêts par les émetteurs de stablecoins à partir du 18 janvier 2027",
+    "resume": "La loi GENIUS interdira aux émetteurs de stablecoins de verser des intérêts à partir de janvier 2027.",
+    "source": "WEEX",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVmNnOUI1UjF4M2ZmN2VnMjEtdEpOS2w0b0VDNnRjdXBIU08xNWU5MFZwb0R3UXl6MGtCbGd3Ukx3M29xZWFZR1pDenBaM2IzTzk1TWlTWk04VmV1NC1hWjhiUmNUVDNBbHFTMXduY0NUbWU2NHJSZ2dKc0I4SlZkcHNBOGFBaURGd190ZDFJcFFIZXhQRHZneXJGSGFoQmdfMmJwYXJKWWxlNU1hTVQtSndRNXNFa1RjNi1yQlUxeHJCWVpscUw5b1A4eUxMeTlVNVdDaGppdjlraXo0WlRHYg?oc=5",
+    "date": "24 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Le DOJ veut confisquer plus de 1,1 milliard $ d'USDC volés à Binance",
+    "resume": "Le Département de la Justice américain cherche à confisquer plus de 1,1 milliard de dollars en USDC volés lors du piratage de Binance.",
+    "source": "investx.fr",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GUXN1NmZmMkp4aDJQVkFIejhsYXpQTm1EUnhwYzFBeHJCZXJKaDZVcTN6SjkyNDU5MEVWbzI2REtBc3dya29ZR0w3VG5DbkI1T0pZTlhrbUcyVENXd2lxeHBwTXJGLTgxTUNwOTBnSUgxUkU?oc=5",
     "date": "23 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Ethereum et Stellar désormais reliés par le fonds tokenisé USDY de 2,3 milliards de $ d’Ondo",
-    "resume": "Ondo Finance a connecté son fonds tokenisé de bons du Trésor américain entre les réseaux Ethereum et Stellar.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/ondo-usdy-stellar-ethereum-layerzero-oft-bons-tresor-us/",
+    "titre": "Le prix de XRP remonte brièvement à 1 dollar : ce retournement va-t-il durer ?",
+    "resume": "Le prix du XRP a brièvement dépassé 1 dollar avant de rapidement reperdre ce niveau, soulevant des doutes sur la pérennité de sa hausse.",
+    "source": "BeInCrypto FR",
+    "url": "https://fr.beincrypto.com/xrp-prix-reprend-un-dollar-retournement-perspective/",
     "date": "23 nov.",
-    "impact": "flat"
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Un utilisateur crypto perd 600 000 dollars depuis son wallet Trezor sur iPhone 17",
-    "resume": "Un utilisateur a perdu 600 000 dollars en crypto via un faux portefeuille Trezor sur iPhone.",
-    "source": "BeInCrypto",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xbHJ4bFdIVnY1aGNBV282ZHdra2JvU0I2U0FLbDRvZnk5SmtFY1I0aVVNMWdCVllBb1V3N05jVlBLRGFPZ1NCd29GMzlqRmh5WGM2LVptUE5BY0F0TEFZMlhNQWV2MS1LWVJiSXBQRjQ5aVBONllPRURZRQ?oc=5",
-    "date": "23 nov.",
-    "pourquoi": "Souligne les risques de sécurité persistants sur mobile et l'importance de vérifier l'authenticité des applications.",
+    "titre": "Bitcoin : un mineur solo empoche 191 000 dollars avec une chance sur 1 650",
+    "resume": "Un mineur solo a résolu un bloc Bitcoin, empochant environ 191 000 dollars avec une puissance de hachage très faible.",
+    "source": "Journal du Coin",
+    "url": "https://journalducoin.com/bitcoin/mineur-solo-bitcoin-empoche-191-000-dollars/",
+    "date": "24 nov.",
+    "pourquoi": "Cela montre que le minage solo reste possible malgré une concurrence féroce, bien que relevant de la chance statistique. Utile pour évaluer l'activité du réseau.",
     "impact": "flat"
    },
    {
-    "titre": "Bitmine achète 7 819 Ethereum alors que BMNR bondit de 17 % : que se passe-t-il ?",
-    "resume": "Bitmine a acheté 7 819 Ethereum, faisant grimper son action BMNR de 17 %.",
-    "source": "Yahoo Finance France",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOUJ1ck5MbXQ5bDdZdGEzNFE3TUliOFFRMy1kSGFwYk5jV21mSkdjNzMyZVBjMHVWaHd6MzltUnJuZFZVazZyUG5XREctakRRWmw0a01pZTRzaFlNWlNjVVUwZUdQM2FmaUVxMnJTcDVsSnh0N1AwME5pS2VIaXpVbTFmVHhiem1qeUJJWEtMWWM3ZXM?oc=5",
-    "date": "23 nov.",
-    "pourquoi": "Indique un intérêt institutionnel spécifique pour l'Ethereum, à surveiller pour le secteur du minage et le cours de l'ETH.",
+    "titre": "InterCellar - le site de vins et spiritueux axé sur le Web3 met fin à son développement",
+    "resume": "Le projet Web3 français InterCellar arrête le développement de sa plateforme et de son token CELLAR.",
+    "source": "Cryptoast",
+    "url": "https://cryptoast.fr/intercellar-site-vins-spiritueux-axe-web3-met-fin-developpement/",
+    "date": "24 nov.",
+    "pourquoi": "Signale l'échec d'un projet de tokenisation d'actifs réels (RWA) dans le secteur du vin. À surveiller pour le sentiment sur les altcoins de niche.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le personnel de la CFTC estime que les plateformes d’échange peuvent compter le Bitcoin dans leurs réserves opérationnelles",
+    "resume": "Le personnel de la CFTC estime que les plateformes d'échange peuvent inclure le Bitcoin dans leurs réserves opérationnelles.",
+    "source": "TradingView",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81YTViME1XWU1BcXlId1FhSkdCU2MwUnBZV1hoYnZVVHoxeVRaYWVLQWRNc3hBcWpfeG9kSjFYQWNhWnNSUnQtRjZFeGxYMmZjS3N4UHN2dEVBVW9qQUE5TjlzZU92OFFiU1RPOHR6WQ?oc=5",
+    "date": "24 nov.",
+    "pourquoi": "Cette clarification réglementaire pourrait encourager l'adoption institutionnelle et la gestion de trésorerie en crypto par les acteurs régulés.",
     "impact": "hausse"
    },
    {
-    "titre": "3 déblocages de tokens à surveiller lors de la dernière semaine de novembre 2026",
-    "resume": "Trois déblocages de tokens sont prévus pour la dernière semaine de novembre.",
-    "source": "BeInCrypto",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdG5BbVNSWlNjOGVOR2lhZmdHWG52RHA0ZHNxdFkyY2RvbXN4RzhRdmd3VXgycDI0UGZNTEY2LVB3VlVVNW0zaHR6YS1oWjh0dDFyNWVUaXNMRkszSEkyeFpjc1VTSk5qWlR0aG1yYmhOZE9jYkFYRkxJZnRubjdibw?oc=5",
+    "titre": "Un utilisateur de crypto perd 613 000 $ depuis son wallet Trezor sur iPhone 17",
+    "resume": "Un utilisateur a perdu 613 000 dollars en cryptomonnaies via son portefeuille Trezor sur un iPhone 17.",
+    "source": "KuCoin",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT0JJOTdkZHZVSWxXOFR3WmdIUE9KSDdzUG8xcldmdUZPanhKVVp3Ym16SENRZjdyc1dabS1MRGYxcEVxUk1yMElUd2xHWmFhSEVTRUE5Q1NyZDVYZlJwU2hBejIxd1lNMDlyVk9hdDFwcUJQZlRkbGxSd2JXSlR0U0pVa1VXODlNRG9IZDczV3daaXAydnpBNEtR?oc=5",
     "date": "23 nov.",
-    "pourquoi": "Cet événement peut augmenter l'offre en circulation et potentiellement impacter à la baisse le prix des actifs concernés.",
-    "impact": "baisse"
+    "pourquoi": "Rappelle les risques de sécurité persistants, même avec des portefeuilles matériels, potentiellement liés à des applications malveillantes sur mobile.",
+    "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-23T20:25:52+00:00",
-  "resume": "Les marchés boursiers ont connu un fort rebond, porté par le secteur technologique suite au retour surprise de Jensen Huang à la direction de Nvidia. Le CAC 40 a repassé la barre des 8 000 points tandis que Wall Street a vu le Nasdaq s'envoler. En parallèle, le Bitcoin a fluctué, tombant brièvement à 55 000 dollars avant de remonter au-dessus de 62 000 dollars.",
+  "updatedAt": "2026-11-24T07:23:41+00:00",
+  "resume": "L'enthousiasme pour l'intelligence artificielle continue de soutenir les actions technologiques, notamment Nvidia, et de doper le dollar. Plusieurs analystes ont relevé leurs recommandations sur des valeurs de croissance comme CrowdStrike et JetBlue. En revanche, Zscaler et Partners Group subissent des abaissements de note.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
-    "valeur": "≈ 126 $",
-    "variation": "−14,01 % (séance)",
-    "sens": "baisse"
+    "valeur": "≈ 165 $",
+    "variation": "+31,48 % (séance)",
+    "sens": "hausse"
    },
    {
     "label": "Apple (AAPL)",
-    "valeur": "≈ 343 $",
-    "variation": "−1,90 % (séance)",
-    "sens": "baisse"
+    "valeur": "≈ 349 $",
+    "variation": "+1,90 % (séance)",
+    "sens": "hausse"
    },
    {
     "label": "Microsoft (MSFT)",
-    "valeur": "≈ 485 $",
-    "variation": "−2,77 % (séance)",
-    "sens": "baisse"
+    "valeur": "≈ 492 $",
+    "variation": "+1,65 % (séance)",
+    "sens": "hausse"
    },
    {
     "label": "Tesla (TSLA)",
-    "valeur": "≈ 346 $",
-    "variation": "−7,64 % (séance)",
-    "sens": "baisse"
+    "valeur": "≈ 385 $",
+    "variation": "+11,46 % (séance)",
+    "sens": "hausse"
    }
   ],
   "items": [
    {
-    "titre": "Wall Street rebondit en force alors que Nvidia réintègre Jensen Huang au poste de directeur général",
-    "resume": "Jensen Huang réintègre son poste de directeur général chez Nvidia, provoquant un rebond massif de Wall Street.",
-    "source": "Boursorama",
-    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOQWlxN1ljQzBLYVFZQzZGSzR6bTFzek40cmhINmJkbG1tdUs2OEUxdVk5aXY3UzhRdS1YUVhLamVmYm8tQVc2QzB2U3VZUXhXcGgtOFdsRWJkT3lNY0U4dnRZcFdpcVlMbFM0WnJSZE93UUNscWFTUlMzb1JwblJUZ29RTWRNalBSbnpTQUtudndRc1pET2kyTXl1cWd3NkluZWlkeV9pRTlWNWdUamFsczYyZm9tM3lfNlBaY1Q0SXZjWHBzTkVab1I1eDBadlJ0V2Q4ekdFMFExQVk0clhSUUptWGFlN0ZVVElMY3pzRXYtYm90WWgxVldjR1NhSHlvSmJpZFd2VmlaX0pfNnfSAY4CQVVfeXFMTkFpcTdZY0MwS2FRWUM2Rks0em0xc3pONHJoSDZiZGxtbXVLNjhFMXVZOWl2N1M4UXUtWFFYS2plZmJvLUFXNkMwdlN1WVF4V3BoLThXbEViZE95TWNFOHZ0WXBXaXFZTGxTNFpyUmRPd1FDbHFhU1JTM29ScG5SVGdvUU1kTWpQUm56U0FLbnZ3UXNaRE9pMk15dXFndzZJbmVpZHlfaUU5VjVnVGphbHM2MmZvbTN5XzZQWmNUNEl2Y1hwc05FWm9SNXgwWnZSdFdkOHpHRTBRMUFZNHJYUlFKbVhhZTdGVVRJTGN6c0V2LWJvdFloMVZXY0dTYUh5b0piaWRXdlZpWl9KXzZ3?oc=5",
-    "date": "23 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "CAC40 : Paris rebondit de 1,48 %, les valeurs tech s'envolent",
-    "resume": "Le CAC 40 a clôturé en hausse de 1,48 %, soutenu par l'envolée des valeurs technologiques dans le sillage des marchés américains.",
-    "source": "Le Revenu",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYjhVbXMydWlBUXNEcFp1LTVKTTQ1X1BfdkVkd2dTdkZmWjVfOFY3WHdwdFg4cGlvdmVFY19tT2RUVDlRY0Y2OGZpeE4wZkJiNWhZdGdKSHA0cUlEeTJuaWRTai1GeEhnLXN5cUFqQ19pR3BMRHJWeHBaMmxNRUM0LURVc2dRY1Q1UlRPMDMzUDFRb1pPUjNCanZtSnBpYnFhdHc4ZGdWYVAzTldlNWxVSg?oc=5",
-    "date": "23 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Le S&P 500 bondit aujourd’hui de 4,69 %, le Nasdaq progresse de 6,43 % et le Bitcoin dépasse 62 000 $",
-    "resume": "Les principaux indices américains ont fortement progressé, et le Bitcoin a effacé ses pertes pour dépasser les 62 000 dollars.",
+    "titre": "Les contrats à terme sur le S&P 500 montent avec le rebond de Nvidia et les actions technologiques",
+    "resume": "Les contrats à terme sur le S&P 500 progressent, portés par le rebond de Nvidia et du secteur technologique.",
     "source": "PortalCripto",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSmZLRHFhRExxRmdOVTN1WXlTd3dndDBzalJDQXJJZ3JLY25SNExDdVZqVkNCU2NmZnhtdjBVNmdTZUNyQzBWSURXWFBkNmdKU2VqMERxOGF0LTBJcm80VGlkcXJQclFhazdaVXdyY0tMRDJHRFV3WXhSUlhJVGxXV25wN0ZPTEVJelI1TnJyanVJS0xyYmZQUjIxWkliTF9fX0tidFNoVzdsWjdyV3BGU29ISERJWF94S013dW5KYXdTRzByQWc?oc=5",
-    "date": "23 nov.",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU3UwYUdTdm12YzlZOUw4VzhnbXk0Wl96aG1mMGpSaXlYdEpTNTFjSWR6YzB2RktmX2g2NklreTBhd0tSUHE0d3hmZkhickZMbUFPUVp3bHNZUTR6SG40LTBpLV9NbXUyeEU1eUlxTng1dTlmZTFtUFdVSjVYZzlfTi0zeVl0dWJ1TE5vRHBWVjlLZk1VZ0RhM0JKUVhNUW5aV2lUUEhsWjlCNVlWX2NrTFkxUTlHeW5VUmZRd2RTWU9GM3N4SVFreXZfdw?oc=5",
+    "date": "24 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Pourquoi l’action Alphabet Inc Class A s’envole-t-elle aujourd’hui ?",
-    "resume": "L'action Alphabet a enregistré une hausse significative au cours de la séance.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-alphabet-inc-class-a-senvoletelle-aujourdhui--93CH-3709669",
-    "date": "23 nov.",
+    "titre": "FOREX-Le dollar en hausse alors que le regain d'euphorie autour de l'IA alimente les anticipations de hausse d",
+    "resume": "Le dollar se renforce face aux anticipations de hausse des taux, alimentées par l'euphorie persistante autour de l'IA.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPeWlESjN0bWVva2R6ZFYwT0VfbUc1UGF5cUZ0R2tvQjdBalk3dEEyc244R2N0UjVmU2EzMjVjamlMWkQ2SFc2TEtZR2RaNkZENHRGaEtSSmh6bGNLNkZuWTlULVk5WkhvellsUFBqeDFfNXk2ajVJTjVzSzhqZHpQVjNvOHpXOTlTMzdwZEZsb3NvSFFVY2ZsWXJDZmtoUVVwNFNVVzc1QzRBekFJZjAwNXZncWdFY1dMQkwzeDYwaTBFRUUxZHNvTlJvN3FfSU5EbFdEN0dPVGxFRU52SmdXODVLc0dpVzBEZ1hKSHBUZU5kdUtaYThtZEdHNFQzRENvUWlWSU94Vm10QXBXYlJ0NTdEeE0zZVlLUW16RGE0SmNWeURVMmY1eHpkVkV1dlFlQmpJ0gGzAkFVX3lxTE95aURKM3RtZW9rZHpkVjBPRV9tRzVQYXlxRnRHa29CN0FqWTd0QTJzbjhHY3RSNWZTYTMyNWNqaUxaRDZIVzZMS1lHZFo2RkQ0dEZoS1JKaHpsY0s2Rm5ZOVQtWTlaSG96WWxQUGp4MV81eTZqNUlONXNLOGpkelBWM284elc5OVMzN3BkRmxvc29IUVVjZmxZckNma2hRVXA0U1VXNzVDNEF6QUlmMDA1dmdxZ0VjV0xCTDN4NjBpMEVFRTFkc29OUm83cV9JTkRsV0Q3R09UbEVFTnZKZ1c4NUtzR2lXMERnWEpIcFRlTmR1S1phOG1kR0c0VDNEQ29RaVZJT3hWbXRBcFdiUnQ1N0R4TTNlWUtRbXpEYTRKY1Z5RFUyZjV4emRWRXV2UWVCakk?oc=5",
+    "date": "24 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Un dirigeant de Lilly identifie l’oncologie comme le prochain moteur de croissance",
-    "resume": "Un dirigeant de Eli Lilly a annoncé que l'oncologie constituerait le prochain relais de croissance majeur pour l'entreprise.",
+    "titre": "Guggenheim relève la note de CrowdStrike grâce aux perspectives de croissance",
+    "resume": "Guggenheim a relevé sa recommandation sur CrowdStrike, citant des perspectives de croissance favorables.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/un-dirigeant-de-lilly-identifie-loncologie-comme-le-prochain-moteur-de-croissance-3709711",
-    "date": "23 nov.",
-    "impact": "flat"
+    "url": "https://fr.investing.com/news/analyst-ratings/guggenheim-releve-la-note-de-crowdstrike-grace-aux-perspectives-de-croissance-93CH-3710154",
+    "date": "24 nov.",
+    "impact": "hausse"
    },
    {
-    "titre": "Le co-PDG d’Adyen Pieter van der Does prend sa retraite fin 2026",
-    "resume": "Le co-PDG de la société de paiement Adyen, Pieter van der Does, a annoncé son départ à la retraite pour la fin de l'année 2026.",
+    "titre": "L’action JetBlue relevée par BMO grâce aux initiatives de financement et de profit",
+    "resume": "L'action JetBlue est en hausse après le relèvement de la note de BMO, suite à des initiatives de financement et de rentabilité.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/le-copdg-dadyen-pieter-van-der-does-prend-sa-retraite-fin-2026-3709702",
-    "date": "23 nov.",
+    "url": "https://fr.investing.com/news/analyst-ratings/laction-jetblue-relevee-par-bmo-grace-aux-initiatives-de-financement-et-de-profit-93CH-3710138",
+    "date": "24 nov.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Bernstein abaisse la note de Zscaler après l’accord avec CrowdStrike",
+    "resume": "Bernstein a abaissé la note de Zscaler après l'annonce d'un accord avec son concurrent CrowdStrike.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/analyst-ratings/bernstein-abaisse-la-note-de-zscaler-apres-laccord-avec-crowdstrike-93CH-3710116",
+    "date": "24 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Bitcoin oscille autour de 60 000 $ malgré les inquiétudes sur les taux et la réglementation",
+    "resume": "Le Bitcoin se maintient autour des 60 000 dollars, malgré les incertitudes réglementaires et la pression sur les taux.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/cryptocurrency-news/bitcoin-oscille-autour-de-60-000--malgre-les-inquietudes-sur-les-taux-et-la-reglementation-3710095",
+    "date": "24 nov.",
     "impact": "flat"
    }
   ],
@@ -256,117 +265,135 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Investir sur les robots chinois à la Bourse de Paris ? HSBC lance un ETF sur ce secteur en plein boom",
-    "resume": "HSBC lance un ETF à Paris permettant d'investir dans le secteur de la robotique chinoise.",
-    "source": "Capital.fr",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPR08yUmFhMjRSaHIzVFM4bzZzSFlSNG1UYWc2ZWJzZmYwSHQzTXFjeTBkSWV0RVZCeDZrWTRMUzhQSWU0N1Vjd3BYdVFQTTlXTUI2QkdjZUNSTExDMXpnWG1ybDhId3d0LW9NN1dMdTlOMU53dGllVUg4TTd0XzZWUDR5YVFIZDQ5TEFGZThNSHlCREI4cnhrTmNua3NDT1ZnRVhNUlV1N2tYcElKTVdCbHJHUDNSZlV5NkhjaUc5TWhWMkNQMXdYTUYxbEU2bm5mZzk4SDlNaGtLQlJNU0tLY1JrSVg?oc=5",
-    "date": "23 nov.",
-    "pourquoi": "Cela offre un nouvel instrument pour s'exposer à une thématique de croissance spécifique en Chine via la Bourse de Paris.",
-    "impact": "flat"
+    "titre": "Nordex reçoit une commande de 133 MW pour un parc éolien en Roumanie",
+    "resume": "Nordex a remporté un contrat pour un parc éolien de 133 MW en Roumanie.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/nordex-recoit-une-commande-de-133-mw-pour-un-parc-eolien-en-roumanie-93CH-3710107",
+    "date": "24 nov.",
+    "pourquoi": "Cela indique une dynamique commerciale positive dans le secteur des énergies renouvelables en Europe de l'Est.",
+    "impact": "hausse"
    },
    {
-    "titre": "S&P dégrade Flowers Foods à ’BB’ en raison de pressions sur les résultats",
-    "resume": "S&P a abaissé la note de Flowers Foods à 'BB' suite à des pressions sur ses résultats.",
+    "titre": "Valneva enregistre une baisse de 32% de ses ventes sur neuf mois",
+    "resume": "Valneva rapporte une chute de 32% de son chiffre d'affaires sur les neuf premiers mois de l'année.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/sp-degrade-flowers-foods-a-bb-en-raison-de-pressions-sur-les-resultats-3709705",
-    "date": "23 nov.",
-    "pourquoi": "Une dégradation de note peut augmenter le coût de la dette pour l'entreprise et signaler des difficultés opérationnelles à surveiller.",
+    "url": "https://fr.investing.com/news/stock-market-news/valneva-enregistre-une-baisse-de-32-de-ses-ventes-sur-neuf-mois-93CH-3710098",
+    "date": "24 nov.",
+    "pourquoi": "Cette baisse importante des ventes pourrait peser sur le titre de la biotech française à court terme.",
     "impact": "baisse"
    },
    {
-    "titre": "Un administrateur de Williams Companies achète pour 646.500$ d’actions",
-    "resume": "Un administrateur de Williams Companies a acheté pour 646 500 dollars d'actions de sa société.",
+    "titre": "La PDG d’Honest Company Inc vend des actions pour 525.807$",
+    "resume": "La PDG de The Honest Company Inc a vendu des actions pour un montant de 525 807 dollars.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/un-administrateur-de-williams-companies-achete-pour-646500-dactions-93CH-3709674",
-    "date": "23 nov.",
-    "pourquoi": "Les achats d'initiés de cette ampleur sont souvent perçus comme un signal de confiance dans les perspectives de l'entreprise.",
+    "url": "https://fr.investing.com/news/insider-trading-news/la-pdg-dhonest-company-inc-vend-des-actions-pour-525807-93CH-3710085",
+    "date": "24 nov.",
+    "pourquoi": "Une vente significative par un dirigeant peut parfois signaler un manque de confiance dans les perspectives à court terme de l'entreprise.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Cabka prévoit un retour aux bénéfices en 2026 avec un chiffre d’affaires supérieur à 185 millions d’euros",
+    "resume": "Cabka anticipe un retour aux bénéfices en 2026 avec un chiffre d'affaires supérieur à 185 millions d'euros.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/cabka-prevoit-un-retour-aux-benefices-en-2026-avec-un-chiffre-daffaires-superieur-a-185-millions-deuros-93CH-3710104",
+    "date": "24 nov.",
+    "pourquoi": "Ces prévisions à long terme offrent une visibilité sur le redressement potentiel de cette petite capitalisation.",
     "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-23T20:25:52+00:00",
-  "resume": "Les taux de crédit immobilier affichent une tendance incertaine, oscillant entre hausses régionales et stabilité relative autour de 3,76 % sur 20 ans. Le marché immobilier français montre des signes de ralentissement, notamment dans le Gard où les prix commencent à baisser, tandis que l'encadrement des loyers est prolongé jusqu'en 2028. Par ailleurs, une possible évolution réglementaire européenne pourrait menacer la prédominance des taux fixes en France.",
+  "updatedAt": "2026-11-24T07:23:41+00:00",
+  "resume": "Le marché immobilier français reste sous tension, avec une rentabilité locative qui s'allonge et des prix parisiens qui pourraient repartir à la hausse dans certains arrondissements d'ici 2026. L'Assemblée nationale doit se prononcer sur la loi logement, notamment concernant le calendrier des passoires thermiques, alors que l'écart de facture de chauffage selon le DPE est massif. Par ailleurs, la défiance des propriétaires envers la politique gouvernementale actuelle est quasi unanime.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Crédit immobilier : vers la fin des taux fixes ?",
-    "resume": "Les taux fixes, majoritaires en France, pourraient disparaître pour s'aligner sur des normes européennes.",
-    "source": "Le Progrès",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVUNpUmZ1ajdTWjNIOWd4Vk8xVmNPbERwVzdvUTF1SGE4VHN2elF1OWhKQmdWTVZZRHJCaFp0eEEwVzlJRkEzcVZSeTN3cjBrZXc4dUJNQUpsY0ZJUTdqRUE2bm85WGhBcTF4aXotNXphZkY2aExGMS1jQTRiU2FvRTZ4TTZMNU1GT3pia1Q1a2QtNWU4LXY4TlVRR2JqbzFhMVE?oc=5",
-    "date": "23 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Gard : le marché immobilier marque le pas en 2026, les prix commencent à baisser",
-    "resume": "Dans le Gard, le marché immobilier ralentit et les prix de vente amorcent une baisse.",
-    "source": "Le réveil de midi",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2NVZ3NjR1NEWkw5bXZnWnZTN2NFdVd5LUtRSWFDT0l3NWZHLWlnYVhXSzhpZGVRcVRpV2NmZkNTdFJIa1RiTGRyYnVBT1JFcjE5MmhZYXJhOU8tV09QTkQwZ3NRNXJjQU1YakZzbFZWcDlzekZTXy1HdmYwM3ZxeDB0cUM1MzF3aHd1Q21BMVo5YVZoNktFODVsRjdneXRUeDBycmJyOTJ2UnZsZGdvV0tKLWkwSUlsY3o2VS1NOTFxaE1PYVpwSko2UFdSZ3FPeGk0QVJJT0h0TmM?oc=5",
-    "date": "23 nov.",
+    "titre": "« La tendance est clairement à la hausse » : pourquoi il faut près de deux ans de plus pour rentabiliser l’achat de son logement",
+    "resume": "La hausse des prix allonge le délai nécessaire pour rentabiliser l'achat de sa résidence principale, nécessitant près de deux ans de plus qu'auparavant.",
+    "source": "Le Parisien",
+    "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQa3M0LVJIbXg0amVIcWVIZ0N4cXJwY3E1NXhWMzZVbzVINzhOTlpOV2M1TnhhNUVDZWZLNk4yLVlXSmprZzdXd2dSZk5hWk45SzhBeHJ1UkpRZ1dUZ3hpVWRRQXc0ZUd6NUJJTXRBSnpvbHhEQVVtRWFSaWxYWWdBSWVydXdVUndPWnU2RmhoVmg1R3hCN3NWWGlvNTIzVkxaRG9xaEIwUGhUOU9RWDdKWklDU2cyTktQd3FNbzlmeHFjQmdRWFNkZGNkRHVMd2lhdFdDOWRvOC1ZQlh1WlJnQ1hZMXltQ3gxSUhjUTFSa2xWUjAwYmx4MjFTR0VmaG81NU1WWm0ydzRYbVRJRDlTQjdzZGw5cnRrSkRHZjBqSzhMNnRQbFJB?oc=5",
+    "date": "24 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "L’encadrement des loyers prolongé jusqu’en 2028 : ce que les agences doivent retenir",
-    "resume": "Le dispositif d'encadrement des loyers est officiellement prolongé pour quatre années supplémentaires, jusqu'en 2028.",
-    "source": "Journal de l'Agence",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWJaRzBfNUNlNmhTMzYzRmJKM0lmRmRoejIyZ1ZwZEZic05GRmMtS0dTVzVEX1JVbktLNy1lQU9YTDNuY3dJTTFyZFZnNlh4YTJ4MjdRWU4tcnoxR05rTVFZdS1KOW5ObGE0bVE1MGNTMnRobG9Wa0tCd1lSSHlRQ0Mta1V2SF9mS0dJVldaZjVkLXh1NERZOEVPUGFUMVBNVFprY2otek45RkkxOEZmX0cyQkJjazN4dXdMWEpR?oc=5",
-    "date": "23 nov.",
+    "titre": "Loi logement : passoires thermiques, dispositif Jeanbrun... L'Assemblée nationale se prononce après de longs mois de débats",
+    "resume": "Les députés votent sur un projet de loi logement qui pourrait modifier le calendrier d'interdiction de location des passoires thermiques.",
+    "source": "CNews",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWUdnRXJhazlXQkdVWjB3RTNtVkVMQUoxOGJ3aXV1UUR5Q1dIbkVtQWd5QUVaMGZuNG9KcWJIR0RCa3dSRVhWUWZMY0NKblJSekY4dWxTSE5vekQyY3NIakV1clRoS01wcjhXams3SU1ybTB3ME5Cek1makVMRHo5el9fekVQa1dJQS1PWm5neGt0eVVFWkFvS0lZVWxPbUMteEVvY19KWlE1N3pVUW5xN0NYOVdtVTjSAbwBQVVfeXFMTVM2YVRUNEd5YUpNU25wRDdRVUJYSFFPOVpuYWVvWEJUTWpuNDNKZmFwR0g2a1lPTFp3cVVWRHhWZmNzNU01ODhSWWNNeVMtaTV1ZDA5Rm5yQTRHWEFkM3U4SkFWUVpqaVNMREk0MDJhNW9UMC1WNy1LYTVjOEJPdGVjTVVsSWZINFhvM1NpZW1Qck9hQUk3SnlGWWY4OXVJTUVLd2FuSTk4Z1lyTjBUZGJNNkxmNFpxbUJXdG4?oc=5",
+    "date": "24 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Taux immobilier de novembre : 3,76 % sur 20 ans, 1 187 € par mois",
-    "resume": "En novembre 2026, le taux immobilier moyen s'établit à 3,76 % pour un emprunt sur 20 ans.",
-    "source": "Stéphane Larue News",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNFlxNW9FUGtxYWRMZG1Ubjl6Y1gxRzRqaDBMc2ZNdWJWMm1EZHBGNHl0Nnp3aHdodTJBWk96eGRFWHI5cjFRbnI3bWdicFVrRXQxNVY4RmZjdGVZVUY4YzBMUGR4N2R5dEp1dmNPQ1FFM0FVazItQkowOU5FeHpHNUd5anZ4MGJSbFhxajlhdw?oc=5",
-    "date": "23 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Bonne nouvelle pour les investisseurs : de moins en moins de loyers impayés en France !",
-    "resume": "Le nombre de loyers impayés en France est en diminution, une tendance positive pour les investisseurs locatifs.",
-    "source": "Médicis Immobilier Neuf",
-    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNSzlVaWZsaHdzR1ZpOHYwTVN4NnotWHAyUEcxeHBxVXJ1dGY5SzFHZm5GWGtvR0VnT29KV2RKSDQ2d00tN0NUMDZEY210V29zbDdOYmJ5V3pmeGVHVS1Demt6M2xKb2d4NkNjdVdEWUhRV3dyWWFJR0VlYW5EYmNNRnliSWdoRFUyM2ZJelJIN2RQNlJPTHZ1aUhPWUNXVGhsdGZfMTMtejlmRlU5aUVoR2xyUTNGOVpsV2RWWHh6YmprTGMtVGp1bnBva2FfX0ZDTWM1dm5HNDctRnZwYU1GeUJmREswNk52N3M2WG1INExoeWktYjdzdVhLTUhFUGJsX0lhQUF5bjVXYmxmcl9fVVctVXRLQQ?oc=5",
-    "date": "23 nov.",
+    "titre": "Immobilier Paris 2026 : 7 arrondissements en hausse de plus de 2 %",
+    "resume": "Des prévisions pour 2026 anticipent une hausse des prix de l'immobilier supérieure à 2 % dans sept arrondissements parisiens.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbHd1STdnV1R4TTBfUnJRMzRYQzA5SWlPOW5JUEpLc2U4UE81UVZZX1VmQ2RSMVdkRUl1UkQzRUdSbWVOQVNTNVp6MjkzbHg3aU5PbFA2Qy1hdy01OHNXbHNfOGxUWGpJSTFiT2x0dUdtbTJFby1oeWd6dURPMk55Qm5hR2RmaTdnYkNyNWp0bHQ4LWdqQWhmMUduRzRYSEtDREdOeVN3MjA5cTNselRLdk1TdkVnYjZGanR1aTBONjgwX3k3WDUyUFdodVdIOHVmcElRRVdpMmsxaURETXByOTItMA?oc=5",
+    "date": "24 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Assurance habitation : +20 % en Nouvelle-Aquitaine, et la Corse reste la région la plus chère",
-    "resume": "Les tarifs de l'assurance habitation augmentent fortement, notamment de 20 % en Nouvelle-Aquitaine.",
-    "source": "Actual Immo",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tLWE4TGhVMmdyaG5qZHJGaGJhcmZiWVlvbnV0Tk5LMWxQdFRyQkZtWEJhYzRfWnRORGNnVTdTYnBRS0c5OUpPMFpXTTZFTEV1M0JiVDkzZThmLVJ4Zm1fbEZHc3ZHV2E4V3dWNFlDN0h3MkFG?oc=5",
+    "titre": "Logement : 96 % des propriétaires interrogés critiquent le bilan d’Emmanuel Macron",
+    "resume": "Une très large majorité de propriétaires (96 %) exprime un avis critique sur le bilan d'Emmanuel Macron en matière de logement.",
+    "source": "Le Revenu",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOX2lBWXQtaWRzanBkbTZZZ1pwNkxXcWVRcUlRRVJmdDROVkhjTENjanlwdTBZb1VZUXpFY0o1R1ZSYTItR2FrcHBqYllwa1VRdkpyR2YtLWdqWUpUU1FFZGR3cDR0S2VHOWVacW0ydmJpa0N4UXIxVkFfcmVSaVlYcXZRV2E4Z0hPOEZWN1RWOUJVTnN5Tk9TTklubndUcUNpVFdOQWRDZzhNSWJVdVgtNWJ5dlFLbF9nWHpaUzNfZEVwMkZ3YVpGZjd4eGh4ME1kbFJjUFFWWFU?oc=5",
+    "date": "24 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Le DPE ce n'est pas que des lettres: la facture de chauffage peut varier de 960 à 2.600 euros cet hiver entre passoires thermiques et logements bien isolés",
+    "resume": "La différence de coût de chauffage entre un logement bien isolé et une passoire thermique peut varier de simple à près de triple cet hiver.",
+    "source": "BFM",
+    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQVEQwNGFsdGg2ckYwdllkRzVvUkpsY0ZubEFGcUtBQXFBd0pUYUZFUGVBWWdFeV9Udjhvc2ZLRXA5blpkVk9LYjFZMklVVEZNYk9WLXlvbUJRSDNYVkNVTVppVWFjNFZEbHJOci1wVGxLUmZqSmR1bGFxLV9mbEQxVkVFY2otNWtDQXBaNWpndVhtWlkzQ09hcEVxQWxGMFJvblFHNVQ4NlhwaUhkdDJ0RUEteVNKOU8wYzBUVXdDVDgxLWhRTEJmb3ZaaE1iZ0RFelRJRU1sV29KOVJkY252cHBfc3VqR2c0eDJ1NzZFbXowX2Vzd09PQXdYaTFpeV9QQzZvZHk4OEFsSkltWHU1VmpUeUpIcnRaSjktZld1NU9WRTBpOEZhQlNzRlM3SnlUekttY1lSTHRmYWp2M0loaDltbi0wemR1aXJv?oc=5",
+    "date": "24 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Immobilier : Saint-Brieuc est classée la ville la plus rentable de Bretagne en termes de rendement locatif - Ouest-France",
+    "resume": "Saint-Brieuc se distingue comme la ville offrant le meilleur rendement locatif en Bretagne.",
+    "source": "Ouest-France",
+    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNd2JiOU5xdWx3cVd3eVRxMXhwWW5uUC01dFRCUGE0QVhWV0ZpaWFkdXVIbUdvRFR3VS1FUkREUENCUUdGTXkzRm0tOG9lMnVZMWZOMEVvTzRXRXhVWDFYZFhIVS0xaEw2X1dhd1I4T0Zadk9oaS12eDk3RGdlbkx6NHYyTkRCZ09rVDJmTXlNRmVBTTNtRHByb3RuMjFpRHJoYUtObGFxeUtkS2ZBa2dKelBzTmZ5SVAtNXZnS0staTBsZ2dvblJ4MzNISGxmcmIyaEUxcE82MUtCbkdEd1RxM1hyVzZOWjZvQ1hnSDRSV2VJZzZRRU1GbDRDUUxBci1ydjdGbXVLZ1lHTGJia2ZjREYwT1Y?oc=5",
     "date": "23 nov.",
-    "impact": "baisse"
+    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Immobilier : Saint-Brieuc est classée la ville la plus rentable de Bretagne en termes de rendement locatif - Ouest-France",
-    "resume": "Saint-Brieuc est identifiée comme la ville offrant le meilleur rendement locatif en Bretagne.",
-    "source": "Ouest-France",
-    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNd2JiOU5xdWx3cVd3eVRxMXhwWW5uUC01dFRCUGE0QVhWV0ZpaWFkdXVIbUdvRFR3VS1FUkREUENCUUdGTXkzRm0tOG9lMnVZMWZOMEVvTzRXRXhVWDFYZFhIVS0xaEw2X1dhd1I4T0Zadk9oaS12eDk3RGdlbkx6NHYyTkRCZ09rVDJmTXlNRmVBTTNtRHByb3RuMjFpRHJoYUtObGFxeUtkS2ZBa2dKelBzTmZ5SVAtNXZnS0staTBsZ2dvblJ4MzNISGxmcmIyaEUxcE82MUtCbkdEd1RxM1hyVzZOWjZvQ1hnSDRSV2VJZzZRRU1GbDRDUUxBci1ydjdGbXVLZ1lHTGJia2ZjREYwT1Y?oc=5",
-    "date": "23 nov.",
-    "pourquoi": "Utile pour les investisseurs en quête de rentabilité brute élevée dans des villes moyennes. Surveiller si l'afflux d'investisseurs fait monter les prix et baisser le rendement.",
+    "titre": "Villa Marytika : 600 m² cédés près de 29 millions d'euros, plus de 47 000 € le m² à Saint-Tropez",
+    "resume": "Une villa à Saint-Tropez s'est vendue pour près de 29 millions d'euros, soit plus de 47 000 € le m².",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Qbi1vclNULVhVMW40UGFCOVVqd2NqdGNENTdvU3U0eDJyYjZXeWRoVHUwaUFyRldYcGRsNU8ydEFOZUZiQkN6WVFpdjZxV3ctdUdlcDd4cEZfS0xHSUVGNmxSRQ?oc=5",
+    "date": "24 nov.",
+    "pourquoi": "Indique une vitalité persistante et des valorisations extrêmes sur le marché de l'ultra-luxe.",
     "impact": "hausse"
    },
    {
-    "titre": "Terrain constructible à 1 euro le m² : comment dénicher ces parcelles vendues par les mairies",
-    "resume": "Certaines mairies vendent des terrains constructibles au prix symbolique de 1 euro le m².",
-    "source": "Be Magazine",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSEE0cm1EeXp6YU9vUjgxTEkyNkNSSWItX0hVODA1NG5ZUm9yc1JWbzUybkpKbXRWcDdTbjVLbS1WMW5yZ0JPQzg2OTFaWVI4QklLWUhXVHBnZ21UV3NCMUp6ejlEX0o2VWY0cUlRb3hNNnAtbWJsQ2YwMFdRWWU2MDZZRWFWZW1yZ3lYZF83TUJZcThleHBsYkp0dVJ2NHdXLVo3UVo2VkYzalhnWjNCVGg3aE56SVdnZUJWQWRRbll4ejFOS3lva050X3NrYmhHdFNPYXJWTW5CYUhjLXduMTZCU0hTU2pu?oc=5",
-    "date": "23 nov.",
-    "pourquoi": "Permet de réduire drastiquement le coût du foncier pour des projets de construction. Surveiller les conditions d'attribution et les obligations de construction.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Deux stratégies pour investir à prix décoté dans l'immobilier",
-    "resume": "Le démembrement de propriété et l'achat de biens occupés sont présentés comme des stratégies pour investir à prix décoté.",
-    "source": "Investir Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUEhLbDZEeTNZazNrWkJEcnEzVDFVVDJ2N1g4dmsyRDdSSWZieEZLRURNSVdmVXI0UGkzMHBOMjRnOExISEdPREVrenlfR3BOUXp2U1gxT3BQQ3Y4ZTJYdlR4QjZzc3dFVm14UkdNWnl0Nl9rTTlGZFNOc2ZjUmdMczBCS2lEYlYwanRGcXRVWnQwdTFtUlV4LTZyZUd2bTREX1dqaE1LeFZjeFhONi1UZHh2d2tremYwbVl3?oc=5",
-    "date": "23 nov.",
-    "pourquoi": "Intéressant pour entrer sur le marché avec un capital initial plus faible. Surveiller l'horizon d'investissement et la fiscalité spécifique.",
+    "titre": "SCI à l'impôt sur le revenu : 36,2 % sur la plus-value, et 3 leviers pour en payer moins - www.actual-immo.fr",
+    "resume": "La plus-value sur les SCI à l'impôt sur le revenu peut être taxée à 36,2 %, mais des leviers existent pour réduire cette note.",
+    "source": "www.actual-immo.fr",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVQ25nelV6NldiTUlJSl9seUJFdXBRX3gwb1Q3NWwzTmFRQlVNNWpWZmlhMWRhczB3clM2MVE1SDUtZC1IeEJ6T3BqUEcya1ZIWVBRVU15dVI?oc=5",
+    "date": "24 nov.",
+    "pourquoi": "Crucial pour l'investisseur structurant son patrimoine via SCI afin d'optimiser sa fiscalité à la revente.",
     "impact": "flat"
+   },
+   {
+    "titre": "Raizers avis : plateforme fiable ou pas en cas de faillite ? Agrément AMF, fonds chez Mangopay, 105 projets en retard ou en procédure, promoteur niçois liquidé le 29 octobre 2026 et recours des investisseurs",
+    "resume": "La plateforme de crowdfunding Raizers présente 105 projets en retard ou en procédure.",
+    "source": "Reda KOHEN",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQd1JrVHpxdGJmTTBFblNXTnhqOGtyMU9ILUs4WDZQclM1UHZfNEZId3dxOXBISkpWQVdfT0F5aFVFNWtwREdYUXF2alFMUkV2WEJiSHZTV1dmRFE1cTUtSzdJQTZIODRYRkRhYnVQME9UWW52b1J1VFhIQUpGeTF2RVhHbFZfZTRYNDRCU3EySkdCVG5KNW12Q3lJTllSQzVzNXJBc0ZuWmRIYXlvQmZvbUMxZjFLSkY5WTNIODAxLVlwbGcxMzZkOHRGcnprM1pmUmt0RmJkZkw5d18yMGRXYXZaY2kzSmI1WEd5ZW15MEd1S3NlbjZoT0ozOEZSWWtSa0VIVjV2ZFowakFtOVBUZ293?oc=5",
+    "date": "24 nov.",
+    "pourquoi": "Alerte sur l'augmentation du risque de défaut dans le financement participatif immobilier.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le Portugal adopte un allègement fiscal pour la vente de résidences secondaires",
+    "resume": "Le Portugal adopte un allègement fiscal pour la vente de résidences secondaires.",
+    "source": "The Portugal News",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRFpsSTNhZWhBWnJKRkM1QnJULXdlUzVGOHdiUXZ2SlB5dFo1cW40aWtRdnJnVEJtWVBjcjlsYjRwN3d6RGlJY0ttMC1wWlhvcFdwYkJ6Y2ltZWhvd3pMWjM1VEZRRWhpbHYtQUZVTHdYTVVjR1ROR0diTnh2U2FJcHdldHJ6Mk90VWQtY0dELXdPamNDMW1TSk1WRk1xOFFObFVNS19ic3pGUEtJSHc5WUgxRE1Jb2ktRUx5Zjh5TE1JNzYxbUJmSGkyOGZGeWxIZ2ZiM2hILTlIS2RpZFE?oc=5",
+    "date": "24 nov.",
+    "pourquoi": "Pourrait attirer les investisseurs internationaux et dynamiser ce marché.",
+    "impact": "hausse"
    }
   ]
  }
