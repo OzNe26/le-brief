@@ -1,12 +1,30 @@
 {
  "general": {
-  "updatedAt": "2026-11-25T16:16:30+00:00",
-  "resume": "La scène politique française est marquée par le congrès des maires où plusieurs personnalités, dont Gabriel Attal et le judoka Teddy Riner, affichent leurs ambitions pour la présidentielle de 2027. À l'international, la guerre en Ukraine se poursuit avec des estimations de pertes russes élevées, tandis que les tensions commerciales ressurgissent entre les États-Unis et l'Union européenne. En économie, l'UE sanctionne un cartel de producteurs de parfums et le Black Friday bat son plein dans le secteur technologique.",
+  "updatedAt": "2026-11-25T20:27:58+00:00",
+  "resume": "L'actualité est marquée par les tensions commerciales persistantes entre l'Union Européenne, la Chine et les États-Unis concernant les droits de douane. En France, la scène politique est animée par les prémices de la course à la présidentielle de 2027 et le congrès des maires. Le secteur technologique voit l'Europe vouloir investir massivement dans l'IA, tandis que SpaceX obtient une autorisation pour des satellites dédiés à l'intelligence artificielle.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Présidentielle 2027 : \"Défendre l'Ukraine, c'est nous défendre nous-mêmes\", répond Gabriel Attal à Teddy Riner, pour qui \"ce n'est pas notre guerre\"",
-    "resume": "Au congrès des maires, Gabriel Attal a critiqué les propos de Teddy Riner sur l'Ukraine, affirmant que soutenir ce pays est essentiel pour la défense française, alors que le judoka estime que ce n'est pas notre guerre.",
+    "titre": "L'UE \"conteste fermement\" le bien-fondé des nouveaux droits de douane américains, Pékin dénonce un \"faux problème\" et rejette les accusations de surcapacité industrielle",
+    "resume": "L'Union Européenne et la Chine contestent fermement les nouveaux droits de douane imposés par les États-Unis, Pékin rejetant les accusations de surcapacité industrielle.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/l-ue-conteste-fermement-le-bien-fonde-des-nouveaux-droits-de-douane-americains-pekin-denonce-un-faux-probleme-et-rejette-les-accusations-de-surcapacite-industrielle_AN-202611250923.html",
+    "date": "25 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
+   },
+   {
+    "titre": "Un million de satellites dans l’espace: les États-Unis autorisent Elon Musk à déployer une constellation géante pour alimenter des centres de données dédiés à l’intelligence artificielle",
+    "resume": "SpaceX a reçu l'autorisation américaine de déployer jusqu'à un million de satellites pour créer des centres de données en orbite dédiés à l'intelligence artificielle.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/entreprises/aeronautique/un-million-de-satellites-dans-l-espace-les-etats-unis-autorisent-elon-musk-a-deployer-une-constellation-geante-pour-alimenter-des-centres-de-donnees-dedies-a-l-intelligence-artificielle_AV-202611250906.html",
+    "date": "25 nov.",
+    "impact": "flat",
+    "categorie": "Tech"
+   },
+   {
+    "titre": "Présidentielle 2027 : David Lisnard, réélu à la tête de l'Association des maires de France, est l'invité du \"20 Heures\" de France 2",
+    "resume": "David Lisnard a été réélu à la tête de l'Association des maires de France, alors que plusieurs personnalités politiques tentent de séduire les élus en vue de la présidentielle de 2027.",
     "source": "franceinfo",
     "url": "https://www.franceinfo.fr/elections/direct-presidentielle-2027-lance-dans-la-course-a-l-elysee-david-lisnard-fixe-dans-la-journee-sur-sa-reelection-a-la-tete-de-l-association-des-maires-de-france_8298708.html#xtor=RSS-3-[lestitres]",
     "date": "25 nov.",
@@ -14,57 +32,39 @@
     "categorie": "France"
    },
    {
-    "titre": "Guerre en Ukraine : le nombre de pertes russes estimé à 700 000, le Kremlin refuse de commenter",
-    "resume": "Le Kremlin refuse de commenter les estimations faisant état de 700 000 pertes russes depuis le début de l'invasion de l'Ukraine.",
-    "source": "France 24",
-    "url": "https://www.france24.com/fr/europe/20261125-guerre-ukraine-nombre-pertes-russes-estim%C3%A9-700-000-hackers-kremlin-refuse-commenter-moscou-soldats",
-    "date": "25 nov.",
-    "impact": "flat",
-    "categorie": "Monde"
-   },
-   {
-    "titre": "Droits de douane : l’UE « conteste fermement » le bien-fondé des nouvelles sanctions américaines",
-    "resume": "L'Union européenne s'oppose fermement aux nouveaux droits de douane annoncés par l'administration Trump visant ses partenaires commerciaux.",
-    "source": "Le Monde International",
-    "url": "https://www.lemonde.fr/international/article/2026/11/25/droits-de-douane-l-ue-conteste-fermement-le-bien-fonde-des-nouvelles-sanctions-americaines_6815121_3210.html",
-    "date": "25 nov.",
-    "impact": "flat",
-    "categorie": "Monde"
-   },
-   {
-    "titre": "\"Un cartel international des parfums\": l'UE inflige 471 millions d’euros d’amendes à trois géants accusés d'échanges secrets et de hausses de prix, au détriment des consommateurs",
-    "resume": "La Commission européenne a infligé une amende de 471,9 millions d'euros à trois leaders de la parfumerie pour entente illicite sur les prix.",
+    "titre": "Les européens musclent leur jeu sur l'IA",
+    "resume": "L'Europe ambitionne de mobiliser 50 milliards d'euros pour investir dans des projets d'intelligence artificielle afin de refaire son retard technologique.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/economie-social/union-europeenne/un-cartel-international-des-parfums-l-ue-inflige-471-millions-d-euros-d-amendes-a-trois-geants-accuses-d-echanges-secrets-et-de-hausses-de-prix-au-detriment-des-consommateurs_AD-202611250714.html",
-    "date": "25 nov.",
-    "impact": "flat",
-    "categorie": "Économie"
-   },
-   {
-    "titre": "Des méga-camions de 60 tonnes avec deux remorques bientôt sur nos routes? Les acteurs du fret ferroviaire s'inquiètent d'un feu vert européen et appellent la France à \"ne rien céder\"",
-    "resume": "Les acteurs du fret ferroviaire français s'inquiètent d'une possible autorisation européenne pour les méga-camions de 60 tonnes, y voyant un risque écologique.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/entreprises/transports/des-mega-camions-de-60-tonnes-avec-deux-remorques-bientot-sur-les-routes-les-acteurs-du-fret-ferroviaire-s-inquietent-d-un-feu-vert-europeen-et-appellent-la-france-a-ne-rien-ceder_AV-202611250744.html",
-    "date": "25 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "J’ai essayé les Snap Specs : ces lunettes AR sont bluffantes, mais le design et le prix vont en freiner plus d’un",
-    "resume": "Snap a présenté ses nouvelles lunettes de réalité augmentée, les Specs, qui impressionnent par leur technologie mais restent freinées par leur coût et leur design.",
-    "source": "Frandroid",
-    "url": "https://www.frandroid.com/produits-android/accessoires-objets-connectes/lunettes-intelligentes/3338751_jai-essaye-les-snap-specs-ces-lunettes-ar-sont-bluffantes-mais-le-design-et-le-prix-vont-en-freiner-plus-dun",
+    "url": "https://www.bfmtv.com/economie/video-les-europeens-musclent-leur-jeu-sur-l-ia_VN-202611250858.html",
     "date": "25 nov.",
     "impact": "flat",
     "categorie": "Tech"
+   },
+   {
+    "titre": "Égypte: un violent incendie fait au moins 30 morts dans l'agglomération du Caire",
+    "resume": "Un violent incendie dans un quartier populaire de Gizeh, dans l'agglomération du Caire en Égypte, a causé la mort d'au moins 30 personnes.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/international/afrique/egypte/video-egypte-un-violent-incendie-fait-au-moins-30-morts-dans-l-agglomeration-du-caire_VN-202611250940.html",
+    "date": "25 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Auchan négocie avec Intermarché la cession de Chronodrive, pionnier des courses en ligne qui emploie 2.800 salariés dans 55 magasins",
+    "resume": "Auchan est entré en négociation exclusive avec le groupement Les Mousquetaires/Intermarché pour la cession de sa filiale Chronodrive.",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/economie/entreprises/auchan-negocie-avec-intermarche-la-cession-de-chronodrive-pionnier-des-courses-en-ligne-qui-emploie-2-800-salaries-dans-55-magasins_AD-202611250891.html",
+    "date": "25 nov.",
+    "impact": "flat",
+    "categorie": "Économie"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-25T16:16:30+00:00",
-  "resume": "Le marché des cryptomonnaies connaît une correction, le Bitcoin repassant sous les 60 000 dollars dans un contexte d'incertitude économique aux États-Unis et de sorties continues des ETF. En France, le Sénat a rejeté plusieurs mesures fiscales visant les actifs numériques, tandis que la banque Delubac, active dans le secteur, a été placée sous administration provisoire. À l'international, la Suisse et la France s'apprêtent à échanger des données sur les cryptomonnaies.",
+  "updatedAt": "2026-11-25T20:27:58+00:00",
+  "resume": "Le marché des cryptomonnaies connaît une baisse marquée, le Bitcoin chutant sous les 60 000 dollars face à l'inflation américaine et à des sorties massives d'ETF. En France, le Sénat a rejeté plusieurs propositions de taxes et de régulations strictes sur les actifs numériques. Par ailleurs, la banque Delubac, connue pour son ouverture aux cryptos, a été placée sous administration provisoire.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -94,15 +94,23 @@
   "items": [
    {
     "titre": "Le Bitcoin accélère sa chute sur fond d’inflation US et de droits de douane",
-    "resume": "Le cours du Bitcoin subit une baisse significative, repassant sous le seuil des 60 000 dollars, influencé par les craintes liées à l'inflation américaine et aux politiques douanières.",
+    "resume": "Le cours du Bitcoin accélère sa chute, passant sous les 59 000 dollars, pénalisé par les craintes d'inflation aux États-Unis et l'incertitude sur les taux.",
     "source": "Cryptoast",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVE5ycW01eG96TW01Vl92cnJIOU9lMzZ0cGRrY3g4LTBvR1ZCVXRfOVd0RXB5cTg1bTE0bEMwdnpnNzVaek9HbDA0T29qdUlMd2pqX2JGSG90ODRaVFk3d2Z6aklOa2VPb2EzUXFDOF9hcXhKVTJFLUd0YVBxVHBGa0RSMmpZcnhvelpIWTFqX3FBR2M?oc=5",
     "date": "25 nov.",
     "impact": "baisse"
    },
    {
+    "titre": "L’exode des ETF Bitcoin atteint 4,9 milliards de dollars. Cathie Wood vend maintenant son propre ARKB.",
+    "resume": "Les ETF Bitcoin américains enregistrent une sortie massive de capitaux, atteignant 4,9 milliards de dollars, Cathie Wood vendant même des parts de son propre fonds ARKB.",
+    "source": "Benzinga France",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVzJrQk9kay1FR0Q3c2ZGV1pPX2VnendETGdBeDNOZ004U2drSV9NbjA5VHdBY3NLZkdMencteHNkU0IwcmRjRzBtb1NZT3V4ZlAydmFmVkM0YW1iaXJSOWpMeG9QZ0FyTWNUZnBWaHFObXBvUW9Dak1UenJQRHJ0SERhWEZjWVVNT1BxajNiWlZLVXRvOWg3TDFTZ0hFVG9ZVlhNelkwTE9od1lFc1NVQmExVTlyWEFZQUNTTmFtVU82akQ5N2hkLUVR?oc=5",
+    "date": "25 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "France : Pas de déclaration obligatoire des wallets crypto à 100 000 €",
-    "resume": "Le Sénat français a rejeté des amendements qui auraient imposé la déclaration obligatoire des portefeuilles auto-hébergés et la taxation des stablecoins.",
+    "resume": "Le Sénat français a repoussé plusieurs amendements visant à taxer les stablecoins et à imposer la déclaration des portefeuilles en auto-conservation.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/france-pas-de-declaration-obligatoire-des-wallets-crypto-a-100-000-e/",
     "date": "25 nov.",
@@ -110,72 +118,73 @@
    },
    {
     "titre": "La banque Delubac placée sous administration provisoire par le superviseur bancaire",
-    "resume": "La banque française Delubac, connue pour ses services aux entreprises crypto, a été placée sous administration provisoire par le régulateur bancaire.",
+    "resume": "La banque française Delubac, pionnière dans les services liés aux crypto-actifs, a été placée sous administration provisoire par le régulateur bancaire.",
     "source": "Cryptoast",
     "url": "https://cryptoast.fr/banque-delubac-placee-sous-administration-provisoire-superviseur-bancaire/",
     "date": "25 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Les ETF Bitcoin proches du record de 5 milliards de dollars de sorties mensuelles sur fond de déroute des actions de l’IA",
-    "resume": "Les ETF Bitcoin américains enregistrent des sorties de capitaux massives, se rapprochant d'un record mensuel de 5 milliards de dollars en novembre.",
+    "titre": "La Fondation Ethereum soutient Keccak-256 pour contrer les menaces quantiques et liées à l’IA",
+    "resume": "La Fondation Ethereum soutient l'adoption de Keccak-256 pour renforcer la sécurité du réseau face aux futures menaces de l'informatique quantique et de l'IA.",
     "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MZUlpbGlsT1M1clowUER5b0R0eWFtRkpBeUJtZjBQSEx3cEF2LXl4b25oT2hZRzhnTnF4aEoxaHZkRnN1eTZIU2xoV25TWlpxVHhtMVlJWEhqRzNhaXZ1SlFMN2YwekFMeWxTVC1Ebw?oc=5",
-    "date": "25 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "La Suisse échangera les données crypto avec la France et d’autres pays",
-    "resume": "La Suisse va mettre en place un échange automatique de données concernant les crypto-actifs avec la France et d'autres pays.",
-    "source": "Cryptoast",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdDhZV2ZSMVM5bm9nTG55QXoyWDdONkVOSGM0SDBxSlAzVFBrVmpYbjdMUW1seUo3cWZCdlJicU9ibFhPTkFjY3NxTC1zajV2VGh2Q3AyUGZ0THlrVkEtTnpSRlEyZTFDNTVUUnhmWl9aUE1paVhZeFYtR2JOOGUzWGhEWmhIY3JzUDlENGptRE8?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IYThmX2ZPaTRxLW9tSFV0N1FNZVFpSlZZamxwQ2E4TTV5cy1lWV9FS3FSQXJWNmpsOWRMNnVMdm00aWNicC1CektiTm1zc0NIcktLQmdmQk16SFp4ZXJpYXhqczNIdThHbmpOTll4RQ?oc=5",
     "date": "25 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Solana lance une co-entreprise adossée aux 2 300 milliards $ d’actifs des géants japonais SBI et SMFG",
-    "resume": "La Fondation Solana s'associe aux géants financiers japonais SBI et SMFG pour créer une co-entreprise visant à développer un marché financier sur la blockchain.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/sbi-solana-global-japon-smfg-finance-on-chain/",
+    "titre": "BitMine distribue un dividende symbolique malgré 10,6 milliards de dollars de pertes sur Ethereum",
+    "resume": "Malgré des pertes latentes colossales de 10,6 milliards de dollars sur ses réserves d'Ethereum, l'entreprise BitMine annonce le versement d'un dividende symbolique.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/bitmine-distribue-un-dividende-symbolique-malgre-106-milliards-de-dollars-de-pertes-sur-ethereum/",
     "date": "25 nov.",
-    "impact": "hausse"
+    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Minage crypto : un mineur solitaire remporte près de 171 000 € en Bitcoin",
-    "resume": "Un mineur de Bitcoin opérant seul a réussi à valider un bloc, remportant environ 171 000 euros.",
-    "source": "Actu Crypto .info",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNnM0aEEwNVdISlFZQ1hsa2RWaUhVdXhfbURxOGswejl5RzVtb2g1MVc3Z2hNSDlPZ3NJclYtQTBab2pjbE5CbmpuclJDOVBzUHAwQ3dKNGpnQ0ljMDQyX0tmUU5OMnJWQ2RKZC11N25jWGR1LW0yX2UxVXQwUmhZNTJGYkJqS0ZlVlcxRw?oc=5",
+    "titre": "HYPE va rejoindre Bitcoin, ETH et XRP dans l’ETF crypto de Franklin Templeton",
+    "resume": "Le token HYPE va être intégré dans l'ETF crypto multi-actifs de Franklin Templeton.",
+    "source": "Benzinga France",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbW16dThtR1o5U1lpZmpWalRiaGtqNklKaUx5RjVuSUF1OWV2Qm9OZG1nOHAxRW9RX0VfYU9Xb2VSb2pXeW4tTjFOcTgyWHktZGYzbEhwV1djbUlpYnk5M1IwZXBoQUZoYWxWNU5GaUREQlV5VVBtNDRoc0ExR0pieVkycUJPYUNQRnFLTWJEdU4yaEg2UVhqQ2JSdVBpN05aOTFfdzdiMHk2cTA?oc=5",
     "date": "25 nov.",
-    "pourquoi": "Cela illustre que le minage en solo reste possible malgré la concurrence des grands pools, impactant potentiellement la perception de la décentralisation du réseau.",
+    "pourquoi": "Cela pourrait accroître la visibilité et la liquidité de HYPE. Surveillez l'impact sur son cours lors de l'intégration effective.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Minage crypto : Nvidia accepte un accord à 290 millions de dollars avec ses actionnaires",
+    "resume": "Nvidia accepte un accord de 290 millions de dollars pour clore un litige avec des actionnaires concernant ses revenus liés au minage crypto.",
+    "source": "Cryptoast",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMGFTVFhXQmR6WVRWd3JNUDNXZ1gxWUlNeXJYMUpDX1I2WFgxcThLN25ONWtPOThGZW9oUmlmaGEtZGFtOG45VkNreXdwLU9vSENJVlBrWVFnODhTWnpPeERBYjVQc1RDTTNMZENldmo1WWJJNllTNzEtbzVwQ2dzeA?oc=5",
+    "date": "25 nov.",
+    "pourquoi": "Cette résolution pourrait stabiliser le titre Nvidia et montre la fin d'une ère d'incertitude liée à la volatilité du minage pour le fabricant.",
     "impact": "flat"
    },
    {
-    "titre": "Pourquoi les investisseurs tournent le dos aux memecoins depuis deux ans",
-    "resume": "La part de marché des memecoins au sein des altcoins a chuté de 11 % à 3 % en deux ans.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/pourquoi-les-investisseurs-tournent-le-dos-aux-memecoins-depuis-deux-ans/",
+    "titre": "Les législateurs ukrainiens adoptent un projet de loi sur la fiscalité et la réglementation des cryptomonnaies, dont les recettes devraient atteindre 330 millions de dollars",
+    "resume": "L'Ukraine adopte un projet de loi pour réglementer et taxer les cryptomonnaies, espérant 330 millions de dollars de recettes.",
+    "source": "CoinDesk",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeGZZbkpwVjkyS25NUlhSeG1nMEdSSko3LTZ4bVlmamJSaDJwT3RuS1dqMkR4MUU1MlBYWFg5ZkdoQlA3VjdlNUtwN2M0Q09rLTB1OW8wZ0FyOWh1MG9LYklNY2xyQ25Zd3ZyRmRUdGt3bmwwNlZ1N0VCamhuRzJoX3VTVlNKRUFITEpQd3hGelNuNW1vMjdqZV9xZ1h2OHpmUjVUakpOaHlVbXZnQ2p0NFBKWmVsTmxNVlpsdjlubjhNY3hOOWY2QXNYTmZUMVdfODFFTXpR?oc=5",
     "date": "25 nov.",
-    "pourquoi": "Ce signal indique un désintérêt marqué des investisseurs pour cette catégorie d'actifs spéculatifs, au profit d'autres secteurs.",
-    "impact": "baisse"
+    "pourquoi": "Cette avancée réglementaire pourrait attirer des entreprises crypto en Ukraine et créer un précédent pour d'autres pays de la région.",
+    "impact": "flat"
    },
    {
-    "titre": "OKX distribue 200 000 $ en tokens Pump.fun : comment en profiter ?",
-    "resume": "La plateforme OKX distribue 200 000 dollars en tokens Pump.fun via un airdrop.",
-    "source": "Cryptoast",
-    "url": "https://cryptoast.fr/okx-distribue-200-000-en-tokens-pump-fun-comment-en-profiter/",
+    "titre": "Tether investit dans la fintech argentine Lemon",
+    "resume": "Tether investit dans la fintech argentine Lemon.",
+    "source": "InvestX",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0hoVVR4R3ppc2w3MENfcVlLQmVqZTZ2Zk5zbHU4ZnRNYXFwTDA5b1RKS3RsZXJaUFRWV3NjTzhHZVVWWVg5ZzBZYzJYbmk1WVVIbDFQMXZRUGhKLWhNX2FqTldON1g5NXZqZWtiMnN4TjZuVGJHQVhCZXpVMklRRzZPUQ?oc=5",
     "date": "25 nov.",
-    "pourquoi": "Cet événement peut générer de la volatilité à court terme sur le token PUMP et stimuler l'activité sur la plateforme.",
-    "impact": "hausse"
+    "pourquoi": "Tether étend son influence en Amérique du Sud, ce qui pourrait favoriser l'adoption de l'USDT dans la région. Surveillez les volumes sur Lemon.",
+    "impact": "flat"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-25T16:16:30+00:00",
-  "resume": "L'inflation américaine a accéléré à 3,8 % en octobre, renforçant la perspective de nouvelles hausses de taux par la Fed. Cette nouvelle a provoqué une forte baisse à Wall Street, particulièrement dans le secteur technologique et de l'IA. Le CAC 40 a effacé ses gains suite à ces annonces macroéconomiques.",
+  "updatedAt": "2026-11-25T20:27:58+00:00",
+  "resume": "Les Bourses mondiales ont clôturé en baisse, le Nasdaq chutant lourdement en raison des craintes sur le secteur de l'IA et de nouveaux droits de douane. Le CAC 40 a également reculé, pénalisé par les semi-conducteurs et l'électrique, malgré la résistance de Sanofi. Aux États-Unis, l'inflation PCE a accéléré, alimentant les paris sur une hausse des taux de la Fed.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,50 +213,50 @@
   ],
   "items": [
    {
+    "titre": "Le Nasdaq plonge d'environ 4 % alors que la chute du secteur de l'IA et les nouveaux droits de douane imposés",
+    "resume": "Le Nasdaq a plongé d'environ 4 %, plombé par la chute des valeurs de l'intelligence artificielle et l'inquiétude liée aux nouveaux droits de douane.",
+    "source": "Boursorama",
+    "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPMUxyNUdLeFgyQVhSV3Z6NU9Qd1I0cE5GMGlQYUxMdjBWSGdUbWJLX2JVaGFYUjcwWXhRMGw4SVY5OGlfcHdteEtxM2VpdDA2U3pyOVpQMTdDNlBobUsyQ0RIQnNrdnl2SG51V2VRNWZBQW4yNVRMTjQyMWpweVFlYmFvenNNN1ZyY2FlNnpDVHM4OFRXSzloWHVuMFZZVzNzeUEzQUNqcnhVMHJxYTNvS2F1UldsWFNldjgwaE42WW1PdzZJZFJZLS0xaUxlM28xQktrOGZZU0JmRHNQTXRxcXlUcWdvLUlUVnNzQmxybG44M0pnMVZCMzI0b0luSFEzdVJZTDRFUTQ4UVdRYkhxUFJ0NFV2Wl9teHRCVFJsbk1SUmMzeDN0eUMzR0p4RlB6QmlrdFg2N3hPekRmRmZwdU1Kc0xyUHdz0gHIAkFVX3lxTE8xTHI1R0t4WDJBWFJXdno1T1B3UjRwTkYwaVBhTEx2MFZIZ1RtYktfYlVoYVhSNzBZeFEwbDhJVjk4aV9wd214S3EzZWl0MDZTenI5WlAxN0M2UGhtSzJDREhCc2t2eXZIbnVXZVE1ZkFBbjI1VExONDIxanB5UWViYW96c003VnJjYWU2ekNUczg4VFdLOWhYdW4wVllXM3N5QTNBQ2pyeFUwcnFhM29LYXVSV2xYU2V2ODBoTjZZbU93NklkUlktLTFpTGUzbzFCS2s4ZllTQmZEc1BNdHFxeVRxZ28tSVRWc3NCbHJsbjgzSmcxVkIzMjRvSW5IUTN1UllMNEVRNDhRV1FiSHFQUnQ0VXZaX214dEJUUmxuTVJSYzN4M3R5QzNHSnhGUHpCaWt0WDY3eE96RGZGZnB1TUpzTHJQd3M?oc=5",
+    "date": "25 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "USA : l’inflation accélère à 3,8 % en octobre, son niveau le plus élevé depuis trois ans",
-    "resume": "L'inflation aux États-Unis a atteint 3,8 % sur un an en octobre, son plus haut niveau en trois ans.",
+    "resume": "L'inflation américaine a atteint 3,8 % en octobre, son plus haut niveau en trois ans, ce qui renforce la probabilité d'une politique monétaire restrictive.",
     "source": "Atlasinfo",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXk5VkF5MGNjUzcycmM5bDdHM1VINWpjVEhlR0taWEVmN3lBX2lvdHRDZDg2c1hUUlBOQ0xEWjdfSk1vTnZLTGVBUWYyWllGeHFNWFVTSkdvWUxDUlByWm1NSFFoRVFFbnQxS0NtVF9XcmdGLU00Vm5LZTZDSVhhLWxQaEViQTRXb2Z5bGlfZ085YnAyMUlhVzlqZVlYNWZmdjFVWA?oc=5",
     "date": "25 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Wall Street ouvre en forte baisse, l'IA chute à nouveau",
-    "resume": "Wall Street a ouvert en forte baisse, plombée par le regain d'inflation et une nouvelle chute des valeurs liées à l'intelligence artificielle.",
-    "source": "Zonebourse",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRXQ3bm9JV1MwNS1JNURBUmVscjhCdHFWdmRQTU0tT2tUWUNRRXFtSTVWMTMzOXFVOEdKLXMzeFpBblBsaTdXbF8zS2htNUx0aEw3N2ExMTd1ZUFUUkdwaGlxUHhhdXFVNmU1R2ZCRTg3SDctQmVmWkVmUGc0NW42MUtnS3VwYzdTZDVPem41dE9rd1JCdkdyeFF6aUFxeHk0QlFnQVRxSmNYV2hmeXNHSkhPZk9UZw?oc=5",
+    "titre": "Le CAC 40 recule en clôture, plombé par les semi-conducteurs et l'électrique",
+    "resume": "À Paris, le CAC 40 a terminé en repli, affecté principalement par la sous-performance des secteurs des semi-conducteurs et de l'électrique.",
+    "source": "Idéal Investisseur",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckRTYWxKWllRV2FUVjhvUlpjXzlXTHg4UWR1cWFxSWlNdXJtU1FQZGR6YlMyY3dfcFpQbE45X3ltU3F2RGpmb2xmRmh5UnMweHRVV09hMUp5b3NrUnFpeFdVNHppUWs4YjJyTjFxcjhTejZkSGNWclA5ODRwdENCRzFKOFJwcU52VnFPQ05hNFVjZDVYZHFYdllpSnFSYUdoZkM0V01XMDJ3NE1vVmVqVW10QzVXX1BOMnlNYXJoNjlDamRhdDk1bG9QR01oZFU?oc=5",
     "date": "25 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Le Cac 40 efface ses gains après les statistiques américaines, la perspective d'un resserrement monétaire se confirme pour la Fed, STMicroelectronics, Legrand et Schneider derniers de l'indice",
-    "resume": "Le CAC 40 a perdu ses gains initiaux après la publication des données économiques américaines, confirmant la possibilité d'un resserrement monétaire.",
-    "source": "Investir Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPYW9HbU5pQThmc0R3LW1xQWRuNVR5WDNoRVM5MEl1LVplNjhFWjduSk4wSDFEdmx6aTNxWWdnZjRCRDc5WG9QVVNVSVJGOWZjcGRtQ29pSFZnVnRhaEpZLUtMSzNvMHJWY21uVHJsdlVqSUVJQ28ybW9WTTZDd3hIY3pGZHhlWjU2QlNBQWRlREg3V0tidzRWaHVENzNRbEFXZUg2a3Vud0dabmFmSThNczhvNmFnVkI1RlVQQUdZUXBOVDQxZFp4M0xva09KSUdGX1ZIeEZpSVYzZjZBTU1WUzRCYVFWUi1YNy1BOHNLQ1JSRVJ5N2Z5bF80SlV5UUVvWDRlVVN6YWh1YUx3eUE4Uk9NNW1Va3JXVC1rYkVoRXk5eTc1?oc=5",
+    "titre": "S&P place NVIDIA sous surveillance négative pour gouvernance",
+    "resume": "S&P a placé NVIDIA sous surveillance négative pour des raisons de gouvernance, ajoutant à la pression sur le géant technologique.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/sp-place-nvidia-sous-surveillance-negative-pour-gouvernance-3713374",
     "date": "25 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "SANOFI : «Du mal à y trouver des failles»... Avec un bond de 15% de l'action en deux séances, les analystes (et le marché) sont totalement séduits par le rachat de la biotech Insmed par Sanofi pour 41 milliards de…",
-    "resume": "L'action Sanofi a bondi de 15 % en deux séances suite à l'annonce du rachat de la biotech Insmed pour 41 milliards de dollars.",
-    "source": "BFM Bourse",
-    "url": "https://www.tradingsat.com/sanofi-FR0000120578/actualites/sanofi-du-mal-a-y-trouver-des-failles-avec-un-bond-de-15-de-l-action-en-deux-seances-les-analystes-et-le-marche-sont-totalement-seduits-par-le-rachat-de-la-biotech-insmed-par-sanofi-pour-41-milliards-de-dollars-1174428.html",
+    "titre": "LVMH, Hermès, Kering, Dior… «Opportunité d’investissement en Bourse pour un placement à long terme",
+    "resume": "Certains analystes considèrent la situation actuelle comme une opportunité d'investissement à long terme dans le secteur du luxe français (LVMH, Hermès, Kering).",
+    "source": "Capital.fr",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVlVlODVWRTd0WG1LX0FnWjdVa2xGOXB5bGdCTnBxZV94cC1VWk0wZDRZaEZJQl95aml0VnNONGxicGxGS3ZKMlY3VFFxZ2NaTkdkYTNsMjRvVDAzQ2N1T09VcEFyVWZtUjh3TVFpY0tJdFRNc2hhdVdrTDFnZWpsdUpVdnNpSkJvWFhsenhWeGdmU3hLU3djUHdWNXBPaDZINTBJQWExVF9wQmExcEJPZGcyNWdhLWRXNlk2VWg1VGJHNC1sVF9SN0g1VXRoa3hWTkVSTXZYTUM0Zzg?oc=5",
     "date": "25 nov.",
-    "impact": "hausse"
+    "impact": "flat"
    },
    {
-    "titre": "Pourquoi l’action Dell chute malgré un chiffre d’affaires record et des prévisions FY27 relevées ?",
-    "resume": "Malgré un chiffre d'affaires record et des prévisions relevées, l'action Dell est en baisse.",
-    "source": "Invezz",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdzdnV1FDZk1WOXU4d3NKUjNfTkdTdlpBR1dOUF90bzUzTEhpZmQ0UDhUT05fQmdINE1LNDc2QlZpREY5UjJxUXROTFdvUk1CQU5ma2xRcVpadTFYMXE2MElwa3NncVdCRUdDalQzUmZfZmRRMmhlV0RPRkp5UEpXeHNKcGE2M3drTmZBNGpHRzItU2hyajJlLUMwb2J0S004YmVlU3J1UDM1cGxmUlJydER2MklSQjI0dWFCalNuLUlyLWNyU3otTktCc3NjbVlmaVNvM2tB?oc=5",
-    "date": "25 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Le Bitcoin accélère sa chute sur fond d’inflation US et de droits de douane",
-    "resume": "Le cours du Bitcoin accélère sa chute, affecté par l'inflation américaine et les craintes sur les droits de douane.",
-    "source": "Cryptoast",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVE5ycW01eG96TW01Vl92cnJIOU9lMzZ0cGRrY3g4LTBvR1ZCVXRfOVd0RXB5cTg1bTE0bEMwdnpnNzVaek9HbDA0T29qdUlMd2pqX2JGSG90ODRaVFk3d2Z6aklOa2VPb2EzUXFDOF9hcXhKVTJFLUd0YVBxVHBGa0RSMmpZcnhvelpIWTFqX3FBR2M?oc=5",
+    "titre": "Bitcoin briefly slips below $58K as hot PCE inflation fuels Fed rate hike bets",
+    "resume": "Le Bitcoin est brièvement passé sous les 58 000 $ suite à l'annonce d'une inflation PCE élevée qui alimente les craintes de hausse des taux.",
+    "source": "tmgm.com",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPN0FJbDVVSWs0Vlk2M244OXcteXNsY0ZRZU1jYk52QmNaRnN2M0pqRVFJczZOQ19CcTRMWE9UMlJENkUyN1lCQS04T1VNRnpyTHI3ZXY2WnZXZUJ5NV9HeWh6YnpaVHh0aU1iblBiWG9jTGdoTEZrVEtoMzY0VVVOMnM1bGVQZm5BeEM4dDVLTmZtT1VJd0JZd01JZEpfZmV3XzFQM2hnWk0wempFbTBfR2NTbmRIcW1FS0w0ZzEzeEdpLTFIMVlWSGVFcGI2UnhGWmI2RWxGY2FiR0U?oc=5",
     "date": "25 nov.",
     "impact": "baisse"
    }
@@ -256,93 +265,93 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Les options de Snowflake Inc signalent un mouvement de 14% avant les résultats du 2 décembre",
-    "resume": "Le marché des options anticipe un mouvement de 14 % sur l'action Snowflake avant ses résultats.",
-    "source": "Investing.com France",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNR1g0SmIzSlU1RVlFYWhha2E0LTJLSUNVY0NlVTQyeFo3dnpoT2NJbTV3OXg5dm1xN1RmLURveUFYNUtmVVd0ZEtmYnJfdU5kaW1seFdwZk5wZzlLLXhUSC0wWmV1cVhYOWZhZUVhX3pBYnJ4MXhrcm41RzQtUmc4S1JOZmNLTGk3TTFHTll1NDdieDJ2YmoyNDkzTS1EenNKVGRwU2piRG15NjNpRFVYYWU2czRvVktGWmN1RHZ0T2xBSERwUjkzZDY2SGJ1cjdaQVAwZVViY1RRcmxUNWxpbFhKandPV0E?oc=5",
-    "date": "25 nov.",
-    "pourquoi": "Cela signale une forte volatilité attendue sur ce titre technologique. À surveiller pour les investisseurs exposés au secteur du cloud.",
-    "impact": "flat"
-   },
-   {
-    "titre": "L'action Embraer chute alors que les États-Unis proposent un tarif de 10 % sur les avions brésiliens.",
-    "resume": "L'action Embraer chute après une proposition américaine de taxer les avions brésiliens à 10 %.",
-    "source": "Quartz en Français",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0liTEhMbjNwVHpQVW5yTWtvdkduenhqM0xWcFg3NEFWZXdfZ2hIeDBMd2NpVG9RREV0cE9iLVluS3RnaVh3cTRZc0xLNHpVT29xSmxKR1dHaTZJVmV6V3M3bzJRWEZaUVNKb2RpeHBXWVVQWnFVVHh4dlB5X0trbQ?oc=5",
-    "date": "25 nov.",
-    "pourquoi": "Cette mesure protectionniste impacte directement le secteur aéronautique. Il faut surveiller l'évolution des tensions commerciales.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "L'action Laprophan chute de 12 % pour sa première séance de cotation",
-    "resume": "L'action Laprophan a chuté de 12 % lors de sa première séance de cotation.",
-    "source": "Medias24",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWFCR09qZDUzWVE0Q2FaWE1jR1JFU2pjMXBIaHF4b0MtMU5oaVpFMzVGV1VxVHNIc0cyLTExdUZzZHBLM202T3E4aHdqN3N0UUEwNzFVODIzUERwTV9QN1ZZaDYxd2cwS3ZLQjdhblhOcWIydmJOa1hnUHlLd1FLUVA1ZmFxQW1laFhySWt1R21MMV9fSXJFTVdaMG5fQ1pGZ0ZFVVVrU3plUQ?oc=5",
-    "date": "25 nov.",
-    "pourquoi": "Une performance décevante pour une introduction en bourse qui peut refroidir le sentiment sur les nouvelles cotations.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Ambarella dégradé par BofA et Morgan Stanley face à la pression sur la mémoire",
-    "resume": "Ambarella a été dégradée par Bank of America et Morgan Stanley en raison de pressions sur le marché de la mémoire.",
+    "titre": "ElevenLabs vise une valorisation de 33 milliards $ lors de discussions de financement en 2027",
+    "resume": "ElevenLabs vise une valorisation de 33 milliards de dollars pour un financement en 2027.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/stock-market-news/ambarella-degrade-par-bofa-et-morgan-stanley-face-a-la-pression-sur-la-memoire-3713069",
+    "url": "https://fr.investing.com/news/stock-market-news/elevenlabs-vise-une-valorisation-de-33-milliards--lors-de-discussions-de-financement-en-2027-3713401",
     "date": "25 nov.",
-    "pourquoi": "Cela indique des difficultés spécifiques dans la chaîne d'approvisionnement des semi-conducteurs, impactant ce sous-secteur.",
+    "pourquoi": "Cela signale un fort potentiel de croissance continue dans le secteur de l'IA vocale. Surveiller les acteurs de l'IA générative et les technologies audio.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "L'action Edenred chute de 3 % sur fond de montée de Niel",
+    "resume": "L'action Edenred a chuté de 3 % suite à l'entrée de Xavier Niel au capital.",
+    "source": "Idéal Investisseur",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTGx3Qi15cnk1SEdHamNLd1JLZnNKeU9BR3JmcFlWTzRYS3N0TlFxTDBpcDRPN2ZieUtvZ3N6MEwyWHgyX0tyTFhkRzJELUs1V05yZjBIY3lKd1JqTHhndVllM05kNDJjVTVudXhyZUltb1NRdjNKMFExRllGZVpxVkE1bk9sZkRRRFlJd1NaeENwQ2pJR2E5OHAyWll2UDV0cThiWFlmcjZ4NnFS?oc=5",
+    "date": "25 nov.",
+    "pourquoi": "Cette réaction de marché montre l'incertitude des investisseurs face à ce changement d'actionnariat. Surveiller l'évolution stratégique de l'entreprise.",
     "impact": "baisse"
+   },
+   {
+    "titre": "Aroundtown SA relève ses prévisions 2026 après les résultats du T3",
+    "resume": "Aroundtown SA a relevé ses prévisions pour 2026 après de bons résultats au troisième trimestre.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/transcripts/aroundtown-sa-releve-ses-previsions-2026-apres-les-resultats-du-t3-93CH-3713359",
+    "date": "25 nov.",
+    "pourquoi": "C'est un signal positif pour le secteur immobilier commercial européen. Surveiller si cette tendance se confirme chez d'autres foncières.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Les banques de CoreWeave préparent un prêt de 4,5 milliards $ lié à Meta",
+    "resume": "Les banques de CoreWeave préparent un prêt de 4,5 milliards de dollars lié à Meta.",
+    "source": "Investing.com FR",
+    "url": "https://fr.investing.com/news/stock-market-news/les-banques-de-coreweave-preparent-un-pret-de-45-milliards--lie-a-meta-3713351",
+    "date": "25 nov.",
+    "pourquoi": "Cela indique des investissements massifs dans l'infrastructure cloud pour soutenir les ambitions de Meta dans l'IA. Surveiller les fournisseurs de data centers.",
+    "impact": "hausse"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-25T16:16:30+00:00",
-  "resume": "Le marché immobilier français connaît une baisse des prix, notamment en Île-de-France, mais l'accès à la propriété reste difficile en raison des taux et des revenus exigés. Le débat politique sur l'interdiction de louer les passoires thermiques se poursuit, le gouvernement privilégiant la rénovation à l'interdiction. Le Sénat propose d'étendre le Prêt à Taux Zéro jusqu'en 2030 et de l'ouvrir pour chaque naissance.",
+  "updatedAt": "2026-11-25T20:27:58+00:00",
+  "resume": "Le marché immobilier français est marqué par des débats politiques sur l'assouplissement de l'interdiction de louer des passoires thermiques et la fiscalité des résidences secondaires. Les prix affichent des baisses significatives en Île-de-France, tandis que les acheteurs négocient davantage. En parallèle, le Sénat propose d'élargir le Prêt à Taux Zéro pour soutenir l'accession à la propriété.",
   "chiffres": [],
   "items": [
    {
-    "titre": "Prix de l'immobilier en Île-de-France : −13 % pour les maisons, −10 % pour les appartements depuis le pic de 2022",
-    "resume": "Les prix immobiliers en Île-de-France ont nettement reculé depuis leur pic de 2022, avec une baisse de 13 % pour les maisons et de 10 % pour les appartements.",
-    "source": "JeChange",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMllCbk9tVm9PVkwxZkVHaEJvVlJsRHdBaTEtZzMwSGk2V29CRUhwOWtxeXg4aVA0T0VwMWdkZlpLNm1pSzFvRmw0UjFZMF93ODBJOWFxNXBuMGJhS3RNNUJXLWZpSlh0ZnNDd3dVZ3UtTUk4Q2ZpU2lVUGN1N0RIbGpLY1NWeXBtcENDa0hVbVhuMURIRmZJZDFpZ1ljV2FxOE10bWdyX1pGa0c2V1MyekVCT3F3MGRSWkVoMV9aQQ?oc=5",
-    "date": "25 nov.",
-    "impact": "baisse"
-   },
-   {
     "titre": "Passoires thermiques : « Le gouvernement ne portera pas la suppression » de l’interdiction de louer, assure Jeanbrun",
-    "resume": "Le ministre du Logement s'oppose à la suppression de l'interdiction de louer les passoires thermiques, mais souhaite assouplir le calendrier en échange de travaux de rénovation.",
+    "resume": "Le ministre du Logement s'oppose à la suppression de l'interdiction de louer les passoires thermiques, préférant une rénovation à une interdiction, et compte sur la commission mixte paritaire pour revoir le texte.",
     "source": "MySweetImmo",
     "url": "https://www.mysweetimmo.com/2026/11/25/passoires-thermiques-jeanbrun-interdiction-louer/",
     "date": "25 nov.",
     "impact": "flat"
    },
    {
+    "titre": "Prix de l'immobilier en Île-de-France : −13 % pour les maisons, −10 % pour les appartements depuis le pic de 2022",
+    "resume": "Les prix de l'immobilier en Île-de-France ont fortement chuté depuis le pic de 2022, avec une baisse de 13 % pour les maisons et de 10 % pour les appartements.",
+    "source": "JeChange",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMllCbk9tVm9PVkwxZkVHaEJvVlJsRHdBaTEtZzMwSGk2V29CRUhwOWtxeXg4aVA0T0VwMWdkZlpLNm1pSzFvRmw0UjFZMF93ODBJOWFxNXBuMGJhS3RNNUJXLWZpSlh0ZnNDd3dVZ3UtTUk4Q2ZpU2lVUGN1N0RIbGpLY1NWeXBtcENDa0hVbVhuMURIRmZJZDFpZ1ljV2FxOE10bWdyX1pGa0c2V1MyekVCT3F3MGRSWkVoMV9aQQ?oc=5",
+    "date": "25 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Vous vendez une résidence secondaire ? Le Sénat veut taxer la plus-value à 20%, même après 30 ans de détention",
+    "resume": "Le Sénat envisage de taxer la plus-value sur les résidences secondaires à hauteur de 20 %, même après 30 ans de détention.",
+    "source": "Capital.fr",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdXI4cjVac2xxRWRXMlZkVUpKaGkyUTBpSHREZFg5N0RsUHRfY1FqWjlta05TdU1TcWlmeWVjdm9SeDFWZnh0bkh4YUNUa3Y1V0lYa3EtckFvUktWZDVVNzAzdmU1ZFpGVElVOFQ2alVGOWNlbUVySURPRm1iQ1hCcHUzSkI2cWx4eEFoRGZiLTdGQ2JKYTcyNk5BeGoyLU81cldwUTNGSTNlUktZazlQX1F1ZVluSnQtaGczbk9fSkNXTGJzZ0p4c0pkeUdyVFV5aElhN0VabGtmUkI2a3A5UXhR?oc=5",
+    "date": "25 nov.",
+    "impact": "baisse"
+   },
+   {
     "titre": "Prêt à taux zéro : le Sénat le prolonge jusqu'en 2030 et l'ouvre à chaque bébé, ce que ça change pour votre achat",
-    "resume": "Le Sénat a voté la prolongation du Prêt à Taux Zéro jusqu'en 2030 et son extension pour chaque nouvelle naissance afin de soutenir l'achat immobilier.",
+    "resume": "Le Sénat propose de prolonger le Prêt à Taux Zéro jusqu'en 2030 et de l'ouvrir pour chaque nouvelle naissance.",
     "source": "Capital.fr",
     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOUFdwWTJRd0xzc1UzZER6YnVBRDB0ZWluS21TbXJmRWtPaDAxc1ZJZzlfeXZfT3BjMWVhNHlLanQ0OGtkekwwN1dsb0lNZkZiNUI4VTc4TkZBMl93WEpmWl9DQ25uQnZKR0JEeWlJcEV2aHhrWUhXRkNTRlotWnpSc1ZuMG51dWk1SnljaG1EbVBFRFdBRFdMTGNoMEpwVU5FcFVTUmN2SjQ4ejBNZUYtR0hvMXZSbmFUc0I2WjlJdHdLSkMzQUc4UHFnbnRZdVprVkhUS0dvdmZYV3RXQWlfQllTVlBQLUU?oc=5",
     "date": "25 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "Immobilier : combien faut-il gagner pour acheter 75 m² dans les grandes villes de France ?",
-    "resume": "Une étude souligne l'importance des revenus nécessaires pour acquérir un logement de 75 m² dans les grandes villes françaises, illustrant les difficultés d'accès à la propriété.",
-    "source": "Planet.fr",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQU91Q1lFYVhMR3VxaFhDVmlCMkVoRUozdi1RM3Nyalh1TkxINUY3VHRCWGljT1pVNXJya3JRUGx6RU5Gb2NBbHN3Y1JVWnlLWXBHRnd1YkFwbEtzeVctTXY3RTVVcmkyajFGQjJjUkpyV0hHQkh2a1h3MXVxeDFIUHM1ZDF6VUl5VE04MVpHX0hxay03ZEFMNEhUbm1Nak9mcW9QTjlOSTVQNkJpLURkWVViSEJEelQ1Y3RReER1aEVGMmJidnZj?oc=5",
-    "date": "25 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "LMNP : Ne pas revenir sur la réforme aurait été «une trahison de la parole de l’Etat» pour le ministre du Logement",
-    "resume": "Le ministre du Logement a confirmé le maintien de la réforme de la fiscalité LMNP, estimant qu'un retour en arrière serait une trahison des engagements de l'État.",
-    "source": "Yahoo Finance France",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0RlR1FIWi1EV0dGUWxBdl84Q2EweWY5dGF1TENYY29PaExnTmtXMXJJLXpoNkRPUklVVlF1cEl4LUkxajhjWElLVVRadzg2Q1EzaXNHTm81TkFnNUNaWl9makstMWxfTkF6emNwNzBHUjVBMXZfYnk4QVVYX0tPQ09zLUEyd1JtUkUxLXk4VDRrRkQw?oc=5",
+    "titre": "Immobilier : les acheteurs négocient en moyenne près de 5 % du prix",
+    "resume": "Les acheteurs immobiliers parviennent à négocier en moyenne près de 5 % du prix affiché des biens.",
+    "source": "SeLoger",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQblBkbGQ5Z3diV1Y3WmpmSFVwTE16T3BSZlBVLVNkRjVIWUpjaU1OY3JUbE9QLTVOMUN6QjlPNV9LNEpOSUF5NTY0bWt3dVIxaHRSd2xTTnZjcGc5Tmt0aUhVZlRlM1BnUzNSUzViRzRNUkJMX3h0THNFMU5HTHc3cTNFSjA2bC1PekJMNU5ZZWRJbUJzbDZZRFJzTnhnZUxpclg3RGxFSVhwM0tBWUpjWGhUQ1RqeVpIeTZSbWk5aXhKY2c?oc=5",
     "date": "25 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Parmi les escroqueries en plein essor, l’arnaque au faux courtier immobilier fait des ravages",
-    "resume": "Les arnaques au faux courtier immobilier sont en forte augmentation, représentant un risque accru pour les particuliers en recherche de financement.",
-    "source": "Le Figaro",
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOODVyQTFlTWtaZHl2b3Q1WWFSakNPYWpEekFoN19lQVpHbU5hTklfeEltdXJkN2lxaW1JNXJjd1ZES0tyY3RCN21yZ3ZJN0JKNF9zelRNNXUzSVBtVGRRYTJfSHZJWGJaSU1DUExzWV9JS2NJd014V29GWkFtLUhWa1MwUlY3THc1RXZ1ZlcxaEpaM2F2TGlRTGxvRUgzcmcwMUpYMG4tT2xzRjJYdkl3TmZWdmw0bVFMVmF2VUFLaThaTnJ5eXh2UjM5SFJ5UDZyUVcwRHM2VkZuMHJOajlFZ2FVMGNMcDB0cnhSUlp1WU5nZzdv?oc=5",
+    "titre": "LMNP : Ne pas revenir sur la réforme aurait été «une trahison de la parole de l’Etat» pour le ministre du Logement",
+    "resume": "Le ministre du Logement confirme le maintien de la réforme du régime fiscal LMNP, invoquant le respect de la parole de l'État.",
+    "source": "Yahoo Finance France",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0RlR1FIWi1EV0dGUWxBdl84Q2EweWY5dGF1TENYY29PaExnTmtXMXJJLXpoNkRPUklVVlF1cEl4LUkxajhjWElLVVRadzg2Q1EzaXNHTm81TkFnNUNaWl9makstMWxfTkF6emNwNzBHUjVBMXZfYnk4QVVYX0tPQ09zLUEyd1JtUkUxLXk4VDRrRkQw?oc=5",
     "date": "25 nov.",
     "impact": "flat"
    }
@@ -351,30 +360,30 @@
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Paris : ces sept arrondissements où les prix de l’immobilier ont augmenté de plus de 2 % en 2026",
-    "resume": "Sept arrondissements parisiens ont vu leurs prix immobiliers grimper de plus de 2 % en 2026, à contre-courant de la tendance générale.",
-    "source": "Le Parisien",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdnRaLXByZ0VlbmdGUElLd3FuNjczNC10MGJhUG5zTjBfRzd3QWJOZmlfeUZ5NDctNVBHWXZsaGJBLWJBNEY4bnFfeEl3XzkxWUZMaWxjVW1xd0xRMWNaUXU3SUwtT2xOT3pSRnlsR2ZETkh5aHBpOXNJWlVFbzBlaXpEX1pIcVQtVDZOV3FjX2c1S3R6Sk1qOHJyaTRkdEhpbEFrTi1rbUFMcUp6MkRCeUVDTkMzMUpYZEVVWWJzZm1oR0hMdGdCakxfVTJYTnFJQk0xZHlCUkpvMk4zVlFmeXU0ZVFBT3VQZUZyNi1Od1IwRGRGbFdWZzhYYjZBT2M?oc=5",
+    "titre": "Un découvert bancaire ou un paiement en 3 fois sont désormais des crédits",
+    "resume": "Les découverts bancaires et les paiements en plusieurs fois sont désormais considérés comme des crédits.",
+    "source": "Empruntis",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQXM1VmxyQjNvbkpaNVM5ZF9vOGNmR2VGbXVyelRJOTFtdXFVTFdmc2Nvcng4NWE5emtBRUhYSi1WVWxtMWlvaERzWDdCSzJtNTlPcXc5N1lJQmdydEJQWkRpeVRRaE5XdkdsS1FpZFA0YWI0UGtBbEpjelVYb3IzWXNWU2FCeW5jcE1wNEo0TXZGaUtFMDNkT0ljZnJWb2xGTE1SSEVLaE1pQWNscmt6MU8tQVdsNFhZQnRUVEdVYkhRb29IcjRRU2RzLUlYcWc4NFU0?oc=5",
     "date": "25 nov.",
-    "pourquoi": "Cela indique des micro-marchés très résilients à Paris. Utile pour cibler des investissements de luxe ou patrimoniaux très spécifiques.",
-    "impact": "hausse"
+    "pourquoi": "Cela pourrait impacter la capacité d'emprunt des jeunes investisseurs en augmentant leur taux d'endettement.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Encadrement des loyers : la rentabilité résiste à Paris",
+    "resume": "Malgré l'encadrement des loyers, la rentabilité locative résiste à Paris.",
+    "source": "Pretto",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSzRxTjNBdS1PMVR0VmlDbVpUaFhZUHpORFJDSlh0bk9BVXhYalBtelo1eXRrZWozYWR3ajNqc0Izc3dvQ3h6ZUl0SUtNeUx3UmdoalY0UG52b3Z4ZjltUjRaRnFwb2MtMEhsNGhjOUpETy1ObXpzWlhKNnZ4emJIbnJlTU1oczA1U2pVVjBMRjc5R29yY0JOc0VreTZzb2wzc1JtbThSMjVqTDlEMUo4eDVkQTRSZHc?oc=5",
+    "date": "25 nov.",
+    "pourquoi": "Cela signale que l'investissement locatif parisien reste attractif malgré les contraintes réglementaires.",
+    "impact": "flat"
    },
    {
     "titre": "Investir à Dijon : la Fontaine d’Ouche peut-elle vraiment offrir 13 % de rentabilité locative ?",
-    "resume": "Le quartier de la Fontaine d’Ouche à Dijon pourrait offrir jusqu'à 13 % de rentabilité locative.",
+    "resume": "Une rentabilité locative potentielle de 13 % est évoquée pour le quartier de la Fontaine d’Ouche à Dijon.",
     "source": "LeSiteImmo",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdTBndU9uVDNCbUJoNnhBbmZLNmV4bTkzVDhHeVJEYmdhSjhLT2VnWmh0OXZRM1pEYVF1azBtLU05RzFmZkQxeHNKdmxFRDgtVXBpdHZXTFJocVczVlU3bzduYnlBamk5OE9mb0RhQkc1TmNwT2FmZWwyLUhBeDcxWmQzLUViQW02OXRZ?oc=5",
     "date": "25 nov.",
-    "pourquoi": "Signale une opportunité de rendement brut très élevé dans une ville moyenne. À surveiller pour les stratégies de cash-flow, en analysant les risques locaux.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Budget 2027 : le Sénat vote pour l'extension de l'Eco-PTZ aux équipements de protection contre les fortes chaleurs",
-    "resume": "Le Sénat propose d'étendre l'Eco-PTZ aux équipements de protection contre les fortes chaleurs.",
-    "source": "MoneyVox",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY2g0ODJ3ME9ObU1Help6Wk82ejlMbFlUbFd1bHd0dWZ3Vks1OTdoOV90NVFJLUFvbENXVTBtRlBBNW1uRlMxTm5Laks5WVNjbmFFaU9JYXBEMVZTM3ZSREt1X0VkV2p3Y2dJWGlXTFhJb0lIbnBMU1RGVm5KQTdXTUFOWnFuZEhfN1U0UnlPT3E3VlR4NGg3LXo1SVU1QkFCdVRBRFh0ZTZDZDVTa3pDT05Qb2lJakh5aWtJdUpjaXpUWG16Umt4Tlh2R0ktVVR5Y3BhbU9QTlZQcFVTNUNTMXlfNlhjV1N2dHlHOXFR?oc=5",
-    "date": "25 nov.",
-    "pourquoi": "Cette mesure fiscale pourrait valoriser les biens équipés et financer des travaux d'adaptation climatique. Utile pour la rénovation de patrimoine.",
+    "pourquoi": "C'est un signal pour les investisseurs à la recherche de rendements élevés dans des zones spécifiques.",
     "impact": "hausse"
    }
   ]
