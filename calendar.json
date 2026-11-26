@@ -1,22 +1,6 @@
 {
-"updatedAt": "2026-11-25T22:40:22+00:00",
+"updatedAt": "2026-11-26T06:17:15+00:00",
 "events": [
-{
-"d": "2026-11-25T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "Inflation PCE sous-jacente",
-"sub": "🇺🇸 États-Unis · prévu 0.3% · précédent 0.3%",
-"imp": 3
-},
-{
-"d": "2026-11-25T08:30:00-05:00",
-"allday": false,
-"cat": "macro",
-"title": "PIB (estimation préliminaire)",
-"sub": "🇺🇸 États-Unis · prévu 3.5% · précédent 3.4%",
-"imp": 3
-},
 {
 "d": "2026-12-02T22:05:00+01:00",
 "allday": false,
@@ -60,6 +44,24 @@
 "title": "Décision de taux de la Fed",
 "sub": "Réserve fédérale américaine · conférence de presse 30 min après",
 "imp": 3
+},
+{
+"d": "2026-12-09T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats de Broadcom",
+"sub": "AVGO · après la clôture de Wall Street · trimestre clos Oct/2026",
+"imp": 2,
+"tick": "AVGO"
+},
+{
+"d": "2026-12-09T22:05:00+01:00",
+"allday": false,
+"cat": "resultats",
+"title": "Résultats d'Adobe",
+"sub": "ADBE · après la clôture de Wall Street · trimestre clos Nov/2026",
+"imp": 2,
+"tick": "ADBE"
 },
 {
 "d": "2026-12-17T14:15:00+01:00",
