@@ -1,30 +1,48 @@
 {
  "general": {
-  "updatedAt": "2026-11-28T11:29:18+00:00",
-  "resume": "La France est officiellement entrée en récession technique au troisième trimestre, tandis que l'agence S&P menace de dégrader la note de sa dette. Le week-end du Black Friday se poursuit avec de nombreuses offres, notamment dans le secteur de la tech. Sur le plan politique, l'ancien président François Hollande envisage une candidature pour l'élection présidentielle de 2027.",
+  "updatedAt": "2026-11-28T15:52:52+00:00",
+  "resume": "En France, de nombreuses manifestations ont dénoncé les violences sexistes, tandis que le Sénat a voté une contribution financière pour les détenus. À l'international, la situation politique est tendue en Espagne et en Albanie, et le Panama envisage de rouvrir une importante mine de cuivre. Le week-end est également marqué par la poursuite des promotions du Black Friday sur de nombreux produits technologiques.",
   "chiffres": [],
   "items": [
    {
-    "titre": "La France en récession: \"Il faut augmenter l’ensemble des niveaux de salaires\" pour relancer la consommation et l’économie du pays, estime Agathe Le Berder, secrétaire confédérale de la CGT",
-    "resume": "L'Insee a revu à la baisse la croissance française, affichant un recul du PIB de 0,2% au troisième trimestre, ce qui place le pays en récession technique.",
+    "titre": "Manifestations partout en France contre les violences faites aux femmes",
+    "resume": "Des milliers de personnes ont manifesté dans plusieurs villes de France pour lutter contre les violences faites aux femmes.",
+    "source": "France 24",
+    "url": "https://www.france24.com/fr/vid%C3%A9o/20261128-manifestations-partout-en-france-contre-les-violences-faites-aux-femmes",
+    "date": "28 nov.",
+    "impact": "flat",
+    "categorie": "France"
+   },
+   {
+    "titre": "Elections législatives en Espagne : l’ultime pari de Pedro Sanchez",
+    "resume": "Le premier ministre socialiste espagnol Pedro Sanchez joue son avenir politique lors d'élections législatives décisives ce dimanche.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/international/visuel/2026/11/28/elections-legislatives-en-espagne-l-ultime-pari-de-pedro-sanchez_6816122_3210.html",
+    "date": "28 nov.",
+    "impact": "flat",
+    "categorie": "Monde"
+   },
+   {
+    "titre": "Elle représentait 75% des exportations du pays et 5% de son PIB: le Panama veut rouvrir sa gigantesque mine de cuivre car la laisser fermée lui coûte trop cher",
+    "resume": "Le Panama souhaite relancer l'exploitation de sa plus grande mine de cuivre, fermée depuis 2023, pour des raisons économiques.",
     "source": "BFMTV",
-    "url": "https://www.bfmtv.com/economie/consommation/video-la-france-en-recession-il-faut-augmenter-l-ensemble-des-niveaux-de-salaires-pour-relancer-la-consommation-et-l-economie-du-pays-estime-agathe-le-berder-secretaire-confederale-de-la-cgt_VN-202611280254.html",
+    "url": "https://www.bfmtv.com/economie/international/elle-representait-75-des-exportations-du-pays-et-5-de-son-pib-le-panama-veut-rouvrir-sa-gigantesque-mine-de-cuivre-car-la-laisser-fermer-lui-coute-trop-cher_AD-202611280328.html",
     "date": "28 nov.",
     "impact": "flat",
     "categorie": "Économie"
    },
    {
-    "titre": "«C’est un avertissement», réagit Roland Lescure à la perspective négative de S&P sur la dette française",
-    "resume": "L'agence de notation S&P a émis une perspective négative sur la dette française, une annonce perçue comme un avertissement par le gouvernement.",
-    "source": "Le Figaro",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQThSOUUzcGV6b2FLM1hSYTNvX3ZUbFNWZHlFX3J0V01TSGZ6d1FWZHA1VUpCRFJua0V3MXZoejZTcXFpSlNWOTFHRXlHaXAwNmlZSVZDU1J3V2pXblZfbnhxVW5yZ3JlaC1mdHhEeDV4R1Z5ZTBBaW52ZTBfbWFNcnZaMDdiNUlYamZxbk9qQUVRUDVPVzRpWWplUm9hdF96LWJydXFiYVF1ZUdjQUVLbDJHZUxBeWxacXBEYUgtdnY2WmozU3pUNUFnRmF6TjVSYnlLMHpUYlQ4SXRzZHc?oc=5",
+    "titre": "Cinq euros par jour de prison : le Sénat vote en faveur d’une contribution pour les détenus",
+    "resume": "Le Sénat a approuvé une mesure obligeant les détenus disposant de ressources suffisantes ou travaillant à contribuer aux frais d'incarcération.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/politique/article/2026/11/28/cinq-euros-par-jour-de-prison-le-senat-vote-en-faveur-d-une-contribution-pour-les-detenus_6816114_823448.html",
     "date": "28 nov.",
     "impact": "flat",
-    "categorie": "Économie"
+    "categorie": "France"
    },
    {
-    "titre": "C’est parti pour le week-end du Black Friday : voici le TOP 100 des meilleures offres Tech",
-    "resume": "Les promotions du Black Friday continuent tout le week-end chez les principaux e-commerçants, concernant de grandes marques technologiques.",
+    "titre": "C’est le week-end du Black Friday : voici le TOP 100 des offres qui méritent votre argent ce samedi",
+    "resume": "Les promotions du Black Friday se poursuivent tout le week-end, touchant divers produits de grandes marques technologiques.",
     "source": "Frandroid",
     "url": "https://www.frandroid.com/bons-plans/3344493_cest-parti-pour-le-week-end-du-black-friday-les-meilleures-offres-tech-en-direct-sont-ici",
     "date": "28 nov.",
@@ -32,39 +50,21 @@
     "categorie": "Tech"
    },
    {
-    "titre": "Présidentielle 2027: François Hollande assure qu'\"au mois de janvier ou février, il y aura une prise de décision\"",
-    "resume": "L'ancien président François Hollande a annoncé qu'il prendrait une décision concernant une éventuelle candidature à la présidentielle de 2027 en début d'année prochaine.",
-    "source": "BFMTV",
-    "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-presidentielle-2027-francois-hollande-assure-qu-au-mois-de-janvier-ou-fevrier-il-y-aura-une-prise-de-decision_VN-202611280260.html",
-    "date": "28 nov.",
-    "impact": "flat",
-    "categorie": "France"
-   },
-   {
-    "titre": "Élections législatives en Espagne: «Nous pouvons les qualifier d'historiques»",
-    "resume": "L'Espagne s'apprête à voter pour des élections législatives décisives, marquées par des débats sur l'immigration et le coût de la vie.",
-    "source": "RFI",
-    "url": "https://www.rfi.fr/fr/europe/20261128-%C3%A9lections-l%C3%A9gislatives-en-espagne-nous-pouvons-les-qualifier-d-historiques",
+    "titre": "En Albanie, des milliers de personnes manifestent contre le pouvoir ; de nouveaux heurts avec la police à Tirana",
+    "resume": "En Albanie, des manifestations contre le pouvoir ont donné lieu à des heurts violents avec la police à Tirana.",
+    "source": "Le Monde",
+    "url": "https://www.lemonde.fr/international/article/2026/11/28/en-albanie-des-milliers-de-personnes-manifestent-contre-le-pouvoir-de-nouveaux-heurts-avec-la-police-a-tirana_6816115_3210.html",
     "date": "28 nov.",
     "impact": "flat",
     "categorie": "Monde"
-   },
-   {
-    "titre": "Manifestations : nouvelle journée de mobilisation samedi, notamment contre les violences faites aux femmes",
-    "resume": "Des manifestations ont eu lieu dans plusieurs villes de France pour dénoncer les violences faites aux femmes.",
-    "source": "franceinfo",
-    "url": "https://www.franceinfo.fr/societe/manifestations/direct-manifestations-nouvelle-journee-de-mobilisation-samedi-notamment-contre-les-violences-faites-aux-femmes_8304345.html#xtor=RSS-3-[lestitres]",
-    "date": "28 nov.",
-    "impact": "flat",
-    "categorie": "France"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview"
  },
  "crypto": {
-  "updatedAt": "2026-11-28T11:29:18+00:00",
-  "resume": "Le marché des cryptomonnaies connaît une forte baisse, le Bitcoin chutant sous les 60 000 $ et menaçant de confirmer un signal technique négatif. Parallèlement, le projet crypto lié à Donald Trump s'effondre, tandis que les grandes banques russes commencent à intégrer le trading de crypto-actifs.",
+  "updatedAt": "2026-11-28T15:52:52+00:00",
+  "resume": "Le Bitcoin est repassé sous la barre des 60 000 dollars, entraînant une baisse générale du marché crypto et des sorties massives des ETF. Parallèlement, le token WLFI lié à la famille Trump a chuté de 50 % suite à des ventes d'Ethereum à perte. L'Union européenne prépare une refonte de son registre pour mieux identifier les plateformes non conformes d'ici 2027.",
   "chiffres": [
    {
     "label": "Bitcoin (BTC)",
@@ -93,89 +93,89 @@
   ],
   "items": [
    {
+    "titre": "Cours Bitcoin : le BTC retombe sous les 60 000 dollars, trois signaux inquiètent le marché",
+    "resume": "Le cours du Bitcoin est repassé sous les 60 000 dollars, provoquant une inquiétude généralisée sur le marché.",
+    "source": "Actu Crypto .info",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQWZUSmVnN2wtNWtBSi1JcG51Rl9pZ1FtT2pwRTZoaEVySzZZblVtcm80bWlxQnN0QXp4TGNSU3o3Z3lWSDAyZTlIQXYwOWh3WHB2U25kM0lKeUF6WW9yYlpCUklUcWxrZVdtbEFxMDdDOGJUc2JUSUhxXzhYVjdGSTduYWI?oc=5",
+    "date": "28 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Les ETF spot sur le Bitcoin et l’Ethereum enregistrent des sorties nettes de US$ 389 M et US$ 69,27 M",
+    "resume": "Les ETF spot Bitcoin et Ethereum ont enregistré des sorties nettes importantes, totalisant respectivement 389 millions et près de 70 millions de dollars.",
+    "source": "portalcripto.com.br",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMEZnX01CdERyZWlwNVpQZDFXenVXaFFWN3VDVm9KVFRJUEpTOEQzY2pzd3VWTmpWbUFaUXN0NW1NUXRYUUVLcGV6Q3BVSlpoUzUzaVJWOXpCOXJwdEN3UnprT3BUaHFCbnNBWEFkTzJUXzMwNEl1eTl4Mi02MUVqM1FhWHBZMjRNZS02b3pFN05NdjByT3VOWnU5MWxvMkJLV1FIakM2VllJQ3Z3NnltVEZ3dklmYmxQOThRM0hrOVVDN2xwUzZOOVl3?oc=5",
+    "date": "28 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le WLFI chute de 50 % : que se passe-t-il avec la crypto des Trump ?",
+    "resume": "Le token World Liberty Financial (WLFI), associé à Donald Trump, a perdu la moitié de sa valeur après des opérations de vente d'Ethereum.",
+    "source": "Cryptoast",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRUnRYVGFxY1p5Y0VMMVMtRktxaWlKcVZjOEJ0YWtsQ3NmUHZsdk5pZDNVLWh0MWVHT0ZXRkZucWc2Zk1QLTFMeVJiekFBWlpaQVVoUTlIQ3Yzd1ZrX3dXQmFIeFFQUllUQjlZeFl4S0g?oc=5",
+    "date": "28 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Crypto : L’UE veut faciliter l’identification des plateformes non conformes",
+    "resume": "L'Union européenne prévoit de centraliser et de renforcer la surveillance des plateformes crypto non conformes via un nouveau registre pour 2027.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/crypto-lue-veut-faciliter-lidentification-des-plateformes-non-conformes/",
+    "date": "28 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "La plateforme d'échange crypto Bybit refuse de publier le rapport complet sur le piratage de 1,4 milliard de dollars",
+    "resume": "La plateforme Bybit refuse de divulguer le rapport complet concernant un piratage massif de 1,4 milliard de dollars.",
+    "source": "CoinDesk",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSUtGeWRTVy1IZnJvTlFDZ2piZ2dBbXRDN3FkT2hXNlpHR3N3YnRvVjFHbGg1SktseVJhSmpiZnNIVE5Eaml2bjd2REFTTi12TVA4RnNJOFdPRDE0YUtiWWdldmRnZlI5STVKWmluUUY4ZTlsbmgtc0RvTDNSdnpNbWdJVXNvN1RycEU3QTV4dHFaVmQzbTIyb25mMFo3ZjFUbFhKU2ppMjJGMlVnZnFjalpPSXJKeklwR1Nz?oc=5",
+    "date": "28 nov.",
+    "impact": "flat"
+   },
+   {
     "titre": "Le Bitcoin approche d’un death cross, le 14e de son histoire",
-    "resume": "Le Bitcoin s'approche d'une 'croix de la mort', un signal technique où les moyennes mobiles à court terme croisent celles à long terme, pouvant annoncer une baisse durable.",
+    "resume": "Un signal technique baissier, appelé « death cross », menace de se former sur le graphique du Bitcoin.",
     "source": "Cointribune",
     "url": "https://www.cointribune.com/le-bitcoin-approche-dun-death-cross-le-14e-de-son-histoire/",
     "date": "28 nov.",
     "impact": "baisse"
-   },
-   {
-    "titre": "Le WLFI soutenu par Trump chute de 50 % alors que World Liberty vend son Ethereum avec une perte de 19 millions de dollars",
-    "resume": "Le token WLFI soutenu par Donald Trump a perdu la moitié de sa valeur suite à des ventes massives d'Ethereum par l'entité gestionnaire du projet.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/wlfi-chute-world-liberty-vente-ethereum/",
-    "date": "28 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Bitcoin : La deuxième plus grande banque russe se lance dans le trading",
-    "resume": "VTB, la deuxième plus grande banque de Russie, permet désormais à ses clients d'acheter et de vendre des cryptomonnaies directement via son application d'investissement.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/bitcoin-la-deuxieme-plus-grande-banque-russe-se-lance-dans-le-trading/",
-    "date": "28 nov.",
-    "impact": "hausse"
-   },
-   {
-    "titre": "Cours du bitcoin à 59 600 $ : 8e jour de sorties des ETF",
-    "resume": "Les ETF Bitcoin affichent leur huitième jour consécutif de sorties de capitaux, accentuant la pression vendeuse sur le marché.",
-    "source": "CryptoTicker.io",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkVyRW9OYU1zTlhWZ2tGb3BoVDdUTEJtY1hpakJkUzdXdGpTZXNhQ2xoVnFjT3p2ektjb3ZZMlZBTTVmMVdTQ0JGY2YwZkNFcmI2RjFWWjJyV2c5Mjd0WUNGSDhBMXBzU3h0ZmZyanhHNVhEVFJCZ29hNTFLMktxM3g1SjZ1bTZL?oc=5",
-    "date": "28 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Les baleines ont raflé 121 000 bitcoins en pleine baisse de 30 %",
-    "resume": "Malgré la chute des cours, les adresses détenant entre 1 000 et 10 000 BTC ont accumulé plus de 121 000 bitcoins supplémentaires récemment.",
-    "source": "Cointribune",
-    "url": "https://www.cointribune.com/les-baleines-ont-rafle-121-000-bitcoins-en-pleine-baisse-de-30/",
-    "date": "28 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Le PDG d’OKX dément les rumeurs de hack à 2 milliards de dollars après la panique crypto de vendredi soir",
-    "resume": "Le PDG de la plateforme OKX a démenti les rumeurs d'un piratage massif de 2 milliards de dollars qui avait provoqué de la panique sur le marché.",
-    "source": "BeInCrypto FR",
-    "url": "https://fr.beincrypto.com/okx-ceo-dementi-rumeur-piratage-2-milliards/",
-    "date": "28 nov.",
-    "impact": "flat"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "ETF crypto : pourquoi XRP résiste aux retraits massifs ?",
-    "resume": "L'actif XRP résiste aux retraits massifs observés sur les autres produits ETF crypto.",
-    "source": "Actu Crypto .info",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeldFb2NfdTlyM1hSem1kV2NQc1dHSGZZUUlrXzVtWndKUDF3NFNHb3A3TF9FOTQ3VEhnWE0zNnREM29EcnNuNEpHWEwzSnUwekE5WTJNRGZPMkthT2J6ZUdpS0FWdFE3RlFRVmxtaml2TGlRZ1M3UzVJNlVmdGVhNExaVV9kdXpqdnc?oc=5",
+    "titre": "Shiba Inu : Shibarium donne un nouveau souffle à son écosystème gaming",
+    "resume": "Shiba Inu développe son écosystème gaming via Shibarium pour réduire sa dépendance à la spéculation.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/shiba-inu-shibarium-donne-un-nouveau-souffle-a-son-ecosysteme-gaming/",
     "date": "28 nov.",
-    "pourquoi": "Cela indique une force relative du XRP face au reste du marché, à surveiller pour d'éventuelles divergences.",
+    "pourquoi": "Cela concerne le secteur des memecoins et pourrait indiquer une transition vers plus d'utilité concrète pour le token SHIB.",
+    "impact": "flat"
+   },
+   {
+    "titre": "Bitcoin : La deuxième plus grande banque russe se lance dans le trading",
+    "resume": "La deuxième plus grande banque russe, VTB, permet désormais à ses clients de trader des cryptomonnaies.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/bitcoin-la-deuxieme-plus-grande-banque-russe-se-lance-dans-le-trading/",
+    "date": "28 nov.",
+    "pourquoi": "Cela montre une adoption institutionnelle croissante dans certaines régions, malgré un contexte de marché difficile.",
     "impact": "hausse"
    },
    {
-    "titre": "Binance reçoit une approbation de principe et prévoit un hub asiatique au Bhoutan",
-    "resume": "Binance a reçu une approbation de principe pour établir un hub régional au Bhoutan.",
-    "source": "TradingView",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HUFZFV0pBSFc5MnB3RTF2c20xQlJtYWpjZXVVNlo3aDRORWp1d1lVd0VENFU1R2wwY0thNXB4OUctR3lhYnpIR0cyWnBLWERWdnNzaGg0S05fdkx6Y3NjZGp2ZXR6RllmZVd4OGIwRQ?oc=5",
+    "titre": "Les baleines ont raflé 121 000 bitcoins en pleine baisse de 30 %",
+    "resume": "Les adresses détenant entre 1 000 et 10 000 BTC ont accumulé plus de 121 000 bitcoins pendant la récente baisse.",
+    "source": "Cointribune",
+    "url": "https://www.cointribune.com/les-baleines-ont-rafle-121-000-bitcoins-en-pleine-baisse-de-30/",
     "date": "28 nov.",
-    "pourquoi": "L'expansion réglementaire de Binance en Asie continue malgré les défis ailleurs, ce qui peut influencer le sentiment sur le BNB.",
+    "pourquoi": "Ce comportement d'achat des « baleines » peut signaler la formation d'un support de prix potentiel.",
     "impact": "hausse"
-   },
-   {
-    "titre": "L'Espagne veut geler des comptes crypto sans autorisation judiciaire",
-    "resume": "L'Espagne envisage de permettre le gel de comptes crypto sans autorisation judiciaire préalable.",
-    "source": "Bitcoin News",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV3NtUUVuaWVFSjRab0VVMy1mYXFZaUxfT2wtVkZsTDZ4dVdTNmNhZkZORG9UdlRKYW96M2ZqX05WREpNOXRSbnkxTklhUmFpTWZYYXM5d3UyaE5OTGtLeThLVThXd2YxMno5ekhuYVZZNWZtMmpFOEtQVFlJUThHU1VHVm42SmRreWpfY1k5eGRmbGItUnVXY1RwRXZvSmxjT2U0amEyMW5vSW80Nm5LSU9lalF1X0Yw?oc=5",
-    "date": "27 nov.",
-    "pourquoi": "Une réglementation plus stricte en Europe pourrait affecter la liquidité et la liberté des utilisateurs sur le continent.",
-    "impact": "baisse"
    }
   ]
  },
  "actions": {
-  "updatedAt": "2026-11-28T11:29:18+00:00",
-  "resume": "Les marchés financiers affichent une divergence entre classes d'actifs, l'or rebondissant tandis que les investisseurs attendent les décisions de la Fed et de l'OPEP+. Le fonds souverain norvégien s'oppose à nouveau à la rémunération d'Elon Musk chez Tesla, alors que des déblocages d'actions SpaceX sont prévus pour décembre. En Europe, l'attention se porte sur la future politique monétaire de la BCE et les publications d'inflation attendues.",
+  "updatedAt": "2026-11-28T15:52:52+00:00",
+  "resume": "L'inflation inquiète de nouveau en zone euro et aux États-Unis, mettant la pression sur les banques centrales. Wall Street affiche une performance solide tandis que le marché scrute les décisions à venir de la Fed et de l'OPEP+. Plusieurs dirigeants d'entreprises américaines ont récemment vendu des actions de leur société.",
   "chiffres": [
    {
     "label": "Nvidia (NVDA)",
@@ -204,126 +204,118 @@
   ],
   "items": [
    {
-    "titre": "La divergence entre classes d’actifs s’accentue, l’or rebondit, l’Asie repart à la hausse et les investisseurs se préparent aux décisions de la Fed et de l’OPEP+",
-    "resume": "Une divergence s'accentue entre les classes d'actifs, avec un rebond de l'or et une hausse en Asie, alors que les investisseurs anticipent les prochaines réunions de la Fed et de l'OPEP+.",
-    "source": "VT Markets",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMEpRdlAwckozRG5rdGxnQWM1UmhQUkNaT01vdkFVaVF4c2ZzaFJWY3FOZ0stOEJaVVN2TjNDS18xeHpyWVMwOXpJTklET3pFTEFHQ1o5Wm9vZUdrR3hfRmpPaTh3Q2xwWHpiSTFGTFJXWXdrVVBUc29sSktHT0xSOHFWSzF6R09sTEZPNi1OQkFuNUJzZDhHOEtzams3NFFCRU9IRkJrbzZsemdTa2NnZ1lXTkhLVUNyNUVTdTQzOG9ENnFCY0lNamQ2eUtSdldyN1pxV0FqamUzNWNmSnFWcFJxdlowazQ?oc=5",
+    "titre": "Zone euro : les anticipations d’inflation repartent à la hausse, la BCE sous pression",
+    "resume": "Les anticipations d'inflation repartent à la hausse en zone euro, ce qui pourrait contraindre la Banque Centrale Européenne à ajuster sa politique monétaire.",
+    "source": "Leconomiste Maghrebin",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTUloWm1maVBlUnEwa1MwXzBtNFNaa0o2NHJSTm56cGVDSklFeUhLOGFUZi1rVnhHS1hibGN4THl3cUJFbGUxRVQydmRmMlhHdVN6VG41dVF5VXpRaUZFczNHanVpYzkyS3dhSHBUb1RCSTF3T3ZoaTZzSTNkLVJfYmRpNldYLV90TlJ5c0ZHWkZkOGJYT3czTjhRSlgyRFZjTWlab1VKYnYtT0JjbHVFemZMNlRmQnltZ2pqZmlscW5oWTFzVGljSGtn?oc=5",
     "date": "28 nov.",
-    "impact": "flat"
+    "impact": "baisse"
+   },
+   {
+    "titre": "États-Unis : les salaires repartent à la hausse, le spectre d'une inflation durable inquiète les marchés",
+    "resume": "Aux États-Unis, une reprise de la hausse des salaires fait craindre une inflation durable, préoccupant les marchés financiers.",
+    "source": "FranceTransactions.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkVPRTR1RHBsZ2tSM2xST05XOTdBaVB1YjNkY2dDeUVFZm9sT1ZqRThiUTNibDBJbURWdGFFNjEycmtjQk8wM0Q1d3hQbTFJNUlISXcydUpHZUtQVlB6U2RXOEJnNEtPdGlWUmkzZmVSWEE1WmpOX1BaelVDZE9nektzQTRCTi1QOXV4R0JMZDFYdnVGZWxCdmItaGxZbTBOS2ktcWR4blhLUG95c1MxQlMzUGM?oc=5",
+    "date": "28 nov.",
+    "impact": "baisse"
+   },
+   {
+    "titre": "Le bitcoin à la traîne, Wall Street à son meilleur depuis 2022",
+    "resume": "Wall Street connaît sa meilleure période depuis 2022, contrastant avec la performance en retrait du bitcoin.",
+    "source": "Bitcoin News",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc3B3M0hnLW10MTVqSzNCQ0l5Y2hRTDdiRFFxVEw3UmRITEdVdmVoMUFPN0pUWUEtcmRWdm9qaDktTlRhSF9XY280Mmt0ZkdTQkI4dVZGVUhVR2NRa1pnNUU5a3liSU5ZU05BR2Y4aFhPandDelZCa1ZYS2VvRXJzdC1tc3ZqN2VoRG5WM21Dc2RSTWtkV0lDbEtYeWhfYVFqZnIzMi1WSXE?oc=5",
+    "date": "28 nov.",
+    "impact": "hausse"
    },
    {
     "titre": "Le fonds souverain norvégien votera à nouveau contre la rémunération de Musk chez Tesla",
-    "resume": "Le fonds souverain de Norvège a annoncé qu'il voterait une nouvelle fois contre le plan de rémunération d'Elon Musk au sein du constructeur Tesla.",
+    "resume": "Le fonds souverain norvégien a annoncé son intention de voter contre le plan de rémunération d'Elon Musk chez Tesla.",
     "source": "Investing.com FR",
     "url": "https://fr.investing.com/news/company-news/le-fonds-souverain-norvegien-votera-a-nouveau-contre-la-remuneration-de-musk-chez-tesla-3714956",
     "date": "28 nov.",
     "impact": "baisse"
    },
    {
-    "titre": "Ce que dit le casting de la nouvelle BCE de sa future politique monétaire",
-    "resume": "La composition de la nouvelle équipe dirigeante de la Banque Centrale Européenne donne des indices sur l'orientation future de sa politique monétaire.",
-    "source": "Atlantico",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQelZFU0M0Wjg2UHhoTE4yeUNfSTYwYl8wUDhUTFdMb0w0YVpaSzE5Z09LdnJ6MnRZZENCUEszcjI4QzhCdS1LcDVOSjg2d1lXbUE1RHhza2xUREhaOGhxMllvLXo5SFZUejY3TEVlc2NVd19QNzBOVEdxMGR3QXAyYlI4WW92WlZwU2VQMF95T2l2ZXE5MkNib0paWUk5YTAxOHN5OU9wNS15YXpuazJOQlh1MEYyQ3JzUnc?oc=5",
-    "date": "28 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Action SpaceX : ce qui peut se passer le 8 décembre, quand 800 millions d'actions seront débloquées",
-    "resume": "Le 8 décembre prochain, 800 millions d'actions SpaceX seront débloquées, ce qui pourrait influencer le cours du titre.",
-    "source": "SpaceX France",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZeWRSdVExaC1EeEEyazJPUVROUnoyNVVXMEZCUk9lRlRVbERaeGZ5Tk1yVHhnMnlfNnliSUF2MFBHOTZwZy1COTZPcnhfaEdBenVZYUZ5SUhKa0g4bXkxM3dFN2tzV19zYU5waDVfeHRlQQ?oc=5",
-    "date": "28 nov.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Le mur tarifaire américain est-il là pour durer ? ING analyse",
-    "resume": "ING analyse la pérennité des barrières tarifaires américaines et leur impact potentiel à long terme.",
+    "titre": "Un directeur de Kimberly-Clark Corp vend des actions pour 5,24M$",
+    "resume": "Un directeur de Kimberly-Clark Corp a vendu pour 5,24 millions de dollars d'actions de l'entreprise.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/economy-news/le-mur-tarifaire-americain-estil-la-pour-durer--ing-analyse-3714942",
+    "url": "https://fr.investing.com/news/insider-trading-news/un-directeur-de-kimberlyclark-corp-vend-des-actions-pour-524m-93CH-3714974",
     "date": "28 nov.",
     "impact": "flat"
    },
    {
-    "titre": "Faibles échanges de fin d’année : les devises du G8 stables, sur fond de risque d’intervention sur le yen et de publications d’inflation attendues",
-    "resume": "En cette fin d'année, les volumes d'échanges sont faibles et les devises du G8 stables, malgré un risque d'intervention sur le yen et l'attente de données sur l'inflation.",
-    "source": "VT Markets",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOeFdCV01zbGpGTkJzUXB5Qmd1RFl6ZTJHUXpaQl8xUEZxMm93U3l5Vnk1NWZHMkQ2RUVrMmpvUHZ0a19xR3RHWTRpMWpyQ3F6VzQzX1d3UlJDNVFrbW93R25rMzNPTV9nT3E4UklGbHNGU2JVczZRX3NLS2FrUy1ZX1pEek5IYkRtLVh3UEZWVTI0dVFmUkNjUmkyM2lBUFk3ZTBBSzNwOENpVHZtN0F6RG1zc3VQTi0xd1l3cWdPbVM1SDducTlTTGt0cHI2dw?oc=5",
+    "titre": "Action MU 646,95 $ : Micron en hausse de 7,6 %, résultats le 17 décembre",
+    "resume": "L'action Micron progresse avant la publication de ses résultats financiers prévus pour le 17 décembre.",
+    "source": "FinanceFeeds",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40WVNnUUcyclZQb1hYak13a0JOQXBDeHBzcWVEczhrTGJGR3EwWmJzalRFaEpKbktKMGJyb19kczZrLURqMlJvc1F2UjBqcHZZRWwyQjY5VG5aNm9uODZCbTlWaVd4YjEwQkhuRmJoYXBqakl5S19GOEdBdndNZ0E?oc=5",
     "date": "28 nov.",
-    "impact": "flat"
+    "impact": "hausse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "Le directeur financier de Vericel Corp vend des actions pour 1,51 million $",
-    "resume": "Le directeur financier de Vericel Corp a vendu des actions pour un montant de 1,51 million de dollars.",
-    "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-de-vericel-corp-vend-des-actions-pour-151-million--93CH-3714960",
+    "titre": "Action SpaceX : ce qui peut se passer le 8 décembre, quand 800 millions d'actions seront débloquées",
+    "resume": "800 millions d'actions SpaceX seront débloquées le 8 décembre.",
+    "source": "SpaceX France",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZeWRSdVExaC1EeEEyazJPUVROUnoyNVVXMEZCUk9lRlRVbERaeGZ5Tk1yVHhnMnlfNnliSUF2MFBHOTZwZy1COTZPcnhfaEdBenVZYUZ5SUhKa0g4bXkxM3dFN2tzV19zYU5waDVfeHRlQQ?oc=5",
     "date": "28 nov.",
-    "pourquoi": "Cette vente par un dirigeant peut signaler une perception de surévaluation ou un besoin de liquidités, impactant le secteur de la biotechnologie.",
-    "impact": "baisse"
+    "pourquoi": "Cet afflux massif de titres pourrait influencer la valorisation de l'entreprise sur le marché secondaire non coté.",
+    "impact": "flat"
    },
    {
-    "titre": "Un actionnaire majeur achète 395.576$ d’actions LENZ Therapeutics",
-    "resume": "Un actionnaire majeur a acquis pour près de 396 000 dollars d'actions de LENZ Therapeutics.",
+    "titre": "La SEBI envisage une plateforme d’échange pour les actions pré-IPO",
+    "resume": "Le régulateur indien envisage une plateforme d'échange pour les actions avant leur introduction en Bourse (pré-IPO).",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/insider-trading-news/un-actionnaire-majeur-achete-395576-dactions-lenz-therapeutics-93CH-3714955",
+    "url": "https://fr.investing.com/news/stock-market-news/la-sebi-envisage-une-plateforme-dechange-pour-les-actions-preipo-3714970",
     "date": "28 nov.",
-    "pourquoi": "Un achat important par un initié est souvent perçu comme un signal de confiance dans les perspectives de l'entreprise, à surveiller dans le secteur biopharmaceutique.",
-    "impact": "hausse"
+    "pourquoi": "Cela pourrait faciliter l'accès des investisseurs aux jeunes entreprises et dynamiser le marché du capital-risque.",
+    "impact": "flat"
    },
    {
-    "titre": "Musk affirme que Google souhaite louer davantage de capacité de calcul à SpaceX",
-    "resume": "Elon Musk affirme que Google souhaite augmenter sa location de capacité de calcul auprès de SpaceX.",
+    "titre": "Binance obtient une approbation préliminaire pour un hub asiatique au Bhoutan",
+    "resume": "Binance a reçu une approbation préliminaire pour établir un hub asiatique au Bhoutan.",
     "source": "Investing.com FR",
-    "url": "https://fr.investing.com/news/company-news/musk-affirme-que-google-souhaite-louer-davantage-de-capacites-de-calcul-a-spacex-3714951",
+    "url": "https://fr.investing.com/news/cryptocurrency-news/binance-obtient-une-approbation-preliminaire-pour-un-hub-asiatique-au-bhoutan-3714976",
     "date": "28 nov.",
-    "pourquoi": "Cela pourrait indiquer une demande accrue pour les services de SpaceX et potentiellement influencer les relations commerciales entre Google et les entreprises de Musk.",
-    "impact": "hausse"
+    "pourquoi": "Cette expansion géographique montre la stratégie continue de Binance pour s'implanter dans de nouvelles régions malgré les défis réglementaires.",
+    "impact": "flat"
    }
   ]
  },
  "immo": {
-  "updatedAt": "2026-11-28T11:29:18+00:00",
-  "resume": "Le marché immobilier français montre des signes de stagnation des prix dans certains secteurs malgré la hausse des taux, tandis que d'autres villes comme Lyon connaissent une baisse significative. Le Sénat propose des réformes fiscales sur les plus-values et une baisse de la TVA pour l'investissement locatif. Les difficultés d'accès au crédit persistent, poussant les acheteurs à réduire la surface de leurs biens.",
+  "updatedAt": "2026-11-28T15:52:52+00:00",
+  "resume": "Le marché immobilier français montre des signes de stagnation des prix dans certains secteurs, tandis que le pouvoir d'achat des acheteurs recule face aux conditions de crédit. Le Sénat propose des réformes fiscales sur les plus-values et une baisse de la TVA pour le locatif, alors que la rénovation des copropriétés devient un enjeu financier majeur. Parallèlement, les SCPI à crédit font face à des difficultés avec des dividendes en baisse.",
   "chiffres": [],
   "items": [
    {
-    "titre": "À Lyon, les prix de l’immobilier dégringolent, mais le salaire nécessaire pour devenir propriétaire s’envole",
-    "resume": "À Lyon, les prix immobiliers chutent, mais le revenu requis pour acheter augmente en raison des conditions de crédit.",
-    "source": "Le Figaro",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUDJFcHYwd0dWQ2tsRllLXzZPTVZWT1VCVElPWW5hNEVQX0V1c2ltX3AxMzZEM2otS2JXN2F4UkRoOEd2VTM4blV1ekNCRTBsbEVqZWpaQUNlZExxcTVLYTJrNW1qTkJ6WGpkZmU1MkhiYXNTNFJGa3gwTUV3RllzdElCdDFVVnBYSnBOSG9NOFdaU0g5SGE2WExLX1ZRTTRkMDB5WVFiUGdRdkRkeFRRc3FNTnlKRWR3MWx3ejZneGhPVDJLWHpCZlo0OVg5RTdla2t0blo3YnhYNHlX?oc=5",
-    "date": "28 nov.",
-    "impact": "baisse"
-   },
-   {
-    "titre": "Immobilier : Le Sénat vote une réforme des plus-values, faut-il vendre avant 2028 ?",
-    "resume": "Le Sénat a voté une réforme de l'imposition des plus-values immobilières, ce qui pourrait inciter à vendre avant 2028.",
-    "source": "MySweetImmo",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb0hMUFFmajFxS09XNURwN093Szd0OW1adlFzZEFXVzVfVDZCVzlDbG9fU2J5Y21yWkZwN2RvV1hESUhOWGhpTVp5aG42YldqY2wxVXdxdlpaN25ZdHhGeGFpZTI4VUUwVE1oU0NZOTJMN0RvcmdZYW1OcmJBaTlKa1k0d0RuYTZ2RWFF?oc=5",
-    "date": "28 nov.",
-    "impact": "flat"
-   },
-   {
     "titre": "Investissement locatif : le Sénat vote pour une baisse de la TVA à 5,5 %",
-    "resume": "Les sénateurs se sont prononcés en faveur d'une réduction de la TVA à 5,5 % pour soutenir l'investissement locatif.",
+    "resume": "Le Sénat a voté en faveur d'une réduction de la TVA à 5,5 % pour soutenir l'investissement locatif.",
     "source": "Batiweb",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV3ktZzl5dVluWUJDVUhkM0NmMi10R3JmNnVrNlMzQU54SXo3OUtsbFpPSDhEX2Y5WGtuOV95UlhMa2R4NDdMdWd2a2pzMzlKT01WNVdfSTlkcHJjeWpFTWZabmI5b3VHZzg2SlRXZGJrd3hkelR3c3hWYVNZTmdSNWZBNEFMdWFLXzgzelgtd0xtUDNTQndnYWlDdlJkRGs?oc=5",
     "date": "28 nov.",
     "impact": "hausse"
    },
    {
-    "titre": "100 m² hier, 60 m² aujourd'hui : les acheteurs doivent revoir leurs ambitions à la baisse en Bretagne",
-    "resume": "En Bretagne, la perte de pouvoir d'achat contraint les acquéreurs à cibler des surfaces nettement plus petites.",
-    "source": "France 3 Régions",
-    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPU1huaEY2R3hKY3pKX1kxRTNHRFBXSllwb1Jfam1aLVNlNmtSQWoyNEFSOXpWUFlaOFI3c0o4UzhFZ1VjVmJ0RWxYb002UnE0enUxbFdSNi1XSDl6MGhDQXgtczRhY0FhenJJZGFmTmZFTnI4N1ZGb25NWWRHUEx5bUNzUFNaVDc3WmdkLS1Yb0RxdXhHTmFDQ3pGc25aQUhQcG8zUWhINzYxa3dvOHF4ZnI3VkFsT3JfcWFTQnlBbjk5LXk4eW9uRWtvUEVKUERBQjBnNkRyX2tJeTNkWUJtcDE0WjJhQzdNRV9pUA?oc=5",
+    "titre": "Immobilier : Le Sénat vote une réforme des plus-values, faut-il vendre avant 2028 ?",
+    "resume": "Une réforme de l'imposition des plus-values immobilières a été votée par le Sénat, pouvant impacter les stratégies de vente d'ici 2028.",
+    "source": "MySweetImmo",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb0hMUFFmajFxS09XNURwN093Szd0OW1adlFzZEFXVzVfVDZCVzlDbG9fU2J5Y21yWkZwN2RvV1hESUhOWGhpTVp5aG42YldqY2wxVXdxdlpaN25ZdHhGeGFpZTI4VUUwVE1oU0NZOTJMN0RvcmdZYW1OcmJBaTlKa1k0d0RuYTZ2RWFF?oc=5",
+    "date": "28 nov.",
+    "impact": "flat"
+   },
+   {
+    "titre": "À Lyon, les prix de l’immobilier dégringolent, mais le salaire nécessaire pour devenir propriétaire s’envole",
+    "resume": "À Lyon, les prix immobiliers baissent, mais la hausse des salaires requis pour emprunter compense cet effet et complique l'accès à la propriété.",
+    "source": "Le Figaro",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUDJFcHYwd0dWQ2tsRllLXzZPTVZWT1VCVElPWW5hNEVQX0V1c2ltX3AxMzZEM2otS2JXN2F4UkRoOEd2VTM4blV1ekNCRTBsbEVqZWpaQUNlZExxcTVLYTJrNW1qTkJ6WGpkZmU1MkhiYXNTNFJGa3gwTUV3RllzdElCdDFVVnBYSnBOSG9NOFdaU0g5SGE2WExLX1ZRTTRkMDB5WVFiUGdRdkRkeFRRc3FNTnlKRWR3MWx3ejZneGhPVDJLWHpCZlo0OVg5RTdla2t0blo3YnhYNHlX?oc=5",
     "date": "28 nov.",
     "impact": "baisse"
    },
    {
     "titre": "SCPI à crédit : dividendes en baisse, prêt à rembourser, que faire et quels recours ?",
-    "resume": "Les investisseurs en SCPI à crédit font face à une baisse des dividendes tout en devant rembourser leurs emprunts.",
+    "resume": "Les investisseurs ayant acheté des parts de SCPI à crédit subissent une baisse des dividendes tout en devant rembourser leurs prêts.",
     "source": "Reda KOHEN",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlBESXBJcWQzZTNJbV9YMnNjY0xDeUVMNWUwV0tLT25oY1E2MExOOWRxRTNIa3VZSTQtSDRuLXZFSGl5TF9zeWFxMk1GdTFnY3BuazFYbTRjUjlyb0xMNC1PZ0d1TV85elV3YVRpQzd1ZWMtYWQzVW90TzQzOFFoZjVrQTMtUnJ0SFpxOG51eUNHSGtk?oc=5",
     "date": "28 nov.",
@@ -331,41 +323,49 @@
    },
    {
     "titre": "Copropriété : Pourquoi la rénovation énergétique peut coûter moins cher que l’entretien de votre immeuble",
-    "resume": "Engager une rénovation énergétique en copropriété peut s'avérer financièrement plus judicieux que le simple entretien courant.",
+    "resume": "Engager des travaux de rénovation énergétique en copropriété pourrait s'avérer moins onéreux à terme que le simple entretien courant de l'immeuble.",
     "source": "MySweetImmo",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMUFaNWpDU1FyWERFeVdyMThla0Y0SVdJeUVmTVd4MVVIUXhpWl9oczNIbE05UVJ2ZkFrTVBQMFU5MVROck05Z2o3NGhsUjdONHlNV0VINFJ2UHhncF9qS21SOURCZjZQdThiQUh5VHVjTUF3TWxfeDZ1QS1xSnNudVZlckpNeU8xYVE3Q1ZCN3lXVXViMTg3NUppYw?oc=5",
     "date": "28 nov.",
     "impact": "flat"
+   },
+   {
+    "titre": "100 m² hier, 60 m² aujourd'hui : les acheteurs doivent revoir leurs ambitions à la baisse en Bretagne",
+    "resume": "En Bretagne, la perte de pouvoir d'achat contraint les acheteurs à réduire significativement la surface des biens ciblés.",
+    "source": "France 3 Régions",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPU1huaEY2R3hKY3pKX1kxRTNHRFBXSllwb1Jfam1aLVNlNmtSQWoyNEFSOXpWUFlaOFI3c0o4UzhFZ1VjVmJ0RWxYb002UnE0enUxbFdSNi1XSDl6MGhDQXgtczRhY0FhenJJZGFmTmZFTnI4N1ZGb25NWWRHUEx5bUNzUFNaVDc3WmdkLS1Yb0RxdXhHTmFDQ3pGc25aQUhQcG8zUWhINzYxa3dvOHF4ZnI3VkFsT3JfcWFTQnlBbjk5LXk4eW9uRWtvUEVKUERBQjBnNkRyX2tJeTNkWUJtcDE0WjJhQzdNRV9pUA?oc=5",
+    "date": "28 nov.",
+    "impact": "baisse"
    }
   ],
   "par": "ia",
   "modele": "gemini-3.1-flash-live-preview",
   "niche": [
    {
-    "titre": "« Comment sont imposées les plus-values immobilières en location meublée ? »",
-    "resume": "La fiscalité des plus-values immobilières en location meublée est un point d'attention.",
-    "source": "Investir Les Echos",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZEs3U0RFU0w2WWVrNHNuRGZ5cjJweGFfNjhxVEh5SEl0MnBDbWM1bHdWRG5mMVJYXzNEejRjQ2VKelllOUluc05jMHE4TTBqMWt2eUhMcFowSFpzSTN4WTktZFZXcmVwT0pfZ1pGWGhpWnB6UmhCNHhQelItYi14OFlZSDV5Q1NtaDlGcjhqOTNkUWFtaFhtaHkxSnpWMFFTQktRV0xXLWRXbjlxRkp5QzBHc19oX0NvN2VxakVWUkt3WEF4Zmo3Qw?oc=5",
+    "titre": "Le Sénat vote un prêt à taux zéro à chaque nouvelle naissance, avec cette condition sur l'âge de l'enfant",
+    "resume": "Le Sénat propose un prêt à taux zéro pour chaque nouvelle naissance, sous condition d'âge de l'enfant.",
+    "source": "Selectra",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZ0p3aUNPWmFndEk1UnVtX0pPVWVFVGFhNzFnNF9oLURiLVBzcEtLSjkwaXctQXhYem9CVm1vZFZUVmNYaVRMT3dHSEU3WDRvMjRCZzlONFg1aGZfNGZCSzk4R09SZ3BUQTJVbkhpNERRdnZqWldGekFfRWR6R2RSWWpUT1FCTllCWWVvTXpaVm4?oc=5",
     "date": "28 nov.",
-    "pourquoi": "Cela concerne les investisseurs en LMNP/LMP. Il faut surveiller les règles de calcul pour optimiser la rentabilité nette lors de la revente.",
+    "pourquoi": "Cela pourrait soutenir la demande des jeunes familles pour l'achat d'une résidence principale.",
+    "impact": "hausse"
+   },
+   {
+    "titre": "Épargne : Fortuneo propose un taux boosté à 5,5 % sur son Livret+",
+    "resume": "Fortuneo lance un livret d'épargne avec un taux boosté à 5,5 %.",
+    "source": "Dosya Haber",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYTFLdWphYXZ3dUtQQU1Ub3dZalI0QWw1MHd4REpNMjNBcDk4d0hheGhuM3FDY2YwN0VQMXpoSzh0Y2I2X28zTmFqdDExVDNCQ1EyOHdVczJMbGFwX2hDN3ZLVzROUXFJSnZiaDJMcXNma215Wm9SRllnRjZlRDVHWF8zbnpEMUN2RE1tSDJNem5uQXE3ZjBRSndCdTdRVk13ajB2TEVn?oc=5",
+    "date": "28 nov.",
+    "pourquoi": "Cette offre de placement sans risque concurrence directement le rendement de certains actifs immobiliers.",
     "impact": "flat"
    },
    {
-    "titre": "« L’IA a appris ma manière de faire, comme un stagiaire » : comment ces acheteurs utilisent l’intelligence artificielle pour dénicher leur logement",
-    "resume": "Certains acheteurs utilisent l'intelligence artificielle pour prospecter et trouver des biens.",
-    "source": "Challenges",
-    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQeHV1enA1RE5VQ2pDcnlFRi0zdHo0RXhCUHJRSGZsWVZ3dzhqSDVIMkdsVGpXMzdTaU1EQ3hTVXhTRTl2a0llMWxuZWhPZ3FIcE5RWTU1RGFOZVdTVFhWQWxHSTJ5eENxQld2dWlhVzZmdHprNWViUjFoZENBUHZZaUU3dUFzLUJ6RmJCRHVteV9VQmZXQUNNcnlKaTFmaTlsTTB4ak1NU1BHbUhOSlRxYjZaaXBvSHRBNWpoMEFtTFE0bEpYcnhTaUJUTkd6VnJEcUN6SFFXN3E5bGdPZU52cHZGU21FRVdtRUctdEhGbWZmeVpicXhZMWduaWM4Nm5xcTBpdWZnQ2NqY3ptblI4?oc=5",
+    "titre": "Vimoutiers rase une maison au bord de la Vie : 4 règles du rachat par le fonds Barnier",
+    "resume": "La commune de Vimoutiers utilise le fonds Barnier pour racheter et démolir une maison exposée à des risques.",
+    "source": "Actual Immo",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZYjAtdHB4X2JKNXRHRlBVeFNOcDBpZFMzbmxhYkNRbDgyYkVwRmI5ZWMwOFZCVXRqeWNMN1BIMkNhUkFQR2dsRVhsaWRLekpydUk5Z2lEUl8wVGxsajI5VDVfbEZFQQ?oc=5",
     "date": "28 nov.",
-    "pourquoi": "L'IA pourrait devenir un outil de performance pour dénicher des opportunités plus rapidement sur le marché.",
-    "impact": "flat"
-   },
-   {
-    "titre": "Projet immobilier \"Atrium\" à Saint-Leu : pourquoi la CCI Réunion a choisi d'emprunter 4,5 millions d'euros plutôt que de payer comptant",
-    "resume": "La CCI Réunion préfère emprunter à 4,5 millions d'euros plutôt que de payer comptant.",
-    "source": "Zinfos974",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOWtkZzlmS1czRXRsMnlILVZfNVpGRjUzaUI3RVlKOXNHUWY5ZU9NdGJ6ZkxvRHFUWnVBVnVKTjJuWjBaek40MnJsLWdfOUR3b0h3VHdtV2NnS2NnSlRtOWJsSWFuTGxQdWRidlVKRS1ONndGanQwLW9Ub2pibnh6MkphOWV5VnJsbVRlZU5mWDR3c1dKR21QbFo3ZHFyQ1c3RlN2ZEVZWWU5SzR3WEx2NGtua2pURWpUNXdtWDlaUUdjUFlpVTlmVkVFTnZlNzA0eDBFVVM3Mzl2MGdoRDlFX010emFqOFpiUmxF?oc=5",
-    "date": "28 nov.",
-    "pourquoi": "Cela illustre une stratégie d'arbitrage entre le coût de l'emprunt et le rendement potentiel de la trésorerie conservée.",
+    "pourquoi": "Ce fonds public peut représenter une porte de sortie pour les propriétaires de biens situés en zones à risques.",
     "impact": "flat"
    }
   ]
